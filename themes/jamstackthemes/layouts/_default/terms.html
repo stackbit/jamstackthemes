@@ -1,10 +1,15 @@
 {{ define "main" }}
+<div class="main">
+  
+    <div class="grids">
 <ul>
   {{ range .Pages }}
       <li>
           <a href="{{ .Permalink }}">{{ .Title }}</a>
-          {{ .Params.wikipedia }}
+          {{ partial "term-card.html" (dict "term" . ) }}
       </li>
   {{ end }}
 </ul>
+</div>
+</div>
 {{ end }}

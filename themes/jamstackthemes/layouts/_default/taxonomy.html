@@ -3,17 +3,13 @@
 {{ define "body_classes" }}page-taxonomy{{ end }}
 
 {{ define "main" }}
-<div class="sidebar">
-  {{ partial "filters.html" . }}
-  <span class="made-by">Made by <a href="https:/www.stackbit.com">Stackbit.com</a></span>
-</div>
+
 <div class="main">
   {{ $themeCount := len .Pages }}
-  {{ partial "breadcrumbs.html" . }}
-
   <div class="intro">
     <h1>{{.Title}} <span class="count">({{ $themeCount }})</span></h1>
   </div>
+  {{/*  {{ partial "breadcrumbs.html" . }}  */}}
 
   <div class="grids">
     {{ range .Pages }}

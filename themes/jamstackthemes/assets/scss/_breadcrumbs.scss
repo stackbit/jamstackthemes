@@ -1,0 +1,25 @@
+.breadcrumbs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  a {
+    color: black;
+  }
+  li {
+    display: inline-flex;
+    &:not(:last-of-type) {
+      &::after {
+        content: '/';
+        margin: 0 6px;
+        color: $steel;
+      }
+    }
+    &.active {
+      color: $primary;;
+      pointer-events: none;
+    }
+  }
+}
