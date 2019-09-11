@@ -1,0 +1,104 @@
+
+.theme {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $grey;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 1px 1px 8px 2px adjust-color(black, $alpha: -0.9);
+  transition: color 0.3s, box-shadow 0.3s, transform 0.3s;
+  position: relative;
+  z-index: 1;
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 1px 5px 16px 2px adjust-color($primary, $alpha: -0.8);
+    color: currentColor;
+  }
+  .theme-header {
+    border-bottom: 1px solid $grey;
+    max-height: 180px;
+    overflow: hidden;
+    img {
+      max-width: 100%;
+    }
+   
+  }
+  .theme-body {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    .theme-heading {
+      padding: 20px;
+      min-height: 150px;
+      h2 {
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 500;
+        font-family: $font-family-heading;
+        margin: 0;
+      }
+      .theme-author {
+        padding: 7px 0 7px 0;
+        font-weight: 400;
+        font-size: 14px;
+        color: #666666;
+        margin-bottom: 5px;
+      }
+    }
+    .theme-lastmod-date {
+      // display: none;
+    }
+    .theme-tags {
+      border-top: 1px solid $grey;
+      background: #f5f5f5;
+      display: flex;
+      justify-content: flex-start;
+      .tags {
+        padding: 10px 10px;
+        border-right: 1px solid $grey;
+      }
+    }
+    .theme-fresh {
+      display: flex;
+      align-items: center;
+      > div {
+        &:first-of-type {
+          border-right: 1px solid $grey;
+        }
+      }
+    }
+    .theme-submitted {
+      display: none;
+      font-size: 13px;
+      line-height: 18px;
+      color: #666666;
+    }
+  }
+}
+
+
+.last-committed {
+  display: inline-block;
+  background: #f5f5f5;
+  padding: 4px 6px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: rgb(94, 94, 94);
+}
+
+.star {
+  background: #f5f5f5;
+  padding: 4px 6px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: rgb(94, 94, 94);
+  svg {
+    fill: $yellow;
+    vertical-align: middle;
+  }
+  .star-count {
+  }
+}
+

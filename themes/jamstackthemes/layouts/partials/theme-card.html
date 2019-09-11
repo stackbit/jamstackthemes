@@ -1,0 +1,56 @@
+
+<div
+  class="grid {{ range .theme.Params.ssg }}{{ . | urlize }} {{end}}{{ range .theme.Params.cms }}{{ . | urlize }} {{end}}{{ range .theme.Params.deploy }}{{ . | urlize }} {{end}}">
+  <div class="theme">
+    <div class="theme-header">
+      <a href="{{ .theme.Params.github }}" target="_blank">
+        {{ if .theme.Params.thumbnail }}
+          <img src="{{ .theme.Params.thumbnail | relURL }}" alt="{{ .theme.Params.title }} screenshot" />
+        {{ else if .repo }}
+            {{ $staticPath := (printf "%s/%s%s" "static/images/theme/thumbnail" .repo.theme_key ".jpg") }}
+            {{ $filePath := (printf "%s/%s%s" "images/theme/thumbnail" .repo.theme_key ".jpg") }}
+            {{ if (fileExists $staticPath) }}
+              <img src="{{ $filePath | relURL }}" alt="{{ .theme.Params.title }} screenshot" />
+            {{ else }}
+              <img src="{{ "images/default.png" | relURL }}" alt="{{ .theme.Params.title }} screenshot" />
+            {{ end }}
+        {{ else }}
+          <img src="{{ "images/default.png" | relURL }}" alt="{{ .theme.Params.title }} screenshot" />
+        {{ end }}
+      </a>
+    </div>
+    <div class="theme-body">
+      <div class="theme-heading">
+        <h2 class="theme-title">{{ .theme.Params.title }}</h2>
+        <div class="theme-author">By {{ .theme.Params.author }}</div>
+        <div class="theme-fresh">
+          {{ if .repo }}
+            {{ partial "star.html" (dict "stars" .repo.stars)}}
+          {{ end }}
+          {{ if .repo }}
+            {{ partial "last-commit.html" (dict "last_commit" .repo.last_commit)}} 
+          {{ end }}
+        </div>
+        <div class="theme-submitted">Submitted: <span class="theme-lastmod-date">{{ .theme.Lastmod.Format "Jan 2, 2006" }}</span></div>
+      </div>
+      <div class="theme-tags">
+        <div class="tags">
+          {{ if .theme.Params.ssg }}
+          {{ range .theme.Params.ssg }}
+          {{ partial "icon.html" (dict "name" . "category" "ssg") }}
+          {{ end }}
+          {{ end }}
+        </div>
+        {{ if .theme.Params.cms }}
+        <div class="tags">
+          {{ if .theme.Params.cms }}
+          {{ range .theme.Params.cms }}
+          {{ partial "icon.html" (dict "name" . "category" "cms") }}
+          {{ end }}
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>

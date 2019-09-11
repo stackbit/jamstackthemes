@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {{ block "meta_tags" . }}{{end}}
+  
+  {{ if .Site.IsServer }}
+  {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}
+  <link rel="stylesheet" href="{{ ($style).RelPermalink }}">
+  {{ else }}
+  {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" false) }}
+  <link rel="stylesheet" href="{{ ($style | minify | fingerprint).RelPermalink }}">
+  {{ end }}
+
+  {{ block "header_css" . }}{{ end }}
+
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon/favicon-32x32.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "images/favicon/favicon-16x16.png" | relURL }}">
+
+</head>
+
+<body class='page {{ block "body_classes" . }}{{ end }}'>
+  {{ partial "header.html" . }}
+
+  <div class="wrapper">
+    {{ block "main" . }}
+    {{ end }}
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/3.0.2/timeago.min.js" async></script>
+  
+  {{ $jquery := resources.Get "js/libs/jquery-3.3.1.min.js" }}
+  {{ $isotope := resources.Get "js/libs/isotope.pkgd.min.js" }}
+  {{ $imagesLoaded := resources.Get "js/libs/imagesloaded.pkgd.min.js" }}
+  {{ $scripts := resources.Get "js/scripts.js" }}
+
+  {{ $js := slice $jquery $isotope $imagesLoaded $scripts | resources.Concat "js/bundle.js" }}
+
+  
+  {{ if .Site.IsServer }}
+  <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>
+  {{ else }}
+  <script type="text/javascript" src="{{ ($js | minify | fingerprint).RelPermalink }}"></script>
+  {{ end }}
+
+  
+
+  {{ block "footer_js" . }}
+  {{ end }}
+
+  {{ partial "google-analytics.html" . }}
+
+</body>
+
+</html>

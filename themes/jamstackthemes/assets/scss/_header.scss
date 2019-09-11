@@ -1,0 +1,73 @@
+.header {
+  border-top: 4px solid $primary;
+  border-bottom: 1px solid $grey;
+  padding: 0 10px;
+  background-color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  opacity: 0.8;
+  @include breakpoint('small') {
+    padding: 0 20px;
+    height: 60px;
+  }
+  h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: $font_family_heading;
+    @include breakpoint('small') {
+      font-size: 22px;
+    }
+    a {
+      color: black;
+      text-decoration: none;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+  .submit {
+    display: flex;
+    align-items: center;
+    .submit-button {
+      padding: 10px;
+      border-radius: 3px;
+      font-size: 16px;
+      text-decoration: none;
+      color: #000;
+      &:hover {
+        color: $primary;
+      }
+    }
+    .submit-button-mobile {
+      display: block;
+      @include breakpoint('small') {
+        display: none;
+      }
+    }
+    .submit-button-desktop {
+      display: none;
+      @include breakpoint('small') {
+        display: block;
+      }
+    }
+    svg {
+      width: 20px;
+      height: 20px;
+      @include breakpoint('small') {
+        width: 24px;
+        height: 24px;
+      }
+    }
+    .github {
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.intro {
+  h1 {
+    font-size: 22px;
+    font-weight: 700;
+    @include breakpoint('small') {
+      font-size: 30px;
+    }
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 400;
+    @include breakpoint('small') {
+      font-size: 24px;
+    }
+  }
+  .count {
+    font-weight: 400;
+    color: #666;
+  }
+}

@@ -1,0 +1,10 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-default-list{{ end }}
+
+{{ define "main" }}
+{{ .Title }}
+{{ .Content }}
+{{ range.Pages }}
+{{.Content}}
+{{ end }}
+{{ end }}

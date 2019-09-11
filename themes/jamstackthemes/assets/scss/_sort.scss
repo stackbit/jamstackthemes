@@ -1,0 +1,26 @@
+.sort {
+  button {
+    padding: 5px;
+    background: none;
+    border: 2px solid $grey;
+    border-radius: 3px;
+    color: #000;
+    font-size: 12px;
+    outline: none;
+    cursor: pointer;
+    @include breakpoint('small') {
+      padding: 10px;
+      font-size: 13px;
+    }
+    &:hover {
+      border-color: $primary;
+    }
+    &:focus {
+      outline: none;
+    }
+    &.selected {
+      background: $grey;
+    }
+  }
+  margin-bottom: 20px;
+}

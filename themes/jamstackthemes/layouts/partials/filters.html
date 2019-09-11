@@ -1,0 +1,30 @@
+<div class="filters">
+  <h3>SSG</h3>
+  <ul class="filter-items" data-group="ssg">
+    {{ range .Site.Taxonomies.ssg }}
+    <li class="filter-item">
+      <div class="filter-icon">
+        {{ partial "icon.html" (dict "name" .Page.Title "category" "ssg") }}
+      </div>
+      <span class="filter-checkbox"><input class="styled-checkbox" type="checkbox" value=".{{ .Page.Title | urlize }}"
+          id="checkbox-{{ .Page.Title }}" /><label for="checkbox-{{ .Page.Title }}"></label></span>
+      <span class="filter-link">{{ .Page.Title }}</span>
+      <span class="filter-count">{{ .Count }}</span>
+    </li>
+    {{ end }}
+  </ul>
+  <h3>CMS</h3>
+  <ul class="filter-items" data-group="cms">
+    {{ range .Site.Taxonomies.cms }}
+    <li class="filter-item">
+      <div class="filter-icon">
+        {{ partial "icon.html" (dict "name" .Page.Title "category" "cms") }}
+      </div>
+      <span class="filter-checkbox"><input class="styled-checkbox" type="checkbox" value=".{{ .Page.Title | urlize }}"
+          id="checkbox-{{ .Page.Title }}" /><label for="checkbox-{{ .Page.Title }}"></label></span>
+      <span class="filter-link">{{ .Page.Title }}</span>
+      <span class="filter-count">{{ .Count }}</span>
+    </li>
+    {{ end }}
+  </ul>
+</div>

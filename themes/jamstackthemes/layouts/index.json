@@ -1,0 +1,6 @@
+[
+{{ range $index, $theme := (where .Site.RegularPages "Type" "theme") }}
+{{ if $index }},{{ end }}
+{{ .Params | jsonify}}
+{{ end }}
+]

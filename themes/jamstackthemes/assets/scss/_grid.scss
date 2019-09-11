@@ -1,0 +1,20 @@
+.grids {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 302px;
+  margin: 0 auto;
+  @include breakpoint('small') {
+    justify-content: flex-start;
+    max-width: 100%;
+    margin: 0;
+  }
+  .grid {
+    max-width: 302px;
+    margin-bottom: 20px;
+    @include breakpoint('small') {
+      padding: 10px;
+      margin: 0;
+    }
+  }
+}

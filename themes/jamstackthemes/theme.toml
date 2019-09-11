@@ -1,0 +1,8 @@
+name = "JAMStack Themes"
+license = "MIT"
+description = "JAMStack Themes Site"
+min_version = 0.51
+
+[author]
+  name = "JAMStack Themes"
+  homepage = "https://www.jamstackthemes.dev"

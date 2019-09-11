@@ -1,0 +1,6 @@
+{{ $name := ( .name | urlize) }}
+{{ $icon := printf "%s%s%s" "images/icons/" $name ".svg" }}
+{{ $link := printf "/%s/%s" .category $name }}
+<span class="icon icon-{{ $name }}">
+  <a href="{{ $link | relURL }}"><img title="{{ .name }}" alt="{{ .name }}" src="{{ $icon | relURL }}" /></a>
+</span>

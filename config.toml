@@ -1,0 +1,27 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "JAMStack Themes"
+theme = "jamstackthemes"
+paginate = 3
+enableGitInfo = true
+
+[taxonomies]
+  ssg =  "ssg"
+  cms = "cms"
+
+[params]
+    google_analytics_id = ""
+
+[outputs]
+  home = ["HTML","RSS","JSON"]
+  section = ["HTML","RSS"]
+
+[frontmatter]
+  lastmod = [":git", "lastmod", ":fileModTime", ":default"]
+
+
+# Main Menu
+[[menu.main]]
+	name = "About"
+	url = "/about/"
+    weight = 1

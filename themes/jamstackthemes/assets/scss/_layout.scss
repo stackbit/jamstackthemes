@@ -1,0 +1,46 @@
+.page {
+  .wrapper {
+    display: flex;
+    width: 100%;
+  }
+  .sidebar {
+    position: sticky;
+    z-index: 1;
+    border-right: 1px solid $grey;
+    top: 0;
+    width: 100px;
+    overflow: hidden;
+    padding: 80px 10px 20px 10px;
+    height: calc(100vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include breakpoint('small') {
+      width: 240px;
+      padding: 100px 20px 40px 20px;
+    }
+    
+    h3 {
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
+  .main {
+    flex: 1;
+    padding: 80px 20px 40px 20px;
+    @include breakpoint('small') {
+      padding: 100px 20px 40px 20px;
+    }
+  }
+  .made-by {
+    color: #666;
+    font-size: 12px;
+    line-height: 14px;
+    a {
+      color: #666;
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+}

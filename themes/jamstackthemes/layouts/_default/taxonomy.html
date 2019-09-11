@@ -1,0 +1,24 @@
+{{ define "title" }}{{.Title}} Themes{{ end}}
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-taxonomy{{ end }}
+
+{{ define "main" }}
+
+<div class="main">
+  
+  {{ $themeCount := len .Pages }}
+
+
+  <div class="intro">
+    <h1>{{.Title}} <span class="count">({{ $themeCount }})</span></h1>
+  </div>
+
+  <div class="grids">
+    {{ range .Pages }}
+    {{ $repoName := (substr (replace .Params.github "/" "-") 19 | urlize) }}
+    {{ $repo := index .Site.Data.themes $repoName }}
+    {{ partial "theme-card.html" (dict "theme" . "repo" $repo ) }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}
