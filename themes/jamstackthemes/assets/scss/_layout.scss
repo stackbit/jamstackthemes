@@ -9,12 +9,11 @@
     border-right: 1px solid $grey;
     top: 0;
     width: 100px;
-    overflow: hidden;
+    overflow: auto;
     padding: 80px 10px 20px 10px;
     height: calc(100vh);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     @include breakpoint('small') {
       width: 240px;
       padding: 100px 20px 40px 20px;
@@ -23,6 +22,7 @@
     h3 {
       font-size: 16px;
       font-weight: 700;
+      margin-bottom: 9px;
     }
   }
   .main {
@@ -34,7 +34,7 @@
   }
   .made-by {
     color: #666;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 14px;
     a {
       color: #666;

@@ -14,26 +14,19 @@
 {{ end }}
 
 {{ define "main" }}
+{{ $themes := (where .Site.RegularPages "Type" "theme") }}
 <div class="sidebar">
+  {{ $themeCount := len $themes }}
+  <div class="intro">
+    <h1>All Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
+    <h2>A list of themes and starters for JAMstack sites.</h2>
+  </div>
+  {{ partial "sort.html" . }}
   {{ partial "filters.html" . }}
-  <span class="made-by">Made by <a href="https:/www.stackbit.com">Stackbit.com</a></span>
+  <span class="made-by">Maintained by <a href="https:/www.stackbit.com">stackbit.com</a></span>
 </div>
 <div class="main">
   
-  {{ $themes := (where .Site.RegularPages "Type" "theme") }}
-  {{ $themeCount := len $themes }}
-
-  <div class="intro">
-    <h1>JAMStack Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
-    <h2>Find the perfect theme for your next Jamstack project.</h2>
-  </div>
-
-  <div class="sort">
-      <button class="button selected" data-sort-value="original-order">Submitted</button>  
-      <button class="button" data-sort-value="stars">Stars</button>
-      <button class="button" data-sort-value="name">Name A-Z</button>
-  </div>
-
   <div class="grids">
     {{ range sort $themes "Lastmod" "desc" }}
     {{ $repoName := (substr (replace .Params.github "/" "-") 19 | urlize) }}

@@ -24,12 +24,9 @@ var data = $container.data('isotope');
 var $filterCount = $('.count-number');
 
 // Sorting
-$('.sort').on( 'click', 'button', function() {
+$('.sort').on( 'click', 'input', function() {
   var sortValue = $(this).attr('data-sort-value');
-  console.log(sortValue)
   $container.isotope({ sortBy: sortValue });
-  $('.sort button').removeClass('selected');
-  $(this).addClass('selected');
 });
 
 

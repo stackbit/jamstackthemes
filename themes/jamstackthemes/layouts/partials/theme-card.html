@@ -22,15 +22,14 @@
     <div class="theme-body">
       <div class="theme-heading">
         <h2 class="theme-title">{{ .theme.Params.title }}</h2>
-        <div class="theme-author">By {{ .theme.Params.author }}</div>
-        <div class="theme-fresh">
-          {{ if .repo }}
-            {{ partial "star.html" (dict "stars" .repo.stars)}}
-          {{ end }}
-          {{ if .repo }}
-            {{ partial "last-commit.html" (dict "last_commit" .repo.last_commit)}} 
-          {{ end }}
-        </div>
+        {{ if .repo }}
+          {{ partial "star.html" (dict "stars" .repo.stars)}}
+        {{ end }}
+        <div class="author">
+          <span class="author-label">By</span><span class="author-name">{{ .theme.Params.author }}</span></div>
+        {{ if .repo }}
+          {{ partial "last-commit.html" (dict "last_commit" .repo.last_commit)}} 
+        {{ end }}
         <div class="theme-submitted">Submitted: <span class="theme-lastmod-date">{{ .theme.Lastmod.Format "Jan 2, 2006" }}</span></div>
       </div>
       <div class="theme-tags">
@@ -50,6 +49,7 @@
           {{ end }}
         </div>
         {{ end }}
+       
       </div>
     </div>
   </div>

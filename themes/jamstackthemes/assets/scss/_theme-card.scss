@@ -32,23 +32,15 @@
     .theme-heading {
       padding: 20px;
       min-height: 150px;
+      
       h2 {
         font-size: 20px;
         line-height: 26px;
         font-weight: 500;
         font-family: $font-family-heading;
         margin: 0;
+        margin-bottom: 10px;
       }
-      .theme-author {
-        padding: 7px 0 7px 0;
-        font-weight: 400;
-        font-size: 14px;
-        color: #666666;
-        margin-bottom: 5px;
-      }
-    }
-    .theme-lastmod-date {
-      // display: none;
     }
     .theme-tags {
       border-top: 1px solid $grey;
@@ -79,26 +71,51 @@
 }
 
 
-.last-committed {
-  display: inline-block;
-  background: #f5f5f5;
-  padding: 4px 6px;
-  border-radius: 2px;
+.last-commit {
   font-size: 14px;
-  color: rgb(94, 94, 94);
+  color: $steel;
+  margin-bottom: 4px;
+  .last-commit-label {
+    display: inline-block;
+    margin-right: 4px;
+  }
+  .last-commit-date {
+    display: inline-block;
+  }
+}
+
+.author {
+  font-size: 14px;
+  color: $steel;
+  margin-bottom: 4px;
+  .author-label {
+    display: inline-block;
+    margin-right: 4px;
+  }
+  .author-name {
+    display: inline-block;
+  }
 }
 
 .star {
+  display: inline-block;
+  float: right;
   background: #f5f5f5;
-  padding: 4px 6px;
+  padding: 4px 7px;
   border-radius: 2px;
   font-size: 14px;
-  color: rgb(94, 94, 94);
+  color: $steel;
+  margin-bottom: 8px;
+  img {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+  }
   svg {
     fill: $yellow;
-    vertical-align: middle;
   }
   .star-count {
+    display: inline-block;
   }
 }
 

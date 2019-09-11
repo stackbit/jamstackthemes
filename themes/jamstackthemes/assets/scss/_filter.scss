@@ -10,7 +10,7 @@
       display: flex;
       align-content: center;
       justify-content: flex-start;
-      margin-bottom: 5px;
+      margin-bottom: 4px;
       .filter-icon {
         width: 22px;
         height: 22px;
@@ -28,7 +28,7 @@
       }
       .filter-count {
         color: #666;
-        line-height: 20px;
+        line-height: 17px;
         @include breakpoint('small') {
           margin: 0 0 0 auto;
         }
