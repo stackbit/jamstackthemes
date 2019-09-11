@@ -1,93 +1,13 @@
 {
-  "y7kim-agency-jekyll-theme": {
-    "theme_key": "y7kim-agency-jekyll-theme",
-    "name": "agency-jekyll-theme",
-    "repo": "y7kim/agency-jekyll-theme",
-    "url": "https://github.com/y7kim/agency-jekyll-theme",
-    "stars": 613,
-    "forks": 1158,
-    "open_issues": 20,
-    "last_commit": "2019-09-03T17:11:48Z"
-  },
   "sparanoid-almace-scaffolding": {
     "theme_key": "sparanoid-almace-scaffolding",
     "name": "almace-scaffolding",
     "repo": "sparanoid/almace-scaffolding",
     "url": "https://github.com/sparanoid/almace-scaffolding",
-    "stars": 225,
+    "stars": 226,
     "forks": 129,
     "open_issues": 2,
     "last_commit": "2019-09-01T13:32:59Z"
-  },
-  "gcushen-hugo-academic": {
-    "theme_key": "gcushen-hugo-academic",
-    "name": "hugo-academic",
-    "repo": "gcushen/hugo-academic",
-    "url": "https://github.com/gcushen/hugo-academic",
-    "stars": 3188,
-    "forks": 1310,
-    "open_issues": 45,
-    "last_commit": "2019-09-10T21:59:21Z"
-  },
-  "josephhutch-aether": {
-    "theme_key": "josephhutch-aether",
-    "name": "aether",
-    "repo": "josephhutch/aether",
-    "url": "https://github.com/josephhutch/aether",
-    "stars": 74,
-    "forks": 41,
-    "open_issues": 13,
-    "last_commit": "2019-09-02T22:38:42Z"
-  },
-  "kendallstrautman-brevifolia-gridsome-forestry": {
-    "theme_key": "kendallstrautman-brevifolia-gridsome-forestry",
-    "name": "brevifolia-gridsome-forestry",
-    "repo": "kendallstrautman/brevifolia-gridsome-forestry",
-    "url": "https://github.com/kendallstrautman/brevifolia-gridsome-forestry",
-    "stars": 1,
-    "forks": 1,
-    "open_issues": 1,
-    "last_commit": "2019-08-20T18:04:24Z"
-  },
-  "emilbaehr-automatic-app-landing-page": {
-    "theme_key": "emilbaehr-automatic-app-landing-page",
-    "name": "automatic-app-landing-page",
-    "repo": "emilbaehr/automatic-app-landing-page",
-    "url": "https://github.com/emilbaehr/automatic-app-landing-page",
-    "stars": 1627,
-    "forks": 370,
-    "open_issues": 8,
-    "last_commit": "2019-09-01T17:32:00Z"
-  },
-  "daviddarnes-alembic": {
-    "theme_key": "daviddarnes-alembic",
-    "name": "alembic",
-    "repo": "daviddarnes/alembic",
-    "url": "https://github.com/daviddarnes/alembic",
-    "stars": 328,
-    "forks": 362,
-    "open_issues": 3,
-    "last_commit": "2019-07-09T07:57:57Z"
-  },
-  "jeromelachaud-freelancer-theme": {
-    "theme_key": "jeromelachaud-freelancer-theme",
-    "name": "freelancer-theme",
-    "repo": "jeromelachaud/freelancer-theme",
-    "url": "https://github.com/jeromelachaud/freelancer-theme",
-    "stars": 980,
-    "forks": 1149,
-    "open_issues": 11,
-    "last_commit": "2019-09-04T17:58:13Z"
-  },
-  "huyb1991-hugo-lamp": {
-    "theme_key": "huyb1991-hugo-lamp",
-    "name": "hugo-lamp",
-    "repo": "huyb1991/hugo-lamp",
-    "url": "https://github.com/huyb1991/hugo-lamp",
-    "stars": 30,
-    "forks": 18,
-    "open_issues": 2,
-    "last_commit": "2019-08-18T12:31:45Z"
   },
   "themefisher-airspace-hugo": {
     "theme_key": "themefisher-airspace-hugo",
@@ -99,185 +19,15 @@
     "open_issues": 0,
     "last_commit": "2019-09-10T08:10:48Z"
   },
-  "bencentra-centrarium": {
-    "theme_key": "bencentra-centrarium",
-    "name": "centrarium",
-    "repo": "bencentra/centrarium",
-    "url": "https://github.com/bencentra/centrarium",
-    "stars": 309,
-    "forks": 505,
-    "open_issues": 4,
-    "last_commit": "2019-09-10T23:38:23Z"
-  },
-  "alxshelepenok-gatsby-starter-lumen": {
-    "theme_key": "alxshelepenok-gatsby-starter-lumen",
-    "name": "gatsby-starter-lumen",
-    "repo": "alxshelepenok/gatsby-starter-lumen",
-    "url": "https://github.com/alxshelepenok/gatsby-starter-lumen",
-    "stars": 868,
-    "forks": 282,
-    "open_issues": 8,
-    "last_commit": "2019-09-10T09:43:09Z"
-  },
-  "emielh-hallo-hugo": {
-    "theme_key": "emielh-hallo-hugo",
-    "name": "hallo-hugo",
-    "repo": "EmielH/hallo-hugo",
-    "url": "https://github.com/EmielH/hallo-hugo",
-    "stars": 49,
-    "forks": 25,
-    "open_issues": 0,
-    "last_commit": "2019-07-16T15:19:01Z"
-  },
-  "philhawksworth-eleventyone": {
-    "theme_key": "philhawksworth-eleventyone",
-    "name": "eleventyone",
-    "repo": "philhawksworth/eleventyone",
-    "url": "https://github.com/philhawksworth/eleventyone",
-    "stars": 137,
-    "forks": 44,
-    "open_issues": 8,
-    "last_commit": "2019-08-01T16:41:47Z"
-  },
-  "cboettig-hugo-now-ui": {
-    "theme_key": "cboettig-hugo-now-ui",
-    "name": "hugo-now-ui",
-    "repo": "cboettig/hugo-now-ui",
-    "url": "https://github.com/cboettig/hugo-now-ui",
-    "stars": 90,
-    "forks": 50,
-    "open_issues": 5,
-    "last_commit": "2019-08-26T20:33:20Z"
-  },
-  "themefisher-dot-hugo-documentation-theme": {
-    "theme_key": "themefisher-dot-hugo-documentation-theme",
-    "name": "dot-hugo-documentation-theme",
-    "repo": "themefisher/dot-hugo-documentation-theme",
-    "url": "https://github.com/themefisher/dot-hugo-documentation-theme",
-    "stars": 56,
-    "forks": 47,
-    "open_issues": 3,
-    "last_commit": "2019-09-04T11:36:19Z"
-  },
-  "lekoarts-gatsby-starter-portfolio-cara": {
-    "theme_key": "lekoarts-gatsby-starter-portfolio-cara",
-    "name": "gatsby-starter-portfolio-cara",
-    "repo": "LekoArts/gatsby-starter-portfolio-cara",
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara",
-    "stars": 619,
-    "forks": 145,
-    "open_issues": 0,
-    "last_commit": "2019-09-10T11:46:54Z"
-  },
-  "gridsome-gridsome-starter-blog": {
-    "theme_key": "gridsome-gridsome-starter-blog",
-    "name": "gridsome-starter-blog",
-    "repo": "gridsome/gridsome-starter-blog",
-    "url": "https://github.com/gridsome/gridsome-starter-blog",
-    "stars": 212,
-    "forks": 80,
-    "open_issues": 17,
-    "last_commit": "2019-08-28T23:09:51Z"
-  },
-  "vagr9k-gatsby-material-starter": {
-    "theme_key": "vagr9k-gatsby-material-starter",
-    "name": "gatsby-material-starter",
-    "repo": "Vagr9K/gatsby-material-starter",
-    "url": "https://github.com/Vagr9K/gatsby-material-starter",
-    "stars": 388,
-    "forks": 135,
-    "open_issues": 1,
-    "last_commit": "2019-05-10T16:24:48Z"
-  },
-  "marcusvirg-forty": {
-    "theme_key": "marcusvirg-forty",
-    "name": "forty",
-    "repo": "MarcusVirg/forty",
-    "url": "https://github.com/MarcusVirg/forty",
-    "stars": 75,
-    "forks": 76,
-    "open_issues": 6,
-    "last_commit": "2019-09-09T21:12:03Z"
-  },
-  "11ty-eleventy-base-blog": {
-    "theme_key": "11ty-eleventy-base-blog",
-    "name": "eleventy-base-blog",
-    "repo": "11ty/eleventy-base-blog",
-    "url": "https://github.com/11ty/eleventy-base-blog",
-    "stars": 128,
-    "forks": 82,
-    "open_issues": 13,
-    "last_commit": "2019-08-27T17:35:08Z"
-  },
-  "nandomoreirame-end2end": {
-    "theme_key": "nandomoreirame-end2end",
-    "name": "end2end",
-    "repo": "nandomoreirame/end2end",
-    "url": "https://github.com/nandomoreirame/end2end",
-    "stars": 236,
-    "forks": 170,
-    "open_issues": 9,
-    "last_commit": "2019-03-25T12:39:21Z"
-  },
-  "jeromelachaud-grayscale-theme": {
-    "theme_key": "jeromelachaud-grayscale-theme",
-    "name": "grayscale-theme",
-    "repo": "jeromelachaud/grayscale-theme",
-    "url": "https://github.com/jeromelachaud/grayscale-theme",
-    "stars": 234,
-    "forks": 384,
-    "open_issues": 3,
-    "last_commit": "2018-12-09T19:26:18Z"
-  },
-  "jekyller-jasper2": {
-    "theme_key": "jekyller-jasper2",
-    "name": "jasper2",
-    "repo": "jekyller/jasper2",
-    "url": "https://github.com/jekyller/jasper2",
-    "stars": 447,
-    "forks": 424,
-    "open_issues": 25,
-    "last_commit": "2019-08-28T05:53:17Z"
-  },
-  "emasuriano-gatsby-starter-mate": {
-    "theme_key": "emasuriano-gatsby-starter-mate",
-    "name": "gatsby-starter-mate",
-    "repo": "EmaSuriano/gatsby-starter-mate",
-    "url": "https://github.com/EmaSuriano/gatsby-starter-mate",
-    "stars": 245,
-    "forks": 63,
-    "open_issues": 3,
-    "last_commit": "2019-09-05T19:43:00Z"
-  },
-  "friendlyuser-vuepress-theme-cool-starter": {
-    "theme_key": "friendlyuser-vuepress-theme-cool-starter",
-    "name": "vuepress-theme-cool-starter",
-    "repo": "FriendlyUser/vuepress-theme-cool-starter",
-    "url": "https://github.com/FriendlyUser/vuepress-theme-cool-starter",
-    "stars": 21,
-    "forks": 12,
-    "open_issues": 0,
-    "last_commit": "2019-09-11T03:12:39Z"
-  },
-  "mmistakes-minimal-mistakes": {
-    "theme_key": "mmistakes-minimal-mistakes",
-    "name": "minimal-mistakes",
-    "repo": "mmistakes/minimal-mistakes",
-    "url": "https://github.com/mmistakes/minimal-mistakes",
-    "stars": 5600,
-    "forks": 9434,
-    "open_issues": 12,
-    "last_commit": "2019-09-10T07:01:55Z"
-  },
-  "artemsheludko-flexible-jekyll": {
-    "theme_key": "artemsheludko-flexible-jekyll",
-    "name": "flexible-jekyll",
-    "repo": "artemsheludko/flexible-jekyll",
-    "url": "https://github.com/artemsheludko/flexible-jekyll",
-    "stars": 290,
-    "forks": 699,
-    "open_issues": 8,
-    "last_commit": "2019-09-09T09:02:20Z"
+  "wowthemesnet-affiliates-jekyll-theme": {
+    "theme_key": "wowthemesnet-affiliates-jekyll-theme",
+    "name": "affiliates-jekyll-theme",
+    "repo": "wowthemesnet/affiliates-jekyll-theme",
+    "url": "https://github.com/wowthemesnet/affiliates-jekyll-theme",
+    "stars": 89,
+    "forks": 120,
+    "open_issues": 2,
+    "last_commit": "2019-07-07T12:42:53Z"
   },
   "tryghost-eleventy-starter-ghost": {
     "theme_key": "tryghost-eleventy-starter-ghost",
@@ -289,295 +39,25 @@
     "open_issues": 0,
     "last_commit": "2019-09-03T08:16:52Z"
   },
-  "themefisher-parsa-hugo-personal-blog-theme": {
-    "theme_key": "themefisher-parsa-hugo-personal-blog-theme",
-    "name": "parsa-hugo-personal-blog-theme",
-    "repo": "themefisher/parsa-hugo-personal-blog-theme",
-    "url": "https://github.com/themefisher/parsa-hugo-personal-blog-theme",
-    "stars": 13,
-    "forks": 10,
-    "open_issues": 1,
-    "last_commit": "2019-09-04T05:54:20Z"
+  "emilbaehr-automatic-app-landing-page": {
+    "theme_key": "emilbaehr-automatic-app-landing-page",
+    "name": "automatic-app-landing-page",
+    "repo": "emilbaehr/automatic-app-landing-page",
+    "url": "https://github.com/emilbaehr/automatic-app-landing-page",
+    "stars": 1628,
+    "forks": 370,
+    "open_issues": 8,
+    "last_commit": "2019-09-01T17:32:00Z"
   },
-  "obaez-dentistsmile": {
-    "theme_key": "obaez-dentistsmile",
-    "name": "dentistsmile",
-    "repo": "obaez/dentistsmile",
-    "url": "https://github.com/obaez/dentistsmile",
-    "stars": 95,
-    "forks": 157,
-    "open_issues": 4,
-    "last_commit": "2019-07-16T21:20:25Z"
-  },
-  "wowthemesnet-affiliates-jekyll-theme": {
-    "theme_key": "wowthemesnet-affiliates-jekyll-theme",
-    "name": "affiliates-jekyll-theme",
-    "repo": "wowthemesnet/affiliates-jekyll-theme",
-    "url": "https://github.com/wowthemesnet/affiliates-jekyll-theme",
-    "stars": 89,
-    "forks": 120,
-    "open_issues": 2,
-    "last_commit": "2019-07-07T12:42:53Z"
-  },
-  "ryanwiemer-gatsby-starter-gcn": {
-    "theme_key": "ryanwiemer-gatsby-starter-gcn",
-    "name": "gatsby-starter-gcn",
-    "repo": "ryanwiemer/gatsby-starter-gcn",
-    "url": "https://github.com/ryanwiemer/gatsby-starter-gcn",
-    "stars": 355,
-    "forks": 84,
-    "open_issues": 2,
-    "last_commit": "2019-08-23T04:46:54Z"
-  },
-  "alexander-heimbuch-vuepress-theme-casper": {
-    "theme_key": "alexander-heimbuch-vuepress-theme-casper",
-    "name": "vuepress-theme-casper",
-    "repo": "alexander-heimbuch/vuepress-theme-casper",
-    "url": "https://github.com/alexander-heimbuch/vuepress-theme-casper",
-    "stars": 30,
-    "forks": 14,
-    "open_issues": 0,
-    "last_commit": "2019-08-22T06:10:32Z"
-  },
-  "lekoarts-gatsby-starter-minimal-blog": {
-    "theme_key": "lekoarts-gatsby-starter-minimal-blog",
-    "name": "gatsby-starter-minimal-blog",
-    "repo": "LekoArts/gatsby-starter-minimal-blog",
-    "url": "https://github.com/LekoArts/gatsby-starter-minimal-blog",
-    "stars": 232,
-    "forks": 71,
-    "open_issues": 2,
-    "last_commit": "2019-09-09T05:20:09Z"
-  },
-  "nakorndev-vuepress-theme-bulma": {
-    "theme_key": "nakorndev-vuepress-theme-bulma",
-    "name": "vuepress-theme-bulma",
-    "repo": "nakorndev/vuepress-theme-bulma",
-    "url": "https://github.com/nakorndev/vuepress-theme-bulma",
-    "stars": 40,
-    "forks": 15,
-    "open_issues": 2,
-    "last_commit": "2019-08-20T02:25:02Z"
-  },
-  "gdgtoulouse-devfest-theme-hugo": {
-    "theme_key": "gdgtoulouse-devfest-theme-hugo",
-    "name": "devfest-theme-hugo",
-    "repo": "GDGToulouse/devfest-theme-hugo",
-    "url": "https://github.com/GDGToulouse/devfest-theme-hugo",
-    "stars": 28,
-    "forks": 18,
-    "open_issues": 2,
-    "last_commit": "2019-09-06T13:55:47Z"
-  },
-  "mattvh-solar-theme-jekyll": {
-    "theme_key": "mattvh-solar-theme-jekyll",
-    "name": "solar-theme-jekyll",
-    "repo": "mattvh/solar-theme-jekyll",
-    "url": "https://github.com/mattvh/solar-theme-jekyll",
-    "stars": 205,
-    "forks": 139,
-    "open_issues": 1,
-    "last_commit": "2016-09-23T12:49:23Z"
-  },
-  "fabe-gatsby-universal": {
-    "theme_key": "fabe-gatsby-universal",
-    "name": "gatsby-universal",
-    "repo": "fabe/gatsby-universal",
-    "url": "https://github.com/fabe/gatsby-universal",
-    "stars": 451,
-    "forks": 68,
-    "open_issues": 4,
-    "last_commit": "2019-08-28T23:14:11Z"
-  },
-  "inded-jekyll_modern-blog": {
-    "theme_key": "inded-jekyll_modern-blog",
-    "name": "Jekyll_modern-blog",
-    "repo": "inded/Jekyll_modern-blog",
-    "url": "https://github.com/inded/Jekyll_modern-blog",
-    "stars": 206,
-    "forks": 235,
-    "open_issues": 6,
-    "last_commit": "2019-09-02T00:34:01Z"
-  },
-  "htr3n-hyde-hyde": {
-    "theme_key": "htr3n-hyde-hyde",
-    "name": "hyde-hyde",
-    "repo": "htr3n/hyde-hyde",
-    "url": "https://github.com/htr3n/hyde-hyde",
-    "stars": 130,
-    "forks": 128,
-    "open_issues": 3,
-    "last_commit": "2019-09-01T07:21:37Z"
-  },
-  "zwbetz-gh-cupper-hugo-theme": {
-    "theme_key": "zwbetz-gh-cupper-hugo-theme",
-    "name": "cupper-hugo-theme",
-    "repo": "zwbetz-gh/cupper-hugo-theme",
-    "url": "https://github.com/zwbetz-gh/cupper-hugo-theme",
-    "stars": 67,
-    "forks": 54,
-    "open_issues": 2,
-    "last_commit": "2019-09-11T01:28:17Z"
-  },
-  "parmsang-gatsby-starter-ecommerce": {
-    "theme_key": "parmsang-gatsby-starter-ecommerce",
-    "name": "gatsby-starter-ecommerce",
-    "repo": "parmsang/gatsby-starter-ecommerce",
-    "url": "https://github.com/parmsang/gatsby-starter-ecommerce",
-    "stars": 284,
-    "forks": 70,
-    "open_issues": 0,
-    "last_commit": "2019-08-31T15:26:06Z"
-  },
-  "hellocosmin-gridsome-starter-bleda": {
-    "theme_key": "hellocosmin-gridsome-starter-bleda",
-    "name": "gridsome-starter-bleda",
-    "repo": "cossssmin/gridsome-starter-bleda",
-    "url": "https://github.com/cossssmin/gridsome-starter-bleda",
-    "stars": 108,
-    "forks": 30,
-    "open_issues": 0,
-    "last_commit": "2019-09-09T17:38:54Z"
-  },
-  "digitalcraftsman-hugo-creative-theme": {
-    "theme_key": "digitalcraftsman-hugo-creative-theme",
-    "name": "hugo-creative-theme",
-    "repo": "digitalcraftsman/hugo-creative-theme",
-    "url": "https://github.com/digitalcraftsman/hugo-creative-theme",
-    "stars": 128,
-    "forks": 103,
-    "open_issues": 19,
-    "last_commit": "2019-09-01T09:27:27Z"
-  },
-  "wildhaber-gohugo-amp": {
-    "theme_key": "wildhaber-gohugo-amp",
-    "name": "gohugo-amp",
-    "repo": "wildhaber/gohugo-amp",
-    "url": "https://github.com/wildhaber/gohugo-amp",
-    "stars": 172,
-    "forks": 50,
-    "open_issues": 6,
-    "last_commit": "2018-07-04T20:38:41Z"
-  },
-  "lekoarts-gatsby-starter-portfolio-emilia": {
-    "theme_key": "lekoarts-gatsby-starter-portfolio-emilia",
-    "name": "gatsby-starter-portfolio-emilia",
-    "repo": "LekoArts/gatsby-starter-portfolio-emilia",
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-emilia",
-    "stars": 189,
-    "forks": 34,
-    "open_issues": 1,
-    "last_commit": "2019-09-10T11:50:02Z"
-  },
-  "xaprb-story": {
-    "theme_key": "xaprb-story",
-    "name": "story",
-    "repo": "xaprb/story",
-    "url": "https://github.com/xaprb/story",
-    "stars": 86,
-    "forks": 33,
-    "open_issues": 31,
-    "last_commit": "2019-06-19T19:33:11Z"
-  },
-  "contentful-userland-gatsby-contentful-starter": {
-    "theme_key": "contentful-userland-gatsby-contentful-starter",
-    "name": "gatsby-contentful-starter",
-    "repo": "contentful-userland/gatsby-contentful-starter",
-    "url": "https://github.com/contentful-userland/gatsby-contentful-starter",
-    "stars": 202,
-    "forks": 77,
-    "open_issues": 9,
-    "last_commit": "2019-07-30T22:21:00Z"
-  },
-  "fongandrew-hydeout": {
-    "theme_key": "fongandrew-hydeout",
-    "name": "hydeout",
-    "repo": "fongandrew/hydeout",
-    "url": "https://github.com/fongandrew/hydeout",
-    "stars": 296,
-    "forks": 437,
-    "open_issues": 6,
-    "last_commit": "2019-08-31T17:25:28Z"
-  },
-  "itsnwa-gridsome-forestry-starter": {
-    "theme_key": "itsnwa-gridsome-forestry-starter",
-    "name": "gridsome-forestry-starter",
-    "repo": "itsnwa/gridsome-forestry-starter",
-    "url": "https://github.com/itsnwa/gridsome-forestry-starter",
-    "stars": 66,
-    "forks": 24,
-    "open_issues": 4,
-    "last_commit": "2019-08-15T14:51:07Z"
-  },
-  "mmistakes-jekyll-theme-skinny-bones": {
-    "theme_key": "mmistakes-jekyll-theme-skinny-bones",
-    "name": "jekyll-theme-skinny-bones",
-    "repo": "mmistakes/jekyll-theme-skinny-bones",
-    "url": "https://github.com/mmistakes/jekyll-theme-skinny-bones",
-    "stars": 756,
-    "forks": 864,
-    "open_issues": 21,
-    "last_commit": "2019-08-27T20:12:19Z"
-  },
-  "phlow-feeling-responsive": {
-    "theme_key": "phlow-feeling-responsive",
-    "name": "feeling-responsive",
-    "repo": "Phlow/feeling-responsive",
-    "url": "https://github.com/Phlow/feeling-responsive",
-    "stars": 533,
-    "forks": 774,
-    "open_issues": 18,
-    "last_commit": "2019-08-20T08:22:54Z"
-  },
-  "jugglerx-hugo-serif-theme": {
-    "theme_key": "jugglerx-hugo-serif-theme",
-    "name": "hugo-serif-theme",
-    "repo": "JugglerX/hugo-serif-theme",
-    "url": "https://github.com/JugglerX/hugo-serif-theme",
-    "stars": 57,
-    "forks": 40,
-    "open_issues": 3,
-    "last_commit": "2019-08-08T05:38:55Z"
-  },
-  "wannaxiao-vuepress-theme-resume": {
-    "theme_key": "wannaxiao-vuepress-theme-resume",
-    "name": "vuepress-theme-resume",
-    "repo": "wannaxiao/vuepress-theme-resume",
-    "url": "https://github.com/wannaxiao/vuepress-theme-resume",
-    "stars": 70,
-    "forks": 23,
-    "open_issues": 0,
-    "last_commit": "2019-07-15T16:02:19Z"
-  },
-  "stevelane-hugo-icon": {
-    "theme_key": "stevelane-hugo-icon",
-    "name": "hugo-icon",
-    "repo": "SteveLane/hugo-icon",
-    "url": "https://github.com/SteveLane/hugo-icon",
-    "stars": 71,
-    "forks": 61,
-    "open_issues": 11,
-    "last_commit": "2019-03-05T21:23:40Z"
-  },
-  "yscoder-vuepress-theme-indigo": {
-    "theme_key": "yscoder-vuepress-theme-indigo",
-    "name": "vuepress-theme-indigo",
-    "repo": "yscoder/vuepress-theme-indigo",
-    "url": "https://github.com/yscoder/vuepress-theme-indigo",
-    "stars": 80,
-    "forks": 26,
-    "open_issues": 4,
-    "last_commit": "2018-11-05T14:06:37Z"
-  },
-  "budparr-gohugo-theme-ananke": {
-    "theme_key": "budparr-gohugo-theme-ananke",
-    "name": "gohugo-theme-ananke",
-    "repo": "budparr/gohugo-theme-ananke",
-    "url": "https://github.com/budparr/gohugo-theme-ananke",
-    "stars": 319,
-    "forks": 289,
-    "open_issues": 49,
-    "last_commit": "2019-09-10T09:01:04Z"
+  "y7kim-agency-jekyll-theme": {
+    "theme_key": "y7kim-agency-jekyll-theme",
+    "name": "agency-jekyll-theme",
+    "repo": "y7kim/agency-jekyll-theme",
+    "url": "https://github.com/y7kim/agency-jekyll-theme",
+    "stars": 613,
+    "forks": 1159,
+    "open_issues": 20,
+    "last_commit": "2019-09-03T17:11:48Z"
   },
   "gatsbyjs-gatsby-starter-blog": {
     "theme_key": "gatsbyjs-gatsby-starter-blog",
@@ -589,255 +69,135 @@
     "open_issues": 18,
     "last_commit": "2019-09-10T09:33:38Z"
   },
-  "nurlansu-hugo-sustain": {
-    "theme_key": "nurlansu-hugo-sustain",
-    "name": "hugo-sustain",
-    "repo": "nurlansu/hugo-sustain",
-    "url": "https://github.com/nurlansu/hugo-sustain",
-    "stars": 131,
-    "forks": 90,
-    "open_issues": 12,
-    "last_commit": "2019-08-05T12:50:50Z"
-  },
-  "lenpaul-millennial": {
-    "theme_key": "lenpaul-millennial",
-    "name": "Millennial",
-    "repo": "LeNPaul/Millennial",
-    "url": "https://github.com/LeNPaul/Millennial",
-    "stars": 140,
-    "forks": 221,
-    "open_issues": 6,
-    "last_commit": "2019-08-22T00:00:40Z"
-  },
-  "devcows-hugo-universal-theme": {
-    "theme_key": "devcows-hugo-universal-theme",
-    "name": "hugo-universal-theme",
-    "repo": "devcows/hugo-universal-theme",
-    "url": "https://github.com/devcows/hugo-universal-theme",
-    "stars": 379,
-    "forks": 283,
-    "open_issues": 55,
-    "last_commit": "2019-05-17T01:06:04Z"
-  },
-  "viko16-vuepress-theme-simple": {
-    "theme_key": "viko16-vuepress-theme-simple",
-    "name": "vuepress-theme-simple",
-    "repo": "viko16/vuepress-theme-simple",
-    "url": "https://github.com/viko16/vuepress-theme-simple",
-    "stars": 34,
-    "forks": 3,
-    "open_issues": 0,
-    "last_commit": "2019-05-20T03:41:43Z"
-  },
-  "matcornic-hugo-theme-learn": {
-    "theme_key": "matcornic-hugo-theme-learn",
-    "name": "hugo-theme-learn",
-    "repo": "matcornic/hugo-theme-learn",
-    "url": "https://github.com/matcornic/hugo-theme-learn",
-    "stars": 712,
-    "forks": 680,
-    "open_issues": 75,
-    "last_commit": "2019-09-10T11:30:06Z"
-  },
-  "mmistakes-so-simple-theme": {
-    "theme_key": "mmistakes-so-simple-theme",
-    "name": "so-simple-theme",
-    "repo": "mmistakes/so-simple-theme",
-    "url": "https://github.com/mmistakes/so-simple-theme",
-    "stars": 1287,
-    "forks": 2037,
-    "open_issues": 3,
-    "last_commit": "2019-08-30T12:33:34Z"
-  },
-  "yubisaki-vuepress-theme-yubisaki": {
-    "theme_key": "yubisaki-vuepress-theme-yubisaki",
-    "name": "vuepress-theme-yubisaki",
-    "repo": "Yubisaki/vuepress-theme-yubisaki",
-    "url": "https://github.com/Yubisaki/vuepress-theme-yubisaki",
-    "stars": 163,
-    "forks": 16,
-    "open_issues": 0,
-    "last_commit": "2019-04-04T03:55:43Z"
-  },
-  "wowthemesnet-mediumish-theme-jekyll": {
-    "theme_key": "wowthemesnet-mediumish-theme-jekyll",
-    "name": "mediumish-theme-jekyll",
-    "repo": "wowthemesnet/mediumish-theme-jekyll",
-    "url": "https://github.com/wowthemesnet/mediumish-theme-jekyll",
-    "stars": 413,
-    "forks": 398,
-    "open_issues": 17,
-    "last_commit": "2019-09-08T13:57:12Z"
-  },
-  "calintat-minimal": {
-    "theme_key": "calintat-minimal",
-    "name": "minimal",
-    "repo": "calintat/minimal",
-    "url": "https://github.com/calintat/minimal",
+  "nandomoreirame-end2end": {
+    "theme_key": "nandomoreirame-end2end",
+    "name": "end2end",
+    "repo": "nandomoreirame/end2end",
+    "url": "https://github.com/nandomoreirame/end2end",
     "stars": 236,
-    "forks": 139,
-    "open_issues": 28,
-    "last_commit": "2019-08-28T03:34:18Z"
-  },
-  "themefisher-timer-hugo": {
-    "theme_key": "themefisher-timer-hugo",
-    "name": "timer-hugo",
-    "repo": "themefisher/timer-hugo",
-    "url": "https://github.com/themefisher/timer-hugo",
-    "stars": 54,
-    "forks": 37,
-    "open_issues": 2,
-    "last_commit": "2019-09-02T06:04:07Z"
-  },
-  "aerohub-hugo-faq-theme": {
-    "theme_key": "aerohub-hugo-faq-theme",
-    "name": "hugo-faq-theme",
-    "repo": "aerohub/hugo-faq-theme",
-    "url": "https://github.com/aerohub/hugo-faq-theme",
-    "stars": 20,
-    "forks": 5,
-    "open_issues": 3,
-    "last_commit": "2016-10-16T22:58:13Z"
-  },
-  "themefisher-kross-hugo-portfolio-template": {
-    "theme_key": "themefisher-kross-hugo-portfolio-template",
-    "name": "kross-hugo-portfolio-template",
-    "repo": "themefisher/kross-hugo-portfolio-template",
-    "url": "https://github.com/themefisher/kross-hugo-portfolio-template",
-    "stars": 45,
-    "forks": 32,
-    "open_issues": 0,
-    "last_commit": "2019-09-04T04:24:40Z"
-  },
-  "joshgerdes-jekyll-uno": {
-    "theme_key": "joshgerdes-jekyll-uno",
-    "name": "jekyll-uno",
-    "repo": "joshgerdes/jekyll-uno",
-    "url": "https://github.com/joshgerdes/jekyll-uno",
-    "stars": 499,
-    "forks": 536,
-    "open_issues": 19,
-    "last_commit": "2019-09-06T12:02:31Z"
-  },
-  "tryghost-gatsby-starter-ghost": {
-    "theme_key": "tryghost-gatsby-starter-ghost",
-    "name": "gatsby-starter-ghost",
-    "repo": "TryGhost/gatsby-starter-ghost",
-    "url": "https://github.com/TryGhost/gatsby-starter-ghost",
-    "stars": 297,
     "forks": 170,
-    "open_issues": 5,
-    "last_commit": "2019-08-27T08:44:11Z"
+    "open_issues": 9,
+    "last_commit": "2019-03-25T12:39:21Z"
   },
-  "narative-gatsby-theme-novela": {
-    "theme_key": "narative-gatsby-theme-novela",
-    "name": "gatsby-theme-novela",
-    "repo": "narative/gatsby-theme-novela",
-    "url": "https://github.com/narative/gatsby-theme-novela",
-    "stars": 465,
-    "forks": 69,
-    "open_issues": 14,
-    "last_commit": "2019-09-07T14:51:13Z"
+  "artemsheludko-flexible-jekyll": {
+    "theme_key": "artemsheludko-flexible-jekyll",
+    "name": "flexible-jekyll",
+    "repo": "artemsheludko/flexible-jekyll",
+    "url": "https://github.com/artemsheludko/flexible-jekyll",
+    "stars": 290,
+    "forks": 699,
+    "open_issues": 8,
+    "last_commit": "2019-09-09T09:02:20Z"
   },
-  "danielkvist-hugo-terrassa-theme": {
-    "theme_key": "danielkvist-hugo-terrassa-theme",
-    "name": "hugo-terrassa-theme",
-    "repo": "danielkvist/hugo-terrassa-theme",
-    "url": "https://github.com/danielkvist/hugo-terrassa-theme",
-    "stars": 26,
-    "forks": 29,
-    "open_issues": 0,
-    "last_commit": "2019-06-04T12:11:28Z"
-  },
-  "saey55-hugo-elate-theme": {
-    "theme_key": "saey55-hugo-elate-theme",
-    "name": "hugo-elate-theme",
-    "repo": "saey55/hugo-elate-theme",
-    "url": "https://github.com/saey55/hugo-elate-theme",
-    "stars": 144,
-    "forks": 89,
-    "open_issues": 13,
-    "last_commit": "2019-01-13T20:36:41Z"
-  },
-  "chrisbobbe-jekyll-theme-prologue": {
-    "theme_key": "chrisbobbe-jekyll-theme-prologue",
-    "name": "jekyll-theme-prologue",
-    "repo": "chrisbobbe/jekyll-theme-prologue",
-    "url": "https://github.com/chrisbobbe/jekyll-theme-prologue",
-    "stars": 217,
-    "forks": 525,
-    "open_issues": 23,
-    "last_commit": "2019-09-02T22:03:37Z"
-  },
-  "rhazdon-hugo-theme-hello-friend-ng": {
-    "theme_key": "rhazdon-hugo-theme-hello-friend-ng",
-    "name": "hugo-theme-hello-friend-ng",
-    "repo": "rhazdon/hugo-theme-hello-friend-ng",
-    "url": "https://github.com/rhazdon/hugo-theme-hello-friend-ng",
-    "stars": 197,
-    "forks": 122,
-    "open_issues": 7,
-    "last_commit": "2019-09-08T18:30:45Z"
-  },
-  "kakawait-hugo-tranquilpeak-theme": {
-    "theme_key": "kakawait-hugo-tranquilpeak-theme",
-    "name": "hugo-tranquilpeak-theme",
-    "repo": "kakawait/hugo-tranquilpeak-theme",
-    "url": "https://github.com/kakawait/hugo-tranquilpeak-theme",
-    "stars": 526,
-    "forks": 286,
-    "open_issues": 65,
-    "last_commit": "2019-08-31T17:24:32Z"
-  },
-  "cloudcannon-hydra-jekyll-template": {
-    "theme_key": "cloudcannon-hydra-jekyll-template",
-    "name": "hydra-jekyll-template",
-    "repo": "CloudCannon/hydra-jekyll-template",
-    "url": "https://github.com/CloudCannon/hydra-jekyll-template",
-    "stars": 211,
-    "forks": 199,
-    "open_issues": 0,
-    "last_commit": "2019-07-29T21:12:54Z"
-  },
-  "pmarsceill-just-the-docs": {
-    "theme_key": "pmarsceill-just-the-docs",
-    "name": "just-the-docs",
-    "repo": "pmarsceill/just-the-docs",
-    "url": "https://github.com/pmarsceill/just-the-docs",
-    "stars": 859,
-    "forks": 430,
-    "open_issues": 26,
-    "last_commit": "2019-09-10T16:55:18Z"
-  },
-  "mmistakes-jekyll-theme-basically-basic": {
-    "theme_key": "mmistakes-jekyll-theme-basically-basic",
-    "name": "jekyll-theme-basically-basic",
-    "repo": "mmistakes/jekyll-theme-basically-basic",
-    "url": "https://github.com/mmistakes/jekyll-theme-basically-basic",
-    "stars": 354,
-    "forks": 495,
+  "gdgtoulouse-devfest-theme-hugo": {
+    "theme_key": "gdgtoulouse-devfest-theme-hugo",
+    "name": "devfest-theme-hugo",
+    "repo": "GDGToulouse/devfest-theme-hugo",
+    "url": "https://github.com/GDGToulouse/devfest-theme-hugo",
+    "stars": 28,
+    "forks": 18,
     "open_issues": 2,
-    "last_commit": "2019-08-21T02:02:55Z"
+    "last_commit": "2019-09-06T13:55:47Z"
   },
-  "themefisher-navigator-hugo": {
-    "theme_key": "themefisher-navigator-hugo",
-    "name": "navigator-hugo",
-    "repo": "themefisher/navigator-hugo",
-    "url": "https://github.com/themefisher/navigator-hugo",
-    "stars": 60,
-    "forks": 31,
+  "daviddarnes-alembic": {
+    "theme_key": "daviddarnes-alembic",
+    "name": "alembic",
+    "repo": "daviddarnes/alembic",
+    "url": "https://github.com/daviddarnes/alembic",
+    "stars": 328,
+    "forks": 362,
+    "open_issues": 3,
+    "last_commit": "2019-07-09T07:57:57Z"
+  },
+  "emasuriano-gatsby-starter-mate": {
+    "theme_key": "emasuriano-gatsby-starter-mate",
+    "name": "gatsby-starter-mate",
+    "repo": "EmaSuriano/gatsby-starter-mate",
+    "url": "https://github.com/EmaSuriano/gatsby-starter-mate",
+    "stars": 246,
+    "forks": 63,
+    "open_issues": 3,
+    "last_commit": "2019-09-05T19:43:00Z"
+  },
+  "11ty-eleventy-base-blog": {
+    "theme_key": "11ty-eleventy-base-blog",
+    "name": "eleventy-base-blog",
+    "repo": "11ty/eleventy-base-blog",
+    "url": "https://github.com/11ty/eleventy-base-blog",
+    "stars": 128,
+    "forks": 82,
+    "open_issues": 13,
+    "last_commit": "2019-08-27T17:35:08Z"
+  },
+  "bencentra-centrarium": {
+    "theme_key": "bencentra-centrarium",
+    "name": "centrarium",
+    "repo": "bencentra/centrarium",
+    "url": "https://github.com/bencentra/centrarium",
+    "stars": 309,
+    "forks": 506,
     "open_issues": 4,
-    "last_commit": "2019-08-24T07:12:32Z"
+    "last_commit": "2019-09-10T23:38:23Z"
   },
-  "meteorlxy-vuepress-theme-meteorlxy": {
-    "theme_key": "meteorlxy-vuepress-theme-meteorlxy",
-    "name": "vuepress-theme-meteorlxy",
-    "repo": "meteorlxy/vuepress-theme-meteorlxy",
-    "url": "https://github.com/meteorlxy/vuepress-theme-meteorlxy",
-    "stars": 169,
-    "forks": 57,
-    "open_issues": 5,
-    "last_commit": "2019-09-06T19:35:18Z"
+  "themefisher-dot-hugo-documentation-theme": {
+    "theme_key": "themefisher-dot-hugo-documentation-theme",
+    "name": "dot-hugo-documentation-theme",
+    "repo": "themefisher/dot-hugo-documentation-theme",
+    "url": "https://github.com/themefisher/dot-hugo-documentation-theme",
+    "stars": 56,
+    "forks": 47,
+    "open_issues": 3,
+    "last_commit": "2019-09-04T11:36:19Z"
+  },
+  "philhawksworth-eleventyone": {
+    "theme_key": "philhawksworth-eleventyone",
+    "name": "eleventyone",
+    "repo": "philhawksworth/eleventyone",
+    "url": "https://github.com/philhawksworth/eleventyone",
+    "stars": 137,
+    "forks": 44,
+    "open_issues": 8,
+    "last_commit": "2019-08-01T16:41:47Z"
+  },
+  "josephhutch-aether": {
+    "theme_key": "josephhutch-aether",
+    "name": "aether",
+    "repo": "josephhutch/aether",
+    "url": "https://github.com/josephhutch/aether",
+    "stars": 74,
+    "forks": 41,
+    "open_issues": 13,
+    "last_commit": "2019-09-02T22:38:42Z"
+  },
+  "lekoarts-gatsby-starter-minimal-blog": {
+    "theme_key": "lekoarts-gatsby-starter-minimal-blog",
+    "name": "gatsby-starter-minimal-blog",
+    "repo": "LekoArts/gatsby-starter-minimal-blog",
+    "url": "https://github.com/LekoArts/gatsby-starter-minimal-blog",
+    "stars": 232,
+    "forks": 71,
+    "open_issues": 2,
+    "last_commit": "2019-09-09T05:20:09Z"
+  },
+  "kendallstrautman-brevifolia-gridsome-forestry": {
+    "theme_key": "kendallstrautman-brevifolia-gridsome-forestry",
+    "name": "brevifolia-gridsome-forestry",
+    "repo": "kendallstrautman/brevifolia-gridsome-forestry",
+    "url": "https://github.com/kendallstrautman/brevifolia-gridsome-forestry",
+    "stars": 1,
+    "forks": 1,
+    "open_issues": 1,
+    "last_commit": "2019-08-20T18:04:24Z"
+  },
+  "phlow-feeling-responsive": {
+    "theme_key": "phlow-feeling-responsive",
+    "name": "feeling-responsive",
+    "repo": "Phlow/feeling-responsive",
+    "url": "https://github.com/Phlow/feeling-responsive",
+    "stars": 533,
+    "forks": 774,
+    "open_issues": 18,
+    "last_commit": "2019-08-20T08:22:54Z"
   },
   "netlify-templates-gatsby-starter-netlify-cms": {
     "theme_key": "netlify-templates-gatsby-starter-netlify-cms",
@@ -849,65 +209,235 @@
     "open_issues": 30,
     "last_commit": "2019-09-09T07:32:36Z"
   },
-  "willianjusten-will-jekyll-template": {
-    "theme_key": "willianjusten-will-jekyll-template",
-    "name": "will-jekyll-template",
-    "repo": "willianjusten/will-jekyll-template",
-    "url": "https://github.com/willianjusten/will-jekyll-template",
-    "stars": 315,
-    "forks": 384,
+  "parmsang-gatsby-starter-ecommerce": {
+    "theme_key": "parmsang-gatsby-starter-ecommerce",
+    "name": "gatsby-starter-ecommerce",
+    "repo": "parmsang/gatsby-starter-ecommerce",
+    "url": "https://github.com/parmsang/gatsby-starter-ecommerce",
+    "stars": 285,
+    "forks": 70,
+    "open_issues": 0,
+    "last_commit": "2019-08-31T15:26:06Z"
+  },
+  "lekoarts-gatsby-starter-portfolio-emilia": {
+    "theme_key": "lekoarts-gatsby-starter-portfolio-emilia",
+    "name": "gatsby-starter-portfolio-emilia",
+    "repo": "LekoArts/gatsby-starter-portfolio-emilia",
+    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-emilia",
+    "stars": 189,
+    "forks": 34,
+    "open_issues": 1,
+    "last_commit": "2019-09-10T11:50:02Z"
+  },
+  "tryghost-gatsby-starter-ghost": {
+    "theme_key": "tryghost-gatsby-starter-ghost",
+    "name": "gatsby-starter-ghost",
+    "repo": "TryGhost/gatsby-starter-ghost",
+    "url": "https://github.com/TryGhost/gatsby-starter-ghost",
+    "stars": 298,
+    "forks": 170,
+    "open_issues": 5,
+    "last_commit": "2019-08-27T08:44:11Z"
+  },
+  "marcusvirg-forty": {
+    "theme_key": "marcusvirg-forty",
+    "name": "forty",
+    "repo": "MarcusVirg/forty",
+    "url": "https://github.com/MarcusVirg/forty",
+    "stars": 75,
+    "forks": 76,
+    "open_issues": 6,
+    "last_commit": "2019-09-09T21:12:03Z"
+  },
+  "vagr9k-gatsby-material-starter": {
+    "theme_key": "vagr9k-gatsby-material-starter",
+    "name": "gatsby-material-starter",
+    "repo": "Vagr9K/gatsby-material-starter",
+    "url": "https://github.com/Vagr9K/gatsby-material-starter",
+    "stars": 388,
+    "forks": 135,
+    "open_issues": 1,
+    "last_commit": "2019-05-10T16:24:48Z"
+  },
+  "saey55-hugo-elate-theme": {
+    "theme_key": "saey55-hugo-elate-theme",
+    "name": "hugo-elate-theme",
+    "repo": "saey55/hugo-elate-theme",
+    "url": "https://github.com/saey55/hugo-elate-theme",
+    "stars": 144,
+    "forks": 89,
+    "open_issues": 13,
+    "last_commit": "2019-01-13T20:36:41Z"
+  },
+  "stevelane-hugo-icon": {
+    "theme_key": "stevelane-hugo-icon",
+    "name": "hugo-icon",
+    "repo": "SteveLane/hugo-icon",
+    "url": "https://github.com/SteveLane/hugo-icon",
+    "stars": 71,
+    "forks": 61,
+    "open_issues": 11,
+    "last_commit": "2019-03-05T21:23:40Z"
+  },
+  "gcushen-hugo-academic": {
+    "theme_key": "gcushen-hugo-academic",
+    "name": "hugo-academic",
+    "repo": "gcushen/hugo-academic",
+    "url": "https://github.com/gcushen/hugo-academic",
+    "stars": 3189,
+    "forks": 1310,
+    "open_issues": 45,
+    "last_commit": "2019-09-10T21:59:21Z"
+  },
+  "gridsome-gridsome-starter-blog": {
+    "theme_key": "gridsome-gridsome-starter-blog",
+    "name": "gridsome-starter-blog",
+    "repo": "gridsome/gridsome-starter-blog",
+    "url": "https://github.com/gridsome/gridsome-starter-blog",
+    "stars": 212,
+    "forks": 80,
+    "open_issues": 17,
+    "last_commit": "2019-08-28T23:09:51Z"
+  },
+  "contentful-userland-gatsby-contentful-starter": {
+    "theme_key": "contentful-userland-gatsby-contentful-starter",
+    "name": "gatsby-contentful-starter",
+    "repo": "contentful-userland/gatsby-contentful-starter",
+    "url": "https://github.com/contentful-userland/gatsby-contentful-starter",
+    "stars": 202,
+    "forks": 77,
+    "open_issues": 9,
+    "last_commit": "2019-07-30T22:21:00Z"
+  },
+  "emielh-hallo-hugo": {
+    "theme_key": "emielh-hallo-hugo",
+    "name": "hallo-hugo",
+    "repo": "EmielH/hallo-hugo",
+    "url": "https://github.com/EmielH/hallo-hugo",
+    "stars": 49,
+    "forks": 25,
+    "open_issues": 0,
+    "last_commit": "2019-07-16T15:19:01Z"
+  },
+  "budparr-gohugo-theme-ananke": {
+    "theme_key": "budparr-gohugo-theme-ananke",
+    "name": "gohugo-theme-ananke",
+    "repo": "budparr/gohugo-theme-ananke",
+    "url": "https://github.com/budparr/gohugo-theme-ananke",
+    "stars": 319,
+    "forks": 289,
+    "open_issues": 50,
+    "last_commit": "2019-09-10T09:01:04Z"
+  },
+  "wildhaber-gohugo-amp": {
+    "theme_key": "wildhaber-gohugo-amp",
+    "name": "gohugo-amp",
+    "repo": "wildhaber/gohugo-amp",
+    "url": "https://github.com/wildhaber/gohugo-amp",
+    "stars": 172,
+    "forks": 50,
+    "open_issues": 6,
+    "last_commit": "2018-07-04T20:38:41Z"
+  },
+  "fabe-gatsby-universal": {
+    "theme_key": "fabe-gatsby-universal",
+    "name": "gatsby-universal",
+    "repo": "fabe/gatsby-universal",
+    "url": "https://github.com/fabe/gatsby-universal",
+    "stars": 451,
+    "forks": 68,
     "open_issues": 4,
-    "last_commit": "2019-08-19T08:48:54Z"
+    "last_commit": "2019-08-28T23:14:11Z"
   },
-  "janczizikow-sleek": {
-    "theme_key": "janczizikow-sleek",
-    "name": "sleek",
-    "repo": "janczizikow/sleek",
-    "url": "https://github.com/janczizikow/sleek",
-    "stars": 216,
-    "forks": 398,
-    "open_issues": 19,
-    "last_commit": "2019-07-18T05:42:04Z"
+  "itsnwa-gridsome-forestry-starter": {
+    "theme_key": "itsnwa-gridsome-forestry-starter",
+    "name": "gridsome-forestry-starter",
+    "repo": "itsnwa/gridsome-forestry-starter",
+    "url": "https://github.com/itsnwa/gridsome-forestry-starter",
+    "stars": 66,
+    "forks": 24,
+    "open_issues": 4,
+    "last_commit": "2019-08-15T14:51:07Z"
   },
-  "whoan-vuepress-theme-canvas": {
-    "theme_key": "whoan-vuepress-theme-canvas",
-    "name": "vuepress-theme-canvas",
-    "repo": "whoan/vuepress-theme-canvas",
-    "url": "https://github.com/whoan/vuepress-theme-canvas",
+  "jeromelachaud-grayscale-theme": {
+    "theme_key": "jeromelachaud-grayscale-theme",
+    "name": "grayscale-theme",
+    "repo": "jeromelachaud/grayscale-theme",
+    "url": "https://github.com/jeromelachaud/grayscale-theme",
+    "stars": 234,
+    "forks": 384,
+    "open_issues": 3,
+    "last_commit": "2018-12-09T19:26:18Z"
+  },
+  "obaez-dentistsmile": {
+    "theme_key": "obaez-dentistsmile",
+    "name": "dentistsmile",
+    "repo": "obaez/dentistsmile",
+    "url": "https://github.com/obaez/dentistsmile",
+    "stars": 95,
+    "forks": 157,
+    "open_issues": 4,
+    "last_commit": "2019-07-16T21:20:25Z"
+  },
+  "lekoarts-gatsby-starter-portfolio-cara": {
+    "theme_key": "lekoarts-gatsby-starter-portfolio-cara",
+    "name": "gatsby-starter-portfolio-cara",
+    "repo": "LekoArts/gatsby-starter-portfolio-cara",
+    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara",
+    "stars": 621,
+    "forks": 145,
+    "open_issues": 0,
+    "last_commit": "2019-09-10T11:46:54Z"
+  },
+  "danielkvist-hugo-terrassa-theme": {
+    "theme_key": "danielkvist-hugo-terrassa-theme",
+    "name": "hugo-terrassa-theme",
+    "repo": "danielkvist/hugo-terrassa-theme",
+    "url": "https://github.com/danielkvist/hugo-terrassa-theme",
+    "stars": 26,
+    "forks": 29,
+    "open_issues": 0,
+    "last_commit": "2019-06-04T12:11:28Z"
+  },
+  "alxshelepenok-gatsby-starter-lumen": {
+    "theme_key": "alxshelepenok-gatsby-starter-lumen",
+    "name": "gatsby-starter-lumen",
+    "repo": "alxshelepenok/gatsby-starter-lumen",
+    "url": "https://github.com/alxshelepenok/gatsby-starter-lumen",
+    "stars": 868,
+    "forks": 282,
+    "open_issues": 8,
+    "last_commit": "2019-09-10T09:43:09Z"
+  },
+  "aerohub-hugo-faq-theme": {
+    "theme_key": "aerohub-hugo-faq-theme",
+    "name": "hugo-faq-theme",
+    "repo": "aerohub/hugo-faq-theme",
+    "url": "https://github.com/aerohub/hugo-faq-theme",
     "stars": 20,
-    "forks": 2,
-    "open_issues": 0,
-    "last_commit": "2019-09-09T06:09:39Z"
+    "forks": 5,
+    "open_issues": 3,
+    "last_commit": "2016-10-16T22:58:13Z"
   },
-  "forestryio-ubuild-jekyll": {
-    "theme_key": "forestryio-ubuild-jekyll",
-    "name": "ubuild-jekyll",
-    "repo": "forestryio/ubuild-jekyll",
-    "url": "https://github.com/forestryio/ubuild-jekyll",
-    "stars": 127,
-    "forks": 160,
-    "open_issues": 0,
-    "last_commit": "2019-09-10T13:37:33Z"
+  "themefisher-navigator-hugo": {
+    "theme_key": "themefisher-navigator-hugo",
+    "name": "navigator-hugo",
+    "repo": "themefisher/navigator-hugo",
+    "url": "https://github.com/themefisher/navigator-hugo",
+    "stars": 60,
+    "forks": 31,
+    "open_issues": 4,
+    "last_commit": "2019-08-24T07:12:32Z"
   },
-  "tolking-vuepress-theme-ououe": {
-    "theme_key": "tolking-vuepress-theme-ououe",
-    "name": "vuepress-theme-ououe",
-    "repo": "tolking/vuepress-theme-ououe",
-    "url": "https://github.com/tolking/vuepress-theme-ououe",
-    "stars": 21,
-    "forks": 4,
-    "open_issues": 0,
-    "last_commit": "2019-08-30T12:29:02Z"
-  },
-  "themefisher-meghna-hugo": {
-    "theme_key": "themefisher-meghna-hugo",
-    "name": "meghna-hugo",
-    "repo": "themefisher/meghna-hugo",
-    "url": "https://github.com/themefisher/meghna-hugo",
-    "stars": 83,
-    "forks": 101,
+  "zwbetz-gh-cupper-hugo-theme": {
+    "theme_key": "zwbetz-gh-cupper-hugo-theme",
+    "name": "cupper-hugo-theme",
+    "repo": "zwbetz-gh/cupper-hugo-theme",
+    "url": "https://github.com/zwbetz-gh/cupper-hugo-theme",
+    "stars": 67,
+    "forks": 54,
     "open_issues": 2,
-    "last_commit": "2019-09-04T04:25:16Z"
+    "last_commit": "2019-09-11T01:28:17Z"
   },
   "pacollins-hugo-future-imperfect-slim": {
     "theme_key": "pacollins-hugo-future-imperfect-slim",
@@ -919,6 +449,16 @@
     "open_issues": 11,
     "last_commit": "2019-09-07T21:32:00Z"
   },
+  "jugglerx-hugo-serif-theme": {
+    "theme_key": "jugglerx-hugo-serif-theme",
+    "name": "hugo-serif-theme",
+    "repo": "JugglerX/hugo-serif-theme",
+    "url": "https://github.com/JugglerX/hugo-serif-theme",
+    "stars": 57,
+    "forks": 40,
+    "open_issues": 3,
+    "last_commit": "2019-08-08T05:38:55Z"
+  },
   "digitalcraftsman-hugo-icarus-theme": {
     "theme_key": "digitalcraftsman-hugo-icarus-theme",
     "name": "hugo-icarus-theme",
@@ -929,6 +469,336 @@
     "open_issues": 32,
     "last_commit": "2019-03-28T21:19:37Z"
   },
+  "ryanwiemer-gatsby-starter-gcn": {
+    "theme_key": "ryanwiemer-gatsby-starter-gcn",
+    "name": "gatsby-starter-gcn",
+    "repo": "ryanwiemer/gatsby-starter-gcn",
+    "url": "https://github.com/ryanwiemer/gatsby-starter-gcn",
+    "stars": 355,
+    "forks": 84,
+    "open_issues": 2,
+    "last_commit": "2019-08-23T04:46:54Z"
+  },
+  "pmarsceill-just-the-docs": {
+    "theme_key": "pmarsceill-just-the-docs",
+    "name": "just-the-docs",
+    "repo": "pmarsceill/just-the-docs",
+    "url": "https://github.com/pmarsceill/just-the-docs",
+    "stars": 859,
+    "forks": 430,
+    "open_issues": 26,
+    "last_commit": "2019-09-10T16:55:18Z"
+  },
+  "narative-gatsby-theme-novela": {
+    "theme_key": "narative-gatsby-theme-novela",
+    "name": "gatsby-theme-novela",
+    "repo": "narative/gatsby-theme-novela",
+    "url": "https://github.com/narative/gatsby-theme-novela",
+    "stars": 465,
+    "forks": 69,
+    "open_issues": 14,
+    "last_commit": "2019-09-07T14:51:13Z"
+  },
+  "cboettig-hugo-now-ui": {
+    "theme_key": "cboettig-hugo-now-ui",
+    "name": "hugo-now-ui",
+    "repo": "cboettig/hugo-now-ui",
+    "url": "https://github.com/cboettig/hugo-now-ui",
+    "stars": 90,
+    "forks": 50,
+    "open_issues": 5,
+    "last_commit": "2019-08-26T20:33:20Z"
+  },
+  "nurlansu-hugo-sustain": {
+    "theme_key": "nurlansu-hugo-sustain",
+    "name": "hugo-sustain",
+    "repo": "nurlansu/hugo-sustain",
+    "url": "https://github.com/nurlansu/hugo-sustain",
+    "stars": 131,
+    "forks": 90,
+    "open_issues": 12,
+    "last_commit": "2019-08-05T12:50:50Z"
+  },
+  "rhazdon-hugo-theme-hello-friend-ng": {
+    "theme_key": "rhazdon-hugo-theme-hello-friend-ng",
+    "name": "hugo-theme-hello-friend-ng",
+    "repo": "rhazdon/hugo-theme-hello-friend-ng",
+    "url": "https://github.com/rhazdon/hugo-theme-hello-friend-ng",
+    "stars": 197,
+    "forks": 122,
+    "open_issues": 7,
+    "last_commit": "2019-09-08T18:30:45Z"
+  },
+  "xaprb-story": {
+    "theme_key": "xaprb-story",
+    "name": "story",
+    "repo": "xaprb/story",
+    "url": "https://github.com/xaprb/story",
+    "stars": 86,
+    "forks": 33,
+    "open_issues": 31,
+    "last_commit": "2019-06-19T19:33:11Z"
+  },
+  "jeromelachaud-freelancer-theme": {
+    "theme_key": "jeromelachaud-freelancer-theme",
+    "name": "freelancer-theme",
+    "repo": "jeromelachaud/freelancer-theme",
+    "url": "https://github.com/jeromelachaud/freelancer-theme",
+    "stars": 980,
+    "forks": 1149,
+    "open_issues": 11,
+    "last_commit": "2019-09-04T17:58:13Z"
+  },
+  "digitalcraftsman-hugo-creative-theme": {
+    "theme_key": "digitalcraftsman-hugo-creative-theme",
+    "name": "hugo-creative-theme",
+    "repo": "digitalcraftsman/hugo-creative-theme",
+    "url": "https://github.com/digitalcraftsman/hugo-creative-theme",
+    "stars": 128,
+    "forks": 103,
+    "open_issues": 19,
+    "last_commit": "2019-09-01T09:27:27Z"
+  },
+  "huyb1991-hugo-lamp": {
+    "theme_key": "huyb1991-hugo-lamp",
+    "name": "hugo-lamp",
+    "repo": "huyb1991/hugo-lamp",
+    "url": "https://github.com/huyb1991/hugo-lamp",
+    "stars": 30,
+    "forks": 18,
+    "open_issues": 2,
+    "last_commit": "2019-08-18T12:31:45Z"
+  },
+  "hellocosmin-gridsome-starter-bleda": {
+    "theme_key": "hellocosmin-gridsome-starter-bleda",
+    "name": "gridsome-starter-bleda",
+    "repo": "cossssmin/gridsome-starter-bleda",
+    "url": "https://github.com/cossssmin/gridsome-starter-bleda",
+    "stars": 108,
+    "forks": 30,
+    "open_issues": 0,
+    "last_commit": "2019-09-09T17:38:54Z"
+  },
+  "joshgerdes-jekyll-uno": {
+    "theme_key": "joshgerdes-jekyll-uno",
+    "name": "jekyll-uno",
+    "repo": "joshgerdes/jekyll-uno",
+    "url": "https://github.com/joshgerdes/jekyll-uno",
+    "stars": 499,
+    "forks": 536,
+    "open_issues": 19,
+    "last_commit": "2019-09-06T12:02:31Z"
+  },
+  "matcornic-hugo-theme-learn": {
+    "theme_key": "matcornic-hugo-theme-learn",
+    "name": "hugo-theme-learn",
+    "repo": "matcornic/hugo-theme-learn",
+    "url": "https://github.com/matcornic/hugo-theme-learn",
+    "stars": 712,
+    "forks": 680,
+    "open_issues": 75,
+    "last_commit": "2019-09-10T11:30:06Z"
+  },
+  "tomrutgers-middleman-starter-netlify-cms": {
+    "theme_key": "tomrutgers-middleman-starter-netlify-cms",
+    "name": "middleman-starter-netlify-cms",
+    "repo": "tomrutgers/middleman-starter-netlify-cms",
+    "url": "https://github.com/tomrutgers/middleman-starter-netlify-cms",
+    "stars": 20,
+    "forks": 16,
+    "open_issues": 1,
+    "last_commit": "2019-08-03T08:45:04Z"
+  },
+  "devcows-hugo-universal-theme": {
+    "theme_key": "devcows-hugo-universal-theme",
+    "name": "hugo-universal-theme",
+    "repo": "devcows/hugo-universal-theme",
+    "url": "https://github.com/devcows/hugo-universal-theme",
+    "stars": 379,
+    "forks": 283,
+    "open_issues": 55,
+    "last_commit": "2019-05-17T01:06:04Z"
+  },
+  "mmistakes-jekyll-theme-basically-basic": {
+    "theme_key": "mmistakes-jekyll-theme-basically-basic",
+    "name": "jekyll-theme-basically-basic",
+    "repo": "mmistakes/jekyll-theme-basically-basic",
+    "url": "https://github.com/mmistakes/jekyll-theme-basically-basic",
+    "stars": 354,
+    "forks": 495,
+    "open_issues": 2,
+    "last_commit": "2019-08-21T02:02:55Z"
+  },
+  "themefisher-kross-hugo-portfolio-template": {
+    "theme_key": "themefisher-kross-hugo-portfolio-template",
+    "name": "kross-hugo-portfolio-template",
+    "repo": "themefisher/kross-hugo-portfolio-template",
+    "url": "https://github.com/themefisher/kross-hugo-portfolio-template",
+    "stars": 45,
+    "forks": 33,
+    "open_issues": 0,
+    "last_commit": "2019-09-04T04:24:40Z"
+  },
+  "kakawait-hugo-tranquilpeak-theme": {
+    "theme_key": "kakawait-hugo-tranquilpeak-theme",
+    "name": "hugo-tranquilpeak-theme",
+    "repo": "kakawait/hugo-tranquilpeak-theme",
+    "url": "https://github.com/kakawait/hugo-tranquilpeak-theme",
+    "stars": 526,
+    "forks": 286,
+    "open_issues": 65,
+    "last_commit": "2019-08-31T17:24:32Z"
+  },
+  "mattvh-solar-theme-jekyll": {
+    "theme_key": "mattvh-solar-theme-jekyll",
+    "name": "solar-theme-jekyll",
+    "repo": "mattvh/solar-theme-jekyll",
+    "url": "https://github.com/mattvh/solar-theme-jekyll",
+    "stars": 205,
+    "forks": 139,
+    "open_issues": 1,
+    "last_commit": "2016-09-23T12:49:23Z"
+  },
+  "cloudcannon-hydra-jekyll-template": {
+    "theme_key": "cloudcannon-hydra-jekyll-template",
+    "name": "hydra-jekyll-template",
+    "repo": "CloudCannon/hydra-jekyll-template",
+    "url": "https://github.com/CloudCannon/hydra-jekyll-template",
+    "stars": 211,
+    "forks": 199,
+    "open_issues": 0,
+    "last_commit": "2019-07-29T21:12:54Z"
+  },
+  "lenpaul-millennial": {
+    "theme_key": "lenpaul-millennial",
+    "name": "Millennial",
+    "repo": "LeNPaul/Millennial",
+    "url": "https://github.com/LeNPaul/Millennial",
+    "stars": 140,
+    "forks": 221,
+    "open_issues": 6,
+    "last_commit": "2019-08-22T00:00:40Z"
+  },
+  "mmistakes-jekyll-theme-skinny-bones": {
+    "theme_key": "mmistakes-jekyll-theme-skinny-bones",
+    "name": "jekyll-theme-skinny-bones",
+    "repo": "mmistakes/jekyll-theme-skinny-bones",
+    "url": "https://github.com/mmistakes/jekyll-theme-skinny-bones",
+    "stars": 756,
+    "forks": 864,
+    "open_issues": 21,
+    "last_commit": "2019-08-27T20:12:19Z"
+  },
+  "inded-jekyll_modern-blog": {
+    "theme_key": "inded-jekyll_modern-blog",
+    "name": "Jekyll_modern-blog",
+    "repo": "inded/Jekyll_modern-blog",
+    "url": "https://github.com/inded/Jekyll_modern-blog",
+    "stars": 206,
+    "forks": 235,
+    "open_issues": 6,
+    "last_commit": "2019-09-02T00:34:01Z"
+  },
+  "chrisbobbe-jekyll-theme-prologue": {
+    "theme_key": "chrisbobbe-jekyll-theme-prologue",
+    "name": "jekyll-theme-prologue",
+    "repo": "chrisbobbe/jekyll-theme-prologue",
+    "url": "https://github.com/chrisbobbe/jekyll-theme-prologue",
+    "stars": 217,
+    "forks": 526,
+    "open_issues": 23,
+    "last_commit": "2019-09-02T22:03:37Z"
+  },
+  "nakorndev-vuepress-theme-bulma": {
+    "theme_key": "nakorndev-vuepress-theme-bulma",
+    "name": "vuepress-theme-bulma",
+    "repo": "nakorndev/vuepress-theme-bulma",
+    "url": "https://github.com/nakorndev/vuepress-theme-bulma",
+    "stars": 40,
+    "forks": 15,
+    "open_issues": 2,
+    "last_commit": "2019-08-20T02:25:02Z"
+  },
+  "themefisher-parsa-hugo-personal-blog-theme": {
+    "theme_key": "themefisher-parsa-hugo-personal-blog-theme",
+    "name": "parsa-hugo-personal-blog-theme",
+    "repo": "themefisher/parsa-hugo-personal-blog-theme",
+    "url": "https://github.com/themefisher/parsa-hugo-personal-blog-theme",
+    "stars": 13,
+    "forks": 11,
+    "open_issues": 1,
+    "last_commit": "2019-09-04T05:54:20Z"
+  },
+  "jekyller-jasper2": {
+    "theme_key": "jekyller-jasper2",
+    "name": "jasper2",
+    "repo": "jekyller/jasper2",
+    "url": "https://github.com/jekyller/jasper2",
+    "stars": 447,
+    "forks": 424,
+    "open_issues": 25,
+    "last_commit": "2019-08-28T05:53:17Z"
+  },
+  "calintat-minimal": {
+    "theme_key": "calintat-minimal",
+    "name": "minimal",
+    "repo": "calintat/minimal",
+    "url": "https://github.com/calintat/minimal",
+    "stars": 236,
+    "forks": 139,
+    "open_issues": 28,
+    "last_commit": "2019-08-28T03:34:18Z"
+  },
+  "forestryio-ubuild-jekyll": {
+    "theme_key": "forestryio-ubuild-jekyll",
+    "name": "ubuild-jekyll",
+    "repo": "forestryio/ubuild-jekyll",
+    "url": "https://github.com/forestryio/ubuild-jekyll",
+    "stars": 127,
+    "forks": 160,
+    "open_issues": 0,
+    "last_commit": "2019-09-10T13:37:33Z"
+  },
+  "wowthemesnet-mediumish-theme-jekyll": {
+    "theme_key": "wowthemesnet-mediumish-theme-jekyll",
+    "name": "mediumish-theme-jekyll",
+    "repo": "wowthemesnet/mediumish-theme-jekyll",
+    "url": "https://github.com/wowthemesnet/mediumish-theme-jekyll",
+    "stars": 413,
+    "forks": 398,
+    "open_issues": 17,
+    "last_commit": "2019-09-08T13:57:12Z"
+  },
+  "snipcart-snipcart-middleman-integration": {
+    "theme_key": "snipcart-snipcart-middleman-integration",
+    "name": "snipcart-middleman-integration",
+    "repo": "snipcart/snipcart-middleman-integration",
+    "url": "https://github.com/snipcart/snipcart-middleman-integration",
+    "stars": 9,
+    "forks": 4,
+    "open_issues": 0,
+    "last_commit": "2017-01-26T21:44:32Z"
+  },
+  "meteorlxy-vuepress-theme-meteorlxy": {
+    "theme_key": "meteorlxy-vuepress-theme-meteorlxy",
+    "name": "vuepress-theme-meteorlxy",
+    "repo": "meteorlxy/vuepress-theme-meteorlxy",
+    "url": "https://github.com/meteorlxy/vuepress-theme-meteorlxy",
+    "stars": 169,
+    "forks": 57,
+    "open_issues": 5,
+    "last_commit": "2019-09-06T19:35:18Z"
+  },
+  "wannaxiao-vuepress-theme-resume": {
+    "theme_key": "wannaxiao-vuepress-theme-resume",
+    "name": "vuepress-theme-resume",
+    "repo": "wannaxiao/vuepress-theme-resume",
+    "url": "https://github.com/wannaxiao/vuepress-theme-resume",
+    "stars": 70,
+    "forks": 23,
+    "open_issues": 0,
+    "last_commit": "2019-07-15T16:02:19Z"
+  },
   "blackrockdigital-startbootstrap-clean-blog-jekyll": {
     "theme_key": "blackrockdigital-startbootstrap-clean-blog-jekyll",
     "name": "startbootstrap-clean-blog-jekyll",
@@ -938,5 +808,185 @@
     "forks": 1304,
     "open_issues": 11,
     "last_commit": "2019-09-10T23:38:55Z"
+  },
+  "mattolson-middleman-zurb-template": {
+    "theme_key": "mattolson-middleman-zurb-template",
+    "name": "middleman-zurb-template",
+    "repo": "mattolson/middleman-zurb-template",
+    "url": "https://github.com/mattolson/middleman-zurb-template",
+    "stars": 29,
+    "forks": 12,
+    "open_issues": 0,
+    "last_commit": "2017-12-28T04:00:08Z"
+  },
+  "willianjusten-will-jekyll-template": {
+    "theme_key": "willianjusten-will-jekyll-template",
+    "name": "will-jekyll-template",
+    "repo": "willianjusten/will-jekyll-template",
+    "url": "https://github.com/willianjusten/will-jekyll-template",
+    "stars": 315,
+    "forks": 384,
+    "open_issues": 4,
+    "last_commit": "2019-08-19T08:48:54Z"
+  },
+  "yscoder-vuepress-theme-indigo": {
+    "theme_key": "yscoder-vuepress-theme-indigo",
+    "name": "vuepress-theme-indigo",
+    "repo": "yscoder/vuepress-theme-indigo",
+    "url": "https://github.com/yscoder/vuepress-theme-indigo",
+    "stars": 80,
+    "forks": 26,
+    "open_issues": 4,
+    "last_commit": "2018-11-05T14:06:37Z"
+  },
+  "friendlyuser-vuepress-theme-cool-starter": {
+    "theme_key": "friendlyuser-vuepress-theme-cool-starter",
+    "name": "vuepress-theme-cool-starter",
+    "repo": "FriendlyUser/vuepress-theme-cool-starter",
+    "url": "https://github.com/FriendlyUser/vuepress-theme-cool-starter",
+    "stars": 21,
+    "forks": 12,
+    "open_issues": 0,
+    "last_commit": "2019-09-11T03:12:39Z"
+  },
+  "themefisher-timer-hugo": {
+    "theme_key": "themefisher-timer-hugo",
+    "name": "timer-hugo",
+    "repo": "themefisher/timer-hugo",
+    "url": "https://github.com/themefisher/timer-hugo",
+    "stars": 54,
+    "forks": 37,
+    "open_issues": 2,
+    "last_commit": "2019-09-02T06:04:07Z"
+  },
+  "themefisher-meghna-hugo": {
+    "theme_key": "themefisher-meghna-hugo",
+    "name": "meghna-hugo",
+    "repo": "themefisher/meghna-hugo",
+    "url": "https://github.com/themefisher/meghna-hugo",
+    "stars": 83,
+    "forks": 101,
+    "open_issues": 2,
+    "last_commit": "2019-09-04T04:25:16Z"
+  },
+  "yubisaki-vuepress-theme-yubisaki": {
+    "theme_key": "yubisaki-vuepress-theme-yubisaki",
+    "name": "vuepress-theme-yubisaki",
+    "repo": "Yubisaki/vuepress-theme-yubisaki",
+    "url": "https://github.com/Yubisaki/vuepress-theme-yubisaki",
+    "stars": 163,
+    "forks": 16,
+    "open_issues": 0,
+    "last_commit": "2019-04-04T03:55:43Z"
+  },
+  "alexander-heimbuch-vuepress-theme-casper": {
+    "theme_key": "alexander-heimbuch-vuepress-theme-casper",
+    "name": "vuepress-theme-casper",
+    "repo": "alexander-heimbuch/vuepress-theme-casper",
+    "url": "https://github.com/alexander-heimbuch/vuepress-theme-casper",
+    "stars": 30,
+    "forks": 14,
+    "open_issues": 0,
+    "last_commit": "2019-08-22T06:10:32Z"
+  },
+  "htr3n-hyde-hyde": {
+    "theme_key": "htr3n-hyde-hyde",
+    "name": "hyde-hyde",
+    "repo": "htr3n/hyde-hyde",
+    "url": "https://github.com/htr3n/hyde-hyde",
+    "stars": 130,
+    "forks": 128,
+    "open_issues": 3,
+    "last_commit": "2019-09-01T07:21:37Z"
+  },
+  "whoan-vuepress-theme-canvas": {
+    "theme_key": "whoan-vuepress-theme-canvas",
+    "name": "vuepress-theme-canvas",
+    "repo": "whoan/vuepress-theme-canvas",
+    "url": "https://github.com/whoan/vuepress-theme-canvas",
+    "stars": 20,
+    "forks": 2,
+    "open_issues": 0,
+    "last_commit": "2019-09-09T06:09:39Z"
+  },
+  "fongandrew-hydeout": {
+    "theme_key": "fongandrew-hydeout",
+    "name": "hydeout",
+    "repo": "fongandrew/hydeout",
+    "url": "https://github.com/fongandrew/hydeout",
+    "stars": 296,
+    "forks": 438,
+    "open_issues": 6,
+    "last_commit": "2019-09-11T06:45:32Z"
+  },
+  "mmistakes-minimal-mistakes": {
+    "theme_key": "mmistakes-minimal-mistakes",
+    "name": "minimal-mistakes",
+    "repo": "mmistakes/minimal-mistakes",
+    "url": "https://github.com/mmistakes/minimal-mistakes",
+    "stars": 5601,
+    "forks": 9434,
+    "open_issues": 13,
+    "last_commit": "2019-09-10T07:01:55Z"
+  },
+  "mattolson-middleman-bootstrap-template": {
+    "theme_key": "mattolson-middleman-bootstrap-template",
+    "name": "middleman-bootstrap-template",
+    "repo": "mattolson/middleman-bootstrap-template",
+    "url": "https://github.com/mattolson/middleman-bootstrap-template",
+    "stars": 6,
+    "forks": 2,
+    "open_issues": 0,
+    "last_commit": "2017-12-28T20:14:37Z"
+  },
+  "mmistakes-so-simple-theme": {
+    "theme_key": "mmistakes-so-simple-theme",
+    "name": "so-simple-theme",
+    "repo": "mmistakes/so-simple-theme",
+    "url": "https://github.com/mmistakes/so-simple-theme",
+    "stars": 1287,
+    "forks": 2037,
+    "open_issues": 3,
+    "last_commit": "2019-08-30T12:33:34Z"
+  },
+  "danielbayerlein-middleman-casper": {
+    "theme_key": "danielbayerlein-middleman-casper",
+    "name": "middleman-casper",
+    "repo": "danielbayerlein/middleman-casper",
+    "url": "https://github.com/danielbayerlein/middleman-casper",
+    "stars": 127,
+    "forks": 19,
+    "open_issues": 3,
+    "last_commit": "2018-01-07T13:04:24Z"
+  },
+  "viko16-vuepress-theme-simple": {
+    "theme_key": "viko16-vuepress-theme-simple",
+    "name": "vuepress-theme-simple",
+    "repo": "viko16/vuepress-theme-simple",
+    "url": "https://github.com/viko16/vuepress-theme-simple",
+    "stars": 34,
+    "forks": 3,
+    "open_issues": 0,
+    "last_commit": "2019-05-20T03:41:43Z"
+  },
+  "janczizikow-sleek": {
+    "theme_key": "janczizikow-sleek",
+    "name": "sleek",
+    "repo": "janczizikow/sleek",
+    "url": "https://github.com/janczizikow/sleek",
+    "stars": 216,
+    "forks": 398,
+    "open_issues": 19,
+    "last_commit": "2019-07-18T05:42:04Z"
+  },
+  "tolking-vuepress-theme-ououe": {
+    "theme_key": "tolking-vuepress-theme-ououe",
+    "name": "vuepress-theme-ououe",
+    "repo": "tolking/vuepress-theme-ououe",
+    "url": "https://github.com/tolking/vuepress-theme-ououe",
+    "stars": 21,
+    "forks": 4,
+    "open_issues": 0,
+    "last_commit": "2019-08-30T12:29:02Z"
   }
 }
