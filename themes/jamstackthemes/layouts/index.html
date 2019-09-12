@@ -17,21 +17,25 @@
 {{ $themes := (where .Site.RegularPages "Type" "theme") }}
 <div class="sidebar">
   {{ $themeCount := len $themes }}
-  <div class="intro">
+  <div class="info">
     <h1>All Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
     <h2>A list of themes and starters for JAMstack sites.</h2>
   </div>
   {{ partial "sort.html" . }}
   {{ partial "filters.html" . }}
-  <span class="made-by">Maintained by <a href="https:/www.stackbit.com">stackbit.com</a></span>
+  {{ partial "stackbit.html" . }}
 </div>
 <div class="main">
-  
+  <div class="intro">
+    <h1>All Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
+    <h2>A list of themes and starters for JAMstack sites.</h2>
+  </div>
+  {{ partial "sort-buttons.html" . }}
   <div class="grids">
     {{ range sort $themes "Lastmod" "desc" }}
     {{ $repoName := (substr (replace .Params.github "/" "-") 19 | urlize) }}
     {{ $repo := index .Site.Data.themes $repoName }}
-    {{ partial "theme-card.html" (dict "theme" . "repo" $repo ) }}
+    {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
     {{ end }}
   </div>
 </div>

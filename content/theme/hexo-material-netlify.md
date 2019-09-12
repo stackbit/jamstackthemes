@@ -6,5 +6,5 @@ author: Luna Yu
 ssg:
   - Hexo
 cms:
-  - Netlify
+  - NetlifyCMS
 ---

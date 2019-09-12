@@ -1,0 +1,26 @@
+.info {
+  display: none;
+  @include breakpoint('small') {
+    display: block;
+  }
+  h1 {
+    font-size: 18px;
+    font-weight: 700;
+    @include breakpoint('small') {
+      font-size: 18px;
+    }
+  }
+  h2 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    @include breakpoint('small') {
+      font-size: 16px;
+
+    }
+  }
+  .count {
+    font-weight: 400;
+    color: #666;
+  }
+}

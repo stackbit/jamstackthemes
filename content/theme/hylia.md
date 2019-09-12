@@ -6,7 +6,5 @@ author: Andy Bell
 ssg:
   - Eleventy
 cms:
-  - Netlify
-deploy:
-  - Netlify
+  - NetlifyCMS
 ---

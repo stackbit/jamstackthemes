@@ -36,25 +36,30 @@
         </div>
       </div>
       <div class="theme-footer">
-          <div class="theme-tags">
-              <div class="tags">
-                {{ if .theme.Params.ssg }}
-                {{ range .theme.Params.ssg }}
-                {{ partial "icon.html" (dict "name" . "category" "ssg") }}
-                {{ end }}
-                {{ end }}
-              </div>
-              {{ if .theme.Params.cms }}
-              <div class="tags">
-                {{ if .theme.Params.cms }}
-                {{ range .theme.Params.cms }}
-                {{ partial "icon.html" (dict "name" . "category" "cms") }}
-                {{ end }}
-                {{ end }}
-              </div>
+        <div class="theme-tags">
+
+          {{ if .theme.Params.ssg }}
+          <div class="tags">
+            {{- range .theme.Params.ssg }}
+              {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
+                {{ partial "icon.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
               {{ end }}
-            </div>
+            {{ end }}
+          </div>
+          {{ end }}
+
+          {{ if .theme.Params.cms }}
+          <div class="tags">
+            {{- range .theme.Params.cms }}
+              {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
+                {{ partial "icon.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
+              {{ end }}
+            {{ end }}
+          </div>
+          {{ end }}
+
         </div>
+      </div>
     </div>
   </div>
 </div>

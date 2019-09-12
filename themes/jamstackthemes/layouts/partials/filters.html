@@ -1,10 +1,10 @@
 <div class="filters">
-  <h3>Static Site Generator</h3>
+  <h3 class="filter-title">Static Site Generator</h3>
   <ul class="filter-items" data-group="ssg">
     {{ range .Site.Taxonomies.ssg }}
     <li class="filter-item">
       <div class="filter-icon">
-        {{ partial "icon.html" (dict "name" .Page.Title "category" "ssg") }}
+        {{ partial "icon.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
       </div>
       <span class="filter-checkbox"><input class="styled-checkbox" type="checkbox" value=".{{ .Page.Title | urlize }}"
           id="checkbox-{{ .Page.Title }}" /><label for="checkbox-{{ .Page.Title }}"></label></span>
@@ -13,12 +13,12 @@
     </li>
     {{ end }}
   </ul>
-  <h3>CMS</h3>
+  <h3 class="filter-title">CMS</h3>
   <ul class="filter-items" data-group="cms">
     {{ range .Site.Taxonomies.cms }}
     <li class="filter-item">
       <div class="filter-icon">
-        {{ partial "icon.html" (dict "name" .Page.Title "category" "cms") }}
+        {{ partial "icon.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
       </div>
       <span class="filter-checkbox"><input class="styled-checkbox" type="checkbox" value=".{{ .Page.Title | urlize }}"
           id="checkbox-{{ .Page.Title }}" /><label for="checkbox-{{ .Page.Title }}"></label></span>

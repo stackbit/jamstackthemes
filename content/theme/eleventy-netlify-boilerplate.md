@@ -6,7 +6,5 @@ author: Dan Urbanowicz
 ssg:
   - Eleventy
 cms:
-  - Netlify
-deploy:
-  - Netlify
+  - NetlifyCMS
 ---

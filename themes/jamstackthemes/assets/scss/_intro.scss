@@ -2,8 +2,9 @@
   h1 {
     font-size: 18px;
     font-weight: 700;
+    margin-bottom: 10px;
     @include breakpoint('small') {
-      font-size: 18px;
+      font-size: 28px;
     }
   }
   h2 {
@@ -21,27 +22,11 @@
   }
 }
 
-.main {
+.page-home {
   .intro {
-    h1 {
-      font-size: 18px;
-      font-weight: 700;
-      @include breakpoint('small') {
-        font-size: 28px;
-      }
-    }
-    h2 {
-      font-size: 16px;
-      line-height: 22px;
-      font-weight: 400;
-      @include breakpoint('small') {
-        font-size: 16px;
-
-      }
-    }
-    .count {
-      font-weight: 400;
-      color: #666;
+    display: block;
+    @include breakpoint('small') {
+      display: none;
     }
   }
 }

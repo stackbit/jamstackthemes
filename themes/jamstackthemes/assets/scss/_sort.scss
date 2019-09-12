@@ -1,4 +1,9 @@
-.sort {
+.sort-buttons {
+  margin-bottom: 20px;
+  display: block;
+  @include breakpoint('small') {
+    display: none;
+  }
   button {
     padding: 5px;
     background: none;
@@ -22,12 +27,16 @@
       background: $grey;
     }
   }
-  margin-bottom: 20px;
+  
 }
 
-
-.sort {
+.sort-radios {
   position: relative;
+  display: none;
+  margin-bottom: 20px;
+  @include breakpoint('small') {
+    display: block;
+  }
   .sort-line {
     margin-bottom: 5px;
   }
@@ -67,8 +76,6 @@
       top: 4px;
       left: 4px;
       border-radius: 100%;
-      // -webkit-transition: all 0.2s ease;
-      // transition: all 0.2s ease;
   }
   [type="radio"]:not(:checked) + label:after {
       opacity: 0;

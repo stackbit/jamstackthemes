@@ -5,6 +5,4 @@ demo: https://www.hawksworx.com/
 author: Phil Hawksworth
 ssg:
   - Eleventy
-deploy:
-  - Netlify
 ---

@@ -1,8 +1,20 @@
 .filters {
+  .filter-title {
+    display: none;
+    @include breakpoint('small') {
+      display: block;
+    }
+  }
   .filter-items {
     margin: 0;
     padding: 0;
-    margin-bottom: 30px;
+    border-bottom: 1px solid $grey;
+    padding: 20px 10px 20px 10px;
+    @include breakpoint('small') {
+      padding: 0;
+      border: none;
+      margin-bottom: 20px;
+    }
     .filter-item {
       margin: 0;
       padding: 0;

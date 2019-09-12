@@ -23,12 +23,19 @@ var filters = {};
 var data = $container.data('isotope');
 var $filterCount = $('.count-number');
 
-// Sorting
+// Sorting Radio Inputs
 $('.sort').on( 'click', 'input', function() {
   var sortValue = $(this).attr('data-sort-value');
   $container.isotope({ sortBy: sortValue });
 });
 
+// Sorting Buttons
+$('.sort').on( 'click', 'button', function() {
+  var sortValue = $(this).attr('data-sort-value');
+  $container.isotope({ sortBy: sortValue });
+  $('.sort button').removeClass('selected');
+  $(this).addClass('selected');
+});
 
 // Filters
 $('.filters').on('change', function(event) {
@@ -88,5 +95,7 @@ function updateFilterCount() {
 }
 
 
-timeago().render(document.querySelectorAll('.relativetime'));
-timeago.cancel();
+
+$(document).ready(function() {
+  $(".relativetime").timeago();
+});

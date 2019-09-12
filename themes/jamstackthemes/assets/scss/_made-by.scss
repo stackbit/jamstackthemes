@@ -1,0 +1,28 @@
+.made-by {
+  margin-top: auto;
+  color: #666;
+  font-size: 14px;
+  line-height: 14px;
+  img {
+    width: 30px;
+  }
+  a {
+    color: #666;
+    &:hover {
+      color: #000;
+    }
+  }
+  &.made-by-desktop {
+    display: none;
+    @include breakpoint('small') {
+     display: block;
+    }
+  }
+  &.made-by-mobile {
+    text-align: center;
+    display: block;
+    @include breakpoint('small') {
+     display: none;
+    }
+  }
+}

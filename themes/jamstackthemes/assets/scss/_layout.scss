@@ -10,7 +10,7 @@
     top: 0;
     width: 100px;
     overflow: auto;
-    padding: 80px 10px 20px 10px;
+    padding: 50px 0 20px 0;
     height: calc(100vh);
     display: flex;
     flex-direction: column;
@@ -18,29 +18,29 @@
       width: 240px;
       padding: 100px 20px 40px 20px;
     }
-    
     h3 {
       font-size: 16px;
       font-weight: 700;
       margin-bottom: 9px;
     }
+    .intro {
+      display: none;
+      @include breakpoint('small') {
+        display: block;
+      }
+    }
+    .sort {
+      display: none;
+      @include breakpoint('small') {
+        display: block;
+      }
+    }
   }
   .main {
     flex: 1;
-    padding: 80px 20px 40px 20px;
+    padding: 70px 20px 20px 20px;
     @include breakpoint('small') {
       padding: 90px 20px 40px 20px;
-    }
-  }
-  .made-by {
-    color: #666;
-    font-size: 14px;
-    line-height: 14px;
-    a {
-      color: #666;
-      &:hover {
-        color: #000;
-      }
     }
   }
 }
