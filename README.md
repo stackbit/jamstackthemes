@@ -74,3 +74,7 @@ npm run capture-screenshots
 ### Generate Thumbnails
 
 Will generate thumbnails for each theme. Uses Hires screenshots from `static/capture` and stores files in `static/images/theme/thumbnails`. 
+
+```
+npm run generate-thumbnails
+```
