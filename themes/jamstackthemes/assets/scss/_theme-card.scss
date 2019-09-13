@@ -37,20 +37,15 @@
   }
   .theme-body {
     flex: 1;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    .theme-heading {
-      padding: 20px;
-      min-height: 150px;
-      h2 {
-        font-size: 20px;
-        line-height: 26px;
-        font-weight: 500;
-        font-family: $font-family-heading;
-        margin: 0;
-        margin-bottom: 10px;
-      }
+    padding: 20px;
+    min-height: 170px;
+    h2 {
+      font-size: 20px;
+      line-height: 26px;
+      font-weight: 500;
+      font-family: $font-family-heading;
+      margin: 0;
+      margin-bottom: 10px;
     }
 
     .theme-fresh {
@@ -86,6 +81,7 @@
 
 .last-commit {
   font-size: 14px;
+  line-height: 18px;
   color: $steel;
   margin-bottom: 4px;
   .last-commit-label {

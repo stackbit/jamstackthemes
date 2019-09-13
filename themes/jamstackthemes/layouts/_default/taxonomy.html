@@ -7,9 +7,9 @@
 <div class="main">
   {{ $themeCount := len .Pages }}
   <div class="intro">
-    <h1>{{.Title}} <span class="count">({{ $themeCount }})</span></h1>
+    <h1>{{.Title}} Themes <span class="count">({{ $themeCount }})</span></h1>
   </div>
-  {{/*  {{ partial "breadcrumbs.html" . }}  */}}
+  {{ partial "breadcrumbs.html" . }}
 
   <div class="grids">
     {{ range .Pages }}

@@ -1,0 +1,14 @@
+{
+  "links": [
+    {
+      "name": "twitter",
+      "url": "https://twitter.com/stackbithq",
+      "image": "images/social/twitter.svg"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/stackbithq/jamstackthemes",
+      "image": "images/social/github.svg"
+    }
+  ]
+}

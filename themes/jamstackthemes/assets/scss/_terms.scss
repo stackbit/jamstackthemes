@@ -1,0 +1,25 @@
+.terms {
+  display: flex;
+  flex-wrap: wrap;
+  .term {
+    padding: 40px;
+    border: 1px solid $grey;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 {
+      margin-top: 10px;
+      margin-bottom: 0;
+      font-weight: 400;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+    img {
+      display: block;
+    }
+  }
+}

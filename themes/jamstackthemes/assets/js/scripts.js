@@ -1,16 +1,19 @@
-
 // Init Isotope
 var $container = $('.grids').isotope({
   itemSelector: '.grid',
   getSortData: {
     name: '.theme-title',
     stars: '.star-count parseInt',
-    lastmod: '.theme-lastmod-date'
+    lastmod: '.theme-lastmod-date',
+    lastcommit: function(element) {
+      return Date.parse($(element).find('.last-commit-date').text());
+    }
   },
   sortAscending: {
     name: true,
     stars: false,
-    lastmod: false
+    lastmod: false,
+    lastcommit: false
   }
 });
 
@@ -26,6 +29,7 @@ var $filterCount = $('.count-number');
 // Sorting Radio Inputs
 $('.sort').on( 'click', 'input', function() {
   var sortValue = $(this).attr('data-sort-value');
+  console.log(sortValue)
   $container.isotope({ sortBy: sortValue });
 });
 
@@ -96,6 +100,7 @@ function updateFilterCount() {
 
 
 
-$(document).ready(function() {
-  $(".relativetime").timeago();
-});
+// $(document).ready(function() {
+//   $(".relativetime").timeago();
+// });
+

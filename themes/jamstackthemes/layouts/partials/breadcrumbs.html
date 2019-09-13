@@ -1,7 +1,7 @@
 {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
 {{ $.Scratch.Add "path" .Site.BaseURL }}
 <ol class="breadcrumbs">
-  <li><a href="/">home</a></li>
+  <li><a href="/">all themes</a></li>
   {{ range $index, $element := split $url "/" }}
     {{ $.Scratch.Add "path" $element }}
       {{ if ne $element "" }}

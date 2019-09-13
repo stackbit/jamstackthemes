@@ -1,0 +1,44 @@
+<div class="footer">
+
+  <div class="footer-column">
+    <h3>JAMStack Themes</h3>
+    {{ if .Site.Data.social.links }}
+      <div class="footer-social">
+        {{ range .Site.Data.social.links }}
+          {{ partial "social-icon.html" . }}
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+
+  <div class="footer-column">
+    <ul>
+    {{ range .Site.Taxonomies.ssg }}
+    <li>
+      <a href="{{.Page.Permalink }}">{{.Page.Title}} Themes</a>
+    </li>
+    {{ end }}
+    </ul>
+  </div>
+
+  <div class="footer-column">
+    <ul>
+    {{ range .Site.Taxonomies.cms }}
+    <li>
+      <a href="{{.Page.Permalink }}">{{.Page.Title}} Themes</a>
+    </li>
+    {{ end }}
+    </ul>
+  </div>
+
+  <div class="footer-column">
+    <ul>
+    <li>
+      <a href="https://github.com/stackbithq/jamstackthemes#submit-a-them">Submit a theme</a>
+    </li>
+    </ul>
+  </div>
+
+  
+
+</div>

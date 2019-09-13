@@ -1,0 +1,43 @@
+.footer {
+  background: $grey;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  @include breakpoint('small') {
+    flex-direction: row;
+    display: flex;
+  }
+  .footer-column {
+    margin-right: 50px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-right: 20px;
+    li {
+      margin-bottom: 8px;
+
+      a {
+        color: darken($steel, 10%);
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .footer-social {
+    margin-bottom: 20px;
+    .social-icon {
+      margin-right: 5px;
+      a {
+        text-decoration: none;
+        img {
+          width: 18px;
+        }
+      }
+    }
+  }
+}

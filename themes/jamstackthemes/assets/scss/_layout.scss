@@ -1,4 +1,8 @@
 .page {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
   .wrapper {
     display: flex;
     width: 100%;
@@ -42,5 +46,8 @@
     @include breakpoint('small') {
       padding: 90px 20px 40px 20px;
     }
+  }
+  .footer {
+    justify-items: flex-end;
   }
 }

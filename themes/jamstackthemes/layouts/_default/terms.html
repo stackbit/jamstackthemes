@@ -1,14 +1,16 @@
 {{ define "main" }}
 <div class="main">
-  <div class="grids">
-    <ul>
+    {{ $themeCount := len .Pages }}
+  <div class="intro">
+    <h1>{{.Title}} <span class="count">({{ $themeCount }})</span></h1>
+  </div>
+  <div class="terms">
       {{ range .Pages }}
-        <li>
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-          {{ partial "term-card.html" (dict "term" . ) }}
-        </li>
+      <div class="term">
+        <img width="20" height="20" src="{{ .Page.Params.icon | relURL }}"/>
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      </div>
       {{ end }}
-    </ul>
   </div>
 </div>
 {{ end }}
