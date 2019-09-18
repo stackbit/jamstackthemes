@@ -13,6 +13,9 @@
     outline: none;
     margin-bottom: 5px;
     cursor: pointer;
+    @include breakpoint('small') {
+      margin-bottom: 0;
+    }
     &:hover {
       border-color: $primary;
     }
