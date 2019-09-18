@@ -49,6 +49,6 @@ Promise.all(themeFiles.map(file => loadTheme(file)))
     fs.writeFileSync('./data/themes.json', JSON.stringify(githubData, null, 2));
   })
   .catch(error => {
-    console.log(error.message);
+    console.log(error);
   });
 
