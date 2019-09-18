@@ -1,10 +1,14 @@
 .intro {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   h1 {
     font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 10px;
+    font-weight: 400;
+    margin-right: 20px;
+    margin-bottom: 0;
     @include breakpoint('small') {
-      font-size: 28px;
+      font-size: 26px;
     }
   }
   h2 {
@@ -16,17 +20,14 @@
 
     }
   }
-  .count {
-    font-weight: 400;
-    color: #666;
-  }
+
 }
 
 .page-home {
   .intro {
-    display: block;
-    @include breakpoint('small') {
-      display: none;
-    }
+    // display: block;
+    // @include breakpoint('small') {
+    //   display: none;
+    // }
   }
 }

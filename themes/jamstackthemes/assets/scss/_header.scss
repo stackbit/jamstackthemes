@@ -15,11 +15,18 @@
     padding: 0 20px;
     height: 60px;
   }
-  h2 {
+  .header-left {
+    display: flex;
+  }
+  > div {
+
+  }
+  h1 {
     margin: 0;
     font-size: 18px;
     font-weight: 700;
     font-family: $font_family_heading;
+    margin-right: 20px;
     @include breakpoint('small') {
       font-size: 22px;
     }

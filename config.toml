@@ -8,6 +8,7 @@ enableGitInfo = true
 [taxonomies]
   ssg =  "ssg"
   cms = "cms"
+  css = "css"
 
 [params]
     google_analytics_id = ""

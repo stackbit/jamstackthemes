@@ -19,21 +19,15 @@
     display: flex;
     flex-direction: column;
     @include breakpoint('small') {
-      width: 240px;
-      padding: 100px 20px 40px 20px;
+      width: 270px;
+      padding: 60px 0 40px 0;
     }
     h3 {
       font-size: 16px;
       font-weight: 700;
-      margin-bottom: 9px;
+      margin-bottom: 15px;
     }
     .intro {
-      display: none;
-      @include breakpoint('small') {
-        display: block;
-      }
-    }
-    .sort {
       display: none;
       @include breakpoint('small') {
         display: block;
@@ -44,7 +38,7 @@
     flex: 1;
     padding: 70px 20px 20px 20px;
     @include breakpoint('small') {
-      padding: 90px 20px 40px 20px;
+      padding: 80px 20px 40px 20px;
     }
   }
   .footer {

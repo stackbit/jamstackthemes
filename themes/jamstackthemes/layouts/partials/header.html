@@ -1,5 +1,11 @@
+{{ $themes := (where .Site.RegularPages "Type" "theme") }}
+{{ $themeCount := len $themes }}
+
 <div class="header">
-  <h2><a href="/">JAMStack Themes</a></h2>
+  <div class="header-left">
+    <h1><a href="/">JAMStack Themes</a></h1>
+  </div>
+
   <div class="submit">
     <a class="submit-button submit-button-mobile" href="https://github.com/stackbithq/jamstackthemes#submit-a-theme" target="_blank">Submit</a>
     <a class="submit-button submit-button-desktop" href="https://github.com/stackbithq/jamstackthemes#submit-a-theme" target="_blank">Submit Theme</a>

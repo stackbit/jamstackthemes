@@ -1,31 +1,63 @@
 .filters {
+  .filter {
+    border-bottom: 1px solid $grey;
+    padding: 10px;
+    @include breakpoint('small') {
+      padding: 20px;
+    }
+    &.closed {
+      .filter-group {
+        display: none;
+      }
+    }
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
   .filter-title {
     display: none;
+    cursor: pointer;
     @include breakpoint('small') {
       display: block;
     }
+    &.closed { 
+      margin: 0;
+      padding: 0;
+      span {
+        transform: rotate(270deg);
+      }
+    }
+    &:hover {
+      opacity: 0.7;
+    }
+    span {
+      // background: url("../images/icons/chevron-down-solid.svg");
+      // background-repeat: no-repeat;
+      width: 12px;
+      height: 16px;
+      float: right;
+      margin-top: 2px;
+      svg {
+        path {
+          fill: $primary;
+        }
+      }
+    }
   }
-  .filter-items {
+  .filter-group {
     margin: 0;
     padding: 0;
-    border-bottom: 1px solid $grey;
-    padding: 20px 10px 20px 10px;
-    @include breakpoint('small') {
-      padding: 0;
-      border: none;
-      margin-bottom: 20px;
-    }
     .filter-item {
       margin: 0;
       padding: 0;
       list-style: none;
       display: flex;
-      align-content: center;
+      align-items: center;
       justify-content: flex-start;
-      margin-bottom: 4px;
+      margin-bottom: 5px;
       .filter-icon {
-        width: 22px;
-        height: 22px;
+        width: 20px;
+        height: 20px;
         margin-right: 7px;
       }
       .filter-link {
@@ -41,6 +73,7 @@
       .filter-count {
         color: #666;
         line-height: 17px;
+
         @include breakpoint('small') {
           margin: 0 0 0 auto;
         }
@@ -67,9 +100,10 @@
     vertical-align: text-top;
     width: 20px;
     height: 20px;
-    // background: $grey;
-    border: 2px solid $grey;
+    background: lighten($grey,6%);
+    border: 2px solid darken($grey, 0%);
     border-radius: 3px;
+    // box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
   }
 
   // Box hover
@@ -115,4 +149,21 @@
       4px -6px 0 white, 4px -8px 0 white;
     transform: rotate(45deg);
   }
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 300ms;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }

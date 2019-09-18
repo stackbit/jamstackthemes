@@ -1,9 +1,4 @@
 .sort-buttons {
-  margin-bottom: 20px;
-  display: block;
-  @include breakpoint('small') {
-    display: none;
-  }
   button {
     padding: 5px;
     background: none;
@@ -13,10 +8,6 @@
     font-size: 12px;
     outline: none;
     cursor: pointer;
-    @include breakpoint('small') {
-      padding: 10px;
-      font-size: 13px;
-    }
     &:hover {
       border-color: $primary;
     }
@@ -24,7 +15,9 @@
       outline: none;
     }
     &.selected {
-      background: $grey;
+      border-color: $primary;
+      background: $primary;
+      color: white;
     }
   }
   
@@ -33,9 +26,10 @@
 .sort-radios {
   position: relative;
   display: none;
-  margin-bottom: 20px;
+  padding: 10px;
   @include breakpoint('small') {
     display: block;
+    padding: 20px;
   }
   .sort-line {
     margin-bottom: 5px;

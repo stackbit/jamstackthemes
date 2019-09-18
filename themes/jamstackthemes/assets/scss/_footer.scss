@@ -10,7 +10,11 @@
   .footer-column {
     margin-right: 50px;
   }
-  
+  .footer-column-brand {
+    @include breakpoint('small') {
+      width: 230px;
+    }
+  }
   ul {
     margin: 0;
     padding: 0;

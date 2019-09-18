@@ -1,8 +1,10 @@
 .terms {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
   .term {
     padding: 40px;
+    flex: 1;
     border: 1px solid $grey;
     margin: 10px;
     display: flex;

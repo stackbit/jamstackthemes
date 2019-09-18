@@ -24,12 +24,11 @@ $container.imagesLoaded().progress( function() {
 
 var filters = {};
 var data = $container.data('isotope');
-var $filterCount = $('.count-number');
+var $totalCount = $('.count-number');
 
 // Sorting Radio Inputs
 $('.sort').on( 'click', 'input', function() {
   var sortValue = $(this).attr('data-sort-value');
-  console.log(sortValue)
   $container.isotope({ sortBy: sortValue });
 });
 
@@ -44,27 +43,45 @@ $('.sort').on( 'click', 'button', function() {
 // Filters
 $('.filters').on('change', function(event) {
   var checkbox = event.target;
-  var $checkbox = $(checkbox);
-  var group = $checkbox.parents('.filter-items').attr('data-group');
-  // create array for filter group, if not there yet
+  var group = $(checkbox).parents('.filter-group').attr('data-group');
+
   var filterGroup = filters[group];
   if (!filterGroup) {
     filterGroup = filters[group] = [];
   }
+
   // add/remove filter
   if (checkbox.checked) {
-    // add filter
     filterGroup.push(checkbox.value);
   } else {
-    // remove filter
     var index = filterGroup.indexOf(checkbox.value);
     filterGroup.splice(index, 1);
   }
 
-  var comboFilter = getComboFilter();
-  $container.isotope({ filter: comboFilter });
-  updateFilterCount();
+  // Return a string of classes which Isotope will filter ie: '.gatsby.datocms'
+  var filter = concatValues(filters);
+  $container.isotope({ filter: filter });
+  
+  updateTotalCount();
+  updateFilterCounts();
+
+  $(window).scrollTop(0);
 });
+
+function concatValues( obj ) {
+  
+  var keys = Object.keys(obj);
+
+  const filterString = keys.map((key) => {
+    return filters[key].map((value) => {
+      return value;
+    }).join("");
+  }).join("");
+
+  console.log("Filter Result", filterString);
+
+  return filterString;
+}
 
 function getComboFilter() {
   var combo = [];
@@ -94,13 +111,34 @@ function getComboFilter() {
   return comboFilter;
 }
 
-function updateFilterCount() {
-  $filterCount.text( data.filteredItems.length );
+function updateTotalCount() {
+  $totalCount.text( data.filteredItems.length );
+}
+
+function updateFilterCounts()  {
+  var filteredItems = $container.isotope('getFilteredItemElements');
+  var $cmsCheckboxes = $('.filter-group').find('input[type="checkbox"]')
+
+  $cmsCheckboxes.each( function( i, checkbox ) {
+    var filterValue = checkbox.value;
+    var filterCount = $(filteredItems).filter( filterValue ).length;
+    var $count = $(checkbox).parent().siblings('.filter-count')
+    if (filterCount === parseInt($count.text())) {
+    } else {
+      $count.text(filterCount).hide().fadeIn()
+    }
+    
+  });
 }
 
 
+$(".filter-title").click(function() {
+  $(this).toggleClass("closed");
+  $(this).parent('.filter').toggleClass('closed');
+});
 
-// $(document).ready(function() {
-//   $(".relativetime").timeago();
-// });
+$(document).ready(function() {
+  $(".relativetime").timeago();
+  $('.tip').tipr();
+});
 

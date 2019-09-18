@@ -7,6 +7,7 @@ const sharp = require('sharp')
 
 const imageFolder = path.join(__dirname, 'static/capture');
 const outputFolder = path.join(__dirname, 'static/images/theme/thumbnail')
+const outputFolder2x = path.join(__dirname, 'static/images/theme/thumbnail/2x')
 const imageFiles = fs.readdirSync(imageFolder);
 
 console.log(`Generating thumbnails from images in ./static/capture'`)
@@ -17,6 +18,7 @@ imageFiles.forEach((image) => {
   const imageName = path.parse(image).name
   const imageExtension = path.parse(image).ext
   const outputImage = path.join(outputFolder, `${imageName}.jpg`)
+  const outputImage2x = path.join(outputFolder2x, `${imageName}-2x.jpg`)
 
   sharp(inputImage)
     .resize({
@@ -29,6 +31,21 @@ imageFiles.forEach((image) => {
       quality: 80,
     })
     .toFile(outputImage)
+    .then( (ImageResult) => {
+      console.log(ImageResult);
+    })
+
+  sharp(inputImage)
+    .resize({
+      width: 560,
+      height: 360,
+      fit: 'cover',
+      position: 'top',
+    })
+    .jpeg({
+      quality: 80,
+    })
+    .toFile(outputImage2x)
     .then( (ImageResult) => {
       console.log(ImageResult);
     })

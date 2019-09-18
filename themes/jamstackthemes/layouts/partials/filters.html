@@ -1,30 +1,68 @@
 <div class="filters">
-  <h3 class="filter-title">Static Site Generator</h3>
-  <ul class="filter-items" data-group="ssg">
-    {{ range .Site.Taxonomies.ssg }}
-    <li class="filter-item">
-      <div class="filter-icon">
-        {{ partial "icon.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
-      </div>
-      <span class="filter-checkbox"><input class="styled-checkbox" type="checkbox" value=".{{ .Page.Title | urlize }}"
-          id="checkbox-{{ .Page.Title }}" /><label for="checkbox-{{ .Page.Title }}"></label></span>
-      <span class="filter-link">{{ .Page.Title }}</span>
-      <span class="filter-count">{{ .Count }}</span>
-    </li>
-    {{ end }}
-  </ul>
-  <h3 class="filter-title">CMS</h3>
-  <ul class="filter-items" data-group="cms">
-    {{ range .Site.Taxonomies.cms }}
-    <li class="filter-item">
-      <div class="filter-icon">
-        {{ partial "icon.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
-      </div>
-      <span class="filter-checkbox"><input class="styled-checkbox" type="checkbox" value=".{{ .Page.Title | urlize }}"
-          id="checkbox-{{ .Page.Title }}" /><label for="checkbox-{{ .Page.Title }}"></label></span>
-      <span class="filter-link">{{ .Page.Title }}</span>
-      <span class="filter-count">{{ .Count }}</span>
-    </li>
-    {{ end }}
-  </ul>
+
+  {{ $themes := (where .Site.RegularPages "Type" "theme") }}
+  {{ $themeCount := len $themes }}
+
+  <div class="filter filter-ssg">
+    <h3 class="filter-title">Static Site Generator 
+      <span class="toggle-icon">
+        <svg viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+      </span>
+    </h3>
+    <ul class="filter-group filter-group-primary" data-group="ssg">
+      {{ range .Site.Taxonomies.ssg }}
+      <li class="filter-item">
+        <div class="filter-icon">
+          {{ partial "icon.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
+        </div>
+        <span class="filter-checkbox"><input class="styled-checkbox" type="checkbox" value=".{{ .Page.Title | urlize }}"
+            id="checkbox-{{ .Page.Title }}" /><label for="checkbox-{{ .Page.Title }}"></label></span>
+        <span class="filter-link">{{ .Page.Title }}</span>
+        <span class="filter-count">{{ .Count }}</span>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+
+  <div class="filter">
+    <h3 class="filter-title">CMS
+      <span class="toggle-icon">
+        <svg viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+      </span>
+    </h3>
+    <ul class="filter-group filter-group-secondary" data-group="cms">
+      {{ range .Site.Taxonomies.cms }}
+      <li class="filter-item">
+        <div class="filter-icon">
+          {{ partial "icon.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
+        </div>
+        <span class="filter-checkbox"><input class="styled-checkbox" type="checkbox" value=".{{ .Page.Title | urlize }}"
+            id="checkbox-{{ .Page.Title }}" /><label for="checkbox-{{ .Page.Title }}"></label></span>
+        <span class="filter-link">{{ .Page.Title }}</span>
+        <span class="filter-count">{{ .Count }}</span>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+
+  <div class="filter">
+      <h3 class="filter-title">CSS
+        <span class="toggle-icon">
+          <svg viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+        </span>
+      </h3>
+      <ul class="filter-group filter-group-secondary" data-group="css">
+        {{ range .Site.Taxonomies.css }}
+        <li class="filter-item">
+          <div class="filter-icon">
+            {{ partial "icon.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
+          </div>
+          <span class="filter-checkbox"><input class="styled-checkbox" type="checkbox" value=".{{ .Page.Title | urlize }}"
+              id="checkbox-{{ .Page.Title }}" /><label for="checkbox-{{ .Page.Title }}"></label></span>
+          <span class="filter-link">{{ .Page.Title }}</span>
+          <span class="filter-count">{{ .Count }}</span>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
 </div>
