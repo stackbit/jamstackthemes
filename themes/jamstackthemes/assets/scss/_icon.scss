@@ -1,13 +1,22 @@
-.icon {
+a.icon {
   vertical-align: middle;
   display: inline-block;
   position: relative;
-  a {
-    display: inline-block;
-    &:hover {
-      opacity: 0.7;
-    }
+  &:hover {
+    opacity: 0.7;
   }
+  img {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+span.icon {
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
   img {
     display: inline-block;
     vertical-align: bottom;

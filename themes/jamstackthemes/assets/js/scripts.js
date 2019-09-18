@@ -137,8 +137,8 @@ $(".filter-title").click(function() {
   $(this).parent('.filter').toggleClass('closed');
 });
 
-$(document).ready(function() {
-  $(".relativetime").timeago();
-  $('.tip').tipr();
-});
+// $(document).ready(function() {
+//   $(".relativetime").timeago();
+//   $('.tip').tipr();
+// });
 
