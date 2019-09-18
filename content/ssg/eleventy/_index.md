@@ -1,4 +1,4 @@
 ---
 title: "Eleventy"
-icon: images/icons/eleventy.svg
+icon: images/icons/eleventy.png
 ---
