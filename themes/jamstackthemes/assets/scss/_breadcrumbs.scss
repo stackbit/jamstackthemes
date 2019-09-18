@@ -1,15 +1,28 @@
-.breadcrumbs {
-  margin: 10px 0 20px 0;
+.breadcrumb {
   padding: 0;
   list-style: none;
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
+  align-items: center;
+  font-size: 16px;
+  padding: 0 15px;
+  margin-bottom: 20px;
   a {
     color: $primary;
+    padding: 8px;
+    &:first-of-type {
+      padding-left: 0;
+    }
+  }
+  span {
+  }
+  .end {
+    padding: 8px;
+    font-weight: bold;
   }
   li {
-    display: inline-flex;
+    
     &:not(:last-of-type) {
       &::after {
         content: '/';

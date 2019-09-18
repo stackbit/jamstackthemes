@@ -1,14 +1,20 @@
 .intro {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  flex-direction: column;
+  @include breakpoint('small') {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+  }
   h1 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     margin-right: 20px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     @include breakpoint('small') {
-      font-size: 26px;
+      font-size: 46px;
+      margin-bottom: 0px;
     }
   }
   h2 {
@@ -25,9 +31,10 @@
 
 .page-home {
   .intro {
-    // display: block;
-    // @include breakpoint('small') {
-    //   display: none;
-    // }
+    h1 {
+      @include breakpoint('small') {
+        font-size: 26px;
+      }
+    }
   }
 }

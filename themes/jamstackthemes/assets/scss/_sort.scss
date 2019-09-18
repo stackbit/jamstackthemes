@@ -1,4 +1,8 @@
 .sort-buttons {
+  margin-bottom: 10px;
+  @include breakpoint('small') {
+    margin-bottom: 0;
+  }
   button {
     padding: 5px;
     background: none;
@@ -7,6 +11,7 @@
     color: #000;
     font-size: 12px;
     outline: none;
+    margin-bottom: 5px;
     cursor: pointer;
     &:hover {
       border-color: $primary;

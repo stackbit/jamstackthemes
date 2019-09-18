@@ -4,17 +4,17 @@ $steel: #666666;
 $yellow: #f6d603;
 $blue: #57b8ff;
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&Roboto+Mono&display=swap');
+
 $font-family-base: 'Roboto', Helvetica, sans-serif;
 $font-family-heading: 'Roboto', Helvetica, sans-serif;
-$font-family-mono: 'monospace';
+$font-family-mono: 'Roboto Mono', monospace;
 
 $breakpoints: (
   'small':  415px,
   'medium': 992px,
   'large':  1200px
 );
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
 @import 'breakpoints';
 @import 'reset';
