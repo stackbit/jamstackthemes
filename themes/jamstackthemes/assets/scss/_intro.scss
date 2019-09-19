@@ -26,14 +26,40 @@
 
     }
   }
-
 }
 
-.page-home {
+.sidebar {
   .intro {
     h1 {
+      font-size: 16px;
+      font-weight: 400;
+      margin-right: 0;
+      margin-bottom: 10px;
       @include breakpoint('small') {
-        font-size: 26px;
+        font-size: 20px;
+        margin-bottom: 0px;
+      }
+    }
+    h2 {
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 400;
+      @include breakpoint('small') {
+        font-size: 16px;
+  
+      }
+    }
+  }
+}
+
+
+.page-home {
+  .main {
+    .intro {
+      h1 {
+        @include breakpoint('small') {
+          font-size: 26px;
+        }
       }
     }
   }
