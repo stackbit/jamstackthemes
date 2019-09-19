@@ -3,11 +3,12 @@
 {{ define "body_classes" }}page-home{{ end }}
 
 {{ define "meta_tags" }}
-<meta name="description" content="Find the perfect theme for your next JAMStack project." />
+<meta name="description" content="A gallery of JAMStack themes and starters." />
 <meta property="og:title" content="JAMStack Themes" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.jamstackthemes.dev" />
-<meta property="og:description" content="Find the perfect theme for your next JAMStack project." />
+<meta property="og:description" content="A gallery of JAMStack themes and starters." />
+<meta property="og:image" content="https://jamstackthemes.dev/images/jamstackthemes-screenshot.png">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@stackbithq" />
 <meta name="twitter:creator" content="@stackbithq" />
@@ -19,7 +20,7 @@
   {{ $themeCount := len $themes }}
   <div class="intro intro-desktop">
     <h1>Total Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
-    <p>A list of JAMStack themes and starters.</p>
+    <p>A gallery of JAMStack themes and starters.</p>
     {{ partial "sort-radios.html" . }}
   </div>
   {{ partial "filters.html" . }}
