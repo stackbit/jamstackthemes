@@ -3,11 +3,11 @@
 {{ define "body_classes" }}page-home{{ end }}
 
 {{ define "meta_tags" }}
-<meta name="description" content="A gallery of JAMStack themes and starters." />
+<meta name="description" content="A list of Themes and Starters for JAMStack Sites." />
 <meta property="og:title" content="JAMStack Themes" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.jamstackthemes.dev" />
-<meta property="og:description" content="A gallery of JAMStack themes and starters." />
+<meta property="og:description" content="A list of Themes and Starters for JAMStack Sites." />
 <meta property="og:image" content="https://jamstackthemes.dev/images/jamstackthemes-screenshot.png">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@stackbithq" />
@@ -19,15 +19,14 @@
 <div class="sidebar">
   {{ $themeCount := len $themes }}
   <div class="intro intro-desktop">
-    <h1>Total Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
-    <p>A gallery of JAMStack themes and starters.</p>
+    <p>A list of Themes and Starters for JAMStack Sites.</p>
     {{ partial "sort-radios.html" . }}
   </div>
   {{ partial "filters.html" . }}
   {{ partial "stackbit.html" . }}
 </div>
 <div class="main">
-  <div class="intro intro-mobile">
+  <div class="intro">
     <h1>Total Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
     {{ partial "sort-buttons.html" . }}
   </div>
