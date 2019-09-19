@@ -8,3 +8,5 @@ ssg:
 cms:
   - NoCms
 ---
+
+Jekyll theme based on Freelancer Start Bootstrap theme

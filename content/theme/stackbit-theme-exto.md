@@ -12,3 +12,5 @@ cms:
   - NetlifyCMS
   - Sanity
 ---
+
+Exto is a portfolio theme with a blog for Stackbit.

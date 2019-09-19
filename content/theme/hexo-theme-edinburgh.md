@@ -8,3 +8,5 @@ ssg:
 cms:
   - NoCms
 ---
+
+Beautiful minimal portfolio theme for Hexo.
