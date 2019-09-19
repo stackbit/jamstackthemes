@@ -14,7 +14,10 @@ var mixer = mixitup('.grids', {
   },
   callbacks: {
     onMixStart: function(state, futureState) {
-      console.log(futureState.activeFilter.selector);
+      console.log(futureState);
+      let total = futureState.totalShow;
+      let count = document.querySelector('.count-number');
+      count.textContent = total
     }
   }
 });
