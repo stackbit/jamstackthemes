@@ -1,5 +1,5 @@
 ---
-title: "Stackbit Theme Exto"
+title: "Exto"
 github: https://github.com/stackbithq/stackbit-theme-exto
 demo: https://themes.stackbit.com/demos/exto
 author: Stackbit

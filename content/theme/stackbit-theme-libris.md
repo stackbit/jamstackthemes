@@ -1,5 +1,5 @@
 ---
-title: "Stackbit Theme Libris"
+title: "Libris"
 github: https://github.com/stackbithq/stackbit-theme-libris
 demo: https://themes.stackbit.com/demos/libris/blue
 author: Stackbit

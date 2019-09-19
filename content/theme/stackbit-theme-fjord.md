@@ -1,5 +1,5 @@
 ---
-title: "Stackbit Theme Fjord"
+title: "Fjord"
 github: https://github.com/stackbithq/stackbit-theme-fjord
 demo: https://themes.stackbit.com/demos/fjord
 author: Stackbit
