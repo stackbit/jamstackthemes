@@ -35,13 +35,12 @@
   {{ partial "footer.html" . }}
 
   {{ $jquery := resources.Get "js/libs/jquery-3.4.1.min.js" }}
-  {{ $isotope := resources.Get "js/libs/isotope.pkgd.min.js" }}
+  {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
+  {{ $mixitupmultifilter := resources.Get "js/libs/mixitup-multifilter.js" }}
   {{ $imagesLoaded := resources.Get "js/libs/imagesloaded.pkgd.min.js" }}
-  {{ $timeago := resources.Get "js/libs/jquery.timeago.js" }}
-  {{ $tipr := resources.Get "js/libs/tipr.js" }}
-  {{ $scripts := resources.Get "js/scripts.js" }}
+  {{ $filter := resources.Get "js/filter.js" }}
 
-  {{ $js := slice $jquery $isotope $imagesLoaded $scripts | resources.Concat "js/bundle.js" }}
+  {{ $js := slice $jquery $mixitup $mixitupmultifilter $filter | resources.Concat "js/bundle.js" }}
   
   {{ if .Site.IsServer }}
   <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>

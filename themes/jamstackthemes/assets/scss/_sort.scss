@@ -22,7 +22,8 @@
     &:focus {
       outline: none;
     }
-    &.selected {
+    &.selected,
+    &.mixitup-control-active {
       border-color: $grey;
       background: $grey;
       color: black;
