@@ -6,3 +6,5 @@ author: WowThemesNet
 ssg:
   - Jekyll
 ---
+
+Affiliates - Jekyll Blogging Theme for Affiliate Marketers

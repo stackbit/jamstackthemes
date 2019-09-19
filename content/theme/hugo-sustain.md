@@ -6,3 +6,5 @@ author: Nurlan Su
 ssg:
   - Hugo
 ---
+
+Personal blog theme built with Bootstrap, powered by Hugo.

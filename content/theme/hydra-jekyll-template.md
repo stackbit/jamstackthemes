@@ -6,3 +6,5 @@ author: CloudCannon
 ssg:
   - Jekyll
 ---
+
+Product marketing template for Jekyll.

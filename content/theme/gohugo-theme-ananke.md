@@ -6,3 +6,5 @@ author: Bud Parr
 ssg:
   - Hugo
 ---
+
+Ananke, A theme for Hugo, a framework for building websites.

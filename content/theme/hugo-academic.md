@@ -6,3 +6,5 @@ author: gcushen
 ssg:
   - Hugo
 ---
+
+The website builder for Hugo. Build and deploy a beautiful website in minutes!

@@ -6,3 +6,5 @@ author: Martin Donath
 ssg:
   - MkDocs
 ---
+
+A Material Design theme for MkDocs
