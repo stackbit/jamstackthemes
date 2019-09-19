@@ -26,7 +26,23 @@
 
     }
   }
+  
 }
+
+.intro-desktop {
+  display: none;
+  @include breakpoint('small') {
+    display: block;
+  }
+}
+
+.intro-mobile {
+  display: block;
+  @include breakpoint('small') {
+    display: none;
+  }
+}
+
 
 .sidebar {
   .intro {
@@ -39,6 +55,9 @@
         font-size: 20px;
         margin-bottom: 0px;
       }
+    }
+    p {
+
     }
     h2 {
       font-size: 16px;

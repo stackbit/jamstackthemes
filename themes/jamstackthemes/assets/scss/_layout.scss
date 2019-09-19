@@ -27,12 +27,7 @@
       font-weight: 700;
       margin-bottom: 15px;
     }
-    .intro {
-      display: none;
-      @include breakpoint('small') {
-        display: block;
-      }
-    }
+
   }
   .main {
     flex: 1;
