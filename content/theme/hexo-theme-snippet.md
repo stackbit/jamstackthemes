@@ -5,4 +5,6 @@ demo: https://www.91h5.cc/
 author: Shenliyang
 ssg:
   - Hexo
+cms:
+  - NoCms
 ---

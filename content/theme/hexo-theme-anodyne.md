@@ -5,4 +5,6 @@ demo: http://www.codeblocq.com/assets/projects/hexo-theme-anodyne/
 author: Klughertz Jonathan
 ssg:
   - Hexo
+cms:
+  - NoCms
 ---

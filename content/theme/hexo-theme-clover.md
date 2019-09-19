@@ -5,4 +5,6 @@ demo: https://clovertuan.github.io/
 author: Shawn
 ssg:
   - Hexo
+cms:
+  - NoCms
 ---

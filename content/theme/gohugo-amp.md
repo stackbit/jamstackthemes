@@ -5,4 +5,6 @@ demo: https://gohugo-amp.gohugohq.com/
 author: Raphael Wildhaber
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

@@ -5,4 +5,6 @@ demo: http://attila.demo.arulraj.net/
 author: Arul
 ssg:
   - Pelican
+cms:
+  - NoCms
 ---

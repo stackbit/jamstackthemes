@@ -5,4 +5,6 @@ demo: https://breakfast.devlocker.io/
 author: Devlocker
 ssg:
   - Brunch
+cms:
+  - NoCms
 ---

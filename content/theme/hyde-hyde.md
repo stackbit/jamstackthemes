@@ -5,4 +5,6 @@ demo: https://themes.gohugo.io/theme/hyde-hyde/
 author: Huy Tran
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

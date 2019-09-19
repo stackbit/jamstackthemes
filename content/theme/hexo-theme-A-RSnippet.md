@@ -5,4 +5,6 @@ demo: http://arsnippet.yingjiehu.com/
 author: Yingjie
 ssg:
   - Hexo
+cms:
+  - NoCms
 ---

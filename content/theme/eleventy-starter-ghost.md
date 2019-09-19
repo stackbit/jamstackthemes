@@ -5,4 +5,6 @@ demo: https://eleventy.ghost.org/
 author: Ghost
 ssg:
   - Eleventy
+cms:
+  - Ghost
 ---

@@ -5,4 +5,6 @@ demo: https://2019.devfesttoulouse.fr/
 author: GDGToulouse
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

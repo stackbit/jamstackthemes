@@ -5,4 +5,6 @@ demo: https://themes.gohugo.io/theme/dot-hugo-documentation-theme/
 author: Themefisher
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

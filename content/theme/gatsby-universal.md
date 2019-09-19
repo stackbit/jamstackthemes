@@ -5,4 +5,6 @@ demo: https://gatsby-universal.netlify.com/
 author: Fabian Schultz
 ssg:
   - Gatsby
+cms:
+  - NoCms
 ---

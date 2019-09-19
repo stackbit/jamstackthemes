@@ -5,4 +5,6 @@ demo: https://gatsby-starter-business.netlify.com/
 author: Vaibhav Sharma
 ssg:
   - Gatsby
+cms:
+  - NoCms
 ---

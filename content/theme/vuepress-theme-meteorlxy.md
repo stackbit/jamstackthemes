@@ -5,4 +5,6 @@ demo: https://vuepress-theme-meteorlxy.meteorlxy.cn/
 author: meteorlxy
 ssg:
   - Vuepress
+cms:
+  - NoCms
 ---

@@ -5,4 +5,6 @@ demo: https://tranquilpeak.kakawait.com/
 author: kakawait
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

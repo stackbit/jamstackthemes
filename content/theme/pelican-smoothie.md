@@ -5,4 +5,6 @@ demo: https://kdheepak.com/
 author: Dheepak Krishnamurthy
 ssg:
   - Pelican
+cms:
+  - NoCms
 ---

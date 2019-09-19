@@ -5,6 +5,8 @@ demo: https://proud-alligator.cloudvent.net/
 author: CloudCannon
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---
 
 Product marketing template for Jekyll.

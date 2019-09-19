@@ -5,4 +5,6 @@ demo: http://obaez.com/dentistsmile/
 author: Obaez
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

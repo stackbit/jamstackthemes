@@ -5,4 +5,6 @@ demo: https://story.xaprb.com/
 author: Baron Schwartz
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

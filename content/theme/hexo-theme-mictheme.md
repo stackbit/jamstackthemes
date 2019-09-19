@@ -5,4 +5,6 @@ demo: http://miccall.tech/
 author: Mitro
 ssg:
   - Hexo
+cms:
+  - NoCms
 ---

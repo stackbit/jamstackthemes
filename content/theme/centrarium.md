@@ -5,4 +5,6 @@ demo: http://bencentra.com/centrarium/
 author: Bencentra
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

@@ -5,4 +5,6 @@ demo: https://themes.gohugo.io/theme/kross-hugo-portfolio-template/
 author: Theme Fisher
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

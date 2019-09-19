@@ -5,4 +5,6 @@ demo: https://ukn.me/
 author: viko16
 ssg:
   - Vuepress
+cms:
+  - NoCms
 ---

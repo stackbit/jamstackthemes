@@ -5,4 +5,6 @@ demo: https://themes.gohugo.io/theme/hugo-elate-theme/
 author: Pieter Saey
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

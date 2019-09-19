@@ -5,4 +5,6 @@ demo: https://huangyijie.com/
 author: Henry Huang
 ssg:
   - Hexo
+cms:
+  - NoCms
 ---

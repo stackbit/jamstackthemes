@@ -5,4 +5,6 @@ demo: http://shaneweng.com/landing-page-theme/
 author: Shane Weng
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

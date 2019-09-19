@@ -5,4 +5,6 @@ demo: http://yiluyanxia.site/
 author: Yiluyanxia
 ssg:
   - Hexo
+cms:
+  - NoCms
 ---

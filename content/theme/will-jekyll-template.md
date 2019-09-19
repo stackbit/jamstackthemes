@@ -5,4 +5,6 @@ demo: https://willianjusten.github.io/will-jekyll-template/
 author: Willianjusten
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

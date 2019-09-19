@@ -5,4 +5,6 @@ demo: https://nakorn.dev/vuepress-theme-bulma/
 author: Nakorn Sinpadung
 ssg:
   - Vuepress
+cms:
+  - NoCms
 ---

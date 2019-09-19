@@ -5,4 +5,6 @@ demo: https://demo.ghost.io/
 author: Daniel Bayerlein
 ssg:
   - Middleman
+cms:
+  - NoCms
 ---

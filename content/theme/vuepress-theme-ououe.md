@@ -5,4 +5,6 @@ demo: https://ououe.com/
 author: Qiang
 ssg:
   - Vuepress
+cms:
+  - NoCms
 ---

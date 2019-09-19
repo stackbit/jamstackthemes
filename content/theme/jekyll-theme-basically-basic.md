@@ -5,4 +5,6 @@ demo: https://mmistakes.github.io/jekyll-theme-basically-basic/
 author: Michael Rose
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

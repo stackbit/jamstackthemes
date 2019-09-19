@@ -5,4 +5,6 @@ demo: https://mmistakes.github.io/jekyll-theme-skinny-bones/
 author: Michael Rose
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

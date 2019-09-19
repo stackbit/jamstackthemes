@@ -5,4 +5,6 @@ demo: https://themes.gohugo.io/theme/hugo-universal-theme/
 author: adrianmo
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

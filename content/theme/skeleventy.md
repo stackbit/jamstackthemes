@@ -5,4 +5,6 @@ demo: https://skeleventy.netlify.com/
 author: Joseph Dyer
 ssg:
   - Eleventy
+cms:
+  - NoCms
 ---

@@ -5,6 +5,8 @@ demo: http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/
 author: BlackrockDigital
 ssg:
   - Jekyll
+cms:
+  - NoCms
 css:
   - Bootstrap
 ---

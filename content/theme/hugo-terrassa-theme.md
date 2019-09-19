@@ -5,4 +5,6 @@ demo: https://terrassa.netlify.com/
 author: Daniel Zaragoza
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

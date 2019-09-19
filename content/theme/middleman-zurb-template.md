@@ -5,4 +5,6 @@ demo: http://mattolson.com/
 author: Matt Olson
 ssg:
   - Middleman
+cms:
+  - NoCms
 ---

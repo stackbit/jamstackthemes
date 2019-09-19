@@ -5,4 +5,6 @@ demo: https://emilbaehr.github.io/automatic-app-landing-page/
 author: Emil Baehr
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

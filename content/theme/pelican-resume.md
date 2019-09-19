@@ -5,4 +5,6 @@ demo: https://suheb.in/resume/
 author: Suhaib Khan
 ssg:
   - Pelican
+cms:
+  - NoCms
 ---

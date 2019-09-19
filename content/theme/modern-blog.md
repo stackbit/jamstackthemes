@@ -5,4 +5,6 @@ demo: https://inded.xyz/Jekyll_modern-blog/
 author: Inded
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

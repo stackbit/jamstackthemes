@@ -5,4 +5,6 @@ demo: http://blog.sprabbit.com/hexo-theme-chan/
 author: JKenneth Teng
 ssg:
   - Hexo
+cms:
+  - NoCms
 ---

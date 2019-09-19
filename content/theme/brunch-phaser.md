@@ -5,4 +5,6 @@ demo: http://phaser.io/phaser3
 author: Samme
 ssg:
   - Brunch
+cms:
+  - NoCms
 ---

@@ -5,4 +5,6 @@ demo: https://friendlyuser.github.io/vuepress-theme-cool-starter/#disclaimer
 author: David Li
 ssg:
   - Vuepress
+cms:
+  - NoCms
 ---

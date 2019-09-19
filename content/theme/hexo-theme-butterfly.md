@@ -5,4 +5,6 @@ demo: https://jerryc.me/
 author: Jerry Wong
 ssg:
   - Hexo
+cms:
+  - NoCms
 ---

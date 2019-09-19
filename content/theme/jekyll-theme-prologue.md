@@ -5,4 +5,6 @@ demo: https://chrisbobbe.github.io/jekyll-theme-prologue/
 author: Chris Bobbe
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

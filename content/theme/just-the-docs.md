@@ -5,4 +5,6 @@ demo: https://pmarsceill.github.io/just-the-docs/
 author: Patrick Marsceill
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

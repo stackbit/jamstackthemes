@@ -5,4 +5,6 @@ demo: https://sharvaridesai.github.io/hexo-theme-edinburgh-demo/
 author: Sharvari Desai
 ssg:
   - Hexo
+cms:
+  - NoCms
 ---

@@ -5,4 +5,6 @@ demo: https://themes.gohugo.io/theme/hugo-faq-theme/
 author: Pavel Kanyshev
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

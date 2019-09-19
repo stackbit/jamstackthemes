@@ -5,4 +5,6 @@ demo: https://mattvh.github.io/solar-theme-jekyll/
 author: Matt Harzewski
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

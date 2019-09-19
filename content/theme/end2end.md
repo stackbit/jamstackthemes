@@ -5,4 +5,6 @@ demo: https://nandomoreirame.github.io/end2end/
 author: Fernando Moreira
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

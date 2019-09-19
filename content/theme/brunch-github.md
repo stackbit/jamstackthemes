@@ -5,4 +5,6 @@ demo: https://brunch.io/
 author: Brunch
 ssg:
   - Brunch
+cms:
+  - NoCms
 ---

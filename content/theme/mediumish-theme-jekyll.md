@@ -5,4 +5,6 @@ demo: https://wowthemesnet.github.io/mediumish-theme-jekyll/
 author: WowThemesNet
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

@@ -5,4 +5,6 @@ demo: https://themes.gohugo.io/theme/navigator-hugo/en
 author: Theme Fisher
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

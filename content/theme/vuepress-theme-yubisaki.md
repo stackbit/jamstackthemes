@@ -5,4 +5,6 @@ demo: https://wuwaki.me/yubisaki/intro.html
 author: Yubisaki
 ssg:
   - Vuepress
+cms:
+  - NoCms
 ---

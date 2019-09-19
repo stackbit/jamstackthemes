@@ -5,4 +5,6 @@ demo: https://themes.gohugo.io/theme/forty/
 author: Marcus Virginia
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

@@ -5,6 +5,8 @@ demo: https://squidfunk.github.io/mkdocs-material/
 author: Martin Donath
 ssg:
   - MkDocs
+cms:
+  - NoCms
 ---
 
 A Material Design theme for MkDocs

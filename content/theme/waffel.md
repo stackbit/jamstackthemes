@@ -5,4 +5,6 @@ demo: https://moonwave99.github.io/waffel/
 author: Diego Caponera
 ssg:
   - Brunch
+cms:
+  - NoCms
 ---

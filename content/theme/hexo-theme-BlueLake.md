@@ -5,4 +5,6 @@ demo: https://chaoo.oschina.io/
 author: Chaooo
 ssg:
   - Hexo
+cms:
+  - NoCms
 ---

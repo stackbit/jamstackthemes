@@ -5,4 +5,6 @@ demo: https://fongandrew.github.io/hydeout/
 author: Andrew Fong
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

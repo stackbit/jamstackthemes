@@ -5,4 +5,6 @@ demo: https://elegant.oncrashreboot.com/
 author: Pelican-Elegant
 ssg:
   - Pelican
+cms:
+  - NoCms
 ---

@@ -5,4 +5,6 @@ demo: http://artemsheludko.com/flexible-jekyll/
 author: Artem Sheludko
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

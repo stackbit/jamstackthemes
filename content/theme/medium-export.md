@@ -5,4 +5,6 @@ demo: https://rss-jamstack.netlify.com/
 author: Phil Hawksworth
 ssg:
   - Eleventy
+cms:
+  - NoCms
 ---

@@ -5,6 +5,8 @@ demo: https://y7kim.github.io/agency-jekyll-theme/
 author: Rick K
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---
 
 Agency Theme for Jekyll

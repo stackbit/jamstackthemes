@@ -5,4 +5,6 @@ demo: https://themes.gohugo.io/theme/hugo-now-ui/
 author: Carl Boettiger
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

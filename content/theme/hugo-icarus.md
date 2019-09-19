@@ -5,4 +5,6 @@ demo: https://themes.gohugo.io/theme/hugo-icarus/
 author: Digitalcraftsman
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

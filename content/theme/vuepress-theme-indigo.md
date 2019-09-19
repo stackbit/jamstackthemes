@@ -5,4 +5,6 @@ demo: https://yscoder.github.io/vuepress-theme-indigo/
 author: Yusen
 ssg:
   - Vuepress
+cms:
+  - NoCms
 ---

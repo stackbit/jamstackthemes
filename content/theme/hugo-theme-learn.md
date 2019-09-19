@@ -5,4 +5,6 @@ demo: https://learn.netlify.com/en/
 author: matcornic
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

@@ -5,4 +5,6 @@ demo: https://yelog.org/
 author: Chris Yang
 ssg:
   - Hexo
+cms:
+  - NoCms
 ---

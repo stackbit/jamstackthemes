@@ -10,4 +10,5 @@ cms:
   - Contentful
   - NetlifyCMS
   - Forestry
+  - Sanity
 ---

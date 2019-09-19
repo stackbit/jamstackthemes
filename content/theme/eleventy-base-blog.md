@@ -5,4 +5,6 @@ demo: https://eleventy-base-blog.netlify.com/
 author: 11ty
 ssg:
   - Eleventy
+cms:
+  - NoCms
 ---

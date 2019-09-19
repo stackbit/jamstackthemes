@@ -5,4 +5,6 @@ demo: https://gatsby-starter-blog-demo.netlify.com/
 author: Kyle Mathews
 ssg:
   - Gatsby
+cms:
+  - NoCms
 ---

@@ -5,4 +5,6 @@ demo: https://themes.gohugo.io/theme/hugo-icon/
 author: Steve Lane
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

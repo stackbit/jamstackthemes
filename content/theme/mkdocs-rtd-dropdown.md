@@ -5,4 +5,6 @@ demo: http://readthedocs.sheets.ch/
 author: Chad Sheets
 ssg:
   - MkDocs
+cms:
+  - NoCms
 ---

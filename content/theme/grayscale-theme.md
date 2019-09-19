@@ -5,4 +5,6 @@ demo: http://jeromelachaud.com/grayscale-theme/
 author: Jeromelachaud
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

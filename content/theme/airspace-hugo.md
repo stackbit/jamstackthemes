@@ -5,4 +5,6 @@ demo: http://demo.themefisher.com/airspace-hugo/
 author: Themefisher
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

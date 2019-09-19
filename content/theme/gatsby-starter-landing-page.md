@@ -5,4 +5,6 @@ demo: https://gatsby-starter-landing-page.netlify.com/
 author: Kyle Gill
 ssg:
   - Gatsby
+cms:
+  - NoCms
 ---

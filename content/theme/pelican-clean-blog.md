@@ -5,4 +5,6 @@ demo: http://gilsondev.github.io/pelican-clean-blog/
 author: Gilson Filho
 ssg:
   - Pelican
+cms:
+  - NoCms
 ---

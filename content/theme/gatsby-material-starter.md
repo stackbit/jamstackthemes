@@ -5,4 +5,6 @@ demo: https://vagr9k.github.io/gatsby-material-starter/
 author: Ruben Harutyunyan
 ssg:
   - Gatsby
+cms:
+  - NoCms
 ---

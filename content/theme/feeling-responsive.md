@@ -5,4 +5,6 @@ demo: https://phlow.github.io/feeling-responsive/
 author: Phlow
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

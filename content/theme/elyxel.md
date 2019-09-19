@@ -5,4 +5,6 @@ demo: https://www.elyxel.com/
 author: Matthew Achariam
 ssg:
   - Brunch
+cms:
+  - NoCms
 ---

@@ -5,4 +5,6 @@ demo: https://sparanoid.com/lab/amsf/
 author: Tunghsiao Liu
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

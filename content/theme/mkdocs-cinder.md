@@ -5,4 +5,6 @@ demo: https://sourcefoundry.org/cinder/
 author: Chris Simpkins
 ssg:
   - MkDocs
+cms:
+  - NoCms
 ---

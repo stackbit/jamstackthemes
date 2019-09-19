@@ -5,4 +5,6 @@ demo: https://snipcart-11ty-demo.netlify.com/
 author: Snipcart
 ssg:
   - Eleventy
+cms:
+  - NoCms
 ---

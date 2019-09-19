@@ -5,4 +5,6 @@ demo: https://emilia.lekoarts.de
 author: LekoArts
 ssg:
   - Gatsby
+cms:
+  - NoCms
 ---

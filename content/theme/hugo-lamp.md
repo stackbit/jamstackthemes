@@ -5,4 +5,6 @@ demo: https://themes.gohugo.io/theme/hugo-lamp/
 author: Huy Ng
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

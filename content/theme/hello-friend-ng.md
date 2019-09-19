@@ -5,4 +5,6 @@ demo: https://themes.gohugo.io/theme/hugo-theme-hello-friend-ng/
 author: Djordje Atlialp
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

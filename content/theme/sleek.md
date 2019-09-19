@@ -5,4 +5,6 @@ demo: https://janczizikow.github.io/sleek/
 author: Jan Czizikow
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

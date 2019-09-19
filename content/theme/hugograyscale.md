@@ -5,4 +5,6 @@ demo: https://runningstream.github.io/hugograyscale/
 author: runningstream
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

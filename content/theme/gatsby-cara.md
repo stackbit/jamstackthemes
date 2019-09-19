@@ -5,4 +5,6 @@ demo: https://cara.lekoarts.de/
 author: LekoArts
 ssg:
   - Gatsby
+cms:
+  - NoCms
 ---

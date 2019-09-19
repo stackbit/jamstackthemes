@@ -5,4 +5,6 @@ demo: https://aria.ismyonly.one/
 author: Alynx Zhou
 ssg:
   - Hexo
+cms:
+  - NoCms
 ---

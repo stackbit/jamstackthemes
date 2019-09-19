@@ -5,4 +5,6 @@ demo: https://themes.gohugo.io/theme/hallo-hugo/
 author: Emiel Hollander
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

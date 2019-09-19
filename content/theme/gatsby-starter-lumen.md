@@ -5,4 +5,6 @@ demo: https://lumen.netlify.com/
 author: Alexander Shelepenok
 ssg:
   - Gatsby
+cms:
+  - NoCms
 ---

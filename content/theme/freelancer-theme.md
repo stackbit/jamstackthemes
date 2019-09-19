@@ -5,4 +5,6 @@ demo: http://jeromelachaud.com/freelancer-theme/
 author: Jerome Lachaud
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

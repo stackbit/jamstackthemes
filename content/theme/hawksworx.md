@@ -5,4 +5,6 @@ demo: https://www.hawksworx.com/
 author: Phil Hawksworth
 ssg:
   - Eleventy
+cms:
+  - NoCms
 ---

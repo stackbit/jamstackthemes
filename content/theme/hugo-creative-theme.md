@@ -5,4 +5,6 @@ demo: https://themes.gohugo.io/theme/creative/
 author: Digitalcraftsman
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

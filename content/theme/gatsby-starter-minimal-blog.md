@@ -5,4 +5,6 @@ demo: https://minimal-blog.lekoarts.de/
 author: LekoArts
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

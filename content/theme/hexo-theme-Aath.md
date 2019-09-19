@@ -5,4 +5,6 @@ demo: http://lewis.suclub.cn/
 author: Yang Liu
 ssg:
   - Hexo
+cms:
+  - NoCms
 ---

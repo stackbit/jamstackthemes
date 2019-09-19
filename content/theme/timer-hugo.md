@@ -5,4 +5,6 @@ demo: https://themes.gohugo.io/theme/timer-hugo/
 author: Themefisher
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

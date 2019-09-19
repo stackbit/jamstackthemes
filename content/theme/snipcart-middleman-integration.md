@@ -5,4 +5,6 @@ demo: https://snipcart-middleman.netlify.com/
 author: Snipcart
 ssg:
   - Middleman
+cms:
+  - NoCms
 ---

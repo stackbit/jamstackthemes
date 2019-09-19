@@ -5,4 +5,6 @@ demo: https://parmsang.github.io/gatsby-starter-ecommerce/
 author: Parminder Sanghera
 ssg:
   - Gatsby
+cms:
+  - NoCms
 ---

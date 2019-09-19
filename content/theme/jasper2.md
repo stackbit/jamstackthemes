@@ -5,4 +5,6 @@ demo: https://jekyller.github.io/jasper2/
 author: Fábio Madeira
 ssg:
   - Jekyll
+cms:
+  - NoCms
 ---

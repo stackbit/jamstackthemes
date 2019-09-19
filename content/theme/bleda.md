@@ -5,4 +5,6 @@ demo: https://gridsome-starter-bleda.netlify.com/
 author: Cosmin Popovici
 ssg:
   - Gridsome
+cms:
+  - NoCms
 ---

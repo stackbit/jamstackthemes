@@ -5,4 +5,6 @@ demo: https://themes.gohugo.io/theme/parsa-hugo-personal-blog-theme/
 author: Themefisher
 ssg:
   - Hugo
+cms:
+  - NoCms
 ---

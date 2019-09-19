@@ -5,4 +5,6 @@ demo: https://whoan.me/
 author: Juan Eugenio Abadie
 ssg:
   - Vuepress
+cms:
+  - NoCms
 ---
