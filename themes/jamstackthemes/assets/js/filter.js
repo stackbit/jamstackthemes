@@ -3,7 +3,7 @@ var mixer = mixitup('.grids', {
     enable: true // enable the multifilter extension for the mixer
   },
   animation: {
-    enable: true,
+    enable: false,
     duration: 500,
     nudge: true,
     reverseOut: false,
@@ -14,7 +14,6 @@ var mixer = mixitup('.grids', {
   },
   callbacks: {
     onMixStart: function(state, futureState) {
-      console.log(futureState);
       let total = futureState.totalShow;
       let count = document.querySelector('.count-number');
       count.textContent = total
