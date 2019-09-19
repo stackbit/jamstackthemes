@@ -4,7 +4,7 @@
   <div class="theme">
 
     <div class="theme-container">
-      <a class="theme-overlay" href="{{ .theme.Params.github }}" title="{{ .theme.Params.github }}" target="_blank"></a>
+      <a class="theme-overlay" href="{{ .theme.Params.github }}" title="{{ .theme.Params.github }}" target="_blank" rel="noopener"></a>
       <div class="theme-header">
           {{ if .theme.Params.thumbnail }}
             <img loading="lazy" src="{{ .theme.Params.thumbnail | relURL }}" alt="{{ .theme.Params.title }} screenshot" />

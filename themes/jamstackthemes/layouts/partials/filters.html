@@ -16,7 +16,7 @@
           {{ partial "icon.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
         </div>
         <span class="filter-checkbox">
-          <input name="checkbox-{{ .Page.Title | urlize }}" class="styled-checkbox" type="checkbox" value=".{{ .Page.Title | urlize }}" id="checkbox-{{ .Page.Title | urlize }}" />
+          <input aria-label="{{ .Page.Title }}" name="checkbox-{{ .Page.Title | urlize }}" class="styled-checkbox" type="checkbox" value=".{{ .Page.Title | urlize }}" id="checkbox-{{ .Page.Title | urlize }}" />
           <label for="checkbox-{{ .Page.Title | urlize }}"></label>
         </span>
         <span class="filter-link">{{ .Page.Title }}</span>
@@ -39,7 +39,7 @@
           {{ partial "icon.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
         </div>
         <span class="filter-checkbox">
-          <input name="checkbox-{{ .Page.Title | urlize }}" class="styled-checkbox" type="checkbox" value=".{{ .Page.Title | urlize }}" id="checkbox-{{ .Page.Title | urlize }}" />
+          <input aria-label="{{ .Page.Title }}" name="checkbox-{{ .Page.Title | urlize }}" class="styled-checkbox" type="checkbox" value=".{{ .Page.Title | urlize }}" id="checkbox-{{ .Page.Title | urlize }}" />
           <label for="checkbox-{{ .Page.Title | urlize }}"></label>
         </span>
         <span class="filter-link">{{ .Page.Title }}</span>
