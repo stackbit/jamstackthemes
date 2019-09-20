@@ -1,6 +1,8 @@
 var mixer = mixitup('.grids', {
   multifilter: {
-    enable: true // enable the multifilter extension for the mixer
+    enable: true,
+    logicWithinGroup: 'or',
+    logicBetweenGroups: 'and'
   },
   animation: {
     enable: false,
@@ -14,16 +16,20 @@ var mixer = mixitup('.grids', {
   },
   callbacks: {
     onMixEnd: function(state) {
+      console.log(state);
       let total = state.totalShow;
       let count = document.querySelector('.count-number');
       count.textContent = total
-      updateFilterCounts(state.matching);
+      updateFilterCounts(state);
     }
   }
 });
 
 
-function updateFilterCounts(themes) {
+function updateFilterCounts(state) {
+
+  let themes = state.matching;
+  let active = state.activeFilter.selector.split(' ').map((classes) => classes.slice(1));
   let checkboxes = document.querySelectorAll('input[type="checkbox"]')
 
   checkboxes.forEach((checkbox) => {
