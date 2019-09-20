@@ -41,29 +41,23 @@
     </div>
     
     <div class="theme-footer">
-      <div class="theme-tags">
 
         {{ if .theme.Params.ssg }}
-        <div class="tags">
           {{- range .theme.Params.ssg }}
             {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
               {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
             {{ end }}
           {{ end }}
-        </div>
         {{ end }}
 
         {{ if .theme.Params.cms }}
-        <div class="tags">
           {{- range .theme.Params.cms }}
             {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
               {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
             {{ end }}
           {{ end }}
-        </div>
         {{ end }}
       </div>
+
     </div>
-    
-  </div>
 </div>
