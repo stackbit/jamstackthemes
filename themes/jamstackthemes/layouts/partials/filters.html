@@ -20,7 +20,7 @@
           <label for="checkbox-{{ .Page.Title | urlize }}"></label>
         </span>
         <span class="filter-link">{{ .Page.Title }}</span>
-        <span class="filter-count">{{ .Count }}</span>
+        <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ .Count }}</span>
       </li>
       {{ end }}
     </ul>
@@ -43,7 +43,7 @@
           <label for="checkbox-{{ .Page.Title | urlize }}"></label>
         </span>
         <span class="filter-link">{{ .Page.Title }}</span>
-        <span class="filter-count">{{ .Count }}</span>
+        <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ .Count }}</span>
       </li>
       {{ end }}
     </ul>
