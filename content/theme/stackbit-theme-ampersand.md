@@ -4,7 +4,9 @@ github: https://github.com/stackbithq/stackbit-theme-ampersand
 demo: https://themes.stackbit.com/demos/ampersand
 author: Stackbit
 ssg:
-  - Unibit
+  - Hugo
+  - Gatsby
+  - Jekyll
 cms:
   - Contentful
   - DatoCMS

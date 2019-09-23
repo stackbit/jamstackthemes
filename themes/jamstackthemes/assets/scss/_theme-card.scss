@@ -69,9 +69,14 @@
     background: #f5f5f5;
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
     a {
-      padding: 10px 10px;
+      padding: 6px;
       border-right: 1px solid $grey;
+      border-bottom: 1px solid $grey;
+      &:last-of-type {
+        border-right: none;
+      }
     }
   }
 }

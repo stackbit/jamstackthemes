@@ -4,7 +4,9 @@ github: https://github.com/stackbithq/stackbit-theme-azimuth
 demo: https://themes.stackbit.com/demos/azimuth
 author: Stackbit
 ssg:
-  - Unibit
+  - Hugo
+  - Gatsby
+  - Jekyll
 cms:
   - Contentful
   - DatoCMS

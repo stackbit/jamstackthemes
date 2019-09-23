@@ -4,7 +4,9 @@ github: https://github.com/stackbithq/stackbit-theme-hyperspace
 demo: https://themes.stackbit.com/demos/hyperspace/blue
 author: Stackbit
 ssg:
-  - Unibit
+  - Hugo
+  - Gatsby
+  - Jekyll
 cms:
   - Contentful
   - DatoCMS

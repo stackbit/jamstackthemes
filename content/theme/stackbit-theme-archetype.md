@@ -4,7 +4,9 @@ github: https://github.com/stackbithq/stackbit-theme-archetype
 demo: https://themes.stackbit.com/demos/archetype/blue
 author: Stackbit
 ssg:
-  - Unibit
+  - Hugo
+  - Gatsby
+  - Jekyll
 cms:
   - Contentful
   - DatoCMS

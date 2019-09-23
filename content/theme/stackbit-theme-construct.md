@@ -4,7 +4,9 @@ github: https://github.com/stackbithq/stackbit-theme-construct
 demo: https://themes.stackbit.com/demos/construct/blue
 author: Stackbit
 ssg:
-  - Unibit
+  - Hugo
+  - Gatsby
+  - Jekyll
 cms:
   - Contentful
   - DatoCMS

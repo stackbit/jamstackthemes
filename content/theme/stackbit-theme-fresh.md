@@ -4,7 +4,9 @@ github: https://github.com/stackbithq/stackbit-theme-fresh
 demo: https://themes.stackbit.com/demos/fresh
 author: Stackbit
 ssg:
-  - Unibit
+  - Hugo
+  - Gatsby
+  - Jekyll
 cms:
   - Contentful
   - DatoCMS

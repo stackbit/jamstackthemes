@@ -4,7 +4,9 @@ github: https://github.com/stackbithq/stackbit-theme-libris
 demo: https://themes.stackbit.com/demos/libris/blue
 author: Stackbit
 ssg:
-  - Unibit
+  - Hugo
+  - Gatsby
+  - Jekyll
 cms:
   - Contentful
   - DatoCMS

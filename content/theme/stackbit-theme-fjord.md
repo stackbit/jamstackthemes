@@ -4,7 +4,9 @@ github: https://github.com/stackbithq/stackbit-theme-fjord
 demo: https://themes.stackbit.com/demos/fjord
 author: Stackbit
 ssg:
-  - Unibit
+  - Hugo
+  - Gatsby
+  - Jekyll
 cms:
   - Contentful
   - DatoCMS
