@@ -13,8 +13,7 @@
     max-width: 312px;
     margin-bottom: 15px;
     @include breakpoint('small') {
-      padding: 15px;
-      margin: 0;
+      margin: 15px;
     }
   }
 }

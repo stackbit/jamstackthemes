@@ -6,7 +6,7 @@
       padding: 20px;
     }
     &.closed {
-      .filter-group {
+      .filter-list {
         display: none;
       }
     }
@@ -44,7 +44,7 @@
       }
     }
   }
-  .filter-group {
+  .filter-list {
     margin: 0;
     padding: 0;
     .filter-item {
@@ -55,6 +55,32 @@
       align-items: center;
       justify-content: flex-start;
       margin-bottom: 10px;
+      .filter-button {
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: text-top;
+        width: 20px;
+        height: 20px;
+        background: lighten($grey,6%);
+        border: 2px solid darken($grey, 0%);
+        border-radius: 3px;
+        cursor: pointer;
+        &:hover {
+          border: 2px solid $primary;
+        }
+        &.mixitup-control-active {
+          background: $primary;
+          border: 2px solid $primary;
+          background-image: url("../images/icons/check-solid.svg");
+          background-size: 12px 12px;
+          background-position: center center;
+          background-repeat: no-repeat;
+        }
+        &:focus {
+          outline: none;
+        }
+      }
       .filter-icon {
         width: 20px;
         height: 20px;

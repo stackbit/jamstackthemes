@@ -1,0 +1,119 @@
+.styled-radio {
+  &:checked,
+  &:not(:checked) {
+      position: absolute;
+      left: -9999px;
+  }
+  &:checked + label,
+  &:not(:checked) + label
+  {
+      position: relative;
+      padding-left: 28px;
+      cursor: pointer;
+      line-height: 20px;
+      display: inline-block;
+  }
+  &:checked + label:before,
+  &:not(:checked) + label:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 20px;
+      height: 20px;
+      border: 2px solid $grey;
+      border-radius: 100%;
+      background: #fff;
+  }
+  &:checked + label:after,
+  &:not(:checked) + label:after {
+      content: '';
+      width: 12px;
+      height: 12px;
+      background: $primary;
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      border-radius: 100%;
+  }
+  &:not(:checked) + label:after {
+      opacity: 0;
+      -webkit-transform: scale(0);
+      transform: scale(0);
+  }
+  &:checked + label:after {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+  }
+}
+
+
+.styled-checkbox {
+  position: absolute; // take it out of document flow
+  opacity: 0; // hide it
+
+  & + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  // Box.
+  & + label:before {
+    content: '';
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 20px;
+    background: lighten($grey,6%);
+    border: 2px solid darken($grey, 0%);
+    border-radius: 3px;
+    // box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+  }
+
+  // Box hover
+  &:hover + label:before {
+    // background: #f35429;
+    // box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+    border: 2px solid $primary;
+  }
+
+  // Box focus
+  &:focus + label:before {
+    // box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+  }
+
+  // Box checked
+  &:checked + label:before {
+    background: $primary;
+    border: 2px solid $primary;
+  }
+
+  // Disabled state label.
+  &:disabled + label {
+    color: #b8b8b8;
+    cursor: auto;
+  }
+
+  // Disabled box.
+  &:disabled + label:before {
+    box-shadow: none;
+    background: #ddd;
+  }
+
+  // Checkmark. Could be replaced with an image
+  &:checked + label:after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 9px;
+    background: white;
+    width: 2px;
+    height: 2px;
+    box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white,
+      4px -6px 0 white, 4px -8px 0 white;
+    transform: rotate(45deg);
+  }
+}

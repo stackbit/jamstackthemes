@@ -1,12 +1,11 @@
 
 <div
-  class="grid {{ range .theme.Params.ssg }}{{ . | urlize }} {{end}}{{ range .theme.Params.cms }}{{ . | urlize }} {{end}}"
+  class="grid theme {{ range .theme.Params.ssg }}{{ . | urlize }} {{end}}{{ range .theme.Params.cms }}{{ . | urlize }} {{end}}"
   data-stars="{{ .repo.stars }}"
   data-last-commit="{{ .repo.last_commit }}"
   data-name="{{ .theme.Params.Title | urlize }}"
   data-submitted="{{ .theme.Lastmod.Format "Jan 2, 2006" }}"
 >
-  <div class="theme">
 
     <div class="theme-container">
       <a class="theme-overlay" href="{{ .theme.Params.github }}" title="{{ .theme.Params.github }}" target="_blank" rel="noopener"></a>
@@ -57,7 +56,6 @@
             {{ end }}
           {{ end }}
         {{ end }}
-      </div>
-
     </div>
+
 </div>

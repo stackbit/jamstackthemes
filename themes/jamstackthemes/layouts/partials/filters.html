@@ -3,22 +3,17 @@
   {{ $themes := (where .Site.RegularPages "Type" "theme") }}
   {{ $themeCount := len $themes }}
 
-  <div class="filter" data-filter-group data-filter-group="ssg">
+  <div id="filter-group-ssg" class="filter filter-group-ssg" data-filter-group="ssg">
     <h3 class="filter-title">Static Site Generator 
       <span class="toggle-icon">
         <svg viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
       </span>
     </h3>
-    <ul class="filter-group">
+    <ul class="filter-list">
       {{ range .Site.Taxonomies.ssg }}
-      <li class="filter-item">
-        <div class="filter-icon">
-          {{ partial "icon.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
-        </div>
-        <span class="filter-checkbox">
-          <input aria-label="{{ .Page.Title }}" name="checkbox-{{ .Page.Title | urlize }}" class="styled-checkbox" type="checkbox" value=".{{ .Page.Title | urlize }}" id="checkbox-{{ .Page.Title | urlize }}" />
-          <label for="checkbox-{{ .Page.Title | urlize }}"></label>
-        </span>
+      <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
+        {{ partial "icon.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
+        <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
         <span class="filter-link">{{ .Page.Title }}</span>
         <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ .Count }}</span>
       </li>
@@ -26,22 +21,17 @@
     </ul>
   </div>
 
-  <div class="filter" data-filter-group data-filter-group="ssg">
+  <div id="filter-group-cms" class="filter filter-group-cms" data-filter-group="cms">
     <h3 class="filter-title">CMS
       <span class="toggle-icon">
         <svg viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
       </span>
     </h3>
-    <ul class="filter-group">
+    <ul class="filter-list">
       {{ range .Site.Taxonomies.cms }}
-      <li class="filter-item">
-        <div class="filter-icon">
-          {{ partial "icon.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
-        </div>
-        <span class="filter-checkbox">
-          <input aria-label="{{ .Page.Title }}" name="checkbox-{{ .Page.Title | urlize }}" class="styled-checkbox" type="checkbox" value=".{{ .Page.Title | urlize }}" id="checkbox-{{ .Page.Title | urlize }}" />
-          <label for="checkbox-{{ .Page.Title | urlize }}"></label>
-        </span>
+      <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
+        {{ partial "icon.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
+        <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
         <span class="filter-link">{{ .Page.Title }}</span>
         <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ .Count }}</span>
       </li>
