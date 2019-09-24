@@ -18,7 +18,7 @@
 {{ $themes := (where .Site.RegularPages "Type" "theme") }}
 <div class="sidebar">
   {{ $themeCount := len $themes }}
-  <div class="intro intro-desktop">
+  <div class="blurb">
     <p>A list of Themes and Starters for JAMstack Sites.</p>
   </div>
   {{ partial "filters.html" . }}
