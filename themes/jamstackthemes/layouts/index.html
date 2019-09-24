@@ -1,13 +1,13 @@
-{{ define "title" }}JAMStack Themes{{ end}}
+{{ define "title" }}JAMstack Themes{{ end}}
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-home{{ end }}
 
 {{ define "meta_tags" }}
-<meta name="description" content="A list of Themes and Starters for JAMStack Sites." />
-<meta property="og:title" content="JAMStack Themes" />
+<meta name="description" content="A list of Themes and Starters for JAMstack Sites." />
+<meta property="og:title" content="JAMstack Themes" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.jamstackthemes.dev" />
-<meta property="og:description" content="A list of Themes and Starters for JAMStack Sites." />
+<meta property="og:description" content="A list of Themes and Starters for JAMstack Sites." />
 <meta property="og:image" content="https://jamstackthemes.dev/images/jamstackthemes-screenshot.png">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@stackbithq" />
@@ -18,8 +18,8 @@
 {{ $themes := (where .Site.RegularPages "Type" "theme") }}
 <div class="sidebar">
   {{ $themeCount := len $themes }}
-  <div class="blurb">
-    <p>A list of Themes and Starters for JAMStack Sites.</p>
+  <div class="intro intro-desktop">
+    <p>A list of Themes and Starters for JAMstack Sites.</p>
   </div>
   {{ partial "filters.html" . }}
   {{ partial "stackbit.html" . }}

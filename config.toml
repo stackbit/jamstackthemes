@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "JAMStack Themes"
+title = "JAMstack Themes"
 theme = "jamstackthemes"
 paginate = 3
 enableGitInfo = true
