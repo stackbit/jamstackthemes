@@ -1,8 +1,8 @@
 ---
-title: "Gatsby Vanilla"
-github: https://github.com/stackbithq/stackbit-theme-vanilla
+title: "Gatsby Fresh"
+github: https://github.com/stackbithq/stackbit-theme-fresh
 github_branch: gatsby
-demo: https://themes.stackbit.com/demos/vanilla
+demo: https://themes.stackbit.com/demos/fresh
 author: Stackbit
 ssg:
   - Gatsby

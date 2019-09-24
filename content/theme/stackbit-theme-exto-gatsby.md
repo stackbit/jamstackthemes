@@ -1,13 +1,11 @@
 ---
-title: "Exto"
-draft: true
+title: "Gatsby Exto"
 github: https://github.com/stackbithq/stackbit-theme-exto
+github_branch: gatsby
 demo: https://themes.stackbit.com/demos/exto
 author: Stackbit
 ssg:
-  - Hugo
   - Gatsby
-  - Jekyll
 cms:
   - Contentful
   - DatoCMS

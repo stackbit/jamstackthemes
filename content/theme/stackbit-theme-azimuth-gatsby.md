@@ -1,13 +1,11 @@
 ---
-title: "Azimuth"
-draft: true
+title: "Gatsby Azimuth"
 github: https://github.com/stackbithq/stackbit-theme-azimuth
+github_branch: gatsby
 demo: https://themes.stackbit.com/demos/azimuth
 author: Stackbit
 ssg:
-  - Hugo
   - Gatsby
-  - Jekyll
 cms:
   - Contentful
   - DatoCMS

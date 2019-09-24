@@ -34,6 +34,16 @@ function updateFilterCounts(state, futureState) {
     return groupEmpty(filterGroup);
   })
   let parent = futureState.triggerElement.parentNode.parentNode.parentNode.id.slice(13)
+  // let trigger = futureState.triggerElement.id.slice(14)
+
+  // let selected = Object.keys(filters).filter((filterGroup) => {
+  //   listSelected(filterGroup);
+  // })
+
+  // console.log("emptyGroups", emptyGroups);
+  // console.log("parent", parent);
+  // console.log("trigger", trigger);
+  // console.log("selected");
 
   if (parent === "ssg") {
     emptyGroups.forEach((group) => {
@@ -73,6 +83,19 @@ function updateFilterCounts(state, futureState) {
       resetFilterGroup(group);
     })
   }
+}
+
+function listSelected(filterGroup) {
+  let selected = []
+  document.querySelectorAll(`#filter-group-${filterGroup} .filter-button`).forEach((filter)=> {
+    let classArray = [...filter.classList];
+    classArray.forEach((item) =>{
+      if (item === 'mixitup-control-active') {
+        selected.push(item)
+      }
+    });
+  });
+  return selected
 }
 
 function groupEmpty(filterGroup) {

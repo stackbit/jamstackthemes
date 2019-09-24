@@ -1,5 +1,5 @@
 ---
-title: "Vanilla Hugo"
+title: "Hugo Vanilla"
 github: https://github.com/stackbithq/stackbit-theme-vanilla
 github_branch: hugo
 demo: https://themes.stackbit.com/demos/vanilla

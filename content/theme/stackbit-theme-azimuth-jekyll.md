@@ -1,8 +1,8 @@
 ---
-title: "Jekyll Vanilla"
-github: https://github.com/stackbithq/stackbit-theme-vanilla
+title: "Jekyll Azimuth"
+github: https://github.com/stackbithq/stackbit-theme-azimuth
 github_branch: jekyll
-demo: https://themes.stackbit.com/demos/vanilla
+demo: https://themes.stackbit.com/demos/azimuth
 author: Stackbit
 ssg:
   - Jekyll
