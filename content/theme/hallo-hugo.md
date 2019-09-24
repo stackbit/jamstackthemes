@@ -6,5 +6,5 @@ author: Emiel Hollander
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

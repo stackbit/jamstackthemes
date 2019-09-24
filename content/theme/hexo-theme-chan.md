@@ -6,5 +6,5 @@ author: JKenneth Teng
 ssg:
   - Hexo
 cms:
-  - NoCms
+  - No Cms
 ---

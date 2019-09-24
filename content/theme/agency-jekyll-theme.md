@@ -6,7 +6,7 @@ author: Rick K
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---
 
 Agency Theme for Jekyll

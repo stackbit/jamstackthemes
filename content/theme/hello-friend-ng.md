@@ -6,5 +6,5 @@ author: Djordje Atlialp
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

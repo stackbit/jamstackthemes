@@ -6,5 +6,5 @@ author: Blleng
 ssg:
   - Hexo
 cms:
-  - NoCms
+  - No Cms
 ---

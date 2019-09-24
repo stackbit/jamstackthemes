@@ -6,5 +6,5 @@ author: Brunch
 ssg:
   - Brunch
 cms:
-  - NoCms
+  - No Cms
 ---

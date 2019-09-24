@@ -6,5 +6,5 @@ author: Paul Le
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---

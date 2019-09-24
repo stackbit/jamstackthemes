@@ -6,5 +6,5 @@ author: Inded
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---

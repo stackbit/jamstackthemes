@@ -6,5 +6,5 @@ author: Yusen
 ssg:
   - Vuepress
 cms:
-  - NoCms
+  - No Cms
 ---

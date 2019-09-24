@@ -6,5 +6,5 @@ author: Matthew Achariam
 ssg:
   - Brunch
 cms:
-  - NoCms
+  - No Cms
 ---

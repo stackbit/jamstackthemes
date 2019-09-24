@@ -6,5 +6,5 @@ author: Andrew Fong
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---

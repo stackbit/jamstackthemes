@@ -6,5 +6,5 @@ author: Devlocker
 ssg:
   - Brunch
 cms:
-  - NoCms
+  - No Cms
 ---

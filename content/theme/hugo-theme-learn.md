@@ -6,5 +6,5 @@ author: matcornic
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

@@ -6,5 +6,5 @@ author: GDGToulouse
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

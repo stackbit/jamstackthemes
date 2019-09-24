@@ -6,7 +6,7 @@ author: Sharvari Desai
 ssg:
   - Hexo
 cms:
-  - NoCms
+  - No Cms
 ---
 
 Beautiful minimal portfolio theme for Hexo.

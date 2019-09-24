@@ -6,5 +6,5 @@ author: Raphael Wildhaber
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

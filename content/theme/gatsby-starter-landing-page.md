@@ -6,5 +6,5 @@ author: Kyle Gill
 ssg:
   - Gatsby
 cms:
-  - NoCms
+  - No Cms
 ---

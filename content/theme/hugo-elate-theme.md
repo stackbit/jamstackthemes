@@ -6,5 +6,5 @@ author: Pieter Saey
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

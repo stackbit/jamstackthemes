@@ -6,5 +6,5 @@ author: Alynx Zhou
 ssg:
   - Hexo
 cms:
-  - NoCms
+  - No Cms
 ---

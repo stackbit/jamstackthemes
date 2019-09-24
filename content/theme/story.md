@@ -6,5 +6,5 @@ author: Baron Schwartz
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

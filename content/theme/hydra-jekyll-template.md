@@ -6,7 +6,7 @@ author: CloudCannon
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---
 
 Product marketing template for Jekyll.

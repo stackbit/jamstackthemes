@@ -6,5 +6,5 @@ author: Fabian Schultz
 ssg:
   - Gatsby
 cms:
-  - NoCms
+  - No Cms
 ---

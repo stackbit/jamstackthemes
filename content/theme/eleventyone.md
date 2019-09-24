@@ -6,5 +6,5 @@ author: 11ty
 ssg:
   - Eleventy
 cms:
-  - NoCms
+  - No Cms
 ---

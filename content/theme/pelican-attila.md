@@ -6,5 +6,5 @@ author: Arul
 ssg:
   - Pelican
 cms:
-  - NoCms
+  - No Cms
 ---

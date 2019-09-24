@@ -1,6 +1,6 @@
 
 <div
-  class="grid theme {{ range .theme.Params.ssg }}{{ . | urlize }} {{end}}{{ range .theme.Params.cms }}{{ . | urlize }} {{end}}"
+  class="grid theme {{ range .theme.Params.ssg }}{{ . | urlize }} {{end}}{{ range .theme.Params.cms }}{{ . | urlize }} {{end}}{{ range .theme.Params.css }}{{ . | urlize }} {{end}}"
   data-stars="{{ .repo.stars }}"
   data-last-commit="{{ .repo.last_commit }}"
   data-name="{{ .theme.Params.Title | urlize }}"
@@ -52,6 +52,17 @@
         {{ if .theme.Params.cms }}
           {{- range .theme.Params.cms }}
             {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
+              {{ if eq .Page.Title "No CMS" }}
+              {{ else }}
+              {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{ if .theme.Params.css }}
+          {{- range .theme.Params.css }}
+            {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
               {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
             {{ end }}
           {{ end }}

@@ -6,5 +6,5 @@ author: Zwbetz-gh
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

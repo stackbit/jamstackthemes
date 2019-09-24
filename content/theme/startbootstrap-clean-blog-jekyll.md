@@ -6,7 +6,7 @@ author: BlackrockDigital
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 css:
   - Bootstrap
 ---

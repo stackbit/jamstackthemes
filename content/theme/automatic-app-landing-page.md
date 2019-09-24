@@ -6,5 +6,5 @@ author: Emil Baehr
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---

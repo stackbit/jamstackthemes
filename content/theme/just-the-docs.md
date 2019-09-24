@@ -6,5 +6,5 @@ author: Patrick Marsceill
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---

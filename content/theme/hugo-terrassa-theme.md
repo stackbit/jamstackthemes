@@ -6,5 +6,5 @@ author: Daniel Zaragoza
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

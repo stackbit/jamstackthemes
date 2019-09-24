@@ -6,5 +6,5 @@ author: Matt Harzewski
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---

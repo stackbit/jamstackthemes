@@ -6,5 +6,5 @@ author: Pavel Kanyshev
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

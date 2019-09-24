@@ -6,5 +6,5 @@ author: Gilson Filho
 ssg:
   - Pelican
 cms:
-  - NoCms
+  - No Cms
 ---

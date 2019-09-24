@@ -6,5 +6,5 @@ author: Diego Caponera
 ssg:
   - Brunch
 cms:
-  - NoCms
+  - No Cms
 ---

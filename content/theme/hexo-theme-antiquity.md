@@ -6,5 +6,5 @@ author: Yiluyanxia
 ssg:
   - Hexo
 cms:
-  - NoCms
+  - No Cms
 ---

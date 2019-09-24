@@ -6,7 +6,7 @@ author: WowThemesNet
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---
 
 Affiliates - Jekyll Blogging Theme for Affiliate Marketers

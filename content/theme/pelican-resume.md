@@ -6,5 +6,5 @@ author: Suhaib Khan
 ssg:
   - Pelican
 cms:
-  - NoCms
+  - No Cms
 ---

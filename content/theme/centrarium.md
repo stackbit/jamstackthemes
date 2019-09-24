@@ -6,7 +6,7 @@ author: Bencentra
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---
 
 A simple yet classy theme for your Jekyll website or blog. 

@@ -6,7 +6,7 @@ author: gcushen
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---
 
 The website builder for Hugo. Build and deploy a beautiful website in minutes!

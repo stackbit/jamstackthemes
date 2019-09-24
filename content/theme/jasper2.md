@@ -6,5 +6,5 @@ author: Fábio Madeira
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---

@@ -1,6 +1,6 @@
 document.querySelectorAll(".filter-title").forEach((title) => {
   title.addEventListener('click', (e) => {
-    e.target.classList.toggle('closed');
-    e.target.parentNode.classList.toggle('closed');
+    e.currentTarget.classList.toggle('closed');
+    e.currentTarget.parentNode.classList.toggle('closed');
   })
 })

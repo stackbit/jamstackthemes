@@ -6,5 +6,5 @@ author: Cosmin Popovici
 ssg:
   - Gridsome
 cms:
-  - NoCms
+  - No Cms
 ---

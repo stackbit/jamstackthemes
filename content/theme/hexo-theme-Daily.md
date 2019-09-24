@@ -6,5 +6,5 @@ author: Gallen.Hu
 ssg:
   - Hexo
 cms:
-  - NoCms
+  - No Cms
 ---

@@ -6,5 +6,5 @@ author: viko16
 ssg:
   - Vuepress
 cms:
-  - NoCms
+  - No Cms
 ---

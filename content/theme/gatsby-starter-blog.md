@@ -6,5 +6,5 @@ author: Kyle Mathews
 ssg:
   - Gatsby
 cms:
-  - NoCms
+  - No Cms
 ---

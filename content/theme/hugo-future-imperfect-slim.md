@@ -6,5 +6,5 @@ author: Patrick Collins
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

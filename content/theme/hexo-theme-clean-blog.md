@@ -6,5 +6,5 @@ author: Klughertz Jonathan
 ssg:
   - Hexo
 cms:
-  - NoCms
+  - No Cms
 ---

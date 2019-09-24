@@ -6,5 +6,5 @@ author: Calin Tataru
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

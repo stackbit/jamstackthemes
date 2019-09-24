@@ -6,5 +6,5 @@ author: Snipcart
 ssg:
   - Eleventy
 cms:
-  - NoCms
+  - No Cms
 ---

@@ -6,5 +6,5 @@ author: Yang Liu
 ssg:
   - Hexo
 cms:
-  - NoCms
+  - No Cms
 ---

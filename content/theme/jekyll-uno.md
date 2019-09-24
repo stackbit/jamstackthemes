@@ -6,5 +6,5 @@ author: Josh Gerdes
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---

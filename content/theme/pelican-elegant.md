@@ -6,5 +6,5 @@ author: Pelican-Elegant
 ssg:
   - Pelican
 cms:
-  - NoCms
+  - No Cms
 ---

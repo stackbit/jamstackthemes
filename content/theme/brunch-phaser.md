@@ -6,5 +6,5 @@ author: Samme
 ssg:
   - Brunch
 cms:
-  - NoCms
+  - No Cms
 ---

@@ -6,5 +6,5 @@ author: Phil Hawksworth
 ssg:
   - Eleventy
 cms:
-  - NoCms
+  - No Cms
 ---

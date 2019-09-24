@@ -6,5 +6,5 @@ author: Fernando Moreira
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---

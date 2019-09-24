@@ -6,5 +6,5 @@ author: WowThemesNet
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---

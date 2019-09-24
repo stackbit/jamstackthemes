@@ -6,5 +6,5 @@ author: Digitalcraftsman
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

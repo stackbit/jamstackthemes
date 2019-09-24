@@ -6,5 +6,5 @@ author: Nairobi GNU/Linux Users Group
 ssg:
   - Pelican
 cms:
-  - NoCms
+  - No Cms
 ---

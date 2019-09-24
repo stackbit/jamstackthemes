@@ -6,5 +6,5 @@ author: Carl Boettiger
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

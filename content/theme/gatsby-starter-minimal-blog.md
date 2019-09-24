@@ -6,5 +6,5 @@ author: LekoArts
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---

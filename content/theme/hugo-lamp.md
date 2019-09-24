@@ -6,5 +6,5 @@ author: Huy Ng
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

@@ -6,5 +6,5 @@ author: Momoko
 ssg:
   - Vuepress
 cms:
-  - NoCms
+  - No Cms
 ---

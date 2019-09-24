@@ -6,5 +6,5 @@ author: Vaibhav Sharma
 ssg:
   - Gatsby
 cms:
-  - NoCms
+  - No Cms
 ---

@@ -6,5 +6,5 @@ author: Dheepak Krishnamurthy
 ssg:
   - Pelican
 cms:
-  - NoCms
+  - No Cms
 ---

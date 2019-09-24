@@ -6,5 +6,5 @@ author: Chris Simpkins
 ssg:
   - MkDocs
 cms:
-  - NoCms
+  - No Cms
 ---

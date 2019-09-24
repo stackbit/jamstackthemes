@@ -6,5 +6,5 @@ author: Shawn
 ssg:
   - Hexo
 cms:
-  - NoCms
+  - No Cms
 ---

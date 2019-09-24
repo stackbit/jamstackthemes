@@ -6,5 +6,5 @@ author: Ruben Harutyunyan
 ssg:
   - Gatsby
 cms:
-  - NoCms
+  - No Cms
 ---

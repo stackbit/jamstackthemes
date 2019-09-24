@@ -6,5 +6,5 @@ author: adrianmo
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

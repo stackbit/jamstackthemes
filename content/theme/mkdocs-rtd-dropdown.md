@@ -6,5 +6,5 @@ author: Chad Sheets
 ssg:
   - MkDocs
 cms:
-  - NoCms
+  - No Cms
 ---

@@ -6,5 +6,5 @@ author: huweihuang
 ssg:
   - Hexo
 cms:
-  - NoCms
+  - No Cms
 ---

@@ -6,5 +6,5 @@ author: Nakorn Sinpadung
 ssg:
   - Vuepress
 cms:
-  - NoCms
+  - No Cms
 ---

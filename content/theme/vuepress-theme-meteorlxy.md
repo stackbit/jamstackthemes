@@ -6,5 +6,5 @@ author: meteorlxy
 ssg:
   - Vuepress
 cms:
-  - NoCms
+  - No Cms
 ---

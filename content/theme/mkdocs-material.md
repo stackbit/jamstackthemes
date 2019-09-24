@@ -6,7 +6,7 @@ author: Martin Donath
 ssg:
   - MkDocs
 cms:
-  - NoCms
+  - No Cms
 ---
 
 A Material Design theme for MkDocs

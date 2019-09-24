@@ -6,7 +6,7 @@ author: Nurlan Su
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---
 
 Personal blog theme built with Bootstrap, powered by Hugo.

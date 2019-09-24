@@ -6,7 +6,7 @@ author: Gridsome
 ssg:
   - Gridsome
 cms:
-  - NoCms
+  - No Cms
 ---
 
 A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.

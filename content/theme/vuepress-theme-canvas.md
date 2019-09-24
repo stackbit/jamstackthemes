@@ -6,5 +6,5 @@ author: Juan Eugenio Abadie
 ssg:
   - Vuepress
 cms:
-  - NoCms
+  - No Cms
 ---

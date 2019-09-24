@@ -6,5 +6,5 @@ author: Shane Weng
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---

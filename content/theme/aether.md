@@ -6,5 +6,5 @@ author: Joe Hutchinson
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

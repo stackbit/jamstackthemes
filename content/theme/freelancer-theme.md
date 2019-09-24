@@ -6,7 +6,7 @@ author: Jerome Lachaud
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---
 
 Jekyll theme based on Freelancer Start Bootstrap theme

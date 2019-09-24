@@ -6,7 +6,7 @@ author: Bud Parr
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---
 
 Ananke, A theme for Hugo, a framework for building websites.

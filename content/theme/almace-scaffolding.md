@@ -6,5 +6,5 @@ author: Tunghsiao Liu
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---

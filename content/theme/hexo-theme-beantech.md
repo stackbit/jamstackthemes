@@ -6,5 +6,5 @@ author: Yu Hsuan Yen
 ssg:
   - Hexo
 cms:
-  - NoCms
+  - No Cms
 ---

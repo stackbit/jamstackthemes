@@ -6,5 +6,5 @@ author: Marcus Virginia
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

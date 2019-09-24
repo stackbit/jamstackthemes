@@ -6,5 +6,5 @@ author: Parminder Sanghera
 ssg:
   - Gatsby
 cms:
-  - NoCms
+  - No Cms
 ---

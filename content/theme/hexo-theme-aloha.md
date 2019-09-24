@@ -6,5 +6,5 @@ author: Henry Huang
 ssg:
   - Hexo
 cms:
-  - NoCms
+  - No Cms
 ---

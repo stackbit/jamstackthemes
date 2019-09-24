@@ -6,5 +6,5 @@ author: Huy Tran
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

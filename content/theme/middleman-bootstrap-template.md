@@ -6,7 +6,7 @@ author: Matt Olson
 ssg:
   - Middleman
 cms:
-  - NoCms
+  - No Cms
 css:
   - Bootstrap
 ---

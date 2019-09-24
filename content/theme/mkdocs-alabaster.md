@@ -6,5 +6,5 @@ author: Alexander Pushkov
 ssg:
   - MkDocs
 cms:
-  - NoCms
+  - No Cms
 ---

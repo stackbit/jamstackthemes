@@ -6,5 +6,5 @@ author: Snipcart
 ssg:
   - Middleman
 cms:
-  - NoCms
+  - No Cms
 ---

@@ -6,5 +6,5 @@ author: LekoArts
 ssg:
   - Gatsby
 cms:
-  - NoCms
+  - No Cms
 ---

@@ -6,5 +6,5 @@ author: kakawait
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

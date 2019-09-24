@@ -6,5 +6,5 @@ author: Grist Labs
 ssg:
   - MkDocs
 cms:
-  - NoCms
+  - No Cms
 ---

@@ -6,5 +6,5 @@ author: Jan Czizikow
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---

@@ -6,5 +6,5 @@ author: Steve Lane
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

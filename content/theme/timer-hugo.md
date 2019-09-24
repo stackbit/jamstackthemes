@@ -6,5 +6,5 @@ author: Themefisher
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

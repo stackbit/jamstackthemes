@@ -1,8 +1,5 @@
 <div class="filters">
 
-  {{ $themes := (where .Site.RegularPages "Type" "theme") }}
-  {{ $themeCount := len $themes }}
-
   <div id="filter-group-ssg" class="filter filter-group-ssg" data-filter-group="ssg">
     <h3 class="filter-title">Static Site Generator 
       <span class="toggle-icon">

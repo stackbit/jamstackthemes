@@ -6,5 +6,5 @@ author: Alexander Shelepenok
 ssg:
   - Gatsby
 cms:
-  - NoCms
+  - No Cms
 ---

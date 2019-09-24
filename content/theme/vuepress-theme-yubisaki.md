@@ -6,5 +6,5 @@ author: Yubisaki
 ssg:
   - Vuepress
 cms:
-  - NoCms
+  - No Cms
 ---

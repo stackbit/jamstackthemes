@@ -6,5 +6,5 @@ author: Obaez
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---

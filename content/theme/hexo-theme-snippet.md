@@ -6,5 +6,5 @@ author: Shenliyang
 ssg:
   - Hexo
 cms:
-  - NoCms
+  - No Cms
 ---

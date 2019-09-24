@@ -6,5 +6,5 @@ author: Qiang
 ssg:
   - Vuepress
 cms:
-  - NoCms
+  - No Cms
 ---

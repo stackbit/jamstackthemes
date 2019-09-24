@@ -6,5 +6,5 @@ author: Chaooo
 ssg:
   - Hexo
 cms:
-  - NoCms
+  - No Cms
 ---

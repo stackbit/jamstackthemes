@@ -6,5 +6,5 @@ author: Joseph Dyer
 ssg:
   - Eleventy
 cms:
-  - NoCms
+  - No Cms
 ---

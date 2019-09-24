@@ -6,5 +6,5 @@ author: Jerry Wong
 ssg:
   - Hexo
 cms:
-  - NoCms
+  - No Cms
 ---

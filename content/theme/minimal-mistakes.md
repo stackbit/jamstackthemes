@@ -6,5 +6,5 @@ author: Michael Rose
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---

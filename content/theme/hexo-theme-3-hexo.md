@@ -6,5 +6,5 @@ author: Chris Yang
 ssg:
   - Hexo
 cms:
-  - NoCms
+  - No Cms
 ---

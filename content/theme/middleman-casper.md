@@ -6,5 +6,5 @@ author: Daniel Bayerlein
 ssg:
   - Middleman
 cms:
-  - NoCms
+  - No Cms
 ---

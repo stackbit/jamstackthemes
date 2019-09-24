@@ -6,5 +6,5 @@ author: David Li
 ssg:
   - Vuepress
 cms:
-  - NoCms
+  - No Cms
 ---

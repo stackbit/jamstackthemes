@@ -6,5 +6,5 @@ author: Mitro
 ssg:
   - Hexo
 cms:
-  - NoCms
+  - No Cms
 ---

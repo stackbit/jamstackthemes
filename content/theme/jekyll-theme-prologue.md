@@ -6,5 +6,5 @@ author: Chris Bobbe
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---

@@ -6,5 +6,5 @@ author: Theme Fisher
 ssg:
   - Hugo
 cms:
-  - NoCms
+  - No Cms
 ---

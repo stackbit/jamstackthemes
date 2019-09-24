@@ -6,5 +6,5 @@ author: Phlow
 ssg:
   - Jekyll
 cms:
-  - NoCms
+  - No Cms
 ---
