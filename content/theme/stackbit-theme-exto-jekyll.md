@@ -1,5 +1,5 @@
 ---
-title: "Jekyll Exto"
+title: 'Jekyll Exto'
 github: https://github.com/stackbithq/stackbit-theme-exto
 github_branch: jekyll
 demo: https://themes.stackbit.com/demos/exto

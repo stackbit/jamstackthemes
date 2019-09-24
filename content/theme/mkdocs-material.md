@@ -1,5 +1,5 @@
 ---
-title: "MkDocs Material"
+title: 'MkDocs Material'
 github: https://github.com/squidfunk/mkdocs-material
 demo: https://squidfunk.github.io/mkdocs-material/
 author: Martin Donath

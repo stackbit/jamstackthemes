@@ -1,5 +1,5 @@
 ---
-title: "Hugo Azimuth"
+title: 'Hugo Azimuth'
 github: https://github.com/stackbithq/stackbit-theme-azimuth
 github_branch: hugo
 demo: https://themes.stackbit.com/demos/azimuth
