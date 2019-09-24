@@ -1,4 +1,5 @@
 let filters = {}
+let initialFilters = {}
 
 const mixer = mixitup('.grids', {
   multifilter: {
@@ -22,22 +23,82 @@ const mixer = mixitup('.grids', {
       let count = document.querySelector('.count-number');
       count.textContent = total
       updateFilterCounts(state, futureState);
+    },
+    onMixClick: function(state, originalEvent) {
     }
   }
 });
 
-
 function updateFilterCounts(state, futureState) {
+  let emptyGroups = Object.keys(filters).filter((filterGroup) => {
+    return groupEmpty(filterGroup);
+  })
+  let parent = futureState.triggerElement.parentNode.parentNode.parentNode.id.slice(13)
+
+  if (parent === "ssg") {
+    emptyGroups.forEach((group) => {
+      if (group === "cms") {
+        updateFilterGroup("cms", futureState);
+        resetFilterGroup("ssg");
+      }
+      if (group === "ssg") {
+        updateFilterGroup("ssg", futureState);
+        resetFilterGroup("cms");
+      }
+    })
+    if (!emptyGroups.length) {
+      updateFilterGroup("cms", futureState);
+      updateFilterGroup("ssg", futureState);
+    }
+  }
+  if (parent === "cms") {
+    emptyGroups.forEach((group) => {
+      if (group === "ssg") {
+        updateFilterGroup("ssg", futureState);
+        resetFilterGroup("cms");
+      }
+      if (group === "cms") {
+        updateFilterGroup("cms", futureState);
+        resetFilterGroup("ssg");
+      }
+    })
+    if (!emptyGroups.length) {
+      updateFilterGroup("cms", futureState);
+      updateFilterGroup("ssg", futureState);
+    }
+  }
+
+  if (emptyGroups.length >= 2) {
+    emptyGroups.forEach((group) => {
+      resetFilterGroup(group);
+    })
+  }
+}
+
+function groupEmpty(filterGroup) {
+  let empty = []
+  document.querySelectorAll(`#filter-group-${filterGroup} .filter-button`).forEach((filter)=> {
+    let classArray = [...filter.classList];
+    classArray.forEach((item) =>{
+      if (item === 'mixitup-control-active') {
+        empty.push(item)
+      }
+    });
+  });
+  // console.log("groupEmpty", filterGroup, empty)
+  if (empty.length) {
+    return false
+  }
+  return true
+}
+
+function updateFilters(state, futureState) {
+
   let parent = futureState.triggerElement.parentNode.parentNode.parentNode.id.slice(13)
   let grid = futureState.matching;
 
   Object.keys(filters).forEach((filterGroup) => {
-    // update the count on all filter groups except the selected group.
-    if (filterGroup === parent) {
-      return false;
-    }
-
-    // update the count on individual filters if they are in the grid
+    console.log("updateFilters", filterGroup)
     Object.keys(filters[filterGroup]).forEach(filter => {
       filters[filterGroup][filter] = grid.reduce((sum, grid) => {
         let gridClasses = grid.className.trim().split(' ');
@@ -52,14 +113,47 @@ function updateFilterCounts(state, futureState) {
     })
   })
 
-  // console.log(filters)
+  console.log("filters", filters);
 
-  // Update filter counts in the DOM
   Object.keys(filters).forEach((filterGroup) => {
     Object.keys(filters[filterGroup]).forEach((filter) => {
       document.querySelector(`#filter-count-${filter}`).innerText = filters[filterGroup][filter]
     })
   })
+}
+
+function updateFilterGroup(filterGroup, futureState) {
+
+  let parent = futureState.triggerElement.parentNode.parentNode.parentNode.id.slice(13)
+  let grid = futureState.matching;
+
+  // console.log("update filter group", filterGroup);
+
+  Object.keys(filters[filterGroup]).forEach(filter => {
+    filters[filterGroup][filter] = grid.reduce((sum, grid) => {
+      let gridClasses = grid.className.trim().split(' ');
+      let matchedClasses = gridClasses.filter((className) => {
+        return filter == className;
+      });
+      if (matchedClasses.length > 0) {
+        return sum += 1
+      }
+      return sum;
+    }, 0);
+  })
+
+  Object.keys(filters[filterGroup]).forEach((filter) => {
+    document.querySelector(`#filter-count-${filter}`).innerText = filters[filterGroup][filter]
+  })
+}
+
+function resetFilterGroup(filterGroup) {
+  // console.log("reset", filterGroup)
+  // console.log("reset filters", initialFilters)
+  Object.keys(initialFilters[filterGroup]).forEach((filter) => {
+    document.querySelector(`#filter-count-${filter}`).innerText = initialFilters[filterGroup][filter]
+  })
+  filters[filterGroup] = JSON.parse(JSON.stringify(initialFilters[filterGroup]))
 }
 
 function initFilters() {
@@ -73,7 +167,7 @@ function initFilters() {
       let count = item.innerHTML;
       filters[filterGroupName][name] = count
     });
-
+    initialFilters = JSON.parse(JSON.stringify(filters))
   })
 }
 
