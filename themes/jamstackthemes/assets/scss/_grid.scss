@@ -2,17 +2,19 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 302px;
-  margin: 0 auto;
+  margin-left: -15px;
+  margin-right: -15px;
+  position: relative;
   @include breakpoint('small') {
     justify-content: flex-start;
-    max-width: 100%;
-    margin: 0;
+    width: 100%;
   }
   .grid {
     max-width: 282px;
-    margin-bottom: 15px;
+    width: auto;
+    margin: 10px 15px;
     @include breakpoint('small') {
+      width: 282px;
       margin: 15px;
     }
   }

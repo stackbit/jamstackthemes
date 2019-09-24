@@ -6,5 +6,5 @@ author: Unknown Author
 ssg:
   - Gridsome
 cms:
-  - NoCMS
+  - No CMS
 ---

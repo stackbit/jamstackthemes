@@ -5,15 +5,15 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    padding: 15px;
+    margin-bottom: 20px;
   }
   h1 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
-    margin-right: 20px;
     margin-bottom: 10px;
     @include breakpoint('small') {
-      font-size: 46px;
+      margin-right: 20px;
+      font-size: 40px;
       margin-bottom: 0px;
     }
   }
@@ -23,7 +23,6 @@
     font-weight: 400;
     @include breakpoint('small') {
       font-size: 16px;
-
     }
   }
   p {
@@ -49,28 +48,7 @@
 
 .sidebar {
   .intro {
-    h1 {
-      font-size: 16px;
-      font-weight: 400;
-      margin-right: 0;
-      margin-bottom: 10px;
-      @include breakpoint('small') {
-        font-size: 20px;
-        margin-bottom: 0px;
-      }
-    }
-    p {
-
-    }
-    h2 {
-      font-size: 16px;
-      line-height: 22px;
-      font-weight: 400;
-      @include breakpoint('small') {
-        font-size: 16px;
-  
-      }
-    }
+    
   }
 }
 
@@ -84,5 +62,18 @@
         }
       }
     }
+  }
+}
+
+.blurb {
+  padding: 20px 15px 5px 15px;
+  display: none;
+  @include breakpoint('small') {
+    display: block;
+    padding: 40px 15px 5px 15px;
+  }
+  p {
+    line-height: 20px;
+    margin: 0;
   }
 }

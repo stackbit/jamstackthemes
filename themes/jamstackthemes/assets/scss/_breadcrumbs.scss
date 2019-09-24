@@ -6,8 +6,9 @@
   flex-wrap: wrap;
   align-items: center;
   font-size: 16px;
-  padding: 0 15px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  @include breakpoint('small') {
+  }
   a {
     color: $primary;
     padding: 8px;

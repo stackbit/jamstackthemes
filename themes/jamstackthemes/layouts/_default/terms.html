@@ -8,10 +8,7 @@
   
   <div class="terms">
       {{ range .Pages }}
-      <div class="term">
-        <img width="20" height="20" src="{{ .Page.Params.icon | relURL }}"/>
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      </div>
+      {{ partial "term-card.html" (dict "term" .) }}
       {{ end }}
   </div>
 </div>

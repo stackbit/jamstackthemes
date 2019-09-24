@@ -1,8 +1,8 @@
 
-<div
-  class="grid {{ range .theme.Params.ssg }}{{ . | urlize }} {{end}}{{ range .theme.Params.cms }}{{ . | urlize }} {{end}}{{ range .theme.Params.deploy }}{{ . | urlize }} {{end}}">
-  {{ if .term.icon }}
-    <img src="{{ .term.icon | relURL }}"/>
+<div class="term">
+  <a class="term-overlay" href="{{ .term.Permalink }}"></a>
+  {{ if .term.Params.icon }}
+    <img width="30" src="{{ .term.Params.icon | relURL }}"/>
   {{ end }}
-  {{.term.Title}}
+  <h2>{{ .term.Title }}</h2>
 </div>

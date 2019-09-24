@@ -9,10 +9,6 @@ const mixer = mixitup('.grids', {
   },
   animation: {
     enable: false,
-    duration: 500,
-    nudge: true,
-    reverseOut: false,
-    effects: "fade scale"
   },
   selectors: {
     target: '.grid'

@@ -31,9 +31,12 @@
     overflow: hidden;
     img {
       max-width: 100%;
+      height: auto;
       vertical-align: bottom;
+      @include breakpoint('small') {
+       
+      }
     }
-   
   }
   .theme-body {
     flex: 1;
