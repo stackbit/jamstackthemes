@@ -1,5 +1,6 @@
 ---
 title: "Azimuth"
+draft: true
 github: https://github.com/stackbithq/stackbit-theme-azimuth
 demo: https://themes.stackbit.com/demos/azimuth
 author: Stackbit

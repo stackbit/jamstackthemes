@@ -15,9 +15,13 @@ captureWebScreenshot = async theme => {
   const data = fs.readFileSync(path.join(themesFolder, theme));
   const frontmatter = yamlFront.loadFront(data);
   let github = gh(frontmatter.github);
+  let githubBranch = frontmatter.github_branch ? frontmatter.github_branch : 'master';
 
   if (github) {
     let themeKey = github.repo.replace("/", "-").toLowerCase();
+    if (githubBranch !== 'master') {
+      themeKey = `${themeKey}-${githubBranch}`
+    }
     let themeImage = `${themeKey}.png`
     const url = frontmatter.demo
 

@@ -1,5 +1,6 @@
 ---
 title: "Exto"
+draft: true
 github: https://github.com/stackbithq/stackbit-theme-exto
 demo: https://themes.stackbit.com/demos/exto
 author: Stackbit

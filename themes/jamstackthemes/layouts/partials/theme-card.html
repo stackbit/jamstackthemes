@@ -6,9 +6,13 @@
   data-name="{{ .theme.Params.Title | urlize }}"
   data-submitted="{{ .theme.Lastmod.Format "Jan 2, 2006" }}"
 >
+    {{ $githubLink := .theme.Params.github }}
+    {{ if .theme.Params.github_branch }}
+      {{ $githubLink = (printf "%s/%s/%s" $githubLink "tree" .theme.Params.github_branch)}}
+    {{ end }}
 
     <div class="theme-container">
-      <a class="theme-overlay" href="{{ .theme.Params.github }}" title="{{ .theme.Params.github }}" target="_blank" rel="noopener"></a>
+      <a class="theme-overlay" href="{{ $githubLink }}" title="{{ .theme.Params.title }} Github Repo" target="_blank" rel="noopener"></a>
       <div class="theme-header">
           {{ if .theme.Params.thumbnail }}
             <img loading="lazy" src="{{ .theme.Params.thumbnail | relURL }}" alt="{{ .theme.Params.title }} screenshot" />
@@ -60,13 +64,6 @@
           {{ end }}
         {{ end }}
 
-        {{ if .theme.Params.css }}
-          {{- range .theme.Params.css }}
-            {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
-              {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-            {{ end }}
-          {{ end }}
-        {{ end }}
     </div>
 
 </div>

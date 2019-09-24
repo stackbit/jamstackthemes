@@ -19,7 +19,11 @@ loadTheme = async file => {
 
   if (frontmatter.github) {
     let github = gh(frontmatter.github);
+    let githubBranch = frontmatter.github_branch ? frontmatter.github_branch : 'master';
     let themeKey = github.repo.replace("/", "-").toLowerCase();
+    if (githubBranch !== 'master') {
+      themeKey = `${themeKey}-${githubBranch}`
+    }
 
     repoResponse = await axios.get(
       `https://api.github.com/repos/${github.repo}`,
@@ -34,6 +38,7 @@ loadTheme = async file => {
       theme_key: themeKey,
       name: repoResponse.data.name,
       repo: repoResponse.data.full_name,
+      branch: githubBranch,
       url: repoResponse.data.html_url,
       stars: repoResponse.data.stargazers_count,
       forks: repoResponse.data.forks_count,

@@ -1,5 +1,6 @@
 ---
 title: "Universal"
+draft: true
 github: https://github.com/stackbithq/stackbit-theme-universal
 demo: https://themes.stackbit.com/demos/universal
 author: Stackbit
