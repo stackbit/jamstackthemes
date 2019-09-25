@@ -12,8 +12,12 @@ const githubData = {};
 
 const token = process.env.GITHUB_TOKEN;
 
+console.log("***********************************")
+console.log("Fetching Github Data for each theme")
+console.log("***********************************")
+
 loadTheme = async file => {
-  console.log(file);
+  // console.log(file);
   const data = fs.readFileSync(path.join(themesFolder, file));
   const frontmatter = yamlFront.loadFront(data);
 
@@ -32,25 +36,28 @@ loadTheme = async file => {
           Authorization: `Token ${token}`,
         },
       }
-    );
-
-    githubData[themeKey] = {
-      theme_key: themeKey,
-      name: repoResponse.data.name,
-      repo: repoResponse.data.full_name,
-      branch: githubBranch,
-      url: repoResponse.data.html_url,
-      stars: repoResponse.data.stargazers_count,
-      forks: repoResponse.data.forks_count,
-      open_issues: repoResponse.data.open_issues_count,
-      last_commit: repoResponse.data.pushed_at
-    }
-
+    ).then((res) => {
+      // console.log(res.data);
+      console.log(`${file} => ${res.data.html_url} - ${res.status}`);
+      repoResponse = res;
+      githubData[themeKey] = {
+        theme_key: themeKey,
+        name: repoResponse.data.name,
+        repo: repoResponse.data.full_name,
+        branch: githubBranch,
+        url: repoResponse.data.html_url,
+        stars: repoResponse.data.stargazers_count,
+        forks: repoResponse.data.forks_count,
+        open_issues: repoResponse.data.open_issues_count,
+        last_commit: repoResponse.data.pushed_at
+      }
+    });
   }
 };
 
 Promise.all(themeFiles.map(file => loadTheme(file)))
   .then(res => {
+    console.log("Writing data/themes.json...")
     fs.writeFileSync('./data/themes.json', JSON.stringify(githubData, null, 2));
   })
   .catch(error => {

@@ -6,10 +6,12 @@ const yamlFront = require('yaml-front-matter');
 const gh = require('parse-github-url');
 const themesFolder = './content/theme';
 const themeFiles = fs.readdirSync(themesFolder);
-// const themeFiles = ['aether.md','bleda.md']
 const hiresImagesFolder = './static/capture';
 
-console.log("Taking screenshots...")
+
+console.log("******************")
+console.log("Taking Screenshots")
+console.log("******************")
 
 captureWebScreenshot = async theme => {
   const data = fs.readFileSync(path.join(themesFolder, theme));
