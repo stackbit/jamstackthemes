@@ -21,7 +21,7 @@ imageFiles.forEach((image) => {
   const outputImage = path.join(outputFolder, `${imageName}.jpg`)
   const outputImage2x = path.join(outputFolder2x, `${imageName}-2x.jpg`)
 
-  if (fs.existsSync(inputImage)) {
+  if (fs.existsSync(outputImage)) {
     console.log(`skipped ${inputImage}`)
     return false
   } else {
@@ -39,6 +39,8 @@ imageFiles.forEach((image) => {
       .toFile(outputImage)
       .then( (ImageResult) => {
         console.log(ImageResult);
+      }).catch((err) => {
+        console.log(err);
       })
 
     sharp(inputImage)
@@ -54,6 +56,9 @@ imageFiles.forEach((image) => {
       .toFile(outputImage2x)
       .then( (ImageResult) => {
         console.log(ImageResult);
+      }).catch((err) => {
+        console.log(inputImage)
+        console.log(err);
       })
   }
 });
