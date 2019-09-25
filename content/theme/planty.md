@@ -9,5 +9,5 @@ ssg:
   - Gatsby
 cms:
   - Forestry
-  - Netlify CMS
+  - NetlifyCMS
 ---
