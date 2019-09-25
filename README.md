@@ -4,9 +4,9 @@ A list of Themes and Starters for JAMstack Sites. https://jamstackthemes.dev
 
 ## Submit A Theme
 
-Anyone can submit a theme to the gallery. Simply fork this repo, add a new markdown file in `content/theme` and submit a pull-request.
+Anyone can submit a theme to the gallery. Simply fork this repo and add a new markdown file in `content/theme`, then submit a pull-request with the title "Theme Submission: theme-name`
 
-The convention is to name the markdown file after your Github repo. For example github.com/username/my-awesome-theme would be `content/theme/my-awesome-theme.md`. If the filename is already taken that's ok, just name it something similar.
+The convention is to name the markdown file after your Github repo. For example `github.com/username/my-awesome-theme` would be `content/theme/my-awesome-theme.md`. If the filename is already taken that's ok, just name it something similar.
 
 The markdown file should contain the following front-matter.
 
