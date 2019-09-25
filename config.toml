@@ -15,8 +15,7 @@ enableGitInfo = true
 
 [outputs]
   home = ["HTML","RSS","JSON"]
-  section = ["HTML","RSS","JSON"]
-  taxonomy = ["HTML","RSS","JSON"]
+  section = ["HTML","RSS"]
 
 [frontmatter]
   lastmod = [":git", "lastmod", ":fileModTime", ":default"]

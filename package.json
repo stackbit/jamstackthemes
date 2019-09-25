@@ -1,7 +1,7 @@
 {
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "hugo",
+    "build": "node ./generate-github.js && node ./capture-screenshots.js && node ./generate-thumbnails.js && hugo",
     "generate-github": "node ./generate-github.js",
     "capture-screenshots": "node ./capture-screenshots.js",
     "generate-thumbnails": "node ./generate-thumbnails.js"
