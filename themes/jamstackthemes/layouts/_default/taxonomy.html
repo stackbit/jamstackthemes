@@ -18,8 +18,7 @@
       {{ $repoName = (printf "%s-%s" $repoName .Params.github_branch)}}
     {{ end }}
     {{ $repo := index .Site.Data.themes $repoName }}
-    {{ $repo }}
-    {{/*  {{ partial "theme-card.html" (dict "theme" . "repo" $repo ) }}  */}}
+    {{ partial "theme-card.html" (dict "theme" . "repo" $repo ) }}
     {{ end }}
   </div>
 </div>
