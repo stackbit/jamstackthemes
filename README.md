@@ -50,10 +50,11 @@ Build Site
 hugo
 ```
 
-## Utilities
+## Build Github stars and images
 
 ```
 npm install
+npm run build
 ```
 
 ### Generate Github Stars
