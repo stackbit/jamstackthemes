@@ -1,10 +1,20 @@
 <div class="footer">
 
   <div class="footer-column footer-column-brand">
-    <h3>JAMStack Themes</h3>
+    <h3>JAMstack?</h3>
+    <p>Learn more about the JAMstack</p>
+    <h3><a href="https://headlesscms.org/">headlesscms.org</a></h3>
+    <p>A List of Content Management Systems for JAMstack Sites</p>
+    <h3><a href="https://www.staticgen.com/">staticgen.com</a></h3>
+    <p>A List of Static Site Generators for JAMstack Sites</p>
+    <h3><a href="https://jamstack.org/">jamstack.org</a></h3>
+    <p>What is the JAMstack?</p>
+   
+
   </div>
 
   <div class="footer-column">
+    <h3>Static Site Generator Themes</h3>
     <ul>
     {{ range .Site.Taxonomies.ssg }}
     <li>
@@ -15,6 +25,7 @@
   </div>
 
   <div class="footer-column">
+    <h3>Headless CMS Themes</h3>
     <ul>
     {{ range .Site.Taxonomies.cms }}
     <li>
@@ -25,6 +36,7 @@
   </div>
 
   <div class="footer-column">
+    <h3>Contribute</h3>
     <ul>
     <li>
       <a href="https://github.com/stackbithq/jamstackthemes#submit-a-them">Submit a theme</a>

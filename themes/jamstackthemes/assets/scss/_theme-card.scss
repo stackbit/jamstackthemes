@@ -50,7 +50,6 @@
       margin: 0;
       margin-bottom: 10px;
     }
-
     .theme-fresh {
       display: flex;
       align-items: center;
@@ -64,12 +63,12 @@
       display: none;
       font-size: 13px;
       line-height: 18px;
-      color: #666666;
+      color: $steel;
     }
   }
   .theme-footer {
     border-top: 1px solid $grey;
-    background: #f5f5f5;
+    background: $bone;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
