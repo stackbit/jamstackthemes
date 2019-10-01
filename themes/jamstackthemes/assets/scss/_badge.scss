@@ -1,0 +1,36 @@
+
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  &:hover {
+    opacity: 0.9;
+  }
+  span.badge-icon {
+    padding: 10px 10px 10px 5px;
+    border: 1px solid $grey;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  span.badge-left {
+    padding: 10px 10px 10px 5px;
+  }
+  span.badge-right {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: $primary;
+    border: 1px solid $grey;
+    border-left: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    line-height: 18px;
+    height: 100%;
+  }
+}

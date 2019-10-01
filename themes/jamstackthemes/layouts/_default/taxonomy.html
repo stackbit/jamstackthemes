@@ -6,11 +6,26 @@
 
 <div class="main">
   {{ $themeCount := len .Pages }}
-  <div class="intro">
-    <h1>{{.Title}} Themes <span class="count">({{ $themeCount }})</span></h1>
+  <div class="hero">
+    <div class="heading">
+      <div class="heading-icon"><img src="{{ .Params.icon | relURL }}"/></div>
+      <h1 class="heading-title">{{.Title}} Themes <span class="count">({{ $themeCount }})</span></h1>
+    </div>
+    <div class="badges">
+      {{ if .Site.Params.enable_badges }}
+      {{ if eq (.Params.taxonomy | urlize) "ssg"  }}
+        {{ partial "badge-staticgen.html" . }}
+      {{ end }}
+      {{ if eq (.Params.taxonomy | urlize) "cms"  }}
+        {{ partial "badge-headlesscms.html" . }}
+      {{ end }}
+      {{ if .Params.official_url }}
+        {{ partial "badge-official.html" . }}
+      {{ end }}
+      {{ end }}
+    </div>
   </div>
   {{ partial "breadcrumbs.html" . }}
-
   <div class="grids">
     {{ range .Pages }}
     {{ $repoName := (substr (replace .Params.github "/" "-") 19 | urlize) }}

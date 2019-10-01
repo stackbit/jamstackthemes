@@ -18,9 +18,6 @@
 {{ $themes := (where .Site.RegularPages "Type" "theme") }}
 <div class="sidebar">
   {{ $themeCount := len $themes }}
-  <div class="blurb">
-    <p>A list of Themes and Starters for JAMstack Sites.</p>
-  </div>
   {{ partial "filters.html" . }}
   {{ partial "stackbit.html" . }}
 </div>
@@ -28,6 +25,9 @@
   <div class="intro">
     <h1>Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
     {{ partial "sort-buttons.html" . }}
+  </div>
+  <div class="byline">
+    <p>A list of themes and starters for <a href="https://jamstack.org/">JAMstack</a> sites, filtered by <a href="https://www.staticgen.com">Static Site Generators</a> and <a href="https://headlesscms.org/">Headless CMS</a> ✨</p>
   </div>
   <div class="grids">
     {{ range sort $themes "Lastmod" "desc" }}
