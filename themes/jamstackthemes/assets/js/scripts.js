@@ -8,5 +8,8 @@ document.querySelectorAll(".toggle-icon").forEach((title) => {
 
 
 document.addEventListener("DOMContentLoaded", function() {
-  tippy('.tooltip');
+  tippy('.tooltip', {
+    boundary: "window",
+    placement: "top-end"
+  });
 });

@@ -48,14 +48,14 @@
         align-items: center;
       }
       svg {
-        width: 14px;
+        width: 18px;
         height: auto;
         fill: $primary;
         path {
           fill: $primary;
         }
         @include breakpoint('small') {
-          width: 15px;
+          width: 19px;
           fill: $primary;
           path {
             fill: $primary;
