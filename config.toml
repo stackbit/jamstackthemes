@@ -13,6 +13,9 @@ enableGitInfo = true
 [params]
     google_analytics_id = "UA-122379868-3"
     description = "A list of Themes and Starters for JAMstack Sites."
+    enable_badge_staticgen = false
+    enable_badge_headlesscms = false
+    enable_badge_official = true
 
 [outputs]
   home = ["HTML","RSS","JSON"]

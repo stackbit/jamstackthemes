@@ -1,0 +1,69 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  @include breakpoint('small') {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .badges {
+    display: flex;
+    margin-bottom: 10px;
+    @include breakpoint('small') {
+      margin-bottom: 20px;
+    }
+  }
+  .heading {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    @include breakpoint('small') {
+      margin-bottom: 20px;
+    }
+    .heading-icon {
+      display: inline-block;
+      padding: 10px;
+      border: 1px solid $grey;
+      border-radius: 3px;
+      margin-right: 10px;
+      vertical-align: middle;
+      img {
+        display: inline-block;
+        vertical-align: bottom;
+        width: 26px;
+        @include breakpoint('small') {
+         width: 40px;
+        }
+      }
+    }
+    .heading-title {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0;
+    }
+    h1 {
+      font-size: 24px;
+      font-weight: 400;
+      margin-bottom: 10px;
+      @include breakpoint('small') {
+        margin-right: 20px;
+        font-size: 40px;
+        margin-bottom: 0px;
+      }
+    }
+    h2 {
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 400;
+      @include breakpoint('small') {
+        font-size: 16px;
+      }
+    }
+    p {
+      line-height: 20px;
+      margin: 0;
+    }
+  }
+
+}
+
