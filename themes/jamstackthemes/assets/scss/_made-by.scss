@@ -1,20 +1,27 @@
 .made-by {
   margin-top: auto;
-  color: #666;
-  font-size: 14px;
-  line-height: 14px;
+  color: $steel;
+  font-size: 15px;
+  line-height: 17px;
   padding: 0px 20px;
-  img {
-    width: 30px;
+  span {
+    display: inline-block;
+    vertical-align: middle;
   }
   a {
-    color: #666;
-    &:hover {
-      color: #000;
-    }
+    color: $primary;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  img {
+    display: inline-block;
+    vertical-align: middle;
   }
   &.made-by-desktop {
     display: none;
+    img {
+      width: 22px;
+    }
     @include breakpoint('small') {
      display: block;
     }
@@ -22,8 +29,12 @@
   &.made-by-mobile {
     text-align: center;
     display: block;
+    img {
+      width: 30px;
+    }
     @include breakpoint('small') {
      display: none;
     }
   }
+  
 }

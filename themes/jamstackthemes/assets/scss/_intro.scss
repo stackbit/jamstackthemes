@@ -7,8 +7,14 @@
     justify-content: flex-start;
     margin-bottom: 20px;
   }
+  // &.intro-block {
+  //   @include breakpoint('small') {
+  //     flex-direction: column;
+  //     align-items: flex-start;
+  //   }
+  // }
   h1 {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 400;
     margin-bottom: 10px;
     @include breakpoint('small') {
@@ -29,38 +35,14 @@
     line-height: 20px;
     margin: 0;
   }
-  
-}
-
-.intro-desktop {
-  display: none;
-  @include breakpoint('small') {
-    display: block;
-  }
-}
-
-.intro-mobile {
-  display: block;
-  @include breakpoint('small') {
-    display: none;
-  }
-}
-
-.sidebar {
-  .intro {
-    
-  }
-}
-
-
-.page-home {
-  .main {
-    .intro {
-      h1 {
-        @include breakpoint('small') {
-          font-size: 26px;
-        }
-      }
+  .intro-icon {
+    padding: 10px;
+    border: 1px solid $grey;
+    border-radius: 3px;
+    margin-right: 10px;
+    img {
+      display: inline-block;
+      vertical-align: bottom;
     }
   }
 }
@@ -72,8 +54,42 @@
     display: block;
     padding: 40px 15px 5px 15px;
   }
+  &.blurb-mobile {
+    display: block;
+    padding: 0;
+    margin-bottom: 10px;
+    @include breakpoint('small') {
+      display: none;
+    }
+  }
+  &.blurb-desktop {
+    display: none;
+    @include breakpoint('small') {
+      display: block;
+    }
+  }
   p {
     line-height: 20px;
     margin: 0;
+    
   }
+  a {
+    color: $primary;
+  }
+
+}
+
+.byline {
+  p {
+    font-size: 15px;
+    line-height: 23px;
+    @include breakpoint('small') {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+  a {
+    color: $primary;
+  }
+
 }

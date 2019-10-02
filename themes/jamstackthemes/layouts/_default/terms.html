@@ -5,7 +5,6 @@
     <h1>{{.Title}} <span class="count">({{ $themeCount }})</span></h1>
   </div>
   {{ partial "breadcrumbs.html" . }}
-  
   <div class="terms">
       {{ range .Pages }}
       {{ partial "term-card.html" (dict "term" .) }}

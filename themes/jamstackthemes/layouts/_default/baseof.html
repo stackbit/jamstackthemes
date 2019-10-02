@@ -36,10 +36,12 @@
 
   {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
   {{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
+  {{ $popper := resources.Get "js/libs/popper.min.js" }}
+  {{ $tooltip := resources.Get "js/libs/tippy.min.js" }}
   {{ $filter := resources.Get "js/filter.js" }}
   {{ $scripts := resources.Get "js/scripts.js" }}
 
-  {{ $js := slice $mixitup $mixitupMultiFilter $filter $scripts | resources.Concat "js/bundle.js" }}
+  {{ $js := slice $mixitup $mixitupMultiFilter $popper $tooltip $filter $scripts | resources.Concat "js/bundle.js" }}
   
   {{ if .Site.IsServer }}
   <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>
