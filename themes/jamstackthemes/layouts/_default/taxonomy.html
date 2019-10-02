@@ -12,16 +12,20 @@
       <h1 class="heading-title">{{.Title}} Themes <span class="count">({{ $themeCount }})</span></h1>
     </div>
     <div class="badges">
-      {{ if .Site.Params.enable_badges }}
-      {{ if eq (.Params.taxonomy | urlize) "ssg"  }}
-        {{ partial "badge-staticgen.html" . }}
+      {{ if .Site.Params.enable_badge_staticgen }}
+        {{ if eq (.Params.taxonomy | urlize) "ssg"  }}
+          {{ partial "badge-staticgen.html" . }}
+        {{ end }}
       {{ end }}
-      {{ if eq (.Params.taxonomy | urlize) "cms"  }}
-        {{ partial "badge-headlesscms.html" . }}
+      {{ if .Site.Params.enable_badge_headlesscms }}
+        {{ if eq (.Params.taxonomy | urlize) "cms"  }}
+          {{ partial "badge-headlesscms.html" . }}
+        {{ end }}
       {{ end }}
-      {{ if .Params.official_url }}
-        {{ partial "badge-official.html" . }}
-      {{ end }}
+      {{ if .Site.Params.enable_badge_official }}
+        {{ if .Params.official_url }}
+          {{ partial "badge-official.html" . }}
+        {{ end }}
       {{ end }}
     </div>
   </div>

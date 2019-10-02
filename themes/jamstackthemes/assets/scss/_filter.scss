@@ -15,32 +15,47 @@
     }
   }
   .filter-title {
-    display: none;
-    cursor: pointer;
+    // display: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
     @include breakpoint('small') {
-      display: block;
+      display: flex;
+      align-items: center;
     }
-    &.closed { 
-      margin: 0;
-      padding: 0;
-      span {
-        transform: rotate(270deg);
+    h3 {
+      margin-bottom: 0;
+      font-size: 14px;
+      line-height: 18px;
+      @include breakpoint('small') {
+        font-size: 16px;
+        line-height: 24px;
       }
     }
-    &:hover {
-      opacity: 0.7;
+    .toggle-info {
+      margin-left: 5px;
+      img {
+        width: 18px;
+      }
+      &:hover {
+        opacity: 0.6;
+      }
     }
-    span {
-      // background: url("../images/icons/chevron-down-solid.svg");
-      // background-repeat: no-repeat;
-      width: 12px;
-      height: 16px;
-      float: right;
-      margin-top: 2px;
-      svg {
-        path {
-          fill: $primary;
-        }
+    .toggle-icon {
+      margin-left: auto;
+      cursor: pointer;
+      display: none;
+      @include breakpoint('small') {
+        display: block;
+      }
+      img {
+        width: 14px;
+      }
+      &:hover {
+        opacity: 0.6;
+      }
+      &.closed { 
+        transform: rotate(270deg);
       }
     }
   }

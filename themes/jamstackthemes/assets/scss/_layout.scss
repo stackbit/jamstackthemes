@@ -20,7 +20,7 @@
     flex-direction: column;
     @include breakpoint('small') {
       width: 270px;
-      padding: 80px 0 40px 0;
+      padding: 60px 0 40px 0;
     }
     h3 {
       font-size: 16px;
