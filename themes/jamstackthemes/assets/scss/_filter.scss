@@ -23,19 +23,44 @@
       display: flex;
       align-items: center;
     }
+    span {
+      display: flex;
+      align-items: center;
+    }
     h3 {
       margin-bottom: 0;
       font-size: 14px;
       line-height: 18px;
       @include breakpoint('small') {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 17px;
+        line-height: 22px;
       }
     }
     .toggle-info {
-      margin-left: 5px;
-      img {
-        width: 18px;
+      margin-left: 4px;
+      display: flex;
+      @include breakpoint('small') {
+        margin-left: 6px;
+        margin-bottom: 1px;
+      }
+      a {
+        display: flex;
+        align-items: center;
+      }
+      svg {
+        width: 14px;
+        height: auto;
+        fill: $primary;
+        path {
+          fill: $primary;
+        }
+        @include breakpoint('small') {
+          width: 15px;
+          fill: $primary;
+          path {
+            fill: $primary;
+          }
+        }
       }
       &:hover {
         opacity: 0.6;
@@ -46,7 +71,7 @@
       cursor: pointer;
       display: none;
       @include breakpoint('small') {
-        display: block;
+         display: flex;
       }
       img {
         width: 14px;

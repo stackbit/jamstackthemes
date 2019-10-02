@@ -4,3 +4,9 @@ document.querySelectorAll(".toggle-icon").forEach((title) => {
     e.currentTarget.parentNode.parentNode.classList.toggle('closed');
   })
 })
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  tippy('.tooltip');
+});
