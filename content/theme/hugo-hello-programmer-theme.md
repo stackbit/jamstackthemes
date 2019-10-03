@@ -1,0 +1,10 @@
+---
+title: "Hello Programmer"
+github: https://github.com/lubang/hugo-hello-programmer-theme
+demo: https://blog.lulab.net/
+author: lubang
+ssg:
+  - Hugo
+cms:
+  - No Cms
+---
