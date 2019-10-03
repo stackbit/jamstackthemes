@@ -11,5 +11,4 @@ cms:
   - Forestry
   - NetlifyCMS
   - Sanity
-draft: true
 ---
