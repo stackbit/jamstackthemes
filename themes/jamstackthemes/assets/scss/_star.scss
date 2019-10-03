@@ -1,6 +1,5 @@
 
 .star {
-  display: inline-block;
   float: right;
   background: #f5f5f5;
   padding: 4px 7px 4px 22px;
@@ -8,7 +7,7 @@
   font-size: 14px;
   color: $steel;
   margin-bottom: 8px;
-  background-image: url("../images/icons/star.svg");
+  background-image: url("../images/ui/star.svg");
   background-repeat: no-repeat;
   background-position: 6px 6px;
   background-size: 12px 12px;
