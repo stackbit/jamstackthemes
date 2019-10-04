@@ -1,0 +1,10 @@
+---
+title: Webjeda Slides
+github: https://github.com/sharu725/slides
+demo: http://webjeda.com/slides/
+author: webjeda
+ssg:
+  - Jekyll
+cms:
+  - No Cms
+---

@@ -1,0 +1,10 @@
+---
+title: Cool Concise High-end
+github: https://github.com/Gaohaoyang/gaohaoyang.github.io
+demo: https://gaohaoyang.github.io/
+author: Gaohaoyang
+ssg:
+  - Jekyll
+cms:
+  - No Cms
+---
