@@ -1,5 +1,5 @@
 ---
-title: Plainwhite
+title: "Plainwhite"
 github: https://github.com/thelehhman/plainwhite-jekyll
 demo: https://thelehhman.com/
 author: thelehhman

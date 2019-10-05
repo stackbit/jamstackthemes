@@ -1,5 +1,5 @@
 ---
-title: Minimal
+title: "Minimal"
 github: https://github.com/orderedlist/minimal
 demo: http://orderedlist.com/minimal/
 author: Steve Smith

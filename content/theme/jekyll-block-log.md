@@ -1,5 +1,5 @@
 ---
-title: block-log
+title: "block-log"
 github: https://github.com/anandubajith/block-log
 demo: https://anandu.net/demo/block-log/
 author: Anandu B Ajith

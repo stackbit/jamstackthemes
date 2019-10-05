@@ -1,5 +1,5 @@
 ---
-title: Type
+title: "Type"
 github: https://github.com/aspirethemes/type
 demo: https://type-jekyll.aspirethemes.com/
 author: Aspire Themes

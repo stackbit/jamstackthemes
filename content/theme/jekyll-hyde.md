@@ -1,5 +1,5 @@
 ---
-title: Hyde
+title: "Hyde"
 github: https://github.com/poole/hyde
 demo: http://hyde.getpoole.com/
 author: Mark Otto

@@ -1,5 +1,5 @@
 ---
-title: Texture
+title: "Texture"
 github: https://github.com/thelehhman/texture
 demo: https://thelehhman.com/texture/
 author: thelehhman

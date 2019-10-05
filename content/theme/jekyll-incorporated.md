@@ -1,5 +1,5 @@
 ---
-title: Incorporated
+title: "Incorporated"
 github: https://github.com/kippt/jekyll-incorporated
 demo: http://blog.sendtoinc.com/
 author: Kippt Inc.

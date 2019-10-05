@@ -1,5 +1,5 @@
 ---
-title: Daktilo
+title: "Daktilo"
 github: https://github.com/kronik3r/daktilo
 demo: http://daktilo.github.io/
 author: Motaquillah Maddane

@@ -1,5 +1,5 @@
 ---
-title: Noita
+title: "Noita"
 github: https://github.com/penibelst/jekyll-noita
 demo: http://noita.penibelst.de/
 author: Anatol Broder

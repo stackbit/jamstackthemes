@@ -1,5 +1,5 @@
 ---
-title: Emerald
+title: "Emerald"
 github: https://github.com/KingFelix/emerald
 demo: https://www.jacoporabolini.com/emerald/
 author: Jacopo Rabolini

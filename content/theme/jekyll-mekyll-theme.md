@@ -1,5 +1,5 @@
 ---
-title: Mekyll
+title: "Mekyll"
 github: https://github.com/ifedyukin/Mekyll
 demo: https://ifedyukin.github.io/Mekyll
 author: Igor Fedyukin

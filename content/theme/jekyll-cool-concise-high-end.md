@@ -1,5 +1,5 @@
 ---
-title: Cool Concise High-end
+title: "Cool Concise High-end"
 github: https://github.com/Gaohaoyang/gaohaoyang.github.io
 demo: https://gaohaoyang.github.io/
 author: Gaohaoyang

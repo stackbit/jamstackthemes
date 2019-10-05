@@ -1,5 +1,5 @@
 ---
-title: Lora
+title: "Lora"
 github: https://github.com/nandomoreirame/lora
 demo: http://nandomoreira.me/lora/
 author: nandomoreira.me

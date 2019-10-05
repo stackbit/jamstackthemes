@@ -1,5 +1,5 @@
 ---
-title: Minimal Text
+title: "Minimal Text"
 github: https://github.com/clarkhacks/Minimal-Text
 demo: https://gh.clarkhacks.com/Minimal-Text/
 author: Clark Hacks

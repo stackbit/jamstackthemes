@@ -1,5 +1,5 @@
 ---
-title: Balzac
+title: "Balzac"
 github: https://github.com/coletownsend/balzac-for-jekyll
 demo: https://gtat.me/
 author: Cole Townsend
