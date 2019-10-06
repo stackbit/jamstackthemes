@@ -34,12 +34,17 @@
   </div>
   <div class="grids">
     {{ range sort $themes "Lastmod" "desc" }}
-    {{ $repoName := (substr (replace .Params.github "/" "-") 19 | urlize) }}
-    {{ if .Params.github_branch }}
-      {{ $repoName = (printf "%s-%s" $repoName .Params.github_branch)}}
-    {{ end }}
-    {{ $repo := index .Site.Data.themes $repoName }}
-    {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
+    {{ if .Params.disabled }}
+    {{ else }}
+      {{ $repoName := (substr (replace .Params.github "/" "-") 19 | urlize) }}
+      {{ if .Params.github_branch }}
+        {{ $repoName = (printf "%s-%s" $repoName .Params.github_branch)}}
+      {{ else }}
+        {{ $repoName = (printf "%s-%s" $repoName "master")}}
+      {{ end }}
+      {{ $repo := index .Site.Data.themes $repoName }}
+      {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
+      {{ end }}
     {{ end }}
   </div>
 </div>

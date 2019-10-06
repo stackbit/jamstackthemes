@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 const fs = require('fs');
-const im = require('imagemagick');
 const path = require('path');
 const sharp = require('sharp')
 
@@ -21,7 +20,7 @@ imageFiles.forEach((image) => {
   const outputImage = path.join(outputFolder, `${imageName}.jpg`)
   const outputImage2x = path.join(outputFolder2x, `${imageName}-2x.jpg`)
 
-  if (fs.existsSync(outputImage)) {
+  if (fs.existsSync(outputImage) && fs.existsSync(outputImage2x)) {
     console.log(`skipped ${inputImage}`)
     return false
   } else {

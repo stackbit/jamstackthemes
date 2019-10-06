@@ -1,6 +1,6 @@
 ---
 title: "Personal"
-github: https://le4ker.github.io/personal-jekyll-theme/
+github: https://github.com/le4ker/personal-jekyll-theme
 demo: https://le4ker.github.io/personal-jekyll-theme/
 author: Panos Sakkos
 ssg:
