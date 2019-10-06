@@ -23,10 +23,10 @@
               {{ if (fileExists $staticPath) }}
                 <img width="280" height="180" loading="lazy" src="{{ $filePath | relURL }}" alt="{{ .theme.Params.title }} screenshot" srcset="{{ $filePathHiRes | relURL }} 2x" />
               {{ else }}
-                <img src="{{ "images/default.png" | relURL }}" alt="{{ .theme.Params.title }} screenshot" />
+                <img src="{{ "images/default.png" | relURL }}" loading="lazy" alt="{{ .theme.Params.title }} screenshot" />
               {{ end }}
           {{ else }}
-            <img src="{{ "images/default.png" | relURL }}" alt="{{ .theme.Params.title }} screenshot" />
+            <img src="{{ "images/default.png" | relURL }}" loading="lazy" alt="{{ .theme.Params.title }} screenshot" />
           {{ end }}
       </div>
       <div class="theme-body">

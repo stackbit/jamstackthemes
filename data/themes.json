@@ -7,7 +7,7 @@
     "branch": "master",
     "url": "https://github.com/11ty/eleventy-base-blog",
     "stars": 142,
-    "forks": 90,
+    "forks": 91,
     "open_issues": 18,
     "last_commit": "2019-09-30T14:38:28Z"
   },
@@ -392,8 +392,8 @@
     "url": "https://github.com/alxshelepenok/gatsby-starter-lumen",
     "stars": 895,
     "forks": 291,
-    "open_issues": 8,
-    "last_commit": "2019-10-05T17:04:43Z"
+    "open_issues": 6,
+    "last_commit": "2019-10-06T10:48:26Z"
   },
   "alynxzhou-hexo-theme-aria-master": {
     "theme_key": "alynxzhou-hexo-theme-aria-master",
@@ -643,7 +643,7 @@
     "branch": "master",
     "url": "https://github.com/aspirethemes/type",
     "stars": 69,
-    "forks": 62,
+    "forks": 63,
     "open_issues": 0,
     "last_commit": "2019-09-07T09:27:56Z"
   },
@@ -691,7 +691,7 @@
     "branch": "master",
     "url": "https://github.com/b2a3e8/jekyll-theme-console",
     "stars": 53,
-    "forks": 55,
+    "forks": 56,
     "open_issues": 2,
     "last_commit": "2019-06-18T13:33:49Z"
   },
@@ -727,7 +727,7 @@
     "branch": "master",
     "url": "https://github.com/barryclark/jekyll-now",
     "stars": 6269,
-    "forks": 25682,
+    "forks": 25684,
     "open_issues": 159,
     "last_commit": "2019-10-05T19:12:30Z"
   },
@@ -1123,7 +1123,7 @@
     "branch": "master",
     "url": "https://github.com/chrisrhymes/bulma-clean-theme",
     "stars": 30,
-    "forks": 53,
+    "forks": 54,
     "open_issues": 1,
     "last_commit": "2019-09-14T10:56:11Z"
   },
@@ -1471,7 +1471,7 @@
     "branch": "master",
     "url": "https://github.com/daattali/beautiful-jekyll",
     "stars": 2134,
-    "forks": 6438,
+    "forks": 6437,
     "open_issues": 30,
     "last_commit": "2019-10-04T02:39:41Z"
   },
@@ -1963,21 +1963,9 @@
     "branch": "master",
     "url": "https://github.com/DONGChuan/Yummy-Jekyll",
     "stars": 416,
-    "forks": 313,
+    "forks": 312,
     "open_issues": 19,
     "last_commit": "2018-09-18T10:58:01Z"
-  },
-  "dougbeney-jekyll-pug-material-master": {
-    "theme_key": "dougbeney-jekyll-pug-material-master",
-    "file": "jekyll-pug-material-theme.md",
-    "name": "jekyll-pug-material",
-    "repo": "DougBeney/jekyll-pug-material",
-    "branch": "master",
-    "url": "https://github.com/DougBeney/jekyll-pug-material",
-    "stars": 8,
-    "forks": 15,
-    "open_issues": 0,
-    "last_commit": "2017-11-13T05:59:16Z"
   },
   "dplesca-purehugo-master": {
     "theme_key": "dplesca-purehugo-master",
@@ -2180,32 +2168,8 @@
     "url": "https://github.com/emilbaehr/automatic-app-landing-page",
     "stars": 1656,
     "forks": 395,
-    "open_issues": 9,
+    "open_issues": 10,
     "last_commit": "2019-09-01T17:32:00Z"
-  },
-  "enterthecrucible-materialized_jekyll_theme-master": {
-    "theme_key": "enterthecrucible-materialized_jekyll_theme-master",
-    "file": "jekyll-plus-materialize.md",
-    "name": "materialized_jekyll_theme",
-    "repo": "enterthecrucible/materialized_jekyll_theme",
-    "branch": "master",
-    "url": "https://github.com/enterthecrucible/materialized_jekyll_theme",
-    "stars": 9,
-    "forks": 12,
-    "open_issues": 2,
-    "last_commit": "2017-07-15T12:21:36Z"
-  },
-  "erayaydin-jekyll-bulma-master": {
-    "theme_key": "erayaydin-jekyll-bulma-master",
-    "file": "jekyll-bulma-theme.md",
-    "name": "jekyll-bulma",
-    "repo": "erayaydin/jekyll-bulma",
-    "branch": "master",
-    "url": "https://github.com/erayaydin/jekyll-bulma",
-    "stars": 24,
-    "forks": 15,
-    "open_issues": 4,
-    "last_commit": "2017-12-12T15:30:36Z"
   },
   "esappear-hexo-theme-clover-master": {
     "theme_key": "esappear-hexo-theme-clover-master",
@@ -2406,7 +2370,7 @@
     "repo": "frjo/hugo-theme-zen",
     "branch": "master",
     "url": "https://github.com/frjo/hugo-theme-zen",
-    "stars": 38,
+    "stars": 39,
     "forks": 17,
     "open_issues": 0,
     "last_commit": "2019-10-02T07:06:07Z"
@@ -2507,18 +2471,6 @@
     "open_issues": 18,
     "last_commit": "2019-10-04T11:10:13Z"
   },
-  "gayanvirajith-harmony-master": {
-    "theme_key": "gayanvirajith-harmony-master",
-    "file": "jekyll-harmony.md",
-    "name": "harmony",
-    "repo": "gayanvirajith/harmony",
-    "branch": "master",
-    "url": "https://github.com/gayanvirajith/harmony",
-    "stars": 231,
-    "forks": 224,
-    "open_issues": 17,
-    "last_commit": "2017-12-14T13:26:27Z"
-  },
   "gchauras-much-worse-jekyll-theme-master": {
     "theme_key": "gchauras-much-worse-jekyll-theme-master",
     "file": "jekyll-much-worse.md",
@@ -2590,18 +2542,6 @@
     "forks": 27,
     "open_issues": 8,
     "last_commit": "2018-09-27T04:05:41Z"
-  },
-  "gfjaru-kiko-master": {
-    "theme_key": "gfjaru-kiko-master",
-    "file": "jekyll-kiko.md",
-    "name": "Kiko",
-    "repo": "gfjaru/Kiko",
-    "branch": "master",
-    "url": "https://github.com/gfjaru/Kiko",
-    "stars": 173,
-    "forks": 159,
-    "open_issues": 0,
-    "last_commit": "2019-02-07T05:28:51Z"
   },
   "gildasio-clyell-master": {
     "theme_key": "gildasio-clyell-master",
@@ -2803,7 +2743,7 @@
     "branch": "master",
     "url": "https://github.com/h01000110/windows-95",
     "stars": 226,
-    "forks": 73,
+    "forks": 72,
     "open_issues": 7,
     "last_commit": "2018-09-25T21:03:50Z"
   },
@@ -3415,7 +3355,7 @@
     "branch": "master",
     "url": "https://github.com/jarrekk/Jalpc",
     "stars": 731,
-    "forks": 1008,
+    "forks": 1009,
     "open_issues": 31,
     "last_commit": "2019-07-10T05:49:42Z"
   },
@@ -3574,18 +3514,6 @@
     "forks": 11,
     "open_issues": 8,
     "last_commit": "2019-09-19T05:49:28Z"
-  },
-  "jglovier-resume-template-master": {
-    "theme_key": "jglovier-resume-template-master",
-    "file": "jekyll-resume-template.md",
-    "name": "resume-template",
-    "repo": "jglovier/resume-template",
-    "branch": "master",
-    "url": "https://github.com/jglovier/resume-template",
-    "stars": 954,
-    "forks": 814,
-    "open_issues": 12,
-    "last_commit": "2019-09-24T18:50:42Z"
   },
   "jnjosh-internet-weblog-master": {
     "theme_key": "jnjosh-internet-weblog-master",
@@ -3815,18 +3743,6 @@
     "open_issues": 8,
     "last_commit": "2019-08-28T07:36:35Z"
   },
-  "kaeyleo-jekyll-theme-h2o-master": {
-    "theme_key": "kaeyleo-jekyll-theme-h2o-master",
-    "file": "jekyll-h2o-theme.md",
-    "name": "jekyll-theme-H2O",
-    "repo": "kaeyleo/jekyll-theme-H2O",
-    "branch": "master",
-    "url": "https://github.com/kaeyleo/jekyll-theme-H2O",
-    "stars": 769,
-    "forks": 378,
-    "open_issues": 19,
-    "last_commit": "2019-07-16T06:29:05Z"
-  },
   "kakawait-hugo-tranquilpeak-theme-master": {
     "theme_key": "kakawait-hugo-tranquilpeak-theme-master",
     "file": "hugo-tranquilpeak-theme.md",
@@ -3993,7 +3909,7 @@
     "stars": 878,
     "forks": 833,
     "open_issues": 50,
-    "last_commit": "2019-10-06T09:15:42Z"
+    "last_commit": "2019-10-06T10:39:09Z"
   },
   "kkninjae-book-master": {
     "theme_key": "kkninjae-book-master",
@@ -4014,7 +3930,7 @@
     "repo": "klugjo/hexo-theme-alpha-dust",
     "branch": "master",
     "url": "https://github.com/klugjo/hexo-theme-alpha-dust",
-    "stars": 233,
+    "stars": 234,
     "forks": 75,
     "open_issues": 3,
     "last_commit": "2019-04-22T13:06:32Z"
@@ -4475,18 +4391,6 @@
     "open_issues": 0,
     "last_commit": "2018-08-21T06:25:20Z"
   },
-  "luminousrubyist-airspace-jekyll-master": {
-    "theme_key": "luminousrubyist-airspace-jekyll-master",
-    "file": "jekyll-airspace.md",
-    "name": "airspace-jekyll",
-    "repo": "luminousrubyist/airspace-jekyll",
-    "branch": "master",
-    "url": "https://github.com/luminousrubyist/airspace-jekyll",
-    "stars": 4,
-    "forks": 81,
-    "open_issues": 0,
-    "last_commit": "2019-01-15T05:44:52Z"
-  },
   "lunaceee-hexo-material-netlify-master": {
     "theme_key": "lunaceee-hexo-material-netlify-master",
     "file": "hexo-material-netlify.md",
@@ -4867,7 +4771,7 @@
     "branch": "master",
     "url": "https://github.com/mmistakes/minimal-mistakes",
     "stars": 5685,
-    "forks": 9536,
+    "forks": 9535,
     "open_issues": 9,
     "last_commit": "2019-10-05T00:01:52Z"
   },
@@ -4879,7 +4783,7 @@
     "branch": "master",
     "url": "https://github.com/mmistakes/so-simple-theme",
     "stars": 1307,
-    "forks": 2059,
+    "forks": 2058,
     "open_issues": 4,
     "last_commit": "2019-10-05T22:14:31Z"
   },
@@ -4963,7 +4867,7 @@
     "branch": "master",
     "url": "https://github.com/murraco/jekyll-theme-minimal-resume",
     "stars": 45,
-    "forks": 173,
+    "forks": 172,
     "open_issues": 3,
     "last_commit": "2019-09-18T00:15:47Z"
   },
@@ -5239,7 +5143,7 @@
     "branch": "master",
     "url": "https://github.com/nielsenramon/chalk",
     "stars": 767,
-    "forks": 362,
+    "forks": 363,
     "open_issues": 20,
     "last_commit": "2019-09-18T22:40:36Z"
   },
@@ -5419,7 +5323,7 @@
     "branch": "master",
     "url": "https://github.com/olOwOlo/hugo-theme-even",
     "stars": 732,
-    "forks": 297,
+    "forks": 296,
     "open_issues": 29,
     "last_commit": "2019-09-09T06:36:29Z"
   },
@@ -5636,8 +5540,8 @@
     "url": "https://github.com/Pelican-Elegant/elegant",
     "stars": 195,
     "forks": 141,
-    "open_issues": 33,
-    "last_commit": "2019-09-30T00:47:23Z"
+    "open_issues": 34,
+    "last_commit": "2019-10-06T10:42:51Z"
   },
   "penibelst-jekyll-noita-master": {
     "theme_key": "penibelst-jekyll-noita-master",
@@ -5754,7 +5658,7 @@
     "repo": "pmarsceill/just-the-docs",
     "branch": "master",
     "url": "https://github.com/pmarsceill/just-the-docs",
-    "stars": 930,
+    "stars": 931,
     "forks": 468,
     "open_issues": 38,
     "last_commit": "2019-10-03T17:24:05Z"
@@ -6486,7 +6390,7 @@
     "repo": "shenliyang/hexo-theme-snippet",
     "branch": "master",
     "url": "https://github.com/shenliyang/hexo-theme-snippet",
-    "stars": 849,
+    "stars": 850,
     "forks": 189,
     "open_issues": 8,
     "last_commit": "2019-09-06T01:02:04Z"
@@ -6634,18 +6538,6 @@
     "forks": 58,
     "open_issues": 1,
     "last_commit": "2018-10-18T03:31:35Z"
-  },
-  "spaceg-library-master": {
-    "theme_key": "spaceg-library-master",
-    "file": "jekyll-library-amoklaufer.md",
-    "name": "Library",
-    "repo": "SpaceG/Library",
-    "branch": "master",
-    "url": "https://github.com/SpaceG/Library",
-    "stars": 35,
-    "forks": 34,
-    "open_issues": 0,
-    "last_commit": "2019-01-25T08:37:10Z"
   },
   "sparanoid-almace-scaffolding-master": {
     "theme_key": "sparanoid-almace-scaffolding-master",
@@ -7231,7 +7123,7 @@
     "branch": "master",
     "url": "https://github.com/TaylanTatli/Moon",
     "stars": 1817,
-    "forks": 1735,
+    "forks": 1737,
     "open_issues": 75,
     "last_commit": "2019-08-19T06:57:03Z"
   },
@@ -7279,7 +7171,7 @@
     "branch": "master",
     "url": "https://github.com/the-development/flex",
     "stars": 128,
-    "forks": 184,
+    "forks": 183,
     "open_issues": 3,
     "last_commit": "2019-07-03T04:05:43Z"
   },
@@ -7843,7 +7735,7 @@
     "branch": "master",
     "url": "https://github.com/victorvoid/space-jekyll-template",
     "stars": 330,
-    "forks": 293,
+    "forks": 294,
     "open_issues": 6,
     "last_commit": "2019-03-29T02:52:26Z"
   },
@@ -8154,7 +8046,7 @@
     "repo": "wowthemesnet/mundana-theme-jekyll",
     "branch": "master",
     "url": "https://github.com/wowthemesnet/mundana-theme-jekyll",
-    "stars": 144,
+    "stars": 143,
     "forks": 181,
     "open_issues": 8,
     "last_commit": "2019-08-18T09:09:59Z"
@@ -8215,7 +8107,7 @@
     "branch": "master",
     "url": "https://github.com/xukimseven/HardCandy-Jekyll",
     "stars": 110,
-    "forks": 84,
+    "forks": 85,
     "open_issues": 11,
     "last_commit": "2019-09-02T14:59:10Z"
   },
@@ -8443,7 +8335,7 @@
     "branch": "master",
     "url": "https://github.com/zwbetz-gh/cupper-hugo-theme",
     "stars": 75,
-    "forks": 58,
+    "forks": 59,
     "open_issues": 1,
     "last_commit": "2019-10-03T01:03:22Z"
   },
