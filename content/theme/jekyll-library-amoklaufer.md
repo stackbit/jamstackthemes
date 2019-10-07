@@ -3,7 +3,7 @@ title: "Library Amokläufer"
 github: https://github.com/SpaceG/library
 demo: http://lucasgatsas.ch
 author: Lucas Gatsas
-disabled: true
+draft: true
 ssg:
   - Jekyll
 cms:

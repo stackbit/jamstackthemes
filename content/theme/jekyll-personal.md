@@ -1,8 +1,9 @@
 ---
 title: "Personal"
-github: https://github.com/le4ker/personal-jekyll-theme
+github: https://le4ker.github.io/personal-jekyll-theme/
 demo: https://le4ker.github.io/personal-jekyll-theme/
 author: Panos Sakkos
+draft: true
 ssg:
   - Jekyll
 cms:

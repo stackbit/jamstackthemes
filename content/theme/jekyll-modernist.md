@@ -3,6 +3,7 @@ title: "Modernist"
 github: https://github.com/orderedlist/modernist
 demo: http://orderedlist.com/modernist/
 author: Steve Smith
+draft: true
 ssg:
   - Jekyll
 cms:

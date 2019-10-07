@@ -1,8 +1,9 @@
 ---
 title: "Glas"
 github: https://github.com/SpaceG/glas
-demo: http://spaceg.github.io/
+demo: http://lucasgatsas.ch
 author: Lucas Gatsas
+draft: true
 ssg:
   - Jekyll
 cms:
