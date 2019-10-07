@@ -4,6 +4,7 @@ draft: true
 github: https://github.com/stackbithq/stackbit-theme-reflex
 demo: https://themes.stackbit.com/demos/reflex
 author: Stackbit
+draft: true
 ssg:
   - Hugo
   - Gatsby

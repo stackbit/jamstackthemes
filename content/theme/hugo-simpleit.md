@@ -3,6 +3,7 @@ title: "SimpleIT"
 github: https://github.com/marcanuy/simpleit-hugo-theme
 demo: https://themes.gohugo.io/theme/simpleit-hugo-theme/
 author: Marcelo Canina
+draft: true
 ssg:
   - Hugo
 cms:

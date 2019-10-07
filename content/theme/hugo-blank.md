@@ -3,6 +3,7 @@ title: "Blank"
 github: https://github.com/vimux/blank
 demo: https://themes.gohugo.io/theme/blank/
 author: Vimux
+draft: true
 ssg:
   - Hugo
 cms:
