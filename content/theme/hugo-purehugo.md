@@ -1,9 +1,8 @@
 ---
 title: "Purehugo"
 github: https://github.com/dplesca/purehugo
-demo: https://themes.gohugo.io/theme/purehugo/
+demo: http://dplesca.github.io/purehugo/
 author: Dragos Plesca
-draft: true
 ssg:
   - Hugo
 cms:

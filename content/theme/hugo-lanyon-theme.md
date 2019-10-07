@@ -1,9 +1,8 @@
 ---
 title: "Lanyon"
 github: https://github.com/tummychow/lanyon-hugo
-demo: https://themes.gohugo.io/theme/lanyon/
+demo: http://tummychow.github.io/lanyon-hugo/
 author: Stephen Jung
-draft: true
 ssg:
   - Hugo
 cms:

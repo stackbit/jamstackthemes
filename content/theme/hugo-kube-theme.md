@@ -1,9 +1,8 @@
 ---
 title: "Kube Hugo"
 github: https://github.com/jeblister/kube
-demo: https://themes.gohugo.io/theme/kube/
+demo: https://kube.elemnts.net/
 author: Mohamed
-draft: true
 ssg:
   - Hugo
 cms:
