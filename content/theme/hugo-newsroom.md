@@ -8,5 +8,4 @@ ssg:
   - Hugo
 cms:
   - No Cms
-draft: true
 ---
