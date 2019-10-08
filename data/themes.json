@@ -7,9 +7,9 @@
     "branch": "master",
     "url": "https://github.com/11ty/eleventy-base-blog",
     "stars": 142,
-    "forks": 91,
+    "forks": 93,
     "open_issues": 18,
-    "last_commit": "2019-09-30T14:38:28Z"
+    "last_commit": "2019-10-08T13:35:43Z"
   },
   "2-rec-hugo-myportfolio-theme-master": {
     "theme_key": "2-rec-hugo-myportfolio-theme-master",
@@ -31,7 +31,7 @@
     "branch": "master",
     "url": "https://github.com/abhn/Soot-Spirits",
     "stars": 30,
-    "forks": 34,
+    "forks": 33,
     "open_issues": 1,
     "last_commit": "2018-10-16T03:56:13Z"
   },
@@ -162,8 +162,8 @@
     "repo": "agusmakmun/agusmakmun.github.io",
     "branch": "master",
     "url": "https://github.com/agusmakmun/agusmakmun.github.io",
-    "stars": 312,
-    "forks": 510,
+    "stars": 313,
+    "forks": 512,
     "open_issues": 9,
     "last_commit": "2019-10-02T17:51:02Z"
   },
@@ -191,6 +191,18 @@
     "open_issues": 1,
     "last_commit": "2018-06-19T22:56:45Z"
   },
+  "ajayns-gatsby-absurd-master": {
+    "theme_key": "ajayns-gatsby-absurd-master",
+    "file": "gatsby-absurd.md",
+    "name": "gatsby-absurd",
+    "repo": "ajayns/gatsby-absurd",
+    "branch": "master",
+    "url": "https://github.com/ajayns/gatsby-absurd",
+    "stars": 43,
+    "forks": 15,
+    "open_issues": 1,
+    "last_commit": "2019-05-15T09:29:37Z"
+  },
   "akiritsu-project-negya-master": {
     "theme_key": "akiritsu-project-negya-master",
     "file": "jekyll-theme-project-negya.md",
@@ -210,7 +222,7 @@
     "repo": "aksakalli/jekyll-doc-theme",
     "branch": "master",
     "url": "https://github.com/aksakalli/jekyll-doc-theme",
-    "stars": 149,
+    "stars": 150,
     "forks": 152,
     "open_issues": 3,
     "last_commit": "2019-10-07T15:45:15Z"
@@ -235,7 +247,7 @@
     "branch": "master",
     "url": "https://github.com/alainpham/alainpham.github.io",
     "stars": 3,
-    "forks": 51,
+    "forks": 52,
     "open_issues": 0,
     "last_commit": "2019-09-17T18:29:57Z"
   },
@@ -258,10 +270,10 @@
     "repo": "alex-shpak/hugo-book",
     "branch": "master",
     "url": "https://github.com/alex-shpak/hugo-book",
-    "stars": 245,
-    "forks": 125,
-    "open_issues": 11,
-    "last_commit": "2019-10-04T07:52:52Z"
+    "stars": 247,
+    "forks": 128,
+    "open_issues": 8,
+    "last_commit": "2019-10-08T15:15:22Z"
   },
   "alexander-heimbuch-vuepress-theme-casper-master": {
     "theme_key": "alexander-heimbuch-vuepress-theme-casper-master",
@@ -270,8 +282,8 @@
     "repo": "alexander-heimbuch/vuepress-theme-casper",
     "branch": "master",
     "url": "https://github.com/alexander-heimbuch/vuepress-theme-casper",
-    "stars": 38,
-    "forks": 15,
+    "stars": 39,
+    "forks": 16,
     "open_issues": 0,
     "last_commit": "2019-08-22T06:10:32Z"
   },
@@ -392,8 +404,8 @@
     "url": "https://github.com/alxshelepenok/gatsby-starter-lumen",
     "stars": 895,
     "forks": 292,
-    "open_issues": 7,
-    "last_commit": "2019-10-07T02:37:13Z"
+    "open_issues": 9,
+    "last_commit": "2019-10-08T20:18:51Z"
   },
   "alynxzhou-hexo-theme-aria-master": {
     "theme_key": "alynxzhou-hexo-theme-aria-master",
@@ -406,6 +418,18 @@
     "forks": 43,
     "open_issues": 1,
     "last_commit": "2019-09-25T06:12:29Z"
+  },
+  "amandeepmittal-gatsby-bulma-quickstart-master": {
+    "theme_key": "amandeepmittal-gatsby-bulma-quickstart-master",
+    "file": "gatsby-bulma-quickstart.md",
+    "name": "gatsby-bulma-quickstart",
+    "repo": "amandeepmittal/gatsby-bulma-quickstart",
+    "branch": "master",
+    "url": "https://github.com/amandeepmittal/gatsby-bulma-quickstart",
+    "stars": 64,
+    "forks": 14,
+    "open_issues": 0,
+    "last_commit": "2019-09-12T05:16:18Z"
   },
   "anandubajith-block-log-master": {
     "theme_key": "anandubajith-block-log-master",
@@ -438,9 +462,9 @@
     "repo": "hankchizljaw/hylia",
     "branch": "master",
     "url": "https://github.com/hankchizljaw/hylia",
-    "stars": 415,
+    "stars": 417,
     "forks": 51,
-    "open_issues": 8,
+    "open_issues": 7,
     "last_commit": "2019-10-07T13:09:58Z"
   },
   "angelostavrow-indigo-master": {
@@ -486,7 +510,7 @@
     "repo": "ankitsultana/researcher",
     "branch": "master",
     "url": "https://github.com/ankitsultana/researcher",
-    "stars": 262,
+    "stars": 263,
     "forks": 263,
     "open_issues": 2,
     "last_commit": "2019-09-03T07:30:12Z"
@@ -559,7 +583,7 @@
     "branch": "master",
     "url": "https://github.com/artemsheludko/adam-blog",
     "stars": 130,
-    "forks": 223,
+    "forks": 222,
     "open_issues": 2,
     "last_commit": "2019-08-14T13:24:11Z"
   },
@@ -582,8 +606,8 @@
     "repo": "artemsheludko/flexible-jekyll",
     "branch": "master",
     "url": "https://github.com/artemsheludko/flexible-jekyll",
-    "stars": 307,
-    "forks": 738,
+    "stars": 308,
+    "forks": 741,
     "open_issues": 10,
     "last_commit": "2019-09-18T22:18:59Z"
   },
@@ -619,7 +643,7 @@
     "branch": "master",
     "url": "https://github.com/artemsheludko/mr-brown",
     "stars": 21,
-    "forks": 43,
+    "forks": 42,
     "open_issues": 1,
     "last_commit": "2017-05-06T11:59:52Z"
   },
@@ -690,8 +714,8 @@
     "repo": "b2a3e8/jekyll-theme-console",
     "branch": "master",
     "url": "https://github.com/b2a3e8/jekyll-theme-console",
-    "stars": 53,
-    "forks": 56,
+    "stars": 55,
+    "forks": 55,
     "open_issues": 2,
     "last_commit": "2019-06-18T13:33:49Z"
   },
@@ -704,7 +728,7 @@
     "url": "https://github.com/bake/solar-theme-hugo",
     "stars": 18,
     "forks": 13,
-    "open_issues": 0,
+    "open_issues": 1,
     "last_commit": "2019-08-20T11:54:09Z"
   },
   "balaramadurai-hugo-travelify-theme-master": {
@@ -719,6 +743,18 @@
     "open_issues": 0,
     "last_commit": "2019-08-20T10:45:26Z"
   },
+  "baobabkoodaa-gatsby-starter-infinite-scroll-master": {
+    "theme_key": "baobabkoodaa-gatsby-starter-infinite-scroll-master",
+    "file": "gatsby-starter-infinite-scroll.md",
+    "name": "gatsby-starter-infinite-scroll",
+    "repo": "baobabKoodaa/gatsby-starter-infinite-scroll",
+    "branch": "master",
+    "url": "https://github.com/baobabKoodaa/gatsby-starter-infinite-scroll",
+    "stars": 53,
+    "forks": 11,
+    "open_issues": 0,
+    "last_commit": "2019-09-15T18:41:28Z"
+  },
   "barryclark-jekyll-now-master": {
     "theme_key": "barryclark-jekyll-now-master",
     "file": "jekyll-now.md",
@@ -726,10 +762,10 @@
     "repo": "barryclark/jekyll-now",
     "branch": "master",
     "url": "https://github.com/barryclark/jekyll-now",
-    "stars": 6271,
+    "stars": 6270,
     "forks": 25696,
     "open_issues": 159,
-    "last_commit": "2019-10-05T19:12:30Z"
+    "last_commit": "2019-10-08T13:48:07Z"
   },
   "bawn92-sleek_blog-master": {
     "theme_key": "bawn92-sleek_blog-master",
@@ -751,7 +787,7 @@
     "branch": "master",
     "url": "https://github.com/bencentra/centrarium",
     "stars": 314,
-    "forks": 511,
+    "forks": 513,
     "open_issues": 3,
     "last_commit": "2019-10-06T01:08:56Z"
   },
@@ -798,7 +834,7 @@
     "repo": "jekyller/jasper",
     "branch": "master",
     "url": "https://github.com/jekyller/jasper",
-    "stars": 483,
+    "stars": 485,
     "forks": 278,
     "open_issues": 10,
     "last_commit": "2019-07-14T10:29:21Z"
@@ -834,9 +870,9 @@
     "repo": "bit-ranger/blog",
     "branch": "master",
     "url": "https://github.com/bit-ranger/blog",
-    "stars": 92,
+    "stars": 94,
     "forks": 72,
-    "open_issues": 42,
+    "open_issues": 43,
     "last_commit": "2019-09-18T05:11:35Z"
   },
   "bjacquemet-personal-web-master": {
@@ -858,8 +894,8 @@
     "repo": "BlackrockDigital/startbootstrap-clean-blog-jekyll",
     "branch": "master",
     "url": "https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll",
-    "stars": 1431,
-    "forks": 1322,
+    "stars": 1432,
+    "forks": 1323,
     "open_issues": 11,
     "last_commit": "2019-09-16T22:10:25Z"
   },
@@ -887,6 +923,18 @@
     "open_issues": 0,
     "last_commit": "2019-08-10T10:21:25Z"
   },
+  "bluepeter-gatsby-material-ui-business-starter-master": {
+    "theme_key": "bluepeter-gatsby-material-ui-business-starter-master",
+    "file": "gatsby-material-ui-business-starter.md",
+    "name": "gatsby-material-ui-business-starter",
+    "repo": "bluepeter/gatsby-material-ui-business-starter",
+    "branch": "master",
+    "url": "https://github.com/bluepeter/gatsby-material-ui-business-starter",
+    "stars": 38,
+    "forks": 12,
+    "open_issues": 1,
+    "last_commit": "2019-04-17T20:23:32Z"
+  },
   "boyney123-evento-master": {
     "theme_key": "boyney123-evento-master",
     "file": "jekyll-evento.md",
@@ -907,7 +955,7 @@
     "branch": "master",
     "url": "https://github.com/brianmaierjr/long-haul",
     "stars": 441,
-    "forks": 544,
+    "forks": 545,
     "open_issues": 0,
     "last_commit": "2019-07-17T15:10:11Z"
   },
@@ -967,7 +1015,7 @@
     "branch": "master",
     "url": "https://github.com/budparr/gohugo-theme-ananke",
     "stars": 328,
-    "forks": 314,
+    "forks": 317,
     "open_issues": 49,
     "last_commit": "2019-09-30T13:34:56Z"
   },
@@ -983,6 +1031,18 @@
     "open_issues": 2,
     "last_commit": "2019-09-01T02:39:14Z"
   },
+  "caki0915-gatsby-starter-redux-master": {
+    "theme_key": "caki0915-gatsby-starter-redux-master",
+    "file": "gatsby-starter-redux.md",
+    "name": "gatsby-starter-redux",
+    "repo": "caki0915/gatsby-starter-redux",
+    "branch": "master",
+    "url": "https://github.com/caki0915/gatsby-starter-redux",
+    "stars": 43,
+    "forks": 12,
+    "open_issues": 3,
+    "last_commit": "2019-07-02T19:32:27Z"
+  },
   "calintat-minimal-master": {
     "theme_key": "calintat-minimal-master",
     "file": "minimal.md",
@@ -994,6 +1054,18 @@
     "forks": 138,
     "open_issues": 28,
     "last_commit": "2019-10-06T00:12:22Z"
+  },
+  "calpa-gatsby-starter-calpa-blog-master": {
+    "theme_key": "calpa-gatsby-starter-calpa-blog-master",
+    "file": "gatsby-starter-calpa-blog.md",
+    "name": "gatsby-starter-calpa-blog",
+    "repo": "calpa/gatsby-starter-calpa-blog",
+    "branch": "master",
+    "url": "https://github.com/calpa/gatsby-starter-calpa-blog",
+    "stars": 238,
+    "forks": 58,
+    "open_issues": 6,
+    "last_commit": "2019-05-17T13:35:14Z"
   },
   "carsonip-hugo-theme-minos-master": {
     "theme_key": "carsonip-hugo-theme-minos-master",
@@ -1074,8 +1146,8 @@
     "repo": "chesterhow/tale",
     "branch": "master",
     "url": "https://github.com/chesterhow/tale",
-    "stars": 494,
-    "forks": 561,
+    "stars": 496,
+    "forks": 560,
     "open_issues": 0,
     "last_commit": "2019-10-04T05:33:40Z"
   },
@@ -1111,7 +1183,7 @@
     "branch": "master",
     "url": "https://github.com/chrisbobbe/jekyll-theme-prologue",
     "stars": 221,
-    "forks": 558,
+    "forks": 560,
     "open_issues": 23,
     "last_commit": "2019-09-28T05:43:08Z"
   },
@@ -1219,7 +1291,7 @@
     "branch": "master",
     "url": "https://github.com/CloudCannon/aviator-jekyll-template",
     "stars": 299,
-    "forks": 162,
+    "forks": 163,
     "open_issues": 2,
     "last_commit": "2019-08-21T01:55:06Z"
   },
@@ -1279,7 +1351,7 @@
     "branch": "master",
     "url": "https://github.com/CloudCannon/hydra-jekyll-template",
     "stars": 216,
-    "forks": 203,
+    "forks": 204,
     "open_issues": 0,
     "last_commit": "2019-07-29T21:12:54Z"
   },
@@ -1350,10 +1422,70 @@
     "repo": "codeasashu/hcz-jekyll-blog",
     "branch": "master",
     "url": "https://github.com/codeasashu/hcz-jekyll-blog",
-    "stars": 202,
-    "forks": 250,
+    "stars": 203,
+    "forks": 252,
     "open_issues": 14,
     "last_commit": "2019-04-11T01:24:31Z"
+  },
+  "codebushi-gatsby-starter-dimension-master": {
+    "theme_key": "codebushi-gatsby-starter-dimension-master",
+    "file": "gatsby-starter-dimension.md",
+    "name": "gatsby-starter-dimension",
+    "repo": "codebushi/gatsby-starter-dimension",
+    "branch": "master",
+    "url": "https://github.com/codebushi/gatsby-starter-dimension",
+    "stars": 188,
+    "forks": 118,
+    "open_issues": 0,
+    "last_commit": "2019-09-28T14:14:43Z"
+  },
+  "codebushi-gatsby-starter-forty-master": {
+    "theme_key": "codebushi-gatsby-starter-forty-master",
+    "file": "gatsby-starter-forty.md",
+    "name": "gatsby-starter-forty",
+    "repo": "codebushi/gatsby-starter-forty",
+    "branch": "master",
+    "url": "https://github.com/codebushi/gatsby-starter-forty",
+    "stars": 155,
+    "forks": 69,
+    "open_issues": 0,
+    "last_commit": "2019-09-13T03:09:54Z"
+  },
+  "codebushi-gatsby-starter-photon-master": {
+    "theme_key": "codebushi-gatsby-starter-photon-master",
+    "file": "gatsby-starter-photon.md",
+    "name": "gatsby-starter-photon",
+    "repo": "codebushi/gatsby-starter-photon",
+    "branch": "master",
+    "url": "https://github.com/codebushi/gatsby-starter-photon",
+    "stars": 50,
+    "forks": 31,
+    "open_issues": 1,
+    "last_commit": "2019-09-13T03:16:33Z"
+  },
+  "codebushi-gatsby-starter-stellar-master": {
+    "theme_key": "codebushi-gatsby-starter-stellar-master",
+    "file": "gatsby-starter-stellar.md",
+    "name": "gatsby-starter-stellar",
+    "repo": "codebushi/gatsby-starter-stellar",
+    "branch": "master",
+    "url": "https://github.com/codebushi/gatsby-starter-stellar",
+    "stars": 97,
+    "forks": 21,
+    "open_issues": 0,
+    "last_commit": "2019-09-13T12:56:54Z"
+  },
+  "codebushi-gatsby-starter-strata-master": {
+    "theme_key": "codebushi-gatsby-starter-strata-master",
+    "file": "gatsby-starter-strata.md",
+    "name": "gatsby-starter-strata",
+    "repo": "codebushi/gatsby-starter-strata",
+    "branch": "master",
+    "url": "https://github.com/codebushi/gatsby-starter-strata",
+    "stars": 92,
+    "forks": 30,
+    "open_issues": 1,
+    "last_commit": "2019-09-13T03:17:16Z"
   },
   "coderzh-hugo-pacman-theme-master": {
     "theme_key": "coderzh-hugo-pacman-theme-master",
@@ -1387,7 +1519,7 @@
     "branch": "master",
     "url": "https://github.com/ColeTownsend/Balzac-for-Jekyll",
     "stars": 470,
-    "forks": 411,
+    "forks": 412,
     "open_issues": 5,
     "last_commit": "2019-01-01T23:37:36Z"
   },
@@ -1435,7 +1567,7 @@
     "branch": "master",
     "url": "https://github.com/curtistimson/hugo-theme-massively",
     "stars": 50,
-    "forks": 44,
+    "forks": 45,
     "open_issues": 9,
     "last_commit": "2019-09-12T13:25:29Z"
   },
@@ -1470,10 +1602,34 @@
     "repo": "daattali/beautiful-jekyll",
     "branch": "master",
     "url": "https://github.com/daattali/beautiful-jekyll",
-    "stars": 2136,
-    "forks": 6446,
+    "stars": 2138,
+    "forks": 6450,
     "open_issues": 31,
     "last_commit": "2019-10-06T16:35:42Z"
+  },
+  "dabit3-gatsby-auth-starter-aws-amplify-master": {
+    "theme_key": "dabit3-gatsby-auth-starter-aws-amplify-master",
+    "file": "gatsby-auth-starter-aws-amplify.md",
+    "name": "gatsby-auth-starter-aws-amplify",
+    "repo": "dabit3/gatsby-auth-starter-aws-amplify",
+    "branch": "master",
+    "url": "https://github.com/dabit3/gatsby-auth-starter-aws-amplify",
+    "stars": 219,
+    "forks": 89,
+    "open_issues": 3,
+    "last_commit": "2019-08-01T21:54:01Z"
+  },
+  "damassi-gatsby-starter-typescript-rebass-netlifycms-master": {
+    "theme_key": "damassi-gatsby-starter-typescript-rebass-netlifycms-master",
+    "file": "gatsby-starter-typescript-rebass-netlifycms.md",
+    "name": "gatsby-starter-typescript-rebass-netlifycms",
+    "repo": "damassi/gatsby-starter-typescript-rebass-netlifycms",
+    "branch": "master",
+    "url": "https://github.com/damassi/gatsby-starter-typescript-rebass-netlifycms",
+    "stars": 46,
+    "forks": 14,
+    "open_issues": 0,
+    "last_commit": "2019-09-04T22:58:12Z"
   },
   "danielbayerlein-middleman-casper-master": {
     "theme_key": "danielbayerlein-middleman-casper-master",
@@ -1619,6 +1775,18 @@
     "open_issues": 9,
     "last_commit": "2019-03-14T02:32:31Z"
   },
+  "datocms-gatsby-portfolio-master": {
+    "theme_key": "datocms-gatsby-portfolio-master",
+    "file": "gatsby-portfolio.md",
+    "name": "gatsby-portfolio",
+    "repo": "datocms/gatsby-portfolio",
+    "branch": "master",
+    "url": "https://github.com/datocms/gatsby-portfolio",
+    "stars": 59,
+    "forks": 21,
+    "open_issues": 0,
+    "last_commit": "2019-10-08T09:12:43Z"
+  },
   "daviddarnes-alembic-master": {
     "theme_key": "daviddarnes-alembic-master",
     "file": "alembic.md",
@@ -1626,7 +1794,7 @@
     "repo": "daviddarnes/alembic",
     "branch": "master",
     "url": "https://github.com/daviddarnes/alembic",
-    "stars": 336,
+    "stars": 338,
     "forks": 372,
     "open_issues": 3,
     "last_commit": "2019-07-09T07:57:57Z"
@@ -1663,7 +1831,7 @@
     "branch": "master",
     "url": "https://github.com/dbtek/dbyll",
     "stars": 495,
-    "forks": 400,
+    "forks": 401,
     "open_issues": 3,
     "last_commit": "2019-08-18T19:50:40Z"
   },
@@ -1674,7 +1842,7 @@
     "repo": "dbtek/paper",
     "branch": "master",
     "url": "https://github.com/dbtek/paper",
-    "stars": 47,
+    "stars": 48,
     "forks": 57,
     "open_issues": 2,
     "last_commit": "2019-10-05T17:04:22Z"
@@ -1734,8 +1902,8 @@
     "repo": "devcows/hugo-universal-theme",
     "branch": "master",
     "url": "https://github.com/devcows/hugo-universal-theme",
-    "stars": 388,
-    "forks": 288,
+    "stars": 389,
+    "forks": 289,
     "open_issues": 56,
     "last_commit": "2019-09-20T13:59:39Z"
   },
@@ -1866,7 +2034,7 @@
     "repo": "digitalcraftsman/hugo-icarus-theme",
     "branch": "master",
     "url": "https://github.com/digitalcraftsman/hugo-icarus-theme",
-    "stars": 175,
+    "stars": 176,
     "forks": 131,
     "open_issues": 32,
     "last_commit": "2019-03-28T21:19:37Z"
@@ -1915,7 +2083,7 @@
     "branch": "master",
     "url": "https://github.com/dikiaap/mangan",
     "stars": 40,
-    "forks": 35,
+    "forks": 34,
     "open_issues": 0,
     "last_commit": "2019-09-17T14:36:26Z"
   },
@@ -1962,22 +2130,10 @@
     "repo": "DONGChuan/Yummy-Jekyll",
     "branch": "master",
     "url": "https://github.com/DONGChuan/Yummy-Jekyll",
-    "stars": 416,
+    "stars": 417,
     "forks": 312,
     "open_issues": 19,
     "last_commit": "2018-09-18T10:58:01Z"
-  },
-  "dougbeney-jekyll-pug-material-master": {
-    "theme_key": "dougbeney-jekyll-pug-material-master",
-    "file": "jekyll-pug-material-theme.md",
-    "name": "jekyll-pug-material",
-    "repo": "DougBeney/jekyll-pug-material",
-    "branch": "master",
-    "url": "https://github.com/DougBeney/jekyll-pug-material",
-    "stars": 8,
-    "forks": 15,
-    "open_issues": 0,
-    "last_commit": "2017-11-13T05:59:16Z"
   },
   "dplesca-purehugo-master": {
     "theme_key": "dplesca-purehugo-master",
@@ -1998,7 +2154,7 @@
     "repo": "Drassil/git-wiki",
     "branch": "master",
     "url": "https://github.com/Drassil/git-wiki",
-    "stars": 82,
+    "stars": 83,
     "forks": 216,
     "open_issues": 2,
     "last_commit": "2019-09-19T14:08:28Z"
@@ -2014,6 +2170,18 @@
     "forks": 26,
     "open_issues": 0,
     "last_commit": "2019-09-29T13:30:30Z"
+  },
+  "dschau-gatsby-blog-starter-kit-master": {
+    "theme_key": "dschau-gatsby-blog-starter-kit-master",
+    "file": "gatsby-blog-starter-kit.md",
+    "name": "gatsby-blog-starter-kit",
+    "repo": "DSchau/gatsby-blog-starter-kit",
+    "branch": "master",
+    "url": "https://github.com/DSchau/gatsby-blog-starter-kit",
+    "stars": 123,
+    "forks": 42,
+    "open_issues": 9,
+    "last_commit": "2019-10-04T10:47:49Z"
   },
   "dyndna-lanyon-plus-master": {
     "theme_key": "dyndna-lanyon-plus-master",
@@ -2035,7 +2203,7 @@
     "branch": "master",
     "url": "https://github.com/dyutibarma/monochrome",
     "stars": 89,
-    "forks": 125,
+    "forks": 124,
     "open_issues": 4,
     "last_commit": "2018-12-17T05:33:49Z"
   },
@@ -2071,7 +2239,7 @@
     "branch": "master",
     "url": "https://github.com/eddiewebb/hugo-resume",
     "stars": 76,
-    "forks": 72,
+    "forks": 73,
     "open_issues": 12,
     "last_commit": "2019-05-18T20:48:20Z"
   },
@@ -2095,7 +2263,7 @@
     "branch": "master",
     "url": "https://github.com/ellekasai/resumecards",
     "stars": 691,
-    "forks": 224,
+    "forks": 225,
     "open_issues": 3,
     "last_commit": "2018-07-16T06:12:52Z"
   },
@@ -2166,8 +2334,8 @@
     "repo": "EmielH/tale-hugo",
     "branch": "master",
     "url": "https://github.com/EmielH/tale-hugo",
-    "stars": 124,
-    "forks": 62,
+    "stars": 126,
+    "forks": 63,
     "open_issues": 2,
     "last_commit": "2019-10-06T17:52:25Z"
   },
@@ -2178,22 +2346,10 @@
     "repo": "emilbaehr/automatic-app-landing-page",
     "branch": "master",
     "url": "https://github.com/emilbaehr/automatic-app-landing-page",
-    "stars": 1659,
-    "forks": 395,
+    "stars": 1660,
+    "forks": 396,
     "open_issues": 10,
     "last_commit": "2019-10-07T17:52:59Z"
-  },
-  "enterthecrucible-materialized_jekyll_theme-master": {
-    "theme_key": "enterthecrucible-materialized_jekyll_theme-master",
-    "file": "jekyll-plus-materialize.md",
-    "name": "materialized_jekyll_theme",
-    "repo": "enterthecrucible/materialized_jekyll_theme",
-    "branch": "master",
-    "url": "https://github.com/enterthecrucible/materialized_jekyll_theme",
-    "stars": 9,
-    "forks": 12,
-    "open_issues": 2,
-    "last_commit": "2017-07-15T12:21:36Z"
   },
   "erayaydin-jekyll-bulma-master": {
     "theme_key": "erayaydin-jekyll-bulma-master",
@@ -2214,7 +2370,7 @@
     "repo": "esappear/hexo-theme-clover",
     "branch": "master",
     "url": "https://github.com/esappear/hexo-theme-clover",
-    "stars": 117,
+    "stars": 120,
     "forks": 27,
     "open_issues": 2,
     "last_commit": "2019-09-15T13:53:03Z"
@@ -2239,7 +2395,7 @@
     "branch": "master",
     "url": "https://github.com/excentris/compass",
     "stars": 159,
-    "forks": 317,
+    "forks": 316,
     "open_issues": 0,
     "last_commit": "2019-02-23T11:40:41Z"
   },
@@ -2279,6 +2435,18 @@
     "open_issues": 0,
     "last_commit": "2018-07-12T10:52:45Z"
   },
+  "fabe-gatsby-starter-deck-master": {
+    "theme_key": "fabe-gatsby-starter-deck-master",
+    "file": "gatsby-starter-deck.md",
+    "name": "gatsby-starter-deck",
+    "repo": "fabe/gatsby-starter-deck",
+    "branch": "master",
+    "url": "https://github.com/fabe/gatsby-starter-deck",
+    "stars": 357,
+    "forks": 61,
+    "open_issues": 4,
+    "last_commit": "2019-10-08T16:43:13Z"
+  },
   "fabe-gatsby-universal-master": {
     "theme_key": "fabe-gatsby-universal-master",
     "file": "gatsby-universal.md",
@@ -2290,6 +2458,18 @@
     "forks": 71,
     "open_issues": 4,
     "last_commit": "2019-08-28T23:14:11Z"
+  },
+  "fabien0102-gatsby-starter-master": {
+    "theme_key": "fabien0102-gatsby-starter-master",
+    "file": "gatsby-starter.md",
+    "name": "gatsby-starter",
+    "repo": "fabien0102/gatsby-starter",
+    "branch": "master",
+    "url": "https://github.com/fabien0102/gatsby-starter",
+    "stars": 325,
+    "forks": 87,
+    "open_issues": 27,
+    "last_commit": "2019-10-08T04:19:58Z"
   },
   "fareez-ahamed-millikyl-master": {
     "theme_key": "fareez-ahamed-millikyl-master",
@@ -2311,7 +2491,7 @@
     "branch": "master",
     "url": "https://github.com/Fastbyte01/KeepIt",
     "stars": 76,
-    "forks": 41,
+    "forks": 40,
     "open_issues": 6,
     "last_commit": "2019-09-12T21:22:33Z"
   },
@@ -2370,8 +2550,8 @@
     "repo": "fongandrew/hydeout",
     "branch": "master",
     "url": "https://github.com/fongandrew/hydeout",
-    "stars": 301,
-    "forks": 455,
+    "stars": 302,
+    "forks": 456,
     "open_issues": 9,
     "last_commit": "2019-09-11T06:45:32Z"
   },
@@ -2394,7 +2574,7 @@
     "repo": "formspree/blogophonic-hugo",
     "branch": "master",
     "url": "https://github.com/formspree/blogophonic-hugo",
-    "stars": 10,
+    "stars": 11,
     "forks": 1,
     "open_issues": 2,
     "last_commit": "2019-07-12T14:42:38Z"
@@ -2431,7 +2611,7 @@
     "branch": "master",
     "url": "https://github.com/FromEndWorld/LOFFER",
     "stars": 108,
-    "forks": 257,
+    "forks": 258,
     "open_issues": 1,
     "last_commit": "2019-08-29T01:59:12Z"
   },
@@ -2490,10 +2670,10 @@
     "repo": "Gaohaoyang/gaohaoyang.github.io",
     "branch": "master",
     "url": "https://github.com/Gaohaoyang/gaohaoyang.github.io",
-    "stars": 1546,
-    "forks": 1620,
-    "open_issues": 48,
-    "last_commit": "2019-06-26T09:26:02Z"
+    "stars": 1547,
+    "forks": 1619,
+    "open_issues": 49,
+    "last_commit": "2019-10-08T02:53:55Z"
   },
   "garvincasimir-hugo-h5bp-simple-master": {
     "theme_key": "garvincasimir-hugo-h5bp-simple-master",
@@ -2507,6 +2687,30 @@
     "open_issues": 1,
     "last_commit": "2019-08-17T23:16:12Z"
   },
+  "gatsbycentral-gatsby-starter-wordpress-master": {
+    "theme_key": "gatsbycentral-gatsby-starter-wordpress-master",
+    "file": "gatsby-starter-wordpress.md",
+    "name": "gatsby-starter-wordpress",
+    "repo": "GatsbyCentral/gatsby-starter-wordpress",
+    "branch": "master",
+    "url": "https://github.com/GatsbyCentral/gatsby-starter-wordpress",
+    "stars": 285,
+    "forks": 83,
+    "open_issues": 8,
+    "last_commit": "2019-09-12T13:18:06Z"
+  },
+  "gatsbycentral-gatsby-v2-starter-lumen-master": {
+    "theme_key": "gatsbycentral-gatsby-v2-starter-lumen-master",
+    "file": "gatsby-v2-starter-lumen.md",
+    "name": "gatsby-v2-starter-lumen",
+    "repo": "GatsbyCentral/gatsby-v2-starter-lumen",
+    "branch": "master",
+    "url": "https://github.com/GatsbyCentral/gatsby-v2-starter-lumen",
+    "stars": 63,
+    "forks": 26,
+    "open_issues": 2,
+    "last_commit": "2019-07-02T15:09:23Z"
+  },
   "gatsbyjs-gatsby-starter-blog-master": {
     "theme_key": "gatsbyjs-gatsby-starter-blog-master",
     "file": "gatsby-starter-blog.md",
@@ -2514,10 +2718,22 @@
     "repo": "gatsbyjs/gatsby-starter-blog",
     "branch": "master",
     "url": "https://github.com/gatsbyjs/gatsby-starter-blog",
-    "stars": 1970,
-    "forks": 845,
+    "stars": 1972,
+    "forks": 849,
     "open_issues": 18,
-    "last_commit": "2019-10-04T11:10:13Z"
+    "last_commit": "2019-10-08T19:56:30Z"
+  },
+  "gatsbyjs-gatsby-starter-default-master": {
+    "theme_key": "gatsbyjs-gatsby-starter-default-master",
+    "file": "gatsby-starter-default.md",
+    "name": "gatsby-starter-default",
+    "repo": "gatsbyjs/gatsby-starter-default",
+    "branch": "master",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default",
+    "stars": 672,
+    "forks": 476,
+    "open_issues": 6,
+    "last_commit": "2019-10-08T09:35:14Z"
   },
   "gchauras-much-worse-jekyll-theme-master": {
     "theme_key": "gchauras-much-worse-jekyll-theme-master",
@@ -2538,10 +2754,10 @@
     "repo": "gcushen/hugo-academic",
     "branch": "master",
     "url": "https://github.com/gcushen/hugo-academic",
-    "stars": 3306,
+    "stars": 3309,
     "forks": 1378,
     "open_issues": 35,
-    "last_commit": "2019-10-05T17:39:40Z"
+    "last_commit": "2019-10-08T18:38:35Z"
   },
   "gdg-managua-jekyll-mdl-master": {
     "theme_key": "gdg-managua-jekyll-mdl-master",
@@ -2562,7 +2778,7 @@
     "repo": "GDGToulouse/devfest-theme-hugo",
     "branch": "master",
     "url": "https://github.com/GDGToulouse/devfest-theme-hugo",
-    "stars": 34,
+    "stars": 35,
     "forks": 22,
     "open_issues": 3,
     "last_commit": "2019-10-07T18:22:06Z"
@@ -2591,6 +2807,18 @@
     "open_issues": 8,
     "last_commit": "2018-09-27T04:05:41Z"
   },
+  "gherciu-gatsby-all-in-master": {
+    "theme_key": "gherciu-gatsby-all-in-master",
+    "file": "gatsby-all-in.md",
+    "name": "gatsby-all-in",
+    "repo": "Gherciu/gatsby-all-in",
+    "branch": "master",
+    "url": "https://github.com/Gherciu/gatsby-all-in",
+    "stars": 115,
+    "forks": 2,
+    "open_issues": 8,
+    "last_commit": "2019-09-18T09:19:40Z"
+  },
   "gildasio-clyell-master": {
     "theme_key": "gildasio-clyell-master",
     "file": "jekyll-clyell-theme.md",
@@ -2611,7 +2839,7 @@
     "branch": "master",
     "url": "https://github.com/gillkyle/gatsby-starter-landing-page",
     "stars": 38,
-    "forks": 5,
+    "forks": 6,
     "open_issues": 0,
     "last_commit": "2019-09-25T03:25:26Z"
   },
@@ -2659,7 +2887,7 @@
     "branch": "master",
     "url": "https://github.com/gkmngrgn/hugo-alageek-theme",
     "stars": 16,
-    "forks": 7,
+    "forks": 8,
     "open_issues": 3,
     "last_commit": "2019-09-30T21:17:39Z"
   },
@@ -2687,6 +2915,18 @@
     "open_issues": 1,
     "last_commit": "2019-08-20T00:55:51Z"
   },
+  "greglobinski-gatsby-starter-hero-blog-master": {
+    "theme_key": "greglobinski-gatsby-starter-hero-blog-master",
+    "file": "gatsby-starter-hero-blog.md",
+    "name": "gatsby-starter-hero-blog",
+    "repo": "greglobinski/gatsby-starter-hero-blog",
+    "branch": "master",
+    "url": "https://github.com/greglobinski/gatsby-starter-hero-blog",
+    "stars": 387,
+    "forks": 166,
+    "open_issues": 23,
+    "last_commit": "2019-10-02T10:43:30Z"
+  },
   "gridsome-gridsome-starter-blog-master": {
     "theme_key": "gridsome-gridsome-starter-blog-master",
     "file": "gridsome-starter-blog.md",
@@ -2695,7 +2935,7 @@
     "branch": "master",
     "url": "https://github.com/gridsome/gridsome-starter-blog",
     "stars": 223,
-    "forks": 89,
+    "forks": 90,
     "open_issues": 14,
     "last_commit": "2019-10-03T11:49:08Z"
   },
@@ -2754,8 +2994,8 @@
     "repo": "jaylinwang/jekyll-pithy",
     "branch": "master",
     "url": "https://github.com/jaylinwang/jekyll-pithy",
-    "stars": 59,
-    "forks": 30,
+    "stars": 60,
+    "forks": 31,
     "open_issues": 2,
     "last_commit": "2016-03-02T10:25:41Z"
   },
@@ -2818,6 +3058,18 @@
     "forks": 328,
     "open_issues": 56,
     "last_commit": "2019-10-06T21:04:30Z"
+  },
+  "hasura-gatsby-gitbook-starter-master": {
+    "theme_key": "hasura-gatsby-gitbook-starter-master",
+    "file": "gatsby-gitbook-starter.md",
+    "name": "gatsby-gitbook-starter",
+    "repo": "hasura/gatsby-gitbook-starter",
+    "branch": "master",
+    "url": "https://github.com/hasura/gatsby-gitbook-starter",
+    "stars": 243,
+    "forks": 44,
+    "open_issues": 3,
+    "last_commit": "2019-10-05T13:09:22Z"
   },
   "hauke96-hugo-theme-hamburg-master": {
     "theme_key": "hauke96-hugo-theme-hamburg-master",
@@ -2935,7 +3187,7 @@
     "branch": "master",
     "url": "https://github.com/henryhuang/hexo-theme-aloha",
     "stars": 61,
-    "forks": 24,
+    "forks": 23,
     "open_issues": 2,
     "last_commit": "2019-10-06T12:43:53Z"
   },
@@ -2983,7 +3235,7 @@
     "branch": "master",
     "url": "https://github.com/hmfaysal/hmfaysal-omega-theme",
     "stars": 327,
-    "forks": 441,
+    "forks": 440,
     "open_issues": 7,
     "last_commit": "2017-10-07T22:13:34Z"
   },
@@ -3006,7 +3258,7 @@
     "repo": "hmfaysal/Notepad",
     "branch": "master",
     "url": "https://github.com/hmfaysal/Notepad",
-    "stars": 259,
+    "stars": 260,
     "forks": 342,
     "open_issues": 25,
     "last_commit": "2017-12-21T17:13:53Z"
@@ -3055,7 +3307,7 @@
     "branch": "master",
     "url": "https://github.com/htr3n/hyde-hyde",
     "stars": 132,
-    "forks": 132,
+    "forks": 131,
     "open_issues": 4,
     "last_commit": "2019-10-06T06:04:25Z"
   },
@@ -3150,8 +3402,8 @@
     "repo": "iCyris/hugo-theme-yuki",
     "branch": "master",
     "url": "https://github.com/iCyris/hugo-theme-yuki",
-    "stars": 15,
-    "forks": 4,
+    "stars": 14,
+    "forks": 3,
     "open_issues": 0,
     "last_commit": "2019-03-17T13:08:11Z"
   },
@@ -3178,6 +3430,18 @@
     "forks": 4,
     "open_issues": 2,
     "last_commit": "2019-05-25T15:41:35Z"
+  },
+  "imedadel-gatsby-london-master": {
+    "theme_key": "imedadel-gatsby-london-master",
+    "file": "gatsby-london.md",
+    "name": "gatsby-london",
+    "repo": "ImedAdel/gatsby-london",
+    "branch": "master",
+    "url": "https://github.com/ImedAdel/gatsby-london",
+    "stars": 39,
+    "forks": 15,
+    "open_issues": 2,
+    "last_commit": "2019-10-04T15:03:42Z"
   },
   "inded-jekyll_modern-blog-master": {
     "theme_key": "inded-jekyll_modern-blog-master",
@@ -3258,7 +3522,7 @@
     "repo": "itsrifat/rifyll",
     "branch": "master",
     "url": "https://github.com/itsrifat/rifyll",
-    "stars": 12,
+    "stars": 13,
     "forks": 26,
     "open_issues": 0,
     "last_commit": "2017-01-03T23:20:31Z"
@@ -3347,6 +3611,18 @@
     "open_issues": 4,
     "last_commit": "2017-07-22T11:39:58Z"
   },
+  "jaeyeophan-gatsby-starter-bee-master": {
+    "theme_key": "jaeyeophan-gatsby-starter-bee-master",
+    "file": "gatsby-starter-bee.md",
+    "name": "gatsby-starter-bee",
+    "repo": "JaeYeopHan/gatsby-starter-bee",
+    "branch": "master",
+    "url": "https://github.com/JaeYeopHan/gatsby-starter-bee",
+    "stars": 113,
+    "forks": 31,
+    "open_issues": 12,
+    "last_commit": "2019-09-30T01:34:15Z"
+  },
   "jameshamann-jekyll-material-theme-master": {
     "theme_key": "jameshamann-jekyll-material-theme-master",
     "file": "jekyll-material-theme.md",
@@ -3378,7 +3654,7 @@
     "repo": "janczizikow/sleek",
     "branch": "master",
     "url": "https://github.com/janczizikow/sleek",
-    "stars": 219,
+    "stars": 220,
     "forks": 402,
     "open_issues": 19,
     "last_commit": "2019-09-28T16:22:24Z"
@@ -3391,7 +3667,7 @@
     "branch": "master",
     "url": "https://github.com/jarrekk/Jalpc",
     "stars": 731,
-    "forks": 1009,
+    "forks": 1011,
     "open_issues": 31,
     "last_commit": "2019-07-10T05:49:42Z"
   },
@@ -3462,8 +3738,8 @@
     "repo": "jekyller/jasper2",
     "branch": "master",
     "url": "https://github.com/jekyller/jasper2",
-    "stars": 457,
-    "forks": 447,
+    "stars": 458,
+    "forks": 445,
     "open_issues": 25,
     "last_commit": "2019-08-28T05:53:17Z"
   },
@@ -3510,8 +3786,8 @@
     "repo": "jeromelachaud/freelancer-theme",
     "branch": "master",
     "url": "https://github.com/jeromelachaud/freelancer-theme",
-    "stars": 988,
-    "forks": 1153,
+    "stars": 989,
+    "forks": 1154,
     "open_issues": 12,
     "last_commit": "2019-09-04T17:58:13Z"
   },
@@ -3523,7 +3799,7 @@
     "branch": "master",
     "url": "https://github.com/jeromelachaud/grayscale-theme",
     "stars": 238,
-    "forks": 387,
+    "forks": 386,
     "open_issues": 3,
     "last_commit": "2019-09-24T14:06:37Z"
   },
@@ -3534,7 +3810,7 @@
     "repo": "jerryc127/hexo-theme-butterfly",
     "branch": "master",
     "url": "https://github.com/jerryc127/hexo-theme-butterfly",
-    "stars": 154,
+    "stars": 155,
     "forks": 39,
     "open_issues": 2,
     "last_commit": "2019-09-25T15:39:48Z"
@@ -3550,18 +3826,6 @@
     "forks": 11,
     "open_issues": 8,
     "last_commit": "2019-09-19T05:49:28Z"
-  },
-  "jglovier-resume-template-master": {
-    "theme_key": "jglovier-resume-template-master",
-    "file": "jekyll-resume-template.md",
-    "name": "resume-template",
-    "repo": "jglovier/resume-template",
-    "branch": "master",
-    "url": "https://github.com/jglovier/resume-template",
-    "stars": 954,
-    "forks": 813,
-    "open_issues": 12,
-    "last_commit": "2019-09-24T18:50:42Z"
   },
   "jnjosh-internet-weblog-master": {
     "theme_key": "jnjosh-internet-weblog-master",
@@ -3595,7 +3859,7 @@
     "branch": "master",
     "url": "https://github.com/johno/pixyll",
     "stars": 1809,
-    "forks": 1318,
+    "forks": 1317,
     "open_issues": 32,
     "last_commit": "2019-09-04T08:16:57Z"
   },
@@ -3606,7 +3870,7 @@
     "repo": "josephdyer/skeleventy",
     "branch": "master",
     "url": "https://github.com/josephdyer/skeleventy",
-    "stars": 77,
+    "stars": 78,
     "forks": 10,
     "open_issues": 2,
     "last_commit": "2019-07-23T06:50:51Z"
@@ -3691,7 +3955,7 @@
     "branch": "master",
     "url": "https://github.com/jrutheiser/hugo-lithium-theme",
     "stars": 69,
-    "forks": 96,
+    "forks": 97,
     "open_issues": 9,
     "last_commit": "2019-08-25T19:49:33Z"
   },
@@ -3719,6 +3983,18 @@
     "open_issues": 2,
     "last_commit": "2019-05-28T09:27:32Z"
   },
+  "jugglerx-gatsby-serif-theme-master": {
+    "theme_key": "jugglerx-gatsby-serif-theme-master",
+    "file": "gatsby-serif-theme.md",
+    "name": "gatsby-serif-theme",
+    "repo": "JugglerX/gatsby-serif-theme",
+    "branch": "master",
+    "url": "https://github.com/JugglerX/gatsby-serif-theme",
+    "stars": 76,
+    "forks": 29,
+    "open_issues": 2,
+    "last_commit": "2019-04-24T00:28:43Z"
+  },
   "jugglerx-hugo-hero-theme-master": {
     "theme_key": "jugglerx-hugo-hero-theme-master",
     "file": "hugo-hero-theme.md",
@@ -3739,7 +4015,7 @@
     "branch": "master",
     "url": "https://github.com/JugglerX/hugo-serif-theme",
     "stars": 62,
-    "forks": 47,
+    "forks": 46,
     "open_issues": 3,
     "last_commit": "2019-08-08T05:38:55Z"
   },
@@ -3766,6 +4042,18 @@
     "forks": 5,
     "open_issues": 0,
     "last_commit": "2017-07-28T14:21:53Z"
+  },
+  "justinformentin-gatsby-v2-tutorial-starter-master": {
+    "theme_key": "justinformentin-gatsby-v2-tutorial-starter-master",
+    "file": "gatsby-v2-tutorial-starter.md",
+    "name": "gatsby-v2-tutorial-starter",
+    "repo": "justinformentin/gatsby-v2-tutorial-starter",
+    "branch": "master",
+    "url": "https://github.com/justinformentin/gatsby-v2-tutorial-starter",
+    "stars": 92,
+    "forks": 38,
+    "open_issues": 3,
+    "last_commit": "2019-09-07T18:07:16Z"
   },
   "jweslley-hugo-conference-master": {
     "theme_key": "jweslley-hugo-conference-master",
@@ -3895,7 +4183,7 @@
     "branch": "master",
     "url": "https://github.com/kendallstrautman/brevifolia-gridsome-forestry",
     "stars": 2,
-    "forks": 1,
+    "forks": 2,
     "open_issues": 1,
     "last_commit": "2019-08-20T18:04:24Z"
   },
@@ -3907,7 +4195,7 @@
     "branch": "master",
     "url": "https://github.com/kevit/devaid-jekyll-theme",
     "stars": 41,
-    "forks": 27,
+    "forks": 26,
     "open_issues": 3,
     "last_commit": "2019-04-17T21:13:41Z"
   },
@@ -3943,7 +4231,7 @@
     "branch": "master",
     "url": "https://github.com/kishaningithub/hugo-creative-portfolio-theme",
     "stars": 225,
-    "forks": 115,
+    "forks": 116,
     "open_issues": 15,
     "last_commit": "2019-09-22T21:34:56Z"
   },
@@ -3954,10 +4242,10 @@
     "repo": "kitian616/jekyll-TeXt-theme",
     "branch": "master",
     "url": "https://github.com/kitian616/jekyll-TeXt-theme",
-    "stars": 880,
-    "forks": 830,
-    "open_issues": 50,
-    "last_commit": "2019-10-07T15:24:47Z"
+    "stars": 879,
+    "forks": 829,
+    "open_issues": 51,
+    "last_commit": "2019-10-08T17:14:35Z"
   },
   "kkninjae-book-master": {
     "theme_key": "kkninjae-book-master",
@@ -3979,7 +4267,7 @@
     "branch": "master",
     "url": "https://github.com/klugjo/hexo-theme-alpha-dust",
     "stars": 233,
-    "forks": 75,
+    "forks": 76,
     "open_issues": 3,
     "last_commit": "2019-04-22T13:06:32Z"
   },
@@ -4043,6 +4331,18 @@
     "open_issues": 0,
     "last_commit": "2019-09-01T14:52:00Z"
   },
+  "konsumer-gatsby-starter-bootstrap-netlify-master": {
+    "theme_key": "konsumer-gatsby-starter-bootstrap-netlify-master",
+    "file": "gatsby-starter-bootstrap-netlify.md",
+    "name": "gatsby-starter-bootstrap-netlify",
+    "repo": "konsumer/gatsby-starter-bootstrap-netlify",
+    "branch": "master",
+    "url": "https://github.com/konsumer/gatsby-starter-bootstrap-netlify",
+    "stars": 55,
+    "forks": 21,
+    "open_issues": 3,
+    "last_commit": "2019-05-03T20:35:52Z"
+  },
   "kronik3r-daktilo-master": {
     "theme_key": "kronik3r-daktilo-master",
     "file": "jekyll-daktilo.md",
@@ -4050,8 +4350,8 @@
     "repo": "kronik3r/daktilo",
     "branch": "master",
     "url": "https://github.com/kronik3r/daktilo",
-    "stars": 240,
-    "forks": 143,
+    "stars": 239,
+    "forks": 142,
     "open_issues": 8,
     "last_commit": "2019-06-30T02:42:42Z"
   },
@@ -4100,7 +4400,7 @@
     "url": "https://github.com/laobubu/jekyll-theme-EasyBook",
     "stars": 117,
     "forks": 81,
-    "open_issues": 3,
+    "open_issues": 4,
     "last_commit": "2018-11-21T05:49:15Z"
   },
   "lasseborly-anybodyhome-master": {
@@ -4170,10 +4470,22 @@
     "repo": "LekoArts/gatsby-starter-minimal-blog",
     "branch": "master",
     "url": "https://github.com/LekoArts/gatsby-starter-minimal-blog",
-    "stars": 239,
+    "stars": 240,
     "forks": 75,
     "open_issues": 3,
     "last_commit": "2019-10-07T06:53:10Z"
+  },
+  "lekoarts-gatsby-starter-portfolio-bella-master": {
+    "theme_key": "lekoarts-gatsby-starter-portfolio-bella-master",
+    "file": "gatsby-starter-portfolio-bella.md",
+    "name": "gatsby-starter-portfolio-bella",
+    "repo": "LekoArts/gatsby-starter-portfolio-bella",
+    "branch": "master",
+    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-bella",
+    "stars": 97,
+    "forks": 11,
+    "open_issues": 2,
+    "last_commit": "2019-02-06T12:58:42Z"
   },
   "lekoarts-gatsby-starter-portfolio-cara-master": {
     "theme_key": "lekoarts-gatsby-starter-portfolio-cara-master",
@@ -4194,10 +4506,34 @@
     "repo": "LekoArts/gatsby-starter-portfolio-emilia",
     "branch": "master",
     "url": "https://github.com/LekoArts/gatsby-starter-portfolio-emilia",
-    "stars": 207,
+    "stars": 208,
     "forks": 41,
     "open_issues": 1,
     "last_commit": "2019-10-03T22:51:53Z"
+  },
+  "lekoarts-gatsby-starter-portfolio-emma-master": {
+    "theme_key": "lekoarts-gatsby-starter-portfolio-emma-master",
+    "file": "gatsby-starter-portfolio-emma.md",
+    "name": "gatsby-starter-portfolio-emma",
+    "repo": "LekoArts/gatsby-starter-portfolio-emma",
+    "branch": "master",
+    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-emma",
+    "stars": 165,
+    "forks": 50,
+    "open_issues": 0,
+    "last_commit": "2019-10-03T22:52:30Z"
+  },
+  "lekoarts-gatsby-starter-portfolio-jodie-master": {
+    "theme_key": "lekoarts-gatsby-starter-portfolio-jodie-master",
+    "file": "gatsby-starter-portfolio-jodie.md",
+    "name": "gatsby-starter-portfolio-jodie",
+    "repo": "LekoArts/gatsby-starter-portfolio-jodie",
+    "branch": "master",
+    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-jodie",
+    "stars": 96,
+    "forks": 17,
+    "open_issues": 1,
+    "last_commit": "2019-10-07T06:47:23Z"
   },
   "lenpaul-lagrange-master": {
     "theme_key": "lenpaul-lagrange-master",
@@ -4208,7 +4544,7 @@
     "url": "https://github.com/LeNPaul/Lagrange",
     "stars": 304,
     "forks": 345,
-    "open_issues": 8,
+    "open_issues": 9,
     "last_commit": "2019-10-02T23:10:07Z"
   },
   "lenpaul-millennial-master": {
@@ -4219,7 +4555,7 @@
     "branch": "master",
     "url": "https://github.com/LeNPaul/Millennial",
     "stars": 146,
-    "forks": 236,
+    "forks": 238,
     "open_issues": 6,
     "last_commit": "2019-08-22T00:00:40Z"
   },
@@ -4255,7 +4591,7 @@
     "branch": "master",
     "url": "https://github.com/leopardpan/leopardpan.github.io",
     "stars": 881,
-    "forks": 554,
+    "forks": 555,
     "open_issues": 29,
     "last_commit": "2019-08-03T08:30:15Z"
   },
@@ -4278,7 +4614,7 @@
     "repo": "lgaida/mediumish-gohugo-theme",
     "branch": "master",
     "url": "https://github.com/lgaida/mediumish-gohugo-theme",
-    "stars": 57,
+    "stars": 56,
     "forks": 46,
     "open_issues": 1,
     "last_commit": "2019-10-04T19:52:56Z"
@@ -4290,8 +4626,8 @@
     "repo": "Liberxue/liberxue.github.io",
     "branch": "master",
     "url": "https://github.com/Liberxue/liberxue.github.io",
-    "stars": 264,
-    "forks": 314,
+    "stars": 265,
+    "forks": 315,
     "open_issues": 4,
     "last_commit": "2019-08-09T01:58:23Z"
   },
@@ -4314,8 +4650,8 @@
     "repo": "link9596/hydrogen",
     "branch": "master",
     "url": "https://github.com/link9596/hydrogen",
-    "stars": 19,
-    "forks": 31,
+    "stars": 20,
+    "forks": 30,
     "open_issues": 0,
     "last_commit": "2019-10-01T05:30:34Z"
   },
@@ -4375,7 +4711,7 @@
     "branch": "master",
     "url": "https://github.com/lorepirri/cayman-blog",
     "stars": 59,
-    "forks": 155,
+    "forks": 156,
     "open_issues": 1,
     "last_commit": "2019-09-25T22:50:39Z"
   },
@@ -4410,9 +4746,9 @@
     "repo": "luizdepra/hugo-coder",
     "branch": "master",
     "url": "https://github.com/luizdepra/hugo-coder",
-    "stars": 569,
-    "forks": 286,
-    "open_issues": 8,
+    "stars": 574,
+    "forks": 287,
+    "open_issues": 9,
     "last_commit": "2019-10-04T17:29:26Z"
   },
   "lukas-h-material-theme-master": {
@@ -4459,7 +4795,7 @@
     "branch": "master",
     "url": "https://github.com/luoyan35714/LessOrMore",
     "stars": 169,
-    "forks": 248,
+    "forks": 249,
     "open_issues": 2,
     "last_commit": "2019-04-02T13:50:57Z"
   },
@@ -4523,6 +4859,18 @@
     "open_issues": 6,
     "last_commit": "2019-09-12T03:57:35Z"
   },
+  "margueriteroth-gatsby-prismic-starter-prist-master": {
+    "theme_key": "margueriteroth-gatsby-prismic-starter-prist-master",
+    "file": "gatsby-prismic-starter-prist.md",
+    "name": "gatsby-prismic-starter-prist",
+    "repo": "margueriteroth/gatsby-prismic-starter-prist",
+    "branch": "master",
+    "url": "https://github.com/margueriteroth/gatsby-prismic-starter-prist",
+    "stars": 51,
+    "forks": 9,
+    "open_issues": 3,
+    "last_commit": "2019-09-22T03:33:54Z"
+  },
   "matcornic-hugo-theme-learn-master": {
     "theme_key": "matcornic-hugo-theme-learn-master",
     "file": "hugo-theme-learn.md",
@@ -4530,7 +4878,7 @@
     "repo": "matcornic/hugo-theme-learn",
     "branch": "master",
     "url": "https://github.com/matcornic/hugo-theme-learn",
-    "stars": 727,
+    "stars": 728,
     "forks": 702,
     "open_issues": 79,
     "last_commit": "2019-10-06T11:35:10Z"
@@ -4566,8 +4914,8 @@
     "repo": "mattcouchman/jekyll-resume",
     "branch": "master",
     "url": "https://github.com/mattcouchman/jekyll-resume",
-    "stars": 66,
-    "forks": 55,
+    "stars": 67,
+    "forks": 56,
     "open_issues": 4,
     "last_commit": "2018-08-12T19:38:26Z"
   },
@@ -4631,6 +4979,18 @@
     "open_issues": 1,
     "last_commit": "2016-09-23T12:49:23Z"
   },
+  "maxpou-gatsby-starter-morning-dew-master": {
+    "theme_key": "maxpou-gatsby-starter-morning-dew-master",
+    "file": "gatsby-starter-morning-dew.md",
+    "name": "gatsby-starter-morning-dew",
+    "repo": "maxpou/gatsby-starter-morning-dew",
+    "branch": "master",
+    "url": "https://github.com/maxpou/gatsby-starter-morning-dew",
+    "stars": 91,
+    "forks": 20,
+    "open_issues": 2,
+    "last_commit": "2019-09-21T10:12:23Z"
+  },
   "mazgi-hugo-theme-techlog-simple-master": {
     "theme_key": "mazgi-hugo-theme-techlog-simple-master",
     "file": "hugo-theme-techlog-simple.md",
@@ -4642,6 +5002,18 @@
     "forks": 1,
     "open_issues": 0,
     "last_commit": "2019-08-16T15:30:24Z"
+  },
+  "mccrodp-gatsby-starter-contentful-i18n-master": {
+    "theme_key": "mccrodp-gatsby-starter-contentful-i18n-master",
+    "file": "gatsby-starter-contentful-i18n.md",
+    "name": "gatsby-starter-contentful-i18n",
+    "repo": "mccrodp/gatsby-starter-contentful-i18n",
+    "branch": "master",
+    "url": "https://github.com/mccrodp/gatsby-starter-contentful-i18n",
+    "stars": 44,
+    "forks": 13,
+    "open_issues": 0,
+    "last_commit": "2019-04-14T03:39:50Z"
   },
   "meibenny-elephants-master": {
     "theme_key": "meibenny-elephants-master",
@@ -4662,7 +5034,7 @@
     "repo": "melangue/dactl",
     "branch": "master",
     "url": "https://github.com/melangue/dactl",
-    "stars": 125,
+    "stars": 124,
     "forks": 115,
     "open_issues": 4,
     "last_commit": "2019-02-11T00:21:29Z"
@@ -4711,9 +5083,21 @@
     "branch": "master",
     "url": "https://github.com/meteorlxy/vuepress-theme-meteorlxy",
     "stars": 182,
-    "forks": 58,
+    "forks": 59,
     "open_issues": 6,
     "last_commit": "2019-10-05T13:15:29Z"
+  },
+  "mhadaily-gatsby-starter-typescript-power-blog-master": {
+    "theme_key": "mhadaily-gatsby-starter-typescript-power-blog-master",
+    "file": "gatsby-starter-typescript-power-blog.md",
+    "name": "gatsby-starter-typescript-power-blog",
+    "repo": "mhadaily/gatsby-starter-typescript-power-blog",
+    "branch": "master",
+    "url": "https://github.com/mhadaily/gatsby-starter-typescript-power-blog",
+    "stars": 40,
+    "forks": 8,
+    "open_issues": 1,
+    "last_commit": "2019-08-21T22:31:58Z"
   },
   "miccall-hexo-theme-mic_theme-master": {
     "theme_key": "miccall-hexo-theme-mic_theme-master",
@@ -4806,7 +5190,7 @@
     "repo": "mmistakes/jekyll-theme-skinny-bones",
     "branch": "master",
     "url": "https://github.com/mmistakes/jekyll-theme-skinny-bones",
-    "stars": 755,
+    "stars": 754,
     "forks": 865,
     "open_issues": 21,
     "last_commit": "2019-08-27T20:12:19Z"
@@ -4818,8 +5202,8 @@
     "repo": "mmistakes/minimal-mistakes",
     "branch": "master",
     "url": "https://github.com/mmistakes/minimal-mistakes",
-    "stars": 5687,
-    "forks": 9541,
+    "stars": 5692,
+    "forks": 9546,
     "open_issues": 8,
     "last_commit": "2019-10-05T00:01:52Z"
   },
@@ -4855,9 +5239,9 @@
     "branch": "master",
     "url": "https://github.com/moltin/gatsby-demo-store",
     "stars": 38,
-    "forks": 13,
+    "forks": 14,
     "open_issues": 2,
-    "last_commit": "2019-10-07T11:17:28Z"
+    "last_commit": "2019-10-08T13:56:45Z"
   },
   "moonwave99-waffel-master": {
     "theme_key": "moonwave99-waffel-master",
@@ -4878,8 +5262,8 @@
     "repo": "muan/scribble",
     "branch": "master",
     "url": "https://github.com/muan/scribble",
-    "stars": 715,
-    "forks": 676,
+    "stars": 713,
+    "forks": 675,
     "open_issues": 8,
     "last_commit": "2019-10-01T09:00:09Z"
   },
@@ -4902,7 +5286,7 @@
     "repo": "MunifTanjim/minimo",
     "branch": "master",
     "url": "https://github.com/MunifTanjim/minimo",
-    "stars": 354,
+    "stars": 356,
     "forks": 169,
     "open_issues": 18,
     "last_commit": "2019-09-28T14:45:57Z"
@@ -4914,8 +5298,8 @@
     "repo": "murraco/jekyll-theme-minimal-resume",
     "branch": "master",
     "url": "https://github.com/murraco/jekyll-theme-minimal-resume",
-    "stars": 48,
-    "forks": 174,
+    "stars": 49,
+    "forks": 173,
     "open_issues": 3,
     "last_commit": "2019-09-18T00:15:47Z"
   },
@@ -5035,7 +5419,7 @@
     "branch": "master",
     "url": "https://github.com/nandomoreirame/end2end",
     "stars": 238,
-    "forks": 174,
+    "forks": 175,
     "open_issues": 8,
     "last_commit": "2019-03-25T12:39:21Z"
   },
@@ -5083,7 +5467,7 @@
     "branch": "master",
     "url": "https://github.com/nandomoreirame/simplest",
     "stars": 119,
-    "forks": 44,
+    "forks": 43,
     "open_issues": 6,
     "last_commit": "2018-01-04T15:36:42Z"
   },
@@ -5106,7 +5490,7 @@
     "repo": "nanxiaobei/hugo-paper",
     "branch": "master",
     "url": "https://github.com/nanxiaobei/hugo-paper",
-    "stars": 290,
+    "stars": 291,
     "forks": 82,
     "open_issues": 2,
     "last_commit": "2019-10-06T13:01:21Z"
@@ -5118,10 +5502,10 @@
     "repo": "narative/gatsby-theme-novela",
     "branch": "master",
     "url": "https://github.com/narative/gatsby-theme-novela",
-    "stars": 559,
-    "forks": 101,
-    "open_issues": 22,
-    "last_commit": "2019-10-07T17:14:35Z"
+    "stars": 564,
+    "forks": 102,
+    "open_issues": 23,
+    "last_commit": "2019-10-08T02:56:27Z"
   },
   "natarajmb-charaka-hugo-theme-master": {
     "theme_key": "natarajmb-charaka-hugo-theme-master",
@@ -5167,7 +5551,7 @@
     "branch": "master",
     "url": "https://github.com/netlify-templates/gatsby-starter-netlify-cms",
     "stars": 1140,
-    "forks": 582,
+    "forks": 583,
     "open_issues": 26,
     "last_commit": "2019-10-07T05:42:10Z"
   },
@@ -5203,7 +5587,7 @@
     "branch": "master",
     "url": "https://github.com/niklasbuschmann/contrast-hugo",
     "stars": 2,
-    "forks": 6,
+    "forks": 7,
     "open_issues": 1,
     "last_commit": "2019-09-19T13:19:39Z"
   },
@@ -5218,6 +5602,18 @@
     "forks": 147,
     "open_issues": 1,
     "last_commit": "2019-08-04T15:34:08Z"
+  },
+  "niklasmtj-gatsby-starter-julia-master": {
+    "theme_key": "niklasmtj-gatsby-starter-julia-master",
+    "file": "gatsby-starter-julia.md",
+    "name": "gatsby-starter-julia",
+    "repo": "niklasmtj/gatsby-starter-julia",
+    "branch": "master",
+    "url": "https://github.com/niklasmtj/gatsby-starter-julia",
+    "stars": 41,
+    "forks": 15,
+    "open_issues": 0,
+    "last_commit": "2019-09-01T02:28:06Z"
   },
   "nikrich-jekyll-slender-template-master": {
     "theme_key": "nikrich-jekyll-slender-template-master",
@@ -5286,7 +5682,7 @@
     "repo": "nodejh/hugo-theme-cactus-plus",
     "branch": "master",
     "url": "https://github.com/nodejh/hugo-theme-cactus-plus",
-    "stars": 288,
+    "stars": 289,
     "forks": 129,
     "open_issues": 20,
     "last_commit": "2019-08-21T09:09:01Z"
@@ -5311,7 +5707,7 @@
     "branch": "master",
     "url": "https://github.com/nrandecker/particle",
     "stars": 483,
-    "forks": 750,
+    "forks": 752,
     "open_issues": 0,
     "last_commit": "2019-07-23T14:35:48Z"
   },
@@ -5322,8 +5718,8 @@
     "repo": "nurlansu/hugo-sustain",
     "branch": "master",
     "url": "https://github.com/nurlansu/hugo-sustain",
-    "stars": 132,
-    "forks": 90,
+    "stars": 131,
+    "forks": 91,
     "open_issues": 12,
     "last_commit": "2019-08-05T12:50:50Z"
   },
@@ -5348,7 +5744,7 @@
     "url": "https://github.com/okkur/syna",
     "stars": 75,
     "forks": 25,
-    "open_issues": 50,
+    "open_issues": 51,
     "last_commit": "2019-09-12T14:06:02Z"
   },
   "olakara-jekyllmetro-master": {
@@ -5370,9 +5766,9 @@
     "repo": "olOwOlo/hugo-theme-even",
     "branch": "master",
     "url": "https://github.com/olOwOlo/hugo-theme-even",
-    "stars": 735,
+    "stars": 742,
     "forks": 295,
-    "open_issues": 29,
+    "open_issues": 30,
     "last_commit": "2019-09-09T06:36:29Z"
   },
   "onweru-hugo-swift-theme-master": {
@@ -5394,10 +5790,10 @@
     "repo": "onweru/newsroom",
     "branch": "master",
     "url": "https://github.com/onweru/newsroom",
-    "stars": 15,
-    "forks": 4,
-    "open_issues": 1,
-    "last_commit": "2019-09-27T15:22:03Z"
+    "stars": 16,
+    "forks": 6,
+    "open_issues": 2,
+    "last_commit": "2019-10-07T21:02:44Z"
   },
   "open-sl-jekyll-modern-blog-master": {
     "theme_key": "open-sl-jekyll-modern-blog-master",
@@ -5471,6 +5867,18 @@
     "open_issues": 10,
     "last_commit": "2019-10-03T17:50:39Z"
   },
+  "panr-gatsby-starter-hello-friend-master": {
+    "theme_key": "panr-gatsby-starter-hello-friend-master",
+    "file": "gatsby-hello-friend.md",
+    "name": "gatsby-starter-hello-friend",
+    "repo": "panr/gatsby-starter-hello-friend",
+    "branch": "master",
+    "url": "https://github.com/panr/gatsby-starter-hello-friend",
+    "stars": 59,
+    "forks": 31,
+    "open_issues": 6,
+    "last_commit": "2019-07-21T07:52:01Z"
+  },
   "panr-hugo-theme-hello-friend-master": {
     "theme_key": "panr-hugo-theme-hello-friend-master",
     "file": "hugo-hello-friend.md",
@@ -5478,9 +5886,9 @@
     "repo": "panr/hugo-theme-hello-friend",
     "branch": "master",
     "url": "https://github.com/panr/hugo-theme-hello-friend",
-    "stars": 213,
+    "stars": 215,
     "forks": 225,
-    "open_issues": 7,
+    "open_issues": 6,
     "last_commit": "2019-09-24T07:34:40Z"
   },
   "panr-hugo-theme-terminal-master": {
@@ -5491,7 +5899,7 @@
     "branch": "master",
     "url": "https://github.com/panr/hugo-theme-terminal",
     "stars": 218,
-    "forks": 85,
+    "forks": 86,
     "open_issues": 11,
     "last_commit": "2019-10-04T14:52:43Z"
   },
@@ -5515,7 +5923,7 @@
     "branch": "master",
     "url": "https://github.com/parmsang/gatsby-starter-ecommerce",
     "stars": 296,
-    "forks": 76,
+    "forks": 75,
     "open_issues": 2,
     "last_commit": "2019-10-04T21:38:35Z"
   },
@@ -5610,7 +6018,7 @@
     "repo": "philhawksworth/eleventyone",
     "branch": "master",
     "url": "https://github.com/philhawksworth/eleventyone",
-    "stars": 154,
+    "stars": 155,
     "forks": 50,
     "open_issues": 8,
     "last_commit": "2019-08-01T16:41:47Z"
@@ -5647,8 +6055,8 @@
     "branch": "master",
     "url": "https://github.com/Phlow/feeling-responsive",
     "stars": 542,
-    "forks": 791,
-    "open_issues": 18,
+    "forks": 792,
+    "open_issues": 19,
     "last_commit": "2019-09-16T06:17:09Z"
   },
   "pietromenna-jekyll-architect-theme-master": {
@@ -5706,8 +6114,8 @@
     "repo": "pmarsceill/just-the-docs",
     "branch": "master",
     "url": "https://github.com/pmarsceill/just-the-docs",
-    "stars": 934,
-    "forks": 469,
+    "stars": 935,
+    "forks": 470,
     "open_issues": 38,
     "last_commit": "2019-10-07T15:44:42Z"
   },
@@ -5718,10 +6126,10 @@
     "repo": "poole/hyde",
     "branch": "master",
     "url": "https://github.com/poole/hyde",
-    "stars": 2612,
-    "forks": 2613,
+    "stars": 2614,
+    "forks": 2615,
     "open_issues": 72,
-    "last_commit": "2019-10-03T14:51:04Z"
+    "last_commit": "2019-10-07T19:15:24Z"
   },
   "poole-lanyon-master": {
     "theme_key": "poole-lanyon-master",
@@ -5730,8 +6138,8 @@
     "repo": "poole/lanyon",
     "branch": "master",
     "url": "https://github.com/poole/lanyon",
-    "stars": 2444,
-    "forks": 2175,
+    "stars": 2445,
+    "forks": 2178,
     "open_issues": 65,
     "last_commit": "2019-06-25T19:48:03Z"
   },
@@ -5779,7 +6187,7 @@
     "branch": "master",
     "url": "https://github.com/pranavrajs/swift",
     "stars": 29,
-    "forks": 34,
+    "forks": 35,
     "open_issues": 2,
     "last_commit": "2014-12-20T04:45:17Z"
   },
@@ -5819,6 +6227,18 @@
     "open_issues": 13,
     "last_commit": "2019-05-25T06:00:17Z"
   },
+  "prototypeinteractive-gatsby-react-boilerplate-master": {
+    "theme_key": "prototypeinteractive-gatsby-react-boilerplate-master",
+    "file": "gatsby-react-boilerplate.md",
+    "name": "gatsby-react-boilerplate",
+    "repo": "PrototypeInteractive/gatsby-react-boilerplate",
+    "branch": "master",
+    "url": "https://github.com/PrototypeInteractive/gatsby-react-boilerplate",
+    "stars": 51,
+    "forks": 15,
+    "open_issues": 4,
+    "last_commit": "2019-02-17T04:57:11Z"
+  },
   "qqhann-hugo-primer-master": {
     "theme_key": "qqhann-hugo-primer-master",
     "file": "hugo-primer-theme.md",
@@ -5828,8 +6248,8 @@
     "url": "https://github.com/qqhann/hugo-primer",
     "stars": 50,
     "forks": 24,
-    "open_issues": 10,
-    "last_commit": "2019-05-21T16:41:50Z"
+    "open_issues": 11,
+    "last_commit": "2019-10-08T01:20:46Z"
   },
   "qwtel-hydejack-master": {
     "theme_key": "qwtel-hydejack-master",
@@ -5838,8 +6258,8 @@
     "repo": "hydecorp/hydejack",
     "branch": "master",
     "url": "https://github.com/hydecorp/hydejack",
-    "stars": 454,
-    "forks": 395,
+    "stars": 456,
+    "forks": 396,
     "open_issues": 13,
     "last_commit": "2019-08-31T11:43:03Z"
   },
@@ -5903,6 +6323,18 @@
     "open_issues": 2,
     "last_commit": "2018-09-05T08:38:10Z"
   },
+  "resir014-gatsby-starter-typescript-plus-master": {
+    "theme_key": "resir014-gatsby-starter-typescript-plus-master",
+    "file": "gatsby-starter-typescript-plus.md",
+    "name": "gatsby-starter-typescript-plus",
+    "repo": "resir014/gatsby-starter-typescript-plus",
+    "branch": "master",
+    "url": "https://github.com/resir014/gatsby-starter-typescript-plus",
+    "stars": 107,
+    "forks": 26,
+    "open_issues": 1,
+    "last_commit": "2019-09-11T05:02:42Z"
+  },
   "reuixiy-hugo-theme-meme-master": {
     "theme_key": "reuixiy-hugo-theme-meme-master",
     "file": "hugo-theme-meme.md",
@@ -5913,7 +6345,7 @@
     "stars": 18,
     "forks": 5,
     "open_issues": 3,
-    "last_commit": "2019-10-06T09:19:44Z"
+    "last_commit": "2019-10-08T07:26:28Z"
   },
   "rhazdon-hugo-theme-hello-friend-ng-master": {
     "theme_key": "rhazdon-hugo-theme-hello-friend-ng-master",
@@ -5922,7 +6354,7 @@
     "repo": "rhazdon/hugo-theme-hello-friend-ng",
     "branch": "master",
     "url": "https://github.com/rhazdon/hugo-theme-hello-friend-ng",
-    "stars": 216,
+    "stars": 217,
     "forks": 128,
     "open_issues": 8,
     "last_commit": "2019-09-23T09:27:22Z"
@@ -5947,7 +6379,7 @@
     "branch": "master",
     "url": "https://github.com/rlue/jekyll-solana",
     "stars": 35,
-    "forks": 33,
+    "forks": 34,
     "open_issues": 0,
     "last_commit": "2019-10-02T23:51:47Z"
   },
@@ -5975,6 +6407,18 @@
     "open_issues": 0,
     "last_commit": "2019-07-07T09:57:42Z"
   },
+  "robertcoopercode-gatsby-netlify-cms-master": {
+    "theme_key": "robertcoopercode-gatsby-netlify-cms-master",
+    "file": "gatsby-netlify-cms.md",
+    "name": "gatsby-netlify-cms",
+    "repo": "robertcoopercode/gatsby-netlify-cms",
+    "branch": "master",
+    "url": "https://github.com/robertcoopercode/gatsby-netlify-cms",
+    "stars": 95,
+    "forks": 75,
+    "open_issues": 2,
+    "last_commit": "2019-09-08T00:37:09Z"
+  },
   "rohanchandra-type-theme-master": {
     "theme_key": "rohanchandra-type-theme-master",
     "file": "jekyll-type-theme.md",
@@ -5994,8 +6438,8 @@
     "repo": "rosario/kasper",
     "branch": "master",
     "url": "https://github.com/rosario/kasper",
-    "stars": 924,
-    "forks": 381,
+    "stars": 925,
+    "forks": 382,
     "open_issues": 15,
     "last_commit": "2019-05-02T06:43:50Z"
   },
@@ -6055,7 +6499,7 @@
     "branch": "master",
     "url": "https://github.com/ryanwiemer/gatsby-starter-gcn",
     "stars": 366,
-    "forks": 88,
+    "forks": 89,
     "open_issues": 2,
     "last_commit": "2019-08-23T04:46:54Z"
   },
@@ -6066,8 +6510,8 @@
     "repo": "saey55/hugo-elate-theme",
     "branch": "master",
     "url": "https://github.com/saey55/hugo-elate-theme",
-    "stars": 147,
-    "forks": 89,
+    "stars": 149,
+    "forks": 90,
     "open_issues": 13,
     "last_commit": "2019-01-13T20:36:41Z"
   },
@@ -6155,6 +6599,30 @@
     "open_issues": 0,
     "last_commit": "2019-10-02T20:09:19Z"
   },
+  "santosfrancisco-gatsby-starter-cv-master": {
+    "theme_key": "santosfrancisco-gatsby-starter-cv-master",
+    "file": "gatsby-starter-cv.md",
+    "name": "gatsby-starter-cv",
+    "repo": "santosfrancisco/gatsby-starter-cv",
+    "branch": "master",
+    "url": "https://github.com/santosfrancisco/gatsby-starter-cv",
+    "stars": 38,
+    "forks": 13,
+    "open_issues": 10,
+    "last_commit": "2019-10-04T16:02:54Z"
+  },
+  "saschajullmann-gatsby-starter-gatsbythemes-master": {
+    "theme_key": "saschajullmann-gatsby-starter-gatsbythemes-master",
+    "file": "gatsby-starter-gatsbythemes.md",
+    "name": "gatsby-starter-gatsbythemes",
+    "repo": "saschajullmann/gatsby-starter-gatsbythemes",
+    "branch": "master",
+    "url": "https://github.com/saschajullmann/gatsby-starter-gatsbythemes",
+    "stars": 99,
+    "forks": 25,
+    "open_issues": 1,
+    "last_commit": "2019-07-05T17:15:14Z"
+  },
   "schmanat-hugo-highlights-theme-master": {
     "theme_key": "schmanat-hugo-highlights-theme-master",
     "file": "hugo-highlights-theme.md",
@@ -6191,6 +6659,18 @@
     "open_issues": 0,
     "last_commit": "2018-07-15T13:19:46Z"
   },
+  "scttcper-gatsby-casper-master": {
+    "theme_key": "scttcper-gatsby-casper-master",
+    "file": "gatsby-casper.md",
+    "name": "gatsby-casper",
+    "repo": "scttcper/gatsby-casper",
+    "branch": "master",
+    "url": "https://github.com/scttcper/gatsby-casper",
+    "stars": 194,
+    "forks": 95,
+    "open_issues": 6,
+    "last_commit": "2019-10-05T16:46:19Z"
+  },
   "seanlane-gochowdown-master": {
     "theme_key": "seanlane-gochowdown-master",
     "file": "hugo-chowdown-theme.md",
@@ -6199,7 +6679,7 @@
     "branch": "master",
     "url": "https://github.com/seanlane/gochowdown",
     "stars": 12,
-    "forks": 3,
+    "forks": 4,
     "open_issues": 0,
     "last_commit": "2019-09-23T02:46:05Z"
   },
@@ -6222,8 +6702,8 @@
     "repo": "sergiokopplin/indigo",
     "branch": "master",
     "url": "https://github.com/sergiokopplin/indigo",
-    "stars": 1585,
-    "forks": 1584,
+    "stars": 1586,
+    "forks": 1585,
     "open_issues": 28,
     "last_commit": "2019-10-05T12:41:18Z"
   },
@@ -6319,7 +6799,7 @@
     "branch": "master",
     "url": "https://github.com/sharu725/cards",
     "stars": 68,
-    "forks": 208,
+    "forks": 209,
     "open_issues": 1,
     "last_commit": "2019-09-25T13:45:17Z"
   },
@@ -6343,7 +6823,7 @@
     "branch": "master",
     "url": "https://github.com/sharu725/hagura",
     "stars": 208,
-    "forks": 124,
+    "forks": 125,
     "open_issues": 4,
     "last_commit": "2019-03-28T18:59:15Z"
   },
@@ -6366,8 +6846,8 @@
     "repo": "sharu725/online-cv",
     "branch": "master",
     "url": "https://github.com/sharu725/online-cv",
-    "stars": 998,
-    "forks": 1808,
+    "stars": 1000,
+    "forks": 1815,
     "open_issues": 5,
     "last_commit": "2019-09-21T21:47:01Z"
   },
@@ -6427,7 +6907,7 @@
     "branch": "master",
     "url": "https://github.com/ShawnTeoh/matjek",
     "stars": 62,
-    "forks": 291,
+    "forks": 292,
     "open_issues": 7,
     "last_commit": "2019-06-01T11:25:01Z"
   },
@@ -6438,8 +6918,8 @@
     "repo": "shenliyang/hexo-theme-snippet",
     "branch": "master",
     "url": "https://github.com/shenliyang/hexo-theme-snippet",
-    "stars": 854,
-    "forks": 189,
+    "stars": 855,
+    "forks": 188,
     "open_issues": 8,
     "last_commit": "2019-09-06T01:02:04Z"
   },
@@ -6515,6 +6995,18 @@
     "open_issues": 31,
     "last_commit": "2019-08-26T01:42:45Z"
   },
+  "smakosh-gatsby-portfolio-dev-master": {
+    "theme_key": "smakosh-gatsby-portfolio-dev-master",
+    "file": "gatsby-portfolio-dev.md",
+    "name": "gatsby-portfolio-dev",
+    "repo": "smakosh/gatsby-portfolio-dev",
+    "branch": "master",
+    "url": "https://github.com/smakosh/gatsby-portfolio-dev",
+    "stars": 167,
+    "forks": 36,
+    "open_issues": 0,
+    "last_commit": "2019-09-25T21:22:41Z"
+  },
   "smallmuou-jekyll-pithy-master": {
     "theme_key": "smallmuou-jekyll-pithy-master",
     "file": "jekyll-pithy.md",
@@ -6559,7 +7051,7 @@
     "branch": "master",
     "url": "https://github.com/snipcart/stackbit-theme-planty",
     "stars": 37,
-    "forks": 11,
+    "forks": 12,
     "open_issues": 3,
     "last_commit": "2019-09-17T18:36:53Z"
   },
@@ -6587,18 +7079,6 @@
     "open_issues": 1,
     "last_commit": "2018-10-18T03:31:35Z"
   },
-  "spaceg-library-master": {
-    "theme_key": "spaceg-library-master",
-    "file": "jekyll-library-amoklaufer.md",
-    "name": "Library",
-    "repo": "SpaceG/Library",
-    "branch": "master",
-    "url": "https://github.com/SpaceG/Library",
-    "stars": 35,
-    "forks": 34,
-    "open_issues": 0,
-    "last_commit": "2019-01-25T08:37:10Z"
-  },
   "sparanoid-almace-scaffolding-master": {
     "theme_key": "sparanoid-almace-scaffolding-master",
     "file": "almace-scaffolding.md",
@@ -6618,10 +7098,10 @@
     "repo": "spech66/bootstrap-bp-hugo-startpage",
     "branch": "master",
     "url": "https://github.com/spech66/bootstrap-bp-hugo-startpage",
-    "stars": 5,
+    "stars": 6,
     "forks": 1,
     "open_issues": 0,
-    "last_commit": "2019-10-06T14:35:01Z"
+    "last_commit": "2019-10-08T16:00:11Z"
   },
   "spech66-bootstrap-bp-hugo-theme-master": {
     "theme_key": "spech66-bootstrap-bp-hugo-theme-master",
@@ -6633,7 +7113,7 @@
     "stars": 14,
     "forks": 6,
     "open_issues": 0,
-    "last_commit": "2019-10-06T14:35:06Z"
+    "last_commit": "2019-10-08T16:34:46Z"
   },
   "spf13-hyde-master": {
     "theme_key": "spf13-hyde-master",
@@ -6643,7 +7123,7 @@
     "branch": "master",
     "url": "https://github.com/spf13/hyde",
     "stars": 318,
-    "forks": 340,
+    "forks": 339,
     "open_issues": 6,
     "last_commit": "2019-10-03T18:43:08Z"
   },
@@ -6666,10 +7146,10 @@
     "repo": "squidfunk/mkdocs-material",
     "branch": "master",
     "url": "https://github.com/squidfunk/mkdocs-material",
-    "stars": 2685,
-    "forks": 720,
-    "open_issues": 8,
-    "last_commit": "2019-10-06T16:51:23Z"
+    "stars": 2687,
+    "forks": 721,
+    "open_issues": 9,
+    "last_commit": "2019-10-08T15:46:51Z"
   },
   "ssokurenko-jekyll-smart-material-master": {
     "theme_key": "ssokurenko-jekyll-smart-material-master",
@@ -6726,10 +7206,10 @@
     "repo": "stackbithq/stackbit-theme-azimuth",
     "branch": "gatsby",
     "url": "https://github.com/stackbithq/stackbit-theme-azimuth",
-    "stars": 8,
+    "stars": 9,
     "forks": 8,
     "open_issues": 0,
-    "last_commit": "2019-09-24T09:45:07Z"
+    "last_commit": "2019-10-08T20:27:31Z"
   },
   "stackbithq-stackbit-theme-azimuth-hugo": {
     "theme_key": "stackbithq-stackbit-theme-azimuth-hugo",
@@ -6738,10 +7218,10 @@
     "repo": "stackbithq/stackbit-theme-azimuth",
     "branch": "hugo",
     "url": "https://github.com/stackbithq/stackbit-theme-azimuth",
-    "stars": 8,
+    "stars": 9,
     "forks": 8,
     "open_issues": 0,
-    "last_commit": "2019-09-24T09:45:07Z"
+    "last_commit": "2019-10-08T20:27:31Z"
   },
   "stackbithq-stackbit-theme-azimuth-jekyll": {
     "theme_key": "stackbithq-stackbit-theme-azimuth-jekyll",
@@ -6750,10 +7230,10 @@
     "repo": "stackbithq/stackbit-theme-azimuth",
     "branch": "jekyll",
     "url": "https://github.com/stackbithq/stackbit-theme-azimuth",
-    "stars": 8,
+    "stars": 9,
     "forks": 8,
     "open_issues": 0,
-    "last_commit": "2019-09-24T09:45:07Z"
+    "last_commit": "2019-10-08T20:27:31Z"
   },
   "stackbithq-stackbit-theme-construct-master": {
     "theme_key": "stackbithq-stackbit-theme-construct-master",
@@ -6834,7 +7314,7 @@
     "repo": "stackbithq/stackbit-theme-fresh",
     "branch": "gatsby",
     "url": "https://github.com/stackbithq/stackbit-theme-fresh",
-    "stars": 4,
+    "stars": 5,
     "forks": 2,
     "open_issues": 0,
     "last_commit": "2019-10-03T06:16:10Z"
@@ -6846,7 +7326,7 @@
     "repo": "stackbithq/stackbit-theme-fresh",
     "branch": "hugo",
     "url": "https://github.com/stackbithq/stackbit-theme-fresh",
-    "stars": 4,
+    "stars": 5,
     "forks": 2,
     "open_issues": 0,
     "last_commit": "2019-10-03T06:16:10Z"
@@ -6858,7 +7338,7 @@
     "repo": "stackbithq/stackbit-theme-fresh",
     "branch": "jekyll",
     "url": "https://github.com/stackbithq/stackbit-theme-fresh",
-    "stars": 4,
+    "stars": 5,
     "forks": 2,
     "open_issues": 0,
     "last_commit": "2019-10-03T06:16:10Z"
@@ -7026,7 +7506,7 @@
     "repo": "suheb/resume",
     "branch": "master",
     "url": "https://github.com/suheb/resume",
-    "stars": 54,
+    "stars": 53,
     "forks": 7,
     "open_issues": 1,
     "last_commit": "2019-10-01T12:18:05Z"
@@ -7067,6 +7547,18 @@
     "open_issues": 0,
     "last_commit": "2018-03-09T00:06:59Z"
   },
+  "sw-yx-jamstack-hackathon-starter-master": {
+    "theme_key": "sw-yx-jamstack-hackathon-starter-master",
+    "file": "jamstack-hackathon-starter.md",
+    "name": "jamstack-hackathon-starter",
+    "repo": "sw-yx/jamstack-hackathon-starter",
+    "branch": "master",
+    "url": "https://github.com/sw-yx/jamstack-hackathon-starter",
+    "stars": 83,
+    "forks": 18,
+    "open_issues": 2,
+    "last_commit": "2019-09-26T14:27:03Z"
+  },
   "swanson-lagom-master": {
     "theme_key": "swanson-lagom-master",
     "file": "jekyll-lagom.md",
@@ -7075,7 +7567,7 @@
     "branch": "master",
     "url": "https://github.com/swanson/lagom",
     "stars": 504,
-    "forks": 466,
+    "forks": 468,
     "open_issues": 1,
     "last_commit": "2019-04-13T19:23:13Z"
   },
@@ -7100,8 +7592,8 @@
     "url": "https://github.com/sylhare/Type-on-Strap",
     "stars": 323,
     "forks": 540,
-    "open_issues": 1,
-    "last_commit": "2019-10-07T14:12:14Z"
+    "open_issues": 2,
+    "last_commit": "2019-10-08T12:12:45Z"
   },
   "syui-hugo-theme-air-master": {
     "theme_key": "syui-hugo-theme-air-master",
@@ -7111,7 +7603,7 @@
     "branch": "master",
     "url": "https://github.com/syui/hugo-theme-air",
     "stars": 91,
-    "forks": 37,
+    "forks": 38,
     "open_issues": 0,
     "last_commit": "2019-08-18T11:10:22Z"
   },
@@ -7147,7 +7639,7 @@
     "branch": "master",
     "url": "https://github.com/t413/SinglePaged",
     "stars": 697,
-    "forks": 992,
+    "forks": 991,
     "open_issues": 19,
     "last_commit": "2019-09-11T15:25:21Z"
   },
@@ -7183,9 +7675,9 @@
     "branch": "master",
     "url": "https://github.com/TaylanTatli/Moon",
     "stars": 1817,
-    "forks": 1738,
+    "forks": 1743,
     "open_issues": 76,
-    "last_commit": "2019-10-07T11:36:14Z"
+    "last_commit": "2019-10-08T15:37:21Z"
   },
   "taylantatli-ramme-master": {
     "theme_key": "taylantatli-ramme-master",
@@ -7254,9 +7746,9 @@
     "repo": "thelehhman/plainwhite-jekyll",
     "branch": "master",
     "url": "https://github.com/thelehhman/plainwhite-jekyll",
-    "stars": 57,
-    "forks": 127,
-    "open_issues": 6,
+    "stars": 59,
+    "forks": 128,
+    "open_issues": 5,
     "last_commit": "2019-09-30T19:05:56Z"
   },
   "thelehhman-texture-master": {
@@ -7266,8 +7758,8 @@
     "repo": "thelehhman/texture",
     "branch": "master",
     "url": "https://github.com/thelehhman/texture",
-    "stars": 38,
-    "forks": 109,
+    "stars": 39,
+    "forks": 112,
     "open_issues": 4,
     "last_commit": "2019-10-05T05:21:28Z"
   },
@@ -7314,9 +7806,9 @@
     "repo": "themefisher/kross-hugo-portfolio-template",
     "branch": "master",
     "url": "https://github.com/themefisher/kross-hugo-portfolio-template",
-    "stars": 52,
+    "stars": 53,
     "forks": 38,
-    "open_issues": 0,
+    "open_issues": 1,
     "last_commit": "2019-09-28T09:52:45Z"
   },
   "themefisher-meghna-hugo-master": {
@@ -7326,7 +7818,7 @@
     "repo": "themefisher/meghna-hugo",
     "branch": "master",
     "url": "https://github.com/themefisher/meghna-hugo",
-    "stars": 92,
+    "stars": 93,
     "forks": 114,
     "open_issues": 1,
     "last_commit": "2019-10-04T21:46:28Z"
@@ -7350,8 +7842,8 @@
     "repo": "themefisher/parsa-hugo-personal-blog-theme",
     "branch": "master",
     "url": "https://github.com/themefisher/parsa-hugo-personal-blog-theme",
-    "stars": 17,
-    "forks": 18,
+    "stars": 19,
+    "forks": 20,
     "open_issues": 2,
     "last_commit": "2019-09-28T09:55:07Z"
   },
@@ -7410,8 +7902,8 @@
     "repo": "thiagorossener/jekflix-template",
     "branch": "master",
     "url": "https://github.com/thiagorossener/jekflix-template",
-    "stars": 245,
-    "forks": 426,
+    "stars": 246,
+    "forks": 427,
     "open_issues": 5,
     "last_commit": "2019-10-03T18:34:09Z"
   },
@@ -7462,6 +7954,18 @@
     "forks": 223,
     "open_issues": 2,
     "last_commit": "2019-02-24T00:36:06Z"
+  },
+  "thriveweb-yellowcake-master": {
+    "theme_key": "thriveweb-yellowcake-master",
+    "file": "gatsby-yellowcake.md",
+    "name": "yellowcake",
+    "repo": "thriveweb/yellowcake",
+    "branch": "master",
+    "url": "https://github.com/thriveweb/yellowcake",
+    "stars": 88,
+    "forks": 41,
+    "open_issues": 6,
+    "last_commit": "2019-09-05T05:38:41Z"
   },
   "tigefa4u-jekmdl-master": {
     "theme_key": "tigefa4u-jekmdl-master",
@@ -7579,7 +8083,7 @@
     "branch": "master",
     "url": "https://github.com/Track3/hermit",
     "stars": 376,
-    "forks": 148,
+    "forks": 147,
     "open_issues": 13,
     "last_commit": "2019-09-16T02:33:31Z"
   },
@@ -7602,7 +8106,7 @@
     "repo": "TryGhost/gatsby-starter-ghost",
     "branch": "master",
     "url": "https://github.com/TryGhost/gatsby-starter-ghost",
-    "stars": 316,
+    "stars": 319,
     "forks": 171,
     "open_issues": 7,
     "last_commit": "2019-10-04T05:08:58Z"
@@ -7615,7 +8119,7 @@
     "branch": "master",
     "url": "https://github.com/ttskch/jekyll-ttskch-theme",
     "stars": 26,
-    "forks": 58,
+    "forks": 59,
     "open_issues": 5,
     "last_commit": "2019-08-07T05:05:53Z"
   },
@@ -7654,6 +8158,18 @@
     "forks": 22,
     "open_issues": 2,
     "last_commit": "2019-05-10T20:43:53Z"
+  },
+  "ueno-llc-ueno-gatsby-starter-master": {
+    "theme_key": "ueno-llc-ueno-gatsby-starter-master",
+    "file": "ueno-gatsby-starter.md",
+    "name": "ueno-gatsby-starter",
+    "repo": "ueno-llc/ueno-gatsby-starter",
+    "branch": "master",
+    "url": "https://github.com/ueno-llc/ueno-gatsby-starter",
+    "stars": 77,
+    "forks": 17,
+    "open_issues": 2,
+    "last_commit": "2019-03-06T21:33:16Z"
   },
   "uicardiodev-hugo-appyness-master": {
     "theme_key": "uicardiodev-hugo-appyness-master",
@@ -7739,6 +8255,18 @@
     "open_issues": 1,
     "last_commit": "2019-09-25T08:46:08Z"
   },
+  "vagr9k-gatsby-advanced-starter-master": {
+    "theme_key": "vagr9k-gatsby-advanced-starter-master",
+    "file": "gatsby-advanced-starter.md",
+    "name": "gatsby-advanced-starter",
+    "repo": "Vagr9K/gatsby-advanced-starter",
+    "branch": "master",
+    "url": "https://github.com/Vagr9K/gatsby-advanced-starter",
+    "stars": 719,
+    "forks": 176,
+    "open_issues": 2,
+    "last_commit": "2019-10-06T06:52:32Z"
+  },
   "vagr9k-gatsby-material-starter-master": {
     "theme_key": "vagr9k-gatsby-material-starter-master",
     "file": "gatsby-material-starter.md",
@@ -7746,8 +8274,8 @@
     "repo": "Vagr9K/gatsby-material-starter",
     "branch": "master",
     "url": "https://github.com/Vagr9K/gatsby-material-starter",
-    "stars": 392,
-    "forks": 135,
+    "stars": 393,
+    "forks": 134,
     "open_issues": 2,
     "last_commit": "2019-05-10T16:24:48Z"
   },
@@ -7770,7 +8298,7 @@
     "repo": "victoriadrake/hugo-theme-introduction",
     "branch": "master",
     "url": "https://github.com/victoriadrake/hugo-theme-introduction",
-    "stars": 271,
+    "stars": 272,
     "forks": 108,
     "open_issues": 8,
     "last_commit": "2019-10-01T14:34:58Z"
@@ -7833,7 +8361,7 @@
     "stars": 15,
     "forks": 6,
     "open_issues": 0,
-    "last_commit": "2019-10-02T13:57:18Z"
+    "last_commit": "2019-10-08T15:31:42Z"
   },
   "vimux-blank-master": {
     "theme_key": "vimux-blank-master",
@@ -7842,7 +8370,7 @@
     "repo": "Vimux/blank",
     "branch": "master",
     "url": "https://github.com/Vimux/blank",
-    "stars": 67,
+    "stars": 68,
     "forks": 39,
     "open_issues": 0,
     "last_commit": "2019-09-02T15:17:49Z"
@@ -7891,7 +8419,7 @@
     "branch": "master",
     "url": "https://github.com/vividvilla/ezhil",
     "stars": 56,
-    "forks": 40,
+    "forks": 39,
     "open_issues": 1,
     "last_commit": "2019-09-19T18:33:07Z"
   },
@@ -7903,7 +8431,7 @@
     "branch": "master",
     "url": "https://github.com/volny/creative-theme-jekyll",
     "stars": 267,
-    "forks": 452,
+    "forks": 454,
     "open_issues": 16,
     "last_commit": "2019-09-07T12:21:39Z"
   },
@@ -7950,7 +8478,7 @@
     "repo": "wannaxiao/vuepress-theme-resume",
     "branch": "master",
     "url": "https://github.com/wannaxiao/vuepress-theme-resume",
-    "stars": 75,
+    "stars": 76,
     "forks": 26,
     "open_issues": 0,
     "last_commit": "2019-07-15T16:02:19Z"
@@ -7966,6 +8494,18 @@
     "forks": 4,
     "open_issues": 1,
     "last_commit": "2019-04-22T01:56:47Z"
+  },
+  "webcu-gatsby-material-kit-react-master": {
+    "theme_key": "webcu-gatsby-material-kit-react-master",
+    "file": "gatsby-material-kit-react.md",
+    "name": "gatsby-material-kit-react",
+    "repo": "WebCu/gatsby-material-kit-react",
+    "branch": "master",
+    "url": "https://github.com/WebCu/gatsby-material-kit-react",
+    "stars": 36,
+    "forks": 21,
+    "open_issues": 1,
+    "last_commit": "2019-08-20T01:20:26Z"
   },
   "wemake-services-jekyll-theme-hackcss-master": {
     "theme_key": "wemake-services-jekyll-theme-hackcss-master",
@@ -7990,6 +8530,18 @@
     "forks": 2,
     "open_issues": 0,
     "last_commit": "2019-09-09T06:09:39Z"
+  },
+  "whoisryosuke-gatsby-documentation-starter-master": {
+    "theme_key": "whoisryosuke-gatsby-documentation-starter-master",
+    "file": "gatsby-documentation-starter.md",
+    "name": "gatsby-documentation-starter",
+    "repo": "whoisryosuke/gatsby-documentation-starter",
+    "branch": "master",
+    "url": "https://github.com/whoisryosuke/gatsby-documentation-starter",
+    "stars": 79,
+    "forks": 9,
+    "open_issues": 3,
+    "last_commit": "2019-05-04T14:31:43Z"
   },
   "wild-flame-jekyll-simple-master": {
     "theme_key": "wild-flame-jekyll-simple-master",
@@ -8047,7 +8599,7 @@
     "branch": "master",
     "url": "https://github.com/willianjusten/cards-jekyll-template",
     "stars": 271,
-    "forks": 260,
+    "forks": 262,
     "open_issues": 5,
     "last_commit": "2019-03-14T17:53:38Z"
   },
@@ -8083,7 +8635,7 @@
     "branch": "master",
     "url": "https://github.com/wowthemesnet/affiliates-jekyll-theme",
     "stars": 94,
-    "forks": 127,
+    "forks": 128,
     "open_issues": 2,
     "last_commit": "2019-07-07T12:42:53Z"
   },
@@ -8094,9 +8646,9 @@
     "repo": "wowthemesnet/mediumish-theme-jekyll",
     "branch": "master",
     "url": "https://github.com/wowthemesnet/mediumish-theme-jekyll",
-    "stars": 429,
-    "forks": 412,
-    "open_issues": 18,
+    "stars": 430,
+    "forks": 415,
+    "open_issues": 17,
     "last_commit": "2019-09-20T15:21:35Z"
   },
   "wowthemesnet-mundana-theme-jekyll-master": {
@@ -8106,8 +8658,8 @@
     "repo": "wowthemesnet/mundana-theme-jekyll",
     "branch": "master",
     "url": "https://github.com/wowthemesnet/mundana-theme-jekyll",
-    "stars": 143,
-    "forks": 186,
+    "stars": 145,
+    "forks": 185,
     "open_issues": 9,
     "last_commit": "2019-10-07T16:15:46Z"
   },
@@ -8118,8 +8670,8 @@
     "repo": "wu-kan/wu-kan.github.io",
     "branch": "master",
     "url": "https://github.com/wu-kan/wu-kan.github.io",
-    "stars": 36,
-    "forks": 75,
+    "stars": 37,
+    "forks": 76,
     "open_issues": 3,
     "last_commit": "2019-09-26T00:18:56Z"
   },
@@ -8131,7 +8683,7 @@
     "branch": "master",
     "url": "https://github.com/xaprb/story",
     "stars": 91,
-    "forks": 35,
+    "forks": 36,
     "open_issues": 31,
     "last_commit": "2019-06-19T19:33:11Z"
   },
@@ -8154,7 +8706,7 @@
     "repo": "xianmin/hugo-theme-jane",
     "branch": "master",
     "url": "https://github.com/xianmin/hugo-theme-jane",
-    "stars": 387,
+    "stars": 388,
     "forks": 162,
     "open_issues": 29,
     "last_commit": "2019-10-05T07:00:34Z"
@@ -8167,9 +8719,9 @@
     "branch": "master",
     "url": "https://github.com/xukimseven/HardCandy-Jekyll",
     "stars": 110,
-    "forks": 84,
-    "open_issues": 11,
-    "last_commit": "2019-09-02T14:59:10Z"
+    "forks": 86,
+    "open_issues": 12,
+    "last_commit": "2019-10-08T10:59:00Z"
   },
   "xzya-hugo-material-blog-master": {
     "theme_key": "xzya-hugo-material-blog-master",
@@ -8203,7 +8755,7 @@
     "branch": "master",
     "url": "https://github.com/yelog/hexo-theme-3-hexo",
     "stars": 175,
-    "forks": 78,
+    "forks": 79,
     "open_issues": 9,
     "last_commit": "2019-09-25T08:31:51Z"
   },
@@ -8299,7 +8851,7 @@
     "branch": "master",
     "url": "https://github.com/yscoder/vuepress-theme-indigo",
     "stars": 80,
-    "forks": 28,
+    "forks": 29,
     "open_issues": 4,
     "last_commit": "2018-11-05T14:06:37Z"
   },
@@ -8310,10 +8862,10 @@
     "repo": "Yubisaki/vuepress-theme-yubisaki",
     "branch": "master",
     "url": "https://github.com/Yubisaki/vuepress-theme-yubisaki",
-    "stars": 166,
+    "stars": 167,
     "forks": 17,
-    "open_issues": 1,
-    "last_commit": "2019-10-04T08:03:26Z"
+    "open_issues": 0,
+    "last_commit": "2019-10-08T06:42:10Z"
   },
   "yulijia-freshman21-master": {
     "theme_key": "yulijia-freshman21-master",
@@ -8335,7 +8887,7 @@
     "branch": "master",
     "url": "https://github.com/yursan9/manis-hugo-theme",
     "stars": 48,
-    "forks": 25,
+    "forks": 26,
     "open_issues": 1,
     "last_commit": "2019-09-16T09:36:34Z"
   },
@@ -8360,8 +8912,8 @@
     "url": "https://github.com/zhaohuabing/hugo-theme-cleanwhite",
     "stars": 148,
     "forks": 77,
-    "open_issues": 4,
-    "last_commit": "2019-07-26T08:30:42Z"
+    "open_issues": 5,
+    "last_commit": "2019-10-08T11:22:54Z"
   },
   "zhe-hugo-theme-slim-master": {
     "theme_key": "zhe-hugo-theme-slim-master",
