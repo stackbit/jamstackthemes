@@ -28,8 +28,8 @@ const loadThemeData = file => {
     let themeKey = repoName.replace("/", "-").toLowerCase() + "-" + branch;
 
     const lastCommit = themesData[themeKey].last_commit
-    console.log(parseISO(lastCommit));
-    console.log(isAfter(parseISO(lastCommit), new Date(2018, 0, 1)))
+    const stale = isAfter(parseISO(lastCommit), new Date(2018, 0, 1));
+    
 
 };
 
