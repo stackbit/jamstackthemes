@@ -16,8 +16,10 @@
 
 {{ define "main" }}
 {{ $themes := (where .Site.RegularPages "Type" "theme") }}
+{{ $themes := (where $themes ".Params.disabled" "!=" true) }}
+{{ $themeCount := len $themes}}
+
 <div class="sidebar">
-  {{ $themeCount := len $themes }}
   <div class="blurb blurb-desktop">
     <p>A list of Themes and Starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites.</p>
   </div>
@@ -34,17 +36,9 @@
   </div>
   <div class="grids">
     {{ range sort $themes "Lastmod" "desc" }}
-    {{ if .Params.disabled }}
-    {{ else }}
-      {{ $repoName := (substr (replace .Params.github "/" "-") 19 | urlize) }}
-      {{ if .Params.github_branch }}
-        {{ $repoName = (printf "%s-%s" $repoName .Params.github_branch)}}
-      {{ else }}
-        {{ $repoName = (printf "%s-%s" $repoName "master")}}
-      {{ end }}
-      {{ $repo := index .Site.Data.themes $repoName }}
-      {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
-      {{ end }}
+    {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) (cond (ne .Params.github_branch nil) .Params.github_branch "master") }}
+    {{ $repo := index .Site.Data.themes $repoName }}
+    {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
     {{ end }}
   </div>
 </div>
