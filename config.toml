@@ -2,11 +2,11 @@ baseURL = "/"
 languageCode = "en-us"
 title = "JAMstack Themes"
 theme = "jamstackthemes"
-paginate = 3
+paginate = 30
 enableGitInfo = true
 
 [taxonomies]
-  ssg =  "ssg"
+  ssg = "ssg"
   cms = "cms"
   css = "css"
 
