@@ -4,7 +4,7 @@ github: https://github.com/ohduran/the-interesting-times
 demo: https://www.alvaroduran.com/the-interesting-times
 author: Alvaro Duran
 ssg:
-  - Gridsome
+  - Jekyll
 cms:
-  - NetlifyCMS
+  - No CMS
 ---
