@@ -37,6 +37,8 @@
       {{ $repoName := (substr (replace .Params.github "/" "-") 19 | urlize) }}
       {{ if .Params.github_branch }}
         {{ $repoName = (printf "%s-%s" $repoName .Params.github_branch)}}
+      {{ else }}
+        {{ $repoName = (printf "%s-%s" $repoName "master")}}
       {{ end }}
       {{ $repo := index .Site.Data.themes $repoName }}
       {{ partial "theme-card.html" (dict "theme" . "repo" $repo ) }}
