@@ -3,7 +3,9 @@ document.querySelectorAll(".theme").forEach((theme) => {
     const card = e.target.parentNode.parentNode
     const themeName = card.getAttribute('data-name')
     const event = {
-      theme: themeName
+      theme: themeName,
+      category: 'Themes',
+      label: themeName,
     }
     if (themeName && event) {
       analytics.track("Theme Clicked", event);
