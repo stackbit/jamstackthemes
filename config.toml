@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "JAMstack Themes"
 theme = "jamstackthemes"
-paginate = 30
+# paginate = 30
 enableGitInfo = true
 
 [taxonomies]
@@ -13,9 +13,6 @@ enableGitInfo = true
 [params]
     google_analytics_id = ""
     description = "A list of Themes and Starters for JAMstack Sites."
-    enable_badge_staticgen = false
-    enable_badge_headlesscms = false
-    enable_badge_official = true
 
 [outputs]
   home = ["HTML","RSS","JSON"]
@@ -25,7 +22,7 @@ enableGitInfo = true
   lastmod = [":git", "lastmod", ":fileModTime", ":default"]
 
 # Main Menu
-[[menu.main]]
-	name = "About"
-	url = "/about/"
-    weight = 1
+# [[menu.main]]
+# 	name = "About"
+# 	url = "/about/"
+#     weight = 1

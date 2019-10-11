@@ -2,7 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  
   @include breakpoint('small') {
+    margin-left: -10px;
+    margin-right: -10px;
     justify-content: flex-start;
   }
   .term {

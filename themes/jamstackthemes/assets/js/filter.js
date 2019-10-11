@@ -1,7 +1,7 @@
 let filters = {}
 let initialFilters = {}
 
-const mixer = mixitup('.grids', {
+const mixer = mixitup('#grids-homepage', {
   multifilter: {
     enable: true,
     logicWithinGroup: 'or',

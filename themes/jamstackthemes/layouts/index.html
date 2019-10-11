@@ -34,7 +34,7 @@
     </div>
     {{ partial "sort-buttons.html" . }}
   </div>
-  <div class="grids">
+  <div id="grids-homepage" class="grids">
     {{ range sort $themes "Lastmod" "desc" }}
     {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) (cond (ne .Params.github_branch nil) .Params.github_branch "master") }}
     {{ $repo := index .Site.Data.themes $repoName }}
@@ -42,4 +42,14 @@
     {{ end }}
   </div>
 </div>
+{{ end }}
+
+{{ define "footer_js" }}
+{{ $filterHomepage := resources.Get "js/filter.js" }}
+{{ $bundle := slice $filterHomepage | resources.Concat "js/filterHomepage.js" }}
+{{ if .Site.IsServer }}
+  <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
+  {{ else }}
+  <script type="text/javascript" src="{{ ($bundle | minify | fingerprint).RelPermalink }}"></script>
+  {{ end }}
 {{ end }}

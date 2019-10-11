@@ -3,39 +3,35 @@
 {{ define "body_classes" }}page-taxonomy{{ end }}
 
 {{ define "main" }}
+{{ $themeCount := len .Pages }}
 
 <div class="main">
-  {{ $themeCount := len .Pages }}
   <div class="hero">
     <div class="heading">
       <div class="heading-icon"><img src="{{ .Params.icon | relURL }}"/></div>
       <h1 class="heading-title">{{.Title}} Themes <span class="count">({{ $themeCount }})</span></h1>
     </div>
-    <div class="badges">
-      {{ if .Site.Params.enable_badge_staticgen }}
-        {{ if eq (.Params.taxonomy | urlize) "ssg"  }}
-          {{ partial "badge-staticgen.html" . }}
-        {{ end }}
-      {{ end }}
-      {{ if .Site.Params.enable_badge_headlesscms }}
-        {{ if eq (.Params.taxonomy | urlize) "cms"  }}
-          {{ partial "badge-headlesscms.html" . }}
-        {{ end }}
-      {{ end }}
-      {{ if .Site.Params.enable_badge_official }}
-        {{ if .Params.official_url }}
-          {{ partial "badge-official.html" . }}
-        {{ end }}
-      {{ end }}
-    </div>
+    {{ partial "sort-buttons.html" . }}
+    {{ $url := urls.Parse .Params.official_url }}		
+    <div class="official-website"><strong>Official Website:</strong> <a href="{{ .Params.official_url }}">{{ $url.Host }}</a></div>
   </div>
   {{ partial "breadcrumbs.html" . }}
-  <div class="grids">
-    {{ range .Pages }}
+  <div id="grids-taxonomy" class="grids">
+    {{ range sort .Pages "Lastmod" "desc" }}
     {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) (cond (ne .Params.github_branch nil) .Params.github_branch "master") }}
     {{ $repo := index .Site.Data.themes $repoName }}
     {{ partial "theme-card.html" (dict "theme" . "repo" $repo ) }}
     {{ end }}
   </div>
 </div>
+{{ end }}
+
+{{ define "footer_js" }}
+{{ $filterTaxonomy := resources.Get "js/filter-taxonomy.js" }}
+{{ $bundle := slice $filterTaxonomy | resources.Concat "js/filterTaxonomy.js" }}
+{{ if .Site.IsServer }}
+  <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
+  {{ else }}
+  <script type="text/javascript" src="{{ ($bundle | minify | fingerprint).RelPermalink }}"></script>
+  {{ end }}
 {{ end }}
