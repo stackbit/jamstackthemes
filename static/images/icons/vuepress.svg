@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="vuepress-c" x1="9.686%" x2="14.765%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#5F6A8F"/>
+      <stop offset="100%" stop-color="#293046"/>
+    </linearGradient>
+    <path id="vuepress-b" d="M1.45830606,15.1711793 L33.974118,10.5403752 C34.7141279,10.4349852 35.4243569,10.8712566 35.6649024,11.5789709 L49.3730687,51.9100739 C49.6493187,52.7228352 49.2143903,53.6056532 48.401629,53.8819032 C48.3448869,53.9011894 48.2870768,53.9171776 48.2284884,53.9297879 L11.5663721,61.8207721 C10.7294969,62.0008972 9.9045102,61.4704393 9.72109621,60.6342788 L0.159234389,17.0429958 C-0.0246907222,16.2045051 0.505939476,15.3756734 1.34443011,15.1917483 C1.38212029,15.1834809 1.42010525,15.1766198 1.45830606,15.1711793 Z"/>
+    <filter id="vuepress-a" width="118.2%" height="117.5%" x="-9.1%" y="-8.8%" filterUnits="objectBoundingBox">
+      <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.397863855 0"/>
+    </filter>
+    <filter id="vuepress-d" width="114.2%" height="113.6%" x="-7.1%" y="-6.8%" filterUnits="objectBoundingBox">
+      <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0956348339 0"/>
+    </filter>
+    <linearGradient id="vuepress-g" x1="7.586%" x2="15.39%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#81F19E"/>
+      <stop offset="100%" stop-color="#009863"/>
+    </linearGradient>
+    <path id="vuepress-f" d="M4.67136094,9.79822894 L37.1421888,5.17383127 C37.8804199,5.06869462 38.5892977,5.50263889 38.8314309,6.20791212 L52.4917802,45.9970692 C52.7705237,46.8089787 52.3383072,47.6931277 51.5263977,47.9718711 C51.4621508,47.9939283 51.396527,48.0117501 51.3299486,48.0252219 L15.7855355,55.217445 C14.9709723,55.3822676 14.1708645,54.8771651 13.9693446,54.0708963 L3.38258056,11.7139137 C3.17442763,10.8811068 3.68080972,10.0372421 4.51361663,9.82908919 C4.56563063,9.81608874 4.61828245,9.80578822 4.67136094,9.79822894 Z"/>
+    <filter id="vuepress-e" width="118.3%" height="118%" x="-9.1%" y="-9%" filterUnits="objectBoundingBox">
+      <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.397863855 0"/>
+    </filter>
+    <filter id="vuepress-h" width="114.2%" height="114%" x="-7.1%" y="-7%" filterUnits="objectBoundingBox">
+      <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0956348339 0"/>
+    </filter>
+    <linearGradient id="vuepress-k" x1="42.583%" x2="52.418%" y1="1.571%" y2="98.771%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#ECF0F2"/>
+    </linearGradient>
+    <path id="vuepress-j" d="M8.32688556,4.67696032 L40.7749367,0.0558064354 C41.5137281,-0.0494100046 42.2230318,0.385266597 42.4646662,1.09130904 L55.9950499,40.626343 C56.2730081,41.4385217 55.8399369,42.3222522 55.0277582,42.6002105 C54.9592368,42.6236611 54.8891601,42.642294 54.8180404,42.6559728 L19.8022719,49.3907561 C18.9991762,49.54522 18.2137558,49.0509383 18.005583,48.2600616 L7.04291669,6.61139837 C6.82440661,5.78124879 7.32023839,4.93114216 8.15038797,4.71263208 C8.20848173,4.69734077 8.26741312,4.68543021 8.32688556,4.67696032 Z"/>
+    <filter id="vuepress-i" width="118.3%" height="118.2%" x="-9.2%" y="-9.1%" filterUnits="objectBoundingBox">
+      <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.397863855 0"/>
+    </filter>
+    <filter id="vuepress-l" width="114.3%" height="114.2%" x="-7.1%" y="-7.1%" filterUnits="objectBoundingBox">
+      <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0956348339 0"/>
+    </filter>
+    <linearGradient id="vuepress-m" x1="51.705%" x2="74.165%" y1="21.284%" y2="85.607%">
+      <stop offset="0%" stop-color="#47CC85"/>
+      <stop offset="100%" stop-color="#009F68"/>
+    </linearGradient>
+    <linearGradient id="vuepress-n" x1="50%" x2="75.076%" y1="20.792%" y2="80.413%">
+      <stop offset="0%" stop-color="#535C7F"/>
+      <stop offset="100%" stop-color="#2F354E"/>
+    </linearGradient>
+    <path id="vuepress-o" d="M40.8030236,27.8743351 L43.1593201,35.1849877 C43.3787691,35.8658509 43.004719,36.5956982 42.3238558,36.8151472 C42.2741652,36.831163 42.2235518,36.8441598 42.1722925,36.8540666 L27.999063,39.5932922 C27.3462453,39.7194607 26.7039261,39.3308474 26.5127246,38.6940338 L24.2578625,31.1840167 C24.0521514,30.4988776 24.4408045,29.7767008 25.1259436,29.5709897 C25.1727304,29.5569421 25.2202744,29.5455526 25.2683478,29.5368756 L39.3401429,26.9970146 C39.9786826,26.8817627 40.6039739,27.2567631 40.8030236,27.8743351 Z M39.4935221,27.8467934 L25.421727,30.3866544 C25.4057025,30.3895467 25.3898545,30.3933432 25.3742589,30.3980257 C25.1458792,30.4665961 25.0163282,30.7073217 25.0848985,30.9357014 L27.3397606,38.4457185 C27.4034944,38.6579897 27.6176008,38.7875275 27.8352067,38.7454713 L42.0084363,36.0062457 C42.0255227,36.0029435 42.0423938,35.9986112 42.0589573,35.9932726 C42.2859118,35.9201229 42.4105951,35.6768405 42.3374454,35.4498861 L39.981149,28.1392336 C39.9147991,27.9333762 39.7063686,27.8083761 39.4935221,27.8467934 Z M33.4046095,30.6152104 L34.9288018,35.6497905 L33.4046095,35.9773778 L32.5703158,33.1739962 L31.5417303,35.233611 L29.3938289,33.7497943 L30.125987,36.5616787 L28.5517961,36.8843781 L27.1507163,31.7510229 L28.6837678,31.456734 L30.8012221,33.0095682 L31.8602548,30.9215152 L33.4046095,30.6152104 Z M37.8046864,29.7981829 L38.5529337,32.402 L40.0255461,32.1062838 L38.5529337,35.0058172 L35.5466889,33.0095682 L36.9821032,32.703745 L36.2154247,30.1052454 L37.8046864,29.7981829 Z"/>
+    <filter id="vuepress-p" width="110.5%" height="115.8%" x="-5.3%" y="-7.9%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation=".5"/>
+      <feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.210691652 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(3 1)">
+    <use fill="#000" filter="url(#vuepress-a)" xlink:href="#vuepress-b"/>
+    <use fill="url(#vuepress-c)" xlink:href="#vuepress-b"/>
+    <use fill="#000" filter="url(#vuepress-d)" xlink:href="#vuepress-b"/>
+    <use fill="#000" filter="url(#vuepress-e)" xlink:href="#vuepress-f"/>
+    <use fill="url(#vuepress-g)" xlink:href="#vuepress-f"/>
+    <use fill="#000" filter="url(#vuepress-h)" xlink:href="#vuepress-f"/>
+    <use fill="#000" filter="url(#vuepress-i)" xlink:href="#vuepress-j"/>
+    <use fill="url(#vuepress-k)" xlink:href="#vuepress-j"/>
+    <use fill="#000" filter="url(#vuepress-l)" xlink:href="#vuepress-j"/>
+    <g transform="translate(16.865 8.074)">
+      <polygon fill="url(#vuepress-m)" points="0 3.082 14.826 16.876 19.998 0 12.524 1.18 11.274 4.898 8.015 1.925"/>
+      <polygon fill="url(#vuepress-n)" points="16.184 .602 13.027 10.526 4.162 2.481 8.015 1.925 11.274 4.898 12.524 1.18"/>
+    </g>
+    <g fill-rule="nonzero">
+      <use fill="#BBC0D0" xlink:href="#vuepress-o"/>
+      <use fill="#000" filter="url(#vuepress-p)" xlink:href="#vuepress-o"/>
+    </g>
+  </g>
+</svg>
