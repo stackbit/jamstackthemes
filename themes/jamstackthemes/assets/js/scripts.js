@@ -13,3 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
     placement: "top-end"
   });
 });
+
+jQuery(document).ready(function() {
+  jQuery("time.timeago").timeago();
+});
