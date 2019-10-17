@@ -4,5 +4,5 @@ github: https://github.com/arpitbatra123/eleventy-blog-mnml
 demo: https://eleventy-blog-mnml.netlify.com/
 author: Arpit Batra (https://github.com/arpitbatra123)
 ssg:
-  - eleventy
+  - Eleventy
 ---
