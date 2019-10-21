@@ -109,8 +109,9 @@
         border: 2px solid darken($grey, 0%);
         border-radius: 3px;
         cursor: pointer;
-        &:hover {
+        &:hover, &:focus {
           border: 2px solid $primary;
+          outline: none;
         }
         &.mixitup-control-active {
           background: $primary;
@@ -119,9 +120,6 @@
           background-size: 12px 12px;
           background-position: center center;
           background-repeat: no-repeat;
-        }
-        &:focus {
-          outline: none;
         }
       }
       .filter-icon {
