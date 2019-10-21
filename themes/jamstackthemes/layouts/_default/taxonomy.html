@@ -2,6 +2,10 @@
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-taxonomy{{ end }}
 
+{{ define "meta_tags" }}
+<meta name="description" content="{{.Title}} Themes and Starters for JAMstack Sites." />
+{{ end }}
+
 {{ define "main" }}
 {{ $themeCount := len .Pages }}
 
