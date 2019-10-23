@@ -109,9 +109,16 @@
         border: 2px solid darken($grey, 0%);
         border-radius: 3px;
         cursor: pointer;
-        &:hover, &:focus {
+        &:hover {
           border: 2px solid $primary;
+        }
+        &:focus {
           outline: none;
+          box-shadow: 0 0 5px $primary;
+        }
+        &:focus:not(:focus-visible) {
+          // for modern browsers, remove outline if mouse focus
+          box-shadow: none;
         }
         &.mixitup-control-active {
           background: $primary;
