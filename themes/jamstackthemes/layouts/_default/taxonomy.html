@@ -2,13 +2,17 @@
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-taxonomy{{ end }}
 
+{{ define "meta_tags" }}
+<meta name="description" content="{{.Title}} Themes and Starters for JAMstack Sites." />
+{{ end }}
+
 {{ define "main" }}
 {{ $themeCount := len .Pages }}
 
 <div class="main">
   <div class="hero">
     <div class="heading">
-      <div class="heading-icon"><img src="{{ .Params.icon | relURL }}"/></div>
+      <div class="heading-icon"><img src="{{ .Params.icon | relURL }}" alt="{{.Title}} Logo" /></div>
       <h1 class="heading-title">{{.Title}} Themes <span class="count">({{ $themeCount }})</span></h1>
     </div>
     {{ partial "sort-buttons.html" . }}

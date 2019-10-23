@@ -1,8 +1,8 @@
 
 <div class="term">
-  <a class="term-overlay" href="{{ .term.Permalink }}"></a>
+  <a class="term-overlay" href="{{ .term.Permalink }}" aria-label="{{ .term.Title }}"></a>
   {{ if .term.Params.icon }}
-    <img width="30" src="{{ .term.Params.icon | relURL }}"/>
+    <img width="30" src="{{ .term.Params.icon | relURL }}" alt="{{ .term.Title }} Logo" />
   {{ end }}
   <h2>{{ .term.Title }}</h2>
 </div>

@@ -1,3 +1,7 @@
+{{ define "meta_tags" }}
+<meta name="description" content="{{.Title}} for JAMstack Sites." />
+{{ end }}
+
 {{ define "main" }}
 <div class="main">
   {{ $themeCount := len .Pages }}

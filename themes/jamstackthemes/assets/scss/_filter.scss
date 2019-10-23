@@ -112,6 +112,14 @@
         &:hover {
           border: 2px solid $primary;
         }
+        &:focus {
+          outline: none;
+          box-shadow: 0 0 5px $primary;
+        }
+        &:focus:not(:focus-visible) {
+          // for modern browsers, remove outline if mouse focus
+          box-shadow: none;
+        }
         &.mixitup-control-active {
           background: $primary;
           border: 2px solid $primary;
@@ -119,9 +127,6 @@
           background-size: 12px 12px;
           background-position: center center;
           background-repeat: no-repeat;
-        }
-        &:focus {
-          outline: none;
         }
       }
       .filter-icon {
