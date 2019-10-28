@@ -13,7 +13,11 @@
     {{ with .OutputFormats.Get "RSS" }}
         {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
-    {{ range .Pages.ByLastmod }}
+
+    {{ $themes := (where .Site.RegularPages "Type" "theme") }}
+    {{ $themes := (where $themes ".Params.disabled" "!=" true) }}
+
+    {{ range sort $themes "Lastmod" "desc" }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
