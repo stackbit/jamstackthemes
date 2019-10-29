@@ -5,9 +5,4 @@ demo: https://garth.darn.es
 author: David Darnes
 ssg:
   - Jekyll
-cms:
-  - NetlifyCMS
-  - Forestry
-  - DatoCMS
-  - Contentful
 ---
