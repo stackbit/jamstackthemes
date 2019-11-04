@@ -45,6 +45,7 @@ const getBranch = async (defaultBranch, theme) => {
       },
     }).then((res) => {
       const lastCommit = res.data.commit.commit.author.date
+      console.log(theme.repoName, lastCommit)
       return lastCommit;
     }).catch((err) => {
       console.log(theme.file, err.message)
@@ -66,10 +67,11 @@ const getGithubData =  (theme) => {
         Authorization: `Token ${token}`,
       },
     }).then(async (res) => {
+      console.log(`${theme.file} => ${res.data.html_url} - ${res.status}`);
       const defaultBranch = res.data.default_branch
       const themeKey = theme.repoName.replace("/", "-").toLowerCase() + "-" + defaultBranch;
       const lastCommit = await getBranch(defaultBranch, theme)
-      console.log(`${theme.file} => ${res.data.html_url} - ${res.status} | ${lastCommit}`);
+      
       githubData[themeKey] = {
         theme_key: themeKey,
         file: theme.file,
