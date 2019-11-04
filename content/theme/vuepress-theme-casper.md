@@ -10,4 +10,6 @@ cms:
   - Contentful
   - NetlifyCMS
   - Forestry
+date: 2018-08-26T09:29:18Z
+github_branch: master
 ---

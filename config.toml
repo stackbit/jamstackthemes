@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "JAMstack Themes"
 theme = "jamstackthemes"
 # paginate = 30
-enableGitInfo = true
+# enableGitInfo = true
 
 [taxonomies]
   ssg = "ssg"

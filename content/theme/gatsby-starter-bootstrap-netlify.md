@@ -7,4 +7,6 @@ ssg:
   - Gatsby
 cms:
   - NetlifyCMS
+date: 2017-11-08T01:59:41Z
+github_branch: master
 ---

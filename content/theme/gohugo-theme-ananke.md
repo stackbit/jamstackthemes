@@ -7,6 +7,8 @@ ssg:
   - Hugo
 cms:
   - No Cms
+date: 2017-04-11T01:24:05Z
+github_branch: master
 ---
 
 Ananke, A theme for Hugo, a framework for building websites.

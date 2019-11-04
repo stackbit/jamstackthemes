@@ -7,4 +7,6 @@ ssg:
   - Gridsome
 cms:
   - Forestry
+date: 2019-08-14T09:55:03Z
+github_branch: master
 ---

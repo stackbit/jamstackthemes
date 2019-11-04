@@ -7,4 +7,6 @@ ssg:
   - Gatsby
 cms:
   - Contentful
+date: 2018-02-23T00:09:29Z
+github_branch: master
 ---

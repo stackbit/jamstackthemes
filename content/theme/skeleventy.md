@@ -7,4 +7,6 @@ ssg:
   - Eleventy
 cms:
   - No Cms
+date: 2019-02-11T15:07:16Z
+github_branch: master
 ---

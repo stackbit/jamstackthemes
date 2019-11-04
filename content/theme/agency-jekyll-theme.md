@@ -7,6 +7,8 @@ ssg:
   - Jekyll
 cms:
   - No Cms
+date: 2014-08-20T19:54:22Z
+github_branch: gh-pages
 ---
 
 Agency Theme for Jekyll

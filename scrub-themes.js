@@ -40,11 +40,17 @@ for (const themeKey of themeKeys) {
 
   const isThemeStale = !isAfter(parseISO(theme.last_commit), staleBeforeDate);
 
+  if (frontmatter.date === undefined) {
+    if (frontmatter.date != theme.created_at) {
+      newFrontmatterEntries.push('date: ' + theme.created_at);
+    }
+  }
+
   // If there is a change in the stale state, generate new frontmatter 
   // entry for stale setting.
-  if (isThemeStale != frontmatter.stale) {
-    newFrontmatterEntries.push('stale: ' + isThemeStale);
-  }
+  // if (isThemeStale != frontmatter.stale) {
+  //   newFrontmatterEntries.push('stale: ' + isThemeStale);
+  // }
 
   // If the github branch is missing, generate new frontmatter entry
   // for github branch setting.

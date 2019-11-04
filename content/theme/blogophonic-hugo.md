@@ -5,4 +5,6 @@ demo: https://blogophonic-hugo.netlify.com/
 author: Eric E. Anderson
 ssg:
   - Hugo
+date: 2019-04-10T19:54:55Z
+github_branch: master
 ---

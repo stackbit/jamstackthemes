@@ -8,4 +8,6 @@ ssg:
   - Gatsby
 cms:
   - No Cms
+date: 2018-10-29T05:31:55Z
+github_branch: master
 ---

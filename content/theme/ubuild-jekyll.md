@@ -7,4 +7,6 @@ ssg:
   - Jekyll
 cms:
   - Forestry
+date: 2018-06-20T13:05:57Z
+github_branch: master
 ---

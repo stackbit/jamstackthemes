@@ -13,6 +13,7 @@
     "date-fns": "^2.4.1",
     "front-matter": "^3.0.2",
     "fs-extra": "^8.1.0",
+    "js-yaml": "^3.13.1",
     "pageres": "^5.1.0",
     "parse-github-url": "^1.0.2",
     "promise.allsettled": "^1.0.1",

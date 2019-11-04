@@ -7,4 +7,6 @@ ssg:
   - Middleman
 cms:
   - No Cms
+date: 2015-01-13T23:50:25Z
+github_branch: master
 ---

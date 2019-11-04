@@ -10,4 +10,6 @@ cms:
   - Forestry
   - DatoCMS
   - Contentful
+date: 2016-08-27T15:50:21Z
+github_branch: master
 ---

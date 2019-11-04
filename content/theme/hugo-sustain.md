@@ -7,6 +7,8 @@ ssg:
   - Hugo
 cms:
   - No Cms
+date: 2016-10-22T07:21:04Z
+github_branch: master
 ---
 
 Personal blog theme built with Bootstrap, powered by Hugo.

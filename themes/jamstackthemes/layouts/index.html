@@ -16,7 +16,7 @@
 
 {{ define "main" }}
 {{ $themes := (where .Site.RegularPages "Type" "theme") }}
-{{ $themes := (where $themes ".Params.disabled" "!=" true) }}
+{{ $themes := (where $themes ".Params.draft" "!=" true) }}
 {{ $themeCount := len $themes}}
 
 <div class="sidebar">
@@ -35,8 +35,8 @@
     {{ partial "sort-buttons.html" . }}
   </div>
   <div id="grids-homepage" class="grids">
-    {{ range sort $themes "Lastmod" "desc" }}
-    {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) (cond (ne .Params.github_branch nil) .Params.github_branch "master") }}
+    {{ range $themes.ByPublishDate.Reverse }}
+    {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
     {{ $repo := index .Site.Data.themes $repoName }}
     {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
     {{ end }}

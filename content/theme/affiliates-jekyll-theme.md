@@ -7,6 +7,8 @@ ssg:
   - Jekyll
 cms:
   - No Cms
+date: 2018-02-01T16:37:57Z
+github_branch: master
 ---
 
 Affiliates - Jekyll Blogging Theme for Affiliate Marketers

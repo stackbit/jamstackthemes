@@ -8,4 +8,6 @@ ssg:
   - Gatsby
 cms:
   - No Cms
+date: 2019-05-04T23:51:02Z
+github_branch: gh-pages
 ---

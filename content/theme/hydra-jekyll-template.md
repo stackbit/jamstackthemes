@@ -7,6 +7,8 @@ ssg:
   - Jekyll
 cms:
   - No Cms
+date: 2016-10-14T04:39:07Z
+github_branch: master
 ---
 
 Product marketing template for Jekyll.

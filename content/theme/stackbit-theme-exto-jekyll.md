@@ -12,6 +12,7 @@ cms:
   - Forestry
   - NetlifyCMS
   - Sanity
+date: 2019-05-23T18:26:16Z
 ---
 
 Exto is a portfolio theme with a blog for Stackbit.

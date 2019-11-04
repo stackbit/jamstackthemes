@@ -7,4 +7,6 @@ ssg:
   - Gridsome
 cms:
   - No CMS
+date: 2019-05-23T10:48:45Z
+github_branch: master
 ---

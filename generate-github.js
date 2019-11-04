@@ -7,10 +7,11 @@ const axios = require('axios');
 const allSettled = require('promise.allsettled');
 const rateLimit = require('axios-rate-limit');
 
+const themesDataFile = './data/themes.json'
 const themesFolder = './content/theme';
 const themeFiles = fs.readdirSync(themesFolder);
 
-let githubData = {};
+let githubData = fs.existsSync(themesDataFile) ? JSON.parse(fs.readFileSync(themesDataFile)) : {};
 let githubErrors = {}
 
 const token = process.env.GITHUB_TOKEN;
@@ -70,7 +71,7 @@ const getGithubData = (theme) => {
       },
     }).then((res) => {
       console.log(`${theme.file} => ${res.data.html_url} - ${res.status}`);
-      const defaultBranch = res.data.default_branch
+      const defaultBranch = theme.branch ? theme.branch : res.data.default_branch;
       const themeKey = theme.repoName.replace("/", "-").toLowerCase() + "-" + defaultBranch;
       githubData[themeKey] = {
         theme_key: themeKey,
@@ -83,7 +84,8 @@ const getGithubData = (theme) => {
         stars: res.data.stargazers_count,
         forks: res.data.forks_count,
         open_issues: res.data.open_issues_count,
-        last_commit: res.data.updated_at
+        last_commit: res.data.updated_at,
+        created_at: res.data.created_at
       }
       return githubData[themeKey]
     }).catch(err => {
@@ -142,4 +144,3 @@ getThemes().then(res => {
 }).catch(err => {
   console.log(err);
 })
-

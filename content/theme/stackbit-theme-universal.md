@@ -14,4 +14,6 @@ cms:
   - Forestry
   - NetlifyCMS
   - Sanity
+date: 2019-06-24T23:17:20Z
+github_branch: master
 ---

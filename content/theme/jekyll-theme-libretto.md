@@ -8,4 +8,6 @@ ssg:
   - Jekyll
 cms:
   - No Cms
+date: 2016-09-01T12:53:45Z
+github_branch: gh-pages
 ---

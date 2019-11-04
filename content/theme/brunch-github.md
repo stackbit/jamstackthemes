@@ -7,4 +7,6 @@ ssg:
   - Brunch
 cms:
   - No Cms
+date: 2011-01-27T12:07:06Z
+github_branch: source
 ---

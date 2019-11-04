@@ -7,4 +7,6 @@ ssg:
   - Eleventy
 cms:
   - Ghost
+date: 2019-07-15T11:43:52Z
+github_branch: master
 ---

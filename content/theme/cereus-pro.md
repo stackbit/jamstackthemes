@@ -7,4 +7,6 @@ ssg:
   - Hugo
 cms:
   - NetlifyCMS
+date: 2019-10-28
+github_branch: master
 ---

@@ -8,4 +8,6 @@ ssg:
   - Jekyll
 cms:
   - No Cms
+date: 2017-01-25T22:59:55Z
+github_branch: master
 ---

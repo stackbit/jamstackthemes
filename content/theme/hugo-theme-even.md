@@ -7,4 +7,6 @@ ssg:
   - Hugo
 cms:
   - No Cms
+date: 2017-08-28T09:20:45Z
+github_branch: master
 ---

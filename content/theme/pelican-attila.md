@@ -7,4 +7,6 @@ ssg:
   - Pelican
 cms:
   - No Cms
+date: 2016-09-11T17:32:26Z
+github_branch: master
 ---

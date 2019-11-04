@@ -5,4 +5,6 @@ demo: https://simpol.scottmathson.com/
 author: Scott Mathson
 ssg:
   - Jekyll
+date: 2019-10-29
+github_branch: master
 ---
