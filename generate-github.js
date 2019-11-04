@@ -11,9 +11,10 @@ const themesFolder = './content/theme';
 const themeFiles = fs.readdirSync(themesFolder);
 
 let githubData = {};
-let errorsGithub = {}
+let githubErrors = {}
 
 const token = process.env.GITHUB_TOKEN;
+const axiosLimit = rateLimit(axios.create(), { maxRequests: 2, perMilliseconds: 100 })
 
 console.log("***********************************")
 console.log("fetching Github data for each theme")
@@ -24,22 +25,40 @@ const loadThemeData = file => {
   const frontmatter = yamlFront.loadFront(fileData);
   
   try {
-    let enabled = true
-    if (frontmatter.disabled) {
-      enabled = false;
-    }
+    let draft = frontmatter.draft;
+    let enabled = frontmatter.disabled ? false : true;
     let repoUrl = frontmatter.github
-    let repoName = gh(frontmatter.github).repo;
-    let branch = frontmatter.github_branch ? frontmatter.github_branch : 'master';
-    let themeKey = repoName.replace("/", "-").toLowerCase() + "-" + branch;
-    return { file, themeKey, repoUrl, repoName, branch, enabled }
+    let repoName = gh(frontmatter.github).repo; // stackbithq/stackbit-theme-fresh
+    let branch = frontmatter.github_branch;
+    return { file, repoUrl, repoName, branch, enabled, draft }
   }
   catch {
     throw new Error(`${file} invalid github frontmatter`)
   }
 };
 
-const axiosLimit = rateLimit(axios.create(), { maxRequests: 2, perMilliseconds: 100 })
+const getBranch = (theme) => {
+  return axiosLimit.get(
+    `https://api.github.com/repos/${theme.repo}/branches/${theme.branch}`,
+    {
+      headers: {
+        Authorization: `Token ${token}`,
+      },
+    }).then((res) => {
+      const lastCommit = res.data.commit.commit.author.date
+      console.log(`${theme.file} => last commit ${theme.branch} ${lastCommit}`)
+      githubData[theme.theme_key].last_commit = lastCommit
+      return lastCommit;
+    }).catch((err) => {
+      console.log(theme.file, err.message)
+      githubErrors[theme.repo] = {
+        file: theme.file,
+        repoUrl: theme.repoUrl,
+        error: err.response.data
+      }
+      throw err
+    });
+}
 
 const getGithubData = (theme) => {
   
@@ -51,25 +70,28 @@ const getGithubData = (theme) => {
       },
     }).then((res) => {
       console.log(`${theme.file} => ${res.data.html_url} - ${res.status}`);
-      githubData[theme.themeKey] = {
-        theme_key: theme.themeKey,
+      const defaultBranch = res.data.default_branch
+      const themeKey = theme.repoName.replace("/", "-").toLowerCase() + "-" + defaultBranch;
+      githubData[themeKey] = {
+        theme_key: themeKey,
         file: theme.file,
         name: res.data.name,
+        github_username: res.data.owner.login,
         repo: res.data.full_name,
-        branch: theme.branch,
+        branch: defaultBranch,
         url: res.data.html_url,
         stars: res.data.stargazers_count,
         forks: res.data.forks_count,
         open_issues: res.data.open_issues_count,
-        last_commit: res.data.pushed_at
+        last_commit: res.data.updated_at
       }
-      return githubData[theme.themeKey]
+      return githubData[themeKey]
     }).catch(err => {
       console.log(theme.file, err.message)
-      errorsGithub[theme.repoName] = {
+      githubErrors[theme.repoName] = {
         file: theme.file,
         repoUrl: theme.repoUrl,
-        error: err.response
+        error: err.response.data
       }
       throw err
     });
@@ -79,44 +101,45 @@ const getThemes = async () => {
 
   const themeData = themeFiles.map(file => {
     return loadThemeData(file)
-  }).filter((data => {
-    return data.enabled
-  }))
+  })
+
+  const filteredThemeData = themeData.filter(data => {
+    return !data.draft
+  });
+
+  console.log(`Loading (${filteredThemeData.length}/${themeData.length}) theme files from ${themesFolder}`)
 
   const results = await allSettled(themeData.map(theme => {
     return getGithubData(theme)
-  })).then(res => {
-    return res
-  })
+  }))
 
-  const errors = results.filter(p => p.status === 'rejected');
+  const lastCommits = await allSettled(Object.keys(githubData).map(themeKey => {
+    return getBranch(githubData[themeKey])
+  }))
+
+  // Check if any of the allSettled promises failed.
+  const errors = results.filter(error => error.status === 'rejected');
+
   if (errors.length) {
-    console.log("Error")
-    console.log(errorsGithub);
-    console.log(Object.keys(errorsGithub).length)
-  } else {
-    console.log("Success")
-    console.log("Writing data/themes.json...")
-    const sortedGithubData = {};
-    Object.keys(githubData).sort().forEach(function(key) {
-      sortedGithubData[key] = githubData[key];
-    });
-    fs.writeFileSync('./data/themes.json', JSON.stringify(sortedGithubData, null, 2));
-  }
-    
-  // Get API data 1 at a time
-  // for(const theme of themeData) {
-  //   await getGithubData(theme).then(res => {
-  //     console.log(`Success ${res.file} - ${res.repo}`);
-  //   }).catch(err => {
-  //     console.log("Failure", err.message);
-  //     console.log(errorsGithub)
-  //     throw err
-  //   })
-  // }
+    console.log(`${Object.keys(errors).length} Errors Founds`);
+    console.log(githubErrors);
+    throw new Error("Error fetching github data...");
+  } 
+  
+  // Sort data
+  let sortedGithubData = {}
+  Object.keys(githubData).sort().forEach(key => {
+    sortedGithubData[key] = githubData[key];
+  });
+
+  return sortedGithubData;
 }
 
-getThemes().catch(err => {
+getThemes().then(res => {
+  console.log("Success")
+  console.log("Writing data/themes.json...")
+  fs.writeFileSync('./data/themes.json', JSON.stringify(res, null, 2));
+}).catch(err => {
   console.log(err);
 })
 
