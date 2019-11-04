@@ -27,11 +27,11 @@ const loadThemeData = file => {
   
   try {
     let draft = frontmatter.draft;
-    let enabled = frontmatter.disabled ? false : true;
+    let disabled = frontmatter.disabled;
     let repoUrl = frontmatter.github
     let repoName = gh(frontmatter.github).repo; // stackbithq/stackbit-theme-fresh
     let branch = frontmatter.github_branch;
-    return { file, repoUrl, repoName, branch, enabled, draft }
+    return { file, repoUrl, repoName, branch, disabled, draft }
   }
   catch {
     throw new Error(`${file} invalid github frontmatter`)
@@ -105,12 +105,23 @@ const getThemes = async () => {
     return loadThemeData(file)
   })
 
-  const filteredThemeData = themeData.filter(data => {
-    return !data.draft
+  const filter = {
+    draft: true,
+    disabled: true
+  };
+
+  const filteredThemeData = themeData.filter(theme => {
+    for (let key in filter) {
+      if (theme[key])
+        return false;
+    }
+    return true;
   });
 
   console.log(`Loading (${filteredThemeData.length}/${themeData.length}) theme files from ${themesFolder}`)
-
+  console.log("Disabled ", themeData.filter(theme => theme.disabled).length)
+  console.log("Drafts ", themeData.filter(theme => theme.draft).length)
+  
   const results = await allSettled(themeData.map(theme => {
     return getGithubData(theme)
   }))

@@ -18,7 +18,7 @@ captureWebScreenshot = async theme => {
   const data = fs.readFileSync(path.join(themesFolder, theme));
   const frontmatter = yamlFront.loadFront(data);
   let github = gh(frontmatter.github);
-  let branch = frontmatter.github_branch ? frontmatter.github_branch : 'master';
+  let branch = frontmatter.github_branch;
 
   if (frontmatter.disabled) {
     return false
@@ -43,13 +43,6 @@ captureWebScreenshot = async theme => {
   }
   return false;
 };
-
-// Promise.all(themeFiles.map(theme => {
-//     captureWebScreenshot(theme)
-//   })).then(res => {
-//   }).catch(error => {
-//     console.log(error.message);
-//   });
 
 const captureAll = async ()  => {
   for(const theme of themeFiles) {
