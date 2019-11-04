@@ -2,41 +2,72 @@
 const fs = require('fs');
 const path = require('path');
 const yamlFront = require('yaml-front-matter');
-const gh = require('parse-github-url');
-const isAfter = require('date-fns/isAfter')
-const parseISO = require('date-fns/parseISO')
+const isAfter = require('date-fns/isAfter');
+const parseISO = require('date-fns/parseISO');
+const subYears = require('date-fns/subYears');
+
+// Set this to the date you want to consider themes stale if there have 
+// been no commits since.
+const staleBeforeDate = subYears(new Date(), 1);
 
 const themesFolder = './content/theme';
-const themeFiles = fs.readdirSync(themesFolder);
-const themesData =  JSON.parse(fs.readFileSync('./data/themes.json'));
+const themesData = JSON.parse(fs.readFileSync('./data/themes.json'));
+
+var filesUpdated = 0;
+
+function loadFrontmatter(dir, file) {
+  const fileData = fs.readFileSync(path.join(dir, file));
+  var frontmatter = yamlFront.loadFront(fileData);
+
+  if (frontmatter.stale === undefined) {
+    // Assume not stale if stale status is missing from frontmatter.
+    frontmatter.stale = false;
+  }
+
+  return { fileData, frontmatter };
+}
 
 console.log("***********************************")
 console.log("Scrubbing Themes")
 console.log("***********************************")
 
-const loadThemeData = file => {
-  const fileData = fs.readFileSync(path.join(themesFolder, file));
-  const frontmatter = yamlFront.loadFront(fileData);
-  
-    if (frontmatter.disabled) {
-      return false
+const themeKeys = Object.keys(themesData);
+
+for (const themeKey of themeKeys) {
+  const theme = themesData[themeKey];
+  const { fileData, frontmatter } = loadFrontmatter(themesFolder, theme.file);
+  const newFrontmatterEntries = [];
+
+  const isThemeStale = !isAfter(parseISO(theme.last_commit), staleBeforeDate);
+
+  // If there is a change in the stale state, generate new frontmatter 
+  // entry for stale setting.
+  if (isThemeStale != frontmatter.stale) {
+    newFrontmatterEntries.push('stale: ' + isThemeStale);
+  }
+
+  // If the github branch is missing, generate new frontmatter entry
+  // for github branch setting.
+  if (frontmatter.github_branch === undefined) {
+    newFrontmatterEntries.push('github_branch: ' + theme.branch);
+  }
+
+  // When there are new frontmatter entries re-write the theme markdown file
+  // with those new entries.
+  if (newFrontmatterEntries.length > 0) {
+    var frontmatterLines;
+
+    if (frontmatter.stale != undefined) {
+      frontmatterLines = fileData.toString().split('\n').filter((entry) => !/^\s*stale:/.test(entry));
+    } else {
+      frontmatterLines = fileData.toString().split('\n');
     }
-
-    let repoUrl = frontmatter.github
-    let repoName = gh(frontmatter.github).repo;
-    let branch = frontmatter.github_branch ? frontmatter.github_branch : 'master';
-    let themeKey = repoName.replace("/", "-").toLowerCase() + "-" + branch;
-
-    const lastCommit = themesData[themeKey].last_commit
-    const stale = isAfter(parseISO(lastCommit), new Date(2018, 0, 1));
-    
-
-};
-
-const getThemes = async () => {
-  for(const file of themeFiles) {
-    loadThemeData(file)
+    const idx = frontmatterLines.lastIndexOf('---');
+    frontmatterLines.splice(idx, 0, ...newFrontmatterEntries);
+    console.log('Updating: ' + theme.file);
+    fs.writeFileSync(path.join(themesFolder, theme.file), frontmatterLines.join("\n"));
+    filesUpdated++;
   }
 }
 
-getThemes()
+console.log(filesUpdated + " files updated.");

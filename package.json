@@ -4,7 +4,8 @@
     "build": "node ./generate-github.js && node ./capture-screenshots.js && node ./generate-thumbnails.js && hugo",
     "generate-github": "node ./generate-github.js",
     "capture-screenshots": "node ./capture-screenshots.js",
-    "generate-thumbnails": "node ./generate-thumbnails.js"
+    "generate-thumbnails": "node ./generate-thumbnails.js",
+    "scrub-themes": "node ./scub-themes.js"
   },
   "dependencies": {
     "axios": "^0.19.0",
