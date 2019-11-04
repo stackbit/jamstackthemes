@@ -5,7 +5,7 @@
     "generate-github": "node ./generate-github.js",
     "capture-screenshots": "node ./capture-screenshots.js",
     "generate-thumbnails": "node ./generate-thumbnails.js",
-    "scrub-themes": "node ./scub-themes.js"
+    "scrub-themes": "node ./scrub-themes.js"
   },
   "dependencies": {
     "axios": "^0.19.0",

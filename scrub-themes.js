@@ -10,7 +10,7 @@ const subYears = require('date-fns/subYears');
 // been no commits since.
 const staleBeforeDate = subYears(new Date(), 1);
 
-const themesFolder = './content/theme';
+const themesFolder = './content/test';
 const themesData = JSON.parse(fs.readFileSync('./data/themes.json'));
 
 var filesUpdated = 0;
@@ -50,6 +50,11 @@ for (const themeKey of themeKeys) {
   // for github branch setting.
   if (frontmatter.github_branch === undefined) {
     newFrontmatterEntries.push('github_branch: ' + theme.branch);
+  }
+
+  // disable theme if stale
+  if (isThemeStale) {
+    newFrontmatterEntries.push(`disabled: ${true}`);
   }
 
   // When there are new frontmatter entries re-write the theme markdown file
