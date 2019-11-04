@@ -4,9 +4,10 @@ A list of Themes and Starters for JAMstack Sites. https://jamstackthemes.dev
 
 ## Submit A Theme
 
-Anyone can submit a theme to the gallery. Simply fork this repo and add a new markdown file in `content/theme`, then submit a pull-request with the title "Theme Submission: theme-name`
+Anyone can submit a theme to the gallery. 
 
-The convention is to name the markdown file after your Github repo. For example `github.com/username/my-awesome-theme` would be `content/theme/my-awesome-theme.md`. If the filename is already taken that's ok, just name it something similar.
+- Fork this repo and create a new markdown `.md` file in `content/theme/my-awesome-theme.md`
+- Submit a pull-request with the title **Theme Submission: theme-name**
 
 The markdown file should contain the following front-matter.
 
@@ -16,6 +17,8 @@ title: "My Theme Name"
 github: https://github.com/username/repo
 demo: https://www.demo.com
 author: Unknown Author
+date: 2019-08-20 // This is the submission date
+github_branch: master // This is the repos default branch, it doesnt have to be master
 ssg:
   - Gridsome
 cms:
@@ -30,9 +33,7 @@ Images will be generated automatically based on the `demo` URL.
 
 Any open source themes with a public github repo can be submitted.
 
-If you would like to propose new categories open an issue or make a pull request.
-
-If you are adding a SSG or CMS which doesnt exist already you will need to add it as part of your pull-request. New taxonomy terms can be added by creating a markdown file under `content/ssg/` or `content/cms`. Take a look at the existing terms to see what front-matter is required. You will also need to upload an icon into `static/images/icons`, preferably the icon is in SVG format under 3KB. If it's a PNG please make sure the size is 60x60px and the size is as small as possible (you should be able to keep it under 5KB)
+If you are adding a SSG or CMS which doesnt exist already you will need to add it as part of your pull-request. New taxonomy terms can be added by creating a markdown file under `content/ssg/` or `content/cms`. Take a look at the existing files to see what front-matter is required. You will also need to upload an icon into `static/images/icons`, preferably the icon is in SVG format under 3KB. If it's a PNG please make sure the size is 60x60px and the size is as small as possible (you should be able to keep it under 5KB)
 
 ## Develop Locally
 
