@@ -4,7 +4,7 @@ github: https://github.com/planetoftheweb/seven
 demo: https://7ty.tech/
 author: Ray Villalobos
 ssg:
-  - Now
-cms:
   - Eleventy
+cms:
+  - No CMS
 ---
