@@ -27,7 +27,8 @@ cms:
 ---
 ```
 
-Images will be generated automatically based on the `demo` URL.
+Github stars and last commit date are generated at build time.
+Images will be generated at build time. A screenshort of the `demo` URL will be taken and resized automatically.
 
 
 ## Contribution Guidelines
@@ -52,16 +53,18 @@ Build Site
 hugo
 ```
 
-## Build Github stars and images
+Generate Github stars and other metadata
 
 ```
 npm install
+export GITHUB_TOKEN=XXX
 npm run build
 ```
 
-### Generate Github Stars
+> Generating github data requires a Github Token. You can generate this token in your Github account at settings > developer settings > personal access tokens https://github.com/settings/tokens
 
-Requires a Github Token 
+
+### Generate Github Data
 
 ```
 export GITHUB_TOKEN=XXX
