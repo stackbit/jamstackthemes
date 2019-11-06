@@ -6,7 +6,8 @@ A list of Themes and Starters for JAMstack Sites. https://jamstackthemes.dev
 
 Anyone can submit a theme to the gallery. 
 
-- Fork this repo and create a new markdown `.md` file in `content/theme/my-awesome-theme.md`
+- Fork this repo and create a new markdown `.md` file in `content/theme` folder.
+- The markdown filename is typically named after your theme or repo, for example `hugo-air.md`
 - Submit a pull-request with the title **Theme Submission: theme-name**
 
 The markdown file should contain the following front-matter.
@@ -17,8 +18,8 @@ title: "My Theme Name"
 github: https://github.com/username/repo
 demo: https://www.demo.com
 author: Unknown Author
-date: 2019-08-20 // This is the submission date
-github_branch: master // This is the repos default branch, it doesnt have to be master
+date: 2019-08-20 # This is the date you submitted the theme YYYY-MM-DD
+github_branch: master # This is the repos default branch
 ssg:
   - Gridsome
 cms:
