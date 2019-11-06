@@ -6,6 +6,9 @@ const gh = require('parse-github-url');
 const axios = require('axios');
 const allSettled = require('promise.allsettled');
 const rateLimit = require('axios-rate-limit');
+const isBefore = require('date-fns/isBefore');
+const parseISO = require('date-fns/parseISO');
+const subYears = require('date-fns/subYears');
 
 const themesDataFile = './data/themes.json'
 const themesFolder = './content/theme';
@@ -16,6 +19,10 @@ let githubErrors = {}
 
 const token = process.env.GITHUB_TOKEN;
 const axiosLimit = rateLimit(axios.create(), { maxRequests: 2, perMilliseconds: 100 })
+
+// Set this to the date you want to consider themes stale if there have
+// been no commits since.
+const staleBeforeDate = subYears(new Date(), 1);
 
 console.log("***********************************")
 console.log("fetching Github data for each theme")
@@ -49,6 +56,7 @@ const getBranch = (theme) => {
       const lastCommit = res.data.commit.commit.author.date
       console.log(`${theme.file} => last commit ${theme.branch} ${lastCommit}`)
       githubData[theme.theme_key].last_commit = lastCommit
+      githubData[theme.theme_key].stale = isBefore(parseISO(lastCommit), staleBeforeDate)
       return lastCommit;
     }).catch((err) => {
       console.log(theme.file, err.message)
