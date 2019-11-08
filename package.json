@@ -1,11 +1,10 @@
 {
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ./generate-github.js && node ./capture-screenshots.js && node ./generate-thumbnails.js && hugo",
-    "generate-github": "node ./generate-github.js",
-    "capture-screenshots": "node ./capture-screenshots.js",
-    "generate-thumbnails": "node ./generate-thumbnails.js",
-    "scrub-themes": "node ./scrub-themes.js"
+    "build": "node ./scripts/generate-github.js && node ./scripts/capture-screenshots.js && node ./scripts/generate-thumbnails.js && hugo",
+    "generate-github": "node ./scripts/generate-github.js",
+    "capture-screenshots": "node ./scripts/capture-screenshots.js",
+    "generate-thumbnails": "node ./scripts/generate-thumbnails.js",
+    "scrub-themes": "node ./scripts/scrub-themes.js"
   },
   "dependencies": {
     "axios": "^0.19.0",

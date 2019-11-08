@@ -33,7 +33,9 @@
 {{ if and (eq .Site.Params.banner true) (eq .Site.Params.banner_fixed true) }}{{ $bodyClasses = $bodyClasses | append "body-banner-fixed" }}{{ end }}
 
 <body class='page {{ block "body_classes" . }}{{ end }} {{ delimit $bodyClasses " " }}'>
- 
+  {{ if .Site.Params.banner }}
+  {{ partial "banner.html" . }}
+  {{ end }}
   {{ partial "header.html" . }}
 
   <div class="wrapper">

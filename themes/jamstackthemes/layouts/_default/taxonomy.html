@@ -30,12 +30,3 @@
 </div>
 {{ end }}
 
-{{ define "footer_js" }}
-{{ $filterTaxonomy := resources.Get "js/filter-taxonomy.js" }}
-{{ $bundle := slice $filterTaxonomy | resources.Concat "js/filterTaxonomy.js" }}
-{{ if .Site.IsServer }}
-  <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
-  {{ else }}
-  <script type="text/javascript" src="{{ ($bundle | minify | fingerprint).RelPermalink }}"></script>
-  {{ end }}
-{{ end }}

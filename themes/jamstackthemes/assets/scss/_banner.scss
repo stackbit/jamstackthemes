@@ -1,30 +1,18 @@
 
 .banner {
+  position: fixed;
+  height: 60px;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px 10px 20px;
   background: $primary;
-  padding: 11px 20px 10px 20px;
-  border-radius: 3px;
   color: #ffffff;
-  margin-bottom: 20px;
-  display: inline-block;
   line-height: 1.3;
   @include breakpoint('small') {
-    padding: 0 20px;
     height: 40px;
     line-height: 1.2;
-  }
-  &.banner-fixed {
-    position: fixed;
-    height: 60px;
-    z-index: 100;
-    top: 0;
-    left: 0;
-    width: 100%;
-    border-radius: 0;
-    margin: 0;
-    @include breakpoint('small') {
-      padding: 10px 20px;
-      height: 40px;
-    }
   }
   a {
     color: #41ffb1;

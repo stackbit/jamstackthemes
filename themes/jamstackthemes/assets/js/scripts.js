@@ -19,8 +19,6 @@ document.querySelectorAll(".toggle-icon").forEach((toggleIcon) => {
   })
 })
 
-
-
 document.addEventListener("DOMContentLoaded", function() {
   tippy('.tooltip', {
     boundary: "window",
