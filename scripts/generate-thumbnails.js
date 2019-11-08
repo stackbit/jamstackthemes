@@ -4,9 +4,9 @@ const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp')
 
-const hiresImagesFolder = path.join(__dirname, 'static/capture');
-const outputFolder = path.join(__dirname, 'static/images/theme/thumbnail')
-const outputFolder2x = path.join(__dirname, 'static/images/theme/thumbnail/2x')
+const hiresImagesFolder = path.join(__dirname, '../static/capture');
+const outputFolder = path.join(__dirname, '../static/images/theme/thumbnail')
+const outputFolder2x = path.join(__dirname, '../static/images/theme/thumbnail/2x')
 const imageFiles = fs.readdirSync(hiresImagesFolder);
 
 console.log("******************************************************")

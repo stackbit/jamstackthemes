@@ -1,6 +1,7 @@
 {
   "scripts": {
     "build": "node ./scripts/generate-github.js && node ./scripts/capture-screenshots.js && node ./scripts/generate-thumbnails.js && hugo",
+    "deploy": "node ./scripts/generate-github.js --latest && node ./scripts/capture-screenshots.js && node ./scripts/generate-thumbnails.js && hugo",
     "generate-github": "node ./scripts/generate-github.js",
     "capture-screenshots": "node ./scripts/capture-screenshots.js",
     "generate-thumbnails": "node ./scripts/generate-thumbnails.js",
@@ -17,7 +18,8 @@
     "parse-github-url": "^1.0.2",
     "promise.allsettled": "^1.0.1",
     "sharp": "^0.23.0",
-    "yaml-front-matter": "^4.0.0"
+    "yaml-front-matter": "^4.0.0",
+    "yargs": "^14.2.0"
   },
   "devDependencies": {}
 }

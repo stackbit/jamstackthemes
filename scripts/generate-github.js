@@ -9,12 +9,13 @@ const rateLimit = require('axios-rate-limit');
 const isBefore = require('date-fns/isBefore');
 const parseISO = require('date-fns/parseISO');
 const subYears = require('date-fns/subYears');
+const argv = require('yargs').argv
 
-const themesDataFile = './data/themes.json'
-const themesFolder = './content/theme';
-const themeFiles = fs.readdirSync(themesFolder);
+const themesDataFile = path.join(__dirname, '../data/themes.json');
+const themesContentFolder = path.join(__dirname, '../content/theme');
 
-let githubData = fs.existsSync(themesDataFile) ? JSON.parse(fs.readFileSync(themesDataFile)) : {};
+let themesFiles = fs.readdirSync(themesContentFolder);
+let themesData = fs.existsSync(themesDataFile) ? JSON.parse(fs.readFileSync(themesDataFile)) : {};
 let githubErrors = {}
 
 const token = process.env.GITHUB_TOKEN;
@@ -27,9 +28,11 @@ const staleBeforeDate = subYears(new Date(), 1);
 console.log("***********************************")
 console.log("fetching Github data for each theme")
 console.log("***********************************")
+console.log(`themesDataFile ${themesDataFile}`)
+console.log(`themesContentFolder ${themesContentFolder}\n`)
 
-const loadThemeData = file => {
-  const fileData = fs.readFileSync(path.join(themesFolder, file));
+const loadThemeFrontMatter = file => {
+  const fileData = fs.readFileSync(path.join(themesContentFolder, file));
   const frontmatter = yamlFront.loadFront(fileData);
   
   try {
@@ -38,16 +41,17 @@ const loadThemeData = file => {
     let repoUrl = frontmatter.github
     let repoName = gh(frontmatter.github).repo; // stackbithq/stackbit-theme-fresh
     let branch = frontmatter.github_branch;
-    return { file, repoUrl, repoName, branch, disabled, draft }
+    let themeKey = repoName.replace("/", "-").toLowerCase() + "-" + branch;
+    return { file, repoUrl, repoName, branch, themeKey, disabled, draft }
   }
   catch {
     throw new Error(`${file} invalid github frontmatter`)
   }
 };
 
-const getBranch = (theme) => {
+const getBranchCommit = (theme) => {
   return axiosLimit.get(
-    `https://api.github.com/repos/${theme.repo}/branches/${theme.branch}`,
+    `https://api.github.com/repos/${theme.repoName}/branches/${theme.branch}`,
     {
       headers: {
         Authorization: `Token ${token}`,
@@ -55,8 +59,8 @@ const getBranch = (theme) => {
     }).then((res) => {
       const lastCommit = res.data.commit.commit.author.date
       console.log(`${theme.file} => last commit ${theme.branch} ${lastCommit}`)
-      githubData[theme.theme_key].last_commit = lastCommit
-      githubData[theme.theme_key].stale = isBefore(parseISO(lastCommit), staleBeforeDate)
+      themesData[theme.themeKey].last_commit = lastCommit
+      themesData[theme.themeKey].stale = isBefore(parseISO(lastCommit), staleBeforeDate)
       return lastCommit;
     }).catch((err) => {
       console.log(theme.file, err.message)
@@ -69,8 +73,7 @@ const getBranch = (theme) => {
     });
 }
 
-const getGithubData = (theme) => {
-  
+const getThemeGithubData = (theme) => {
   return axiosLimit.get(
     `https://api.github.com/repos/${theme.repoName}`,
     {
@@ -81,7 +84,7 @@ const getGithubData = (theme) => {
       console.log(`${theme.file} => ${res.data.html_url} - ${res.status}`);
       const defaultBranch = theme.branch ? theme.branch : res.data.default_branch;
       const themeKey = theme.repoName.replace("/", "-").toLowerCase() + "-" + defaultBranch;
-      githubData[themeKey] = {
+      themesData[themeKey] = {
         theme_key: themeKey,
         file: theme.file,
         name: res.data.name,
@@ -95,7 +98,7 @@ const getGithubData = (theme) => {
         last_commit: res.data.updated_at,
         created_at: res.data.created_at
       }
-      return githubData[themeKey]
+      return themesData[themeKey]
     }).catch(err => {
       console.log(theme.file, err.message)
       githubErrors[theme.repoName] = {
@@ -109,8 +112,8 @@ const getGithubData = (theme) => {
 
 const getThemes = async () => {
 
-  const themeData = themeFiles.map(file => {
-    return loadThemeData(file)
+  const themesFrontMatter = themesFiles.map(file => {
+    return loadThemeFrontMatter(file)
   })
 
   const filter = {
@@ -118,25 +121,42 @@ const getThemes = async () => {
     disabled: true
   };
 
-  const filteredThemeData = themeData.filter(theme => {
+  let filterCounts = {
+    draft: 0,
+    disabled: 0,
+    latest: 0
+  }
+
+  let filteredThemesFrontMatter = themesFrontMatter.filter(theme => {
     for (let key in filter) {
-      if (theme[key])
+      if (theme[key]) {
+        filterCounts[key] += 1
         return false;
+      }
+    }
+    if (argv.latest) {
+      if (themesData[theme.themeKey]) {
+        filterCounts.latest += 1
+        return false
+      }
     }
     return true;
   });
 
-  console.log(`Loading (${filteredThemeData.length}/${themeData.length}) theme files from ${themesFolder}`)
-  console.log("Disabled ", themeData.filter(theme => theme.disabled).length)
-  console.log("Drafts ", themeData.filter(theme => theme.draft).length)
+  console.log(`Loading (${filteredThemesFrontMatter.length}/${themesFrontMatter.length}) theme files from ${themesContentFolder}`)
+  console.log("Disabled ", themesFrontMatter.filter(theme => theme.disabled).length)
+  console.log("Drafts ", themesFrontMatter.filter(theme => theme.draft).length)
+  console.log("Latest ", filterCounts.latest)
   
-  const results = await allSettled(themeData.map(theme => {
-    return getGithubData(theme)
+  const results = await allSettled(filteredThemesFrontMatter.map(theme => {
+    return getThemeGithubData(theme)
   }))
 
-  const lastCommits = await allSettled(Object.keys(githubData).map(themeKey => {
-    return getBranch(githubData[themeKey])
-  }))
+  if (!argv.skipBranchCommits) {
+    const lastCommits = await allSettled(filteredThemesFrontMatter.map(theme => {
+      return getBranchCommit(theme)
+    }))
+  }
 
   // Check if any of the allSettled promises failed.
   const errors = results.filter(error => error.status === 'rejected');
@@ -148,18 +168,18 @@ const getThemes = async () => {
   } 
   
   // Sort data
-  let sortedGithubData = {}
-  Object.keys(githubData).sort().forEach(key => {
-    sortedGithubData[key] = githubData[key];
+  let sortedThemesData = {}
+  Object.keys(themesData).sort().forEach(key => {
+    sortedThemesData[key] = themesData[key];
   });
 
-  return sortedGithubData;
+  return sortedThemesData;
 }
 
 getThemes().then(res => {
   console.log("Success")
   console.log("Writing data/themes.json...")
-  fs.writeFileSync('./data/themes.json', JSON.stringify(res, null, 2));
+  fs.writeFileSync(themesDataFile, JSON.stringify(res, null, 2));
 }).catch(err => {
   console.log(err);
 })

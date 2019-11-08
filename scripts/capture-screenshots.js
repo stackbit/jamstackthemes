@@ -5,10 +5,10 @@ const path = require('path');
 const yamlFront = require('yaml-front-matter');
 const gh = require('parse-github-url');
 
-const themesFolder = './content/theme';
-const themeFiles = fs.readdirSync(themesFolder);
-const hiresImagesFolder = './static/capture';
+const themesFolder = path.join(__dirname, '../content/theme');
+const hiresImagesFolder = path.join(__dirname, '../static/capture');
 
+const themeFiles = fs.readdirSync(themesFolder);
 
 console.log("******************")
 console.log("Taking Screenshots")
