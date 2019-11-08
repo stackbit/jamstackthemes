@@ -1,3 +1,12 @@
+body.body-banner-fixed {
+  .header {
+    top: 60px;
+    border-top: 0;
+    @include breakpoint('small') {
+      top: 40px;
+    }
+  }
+}
 .header {
   border-top: 4px solid $primary;
   border-bottom: 1px solid $grey;

@@ -5,14 +5,19 @@ theme = "jamstackthemes"
 # paginate = 30
 # enableGitInfo = true
 
+[params]
+  google_analytics_id = ""
+  description = "A list of Themes and Starters for JAMstack Sites."
+  banner = true
+  banner_fixed = true
+  banner_text = "Announcing the Stackbit Control Center for managing modern websites. 🤙👩🏼‍🎤🔥"
+  banner_link = "https://www.stackbit.com/control-center/"
+  banner_link_text = "Try It Now"
+ 
 [taxonomies]
   ssg = "ssg"
   cms = "cms"
   css = "css"
-
-[params]
-    google_analytics_id = ""
-    description = "A list of Themes and Starters for JAMstack Sites."
 
 [outputs]
   home = ["HTML","RSS","JSON"]

@@ -27,6 +27,9 @@
   {{ partial "stackbit.html" . }}
 </div>
 <div class="main">
+    {{ if .Site.Params.banner }}
+    {{ partial "banner.html" . }}
+    {{ end }}
   <div class="intro">
     <h1>Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
     <div class="blurb blurb-mobile">

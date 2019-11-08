@@ -28,7 +28,12 @@
 
 </head>
 
-<body class='page {{ block "body_classes" . }}{{ end }}'>
+{{ $bodyClasses := slice "" }}
+{{ if eq .Site.Params.banner true }}{{ $bodyClasses = $bodyClasses | append "body-banner" }}{{ end }}
+{{ if and (eq .Site.Params.banner true) (eq .Site.Params.banner_fixed true) }}{{ $bodyClasses = $bodyClasses | append "body-banner-fixed" }}{{ end }}
+
+<body class='page {{ block "body_classes" . }}{{ end }} {{ delimit $bodyClasses " " }}'>
+ 
   {{ partial "header.html" . }}
 
   <div class="wrapper">
