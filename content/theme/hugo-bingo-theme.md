@@ -3,7 +3,6 @@ title: "Bingo"
 github: https://github.com/gundamew/hugo-bingo
 demo: https://themes.gohugo.io/theme/hugo-bingo/
 author: "Bing-Sheng Chen"
-draft: true
 ssg:
   - Hugo
 cms:
