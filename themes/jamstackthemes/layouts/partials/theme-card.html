@@ -7,7 +7,7 @@
   data-submitted="{{ .theme.Lastmod.Format "Jan 2, 2006" }}"
 >
     {{ $githubLink := .theme.Params.github }}
-    {{ if .theme.Params.github_branch }}
+    {{ if ne .theme.Params.github_branch "master" }}
       {{ $githubLink = (printf "%s/%s/%s" $githubLink "tree" .theme.Params.github_branch)}}
     {{ end }}
 

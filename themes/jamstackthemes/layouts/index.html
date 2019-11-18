@@ -39,7 +39,9 @@
     {{ range $themes.ByPublishDate.Reverse }}
     {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
     {{ $repo := index .Site.Data.themes $repoName }}
-    {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
+      {{/*  {{ if eq $repo.stale false }}  */}}
+        {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
+      {{/*  {{ end }}  */}}
     {{ end }}
   </div>
 </div>
