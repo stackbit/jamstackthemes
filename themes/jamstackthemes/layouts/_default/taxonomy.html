@@ -21,12 +21,24 @@
   </div>
   {{ partial "breadcrumbs.html" . }}
   <div id="grids-taxonomy" class="grids">
-    {{ range sort .Pages "Lastmod" "desc" }}
-    {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) (cond (ne .Params.github_branch nil) .Params.github_branch "master") }}
+    {{ range .RegularPages.ByPublishDate.Reverse }}
+    {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
     {{ $repo := index .Site.Data.themes $repoName }}
-    {{ partial "theme-card.html" (dict "theme" . "repo" $repo ) }}
+      {{/*  {{ if eq $repo.stale false }}  */}}
+        {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
+      {{/*  {{ end }}  */}}
     {{ end }}
+
   </div>
 </div>
 {{ end }}
 
+{{ define "footer_js" }}
+{{ $filterHomepage := resources.Get "js/filter-taxonomy.js" }}
+{{ $bundle := slice $filterHomepage | resources.Concat "js/bundleTaxonomy.js" }}
+{{ if .Site.IsServer }}
+  <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
+  {{ else }}
+  <script type="text/javascript" src="{{ ($bundle | minify | fingerprint).RelPermalink }}"></script>
+  {{ end }}
+{{ end }}
