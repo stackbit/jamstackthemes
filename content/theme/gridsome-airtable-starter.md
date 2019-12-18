@@ -1,5 +1,5 @@
 ---
-title: "Airtable Starter"
+title: "Gridsome Airtable Starter"
 github: https://github.com/12vanblart/gridsome-airtable-starter
 demo: https://gridsomeairtable.netlify.com/
 author: Tyler VanBlargan
