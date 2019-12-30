@@ -37,9 +37,3 @@ summaryLength = 10
 	name = "All Themes"
 	url = "/themes/"
     weight = 2
-
-  # Main Menu
-[[menu.main]]
-	name = "Featured Themes"
-	url = "/featured"
-    weight = 3

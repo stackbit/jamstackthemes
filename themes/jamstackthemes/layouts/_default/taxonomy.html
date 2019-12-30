@@ -32,8 +32,10 @@
 {{ end }}
 
 {{ define "footer_js" }}
-{{ $filterHomepage := resources.Get "js/filter-taxonomy.js" }}
-{{ $bundle := slice $filterHomepage | resources.Concat "js/bundleTaxonomy.js" }}
+{{ $mixitup := resources.Get "js/libs/mixitup.js" }}
+{{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
+{{ $filterTaxonomy := resources.Get "js/filter-taxonomy.js" }}
+{{ $bundle := slice $mixitup $mixitupMultiFilter $filterTaxonomy | resources.Concat "js/bundleTaxonomy.js" }}
 {{ if .Site.IsServer }}
   <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
   {{ else }}

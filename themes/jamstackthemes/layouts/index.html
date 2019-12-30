@@ -51,13 +51,3 @@
 
 </div>
 {{ end }}
-
-{{ define "footer_js" }}
-{{ $filterHomepage := resources.Get "js/filter.js" }}
-{{ $bundle := slice $filterHomepage | resources.Concat "js/filterHomepage.js" }}
-{{ if .Site.IsServer }}
-  <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
-  {{ else }}
-  <script type="text/javascript" src="{{ ($bundle | minify | fingerprint).RelPermalink }}"></script>
-  {{ end }}
-{{ end }}
