@@ -34,7 +34,7 @@
 
 <body class='page {{ block "body_classes" . }}{{ end }} {{ delimit $bodyClasses " " }}'>
   {{ if .Site.Params.banner }}
-  {{ partial "banner.html" . }}
+    {{ partial "banner.html" . }}
   {{ end }}
   {{ partial "header.html" . }}
 
@@ -45,16 +45,9 @@
 
   {{ partial "footer.html" . }}
 
-  {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
-  {{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
-  {{ $popper := resources.Get "js/libs/popper.min.js" }}
-  {{ $tooltip := resources.Get "js/libs/tippy.min.js" }}
-  {{ $jquery := resources.Get "js/libs/jquery-3.4.1.min.js" }}
-  {{ $timeago := resources.Get "js/libs/jquery.timeago.js" }}
-  {{ $scripts := resources.Get "js/scripts.js" }}
   {{ $analytics := resources.Get "js/analytics.js" }}
 
-  {{ $js := slice $mixitup $mixitupMultiFilter $popper $tooltip $jquery $timeago $scripts $analytics | resources.Concat "js/bundle.js" }}
+  {{ $js := slice $analytics | resources.Concat "js/bundle.js" }}
   
   {{ if .Site.IsServer }}
   <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>
@@ -65,7 +58,6 @@
   {{ block "footer_js" . }}
   {{ end }}
 
-  {{ partial "google-analytics.html" . }}
   {{ partial "segment.html" . }}
 
 </body>

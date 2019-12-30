@@ -9,6 +9,9 @@
       .filter-list {
         display: none;
       }
+      .filter-title {
+        margin: 0;
+      }
     }
     &:last-of-type {
       border-bottom: none;
@@ -135,7 +138,7 @@
         height: 20px;
         margin-right: 7px;
       }
-      .filter-link {
+      .filter-name {
         display: none;
         a {
           color: black;
@@ -143,6 +146,18 @@
         }
         @include breakpoint('small') {
           display: block;
+        }
+      }
+      .filter-link {
+        display: none;
+        color: $primary;
+        text-decoration: none;
+        padding: 2px 5px;
+        @include breakpoint('small') {
+          display: block;
+        }
+        &:hover {
+          text-decoration: underline;
         }
       }
       .filter-count {

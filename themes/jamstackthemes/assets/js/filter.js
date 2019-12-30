@@ -1,193 +1,187 @@
-let filters = {}
-let initialFilters = {}
+var containerEl = document.querySelector("#grids-homepage");
+var targetSelector = ".grid";
+var activeHash = "";
 
-const mixer = mixitup('#grids-homepage', {
+/**
+ * Deserializes a hash segment (if present) into in an object.
+ *
+ * @return {object|null}
+ */
+
+function deserializeHash() {
+  var hash = window.location.hash.replace(/^#/g, "");
+  var obj = null;
+  var groups = [];
+
+  if (!hash) return obj;
+
+  obj = {};
+  groups = hash.split("&");
+
+  groups.forEach(function(group) {
+    var pair = group.split("=");
+    var groupName = pair[0];
+
+    obj[groupName] = pair[1].split(",");
+  });
+
+  return obj;
+}
+
+/**
+ * Serializes a uiState object into a string.
+ *
+ * @param   {object}    uiState
+ * @return  {string}
+ */
+
+function serializeUiState(uiState) {
+  var output = "";
+
+  for (var key in uiState) {
+    var values = uiState[key];
+
+    if (!values.length) continue;
+
+    output += key + "=";
+    output += values.join(",");
+    output += "&";
+  }
+
+  output = output.replace(/&$/g, "");
+
+  return output;
+}
+
+/**
+ * Constructs a `uiState` object using the
+ * `getFilterGroupSelectors()` API method.
+ *
+ * @return {object}
+ */
+
+function getUiState() {
+  // NB: You will need to rename the object keys to match the names of
+  // your project's filter groups – these should match those defined
+  // in your HTML.
+
+  var uiState = {
+    ssg: mixer.getFilterGroupSelectors("ssg").map(getValueFromSelector),
+    cms: mixer.getFilterGroupSelectors("cms").map(getValueFromSelector),
+  };
+
+  return uiState;
+}
+
+/**
+ * Updates the URL hash whenever the current filter changes.
+ *
+ * @param   {mixitup.State} state
+ * @return  {void}
+ */
+
+function setHash(state) {
+  var selector = state.activeFilter.selector;
+
+  // Construct an object representing the current state of each
+  // filter group
+
+  var uiState = getUiState();
+
+  // Create a URL hash string by serializing the uiState object
+
+  var newHash = "#" + serializeUiState(uiState);
+
+  if (selector === targetSelector && window.location.href.indexOf("#") > -1) {
+    // Equivalent to filter "all", and a hash exists, remove the hash
+
+    activeHash = "";
+
+    history.replaceState(null, document.title, window.location.pathname);
+  } else if (newHash !== window.location.hash && selector !== targetSelector) {
+    // Change the hash
+
+    activeHash = newHash;
+
+    history.replaceState(
+      null,
+      document.title,
+      window.location.pathname + newHash
+    );
+  }
+}
+
+/**
+ * Updates the mixer to a previous UI state.
+ *
+ * @param  {object|null}    uiState
+ * @param  {boolean}        [animate]
+ * @return {Promise}
+ */
+
+function syncMixerWithPreviousUiState(uiState, animate) {
+  var ssg = uiState && uiState.ssg ? uiState.ssg : [];
+  var cms = uiState && uiState.cms ? uiState.cms : [];
+
+  mixer.setFilterGroupSelectors("ssg", ssg.map(getSelectorFromValue));
+  mixer.setFilterGroupSelectors("cms", cms.map(getSelectorFromValue));
+
+  // Parse the filter groups (passing `false` will perform no animation)
+
+  return mixer.parseFilterGroups(animate ? true : false);
+}
+
+/**
+ * Converts a selector (e.g. '.green') into a simple value (e.g. 'green').
+ *
+ * @param   {string} selector
+ * @return  {string}
+ */
+
+function getValueFromSelector(selector) {
+  return selector.replace(/^./, "");
+}
+
+/**
+ * Converts a simple value (e.g. 'green') into a selector (e.g. '.green').
+ *
+ * @param   {string} selector
+ * @return  {string}
+ */
+
+function getSelectorFromValue(value) {
+  return "." + value;
+}
+
+var uiState = deserializeHash();
+
+// Instantiate MixItUp
+
+var mixer = mixitup(containerEl, {
   multifilter: {
     enable: true,
-    logicWithinGroup: 'or',
-    logicBetweenGroups: 'and'
+    logicWithinGroup: "or",
+    logicBetweenGroups: "and"
   },
   animation: {
     enable: false,
   },
   selectors: {
-    target: '.grid'
+    target: ".grid"
   },
   callbacks: {
     onMixStart: function(state, futureState) {
       let total = futureState.totalShow;
-      let count = document.querySelector('.count-number');
-      count.textContent = total
-      updateFilterCounts(state, futureState);
+      let count = document.querySelector(".count-number");
+      count.textContent = total;
+      // updateFilterCounts(state, futureState);
     },
-    onMixClick: function(state, originalEvent) {
-    }
+    onMixEnd: setHash // Call the setHash() method at the end of each operation
   }
 });
 
-function updateFilterCounts(state, futureState) {
-  let emptyGroups = Object.keys(filters).filter((filterGroup) => {
-    return groupEmpty(filterGroup);
-  })
-  let parent = futureState.triggerElement.parentNode.parentNode.parentNode.id.slice(13)
-  // let trigger = futureState.triggerElement.id.slice(14)
+if (uiState) {
+  // If a valid uiState object is present on page load, filter the mixer
 
-  // let selected = Object.keys(filters).filter((filterGroup) => {
-  //   listSelected(filterGroup);
-  // })
-
-  // console.log("emptyGroups", emptyGroups);
-  // console.log("parent", parent);
-  // console.log("trigger", trigger);
-  // console.log("selected");
-
-  if (parent === "ssg") {
-    emptyGroups.forEach((group) => {
-      if (group === "cms") {
-        updateFilterGroup("cms", futureState);
-        resetFilterGroup("ssg");
-      }
-      if (group === "ssg") {
-        updateFilterGroup("ssg", futureState);
-        resetFilterGroup("cms");
-      }
-    })
-    if (!emptyGroups.length) {
-      updateFilterGroup("cms", futureState);
-      updateFilterGroup("ssg", futureState);
-    }
-  }
-  if (parent === "cms") {
-    emptyGroups.forEach((group) => {
-      if (group === "ssg") {
-        updateFilterGroup("ssg", futureState);
-        resetFilterGroup("cms");
-      }
-      if (group === "cms") {
-        updateFilterGroup("cms", futureState);
-        resetFilterGroup("ssg");
-      }
-    })
-    if (!emptyGroups.length) {
-      updateFilterGroup("cms", futureState);
-      updateFilterGroup("ssg", futureState);
-    }
-  }
-
-  if (emptyGroups.length >= 2) {
-    emptyGroups.forEach((group) => {
-      resetFilterGroup(group);
-    })
-  }
+  syncMixerWithPreviousUiState(uiState);
 }
-
-function listSelected(filterGroup) {
-  let selected = []
-  document.querySelectorAll(`#filter-group-${filterGroup} .filter-button`).forEach((filter)=> {
-    let classArray = [...filter.classList];
-    classArray.forEach((item) =>{
-      if (item === 'mixitup-control-active') {
-        selected.push(item)
-      }
-    });
-  });
-  return selected
-}
-
-function groupEmpty(filterGroup) {
-  let empty = []
-  document.querySelectorAll(`#filter-group-${filterGroup} .filter-button`).forEach((filter)=> {
-    let classArray = [...filter.classList];
-    classArray.forEach((item) =>{
-      if (item === 'mixitup-control-active') {
-        empty.push(item)
-      }
-    });
-  });
-  // console.log("groupEmpty", filterGroup, empty)
-  if (empty.length) {
-    return false
-  }
-  return true
-}
-
-function updateFilters(state, futureState) {
-
-  let parent = futureState.triggerElement.parentNode.parentNode.parentNode.id.slice(13)
-  let grid = futureState.matching;
-
-  Object.keys(filters).forEach((filterGroup) => {
-    console.log("updateFilters", filterGroup)
-    Object.keys(filters[filterGroup]).forEach(filter => {
-      filters[filterGroup][filter] = grid.reduce((sum, grid) => {
-        let gridClasses = grid.className.trim().split(' ');
-        let matchedClasses = gridClasses.filter((className) => {
-          return filter == className;
-        });
-        if (matchedClasses.length > 0) {
-          return sum += 1
-        }
-        return sum;
-      }, 0);
-    })
-  })
-
-  console.log("filters", filters);
-
-  Object.keys(filters).forEach((filterGroup) => {
-    Object.keys(filters[filterGroup]).forEach((filter) => {
-      document.querySelector(`#filter-count-${filter}`).innerText = filters[filterGroup][filter]
-    })
-  })
-}
-
-function updateFilterGroup(filterGroup, futureState) {
-
-  let parent = futureState.triggerElement.parentNode.parentNode.parentNode.id.slice(13)
-  let grid = futureState.matching;
-
-  // console.log("update filter group", filterGroup);
-
-  Object.keys(filters[filterGroup]).forEach(filter => {
-    filters[filterGroup][filter] = grid.reduce((sum, grid) => {
-      let gridClasses = grid.className.trim().split(' ');
-      let matchedClasses = gridClasses.filter((className) => {
-        return filter == className;
-      });
-      if (matchedClasses.length > 0) {
-        return sum += 1
-      }
-      return sum;
-    }, 0);
-  })
-
-  Object.keys(filters[filterGroup]).forEach((filter) => {
-    document.querySelector(`#filter-count-${filter}`).innerText = filters[filterGroup][filter]
-  })
-}
-
-function resetFilterGroup(filterGroup) {
-  // console.log("reset", filterGroup)
-  // console.log("reset filters", initialFilters)
-  Object.keys(initialFilters[filterGroup]).forEach((filter) => {
-    document.querySelector(`#filter-count-${filter}`).innerText = initialFilters[filterGroup][filter]
-  })
-  filters[filterGroup] = JSON.parse(JSON.stringify(initialFilters[filterGroup]))
-}
-
-function initFilters() {
-  document.querySelectorAll('.filter').forEach((filterGroup)=> {
-    let filterGroupName = filterGroup.classList[1].slice(13);
-    filters[filterGroupName] = {}
-    let filterCounts = filterGroup.querySelectorAll('.filter-count');
-  
-    filterCounts.forEach((item) => {
-      let name = item.id.slice(13);
-      let count = item.innerHTML;
-      filters[filterGroupName][name] = count
-    });
-    initialFilters = JSON.parse(JSON.stringify(filters))
-  })
-}
-
-initFilters();

@@ -7,7 +7,6 @@
   position: relative;
   @include breakpoint('small') {
     justify-content: flex-start;
-    width: 100%;
   }
   .grid {
     max-width: 282px;

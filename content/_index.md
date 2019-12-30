@@ -1,3 +1,3 @@
 ---
-title: 'All Themes'
+title: 'Home'
 ---

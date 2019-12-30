@@ -1,0 +1,16 @@
+<div class="categories">
+  <ul class="categories-list">
+    {{ range .Site.Taxonomies.ssg }}
+    <li class="category-item">
+      {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink ) }}
+      <a class="category-link" href="{{ .Page.Permalink | relURL }}">{{ .Page.Title }}</a>
+    </li>
+    {{ end }}
+    {{ range .Site.Taxonomies.cms }}
+    <li class="category-item">
+      {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink ) }}
+      <a class="category-link" href="{{ .Page.Permalink | relURL }}">{{ .Page.Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</div>

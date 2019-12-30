@@ -1,0 +1,46 @@
+.categories {
+  background: $grey;
+  padding: 20px 20px 10px 20px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  .categories-list {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+    .category-item {
+      margin: 0;
+      padding: 10px;
+      list-style: none;
+      display: block;
+      align-items: center;
+      margin-bottom: 8px;
+      border-radius: 4px;
+      background-color: white;
+      // box-shadow: 1px 1px 8px 2px adjust-color(black, $alpha: -0.9);
+      // transition: color 0.3s, box-shadow 0.3s, transform 0.3s;
+      margin-right: 5px;
+      margin-left: 5px;
+      margin-bottom: 10px;
+      @include breakpoint('small') {
+        display: flex;
+      }
+      .category-link {
+        display: none;
+        color: $primary;
+        text-decoration: none;
+        margin-left: 5px;
+        @include breakpoint('small') {
+          display: block;
+        }
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

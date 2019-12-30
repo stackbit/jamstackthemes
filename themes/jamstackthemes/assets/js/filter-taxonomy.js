@@ -5,4 +5,8 @@ const mixer = mixitup('#grids-taxonomy', {
   animation: {
     enable: false,
   },
+ 
+  load: {
+    sort: 'stars:desc'
+  }
 });

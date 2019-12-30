@@ -12,7 +12,8 @@
     {{ end }}
 
     <div class="theme-container">
-      <a class="theme-overlay" href="{{ $githubLink }}" title="{{ .theme.Params.title }} Github Repo" target="_blank" rel="noopener"></a>
+      <!-- <a class="theme-overlay" href="{{ $githubLink }}" title="{{ .theme.Params.title }} Github Repo" target="_blank" rel="noopener"></a> -->
+      <a class="theme-overlay" href="{{ .theme.Permalink }}" title="{{ .theme.Params.title }}"></a>
       <div class="theme-header">
           {{ if .theme.Params.thumbnail }}
             <img loading="lazy" src="{{ .theme.Params.thumbnail | relURL }}" alt="{{ .theme.Params.title }} screenshot" />
@@ -35,11 +36,15 @@
           {{ partial "star.html" (dict "stars" .repo.stars)}}
         {{ end }}
         <div class="author">
-          By {{ .theme.Params.author }}
+          <span class="author-label">Author:</span> 
+          <span class="author-name">{{ .theme.Params.author }}</span>
         </div>
         {{ if .repo }}
           {{ partial "last-commit.html" (dict "last_commit" .repo.last_commit)}} 
         {{ end }}
+        <div class="theme-summary">
+          <p>{{ .theme.Summary }}</p>
+        </div>
       </div>
     </div>
     

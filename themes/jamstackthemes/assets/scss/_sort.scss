@@ -1,32 +1,40 @@
 .sort-buttons {
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
   @include breakpoint('small') {
-    margin-bottom: 0;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .sort-by {
+    margin-right: 5px;
+    color: #666;
   }
   button {
     padding: 5px;
     background: none;
-    border: 2px solid $grey;
+    border: 2px solid $primary;
     border-radius: 3px;
-    color: #000;
+    color: $primary;
     font-size: 12px;
     outline: none;
     margin-bottom: 5px;
+    margin-right: 5px;
     cursor: pointer;
     @include breakpoint('small') {
       margin-bottom: 0;
     }
     &:hover {
       border-color: $primary;
+      opacity: 0.8;
     }
     &:focus {
       outline: none;
     }
     &.selected,
     &.mixitup-control-active {
-      border-color: $grey;
-      background: $grey;
-      color: black;
+      background: $primary;
+      color: white;
     }
   }
   

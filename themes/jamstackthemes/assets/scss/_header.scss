@@ -10,7 +10,7 @@
 .header {
   border-top: 4px solid $primary;
   border-bottom: 1px solid $grey;
-  padding: 0 10px;
+  padding: 0 15px;
   background-color: white;
   height: 50px;
   display: flex;
@@ -19,9 +19,9 @@
   position: fixed;
   width: 100%;
   z-index: 10;
-  opacity: 0.8;
+  // opacity: 0.8;
   @include breakpoint('small') {
-    padding: 0 20px;
+    padding: 0 30px;
     height: 60px;
   }
   .header-left {

@@ -65,6 +65,12 @@
       line-height: 18px;
       color: $steel;
     }
+    .theme-summary {
+      font-size: 13px;
+      line-height: 18px;
+      color: $steel;
+      margin: 0;
+    }
   }
   .theme-footer {
     border-top: 1px solid $grey;
@@ -85,29 +91,31 @@
 
 
 .last-commit {
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 13px;
+  line-height: 17px;
   color: $steel;
   margin-bottom: 4px;
   .last-commit-label {
     display: inline-block;
-    margin-right: 4px;
   }
   .last-commit-date {
     display: inline-block;
+    color: black;
   }
 }
 
 .author {
-  font-size: 14px;
+  font-size: 13px;
+  line-height: 17px;
   color: $steel;
   margin-bottom: 4px;
   .author-label {
     display: inline-block;
-    margin-right: 4px;
   }
   .author-name {
     display: inline-block;
+    color: black;
   }
 }
+
 

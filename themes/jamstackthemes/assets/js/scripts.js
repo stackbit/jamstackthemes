@@ -19,13 +19,13 @@ document.querySelectorAll(".toggle-icon").forEach((toggleIcon) => {
   })
 })
 
-document.addEventListener("DOMContentLoaded", function() {
-  tippy('.tooltip', {
-    boundary: "window",
-    placement: "top-end"
-  });
-});
+// document.addEventListener("DOMContentLoaded", function() {
+//   tippy('.tooltip', {
+//     boundary: "window",
+//     placement: "top-end"
+//   });
+// });
 
-jQuery(document).ready(function() {
-  jQuery("time.timeago").timeago();
-});
+// jQuery(document).ready(function() {
+//   jQuery("time.timeago").timeago();
+// });

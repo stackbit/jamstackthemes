@@ -15,20 +15,18 @@
       <div class="heading-icon"><img src="{{ .Params.icon | relURL }}" alt="{{.Title}} Logo" /></div>
       <h1 class="heading-title">{{.Title}} Themes <span class="count">({{ $themeCount }})</span></h1>
     </div>
-    {{ partial "sort-buttons.html" . }}
+
     {{ $url := urls.Parse .Params.official_url }}		
     <div class="official-website"><strong>Official Website:</strong> <a href="{{ .Params.official_url }}">{{ $url.Host }}</a></div>
   </div>
   {{ partial "breadcrumbs.html" . }}
+  {{ partial "sort-buttons.html" . }}
   <div id="grids-taxonomy" class="grids">
     {{ range .RegularPages.ByPublishDate.Reverse }}
     {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
     {{ $repo := index .Site.Data.themes $repoName }}
-      {{/*  {{ if eq $repo.stale false }}  */}}
-        {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
-      {{/*  {{ end }}  */}}
+      {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
     {{ end }}
-
   </div>
 </div>
 {{ end }}
