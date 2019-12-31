@@ -1,17 +1,13 @@
-{{ define "title" }}JAMstack Themes{{ end}}
+{{ define "title" }}JAMstack Themes{{ end }}
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-home{{ end }}
 
 {{ define "meta_tags" }}
-<meta name="description" content="{{ .Site.Params.description }}" />
-<meta property="og:title" content="JAMstack Themes" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.jamstackthemes.dev" />
-<meta property="og:description" content="{{ .Site.Params.description }}" />
-<meta property="og:image" content="https://jamstackthemes.dev/images/jamstackthemes-screenshot.png">
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@stackbithq" />
-<meta name="twitter:creator" content="@stackbithq" />
+{{ $themes := (where .Site.RegularPages "Type" "theme") }}
+{{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themeCount := len $themes}}
+<meta name="description" content="The most popular list of themes and starters for JAMstack sites. Over {{ $themeCount }} free static site generator themes for Hugo, Gatsby, Jekyll, Gridsome & more." />
+<link rel="canonical" href="https://jamstackthemes.dev" />
 {{ end }}
 
 {{ define "main" }}
@@ -23,12 +19,11 @@
  
   <div class="intro">
     <h1>New Themes</h1>
-    <!-- <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span> -->
   </div>
 
   <div>
-    <div class="blurb blurb-desktop"><p>A list of Themes and Starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites. The largest gallery of up-to-date themes for static site generators.</p></div>
-    <div class="blurb blurb-mobile"><p>A list of Themes and Starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites.</p></div>
+    <div class="blurb blurb-desktop"><p>A list of themes and starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites. We're the largest gallery of user submitted, open source themes for static site generators 🦖. This site is maintained with <a href="https://github.com/stackbithq/jamstackthemes#contribution-guidelines">community contributions</a> and with the kind support of <a href="https://www.stackbit.com">stackbit.com.</a></p></div>
+    <div class="blurb blurb-mobile"><p>A list of themes and starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites.</p></div>
   </div>
 
   <div id="grids-homepage" class="grids">

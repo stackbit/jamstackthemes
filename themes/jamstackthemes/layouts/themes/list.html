@@ -1,17 +1,14 @@
-{{ define "title" }}JAMstack Themes{{ end}}
+{{ define "title" }}
+  {{ $themes := (where .Site.RegularPages "Type" "theme") }}
+  {{ $themes := (where $themes ".Params.draft" "!=" true) }}
+  {{ $themeCount := len $themes}}
+All Themes ({{ $themeCount }})
+{{ end }}
+
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-home{{ end }}
 
 {{ define "meta_tags" }}
-<meta name="description" content="{{ .Site.Params.description }}" />
-<meta property="og:title" content="JAMstack Themes" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.jamstackthemes.dev" />
-<meta property="og:description" content="{{ .Site.Params.description }}" />
-<meta property="og:image" content="https://jamstackthemes.dev/images/jamstackthemes-screenshot.png">
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@stackbithq" />
-<meta name="twitter:creator" content="@stackbithq" />
 {{ end }}
 
 {{ define "main" }}
@@ -20,9 +17,6 @@
 {{ $themeCount := len $themes}}
 
 <div class="sidebar">
-  <!-- <div class="blurb blurb-desktop">
-    <p>A list of Themes and Starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites.</p>
-  </div> -->
   {{ partial "filters.html" . }}
   {{ partial "stackbit.html" . }}
 </div>
@@ -35,9 +29,12 @@
 
   <div>
     <div class="blurb blurb-desktop">
-      <p>Search hundreds of open-source themes. Filter themes by static site generator, content management system, and more. Sort themes by stars, last commit date or submission date.</p>
+      <p>Search hundreds of open-source JAMstack themes and find the perfect starter theme or boilerplate for your next project. Filter themes by static site generator, headless CMS and more. Sort themes by stars, last commit date or submission date.</p>
     </div>
-    <div class="blurb blurb-mobile"><p>A list of Themes and Starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites.</p></div>
+    <div class="blurb blurb-mobile">
+      <p>Search hundreds of open-source JAMstack themes!</p>
+    </div>  
+      
   </div>
 
   {{ partial "sort-buttons.html" . }}
