@@ -27,7 +27,7 @@ const mixer = mixitup('#grids-homepage', {
 const ssgGroup = ["brunch", "eleventy", "gatsby", "gridsome", "hexo", "hugo", "jekyll", "middleman", "mkdocs", "nuxt", "pelican", "vuepress"]
 const cmsGroup = ["airtable", "contentful", "datocms", "firebase", "forestry", "ghost", "netlifycms", "no-cms", "sanity", "wordpress"]
 const cssGroup = ["bootstrap"]
-const archetypeGroup = ["business", "multipurpose","blog", "single-page", "ecommerce"]
+const archetypeGroup = ["business", "multi-purpose","blog", "single-page", "ecommerce"]
 const servicesGroup = ["snipcart"]
 
 const groups = {
@@ -61,8 +61,8 @@ function updateFilterCounts(state, futureState) {
       resetCount(groups[group], totalMatching);
       updateCount(groups[group], matching);
     } else {
-      console.log(group);
-      console.log(triggerGroup)
+      console.log("group", group);
+      console.log("triggerGroup", triggerGroup)
       if (group === triggerGroup) {
         resetCount(groups[group], totalMatching);
       } else {
@@ -87,7 +87,9 @@ function checkActiveGroups() {
 }
 
 function updateCount(group, matches) {
+  
   group.forEach(term => {
+    console.log("term", term)
     let count = matches.filter(match => {
       return match.includes(term);
     })
@@ -110,4 +112,3 @@ if (uiState) {
   // If a valid uiState object is present on page load, filter the mixer
   syncMixerWithPreviousUiState(uiState);
 }
-console.log("klsada")
