@@ -18,6 +18,7 @@ summaryLength = 10
   ssg = "ssg"
   cms = "cms"
   css = "css"
+  archetype = "archetype"
 
 [outputs]
   home = ["HTML","RSS","JSON"]

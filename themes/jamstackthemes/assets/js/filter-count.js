@@ -26,10 +26,15 @@ const mixer = mixitup('#grids-homepage', {
 });
 
 function updateFilterCounts(state, futureState) {
+  
   let emptyGroups = Object.keys(filters).filter((filterGroup) => {
     return groupEmpty(filterGroup);
   })
+
+  console.log("emptyGroups", emptyGroups)
   let parent = futureState.triggerElement.parentNode.parentNode.parentNode.id.slice(13)
+  console.log("parent", parent)
+
   if (parent === "ssg") {
     emptyGroups.forEach((group) => {
       if (group === "cms") {
@@ -46,6 +51,7 @@ function updateFilterCounts(state, futureState) {
       updateFilterGroup("ssg", futureState);
     }
   }
+
   if (parent === "cms") {
     emptyGroups.forEach((group) => {
       if (group === "ssg") {
@@ -63,11 +69,43 @@ function updateFilterCounts(state, futureState) {
     }
   }
 
-  if (emptyGroups.length >= 2) {
+  if (parent === "css") {
+    emptyGroups.forEach((group) => {
+      console.log("filters", filters);
+      if (group === "css") {
+        updateFilterGroup("css", futureState);
+        resetFilterGroup("cms");
+        resetFilterGroup("ssg");
+        resetFilterGroup("archetype");
+      }
+      if (group === "ssg") {
+        updateFilterGroup("ssg", futureState);
+        resetFilterGroup("css");
+        resetFilterGroup("cms");
+        resetFilterGroup("archetype");
+      }
+      if (group === "cms") {
+        updateFilterGroup("cms", futureState);
+        resetFilterGroup("ssg");
+        resetFilterGroup("css");
+        resetFilterGroup("archetype");
+      }
+    })
+
+    if (!emptyGroups.length) {
+      updateFilterGroup("cms", futureState);
+      updateFilterGroup("ssg", futureState);
+      updateFilterGroup("css", futureState);
+      updateFilterGroup("archetype", futureState);
+    }
+  }
+
+  if (emptyGroups.length >= 4) {
     emptyGroups.forEach((group) => {
       resetFilterGroup(group);
     })
   }
+ 
 }
 
 function listSelected(filterGroup) {
@@ -93,7 +131,6 @@ function groupEmpty(filterGroup) {
       }
     });
   });
-  // console.log("groupEmpty", filterGroup, empty)
   if (empty.length) {
     return false
   }
@@ -135,8 +172,6 @@ function updateFilterGroup(filterGroup, futureState) {
   let parent = futureState.triggerElement.parentNode.parentNode.parentNode.id.slice(13)
   let grid = futureState.matching;
 
-  // console.log("update filter group", filterGroup);
-
   Object.keys(filters[filterGroup]).forEach(filter => {
     filters[filterGroup][filter] = grid.reduce((sum, grid) => {
       let gridClasses = grid.className.trim().split(' ');
@@ -156,8 +191,6 @@ function updateFilterGroup(filterGroup, futureState) {
 }
 
 function resetFilterGroup(filterGroup) {
-  // console.log("reset", filterGroup)
-  // console.log("reset filters", initialFilters)
   Object.keys(initialFilters[filterGroup]).forEach((filter) => {
     document.querySelector(`#filter-count-${filter}`).innerText = initialFilters[filterGroup][filter]
   })
@@ -165,6 +198,7 @@ function resetFilterGroup(filterGroup) {
 }
 
 function initFilters() {
+  console.log("initFilters")
   document.querySelectorAll('.filter').forEach((filterGroup)=> {
     let filterGroupName = filterGroup.classList[1].slice(13);
     filters[filterGroupName] = {}

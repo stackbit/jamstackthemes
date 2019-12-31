@@ -7,6 +7,11 @@ ssg:
   - Jekyll
 cms:
   - No Cms
+archetype:
+  - Business
+  - Multipurpose
+css:
+  - Bootstrap
 date: 2019-11-08
 github_branch: master
 ---

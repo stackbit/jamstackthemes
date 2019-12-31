@@ -1,5 +1,6 @@
 
 <div
+  id="{{ .theme.Params.Title | urlize }}"
   class="grid theme {{ range .theme.Params.ssg }}{{ . | urlize }} {{ end }}{{ range .theme.Params.cms }}{{ . | urlize }} {{end}}{{ range .theme.Params.css }}{{ . | urlize }} {{end}}"
   data-stars="{{ if .repo }}{{ .repo.stars }}{{ else }}0{{ end }}"
   data-last-commit="{{ if .repo }}{{ .repo.last_commit }}{{ end }}"
