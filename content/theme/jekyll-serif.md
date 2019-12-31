@@ -9,7 +9,7 @@ cms:
   - No Cms
 archetype:
   - Business
-  - Multipurpose
+  - Multi Purpose
 css:
   - Bootstrap
 date: 2019-11-08
