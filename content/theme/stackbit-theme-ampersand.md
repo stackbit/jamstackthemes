@@ -1,6 +1,6 @@
 ---
 title: "Ampersand"
-draft: true
+
 github: https://github.com/stackbithq/stackbit-theme-ampersand
 demo: https://themes.stackbit.com/demos/ampersand
 author: Stackbit

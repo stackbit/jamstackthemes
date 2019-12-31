@@ -1,6 +1,6 @@
 ---
 title: "Phantom"
-draft: true
+
 github: https://github.com/stackbithq/stackbit-theme-phantom
 demo: https://themes.stackbit.com/demos/phantom
 author: Stackbit
