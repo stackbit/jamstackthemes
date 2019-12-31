@@ -1,5 +1,4 @@
 ---
 title: "Blog"
-icon: images/icons/noun_shape_327725.svg
-taxonomy: category
+icon: images/icons/noun_creating_327731.svg
 ---

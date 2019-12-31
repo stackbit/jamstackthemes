@@ -67,6 +67,9 @@ function getUiState() {
   var uiState = {
     ssg: mixer.getFilterGroupSelectors("ssg").map(getValueFromSelector),
     cms: mixer.getFilterGroupSelectors("cms").map(getValueFromSelector),
+    css: mixer.getFilterGroupSelectors("css").map(getValueFromSelector),
+    archetype: mixer.getFilterGroupSelectors("archetype").map(getValueFromSelector),
+    services: mixer.getFilterGroupSelectors("services").map(getValueFromSelector),
   };
 
   return uiState;
@@ -121,9 +124,15 @@ function setHash(state) {
 function syncMixerWithPreviousUiState(uiState, animate) {
   var ssg = uiState && uiState.ssg ? uiState.ssg : [];
   var cms = uiState && uiState.cms ? uiState.cms : [];
+  var css = uiState && uiState.css ? uiState.css : [];
+  var archetype = uiState && uiState.archetype ? uiState.archetype : [];
+  var services = uiState && uiState.services ? uiState.services : [];
 
   mixer.setFilterGroupSelectors("ssg", ssg.map(getSelectorFromValue));
   mixer.setFilterGroupSelectors("cms", cms.map(getSelectorFromValue));
+  mixer.setFilterGroupSelectors("css", css.map(getSelectorFromValue));
+  mixer.setFilterGroupSelectors("archetype", archetype.map(getSelectorFromValue));
+  mixer.setFilterGroupSelectors("services", services.map(getSelectorFromValue));
 
   // Parse the filter groups (passing `false` will perform no animation)
 

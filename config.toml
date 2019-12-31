@@ -19,6 +19,7 @@ summaryLength = 10
   cms = "cms"
   css = "css"
   archetype = "archetype"
+  services = "services"
 
 [outputs]
   home = ["HTML","RSS","JSON"]

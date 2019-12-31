@@ -8,6 +8,11 @@ ssg:
   - Gatsby
 cms:
   - No Cms
+archetype:
+  - Agency
+  - Portfolio
+  - Business
+  - Multi Purpose
 date: 2019-05-13T17:02:32Z
 github_branch: master
 ---

@@ -88,4 +88,24 @@
     </ul>
   </div>
 
+  <div id="filter-group-services" class="filter filter-group-services" data-filter-group="services">
+    <div class="filter-title">
+      <h3>Services</h3>
+      <span class="toggle-icon" role="button" aria-expanded="true" tabindex="0">
+        <img src="{{ "images/ui/chevron-down-solid.svg" | relURL }}" alt="Toggle services list button" />
+      </span>
+    </div>
+    <ul class="filter-list">
+      {{ range .Site.Taxonomies.services }}
+      <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
+        {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
+        <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
+        <!-- <a class="filter-link" href="{{ .Page.Permalink | relURL }}">{{ .Page.Title }}</a> -->
+        <span class="filter-name">{{ .Page.Title }}</span>
+        <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ .Count }}</span>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+
 </div>

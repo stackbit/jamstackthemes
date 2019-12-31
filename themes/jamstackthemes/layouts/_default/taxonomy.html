@@ -21,13 +21,18 @@
   </div>
   {{ partial "breadcrumbs.html" . }}
   {{ partial "sort-buttons.html" . }}
+
   <div id="grids-taxonomy" class="grids">
-    {{ range .RegularPages.ByPublishDate.Reverse }}
+    {{ $paginator := .Paginate .RegularPages.ByPublishDate.Reverse }}
+    {{ range $paginator.Pages }}
     {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
     {{ $repo := index .Site.Data.themes $repoName }}
       {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
     {{ end }}
   </div>
+  {{ $paginator := .Paginator }}
+  {{ partial "pagination.html" . }}
+
 </div>
 {{ end }}
 

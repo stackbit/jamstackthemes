@@ -27,7 +27,8 @@ const mixer = mixitup('#grids-homepage', {
 const ssgGroup = ["brunch", "eleventy", "gatsby", "gridsome", "hexo", "hugo", "jekyll", "middleman", "mkdocs", "nuxt", "pelican", "vuepress"]
 const cmsGroup = ["airtable", "contentful", "datocms", "firebase", "forestry", "ghost", "netlifycms", "no-cms", "sanity", "wordpress"]
 const cssGroup = ["bootstrap"]
-const archetypeGroup = ["business", "multipurpose"]
+const archetypeGroup = ["business", "multipurpose","blog", "single-page", "ecommerce"]
+const servicesGroup = ["snipcart"]
 
 const groups = {
   ssg: ssgGroup,
