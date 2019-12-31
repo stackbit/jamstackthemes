@@ -64,8 +64,6 @@ function updateFilterCounts(state, futureState) {
       resetCount(groups[group], totalMatching);
       updateCount(groups[group], matching);
     } else {
-      console.log("group", group);
-      console.log("triggerGroup", triggerGroup)
       if (group === triggerGroup) {
         resetCount(groups[group], totalMatching);
       } else {
@@ -92,7 +90,6 @@ function checkActiveGroups() {
 function updateCount(group, matches) {
   
   group.forEach(term => {
-    console.log("term", term)
     let count = matches.filter(match => {
       return match.includes(term);
     })
