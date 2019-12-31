@@ -7,26 +7,93 @@
 {{ $repo := index .Site.Data.themes $repoName }}
 
 <div class="main">
+  <div class="theme-detail">
+    <div class="theme-detail-top">
+      <div class="theme-info">
+          {{ if $repo }}
+              {{ partial "star-large.html" (dict "stars" $repo.stars)}}
+          {{ end }}
+          <h1 class="theme-detail-heading">{{.Title}}</h1>
+          <p class="theme-detail-summary">{{ .Summary }}</p>
 
-  <div class="intro">
-    <h1>{{.Title}}</h1>
+          <div class="author">
+            <span class="author-label">Author:</span> 
+            <span class="author-name">{{ .Params.author }}</span>
+          </div>
+
+          {{ if $repo }}
+            {{ partial "last-commit.html" (dict "last_commit" $repo.last_commit)}} 
+          {{ end }}
+
+          <div class="theme-detail-buttons">
+            <a class="button" href="{{ .Params.github }}" target="_blank" rel="noopener">Github</a>
+            <a class="button" href="{{ .Params.demo }}" target="_blank" rel="noopener">Demo</a>
+          </div>
+
+          {{ if .Params.ssg }}
+            {{- range .Params.ssg }}
+              {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
+                {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+
+          {{ if .Params.cms }}
+            {{- range .Params.cms }}
+              {{- with $.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
+                {{ if eq .Page.Title "No CMS" }}
+                {{ else }}
+                {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+
+          {{ if .Params.css }}
+            {{- range .Params.css }}
+              {{- with $.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
+                {{ if eq .Page.Title "No css" }}
+                {{ else }}
+                {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+
+          {{ if .Params.archetype }}
+            {{- range .Params.archetype }}
+              {{- with $.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
+                {{ if eq .Page.Title "No archetype" }}
+                {{ else }}
+                {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+      </div>
+      <div class="theme-image">
+        {{ if .Params.thumbnail }}
+          <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }} screenshot" />
+        {{ else if $repo }}
+          {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
+          {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
+          {{ $filePathHiRes := (printf "%s/%s%s" "capture" $repo.theme_key "-2x.png") }}
+          {{ if (fileExists $staticPath) }}
+            <img src="{{ $filePath | relURL }}" alt="{{ .Title }} screenshot" srcset="{{ $filePathHiRes | relURL }} 2x" />
+          {{ else }}
+            <img src="{{ "images/default.png" | relURL }}" alt="{{ .Title }} screenshot" />
+          {{ end }}
+        {{ else }}
+          <img src="{{ "images/default.png" | relURL }}" alt="{{ .Title }} screenshot" />
+        {{ end }}
+      </div>
+    </div>
+    <div class="theme-detail-bottom">
+      {{ .Content }}
+    </div>
   </div>
-  {{ if .Params.thumbnail }}
-    <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }} screenshot" />
-  {{ else if $repo }}
-    {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
-    {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
-    {{ $filePathHiRes := (printf "%s/%s%s" "capture" $repo.theme_key "-2x.png") }}
-    {{ if (fileExists $staticPath) }}
-      <img src="{{ $filePath | relURL }}" alt="{{ .Title }} screenshot" srcset="{{ $filePathHiRes | relURL }} 2x" />
-    {{ else }}
-      <img src="{{ "images/default.png" | relURL }}" alt="{{ .Title }} screenshot" />
-    {{ end }}
-  {{ else }}
-    <img src="{{ "images/default.png" | relURL }}" alt="{{ .Title }} screenshot" />
-  {{ end }}
 
-  {{ .Content }}
+  
 
 </div>
 

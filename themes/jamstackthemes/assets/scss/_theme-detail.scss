@@ -1,0 +1,39 @@
+
+.theme-detail {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+
+  .theme-detail-top {
+    display: flex;
+    flex-direction: row;
+  }
+  .theme-detail-bottom {
+    padding-top: 60px;
+  }
+  .theme-image {
+    border: 1px solid $grey;
+    width: 800px;
+    img {
+      width: 100%;
+      height: auto;
+      vertical-align: bottom;
+    }
+  }
+  .theme-info {
+    flex: 1;
+  }
+  .theme-detail-buttons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .theme-detail-heading {
+    font-size: 46px;
+    font-weight: normal;
+  }
+  .theme-detail-summary {
+    font-size: 20px;
+    color: $steel;
+  }
+}
