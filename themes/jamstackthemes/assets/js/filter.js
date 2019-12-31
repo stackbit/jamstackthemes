@@ -10,9 +10,6 @@ const mixer = mixitup('#grids-homepage', {
   selectors: {
     target: '.grid'
   },
-  load: {
-    sort: 'last-commit:desc'
-  },
   callbacks: {
     onMixStart: function(state, futureState) {
       let total = futureState.totalShow;
@@ -37,12 +34,13 @@ const groups = {
   ssg: ssgGroup,
   cms: cmsGroup,
   css: cssGroup,
-  archetype: archetypeGroup
+  archetype: archetypeGroup,
+  services: servicesGroup
 }
 
 function updateFilterCounts(state, futureState) {
   
-  // console.log("state", state)
+  // console.log("state", state);
   // console.log("futureState", futureState)
 
   let triggerGroup = futureState.triggerElement ? futureState.triggerElement.parentNode.parentNode.parentNode.id.slice(13) : null
@@ -51,51 +49,58 @@ function updateFilterCounts(state, futureState) {
 
   // console.log("triggerGroup", triggerGroup);
 
-  let activeGroupsLength = Object.keys(groups).map(group => {
-    return mixer.getFilterGroupSelectors(group).length;
-  }).reduce((a, b) => a + b, 0) 
-
-  let hasMultipleActiveGroups = activeGroupsLength >= 2;
+  let hasMultipleActiveGroups = checkActiveGroups();
 
   // console.log("hasMultipleActiveGroups", hasMultipleActiveGroups);
   // console.log("matching", matching)
   // console.log("groups", groups)
-  // console.log("activeGroups", activeGroups);
 
   // Update Filter Counts 
   Object.keys(groups).forEach((group) => {
     if (hasMultipleActiveGroups) {
-      resetCount(totalMatching);
-      updateCount(matching);
+      resetCount(groups[group], totalMatching);
+      updateCount(groups[group], matching);
     } else {
+      console.log(group);
+      console.log(triggerGroup)
       if (group === triggerGroup) {
-        resetCount(totalMatching);
+        resetCount(groups[group], totalMatching);
       } else {
-        updateCount(matching);
+        updateCount(groups[group], matching);
       } 
     }
   })
 }
 
-function updateCount(matches) {
-  Object.keys(groups).forEach((group) => {
-    groups[group].forEach(term => {
-      let count = matches.filter(match => {
-        return match.includes(term);
-      })
-      document.querySelector(`#filter-count-${term}`).innerText = count.length
+function checkActiveGroups() {
+  let activeGroups = Object.keys(groups).map(group => {
+    return mixer.getFilterGroupSelectors(group)
+  })
+
+  let activeGroupsLength = 0
+  activeGroups.forEach(group => {
+    if (group.length) {
+      activeGroupsLength += 1
+    }
+  })
+  return activeGroupsLength >= 2;
+}
+
+function updateCount(group, matches) {
+  group.forEach(term => {
+    let count = matches.filter(match => {
+      return match.includes(term);
     })
+    document.querySelector(`#filter-count-${term}`).innerText = count.length
   })
 }
 
-function resetCount(matches) {
-  Object.keys(groups).forEach((group) => {
-    groups[group].forEach(term => {
-      let count = matches.filter(match => {
-        return match.includes(term);
-      })
-      document.querySelector(`#filter-count-${term}`).innerText = count.length
+function resetCount(group, matches) {
+  group.forEach(term => {
+    let count = matches.filter(match => {
+      return match.includes(term);
     })
+    document.querySelector(`#filter-count-${term}`).innerText = count.length
   })
 }
 
@@ -105,3 +110,4 @@ if (uiState) {
   // If a valid uiState object is present on page load, filter the mixer
   syncMixerWithPreviousUiState(uiState);
 }
+console.log("klsada")
