@@ -7,7 +7,7 @@ author: Kendall Strautman
 ssg:
   - Gatsby
 cms:
-  - Foresty
+  - Forestry
 date: 2019-07-08T20:57:37Z
 github_branch: master
 ---

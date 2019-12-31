@@ -10,6 +10,9 @@ const mixer = mixitup('#grids-homepage', {
   selectors: {
     target: '.grid'
   },
+  load: {
+    sort: 'last-commit:desc'
+  },
   callbacks: {
     onMixStart: function(state, futureState) {
       let total = futureState.totalShow;
