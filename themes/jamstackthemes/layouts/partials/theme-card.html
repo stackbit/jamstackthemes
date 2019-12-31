@@ -1,7 +1,7 @@
 
 <div
   id="{{ .theme.Params.Title | urlize }}"
-  class="grid theme {{ range .theme.Params.ssg }}{{ . | urlize }} {{ end }}{{ range .theme.Params.cms }}{{ . | urlize }} {{end}}{{ range .theme.Params.css }}{{ . | urlize }} {{end}}{{ range .theme.Params.archetype }}{{ . | urlize }} {{end}}{{ range .theme.Params.services }}{{ . | urlize }} {{end}}"
+  class="grid theme {{ .classes }} {{ range .theme.Params.ssg }}{{ . | urlize }} {{ end }}{{ range .theme.Params.cms }}{{ . | urlize }} {{end}}{{ range .theme.Params.css }}{{ . | urlize }} {{end}}{{ range .theme.Params.archetype }}{{ . | urlize }} {{end}}{{ range .theme.Params.services }}{{ . | urlize }} {{end}}"
   data-stars="{{ if .repo }}{{ .repo.stars }}{{ else }}0{{ end }}"
   data-last-commit="{{ if .repo }}{{ .repo.last_commit }}{{ end }}"
   data-name="{{ .theme.Params.Title | urlize }}"
@@ -12,8 +12,6 @@
       {{ $githubLink = (printf "%s/%s/%s" $githubLink "tree" .theme.Params.github_branch)}}
     {{ end }}
 
-    <div class="theme-container">
-      <!-- <a class="theme-overlay" href="{{ $githubLink }}" title="{{ .theme.Params.title }} Github Repo" target="_blank" rel="noopener"></a> -->
       <a class="theme-overlay" href="{{ .theme.Permalink }}" title="{{ .theme.Params.title }}"></a>
       <div class="theme-header">
           {{ if .theme.Params.thumbnail }}
@@ -22,10 +20,20 @@
               {{ $staticPath := (printf "%s/%s%s" "static/images/theme/thumbnail" .repo.theme_key ".jpg") }}
               {{ $filePath := (printf "%s/%s%s" "images/theme/thumbnail" .repo.theme_key ".jpg") }}
               {{ $filePathHiRes := (printf "%s/%s%s" "images/theme/thumbnail/2x" .repo.theme_key "-2x.jpg") }}
-              {{ if (fileExists $staticPath) }}
-                <img width="280" height="180" loading="lazy" src="{{ $filePath | relURL }}" alt="{{ .theme.Params.title }} screenshot" srcset="{{ $filePathHiRes | relURL }} 2x" />
+
+              {{ if .featured }}
+                {{ $filePath = (printf "%s/%s%s" "capture" .repo.theme_key ".png") }}
+                {{ if (fileExists $staticPath) }}
+                  <img loading="lazy" src="{{ $filePath | relURL }}" alt="{{ .theme.Params.title }} screenshot"  />
+                {{ else }}
+                  <img src="{{ "images/default-large.png" | relURL }}" loading="lazy" alt="{{ .theme.Params.title }} screenshot" />
+                {{ end }}
               {{ else }}
-                <img src="{{ "images/default.png" | relURL }}" loading="lazy" alt="{{ .theme.Params.title }} screenshot" />
+                {{ if (fileExists $staticPath) }}
+                  <img width="280" height="180" loading="lazy" src="{{ $filePath | relURL }}" alt="{{ .theme.Params.title }} screenshot" srcset="{{ $filePathHiRes | relURL }} 2x" />
+                {{ else }}
+                  <img src="{{ "images/default.png" | relURL }}" loading="lazy" alt="{{ .theme.Params.title }} screenshot" />
+                {{ end }}
               {{ end }}
           {{ else }}
             <img src="{{ "images/default.png" | relURL }}" loading="lazy" alt="{{ .theme.Params.title }} screenshot" />
@@ -49,7 +57,6 @@
           <p>{{ .theme.Summary }}</p>
         </div>
       </div>
-    </div>
     
     <div class="theme-footer">
 

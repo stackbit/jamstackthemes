@@ -12,3 +12,23 @@
     height: 20px;
   }
 }
+
+.icon-card {
+  border: 1px solid $grey;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 1px 1px 8px 2px adjust-color(black, $alpha: -0.9);
+  padding: 10px;
+  margin-right: 5px;
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 1px 5px 16px 2px adjust-color($primary, $alpha: -0.8);
+    color: currentColor;
+  }
+  img {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 32px;
+    height: 32px;
+  }
+}

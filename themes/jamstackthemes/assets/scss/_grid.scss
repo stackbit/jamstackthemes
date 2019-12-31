@@ -17,4 +17,14 @@
       margin: 15px;
     }
   }
+  .grid-large {
+    max-width: 282px;
+    width: auto;
+    margin: 10px 15px;
+    @include breakpoint('small') {
+      max-width: none;
+      width: 480px;
+      margin: 15px;
+    }
+  }
 }

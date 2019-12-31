@@ -45,6 +45,8 @@ $breakpoints: (
 @import 'main-menu';
 @import 'categories';
 @import 'blurb';
+@import 'content';
+@import 'pygments/github';
 
 *,
 *::before,

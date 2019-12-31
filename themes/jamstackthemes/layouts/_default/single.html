@@ -27,13 +27,15 @@
 
           <div class="theme-detail-buttons">
             <a class="button" href="{{ .Params.github }}" target="_blank" rel="noopener">Github</a>
-            <a class="button" href="{{ .Params.demo }}" target="_blank" rel="noopener">Demo</a>
+            <a class="button" href="{{ .Params.demo }}" target="_blank" rel="noopener">Live Demo</a>
           </div>
+
+          <div class="theme-detail-tags">
 
           {{ if .Params.ssg }}
             {{- range .Params.ssg }}
               {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
-                {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                {{ partial "icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
               {{ end }}
             {{ end }}
           {{ end }}
@@ -43,7 +45,7 @@
               {{- with $.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
                 {{ if eq .Page.Title "No CMS" }}
                 {{ else }}
-                {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                {{ partial "icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
                 {{ end }}
               {{ end }}
             {{ end }}
@@ -54,7 +56,7 @@
               {{- with $.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
                 {{ if eq .Page.Title "No css" }}
                 {{ else }}
-                {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                {{ partial "icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
                 {{ end }}
               {{ end }}
             {{ end }}
@@ -65,31 +67,36 @@
               {{- with $.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
                 {{ if eq .Page.Title "No archetype" }}
                 {{ else }}
-                {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                {{ partial "icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
                 {{ end }}
               {{ end }}
             {{ end }}
           {{ end }}
+        </div>
       </div>
-      <div class="theme-image">
-        {{ if .Params.thumbnail }}
-          <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }} screenshot" />
-        {{ else if $repo }}
-          {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
-          {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
-          {{ $filePathHiRes := (printf "%s/%s%s" "capture" $repo.theme_key "-2x.png") }}
-          {{ if (fileExists $staticPath) }}
-            <img src="{{ $filePath | relURL }}" alt="{{ .Title }} screenshot" srcset="{{ $filePathHiRes | relURL }} 2x" />
+      <div class="theme-preview">
+        <div class="theme-image">
+          {{ if .Params.thumbnail }}
+            <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }} screenshot" />
+          {{ else if $repo }}
+            {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
+            {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
+            {{ $filePathHiRes := (printf "%s/%s%s" "capture" $repo.theme_key "-2x.png") }}
+            {{ if (fileExists $staticPath) }}
+              <img src="{{ $filePath | relURL }}" alt="{{ .Title }} screenshot" srcset="{{ $filePathHiRes | relURL }} 2x" />
+            {{ else }}
+              <img src="{{ "images/default.png" | relURL }}" alt="{{ .Title }} screenshot" />
+            {{ end }}
           {{ else }}
             <img src="{{ "images/default.png" | relURL }}" alt="{{ .Title }} screenshot" />
           {{ end }}
-        {{ else }}
-          <img src="{{ "images/default.png" | relURL }}" alt="{{ .Title }} screenshot" />
-        {{ end }}
+        </div>
       </div>
     </div>
     <div class="theme-detail-bottom">
-      {{ .Content }}
+      <div class="content">
+        {{ .Content }}
+      </div>
     </div>
   </div>
 

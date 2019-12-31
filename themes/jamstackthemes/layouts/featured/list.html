@@ -1,0 +1,34 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-featured{{ end }}
+
+{{ define "main" }}
+{{ $themes := (where .Site.RegularPages "Type" "theme") }}
+{{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themes := (where $themes ".Params.featured" "==" true) }}
+{{ $themeCount := len $themes}}
+
+<div class="main">
+ 
+  <div class="intro">
+    <h1>Featured Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
+  </div>
+
+  <div>
+    <div class="blurb blurb-desktop"><p>Featured Themes and Starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites. The largest gallery of up-to-date themes for static site generators.</p></div>
+    <div class="blurb blurb-mobile"><p>Featured Themes and Starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites.</p></div>
+  </div>
+
+  <div id="grids-homepage" class="grids">
+    {{ $paginator := .Paginate $themes.ByPublishDate.Reverse }}
+    {{ range $paginator.Pages }}
+
+    {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
+    {{ $repo := index .Site.Data.themes $repoName }}
+      {{ partial "theme-card.html" (dict "theme" . "repo" $repo "classes" "grid-large theme-featured" "featured" true) }}
+    {{ end }}
+  </div>
+  {{ $paginator := .Paginator }}
+  {{ partial "pagination.html" . }}
+
+</div>
+{{ end }}

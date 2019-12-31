@@ -6,6 +6,10 @@ paginate = 30
 summaryLength = 10
 # enableGitInfo = true
 
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
 [params]
   google_analytics_id = ""
   description = "A list of Themes and Starters for JAMstack Sites."
@@ -34,8 +38,12 @@ summaryLength = 10
 	url = "/"
     weight = 1
 
-# Main Menu
 [[menu.main]]
 	name = "All Themes"
 	url = "/themes/"
     weight = 2
+
+[[menu.main]]
+	name = "Featured Themes"
+	url = "/featured/"
+    weight = 3

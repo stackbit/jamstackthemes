@@ -1,0 +1,110 @@
+.content {
+  font-size: 16px;
+  p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 1.6;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+  h2 {
+    font-size: 28px;
+    line-height: 1.4;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    &:first-of-type {
+      margin-top: 0;
+    }
+    @include breakpoint('small') {
+      font-size: 30px;
+      line-height: 1.4;
+    }
+  }
+  h3 {
+    font-size: 22px;
+    line-height: 1.4;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  ul,
+  ol {
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    list-style: disc;
+    li {
+      font-size: 18px;
+      line-height: 20px;
+      margin-bottom: 10px;
+      margin-left: 0;
+      @include breakpoint('small') {
+        margin-left: 20px;
+      }
+    }
+    @include breakpoint('small') {
+      margin-left: 20px;
+    }
+  }
+  a {
+    text-decoration: underline;
+    color: $primary;
+    &:hover {
+    }
+  }
+  blockquote {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 40px;
+  }
+  blockquote p {
+    display: inline;
+  }
+  img {
+    margin: 40px 0 40px 0;
+    max-width: 100%;
+    height: auto;
+  }
+  .highlight {
+    border-radius: 2px;
+    margin-bottom: 20px;
+  }
+  code {
+    background: #f5f5f5;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-family: $font-family-mono;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  pre {
+    font-family: $font-family-mono;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin: 0;
+    padding: 10px;
+    border-radius: 1px;
+    code {
+      font-family: $font-family-mono;
+      font-size: 0.9rem;
+      line-height: 1.4;
+      border-radius: none;
+      padding: 0;
+      margin: 0;
+      background: none;
+    }
+  }
+}
