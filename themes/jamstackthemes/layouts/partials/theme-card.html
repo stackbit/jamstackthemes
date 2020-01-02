@@ -48,13 +48,20 @@
       <p><strong>Author:</strong> {{ .theme.Params.author }}</p>
       <p><strong>Last Commit:</strong> {{ dateFormat "Jan 2, 2006" .repo.last_commit }}</p>
     {{ end }}
+    <div class="theme-buttons">
+      <a class="theme-button" href="{{ .theme.Params.github }}" target="_blank" rel="noopener nofollow">Github</a>
+      <a class="theme-button" href="{{ .theme.Params.demo }}" target="_blank" rel="noopener nofollow">Live Demo</a>
+    </div>
     {{ if .theme.Params.description }}
       <p class="description">{{ .theme.Params.description | truncate 80 }}</p>
     {{ else }}
       <p class="description">{{ .theme.Summary | truncate 80 }}</p>
     {{ end }}
+    
   </div>
   
+
+
   <div class="theme-footer">
 
     {{ if .theme.Params.ssg }}
