@@ -11,4 +11,5 @@ cms:
 date: 2015-09-07T11:16:39Z
 github_branch: master
 description: "A Jekyll implementation of the Stylish Portfolio template by Start Bootstrap"
+stale: true
 ---

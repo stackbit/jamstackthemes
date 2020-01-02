@@ -11,4 +11,5 @@ cms:
 date: 2015-01-01T21:38:31Z
 github_branch: master
 description: "A simple blog template for jekyll based on twitter bootstrap 3 "
+stale: true
 ---

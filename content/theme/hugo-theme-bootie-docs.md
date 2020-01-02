@@ -11,4 +11,5 @@ cms:
 date: 2015-04-19T10:27:41Z
 github_branch: master
 description: "A simple Hugo theme for documentation"
+stale: true
 ---

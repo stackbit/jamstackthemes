@@ -9,4 +9,5 @@ ssg:
   - Jekyll
 cms:
   - no-cms
+description: "An automatic dark mode adaptation of the Poole theme for Jekyll."
 ---

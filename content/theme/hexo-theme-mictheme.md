@@ -10,4 +10,5 @@ cms:
 date: 2017-05-24T13:43:59Z
 github_branch: master
 description: "hexo theme "
+stale: true
 ---

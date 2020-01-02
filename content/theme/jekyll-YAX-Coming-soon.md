@@ -11,4 +11,5 @@ cms:
 date: 2015-11-16T11:42:40Z
 github_branch: master
 description: "Free HTML5 CSS3 Coming Soon Jekyll Template"
+stale: true
 ---

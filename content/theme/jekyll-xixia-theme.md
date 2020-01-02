@@ -11,4 +11,5 @@ cms:
 date: 2017-09-19T06:00:06Z
 github_branch: gh-pages
 description: "A Jekyll theme."
+stale: true
 ---

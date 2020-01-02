@@ -11,4 +11,5 @@ cms:
 date: 2015-08-08T05:58:15Z
 github_branch: master
 description: "💎 Zetsu - a free Jekyll theme"
+stale: true
 ---

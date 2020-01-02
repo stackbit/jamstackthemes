@@ -11,4 +11,5 @@ cms:
 date: 2015-06-01T22:00:02Z
 github_branch: gh-pages
 description: "You can see the live demo"
+stale: true
 ---

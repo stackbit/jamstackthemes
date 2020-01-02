@@ -11,4 +11,5 @@ cms:
 date: 2017-11-27T21:19:23Z
 github_branch: master
 description: "A Jekyll Theme based on Material Design using Materialize."
+stale: true
 ---

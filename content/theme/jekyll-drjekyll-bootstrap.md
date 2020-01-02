@@ -11,4 +11,5 @@ cms:
 date: 2015-01-30T17:48:11Z
 github_branch: master
 description: "jekyll starter theme w/ bootstrap (sass version)"
+stale: true
 ---

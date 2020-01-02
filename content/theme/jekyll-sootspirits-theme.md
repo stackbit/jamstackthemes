@@ -11,4 +11,5 @@ cms:
 date: 2017-04-17T17:06:15Z
 github_branch: master
 description: "A simple responsive two column Jekyll theme. Great for personal blog and basic portfolio website"
+stale: true
 ---

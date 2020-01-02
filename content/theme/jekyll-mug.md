@@ -11,4 +11,5 @@ cms:
 date: 2015-11-20T14:42:31Z
 github_branch: master
 description: "💎 mug Jekyll theme"
+stale: true
 ---

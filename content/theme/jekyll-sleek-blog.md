@@ -11,4 +11,5 @@ cms:
 date: 2016-01-05T20:39:17Z
 github_branch: master
 description: "A Empty template blog"
+stale: true
 ---

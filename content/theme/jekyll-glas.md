@@ -11,4 +11,5 @@ cms:
 date: 2015-03-01T23:39:41Z
 github_branch: master
 description: ":mortar_board: Glas - Ruby on Rails - Jekyll "
+stale: true
 ---

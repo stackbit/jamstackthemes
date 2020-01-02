@@ -11,4 +11,5 @@ cms:
 date: 2015-05-25T11:00:22Z
 github_branch: master
 description: ":snowflake: A lightweight theme for Jekyll"
+stale: true
 ---

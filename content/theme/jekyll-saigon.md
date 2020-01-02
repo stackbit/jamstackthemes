@@ -11,4 +11,5 @@ cms:
 date: 2016-02-11T08:16:51Z
 github_branch: master
 description: "Jekyll mansonry theme"
+stale: true
 ---

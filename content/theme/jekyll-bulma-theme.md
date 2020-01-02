@@ -11,4 +11,5 @@ cms:
 date: 2017-02-02T09:36:52Z
 github_branch: master
 description: "Jekyll Bulma Theme | Bulma.io Jekyll Template for Developers"
+stale: true
 ---

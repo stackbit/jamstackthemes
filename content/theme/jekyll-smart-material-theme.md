@@ -11,4 +11,5 @@ cms:
 date: 2015-10-22T20:08:05Z
 github_branch: gh-pages
 description: "Smart Material Design theme for Jekyll, demo:"
+stale: true
 ---

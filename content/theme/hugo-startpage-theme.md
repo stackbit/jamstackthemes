@@ -11,4 +11,5 @@ cms:
 date: 2018-04-23T09:40:29Z
 github_branch: master
 description: "Hugo start page theme, link listing built from yaml"
+stale: true
 ---

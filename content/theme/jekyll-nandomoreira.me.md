@@ -11,4 +11,5 @@ cms:
 date: 2015-11-12T18:06:34Z
 github_branch: master
 description: "💎 My old website in Jekyll and Gulpjs"
+stale: true
 ---

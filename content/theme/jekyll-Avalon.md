@@ -11,4 +11,5 @@ cms:
 date: 2016-11-03T03:54:30Z
 github_branch: master
 description: "Materialize Jekyll theme"
+stale: true
 ---

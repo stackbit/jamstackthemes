@@ -11,4 +11,5 @@ cms:
 date: 2016-06-22T05:25:06Z
 github_branch: gh-pages
 description: "🍅Jalpc-A -- Jekyll Theme(blog written by Angularjs)"
+stale: true
 ---

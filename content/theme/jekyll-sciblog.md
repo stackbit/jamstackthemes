@@ -11,4 +11,5 @@ cms:
 date: 2016-02-10T04:25:25Z
 github_branch: master
 description: "Sci Blog jekyll theme"
+stale: true
 ---

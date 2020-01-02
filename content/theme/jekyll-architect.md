@@ -11,4 +11,5 @@ cms:
 date: 2014-04-06T18:05:02Z
 github_branch: master
 description: "Open Source version of the GitHub Pages theme, now for Jekyll. Demo at http://pietro.menna.net.br/jekyll-architect-theme/"
+stale: true
 ---

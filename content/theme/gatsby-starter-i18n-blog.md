@@ -11,4 +11,5 @@ cms:
 date: 2018-10-29T05:31:55Z
 github_branch: master
 description: "Gatsby starter for creating a i18n blog. https://jackbravo.github.io/gatsby-starter-i18n-blog/"
+stale: true
 ---

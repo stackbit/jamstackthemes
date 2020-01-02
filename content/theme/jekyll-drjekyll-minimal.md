@@ -11,4 +11,5 @@ cms:
 date: 2015-02-01T09:36:30Z
 github_branch: master
 description: "jekyll minimal theme (for blog posts with archive and feed)"
+stale: true
 ---

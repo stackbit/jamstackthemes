@@ -11,4 +11,5 @@ cms:
 date: 2017-07-30T09:09:24Z
 github_branch: master
 description: "Panel CV for designers (or engineers) :)"
+stale: true
 ---

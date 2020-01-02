@@ -11,4 +11,5 @@ cms:
 date: 2017-01-05T19:19:50Z
 github_branch: master
 description: "Feature Blog is a minimalist, beautiful, responsive theme for Jekyll. Demo: "
+stale: true
 ---

@@ -9,4 +9,5 @@ ssg:
   - Jekyll
 cms:
   - No CMS
+description: "A Jekyll theme with responsive web design that focuses on text presentation."
 ---

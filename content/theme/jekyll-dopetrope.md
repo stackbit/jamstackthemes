@@ -11,4 +11,5 @@ cms:
 date: 2015-01-07T23:00:38Z
 github_branch: master
 description: "DopeTrope Jekyll Theme"
+stale: true
 ---

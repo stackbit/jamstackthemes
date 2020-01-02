@@ -11,4 +11,5 @@ cms:
 date: 2014-02-01T08:30:55Z
 github_branch: gh-pages
 description: "An open-source theme for Jekyll"
+stale: true
 ---

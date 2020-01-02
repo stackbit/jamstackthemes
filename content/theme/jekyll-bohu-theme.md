@@ -11,4 +11,5 @@ cms:
 date: 2016-04-24T03:44:01Z
 github_branch: gh-pages
 description: "My first JEKYLL-THEME"
+stale: true
 ---

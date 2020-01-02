@@ -11,4 +11,5 @@ cms:
 date: 2016-05-20T19:44:40Z
 github_branch: master
 description: ":red_circle: Jekyll-Mono :large_blue_circle: is a simple and elegant GitHub Profile cum Blog theme"
+stale: true
 ---

@@ -10,4 +10,5 @@ cms:
 date: 2016-08-21T21:53:24Z
 github_branch: gh-pages
 description: "A minimalist Jekyll theme for running an online publication"
+stale: true
 ---

@@ -11,4 +11,5 @@ cms:
 date: 2014-02-09T16:41:40Z
 github_branch: master
 description: "Wangana is a responsive Jekyll theme, perfect for powering your GitHub hosted blog."
+stale: true
 ---

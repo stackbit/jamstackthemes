@@ -10,4 +10,5 @@ cms:
 date: 2018-04-21T15:43:28Z
 github_branch: master
 description: "Clean Material Design blog theme for Hugo."
+stale: true
 ---

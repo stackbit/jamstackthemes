@@ -11,4 +11,5 @@ cms:
 date: 2014-08-05T05:36:00Z
 github_branch: master
 description: "Travelog is a theme for Jekyll that is both elegant and downright simple."
+stale: true
 ---

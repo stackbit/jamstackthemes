@@ -10,4 +10,5 @@ cms:
 date: 2018-06-30T06:36:45Z
 github_branch: master
 description: "Assembly - a hugo theme"
+stale: true
 ---

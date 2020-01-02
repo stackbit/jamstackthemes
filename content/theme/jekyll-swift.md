@@ -11,4 +11,5 @@ cms:
 date: 2014-11-28T18:43:16Z
 github_branch: master
 description: "A clean Minimal Blog theme for Jekyll , built with Bootswatch "
+stale: true
 ---

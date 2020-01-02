@@ -11,4 +11,5 @@ cms:
 date: 2016-05-02T19:32:17Z
 github_branch: gh-pages
 description: "A dark + cli jekyll theme"
+stale: true
 ---

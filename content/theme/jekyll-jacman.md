@@ -11,4 +11,5 @@ cms:
 date: 2015-09-20T15:48:19Z
 github_branch: master
 description: "A fresh looking and responsive theme for Jekyll"
+stale: true
 ---

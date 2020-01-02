@@ -11,4 +11,5 @@ cms:
 date: 2016-04-08T08:45:41Z
 github_branch: master
 description: "jekyll theme in newspaper style"
+stale: true
 ---

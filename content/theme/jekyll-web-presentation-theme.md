@@ -11,4 +11,5 @@ cms:
 date: 2017-10-15T05:35:15Z
 github_branch: master
 description: "Jekyll theme template to create web presentation"
+stale: true
 ---

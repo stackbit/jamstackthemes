@@ -11,4 +11,5 @@ cms:
 date: 2015-12-10T15:28:29Z
 github_branch: master
 description: "💎 Simple and beautiful Jekyll theme"
+stale: true
 ---

@@ -11,4 +11,5 @@ cms:
 date: 2017-06-14T13:47:32Z
 github_branch: master
 description: "JBlog is a simple jekyll theme."
+stale: true
 ---

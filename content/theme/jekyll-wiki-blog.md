@@ -11,4 +11,5 @@ cms:
 date: 2015-11-17T09:51:10Z
 github_branch: master
 description: "Xizhi's personal website"
+stale: true
 ---

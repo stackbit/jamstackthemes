@@ -10,4 +10,5 @@ cms:
 date: 2016-09-21T20:55:08Z
 github_branch: master
 description: "Simple FAQ Theme for Hugo"
+stale: true
 ---

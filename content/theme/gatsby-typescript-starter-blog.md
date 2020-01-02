@@ -11,4 +11,5 @@ cms:
 date: 2018-12-16T12:12:14Z
 github_branch: master
 description: "A starter blog for TypeScript-based Gatsby projects with minimal settings."
+stale: true
 ---

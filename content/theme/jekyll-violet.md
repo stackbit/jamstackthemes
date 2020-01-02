@@ -11,4 +11,5 @@ cms:
 date: 2016-07-06T02:09:17Z
 github_branch: gh-pages
 description: ":crystal_ball: Violet Jekyll Template"
+stale: true
 ---

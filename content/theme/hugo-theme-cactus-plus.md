@@ -10,4 +10,5 @@ cms:
 date: 2017-01-15T14:56:47Z
 github_branch: master
 description: "A minimalistic hugo theme based on cactus"
+stale: true
 ---

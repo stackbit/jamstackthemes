@@ -11,4 +11,5 @@ cms:
 date: 2016-08-31T14:03:59Z
 github_branch: master
 description: "A simple theme for simple people"
+stale: true
 ---

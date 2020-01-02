@@ -10,4 +10,5 @@ cms:
 date: 2014-09-07T05:49:29Z
 github_branch: gh-pages
 description: "[Unmaintained] A Bootstrap-based Jekyll Theme."
+stale: true
 ---

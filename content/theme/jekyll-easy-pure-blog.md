@@ -11,4 +11,5 @@ cms:
 date: 2016-01-29T18:18:02Z
 github_branch: master
 description: "我的个人博客"
+stale: true
 ---

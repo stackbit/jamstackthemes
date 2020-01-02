@@ -10,4 +10,5 @@ cms:
 date: 2013-08-02T12:31:24Z
 github_branch: master
 description: "Your favorite AnchorCMS theme, now for Jekyll!"
+stale: true
 ---

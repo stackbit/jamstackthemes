@@ -11,4 +11,5 @@ cms:
 date: 2014-06-17T14:07:26Z
 github_branch: master
 description: "A Metro based theme for Jekyll"
+stale: true
 ---

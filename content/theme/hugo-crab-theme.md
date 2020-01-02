@@ -11,4 +11,5 @@ cms:
 date: 2017-03-18T10:48:37Z
 github_branch: master
 description: "Crab theme for Hugo"
+stale: true
 ---

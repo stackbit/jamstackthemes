@@ -11,4 +11,5 @@ cms:
 date: 2015-05-15T13:44:38Z
 github_branch: master
 description: "Simple Material Design Theme for Hugo"
+stale: true
 ---

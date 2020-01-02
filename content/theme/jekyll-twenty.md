@@ -11,4 +11,5 @@ cms:
 date: 2015-01-07T02:59:06Z
 github_branch: master
 description: "Twenty Jekyll Theme - more themes available @ http://cloudcannon.com/jekyll_themes"
+stale: true
 ---

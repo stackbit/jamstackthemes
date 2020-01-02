@@ -11,4 +11,5 @@ cms:
 date: 2017-06-28T09:14:32Z
 github_branch: master
 description: "Hestia Pure is a Hugo theme based on Pure CSS."
+stale: true
 ---

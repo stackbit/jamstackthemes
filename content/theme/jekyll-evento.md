@@ -11,4 +11,5 @@ cms:
 date: 2016-01-30T15:51:32Z
 github_branch: master
 description: "A free to use open source Jekyll project. Allows people to create internal/external events, showing times and information for anybody that wants to attend."
+stale: true
 ---

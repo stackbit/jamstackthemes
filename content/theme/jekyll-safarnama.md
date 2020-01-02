@@ -11,4 +11,5 @@ cms:
 date: 2016-05-21T11:02:17Z
 github_branch: master
 description: "Blogging for the free flying spirits  :snowflake: :sunny: :thought_balloon:"
+stale: true
 ---

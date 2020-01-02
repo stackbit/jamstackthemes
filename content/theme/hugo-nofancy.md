@@ -11,4 +11,5 @@ cms:
 date: 2015-01-08T23:10:17Z
 github_branch: master
 description: "A Hugo blog theme"
+stale: true
 ---

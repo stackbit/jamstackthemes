@@ -105,6 +105,7 @@ Enable sharing under `params` with `share` set to `true` and disable per-post sh
 ---
 share: false
 description: "A simple, bootstrap 4 based hugo blog theme."
+description: "A simple, bootstrap 4 based hugo blog theme."
 ---
 ```
 

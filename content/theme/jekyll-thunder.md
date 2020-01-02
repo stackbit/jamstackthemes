@@ -11,4 +11,5 @@ cms:
 date: 2016-05-12T16:03:19Z
 github_branch: master
 description: "A minimal and superfast Jekyll theme"
+stale: true
 ---
