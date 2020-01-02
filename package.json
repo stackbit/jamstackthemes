@@ -2,6 +2,7 @@
   "scripts": {
     "build": "node ./scripts/generate-github.js && node ./scripts/capture-screenshots.js && node ./scripts/generate-thumbnails.js && hugo",
     "deploy": "node ./scripts/generate-github.js --latest && node ./scripts/capture-screenshots.js && node ./scripts/generate-thumbnails.js && hugo",
+    "fetch": "node ./scripts/generate-github.js",
     "generate-github": "node ./scripts/generate-github.js",
     "capture-screenshots": "node ./scripts/capture-screenshots.js",
     "generate-thumbnails": "node ./scripts/generate-thumbnails.js",

@@ -54,6 +54,11 @@ for (const themeKey of themeKeys) {
     return false;
   }
 
+  if (frontmatter.description === undefined) {
+    console.log(theme.description)
+    // newFrontmatterEntries.push('date: ' + theme.description);
+  }
+
   if (frontmatter.date === undefined) {
     if (frontmatter.date != theme.created_at) {
       newFrontmatterEntries.push('date: ' + theme.created_at);
