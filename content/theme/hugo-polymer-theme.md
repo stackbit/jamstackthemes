@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2015-06-30T09:07:58Z
 github_branch: master
-stale: true
+description: "Polymer Material Design Theme for Hugo"
 ---

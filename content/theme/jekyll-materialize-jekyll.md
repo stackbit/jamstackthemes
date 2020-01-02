@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2015-11-01T14:16:55Z
 github_branch: master
-stale: true
+description: "Jekyll theme based on materialize."
 ---

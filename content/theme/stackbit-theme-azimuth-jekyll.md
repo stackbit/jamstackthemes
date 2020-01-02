@@ -13,4 +13,5 @@ cms:
   - NetlifyCMS
   - Sanity
 date: 2019-05-23T18:24:11Z
+description: "Azimuth is a sleek SaaS theme for Stackbit"
 ---

@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2015-08-21T04:20:04Z
 github_branch: master
+description: "Blog theme powered by Jekyll."
 ---

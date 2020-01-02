@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2015-12-31T23:50:44Z
 github_branch: gh-pages
-stale: true
+description: ":+1: Jekyll themes use Material Design Lite"
 ---

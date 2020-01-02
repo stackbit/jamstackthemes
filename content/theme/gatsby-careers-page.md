@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2018-12-29T17:56:56Z
 github_branch: master
-stale: true
+description: "Job Listing Page"
 ---

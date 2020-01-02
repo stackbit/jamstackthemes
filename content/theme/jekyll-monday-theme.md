@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2017-03-10T15:42:27Z
 github_branch: master
-stale: true
+description: "Monday is a minimal and 100% free blog template for Jekyll"
 ---

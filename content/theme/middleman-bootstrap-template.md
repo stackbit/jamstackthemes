@@ -11,5 +11,5 @@ css:
   - Bootstrap
 date: 2017-12-28T02:11:32Z
 github_branch: master
-stale: true
+description: "Bootstrap v4 template for Middleman static site generator"
 ---

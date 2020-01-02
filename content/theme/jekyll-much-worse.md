@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2016-02-08T11:55:38Z
 github_branch: gh-pages
-stale: true
+description: "Template for jekyll base website and blog"
 ---

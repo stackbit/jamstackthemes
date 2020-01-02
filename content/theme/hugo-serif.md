@@ -13,4 +13,5 @@ cms:
   - Sanity
 date: 2018-11-28T07:14:22Z
 github_branch: master
+description: "Serif is a modern business theme for Hugo."
 ---

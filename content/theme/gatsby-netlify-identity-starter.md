@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2018-12-21T19:54:09Z
 github_branch: master
-stale: true
+description: "a gatsby static site generator with netlify identity control..."
 ---

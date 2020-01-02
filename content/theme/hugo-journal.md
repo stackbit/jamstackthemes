@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2017-07-23T16:16:34Z
 github_branch: master
+description: "Minimalist theme for gohugo"
 ---

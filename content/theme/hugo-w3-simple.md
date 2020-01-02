@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2018-11-05T23:20:12Z
 github_branch: master
+description: "Hugo Theme"
 ---

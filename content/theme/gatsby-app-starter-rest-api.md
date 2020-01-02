@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2019-05-14T06:50:04Z
 github_branch: master
+description: "Not todo Gatsby app for my talk"
 ---

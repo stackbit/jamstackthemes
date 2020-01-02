@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2015-04-24T14:33:33Z
 github_branch: master
+description: "Hugo theme—Slim"
 ---

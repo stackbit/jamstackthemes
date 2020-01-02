@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2018-10-08T04:39:24Z
 github_branch: master
+description: "A minimal hugo theme made with bootstrap"
 ---

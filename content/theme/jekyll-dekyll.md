@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2016-02-21T14:29:19Z
 github_branch: master
+description: "Jekyll's Minima theme extended version"
 ---

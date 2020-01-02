@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2018-10-07T12:37:00Z
 github_branch: master
+description: "A simple Hugp theme for tech-blogs."
 ---

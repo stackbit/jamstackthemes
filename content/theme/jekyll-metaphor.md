@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2015-02-05T11:38:10Z
 github_branch: master
-stale: true
+description: "metaphor jekyll src"
 ---

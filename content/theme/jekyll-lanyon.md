@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2013-12-28T07:53:04Z
 github_branch: master
-stale: true
+description: "A content-first, sliding sidebar theme for Jekyll."
 ---

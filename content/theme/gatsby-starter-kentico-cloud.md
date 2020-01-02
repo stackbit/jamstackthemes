@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2018-08-17T10:25:38Z
 github_branch: master
+description: "Gatsby starter site with Kentico Kontent."
 ---

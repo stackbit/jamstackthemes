@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2018-02-12T22:23:50Z
 github_branch: master
-stale: true
+description: "A Hugo theme ported from startbootrap.com's resume template"
 ---

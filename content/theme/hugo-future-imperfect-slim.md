@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2019-04-06T17:48:53Z
 github_branch: master
+description: "Multilingual Blogging Theme for Hugo"
 ---

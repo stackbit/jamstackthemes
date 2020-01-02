@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2019-05-13T09:17:28Z
 github_branch: master
+description: "Make decentralized apps with Gatsby + Blockstack"
 ---

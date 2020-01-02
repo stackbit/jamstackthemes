@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2016-07-25T08:45:30Z
 github_branch: master
+description: "Hugo theme used for our blog"
 ---

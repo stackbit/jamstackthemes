@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2018-09-29T23:11:06Z
 github_branch: master
+description: "A bootstrap based minimal hugo theme based on webjeda-cards"
 ---

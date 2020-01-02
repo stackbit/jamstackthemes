@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2015-10-27T13:16:12Z
 github_branch: master
+description: "Bootstrap theme for Hugo"
 ---

@@ -16,4 +16,5 @@ cms:
   - Sanity
 date: 2019-05-10T14:36:37Z
 github_branch: master
+description: "Fractal single page mobile application marketing theme for Stackbit"
 ---

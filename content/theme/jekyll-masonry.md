@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2014-09-03T14:35:16Z
 github_branch: master
-stale: true
+description: "Jekyll theme based on masonry"
 ---

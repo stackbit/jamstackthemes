@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2019-02-27T19:17:17Z
 github_branch: master
+description: "Gatsby-MDX with Netlify CMS. Support React components in your CMS editor!"
 ---

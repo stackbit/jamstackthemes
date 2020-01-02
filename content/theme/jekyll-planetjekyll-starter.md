@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2015-08-08T14:36:05Z
 github_branch: master
-stale: true
+description: "jekyll starter theme - minimial"
 ---

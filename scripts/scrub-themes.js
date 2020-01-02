@@ -56,7 +56,10 @@ for (const themeKey of themeKeys) {
 
   if (frontmatter.description === undefined) {
     console.log(theme.description)
-    // newFrontmatterEntries.push('date: ' + theme.description);
+    if (theme.description) {
+      let description = theme.description.replace(/["]/g, "'")
+      newFrontmatterEntries.push(`description: "${description}"`);
+    }
   }
 
   if (frontmatter.date === undefined) {

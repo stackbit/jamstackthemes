@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2017-02-04T15:40:03Z
 github_branch: master
-stale: true
+description: "Beautiful minimal portfolio theme for Hexo."
 ---
 
 Beautiful minimal portfolio theme for Hexo.

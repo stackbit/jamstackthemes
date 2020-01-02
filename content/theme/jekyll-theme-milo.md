@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2019-10-04
 github_branch: master
+description: "A Bootstrap theme tweaked for Jekyll :heart:"
 ---

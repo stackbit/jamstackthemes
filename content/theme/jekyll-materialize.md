@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2015-12-01T23:49:41Z
 github_branch: master
-stale: true
+description: "Material Design inspired Jekyll Theme"
 ---

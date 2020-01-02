@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2019-04-02T20:35:25Z
 github_branch: master
+description: "A custom Gatsby starter template to start a blog or personal website."
 ---

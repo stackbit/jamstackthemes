@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2018-12-12T14:21:33Z
 github_branch: master
+description: "Tyra - Feminine Gatsby Starter optimized for SEO"
 ---

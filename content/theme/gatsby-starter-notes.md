@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2018-12-02T23:27:51Z
 github_branch: master
-stale: true
+description: "Gatsby starter for creating notes organised by subject and topic"
 ---

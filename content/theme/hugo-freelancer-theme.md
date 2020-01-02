@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2015-06-10T13:59:47Z
 github_branch: master
-stale: true
+description: "Port of Startbootstrap's Freelancer theme to Hugo"
 ---

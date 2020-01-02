@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2019-05-27T08:33:21Z
 github_branch: master
+description: "The default Gatsby starter TypeScript"
 ---

@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2017-09-17T15:21:03Z
 github_branch: master
-stale: true
+description: "Jekyll Theme"
 ---

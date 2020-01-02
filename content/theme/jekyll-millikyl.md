@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2016-01-02T15:55:57Z
 github_branch: master
-stale: true
+description: "A Jekyll theme based on the super minimal Milligram CSS Framework"
 ---

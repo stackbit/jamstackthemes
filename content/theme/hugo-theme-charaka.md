@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2018-08-21T20:17:16Z
 github_branch: master
+description: "Minimalistic and Responsive blog theme for hugo"
 ---

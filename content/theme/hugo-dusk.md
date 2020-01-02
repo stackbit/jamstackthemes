@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2017-04-22T11:43:42Z
 github_branch: master
+description: "Simple, minimalistic dark theme for Hugo."
 ---

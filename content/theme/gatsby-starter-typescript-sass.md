@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2018-09-04T20:48:42Z
 github_branch: master
+description: "A starter repo for using Gatsby with Typescript and SASS."
 ---

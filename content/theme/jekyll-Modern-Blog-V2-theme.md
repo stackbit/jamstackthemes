@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2017-03-12T15:47:54Z
 github_branch: master
-stale: true
+description: "Jekyll Modern Theme Alternative Version"
 ---

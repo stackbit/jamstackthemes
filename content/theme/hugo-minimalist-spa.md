@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2018-09-15T14:57:06Z
 github_branch: master
+description: "A minimalist single page application theme for Hugo"
 ---

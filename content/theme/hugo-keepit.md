@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2019-02-03T09:52:26Z
 github_branch: master
+description: "The most powerful minimal Hugo theme."
 ---

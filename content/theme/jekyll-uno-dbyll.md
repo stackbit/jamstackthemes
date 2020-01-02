@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2015-02-01T19:02:47Z
 github_branch: gh-pages
-stale: true
+description: "Simple, clean, responsive and stylist theme for jekyll"
 ---

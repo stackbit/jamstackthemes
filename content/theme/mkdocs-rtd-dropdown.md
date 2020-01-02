@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2017-10-29T19:41:23Z
 github_branch: master
-stale: true
+description: "MkDocs Theme - modified version of ReadTheDocs"
 ---

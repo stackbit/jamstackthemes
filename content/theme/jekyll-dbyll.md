@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2013-11-14T15:01:59Z
 github_branch: master
-stale: true
+description: "Stylish, minimalistic theme for jekyll."
 ---

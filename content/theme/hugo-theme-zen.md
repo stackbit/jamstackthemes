@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2017-03-09T13:05:40Z
 github_branch: master
+description: "A fast and clean Hugo theme with css-grid and Hugo pipes support."
 ---

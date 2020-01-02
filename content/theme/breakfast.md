@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2016-06-23T05:55:56Z
 github_branch: master
+description: "Brunch.io with Rails"
 ---

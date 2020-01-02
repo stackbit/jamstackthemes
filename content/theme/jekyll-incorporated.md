@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2013-10-09T21:57:31Z
 github_branch: master
-stale: true
+description: "Modern Jekyll based blog for companies"
 ---

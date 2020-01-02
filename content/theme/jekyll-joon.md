@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2015-08-10T03:11:53Z
 github_branch: master
-stale: true
+description: "Roon theme for Jekyll"
 ---

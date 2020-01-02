@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2016-03-21T00:52:47Z
 github_branch: master
-stale: true
+description: "A ported theme with some extras for the Hugo static website engine"
 ---

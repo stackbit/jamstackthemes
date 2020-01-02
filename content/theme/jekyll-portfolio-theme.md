@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2016-09-05T21:02:25Z
 github_branch: gh-pages
-stale: true
+description: "Personal portfolio theme powered by Jekyll and GitHub Pages"
 ---

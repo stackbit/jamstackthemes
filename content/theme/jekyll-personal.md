@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2015-06-27T16:56:59Z
 github_branch: master
-stale: true
+description: " :bowtie: { Personal } Jekyll theme"
 ---

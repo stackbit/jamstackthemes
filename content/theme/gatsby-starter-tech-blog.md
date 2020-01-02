@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2018-12-23T05:32:24Z
 github_branch: master
+description: "A Gatsby Starter Tech Blog template"
 ---

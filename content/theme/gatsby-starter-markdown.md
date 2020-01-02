@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2018-11-08T02:07:22Z
 github_branch: master
+description: "boilerplate for markdown-based website"
 ---

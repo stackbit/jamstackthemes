@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2016-05-13T08:22:12Z
 github_branch: master
-stale: true
+description: "Jekyll theme for developers! :computer:"
 ---

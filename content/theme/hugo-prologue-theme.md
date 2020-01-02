@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2017-01-18T00:38:16Z
 github_branch: master
-stale: true
+description: "Ported theme by HTML5 UP. Prologue is a single page responsive site template with a sticky sidebar."
 ---

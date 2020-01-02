@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2014-12-13T08:04:22Z
 github_branch: master
-stale: true
+description: "Welcome to use Jekyll theme Freshman21. "
 ---

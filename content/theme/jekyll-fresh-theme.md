@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2017-04-03T13:25:22Z
 github_branch: master
-stale: true
+description: "Fresh is a free blog template for Jekyll"
 ---

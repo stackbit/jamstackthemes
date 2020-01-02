@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2018-11-26T13:25:33Z
 github_branch: master
+description: "🚀 + ⚛️  A Quick Way to bootstrap your next Gatsby + Bulma site."
 ---

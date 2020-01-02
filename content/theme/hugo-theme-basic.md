@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2019-02-01T18:42:50Z
 github_branch: master
+description: "Basic site theme styled with minimal tachyons, syntax highlighting, and blog series configuration. 📦"
 ---

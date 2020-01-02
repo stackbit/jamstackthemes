@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2019-04-10T22:25:31Z
 github_branch: master
+description: "A gatsby starter for a technical documentation website"
 ---

@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2017-02-23T17:03:57Z
 github_branch: master
-stale: true
+description: "Mr.Brown is a responsive Jekyll theme"
 ---

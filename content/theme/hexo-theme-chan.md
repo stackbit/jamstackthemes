@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2016-02-20T03:07:57Z
 github_branch: master
-stale: true
+description: "A super simple and elegant theme for hexo"
 ---

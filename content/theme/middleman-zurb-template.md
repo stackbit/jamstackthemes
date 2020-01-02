@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2013-02-02T00:32:42Z
 github_branch: master
-stale: true
+description: "Middleman blog template containing ZURB Foundation and sensible default components and templates"
 ---

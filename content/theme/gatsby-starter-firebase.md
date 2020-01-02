@@ -10,5 +10,6 @@ cms:
   - No Cms
 date: 2018-10-17T12:39:39Z
 github_branch: master
-stale: true
+description: "Gatsby + Firebase = 👍"
+stale: false
 ---

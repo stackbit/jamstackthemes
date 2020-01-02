@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2019-06-27T11:35:02Z
 github_branch: master
+description: "Gatsby.js V2 starter template based on Casual by startbootstrap"
 ---

@@ -9,6 +9,7 @@ ssg:
   - Gridsome
 cms:
   - Airtable
+description: "A Gridsome starter leveraging Airtable with a minimalist design. "
 ---
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/66526f3f-455e-4ee4-b05e-3cf37c607921/deploy-status)](https://app.netlify.com/sites/gridsomeairtable/deploys)

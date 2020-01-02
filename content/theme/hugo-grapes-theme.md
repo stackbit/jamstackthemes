@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2018-10-23T04:13:29Z
 github_branch: master
+description: "A minimalistic text based theme for Hugo with grapes color theme"
 ---

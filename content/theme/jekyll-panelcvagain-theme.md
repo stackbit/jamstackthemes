@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2017-08-25T08:50:55Z
 github_branch: master
-stale: true
+description: "Panel CV: style win8 for designer (or engineer)"
 ---

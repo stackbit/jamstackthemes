@@ -10,4 +10,5 @@ cms:
   - Wordpress
 date: 2019-09-03T17:34:27Z
 github_branch: master
+description: "Gatsby Wordpress Typescript Blog Boilerplate"
 ---

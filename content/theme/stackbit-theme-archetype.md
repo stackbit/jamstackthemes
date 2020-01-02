@@ -16,4 +16,5 @@ cms:
   - Sanity
 date: 2019-05-10T13:59:15Z
 github_branch: master
+description: "Archetype a multi-layout theme with posts for Stackbit"
 ---

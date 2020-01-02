@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2016-05-13T12:47:31Z
 github_branch: master
-stale: true
+description: "Yummy Jekyll Theme"
 ---

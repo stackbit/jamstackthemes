@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2018-07-15T13:29:45Z
 github_branch: master
+description: "A Simple Theme for Hugo"
 ---

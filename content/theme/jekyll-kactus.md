@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2015-06-11T18:10:48Z
 github_branch: master
-stale: true
+description: "Cactus's default theme on Jekyll"
 ---

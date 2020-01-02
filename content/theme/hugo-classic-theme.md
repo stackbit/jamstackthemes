@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2017-07-13T02:02:26Z
 github_branch: master
+description: "A simple and text-centric theme for Hugo.io"
 ---

@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2019-05-25T11:08:00Z
 github_branch: master
+description: "Gatsby.js V2 starter template based on highlights by HTML5 UP"
 ---

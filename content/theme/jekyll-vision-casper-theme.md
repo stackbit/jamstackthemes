@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2016-11-26T05:26:16Z
 github_branch: gh-pages
-stale: true
+description: ":construction: work in progress - only my simple vision of casper theme adapted to jekyll"
 ---

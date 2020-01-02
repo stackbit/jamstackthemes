@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2015-10-27T22:42:43Z
 github_branch: gh-pages
-stale: true
+description: "🎹 Personal blog powered by Jekyll"
 ---

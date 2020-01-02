@@ -7,6 +7,7 @@ ssg:
   - Gatsby
 date: 2019-12-10
 github_branch: master
+description: "A Gatsby theme that adds a pocket to your website."
 ---
 
 A Gatsby theme that adds your saved pocket articles to your gatsby site with inbuilt SEO.

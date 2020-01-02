@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2015-08-24T01:18:55Z
 github_branch: gh-pages
-stale: true
+description: "Template for a video blog"
 ---

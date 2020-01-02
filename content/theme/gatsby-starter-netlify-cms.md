@@ -10,6 +10,7 @@ cms:
 date: 2017-08-15T23:15:14Z
 github_branch: master
 featured: true
+description: "Example gatsby + netlify cms project"
 ---
 
 # Gatsby + Netlify CMS Starter

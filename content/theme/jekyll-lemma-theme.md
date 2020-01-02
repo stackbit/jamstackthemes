@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2014-10-23T03:14:41Z
 github_branch: gh-pages
-stale: true
+description: "Bootstrap theme for GitHub Pages (Jekyll)."
 ---

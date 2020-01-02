@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2019-01-23T18:50:25Z
 github_branch: master
+description: "A Gatsby theme to showcase your open-source work"
 ---

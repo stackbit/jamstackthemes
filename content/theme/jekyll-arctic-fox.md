@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2015-05-27T12:30:56Z
 github_branch: master
-stale: true
+description: ":snowboarder: An even more lightweight theme for Jekyll"
 ---

@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2019-11-05
 github_branch: master
+description: "Hero is a modern fullwidth business theme for Hugo. "
 ---

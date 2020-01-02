@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2018-02-24T14:39:43Z
 github_branch: master
+description: "Massively theme for Hugo static site generator"
 ---

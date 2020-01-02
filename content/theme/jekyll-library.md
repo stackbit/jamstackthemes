@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2016-01-24T15:20:15Z
 github_branch: master
-stale: true
+description: "Create a digital bookshelf using Jekyll."
 ---

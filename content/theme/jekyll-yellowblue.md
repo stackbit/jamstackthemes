@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2015-10-16T09:59:38Z
 github_branch: master
-stale: true
+description: "Yellowblue. A free responsive Jekyll blog theme."
 ---

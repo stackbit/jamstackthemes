@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2012-06-08T23:00:07Z
 github_branch: gh-pages
-stale: true
+description: "Slate is theme for your GitHub Pages or Jekyll site. http://jasoncostello.github.io/slate"
 ---

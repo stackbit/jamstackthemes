@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2019-02-20T20:16:18Z
 github_branch: master
+description: "Gatsby Starter to launch your blog from WordPress"
 ---

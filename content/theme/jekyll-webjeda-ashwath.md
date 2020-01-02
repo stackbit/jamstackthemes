@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2017-03-22T19:17:15Z
 github_branch: master
-stale: true
+description: "Minimal Jekyll Theme with an app like layout"
 ---

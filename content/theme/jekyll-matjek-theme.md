@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2017-03-23T09:55:40Z
 github_branch: gh-pages
-stale: true
+description: "Material theme based on Materialize.css for jekyll sites"
 ---

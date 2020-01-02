@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2019-08-01T14:14:40Z
 github_branch: master
+description: "A sample GatsbyJS website using the Agility CMS Gatsby source plugin"
 ---

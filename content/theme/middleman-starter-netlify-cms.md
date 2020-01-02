@@ -9,4 +9,5 @@ cms:
   - NetlifyCMS
 date: 2018-08-14T21:03:30Z
 github_branch: master
+description: "A simple example to get started with Middleman and Netlify CMS"
 ---

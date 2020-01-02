@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2018-11-07T15:08:15Z
 github_branch: master
+description: "A jekyll theme inspired by linux consoles for hackers, developers and script kiddies."
 ---

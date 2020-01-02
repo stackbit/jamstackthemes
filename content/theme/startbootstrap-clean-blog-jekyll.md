@@ -11,4 +11,5 @@ css:
   - Bootstrap
 date: 2014-09-27T08:05:10Z
 github_branch: master
+description: "A Jekyll version of the Clean Blog theme by Start Bootstrap"
 ---

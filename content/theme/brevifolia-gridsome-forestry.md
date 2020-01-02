@@ -9,4 +9,5 @@ cms:
   - Forestry
 date: 2019-08-12T23:36:29Z
 github_branch: master
+description: "A simple starter blog built with Gridsome & Forestry"
 ---

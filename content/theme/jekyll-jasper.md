@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2015-03-25T13:16:07Z
 github_branch: master
+description: "Full-featured Jekyll port of Ghost's default theme Casper 👻"
 ---

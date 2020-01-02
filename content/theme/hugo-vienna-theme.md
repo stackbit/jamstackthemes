@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2015-02-03T06:30:25Z
 github_branch: master
-stale: true
+description: "Simple and clean blog theme for hugo"
 ---

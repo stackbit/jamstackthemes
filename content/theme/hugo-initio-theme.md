@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2017-05-30T14:34:35Z
 github_branch: master
+description: "Hugo Theme adaptation of Initio from GetTemplate"
 ---

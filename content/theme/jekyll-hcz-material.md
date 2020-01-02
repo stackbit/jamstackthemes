@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2016-06-02T07:30:03Z
 github_branch: master
-stale: true
+description: "A simple material theme for blogger"
 ---

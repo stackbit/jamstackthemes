@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2019-04-22T00:28:28Z
 github_branch: master
+description: "Gatsby starter for a personal site && blog! 🐶"
 ---

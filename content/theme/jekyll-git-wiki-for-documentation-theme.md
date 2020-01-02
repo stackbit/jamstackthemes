@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2017-04-13T18:08:39Z
 github_branch: master
+description: "A revolutionary full-featured wiki for github pages and jekyll. You don't need to compile it!"
 ---

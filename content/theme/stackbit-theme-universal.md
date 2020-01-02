@@ -15,4 +15,5 @@ cms:
   - Sanity
 date: 2019-06-24T23:17:20Z
 github_branch: master
+description: "Universal the default starter theme for Unibit"
 ---

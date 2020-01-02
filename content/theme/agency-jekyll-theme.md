@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2014-08-20T19:54:22Z
 github_branch: gh-pages
-stale: true
+description: "Agency Theme for Jekyll"
 ---
 
 Agency Theme for Jekyll

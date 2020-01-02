@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2015-08-09T19:22:58Z
 github_branch: master
-stale: true
+description: "Personal portfolio and blog for use by the Hugo generator."
 ---

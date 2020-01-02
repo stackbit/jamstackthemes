@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2019-02-17T17:31:39Z
 github_branch: master
+description: "A lightweight Hugo theme leveraging CSS Flexbox"
 ---

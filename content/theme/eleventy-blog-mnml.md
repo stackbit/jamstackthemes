@@ -7,4 +7,5 @@ ssg:
   - Eleventy
 date: 2019-07-02T13:08:30Z
 github_branch: master
+description: "A blog template using eleventy"
 ---

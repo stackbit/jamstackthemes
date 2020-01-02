@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2019-10-27
 github_branch: master
+description: "Beautiful multilingual API documentation theme for Hugo"
 ---

@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2016-06-10T18:34:46Z
 github_branch: master
-stale: true
+description: "A long-form blogging theme for Jekyll."
 ---

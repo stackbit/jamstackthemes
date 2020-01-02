@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2016-08-29T16:23:36Z
 github_branch: gh-pages
-stale: true
+description: "A jekyll based resume template"
 ---

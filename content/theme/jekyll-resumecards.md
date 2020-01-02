@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2014-12-28T20:41:56Z
 github_branch: gh-pages
-stale: true
+description: "[Unmaintained] A Markdown based resume generator. It looks great on mobile/desktop and can be saved as PDF."
 ---

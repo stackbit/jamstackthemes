@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2016-05-31T20:26:59Z
 github_branch: master
-stale: true
+description: "A simple resume theme for Jekyll"
 ---

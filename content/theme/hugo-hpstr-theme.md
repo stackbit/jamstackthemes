@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2016-09-20T06:39:12Z
 github_branch: master
-stale: true
+description: ":art: A Hugo theme based on the HPSTR Jekyll theme."
 ---

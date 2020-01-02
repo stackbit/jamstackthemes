@@ -16,4 +16,5 @@ cms:
   - Sanity
 date: 2019-05-23T18:31:33Z
 github_branch: master
+description: "Libris is a documentation theme for Stackbit"
 ---

@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2017-07-02T14:02:13Z
 github_branch: master
+description: "A high performance blog starter with Material design in mind for GatsbyJS."
 ---

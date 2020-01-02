@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2016-05-30T18:47:21Z
 github_branch: master
+description: "Stylish Two-Column Jekyll Theme"
 ---

@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2015-07-21T00:52:53Z
 github_branch: master
+description: "The default Gatsby starter"
 ---

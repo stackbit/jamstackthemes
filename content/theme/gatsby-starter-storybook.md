@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2018-11-01T10:06:05Z
 github_branch: master
+description: "👾 Gatsby Storybook Starter"
 ---

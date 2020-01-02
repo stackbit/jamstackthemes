@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2019-06-17T09:17:32Z
 github_branch: master
+description: "开箱即用的Gastby脚手架,支持系统级主题切换、MarkDown草稿、TypeScript、自定义主题..."
 ---

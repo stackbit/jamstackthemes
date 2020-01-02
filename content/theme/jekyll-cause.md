@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2016-11-16T01:59:02Z
 github_branch: master
+description: ":tulip: Not for profit template for Jekyll"
 ---

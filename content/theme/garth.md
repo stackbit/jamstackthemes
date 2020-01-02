@@ -13,6 +13,7 @@ css:
   - SCSS
 date: 2019-11-01
 github_branch: master
+description: "🥁 A really basic theme for Jekyll"
 ---
 
 🥁 A really basic theme for Jekyll, using the official Jekyll theme implementation.

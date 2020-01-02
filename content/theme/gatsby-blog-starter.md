@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2018-12-25T17:01:37Z
 github_branch: master
+description: "A Gatsby Blog Starter with Styled Components "
 ---

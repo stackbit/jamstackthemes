@@ -7,5 +7,5 @@ ssg:
   - Jekyll
 date: 2019-10-29
 github_branch: master
-stale: true
+description: "Simpol Theme is a clean, minimal website theme all about the writing, the content. Currently available for Jekyll. Perfect for blogging."
 ---

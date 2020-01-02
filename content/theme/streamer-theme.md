@@ -9,4 +9,5 @@ cms:
   - No CMS
 date: 2019-10-14T16:19:53Z
 github_branch: master
+description: "Theme for streamer websites"
 ---

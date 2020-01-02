@@ -16,4 +16,5 @@ cms:
   - Sanity
 date: 2019-05-10T13:57:28Z
 github_branch: master
+description: "Ampersand a Medium inspired blogging theme for Stackbit"
 ---

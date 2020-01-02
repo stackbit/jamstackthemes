@@ -16,4 +16,5 @@ cms:
   - Sanity
 date: 2019-05-10T14:35:02Z
 github_branch: master
+description: "Fjord is a minimal blogging theme for Stackbit"
 ---

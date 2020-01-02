@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2014-02-07T00:14:55Z
 github_branch: master
-stale: true
+description: "Build a Jekyll blog in minutes, without touching the command line."
 ---

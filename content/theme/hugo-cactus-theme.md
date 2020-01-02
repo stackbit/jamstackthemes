@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2015-06-18T16:26:37Z
 github_branch: master
+description: "Port of Nick Balestra's Cactus theme to Hugo."
 ---

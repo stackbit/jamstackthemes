@@ -13,4 +13,5 @@ cms:
   - NetlifyCMS
   - Sanity
 date: 2019-05-10T14:36:46Z
+description: "Fresh a personal theme with a blog for Stackbit"
 ---

@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2018-12-19T22:42:37Z
 github_branch: master
+description: "Blog starter made with Gatbsy.js"
 ---

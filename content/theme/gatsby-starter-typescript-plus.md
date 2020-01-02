@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2018-02-12T18:34:22Z
 github_branch: master
+description: "A starter kit for TypeScript-based Gatsby projects with sensible defaults."
 ---

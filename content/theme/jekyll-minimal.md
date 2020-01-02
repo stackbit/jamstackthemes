@@ -10,5 +10,5 @@ cms:
   - No Cms
 date: 2012-04-05T13:10:55Z
 github_branch: master
-stale: true
+description: "A Theme for GitHub Pages"
 ---
