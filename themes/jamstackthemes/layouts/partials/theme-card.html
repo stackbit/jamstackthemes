@@ -4,7 +4,6 @@
   class="grid theme {{ .classes }} {{ range .theme.Params.ssg }}{{ . | urlize }} {{ end }}{{ range .theme.Params.cms }}{{ . | urlize }} {{end}}{{ range .theme.Params.css }}{{ . | urlize }} {{end}}{{ range .theme.Params.archetype }}{{ . | urlize }} {{end}}{{ range .theme.Params.services }}{{ . | urlize }} {{end}}"
   data-stars="{{ if .repo }}{{ .repo.stars }}{{ else }}0{{ end }}"
   data-last-commit="{{ if .repo }}{{ .repo.last_commit }}{{ end }}"
-  data-name="{{ .theme.Params.Title | urlize }}"
   data-submitted="{{ .theme.Lastmod.Format "Jan 2, 2006" }}"
 >
   {{ $githubLink := .theme.Params.github }}
@@ -12,11 +11,10 @@
     {{ $githubLink = (printf "%s/%s/%s" $githubLink "tree" .theme.Params.github_branch)}}
   {{ end }}
 
-  <a class="theme-overlay" href="{{ .theme.Permalink }}" title="{{ .theme.Params.title }}"></a>
-
   <div class="theme-header">
+    <a href="{{ .theme.Permalink }}" title="{{ .theme.Params.title }}">
       {{ if .theme.Params.thumbnail }}
-        <img loading="lazy" src="{{ .theme.Params.thumbnail | relURL }}" alt="{{ .theme.Params.title }} screenshot" />
+      <img loading="lazy" src="{{ .theme.Params.thumbnail | relURL }}" alt="{{ .theme.Params.title }} screenshot" />
       {{ else if .repo }}
           {{ $staticPath := (printf "%s/%s%s" "static/images/theme/thumbnail" .repo.theme_key ".jpg") }}
           {{ $filePath := (printf "%s/%s%s" "images/theme/thumbnail" .repo.theme_key ".jpg") }}
@@ -40,6 +38,7 @@
       {{ else }}
         <img src="{{ "images/default.png" | relURL }}" loading="lazy" alt="{{ .theme.Params.title }} screenshot" />
       {{ end }}
+    </a>
   </div>
 
   <div class="theme-body">
@@ -100,4 +99,5 @@
       {{ end }}
     {{ end }}
   </div>
+
 </div>

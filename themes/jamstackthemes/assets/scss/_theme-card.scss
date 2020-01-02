@@ -30,6 +30,9 @@
     border-bottom: 1px solid $grey;
     max-height: 180px;
     overflow: hidden;
+    a {
+      display: block;
+    }
     img {
       max-width: 100%;
       height: auto;
