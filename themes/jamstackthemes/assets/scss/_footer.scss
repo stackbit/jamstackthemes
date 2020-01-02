@@ -32,6 +32,8 @@
     margin-bottom: 20px;
   }
   a {
+    display: block;
+    margin-bottom: 8px;
     color: $primary;
     text-decoration: none;
     &:hover {
@@ -48,7 +50,7 @@
     list-style: none;
     margin-right: 20px;
     li {
-      margin-bottom: 8px;
+      
       line-height: 18px;
       a {
         // color: darken($steel, 10%);

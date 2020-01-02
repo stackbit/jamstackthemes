@@ -55,11 +55,10 @@
 {{ define "footer_js" }}
 {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
 {{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
-{{ $mixitupPagination := resources.Get "js/libs/mixitup-pagination.js" }}
 {{ $filterHash := resources.Get "js/filter-hash.js" }}
 {{ $filter := resources.Get "js/filter.js" }}
 {{ $scripts := resources.Get "js/scripts.js" }}
-{{ $bundle := slice $mixitup $mixitupMultiFilter $mixitupPagination $filterHash $filter $scripts  | resources.Concat "js/AllThemes.js" }}
+{{ $bundle := slice $mixitup $mixitupMultiFilter $filterHash $filter $scripts  | resources.Concat "js/AllThemes.js" }}
 {{ if .Site.IsServer }}
   <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
   {{ else }}

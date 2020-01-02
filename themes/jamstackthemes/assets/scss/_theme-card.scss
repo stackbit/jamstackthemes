@@ -11,6 +11,7 @@
   transition: color 0.3s, box-shadow 0.3s, transform 0.3s;
   position: relative;
   z-index: 1;
+  min-height: 400px;
   &:hover {
     transform: translateY(-3px);
     box-shadow: 1px 5px 16px 2px adjust-color($primary, $alpha: -0.8);
@@ -46,6 +47,7 @@
     flex: 1;
     padding: 20px;
     min-height: 170px;
+    background: white;
     h2 {
       font-size: 20px;
       line-height: 26px;
@@ -53,6 +55,17 @@
       font-family: $font-family-heading;
       margin: 0;
       margin-bottom: 10px;
+    }
+    p {
+      color: $steel;
+      font-size: 13px;
+      margin: 0 0 3px 0;
+      strong {
+        color: $carbon;
+      }
+      &.description {
+        margin-top: 10px;
+      }
     }
     .theme-fresh {
       display: flex;
