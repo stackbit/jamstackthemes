@@ -13,19 +13,11 @@
 {{ define "main" }}
 {{ $themes := (where .Site.RegularPages "Type" "theme") }}
 {{ $themes := (where $themes ".Params.draft" "!=" true) }}
-{{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themes := (where $themes ".Params.stale" "!=" true) }}
 {{ $themeCount := len $themes}}
 
-{{ range $themes.ByPublishDate.Reverse }}
-{{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
-{{ $repo := index .Site.Data.themes $repoName }}
-  {{ if $repo.stale }}
-    {{ $themeCount = sub $themeCount 1 }}
-  {{ end }}
-{{ end }}
-
 <div class="sidebar">
-  {{ partial "filters.html" . }}
+  {{ partial "filters.html" (dict "context" . "countAll" false) }}
   {{ partial "stackbit.html" . }}
 </div>
 
@@ -47,11 +39,7 @@
     {{ range $themes.ByPublishDate.Reverse }}
       {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
       {{ $repo := index .Site.Data.themes $repoName }}
-        {{ if $repo.stale }}
-        {{ $repo.stale }}
-        {{ else }}
-          {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
-        {{ end }}
+        {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
     {{ end }}
   </div>
 

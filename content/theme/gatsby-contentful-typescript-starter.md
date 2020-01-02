@@ -9,4 +9,5 @@ cms:
   - Contentful
 date: 2018-10-01T21:52:18Z
 github_branch: master
+stale: true
 ---

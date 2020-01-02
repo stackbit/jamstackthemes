@@ -50,6 +50,7 @@ for (const themeKey of themeKeys) {
   // entry for stale setting.
   if (isThemeStale != frontmatter.stale) {
     newFrontmatterEntries.push('stale: ' + isThemeStale);
+    // newFrontmatterEntries.push('draft: ' + isThemeStale);
   }
 
   // If the github branch is missing, generate new frontmatter entry
@@ -65,6 +66,7 @@ for (const themeKey of themeKeys) {
 
     if (frontmatter.stale != undefined) {
       frontmatterLines = fileData.toString().split('\n').filter((entry) => !/^\s*stale:/.test(entry));
+      // frontmatterLines = fileData.toString().split('\n').filter((entry) => !/^\s*draft:/.test(entry));
     } else {
       frontmatterLines = fileData.toString().split('\n');
     }

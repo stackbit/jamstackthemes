@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2015-07-11T17:47:40Z
 github_branch: gh-pages
+stale: true
 ---

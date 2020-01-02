@@ -17,7 +17,7 @@ All Themes ({{ $themeCount }})
 {{ $themeCount := len $themes}}
 
 <div class="sidebar">
-  {{ partial "filters.html" . }}
+  {{ partial "filters.html" (dict "context" . "countAll" true) }}
   {{ partial "stackbit.html" . }}
 </div>
 

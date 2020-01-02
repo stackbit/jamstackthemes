@@ -56,7 +56,7 @@ function getTriggerGroup(event) {
 function updateFilterCounts(state, futureState) {
   
   // console.log("state", state);
-  console.log("futureState", futureState)
+  // console.log("futureState", futureState)
 
   let triggerGroup = getTriggerGroup(futureState.triggerElement)
   let totalMatching = futureState.targets.map(theme => theme.className.trim().split(" "));
