@@ -17,19 +17,43 @@ The markdown file should contain the following front-matter.
 title: "My Theme Name"
 github: https://github.com/username/repo
 demo: https://www.demo.com
-author: Unknown Author
+author: Github Author
 date: 2019-08-20 # This is the date you submitted the theme YYYY-MM-DD
 github_branch: master # This is the repos default branch
 ssg:
   - Gridsome
 cms:
   - NetlifyCMS
+css:
+  - Bootstrap
+archetype:
+  - Blog
+  - Portfolio
+services:
+  - Snipcart
+  - Formstack
+description: This theme is a lightweight Gridsome starter kit which is perfect for a blog or a portfolio
 ---
+
+# A simple starter kit for Gridsome
+
+This theme is a lightweight starter kit. It also gives you a well organised starting point to extend it for yourself.
+
+## Features
+
+* Customisable design tokens to make it your own  
+* Customisable global data and navigation  
+* Tags and tag archives  
+* Progressively enhanced, semantic and accessible  
+* _Super_ lightweight front-end  
+* Sass powered CSS system with utility class generator  
+* Service worker that caches pages so people can read your articles offline  
+* An RSS feed for your posts
+
 ```
 
 Github stars and last commit date are generated at build time.
 Images will be generated at build time. A screenshort of the `demo` URL will be taken and resized automatically.
-
 
 ## Contribution Guidelines
 

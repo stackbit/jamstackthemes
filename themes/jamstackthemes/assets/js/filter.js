@@ -10,8 +10,9 @@ const mixer = mixitup('#grids-homepage', {
   selectors: {
     target: '.grid'
   },
-  load: {
-    sort: 'last-commit:desc'
+  pagination: {
+    limit: 50,
+    maintainActivePage: false
   },
   callbacks: {
     onMixStart: function(state, futureState) {
@@ -23,14 +24,15 @@ const mixer = mixitup('#grids-homepage', {
     },
     onMixClick: function(state, originalEvent) {
     },
+    onParseFilterGroups: handleParseFilterGroups,
     onMixEnd: setHash
   }
 });
 
 const ssgGroup = ["brunch", "eleventy", "gatsby", "gridsome", "hexo", "hugo", "jekyll", "middleman", "mkdocs", "nuxt", "pelican", "vuepress"]
 const cmsGroup = ["airtable", "contentful", "datocms", "firebase", "forestry", "ghost", "netlifycms", "no-cms", "sanity", "wordpress"]
-const cssGroup = ["bootstrap"]
-const archetypeGroup = ["business", "multi-purpose","blog", "single-page", "ecommerce"]
+const cssGroup = ["bootstrap", "scss"]
+const archetypeGroup = ["agency", "portfolio", "business", "multi-purpose", "blog", "single-page", "ecommerce"]
 const servicesGroup = ["snipcart"]
 
 const groups = {
@@ -41,12 +43,22 @@ const groups = {
   services: servicesGroup
 }
 
+function getTriggerGroup(event) {
+  triggerGroup = null;
+  if (!event) {
+    return triggerGroup
+  } else if (event.classList.contains('filter-button')) {
+    triggerGroup = event.parentNode.parentNode.parentNode.id.slice(13);
+  };
+  return triggerGroup;
+}
+
 function updateFilterCounts(state, futureState) {
   
   // console.log("state", state);
-  // console.log("futureState", futureState)
+  console.log("futureState", futureState)
 
-  let triggerGroup = futureState.triggerElement ? futureState.triggerElement.parentNode.parentNode.parentNode.id.slice(13) : null
+  let triggerGroup = getTriggerGroup(futureState.triggerElement)
   let totalMatching = futureState.targets.map(theme => theme.className.trim().split(" "));
   let matching = futureState.matching.map(theme => theme.className.trim().split(" "));
 
@@ -66,6 +78,8 @@ function updateFilterCounts(state, futureState) {
     } else {
       if (group === triggerGroup) {
         resetCount(groups[group], totalMatching);
+      } else if (!triggerGroup) {
+        
       } else {
         updateCount(groups[group], matching);
       } 

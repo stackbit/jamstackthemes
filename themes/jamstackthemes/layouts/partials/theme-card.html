@@ -45,9 +45,7 @@
   <div class="theme-body">
     <h2>{{ .theme.Params.title }}</h2>
     {{ if .repo }}
-      <span style="float: right">
-      {{ partial "star.html" (dict "stars" .repo.stars)}}
-      </span>
+      {{ partial "star.html" (dict "stars" .repo.stars "float" "right")}}
     {{ end }}
     <div class="author">
       <span class="author-label">Author:</span> 
