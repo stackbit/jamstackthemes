@@ -2976,6 +2976,21 @@
     "description": "Install a Cosmic-powered Gatsby app in seconds 🔥 ",
     "stale": false
   },
+  "cotes2020-jekyll-theme-chirpy-master": {
+    "theme_key": "cotes2020-jekyll-theme-chirpy-master",
+    "file": "jekyll-theme-chirpy.md",
+    "name": "jekyll-theme-chirpy",
+    "github_username": "cotes2020",
+    "repo": "cotes2020/jekyll-theme-chirpy",
+    "branch": "master",
+    "url": "https://github.com/cotes2020/jekyll-theme-chirpy",
+    "stars": 29,
+    "forks": 39,
+    "open_issues": 1,
+    "last_commit": "2020-01-01T17:22:35Z",
+    "created_at": "2019-01-12T07:37:30Z",
+    "stale": false
+  },
   "cssandstuff-hugo-theme-winning-master": {
     "theme_key": "cssandstuff-hugo-theme-winning-master",
     "file": "hugo-theme-winning.md",
