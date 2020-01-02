@@ -5,7 +5,7 @@
       <h3>SSG </h3>
       <span class="toggle-info">
         <a href="https://www.staticgen.com" target="_blank" rel="noopener" class="tooltip" title="staticgen.com - StaticGen Rankings" data-tippy-content="StaticGen Rankings">
-          <svg height='20px' width='20px'  fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" x="0px" y="0px"><path d="M50,12.06A37.94,37.94,0,1,0,87.94,50,38,38,0,0,0,50,12.06Zm0,6A32,32,0,0,1,81.79,47H66a3,3,0,0,0-2.47,1.29l-6.16,8.9L45.66,34.62a3,3,0,0,0-5.19-.24L32.36,47H18.21A32,32,0,0,1,50,18.06Zm0,63.88A32,32,0,0,1,18.21,53H34a3,3,0,0,0,2.52-1.38L42.72,42l11.62,22.4A3,3,0,0,0,56.81,66H57a3,3,0,0,0,2.47-1.29L67.57,53H81.79A32,32,0,0,1,50,81.94Z"></path></svg>
+          <img src="{{ "images/ui/pulse.svg" | relURL }}"/>
         </a>
       </span>
       {{ partial "toggle-icon.html" . }}
@@ -15,7 +15,6 @@
       <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
         {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
         <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
-        <!-- <a class="filter-link" href="{{ .Page.Permalink | relURL }}">{{ .Page.Title }}</a> -->
         <span class="filter-name">{{ .Page.Title }}</span>
         <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ .Count }}</span>
       </li>
@@ -28,7 +27,7 @@
       <h3>CMS</h3>
       <span class="toggle-info">
         <a href="https://www.headlesscms.org" target="_blank" rel="noopener" class="tooltip" title="headlesscms.org - HeadlessCMS Rankings" data-tippy-content="HeadlessCMS Rankings">
-          <svg height='20px' width='20px'  fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" x="0px" y="0px"><path d="M50,12.06A37.94,37.94,0,1,0,87.94,50,38,38,0,0,0,50,12.06Zm0,6A32,32,0,0,1,81.79,47H66a3,3,0,0,0-2.47,1.29l-6.16,8.9L45.66,34.62a3,3,0,0,0-5.19-.24L32.36,47H18.21A32,32,0,0,1,50,18.06Zm0,63.88A32,32,0,0,1,18.21,53H34a3,3,0,0,0,2.52-1.38L42.72,42l11.62,22.4A3,3,0,0,0,56.81,66H57a3,3,0,0,0,2.47-1.29L67.57,53H81.79A32,32,0,0,1,50,81.94Z"></path></svg>
+          <img src="{{ "images/ui/pulse.svg" | relURL }}"/>
         </a>
       </span>
       <span class="toggle-icon" role="button" aria-expanded="true" tabindex="0">
@@ -40,7 +39,6 @@
       <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
         {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
         <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
-        <!-- <a class="filter-link" href="{{ .Page.Permalink | relURL }}">{{ .Page.Title }}</a> -->
         <span class="filter-name">{{ .Page.Title }}</span>
         <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ .Count }}</span>
       </li>
@@ -60,7 +58,6 @@
       <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
         {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
         <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
-        <!-- <a class="filter-link" href="{{ .Page.Permalink | relURL }}">{{ .Page.Title }}</a> -->
         <span class="filter-name">{{ .Page.Title }}</span>
         <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ .Count }}</span>
       </li>
@@ -80,7 +77,6 @@
       <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
         {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
         <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
-        <!-- <a class="filter-link" href="{{ .Page.Permalink | relURL }}">{{ .Page.Title }}</a> -->
         <span class="filter-name">{{ .Page.Title }}</span>
         <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ .Count }}</span>
       </li>

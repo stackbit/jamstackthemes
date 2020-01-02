@@ -1,0 +1,42 @@
+{{ define "title" }}JAMstack Themes{{ end }}
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-home{{ end }}
+
+{{ define "meta_tags" }}
+{{ $themes := (where .Site.RegularPages "Type" "theme") }}
+{{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themeCount := len $themes}}
+<meta name="description" content="The most popular list of themes and starters for JAMstack sites. Over {{ $themeCount }} free static site generator themes for Hugo, Gatsby, Jekyll, Gridsome & more." />
+<link rel="canonical" href="https://jamstackthemes.dev" />
+{{ end }}
+
+{{ define "main" }}
+{{ $themes := (where .Site.RegularPages "Type" "theme") }}
+{{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themeCount := len $themes}}
+
+<div class="main">
+  {{ partial "main-menu-mobile.html" . }}
+  <div class="intro">
+    <h1>New Themes</h1>
+  </div>
+
+  <div>
+    <div class="blurb blurb-desktop"><p>A list of themes and starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites. We're the largest gallery of user submitted, open source themes for static site generators 🦖. This site is maintained with <a href="https://github.com/stackbithq/jamstackthemes#contribution-guidelines">community contributions</a> and with the kind support of <a href="https://www.stackbit.com">stackbit.com.</a></p></div>
+    <div class="blurb blurb-mobile"><p>A list of themes and starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites.</p></div>
+  </div>
+
+  <div id="grids-homepage" class="grids">
+    {{ $paginator := .Paginate $themes.ByPublishDate.Reverse }}
+    {{ range $paginator.Pages }}
+
+    {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
+    {{ $repo := index .Site.Data.themes $repoName }}
+      {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
+    {{ end }}
+  </div>
+  {{ $paginator := .Paginator }}
+  {{ partial "pagination.html" . }}
+
+</div>
+{{ end }}

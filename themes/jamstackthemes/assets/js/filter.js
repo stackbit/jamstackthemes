@@ -10,10 +10,10 @@ const mixer = mixitup('#grids-homepage', {
   selectors: {
     target: '.grid'
   },
-  pagination: {
-    limit: 50,
-    maintainActivePage: false
-  },
+  // pagination: {
+  //   limit: 50,
+  //   maintainActivePage: false
+  // },
   callbacks: {
     onMixStart: function(state, futureState) {
       let total = futureState.totalShow;

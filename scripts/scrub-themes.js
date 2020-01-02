@@ -48,9 +48,9 @@ for (const themeKey of themeKeys) {
 
   // If there is a change in the stale state, generate new frontmatter 
   // entry for stale setting.
-  // if (isThemeStale != frontmatter.stale) {
-  //   newFrontmatterEntries.push('stale: ' + isThemeStale);
-  // }
+  if (isThemeStale != frontmatter.stale) {
+    newFrontmatterEntries.push('stale: ' + isThemeStale);
+  }
 
   // If the github branch is missing, generate new frontmatter entry
   // for github branch setting.
