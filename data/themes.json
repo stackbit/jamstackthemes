@@ -10,10 +10,9 @@
     "stars": 179,
     "forks": 118,
     "open_issues": 22,
-    "last_commit": "2019-11-11T22:22:08Z",
+    "last_commit": "2020-01-01T11:59:27Z",
     "created_at": "2018-01-15T19:28:07Z",
-    "description": "A starter repository for a blog web site using the Eleventy static site generator.",
-    "stale": false
+    "description": "A starter repository for a blog web site using the Eleventy static site generator."
   },
   "12vanblart-gridsome-airtable-starter-master": {
     "theme_key": "12vanblart-gridsome-airtable-starter-master",
@@ -74,10 +73,9 @@
     "stars": 3,
     "forks": 4,
     "open_issues": 0,
-    "last_commit": "2019-04-29T19:44:02Z",
+    "last_commit": "2019-06-26T07:54:34Z",
     "created_at": "2019-04-26T22:45:03Z",
-    "description": null,
-    "stale": false
+    "description": null
   },
   "abhn-soot-spirits-master": {
     "theme_key": "abhn-soot-spirits-master",
@@ -122,10 +120,9 @@
     "stars": 56,
     "forks": 5,
     "open_issues": 0,
-    "last_commit": "2017-08-25T03:47:57Z",
+    "last_commit": "2019-02-08T14:59:03Z",
     "created_at": "2016-05-25T02:35:00Z",
-    "description": "Community Software",
-    "stale": true
+    "description": "Community Software"
   },
   "achary-engimo-master": {
     "theme_key": "achary-engimo-master",
@@ -154,9 +151,10 @@
     "stars": 1,
     "forks": 0,
     "open_issues": 0,
-    "last_commit": "2019-08-04T09:10:32Z",
+    "last_commit": "2019-05-31T16:20:49Z",
     "created_at": "2019-05-31T16:02:20Z",
-    "description": "ACT: Gatsby starter for blog/documentation using MDX, Ant Design, gatsby-plugin-combine"
+    "description": "ACT: Gatsby starter for blog/documentation using MDX, Ant Design, gatsby-plugin-combine",
+    "stale": false
   },
   "adagio-cantabile-adagio-cantabile.github.io-master": {
     "theme_key": "adagio-cantabile-adagio-cantabile.github.io-master",
@@ -246,9 +244,9 @@
     "repo": "aerohub/hugo-orbit-theme",
     "branch": "master",
     "url": "https://github.com/aerohub/hugo-orbit-theme",
-    "stars": 159,
+    "stars": 160,
     "forks": 73,
-    "open_issues": 6,
+    "open_issues": 7,
     "last_commit": "2017-05-15T13:04:10Z",
     "created_at": "2016-09-26T06:30:06Z",
     "description": "Great looking resume/CV theme designed for developers.",
@@ -281,10 +279,9 @@
     "stars": 3,
     "forks": 3,
     "open_issues": 4,
-    "last_commit": "2019-10-25T15:51:25Z",
+    "last_commit": "2019-10-25T15:51:32Z",
     "created_at": "2019-08-01T14:14:40Z",
-    "description": "A sample GatsbyJS website using the Agility CMS Gatsby source plugin",
-    "stale": false
+    "description": "A sample GatsbyJS website using the Agility CMS Gatsby source plugin"
   },
   "agusmakmun-agusmakmun.github.io-master": {
     "theme_key": "agusmakmun-agusmakmun.github.io-master",
@@ -345,10 +342,9 @@
     "stars": 70,
     "forks": 29,
     "open_issues": 1,
-    "last_commit": "2019-12-08T08:59:04Z",
+    "last_commit": "2019-12-28T07:31:03Z",
     "created_at": "2019-04-21T11:32:28Z",
-    "description": "An absurd Gatsby starter",
-    "stale": false
+    "description": "An absurd Gatsby starter"
   },
   "akiritsu-project-negya-master": {
     "theme_key": "akiritsu-project-negya-master",
@@ -409,9 +405,10 @@
     "stars": 24,
     "forks": 9,
     "open_issues": 3,
-    "last_commit": "2020-01-01T10:02:04Z",
+    "last_commit": "2019-09-10T06:32:23Z",
     "created_at": "2019-07-25T09:28:07Z",
-    "description": "Gatsby starter for portfolio sites"
+    "description": "Gatsby starter for portfolio sites",
+    "stale": false
   },
   "alainpham-alainpham.github.io-master": {
     "theme_key": "alainpham-alainpham.github.io-master",
@@ -664,10 +661,9 @@
     "stars": 69,
     "forks": 15,
     "open_issues": 0,
-    "last_commit": "2020-01-01T13:15:56Z",
+    "last_commit": "2020-01-01T21:42:47Z",
     "created_at": "2018-11-26T13:25:33Z",
-    "description": "🚀 + ⚛️  A Quick Way to bootstrap your next Gatsby + Bulma site.",
-    "stale": false
+    "description": "🚀 + ⚛️  A Quick Way to bootstrap your next Gatsby + Bulma site."
   },
   "ammarjabakji-gatsby-markdown-blog-starter-master": {
     "theme_key": "ammarjabakji-gatsby-markdown-blog-starter-master",
@@ -680,10 +676,9 @@
     "stars": 3,
     "forks": 5,
     "open_issues": 0,
-    "last_commit": "2019-10-11T11:06:32Z",
+    "last_commit": "2019-12-27T08:39:33Z",
     "created_at": "2019-08-28T09:16:35Z",
-    "description": "Gatsby Markdown Blog Starter, demo link:",
-    "stale": false
+    "description": "Gatsby Markdown Blog Starter, demo link:"
   },
   "anandubajith-block-log-master": {
     "theme_key": "anandubajith-block-log-master",
@@ -727,7 +722,7 @@
     "url": "https://github.com/hankchizljaw/hylia",
     "stars": 485,
     "forks": 72,
-    "open_issues": 11,
+    "open_issues": 12,
     "last_commit": "2019-12-06T22:25:11Z",
     "created_at": "2019-06-11T20:15:02Z",
     "description": "Hylia is a lightweight Eleventy starter kit to help you to create your own blog or personal website.",
@@ -744,9 +739,10 @@
     "stars": 8,
     "forks": 3,
     "open_issues": 6,
-    "last_commit": "2019-10-23T16:45:34Z",
+    "last_commit": "2019-10-23T16:41:49Z",
     "created_at": "2019-05-27T08:33:21Z",
-    "description": "The default Gatsby starter TypeScript"
+    "description": "The default Gatsby starter TypeScript",
+    "stale": false
   },
   "angelostavrow-indigo-master": {
     "theme_key": "angelostavrow-indigo-master",
@@ -823,10 +819,9 @@
     "stars": 9,
     "forks": 5,
     "open_issues": 0,
-    "last_commit": "2019-01-25T15:06:05Z",
+    "last_commit": "2019-12-13T03:51:53Z",
     "created_at": "2019-01-24T13:06:10Z",
-    "description": "A simple starter which lets you quickly start developing with Gastby and Material Design For Bootstrap",
-    "stale": false
+    "description": "A simple starter which lets you quickly start developing with Gastby and Material Design For Bootstrap"
   },
   "anoun-gatsby-starter-material-business-markdown-master": {
     "theme_key": "anoun-gatsby-starter-material-business-markdown-master",
@@ -871,9 +866,10 @@
     "stars": 5,
     "forks": 1,
     "open_issues": 0,
-    "last_commit": "2019-11-21T10:20:42Z",
+    "last_commit": "2019-07-05T17:23:40Z",
     "created_at": "2019-05-11T14:53:26Z",
-    "description": "Gatsby.js V2 starter template based on aerial  by HTML5 UP"
+    "description": "Gatsby.js V2 starter template based on aerial  by HTML5 UP",
+    "stale": false
   },
   "anubhavsrivastava-gatsby-starter-casual-master": {
     "theme_key": "anubhavsrivastava-gatsby-starter-casual-master",
@@ -886,9 +882,10 @@
     "stars": 2,
     "forks": 1,
     "open_issues": 0,
-    "last_commit": "2019-12-23T11:22:00Z",
+    "last_commit": "2019-12-23T11:21:57Z",
     "created_at": "2019-06-27T11:35:02Z",
-    "description": "Gatsby.js V2 starter template based on Casual by startbootstrap"
+    "description": "Gatsby.js V2 starter template based on Casual by startbootstrap",
+    "stale": false
   },
   "anubhavsrivastava-gatsby-starter-directive-master": {
     "theme_key": "anubhavsrivastava-gatsby-starter-directive-master",
@@ -901,9 +898,10 @@
     "stars": 3,
     "forks": 2,
     "open_issues": 0,
-    "last_commit": "2019-11-05T09:49:33Z",
+    "last_commit": "2019-07-05T18:25:15Z",
     "created_at": "2019-06-07T18:46:04Z",
-    "description": "Gatsby.js V2 starter template based on Directive by HTML5 UP"
+    "description": "Gatsby.js V2 starter template based on Directive by HTML5 UP",
+    "stale": false
   },
   "anubhavsrivastava-gatsby-starter-eventually-master": {
     "theme_key": "anubhavsrivastava-gatsby-starter-eventually-master",
@@ -916,9 +914,10 @@
     "stars": 12,
     "forks": 4,
     "open_issues": 0,
-    "last_commit": "2019-11-28T09:05:13Z",
+    "last_commit": "2019-07-05T18:25:42Z",
     "created_at": "2019-05-12T07:05:30Z",
-    "description": "Gatsby.js V2 starter template based on Eventually by HTML5 UP"
+    "description": "Gatsby.js V2 starter template based on Eventually by HTML5 UP",
+    "stale": false
   },
   "anubhavsrivastava-gatsby-starter-fractal-master": {
     "theme_key": "anubhavsrivastava-gatsby-starter-fractal-master",
@@ -931,9 +930,10 @@
     "stars": 2,
     "forks": 0,
     "open_issues": 0,
-    "last_commit": "2019-10-14T21:04:38Z",
+    "last_commit": "2019-07-05T18:26:56Z",
     "created_at": "2019-06-15T06:39:38Z",
-    "description": "Gatsby.js V2 starter template based on Fractal by HTML5 UP"
+    "description": "Gatsby.js V2 starter template based on Fractal by HTML5 UP",
+    "stale": false
   },
   "anubhavsrivastava-gatsby-starter-grayscale-master": {
     "theme_key": "anubhavsrivastava-gatsby-starter-grayscale-master",
@@ -1266,10 +1266,9 @@
     "stars": 3,
     "forks": 0,
     "open_issues": 2,
-    "last_commit": "2020-01-01T16:08:33Z",
+    "last_commit": "2020-01-01T16:08:36Z",
     "created_at": "2019-07-02T13:08:30Z",
-    "description": "A blog template using eleventy",
-    "stale": false
+    "description": "A blog template using eleventy"
   },
   "artemsheludko-adam-blog-master": {
     "theme_key": "artemsheludko-adam-blog-master",
@@ -1314,10 +1313,9 @@
     "stars": 335,
     "forks": 827,
     "open_issues": 12,
-    "last_commit": "2019-08-16T07:05:31Z",
+    "last_commit": "2019-12-30T00:14:23Z",
     "created_at": "2017-09-14T13:16:08Z",
-    "description": "Flexible-Jekyll is a simple and clean theme for Jekyll",
-    "stale": false
+    "description": "Flexible-Jekyll is a simple and clean theme for Jekyll"
   },
   "artemsheludko-fresh-master": {
     "theme_key": "artemsheludko-fresh-master",
@@ -1407,13 +1405,12 @@
     "repo": "aslammultidots/blogger",
     "branch": "master",
     "url": "https://github.com/aslammultidots/blogger",
-    "stars": 17,
+    "stars": 18,
     "forks": 6,
     "open_issues": 0,
-    "last_commit": "2019-02-26T09:00:55Z",
+    "last_commit": "2020-01-02T11:47:49Z",
     "created_at": "2019-02-25T05:18:26Z",
-    "description": "A Gatsby demo for blogging",
-    "stale": false
+    "description": "A Gatsby demo for blogging"
   },
   "aspirethemes-type-master": {
     "theme_key": "aspirethemes-type-master",
@@ -1440,7 +1437,7 @@
     "branch": "master",
     "url": "https://github.com/avianto/hugo-kiera",
     "stars": 92,
-    "forks": 85,
+    "forks": 86,
     "open_issues": 17,
     "last_commit": "2019-09-22T14:33:15Z",
     "created_at": "2017-11-13T00:53:41Z",
@@ -1488,7 +1485,7 @@
     "branch": "master",
     "url": "https://github.com/azmelanar/hugo-theme-pixyll",
     "stars": 104,
-    "forks": 34,
+    "forks": 35,
     "open_issues": 4,
     "last_commit": "2019-08-24T10:19:38Z",
     "created_at": "2014-11-15T12:25:29Z",
@@ -1522,10 +1519,9 @@
     "stars": 3,
     "forks": 0,
     "open_issues": 6,
-    "last_commit": "2019-10-29T22:49:07Z",
+    "last_commit": "2019-10-29T22:49:22Z",
     "created_at": "2019-08-24T20:24:33Z",
-    "description": null,
-    "stale": false
+    "description": null
   },
   "bake-solar-theme-hugo-master": {
     "theme_key": "bake-solar-theme-hugo-master",
@@ -1570,10 +1566,9 @@
     "stars": 21,
     "forks": 17,
     "open_issues": 1,
-    "last_commit": "2019-11-09T20:53:30Z",
+    "last_commit": "2019-12-25T11:29:27Z",
     "created_at": "2019-01-24T16:12:40Z",
-    "description": "Source for my blazing fast blog",
-    "stale": false
+    "description": "Source for my blazing fast blog"
   },
   "baobabkoodaa-gatsby-starter-infinite-scroll-master": {
     "theme_key": "baobabkoodaa-gatsby-starter-infinite-scroll-master",
@@ -1615,8 +1610,8 @@
     "repo": "barryclark/jekyll-now",
     "branch": "master",
     "url": "https://github.com/barryclark/jekyll-now",
-    "stars": 6420,
-    "forks": 26378,
+    "stars": 6422,
+    "forks": 26379,
     "open_issues": 173,
     "last_commit": "2018-04-12T03:31:03Z",
     "created_at": "2014-02-07T00:14:55Z",
@@ -1650,9 +1645,10 @@
     "stars": 7,
     "forks": 0,
     "open_issues": 0,
-    "last_commit": "2019-12-26T03:22:05Z",
+    "last_commit": "2019-12-19T02:07:27Z",
     "created_at": "2019-08-06T01:31:05Z",
-    "description": "A full-featured AWS Amplify Auth starter made with GatsbyJS"
+    "description": "A full-featured AWS Amplify Auth starter made with GatsbyJS",
+    "stale": false
   },
   "bencentra-centrarium-master": {
     "theme_key": "bencentra-centrarium-master",
@@ -1681,10 +1677,9 @@
     "stars": 2,
     "forks": 1,
     "open_issues": 0,
-    "last_commit": "2019-06-10T07:07:30Z",
+    "last_commit": "2019-07-31T21:25:50Z",
     "created_at": "2019-06-10T01:54:29Z",
-    "description": "Gatsby starter with redux and sagas made simpler by https://kea.js.org",
-    "stale": false
+    "description": "Gatsby starter with redux and sagas made simpler by https://kea.js.org"
   },
   "benjamingrobertson-gatsby-starter-accessibility-master": {
     "theme_key": "benjamingrobertson-gatsby-starter-accessibility-master",
@@ -1697,9 +1692,10 @@
     "stars": 4,
     "forks": 0,
     "open_issues": 0,
-    "last_commit": "2019-09-26T19:21:17Z",
+    "last_commit": "2019-05-01T20:10:35Z",
     "created_at": "2019-05-01T15:58:21Z",
-    "description": "A Gatsby starter with powerful built-in accessibility tools."
+    "description": "A Gatsby starter with powerful built-in accessibility tools.",
+    "stale": false
   },
   "benradford-slate-and-simple-jekyll-theme-master": {
     "theme_key": "benradford-slate-and-simple-jekyll-theme-master",
@@ -1710,7 +1706,7 @@
     "branch": "master",
     "url": "https://github.com/benradford/Slate-and-Simple-Jekyll-Theme",
     "stars": 15,
-    "forks": 22,
+    "forks": 23,
     "open_issues": 0,
     "last_commit": "2019-06-12T13:47:48Z",
     "created_at": "2017-05-28T01:14:55Z",
@@ -1725,13 +1721,12 @@
     "repo": "bep/docuapi",
     "branch": "master",
     "url": "https://github.com/bep/docuapi",
-    "stars": 346,
+    "stars": 347,
     "forks": 109,
     "open_issues": 10,
-    "last_commit": "2019-11-15T18:29:10Z",
+    "last_commit": "2020-01-02T10:21:55Z",
     "created_at": "2016-10-17T19:02:31Z",
-    "description": "Beautiful multilingual API documentation theme for Hugo",
-    "stale": false
+    "description": "Beautiful multilingual API documentation theme for Hugo"
   },
   "bijenkorf-james-wakefield-gatsby-firebase-hosting-starter-master": {
     "theme_key": "bijenkorf-james-wakefield-gatsby-firebase-hosting-starter-master",
@@ -1744,10 +1739,9 @@
     "stars": 8,
     "forks": 2,
     "open_issues": 0,
-    "last_commit": "2019-04-11T07:18:38Z",
+    "last_commit": "2019-12-18T11:47:42Z",
     "created_at": "2019-04-03T12:36:08Z",
-    "description": "Gatsby starter with Firebase hosting configuration",
-    "stale": false
+    "description": "Gatsby starter with Firebase hosting configuration"
   },
   "billyfish152-renge-master": {
     "theme_key": "billyfish152-renge-master",
@@ -1870,7 +1864,7 @@
     "branch": "master",
     "url": "https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll",
     "stars": 1488,
-    "forks": 1387,
+    "forks": 1386,
     "open_issues": 14,
     "last_commit": "2019-09-16T22:09:07Z",
     "created_at": "2014-09-27T08:05:10Z",
@@ -1936,10 +1930,9 @@
     "stars": 41,
     "forks": 13,
     "open_issues": 1,
-    "last_commit": "2019-04-17T20:23:31Z",
+    "last_commit": "2019-12-31T05:08:42Z",
     "created_at": "2019-01-09T23:04:36Z",
-    "description": "Beautiful Gatsby Material UI Business Starter",
-    "stale": false
+    "description": "Beautiful Gatsby Material UI Business Starter"
   },
   "borekb-gatsby-starter-mobx-master": {
     "theme_key": "borekb-gatsby-starter-mobx-master",
@@ -1984,10 +1977,9 @@
     "stars": 12,
     "forks": 9,
     "open_issues": 0,
-    "last_commit": "2019-09-21T14:38:21Z",
+    "last_commit": "2019-12-09T14:06:58Z",
     "created_at": "2018-12-25T17:01:37Z",
-    "description": "A Gatsby Blog Starter with Styled Components ",
-    "stale": false
+    "description": "A Gatsby Blog Starter with Styled Components "
   },
   "boywithsilverwings-gatsby-careers-page-master": {
     "theme_key": "boywithsilverwings-gatsby-careers-page-master",
@@ -2000,10 +1992,9 @@
     "stars": 5,
     "forks": 1,
     "open_issues": 0,
-    "last_commit": "2018-12-29T19:52:49Z",
+    "last_commit": "2019-07-07T21:08:06Z",
     "created_at": "2018-12-29T17:56:56Z",
-    "description": "Job Listing Page",
-    "stale": true
+    "description": "Job Listing Page"
   },
   "bradykondek-streamer-master": {
     "theme_key": "bradykondek-streamer-master",
@@ -2064,10 +2055,9 @@
     "stars": 10,
     "forks": 0,
     "open_issues": 10,
-    "last_commit": "2019-12-20T18:27:39Z",
+    "last_commit": "2019-12-20T18:27:56Z",
     "created_at": "2019-05-08T23:32:18Z",
-    "description": "⚛️ My preferred configuration for Gatsby DatoCMS projects",
-    "stale": false
+    "description": "⚛️ My preferred configuration for Gatsby DatoCMS projects"
   },
   "brunch-brunch.github.io-source": {
     "theme_key": "brunch-brunch.github.io-source",
@@ -2176,9 +2166,10 @@
     "stars": 2,
     "forks": 4,
     "open_issues": 0,
-    "last_commit": "2019-05-16T16:28:59Z",
+    "last_commit": "2019-05-16T16:28:57Z",
     "created_at": "2019-01-22T19:39:01Z",
-    "description": "A starter template for spinning up a Gatsby+ ButterCMS site"
+    "description": "A starter template for spinning up a Gatsby+ ButterCMS site",
+    "stale": false
   },
   "caki0915-gatsby-starter-redux-master": {
     "theme_key": "caki0915-gatsby-starter-redux-master",
@@ -2223,9 +2214,10 @@
     "stars": 258,
     "forks": 60,
     "open_issues": 6,
-    "last_commit": "2019-12-31T08:00:14Z",
+    "last_commit": "2019-05-17T13:35:02Z",
     "created_at": "2017-10-15T13:40:48Z",
-    "description": "Calpa's Blog (GatsbyJS Starter X Netlify CMS)"
+    "description": "Calpa's Blog (GatsbyJS Starter X Netlify CMS)",
+    "stale": false
   },
   "carsonip-hugo-theme-minos-master": {
     "theme_key": "carsonip-hugo-theme-minos-master",
@@ -2332,7 +2324,7 @@
     "branch": "master",
     "url": "https://github.com/chesterhow/tale",
     "stars": 544,
-    "forks": 614,
+    "forks": 613,
     "open_issues": 0,
     "last_commit": "2019-12-12T03:43:08Z",
     "created_at": "2017-03-10T04:32:23Z",
@@ -2380,7 +2372,7 @@
     "branch": "master",
     "url": "https://github.com/chrisbobbe/jekyll-theme-prologue",
     "stars": 248,
-    "forks": 638,
+    "forks": 637,
     "open_issues": 23,
     "last_commit": "2018-08-22T03:29:55Z",
     "created_at": "2018-01-07T03:51:49Z",
@@ -2604,7 +2596,7 @@
     "branch": "master",
     "url": "https://github.com/CloudCannon/hydra-jekyll-template",
     "stars": 230,
-    "forks": 219,
+    "forks": 220,
     "open_issues": 0,
     "last_commit": "2019-10-16T20:56:59Z",
     "created_at": "2016-10-14T04:39:07Z",
@@ -2718,9 +2710,10 @@
     "stars": 201,
     "forks": 130,
     "open_issues": 1,
-    "last_commit": "2020-01-02T03:22:53Z",
+    "last_commit": "2019-10-24T10:30:09Z",
     "created_at": "2017-11-25T18:56:41Z",
-    "description": "Gatsby.js V2 starter template based on Dimension, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters."
+    "description": "Gatsby.js V2 starter template based on Dimension, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters.",
+    "stale": false
   },
   "codebushi-gatsby-starter-forty-master": {
     "theme_key": "codebushi-gatsby-starter-forty-master",
@@ -2733,9 +2726,10 @@
     "stars": 162,
     "forks": 74,
     "open_issues": 0,
-    "last_commit": "2019-12-14T12:39:17Z",
+    "last_commit": "2019-10-24T10:37:19Z",
     "created_at": "2017-12-02T23:10:35Z",
-    "description": "Gatsby.js V2 starter template based on Forty, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters."
+    "description": "Gatsby.js V2 starter template based on Forty, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters.",
+    "stale": false
   },
   "codebushi-gatsby-starter-photon-master": {
     "theme_key": "codebushi-gatsby-starter-photon-master",
@@ -2876,10 +2870,9 @@
     "stars": 220,
     "forks": 94,
     "open_issues": 15,
-    "last_commit": "2019-12-16T21:52:50Z",
+    "last_commit": "2020-01-01T02:03:28Z",
     "created_at": "2018-01-29T21:29:51Z",
-    "description": "Gatsby starter for a Contentful project.",
-    "stale": false
+    "description": "Gatsby starter for a Contentful project."
   },
   "contentstack-gatsby-starter-contentstack-master": {
     "theme_key": "contentstack-gatsby-starter-contentstack-master",
@@ -2892,9 +2885,10 @@
     "stars": 3,
     "forks": 4,
     "open_issues": 2,
-    "last_commit": "2019-07-22T19:12:52Z",
+    "last_commit": "2019-07-11T05:03:02Z",
     "created_at": "2018-09-21T12:47:31Z",
-    "description": "A starter kit for building a websites using Gatsby and Contentstack"
+    "description": "A starter kit for building a websites using Gatsby and Contentstack",
+    "stale": false
   },
   "cosmicjs-gatsby-agency-portfolio-master": {
     "theme_key": "cosmicjs-gatsby-agency-portfolio-master",
@@ -2907,10 +2901,9 @@
     "stars": 7,
     "forks": 15,
     "open_issues": 0,
-    "last_commit": "2019-05-13T17:06:52Z",
+    "last_commit": "2019-12-04T04:58:46Z",
     "created_at": "2019-05-13T17:02:32Z",
-    "description": "Portfolio client designed with creative agencies in mind.",
-    "stale": false
+    "description": "Portfolio client designed with creative agencies in mind."
   },
   "cosmicjs-gatsby-blog-cosmicjs-master": {
     "theme_key": "cosmicjs-gatsby-blog-cosmicjs-master",
@@ -2923,10 +2916,9 @@
     "stars": 17,
     "forks": 16,
     "open_issues": 1,
-    "last_commit": "2019-10-25T17:28:06Z",
+    "last_commit": "2019-12-31T23:12:22Z",
     "created_at": "2018-06-05T18:40:26Z",
-    "description": "🚀⚡️ Blazing fast blog built with Gatsby and Cosmic JS 🔥",
-    "stale": false
+    "description": "🚀⚡️ Blazing fast blog built with Gatsby and Cosmic JS 🔥"
   },
   "cosmicjs-gatsby-docs-app-master": {
     "theme_key": "cosmicjs-gatsby-docs-app-master",
@@ -2939,10 +2931,9 @@
     "stars": 5,
     "forks": 2,
     "open_issues": 0,
-    "last_commit": "2019-02-12T17:43:22Z",
+    "last_commit": "2019-12-21T10:20:47Z",
     "created_at": "2019-02-11T17:12:40Z",
-    "description": "Create and view documentation using Gatsby and Cosmic JS",
-    "stale": false
+    "description": "Create and view documentation using Gatsby and Cosmic JS"
   },
   "cosmicjs-gatsby-localization-app-starter-master": {
     "theme_key": "cosmicjs-gatsby-localization-app-starter-master",
@@ -2955,10 +2946,9 @@
     "stars": 3,
     "forks": 1,
     "open_issues": 0,
-    "last_commit": "2019-05-03T16:41:38Z",
+    "last_commit": "2019-05-09T14:19:29Z",
     "created_at": "2019-05-03T16:34:14Z",
-    "description": "A Gatsby localization website powered by Cosmic JS",
-    "stale": false
+    "description": "A Gatsby localization website powered by Cosmic JS"
   },
   "cosmicjs-gatsby-starter-master": {
     "theme_key": "cosmicjs-gatsby-starter-master",
@@ -2971,10 +2961,9 @@
     "stars": 14,
     "forks": 7,
     "open_issues": 0,
-    "last_commit": "2019-11-11T19:34:58Z",
+    "last_commit": "2019-11-11T19:35:00Z",
     "created_at": "2018-06-10T19:54:17Z",
-    "description": "Install a Cosmic-powered Gatsby app in seconds 🔥 ",
-    "stale": false
+    "description": "Install a Cosmic-powered Gatsby app in seconds 🔥 "
   },
   "cotes2020-jekyll-theme-chirpy-master": {
     "theme_key": "cotes2020-jekyll-theme-chirpy-master",
@@ -2985,10 +2974,11 @@
     "branch": "master",
     "url": "https://github.com/cotes2020/jekyll-theme-chirpy",
     "stars": 29,
-    "forks": 39,
+    "forks": 38,
     "open_issues": 1,
-    "last_commit": "2020-01-01T17:22:35Z",
+    "last_commit": "2020-01-01T23:26:23Z",
     "created_at": "2019-01-12T07:37:30Z",
+    "description": "A Jekyll theme with responsive web design that focuses on text presentation.",
     "stale": false
   },
   "cssandstuff-hugo-theme-winning-master": {
@@ -3032,7 +3022,7 @@
     "branch": "master",
     "url": "https://github.com/curtistimson/hugo-theme-massively",
     "stars": 61,
-    "forks": 52,
+    "forks": 53,
     "open_issues": 11,
     "last_commit": "2019-11-25T19:49:01Z",
     "created_at": "2018-02-24T14:39:43Z",
@@ -3066,9 +3056,10 @@
     "stars": 8,
     "forks": 3,
     "open_issues": 0,
-    "last_commit": "2019-08-21T12:50:03Z",
+    "last_commit": "2019-01-22T22:44:46Z",
     "created_at": "2018-10-10T00:47:54Z",
-    "description": "🎊 A simple Gatsby Starter that talks to Contentful."
+    "description": "🎊 A simple Gatsby Starter that talks to Contentful.",
+    "stale": false
   },
   "cyevgeniy-jekyll-true-minimal-master": {
     "theme_key": "cyevgeniy-jekyll-true-minimal-master",
@@ -3111,7 +3102,7 @@
     "branch": "master",
     "url": "https://github.com/daattali/beautiful-jekyll",
     "stars": 2281,
-    "forks": 7113,
+    "forks": 7115,
     "open_issues": 30,
     "last_commit": "2019-10-25T02:55:53Z",
     "created_at": "2015-03-02T20:04:26Z",
@@ -3129,10 +3120,9 @@
     "stars": 240,
     "forks": 208,
     "open_issues": 6,
-    "last_commit": "2019-08-01T21:53:58Z",
+    "last_commit": "2019-12-26T15:08:49Z",
     "created_at": "2018-08-24T22:49:54Z",
-    "description": "Starter Project with Authentication with Gatsby & AWS Amplify",
-    "stale": false
+    "description": "Starter Project with Authentication with Gatsby & AWS Amplify"
   },
   "damassi-gatsby-starter-typescript-rebass-netlifycms-master": {
     "theme_key": "damassi-gatsby-starter-typescript-rebass-netlifycms-master",
@@ -3209,10 +3199,9 @@
     "stars": 33,
     "forks": 6,
     "open_issues": 1,
-    "last_commit": "2019-08-27T09:01:34Z",
+    "last_commit": "2019-12-04T04:14:05Z",
     "created_at": "2019-03-24T20:19:40Z",
-    "description": "📰 This repository is a demo from the article about how to build our own blog using Gatsby.",
-    "stale": false
+    "description": "📰 This repository is a demo from the article about how to build our own blog using Gatsby."
   },
   "danshai-gatsbyv2-scientific-blog-machine-learning-master": {
     "theme_key": "danshai-gatsbyv2-scientific-blog-machine-learning-master",
@@ -3241,10 +3230,9 @@
     "stars": 173,
     "forks": 55,
     "open_issues": 0,
-    "last_commit": "2019-12-30T11:01:38Z",
+    "last_commit": "2019-12-31T22:19:41Z",
     "created_at": "2018-07-24T07:16:25Z",
-    "description": "A boilerplate for building a simple website with the Eleventy static site generator",
-    "stale": false
+    "description": "A boilerplate for building a simple website with the Eleventy static site generator"
   },
   "darshanbaral-aafu-master": {
     "theme_key": "darshanbaral-aafu-master",
@@ -3417,10 +3405,9 @@
     "stars": 67,
     "forks": 34,
     "open_issues": 2,
-    "last_commit": "2019-11-24T12:14:54Z",
+    "last_commit": "2020-01-02T06:36:04Z",
     "created_at": "2016-06-12T23:30:34Z",
-    "description": "🥁 A really basic theme for Jekyll",
-    "stale": false
+    "description": "🥁 A really basic theme for Jekyll"
   },
   "davidhampgonsalves-hugo-black-and-light-theme-master": {
     "theme_key": "davidhampgonsalves-hugo-black-and-light-theme-master",
@@ -3993,10 +3980,9 @@
     "stars": 127,
     "forks": 41,
     "open_issues": 9,
-    "last_commit": "2019-08-07T21:35:07Z",
+    "last_commit": "2019-12-10T13:20:20Z",
     "created_at": "2017-07-13T13:19:51Z",
-    "description": "A simple starter kit for a static blog created with Gatsby",
-    "stale": false
+    "description": "A simple starter kit for a static blog created with Gatsby"
   },
   "durianstack-gatsby-tailwindcss-sass-starter-master": {
     "theme_key": "durianstack-gatsby-tailwindcss-sass-starter-master",
@@ -4025,10 +4011,9 @@
     "stars": 17,
     "forks": 3,
     "open_issues": 0,
-    "last_commit": "2019-08-07T19:55:36Z",
+    "last_commit": "2019-08-27T14:35:21Z",
     "created_at": "2019-06-22T21:13:28Z",
-    "description": null,
-    "stale": false
+    "description": null
   },
   "dyndna-lanyon-plus-master": {
     "theme_key": "dyndna-lanyon-plus-master",
@@ -4039,7 +4024,7 @@
     "branch": "master",
     "url": "https://github.com/dyndna/lanyon-plus",
     "stars": 74,
-    "forks": 74,
+    "forks": 73,
     "open_issues": 3,
     "last_commit": "2017-04-26T22:49:04Z",
     "created_at": "2016-02-26T22:29:05Z",
@@ -4135,7 +4120,7 @@
     "branch": "gh-pages",
     "url": "https://github.com/ellekasai/resumecards",
     "stars": 691,
-    "forks": 223,
+    "forks": 222,
     "open_issues": 3,
     "last_commit": "2018-07-16T06:12:46Z",
     "created_at": "2014-12-28T20:41:56Z",
@@ -4201,9 +4186,10 @@
     "stars": 32,
     "forks": 7,
     "open_issues": 10,
-    "last_commit": "2019-11-27T17:28:52Z",
+    "last_commit": "2019-08-28T07:45:28Z",
     "created_at": "2018-11-12T12:55:50Z",
-    "description": "Gatsby Starter to display information about events from Google Spreadsheets with Calendars"
+    "description": "Gatsby Starter to display information about events from Google Spreadsheets with Calendars",
+    "stale": false
   },
   "emasuriano-gatsby-starter-mate-master": {
     "theme_key": "emasuriano-gatsby-starter-mate-master",
@@ -4278,7 +4264,7 @@
     "branch": "master",
     "url": "https://github.com/emilbaehr/automatic-app-landing-page",
     "stars": 1769,
-    "forks": 472,
+    "forks": 473,
     "open_issues": 11,
     "last_commit": "2019-12-15T11:06:34Z",
     "created_at": "2019-01-05T10:20:11Z",
@@ -4296,9 +4282,10 @@
     "stars": 4,
     "forks": 0,
     "open_issues": 3,
-    "last_commit": "2019-12-31T14:15:46Z",
+    "last_commit": "2019-12-31T14:15:42Z",
     "created_at": "2019-06-08T14:42:17Z",
-    "description": "a Gatsby starter theme with Accessibility features, TypeScript, Jest, some basic UI elements, and a CircleCI pipeline"
+    "description": "a Gatsby starter theme with Accessibility features, TypeScript, Jest, some basic UI elements, and a CircleCI pipeline",
+    "stale": false
   },
   "erayaydin-jekyll-bulma-master": {
     "theme_key": "erayaydin-jekyll-bulma-master",
@@ -4346,6 +4333,22 @@
     "last_commit": "2019-10-01T20:39:32Z",
     "created_at": "2017-11-05T18:54:34Z",
     "description": "Hugo theme.",
+    "stale": false
+  },
+  "essentialenemy-noir-master": {
+    "theme_key": "essentialenemy-noir-master",
+    "file": "noir.md",
+    "name": "noir",
+    "github_username": "essentialenemy",
+    "repo": "essentialenemy/noir",
+    "branch": "master",
+    "url": "https://github.com/essentialenemy/noir",
+    "stars": 1,
+    "forks": 0,
+    "open_issues": 0,
+    "last_commit": "2020-01-01T23:22:20Z",
+    "created_at": "2020-01-01T16:05:40Z",
+    "description": "An automatic dark mode adaptation of the Poole theme for Jekyll.",
     "stale": false
   },
   "excentris-compass-master": {
@@ -4423,9 +4426,10 @@
     "stars": 401,
     "forks": 67,
     "open_issues": 5,
-    "last_commit": "2020-01-01T22:12:53Z",
+    "last_commit": "2019-08-30T16:10:09Z",
     "created_at": "2017-11-23T23:22:27Z",
-    "description": "🗣 Create presentations using Gatsby, React & Markdown."
+    "description": "🗣 Create presentations using Gatsby, React & Markdown.",
+    "stale": false
   },
   "fabe-gatsby-universal-master": {
     "theme_key": "fabe-gatsby-universal-master",
@@ -4534,10 +4538,9 @@
     "stars": 10,
     "forks": 5,
     "open_issues": 1,
-    "last_commit": "2018-10-03T12:28:01Z",
+    "last_commit": "2019-09-02T15:53:28Z",
     "created_at": "2018-10-01T21:52:18Z",
-    "description": "Gatsby.js starter with TypeScript and Contentful ",
-    "stale": true
+    "description": "Gatsby.js starter with TypeScript and Contentful "
   },
   "fiatjaf-classless-hugo-master": {
     "theme_key": "fiatjaf-classless-hugo-master",
@@ -4596,7 +4599,7 @@
     "branch": "master",
     "url": "https://github.com/forestryio/ubuild-jekyll",
     "stars": 140,
-    "forks": 187,
+    "forks": 188,
     "open_issues": 0,
     "last_commit": "2019-09-30T11:15:13Z",
     "created_at": "2018-06-20T13:05:57Z",
@@ -4646,10 +4649,9 @@
     "stars": 7,
     "forks": 1,
     "open_issues": 0,
-    "last_commit": "2019-11-16T04:33:13Z",
+    "last_commit": "2019-11-30T15:03:42Z",
     "created_at": "2019-01-19T01:04:45Z",
-    "description": "Barebones starter for a Headless Craft CMS & Gatsby configuration.",
-    "stale": false
+    "description": "Barebones starter for a Headless Craft CMS & Gatsby configuration."
   },
   "friedger-gatsby-starter-blockstack-master": {
     "theme_key": "friedger-gatsby-starter-blockstack-master",
@@ -4662,9 +4664,10 @@
     "stars": 4,
     "forks": 1,
     "open_issues": 0,
-    "last_commit": "2019-10-21T11:17:34Z",
+    "last_commit": "2019-05-25T10:25:30Z",
     "created_at": "2019-05-13T09:17:28Z",
-    "description": "Make decentralized apps with Gatsby + Blockstack"
+    "description": "Make decentralized apps with Gatsby + Blockstack",
+    "stale": false
   },
   "friendlyuser-vuepress-theme-cool-starter-master": {
     "theme_key": "friendlyuser-vuepress-theme-cool-starter-master",
@@ -4723,7 +4726,7 @@
     "branch": "master",
     "url": "https://github.com/FromEndWorld/LOFFER",
     "stars": 141,
-    "forks": 296,
+    "forks": 297,
     "open_issues": 1,
     "last_commit": "2019-08-01T21:15:28Z",
     "created_at": "2019-06-02T06:42:58Z",
@@ -4805,9 +4808,10 @@
     "stars": 18,
     "forks": 7,
     "open_issues": 4,
-    "last_commit": "2019-11-27T07:31:36Z",
+    "last_commit": "2019-03-21T02:18:39Z",
     "created_at": "2018-09-21T19:19:22Z",
-    "description": "A Gatsby v2 starter based on Grommet v2 UI. Demo:"
+    "description": "A Gatsby v2 starter based on Grommet v2 UI. Demo:",
+    "stale": false
   },
   "gaohaoyang-gaohaoyang.github.io-master": {
     "theme_key": "gaohaoyang-gaohaoyang.github.io-master",
@@ -4818,7 +4822,7 @@
     "branch": "master",
     "url": "https://github.com/Gaohaoyang/gaohaoyang.github.io",
     "stars": 1577,
-    "forks": 1802,
+    "forks": 1801,
     "open_issues": 50,
     "last_commit": "2019-06-26T09:26:01Z",
     "created_at": "2015-02-10T06:24:40Z",
@@ -4897,12 +4901,13 @@
     "repo": "gatsbyjs/gatsby-starter-blog",
     "branch": "master",
     "url": "https://github.com/gatsbyjs/gatsby-starter-blog",
-    "stars": 2142,
-    "forks": 944,
+    "stars": 2144,
+    "forks": 947,
     "open_issues": 18,
-    "last_commit": "2020-01-02T07:12:01Z",
+    "last_commit": "2020-01-01T21:59:46Z",
     "created_at": "2015-07-22T00:07:37Z",
-    "description": "Gatsby starter for creating a blog"
+    "description": "Gatsby starter for creating a blog",
+    "stale": false
   },
   "gatsbyjs-gatsby-starter-default-master": {
     "theme_key": "gatsbyjs-gatsby-starter-default-master",
@@ -4915,9 +4920,10 @@
     "stars": 745,
     "forks": 540,
     "open_issues": 6,
-    "last_commit": "2019-12-31T16:00:48Z",
+    "last_commit": "2019-12-16T22:16:01Z",
     "created_at": "2015-07-21T00:52:53Z",
-    "description": "The default Gatsby starter"
+    "description": "The default Gatsby starter",
+    "stale": false
   },
   "gchauras-much-worse-jekyll-theme-gh-pages": {
     "theme_key": "gchauras-much-worse-jekyll-theme-gh-pages",
@@ -4943,10 +4949,10 @@
     "repo": "gcushen/hugo-academic",
     "branch": "master",
     "url": "https://github.com/gcushen/hugo-academic",
-    "stars": 3729,
-    "forks": 1593,
-    "open_issues": 41,
-    "last_commit": "2020-01-01T12:56:19Z",
+    "stars": 3734,
+    "forks": 1594,
+    "open_issues": 40,
+    "last_commit": "2020-01-02T11:19:30Z",
     "created_at": "2016-04-26T22:09:15Z",
     "description": "📝 The website builder for Hugo. Build and deploy a beautiful website in minutes!",
     "stale": false
@@ -4978,10 +4984,9 @@
     "stars": 43,
     "forks": 29,
     "open_issues": 3,
-    "last_commit": "2019-10-29T08:34:05Z",
+    "last_commit": "2019-12-29T11:38:43Z",
     "created_at": "2019-01-10T21:22:23Z",
-    "description": "A theme for a conference website. Created for DevFest Toulouse 2019",
-    "stale": false
+    "description": "A theme for a conference website. Created for DevFest Toulouse 2019"
   },
   "geocine-gatsby-starter-devto-master": {
     "theme_key": "geocine-gatsby-starter-devto-master",
@@ -4994,9 +4999,10 @@
     "stars": 8,
     "forks": 1,
     "open_issues": 0,
-    "last_commit": "2019-09-13T03:50:02Z",
+    "last_commit": "2019-05-05T02:36:26Z",
     "created_at": "2019-03-27T13:44:31Z",
-    "description": "A GatsbyJS starter template that leverages the Dev.to API"
+    "description": "A GatsbyJS starter template that leverages the Dev.to API",
+    "stale": false
   },
   "geocine-gatsby-starter-organization-master": {
     "theme_key": "geocine-gatsby-starter-organization-master",
@@ -5057,10 +5063,9 @@
     "stars": 126,
     "forks": 4,
     "open_issues": 15,
-    "last_commit": "2019-12-14T12:22:01Z",
+    "last_commit": "2019-12-16T23:25:53Z",
     "created_at": "2019-07-07T08:54:29Z",
-    "description": " 🗃⚛️A GatsbyJs starter that includes the most popular js libraries, already pre-configured and ready for use.",
-    "stale": false
+    "description": " 🗃⚛️A GatsbyJs starter that includes the most popular js libraries, already pre-configured and ready for use."
   },
   "gildasio-clyell-gh-pages": {
     "theme_key": "gildasio-clyell-gh-pages",
@@ -5201,10 +5206,9 @@
     "stars": 7,
     "forks": 3,
     "open_issues": 1,
-    "last_commit": "2019-02-08T20:16:33Z",
+    "last_commit": "2019-07-10T07:42:17Z",
     "created_at": "2018-09-19T13:00:05Z",
-    "description": null,
-    "stale": false
+    "description": null
   },
   "greatgatsbyjsthemes-gatsby-starter-ggt-material-ui-blog-master": {
     "theme_key": "greatgatsbyjsthemes-gatsby-starter-ggt-material-ui-blog-master",
@@ -5425,9 +5429,10 @@
     "stars": 41,
     "forks": 26,
     "open_issues": 1,
-    "last_commit": "2019-12-31T10:59:21Z",
+    "last_commit": "2019-12-20T00:30:32Z",
     "created_at": "2019-01-03T15:16:26Z",
-    "description": "Live Demo"
+    "description": "Live Demo",
+    "stale": false
   },
   "halogenica-beautifulhugo-master": {
     "theme_key": "halogenica-beautifulhugo-master",
@@ -5437,7 +5442,7 @@
     "repo": "halogenica/beautifulhugo",
     "branch": "master",
     "url": "https://github.com/halogenica/beautifulhugo",
-    "stars": 620,
+    "stars": 621,
     "forks": 361,
     "open_issues": 70,
     "last_commit": "2019-11-28T17:08:03Z",
@@ -5470,12 +5475,11 @@
     "branch": "master",
     "url": "https://github.com/hasura/gatsby-gitbook-starter",
     "stars": 334,
-    "forks": 95,
-    "open_issues": 4,
-    "last_commit": "2019-12-23T06:51:44Z",
+    "forks": 96,
+    "open_issues": 3,
+    "last_commit": "2020-01-01T08:02:43Z",
     "created_at": "2019-05-04T14:09:01Z",
-    "description": "Generate GitBook style modern docs/tutorial websites using Gatsby + MDX",
-    "stale": false
+    "description": "Generate GitBook style modern docs/tutorial websites using Gatsby + MDX"
   },
   "hauke96-hugo-theme-hamburg-master": {
     "theme_key": "hauke96-hugo-theme-hamburg-master",
@@ -5517,7 +5521,7 @@
     "repo": "heiswayi/textlog",
     "branch": "gh-pages",
     "url": "https://github.com/heiswayi/textlog",
-    "stars": 100,
+    "stars": 101,
     "forks": 37,
     "open_issues": 0,
     "last_commit": "2019-05-28T08:14:22Z",
@@ -5550,7 +5554,7 @@
     "branch": "master",
     "url": "https://github.com/heiswayi/thinkspace",
     "stars": 344,
-    "forks": 290,
+    "forks": 291,
     "open_issues": 1,
     "last_commit": "2019-05-28T08:49:22Z",
     "created_at": "2016-06-11T09:31:31Z",
@@ -5712,10 +5716,9 @@
     "stars": 4,
     "forks": 2,
     "open_issues": 2,
-    "last_commit": "2019-07-27T06:53:08Z",
+    "last_commit": "2019-12-28T14:48:02Z",
     "created_at": "2019-03-14T09:23:14Z",
-    "description": "Portfolio with gatsby and contentful",
-    "stale": false
+    "description": "Portfolio with gatsby and contentful"
   },
   "histaff-website-static-master": {
     "theme_key": "histaff-website-static-master",
@@ -6016,10 +6019,9 @@
     "stars": 68,
     "forks": 27,
     "open_issues": 4,
-    "last_commit": "2019-11-20T20:47:09Z",
+    "last_commit": "2019-12-23T13:16:44Z",
     "created_at": "2019-05-18T14:17:26Z",
-    "description": "A free, open source, image-concentric starter for GatsbyJS",
-    "stale": false
+    "description": "A free, open source, image-concentric starter for GatsbyJS"
   },
   "inded-jekyll_modern-blog-gh-pages": {
     "theme_key": "inded-jekyll_modern-blog-gh-pages",
@@ -6064,9 +6066,10 @@
     "stars": 6,
     "forks": 4,
     "open_issues": 2,
-    "last_commit": "2019-12-17T10:44:02Z",
+    "last_commit": "2019-07-22T08:31:23Z",
     "created_at": "2019-06-19T12:59:10Z",
-    "description": "Gatsby and Snipcart Starter"
+    "description": "Gatsby and Snipcart Starter",
+    "stale": false
   },
   "it-gro-hugo-theme-w3css-basic-master": {
     "theme_key": "it-gro-hugo-theme-w3css-basic-master",
@@ -6300,12 +6303,13 @@
     "repo": "JaeYeopHan/gatsby-starter-bee",
     "branch": "master",
     "url": "https://github.com/JaeYeopHan/gatsby-starter-bee",
-    "stars": 153,
-    "forks": 53,
+    "stars": 154,
+    "forks": 54,
     "open_issues": 13,
-    "last_commit": "2019-12-30T09:48:53Z",
+    "last_commit": "2019-12-14T09:20:03Z",
     "created_at": "2019-02-03T14:27:33Z",
-    "description": "🐝Full Package | Simple | Fresh UI | Blog Template :: Let's start to blogging with gatsby-starter-bee!"
+    "description": "🐝Full Package | Simple | Fresh UI | Blog Template :: Let's start to blogging with gatsby-starter-bee!",
+    "stale": false
   },
   "jake-101-bael-template-master": {
     "theme_key": "jake-101-bael-template-master",
@@ -6364,7 +6368,7 @@
     "branch": "master",
     "url": "https://github.com/janczizikow/sleek",
     "stars": 231,
-    "forks": 446,
+    "forks": 447,
     "open_issues": 21,
     "last_commit": "2019-11-03T23:42:51Z",
     "created_at": "2017-11-19T09:46:18Z",
@@ -6382,10 +6386,9 @@
     "stars": 33,
     "forks": 8,
     "open_issues": 4,
-    "last_commit": "2019-11-21T22:11:08Z",
+    "last_commit": "2019-11-21T22:24:37Z",
     "created_at": "2019-04-10T22:25:31Z",
-    "description": "A gatsby starter for a technical documentation website",
-    "stale": false
+    "description": "A gatsby starter for a technical documentation website"
   },
   "jarrekk-jalpc-master": {
     "theme_key": "jarrekk-jalpc-master",
@@ -6428,7 +6431,7 @@
     "branch": "master",
     "url": "https://github.com/jbub/ghostwriter",
     "stars": 110,
-    "forks": 107,
+    "forks": 106,
     "open_issues": 11,
     "last_commit": "2019-10-30T07:47:32Z",
     "created_at": "2015-04-26T09:57:24Z",
@@ -6475,7 +6478,7 @@
     "repo": "jeblister/kube",
     "branch": "master",
     "url": "https://github.com/jeblister/kube",
-    "stars": 319,
+    "stars": 320,
     "forks": 88,
     "open_issues": 10,
     "last_commit": "2019-03-08T20:47:18Z",
@@ -6556,12 +6559,11 @@
     "branch": "master",
     "url": "https://github.com/jeromelachaud/freelancer-theme",
     "stars": 1003,
-    "forks": 1193,
+    "forks": 1194,
     "open_issues": 10,
-    "last_commit": "2019-12-20T23:42:33Z",
+    "last_commit": "2019-12-23T01:44:02Z",
     "created_at": "2014-07-19T15:13:08Z",
-    "description": "Jekyll theme based on Freelancer Start Bootstrap theme",
-    "stale": false
+    "description": "Jekyll theme based on Freelancer Start Bootstrap theme"
   },
   "jeromelachaud-grayscale-theme-master": {
     "theme_key": "jeromelachaud-grayscale-theme-master",
@@ -6587,8 +6589,8 @@
     "repo": "jerryc127/hexo-theme-butterfly",
     "branch": "master",
     "url": "https://github.com/jerryc127/hexo-theme-butterfly",
-    "stars": 403,
-    "forks": 97,
+    "stars": 404,
+    "forks": 98,
     "open_issues": 1,
     "last_commit": "2019-12-31T07:10:47Z",
     "created_at": "2019-06-04T13:38:41Z",
@@ -6622,10 +6624,9 @@
     "stars": 1,
     "forks": 0,
     "open_issues": 1,
-    "last_commit": "2019-05-06T01:59:53Z",
+    "last_commit": "2019-09-12T09:44:42Z",
     "created_at": "2019-05-04T23:51:02Z",
-    "description": "This is the single page web application starter that I built with MDBootstrap, React, and Gatsby",
-    "stale": false
+    "description": "This is the single page web application starter that I built with MDBootstrap, React, and Gatsby"
   },
   "jnjosh-internet-weblog-master": {
     "theme_key": "jnjosh-internet-weblog-master",
@@ -6747,7 +6748,7 @@
     "repo": "joway/hugo-theme-yinyang",
     "branch": "master",
     "url": "https://github.com/joway/hugo-theme-yinyang",
-    "stars": 142,
+    "stars": 143,
     "forks": 41,
     "open_issues": 3,
     "last_commit": "2019-12-18T02:44:01Z",
@@ -6846,9 +6847,10 @@
     "stars": 89,
     "forks": 36,
     "open_issues": 2,
-    "last_commit": "2019-12-20T20:53:36Z",
+    "last_commit": "2019-04-24T00:28:42Z",
     "created_at": "2018-12-12T04:58:52Z",
-    "description": "Serif is a beautiful small business theme for Gatsby."
+    "description": "Serif is a beautiful small business theme for Gatsby.",
+    "stale": false
   },
   "jugglerx-hugo-hero-theme-master": {
     "theme_key": "jugglerx-hugo-hero-theme-master",
@@ -6875,7 +6877,7 @@
     "branch": "master",
     "url": "https://github.com/JugglerX/hugo-serif-theme",
     "stars": 80,
-    "forks": 59,
+    "forks": 60,
     "open_issues": 5,
     "last_commit": "2019-11-19T01:51:55Z",
     "created_at": "2018-11-28T07:14:22Z",
@@ -6925,10 +6927,9 @@
     "stars": 16,
     "forks": 8,
     "open_issues": 2,
-    "last_commit": "2019-07-17T07:11:19Z",
+    "last_commit": "2019-11-19T20:07:55Z",
     "created_at": "2019-03-01T13:09:55Z",
-    "description": null,
-    "stale": false
+    "description": null
   },
   "jumpalottahigh-gatsby-starter-blog-jumpalottahigh-master": {
     "theme_key": "jumpalottahigh-gatsby-starter-blog-jumpalottahigh-master",
@@ -6941,9 +6942,10 @@
     "stars": 3,
     "forks": 1,
     "open_issues": 0,
-    "last_commit": "2019-06-16T01:57:22Z",
+    "last_commit": "2019-01-28T21:21:52Z",
     "created_at": "2018-06-02T18:38:14Z",
-    "description": "Gatsby v2 blog starter with SEO, search, filter, reading progress, mobile menu fab"
+    "description": "Gatsby v2 blog starter with SEO, search, filter, reading progress, mobile menu fab",
+    "stale": false
   },
   "junlulocky-popuptweets-gh-pages": {
     "theme_key": "junlulocky-popuptweets-gh-pages",
@@ -7066,7 +7068,7 @@
     "branch": "master",
     "url": "https://github.com/kaushalmodi/hugo-bare-min-theme",
     "stars": 48,
-    "forks": 8,
+    "forks": 9,
     "open_issues": 2,
     "last_commit": "2019-10-28T18:46:40Z",
     "created_at": "2018-01-29T21:33:59Z",
@@ -7148,10 +7150,9 @@
     "stars": 10,
     "forks": 4,
     "open_issues": 0,
-    "last_commit": "2019-09-25T22:00:16Z",
+    "last_commit": "2019-12-25T23:51:56Z",
     "created_at": "2019-07-08T20:57:37Z",
-    "description": "A simple starter blog built with Gatsby & Forestry",
-    "stale": false
+    "description": "A simple starter blog built with Gatsby & Forestry"
   },
   "kendallstrautman-brevifolia-gridsome-forestry-master": {
     "theme_key": "kendallstrautman-brevifolia-gridsome-forestry-master",
@@ -7274,7 +7275,7 @@
     "branch": "master",
     "url": "https://github.com/kitian616/jekyll-TeXt-theme",
     "stars": 1000,
-    "forks": 955,
+    "forks": 956,
     "open_issues": 60,
     "last_commit": "2019-12-08T15:43:27Z",
     "created_at": "2017-10-07T10:04:39Z",
@@ -7404,9 +7405,10 @@
     "stars": 56,
     "forks": 21,
     "open_issues": 3,
-    "last_commit": "2019-10-15T04:17:25Z",
+    "last_commit": "2019-05-03T20:35:51Z",
     "created_at": "2017-11-08T01:59:41Z",
-    "description": "Bootstrap and netlify CMS starter for Gatsby"
+    "description": "Bootstrap and netlify CMS starter for Gatsby",
+    "stale": false
   },
   "kronik3r-daktilo-master": {
     "theme_key": "kronik3r-daktilo-master",
@@ -7512,7 +7514,7 @@
     "repo": "lauragift21/gridsome-minimal-blog",
     "branch": "master",
     "url": "https://github.com/lauragift21/gridsome-minimal-blog",
-    "stars": 22,
+    "stars": 23,
     "forks": 27,
     "open_issues": 0,
     "last_commit": "2019-12-16T06:06:51Z",
@@ -7611,10 +7613,9 @@
     "stars": 737,
     "forks": 169,
     "open_issues": 0,
-    "last_commit": "2019-12-31T15:55:55Z",
+    "last_commit": "2020-01-01T17:38:47Z",
     "created_at": "2018-06-02T19:41:22Z",
-    "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations. Especially designers and/or photographers will love this theme! Built with MDX and Theme UI.",
-    "stale": false
+    "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations. Especially designers and/or photographers will love this theme! Built with MDX and Theme UI."
   },
   "lekoarts-gatsby-starter-portfolio-emilia-master": {
     "theme_key": "lekoarts-gatsby-starter-portfolio-emilia-master",
@@ -7704,7 +7705,7 @@
     "repo": "LeNPaul/Lagrange",
     "branch": "gh-pages",
     "url": "https://github.com/LeNPaul/Lagrange",
-    "stars": 335,
+    "stars": 336,
     "forks": 363,
     "open_issues": 8,
     "last_commit": "2019-12-19T04:46:08Z",
@@ -7803,10 +7804,9 @@
     "stars": 6,
     "forks": 4,
     "open_issues": 0,
-    "last_commit": "2019-11-29T11:39:27Z",
+    "last_commit": "2019-12-11T02:01:48Z",
     "created_at": "2019-04-02T20:35:25Z",
-    "description": "A custom Gatsby starter template to start a blog or personal website.",
-    "stale": false
+    "description": "A custom Gatsby starter template to start a blog or personal website."
   },
   "lgaida-mediumish-gohugo-theme-master": {
     "theme_key": "lgaida-mediumish-gohugo-theme-master",
@@ -7817,7 +7817,7 @@
     "branch": "master",
     "url": "https://github.com/lgaida/mediumish-gohugo-theme",
     "stars": 64,
-    "forks": 49,
+    "forks": 50,
     "open_issues": 2,
     "last_commit": "2019-12-16T07:18:56Z",
     "created_at": "2018-10-07T08:26:20Z",
@@ -7835,9 +7835,10 @@
     "stars": 32,
     "forks": 18,
     "open_issues": 0,
-    "last_commit": "2019-12-17T22:05:09Z",
+    "last_commit": "2019-11-16T14:00:32Z",
     "created_at": "2018-12-19T22:42:37Z",
-    "description": "Blog starter made with Gatbsy.js"
+    "description": "Blog starter made with Gatbsy.js",
+    "stale": false
   },
   "liberxue-liberxue.github.io-master": {
     "theme_key": "liberxue-liberxue.github.io-master",
@@ -7879,7 +7880,7 @@
     "repo": "link9596/hydrogen",
     "branch": "master",
     "url": "https://github.com/link9596/hydrogen",
-    "stars": 27,
+    "stars": 26,
     "forks": 48,
     "open_issues": 1,
     "last_commit": "2019-12-15T09:31:09Z",
@@ -7930,10 +7931,9 @@
     "stars": 11,
     "forks": 7,
     "open_issues": 0,
-    "last_commit": "2019-09-11T10:06:20Z",
+    "last_commit": "2019-12-24T21:52:23Z",
     "created_at": "2018-12-19T14:47:21Z",
-    "description": "This is an open-source Demo Magazine built with Livingdocs. Check out the code and make it yours!",
-    "stale": false
+    "description": "This is an open-source Demo Magazine built with Livingdocs. Check out the code and make it yours!"
   },
   "lixizhi-lixizhi.github.io-master": {
     "theme_key": "lixizhi-lixizhi.github.io-master",
@@ -8074,9 +8074,10 @@
     "stars": 11,
     "forks": 6,
     "open_issues": 3,
-    "last_commit": "2019-11-10T14:20:14Z",
+    "last_commit": "2019-06-11T09:00:38Z",
     "created_at": "2019-04-26T20:57:26Z",
-    "description": "Building upon Gatsby's blog starter with a Lunr.js powered Site Search. https://gatsby-starter-blog-with-lunr.netlify.com/"
+    "description": "Building upon Gatsby's blog starter with a Lunr.js powered Site Search. https://gatsby-starter-blog-with-lunr.netlify.com/",
+    "stale": false
   },
   "lunaceee-hexo-material-netlify-master": {
     "theme_key": "lunaceee-hexo-material-netlify-master",
@@ -8119,7 +8120,7 @@
     "branch": "master",
     "url": "https://github.com/luoyan35714/LessOrMore",
     "stars": 175,
-    "forks": 241,
+    "forks": 240,
     "open_issues": 2,
     "last_commit": "2019-04-02T13:50:48Z",
     "created_at": "2016-08-20T17:16:00Z",
@@ -8233,10 +8234,9 @@
     "stars": 10,
     "forks": 3,
     "open_issues": 0,
-    "last_commit": "2019-07-17T10:54:40Z",
+    "last_commit": "2019-12-22T00:24:05Z",
     "created_at": "2019-07-04T19:41:10Z",
-    "description": "A Gatsby Starter Blog using Airtable as backend",
-    "stale": false
+    "description": "A Gatsby Starter Blog using Airtable as backend"
   },
   "marcusvirg-forty-master": {
     "theme_key": "marcusvirg-forty-master",
@@ -8249,10 +8249,9 @@
     "stars": 82,
     "forks": 83,
     "open_issues": 6,
-    "last_commit": "2019-04-30T03:33:26Z",
+    "last_commit": "2019-12-20T20:46:20Z",
     "created_at": "2017-11-18T01:53:43Z",
-    "description": "Forty theme - Hugo theme ported from HTML5UP origrinal theme called Forty.",
-    "stale": false
+    "description": "Forty theme - Hugo theme ported from HTML5UP origrinal theme called Forty."
   },
   "margueriteroth-gatsby-prismic-starter-prist-master": {
     "theme_key": "margueriteroth-gatsby-prismic-starter-prist-master",
@@ -8295,7 +8294,7 @@
     "branch": "master",
     "url": "https://github.com/matcornic/hugo-theme-learn",
     "stars": 806,
-    "forks": 769,
+    "forks": 770,
     "open_issues": 94,
     "last_commit": "2019-12-22T20:38:55Z",
     "created_at": "2016-03-17T10:58:41Z",
@@ -8473,9 +8472,10 @@
     "stars": 49,
     "forks": 14,
     "open_issues": 0,
-    "last_commit": "2019-12-16T14:44:10Z",
+    "last_commit": "2019-04-14T03:39:50Z",
     "created_at": "2018-02-11T06:35:14Z",
-    "description": "i18n support and language switcher for Contentful starter repo"
+    "description": "i18n support and language switcher for Contentful starter repo",
+    "stale": false
   },
   "meibenny-elephants-master": {
     "theme_key": "meibenny-elephants-master",
@@ -8502,7 +8502,7 @@
     "branch": "master",
     "url": "https://github.com/melangue/dactl",
     "stars": 134,
-    "forks": 127,
+    "forks": 128,
     "open_issues": 5,
     "last_commit": "2018-08-11T12:51:42Z",
     "created_at": "2017-04-30T17:52:23Z",
@@ -8565,7 +8565,7 @@
     "repo": "meteorlxy/vuepress-theme-meteorlxy",
     "branch": "master",
     "url": "https://github.com/meteorlxy/vuepress-theme-meteorlxy",
-    "stars": 215,
+    "stars": 216,
     "forks": 70,
     "open_issues": 4,
     "last_commit": "2019-12-28T03:51:58Z",
@@ -8677,8 +8677,8 @@
     "repo": "mmistakes/jekyll-theme-hpstr",
     "branch": "master",
     "url": "https://github.com/mmistakes/jekyll-theme-hpstr",
-    "stars": 981,
-    "forks": 1566,
+    "stars": 983,
+    "forks": 1567,
     "open_issues": 30,
     "last_commit": "2019-08-27T20:23:53Z",
     "created_at": "2013-08-23T19:03:11Z",
@@ -8726,7 +8726,7 @@
     "branch": "master",
     "url": "https://github.com/mmistakes/minimal-mistakes",
     "stars": 5996,
-    "forks": 10064,
+    "forks": 10067,
     "open_issues": 15,
     "last_commit": "2019-12-19T16:39:42Z",
     "created_at": "2013-05-24T14:13:30Z",
@@ -8856,9 +8856,10 @@
     "stars": 35,
     "forks": 12,
     "open_issues": 4,
-    "last_commit": "2019-12-31T06:08:21Z",
+    "last_commit": "2018-11-19T05:31:24Z",
     "created_at": "2018-10-17T12:39:39Z",
-    "description": "Gatsby + Firebase = 👍"
+    "description": "Gatsby + Firebase = 👍",
+    "stale": true
   },
   "muhajirdev-gatsby-starter-redux-firebase-master": {
     "theme_key": "muhajirdev-gatsby-starter-redux-firebase-master",
@@ -8917,7 +8918,7 @@
     "branch": "master",
     "url": "https://github.com/MunifTanjim/minimo",
     "stars": 365,
-    "forks": 176,
+    "forks": 177,
     "open_issues": 23,
     "last_commit": "2019-09-28T14:43:44Z",
     "created_at": "2017-05-18T22:32:21Z",
@@ -9095,10 +9096,9 @@
     "stars": 244,
     "forks": 183,
     "open_issues": 8,
-    "last_commit": "2019-03-25T12:39:20Z",
+    "last_commit": "2019-11-26T16:16:23Z",
     "created_at": "2015-11-26T15:45:00Z",
-    "description": "💎 Clean Jekyll theme",
-    "stale": false
+    "description": "💎 Clean Jekyll theme"
   },
   "nandomoreirame-lora-master": {
     "theme_key": "nandomoreirame-lora-master",
@@ -9316,8 +9316,8 @@
     "repo": "nielsenramon/chalk",
     "branch": "master",
     "url": "https://github.com/nielsenramon/chalk",
-    "stars": 807,
-    "forks": 373,
+    "stars": 806,
+    "forks": 374,
     "open_issues": 21,
     "last_commit": "2019-12-21T19:44:00Z",
     "created_at": "2016-07-26T20:59:57Z",
@@ -9527,10 +9527,25 @@
     "stars": 96,
     "forks": 160,
     "open_issues": 4,
-    "last_commit": "2016-03-07T20:49:04Z",
+    "last_commit": "2019-09-12T08:45:37Z",
     "created_at": "2015-10-10T22:37:27Z",
-    "description": "Single page Jekyll theme for dental clinics",
-    "stale": true
+    "description": "Single page Jekyll theme for dental clinics"
+  },
+  "octoxalis-11tyframe-master": {
+    "theme_key": "octoxalis-11tyframe-master",
+    "file": "11tyframe.md",
+    "name": "11tyframe",
+    "github_username": "octoxalis",
+    "repo": "octoxalis/11tyframe",
+    "branch": "master",
+    "url": "https://github.com/octoxalis/11tyframe",
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "last_commit": "2019-12-29T17:28:33Z",
+    "created_at": "2019-10-27T15:30:44Z",
+    "description": "A light site frame using Eleventy static site generator",
+    "stale": false
   },
   "ofranke-gatsby-typescript-scss-docker-master": {
     "theme_key": "ofranke-gatsby-typescript-scss-docker-master",
@@ -9620,8 +9635,8 @@
     "repo": "olOwOlo/hugo-theme-even",
     "branch": "master",
     "url": "https://github.com/olOwOlo/hugo-theme-even",
-    "stars": 868,
-    "forks": 348,
+    "stars": 869,
+    "forks": 347,
     "open_issues": 46,
     "last_commit": "2019-09-08T14:45:41Z",
     "created_at": "2017-08-28T09:20:45Z",
@@ -9636,7 +9651,7 @@
     "repo": "onweru/hugo-swift-theme",
     "branch": "master",
     "url": "https://github.com/onweru/hugo-swift-theme",
-    "stars": 37,
+    "stars": 38,
     "forks": 27,
     "open_issues": 0,
     "last_commit": "2020-01-01T11:19:58Z",
@@ -9652,9 +9667,9 @@
     "repo": "onweru/newsroom",
     "branch": "master",
     "url": "https://github.com/onweru/newsroom",
-    "stars": 33,
+    "stars": 34,
     "forks": 18,
-    "open_issues": 3,
+    "open_issues": 2,
     "last_commit": "2019-12-31T13:51:44Z",
     "created_at": "2019-08-15T20:25:37Z",
     "description": "A simple, minimalistic Hugo theme. View Demo here",
@@ -9751,10 +9766,9 @@
     "stars": 16,
     "forks": 5,
     "open_issues": 1,
-    "last_commit": "2019-12-08T21:05:40Z",
+    "last_commit": "2019-12-22T00:23:56Z",
     "created_at": "2019-07-20T08:11:06Z",
-    "description": "🔥 Starter Project / Boilerplate for Authentication and creating Dynamic pages from collections with Firebase and  Gatsby.js. ",
-    "stale": false
+    "description": "🔥 Starter Project / Boilerplate for Authentication and creating Dynamic pages from collections with Firebase and  Gatsby.js. "
   },
   "ozgrozer-dasper-master": {
     "theme_key": "ozgrozer-dasper-master",
@@ -9815,10 +9829,9 @@
     "stars": 76,
     "forks": 35,
     "open_issues": 6,
-    "last_commit": "2019-12-18T07:20:03Z",
+    "last_commit": "2020-01-01T21:25:02Z",
     "created_at": "2019-01-03T15:03:41Z",
-    "description": "Pretty basic starter for Gatsby that covers all of the essentials. All you have to do is start typing!",
-    "stale": false
+    "description": "Pretty basic starter for Gatsby that covers all of the essentials. All you have to do is start typing!"
   },
   "panr-hugo-theme-hello-friend-master": {
     "theme_key": "panr-hugo-theme-hello-friend-master",
@@ -9845,7 +9858,7 @@
     "branch": "master",
     "url": "https://github.com/panr/hugo-theme-terminal",
     "stars": 313,
-    "forks": 128,
+    "forks": 129,
     "open_issues": 17,
     "last_commit": "2019-12-29T17:57:51Z",
     "created_at": "2019-01-27T23:58:03Z",
@@ -9879,9 +9892,10 @@
     "stars": 318,
     "forks": 80,
     "open_issues": 0,
-    "last_commit": "2019-12-30T20:13:45Z",
+    "last_commit": "2019-12-07T14:48:41Z",
     "created_at": "2018-06-08T07:15:32Z",
-    "description": "Gatsby starter for creating an eCommerce site using the Moltin eCommerce Api"
+    "description": "Gatsby starter for creating an eCommerce site using the Moltin eCommerce Api",
+    "stale": false
   },
   "parsiya-hugo-octopress-master": {
     "theme_key": "parsiya-hugo-octopress-master",
@@ -10038,10 +10052,9 @@
     "stars": 179,
     "forks": 54,
     "open_issues": 8,
-    "last_commit": "2019-07-23T08:57:59Z",
+    "last_commit": "2020-01-01T10:51:13Z",
     "created_at": "2018-03-30T19:45:51Z",
-    "description": "A scaffold for a quick start building with the Eleventy SSG",
-    "stale": false
+    "description": "A scaffold for a quick start building with the Eleventy SSG"
   },
   "philhawksworth-hawksworx.com-master": {
     "theme_key": "philhawksworth-hawksworx.com-master",
@@ -10086,10 +10099,9 @@
     "stars": 552,
     "forks": 813,
     "open_issues": 19,
-    "last_commit": "2019-12-05T10:07:50Z",
+    "last_commit": "2020-01-01T07:16:21Z",
     "created_at": "2014-08-17T10:32:01Z",
-    "description": "»Feeling Responsive« is a free flexible theme for Jekyll built on Foundation framework. You can use it for your company site, as a portfolio or as a blog.",
-    "stale": false
+    "description": "»Feeling Responsive« is a free flexible theme for Jekyll built on Foundation framework. You can use it for your company site, as a portfolio or as a blog."
   },
   "piducancore-gatsby-starter-apollo-netlify-master": {
     "theme_key": "piducancore-gatsby-starter-apollo-netlify-master",
@@ -10102,9 +10114,10 @@
     "stars": 1,
     "forks": 0,
     "open_issues": 0,
-    "last_commit": "2019-11-16T23:53:31Z",
+    "last_commit": "2019-11-16T23:53:22Z",
     "created_at": "2019-07-24T20:30:38Z",
-    "description": "This project is an easy way to start developing fullstack apps with Gatsby and Apollo Server (using Netlify Lambda functions). For developing we use Netlify Dev to bring all of this magic to our local machine."
+    "description": "This project is an easy way to start developing fullstack apps with Gatsby and Apollo Server (using Netlify Lambda functions). For developing we use Netlify Dev to bring all of this magic to our local machine.",
+    "stale": false
   },
   "pietromenna-jekyll-architect-theme-master": {
     "theme_key": "pietromenna-jekyll-architect-theme-master",
@@ -10210,8 +10223,8 @@
     "repo": "pmarsceill/just-the-docs",
     "branch": "master",
     "url": "https://github.com/pmarsceill/just-the-docs",
-    "stars": 1179,
-    "forks": 614,
+    "stars": 1181,
+    "forks": 616,
     "open_issues": 60,
     "last_commit": "2019-09-10T16:53:16Z",
     "created_at": "2017-11-08T16:22:28Z",
@@ -10227,7 +10240,7 @@
     "branch": "master",
     "url": "https://github.com/poole/hyde",
     "stars": 2693,
-    "forks": 2718,
+    "forks": 2719,
     "open_issues": 74,
     "last_commit": "2015-05-11T20:21:43Z",
     "created_at": "2013-02-07T07:01:38Z",
@@ -10242,7 +10255,7 @@
     "repo": "poole/lanyon",
     "branch": "master",
     "url": "https://github.com/poole/lanyon",
-    "stars": 2512,
+    "stars": 2511,
     "forks": 2292,
     "open_issues": 65,
     "last_commit": "2015-12-30T02:37:02Z",
@@ -10307,7 +10320,7 @@
     "branch": "master",
     "url": "https://github.com/pranavrajs/swift",
     "stars": 29,
-    "forks": 34,
+    "forks": 35,
     "open_issues": 2,
     "last_commit": "2014-12-17T13:19:18Z",
     "created_at": "2014-11-28T18:43:16Z",
@@ -10355,7 +10368,7 @@
     "branch": "gh-pages",
     "url": "https://github.com/projectpages/project-pages",
     "stars": 110,
-    "forks": 337,
+    "forks": 338,
     "open_issues": 13,
     "last_commit": "2017-04-04T06:08:47Z",
     "created_at": "2015-02-03T18:36:21Z",
@@ -10388,8 +10401,8 @@
     "url": "https://github.com/puresyntax71/hugo-theme-chunky-poster",
     "stars": 3,
     "forks": 3,
-    "open_issues": 3,
-    "last_commit": "2020-01-02T08:23:22Z",
+    "open_issues": 2,
+    "last_commit": "2020-01-02T09:16:12Z",
     "created_at": "2019-12-17T05:13:18Z",
     "description": "A simple, bootstrap 4 based hugo blog theme.",
     "stale": false
@@ -10533,10 +10546,9 @@
     "stars": 38,
     "forks": 18,
     "open_issues": 4,
-    "last_commit": "2019-11-16T03:28:22Z",
+    "last_commit": "2019-12-25T11:34:30Z",
     "created_at": "2019-02-27T19:17:17Z",
-    "description": "Gatsby-MDX with Netlify CMS. Support React components in your CMS editor!",
-    "stale": false
+    "description": "Gatsby-MDX with Netlify CMS. Support React components in your CMS editor!"
   },
   "renyuanz-leonids-master": {
     "theme_key": "renyuanz-leonids-master",
@@ -10578,10 +10590,10 @@
     "repo": "reuixiy/hugo-theme-meme",
     "branch": "master",
     "url": "https://github.com/reuixiy/hugo-theme-meme",
-    "stars": 71,
+    "stars": 72,
     "forks": 17,
     "open_issues": 7,
-    "last_commit": "2019-12-31T03:25:08Z",
+    "last_commit": "2020-01-02T09:15:19Z",
     "created_at": "2019-08-12T04:06:21Z",
     "description": "You can’t spell aWEsoME without MEME! 😝",
     "stale": false
@@ -10709,9 +10721,10 @@
     "stars": 6,
     "forks": 4,
     "open_issues": 1,
-    "last_commit": "2019-06-20T07:20:33Z",
+    "last_commit": "2019-01-19T19:14:16Z",
     "created_at": "2019-01-19T19:10:34Z",
-    "description": "Simple starter where building your own documentation with Docz is possible"
+    "description": "Simple starter where building your own documentation with Docz is possible",
+    "stale": false
   },
   "robinmetral-gatsby-starter-under-construction-master": {
     "theme_key": "robinmetral-gatsby-starter-under-construction-master",
@@ -10898,7 +10911,7 @@
     "branch": "master",
     "url": "https://github.com/ryanwiemer/gatsby-starter-gcn",
     "stars": 396,
-    "forks": 92,
+    "forks": 93,
     "open_issues": 3,
     "last_commit": "2019-06-18T05:18:19Z",
     "created_at": "2018-02-23T00:09:29Z",
@@ -10916,10 +10929,9 @@
     "stars": 10,
     "forks": 1,
     "open_issues": 0,
-    "last_commit": "2019-01-11T02:13:01Z",
+    "last_commit": "2019-12-21T06:42:07Z",
     "created_at": "2019-01-02T16:26:06Z",
-    "description": "GatsbyJS starter for a minimal portfolio website with blog. Suitable for developers.",
-    "stale": false
+    "description": "GatsbyJS starter for a minimal portfolio website with blog. Suitable for developers."
   },
   "saey55-hugo-elate-theme-master": {
     "theme_key": "saey55-hugo-elate-theme-master",
@@ -11092,9 +11104,10 @@
     "stars": 46,
     "forks": 14,
     "open_issues": 3,
-    "last_commit": "2019-12-08T19:35:29Z",
+    "last_commit": "2019-12-08T19:35:25Z",
     "created_at": "2018-12-24T00:05:49Z",
-    "description": "A simple starter to get up and developing your digital curriculum with GatsbyJS"
+    "description": "A simple starter to get up and developing your digital curriculum with GatsbyJS",
+    "stale": false
   },
   "sarasate-gate-master": {
     "theme_key": "sarasate-gate-master",
@@ -11107,10 +11120,9 @@
     "stars": 14,
     "forks": 25,
     "open_issues": 5,
-    "last_commit": "2019-10-09T15:40:48Z",
+    "last_commit": "2019-12-13T16:28:05Z",
     "created_at": "2019-01-29T09:40:17Z",
-    "description": "Static API documentation with GatsbyJS",
-    "stale": false
+    "description": "Static API documentation with GatsbyJS"
   },
   "saschajullmann-gatsby-starter-gatsbythemes-master": {
     "theme_key": "saschajullmann-gatsby-starter-gatsbythemes-master",
@@ -11123,9 +11135,10 @@
     "stars": 98,
     "forks": 26,
     "open_issues": 0,
-    "last_commit": "2019-11-16T13:48:32Z",
+    "last_commit": "2019-10-27T17:43:19Z",
     "created_at": "2017-10-21T09:52:00Z",
-    "description": "Basic gatsby-starter package"
+    "description": "Basic gatsby-starter package",
+    "stale": false
   },
   "schmanat-hugo-highlights-theme-master": {
     "theme_key": "schmanat-hugo-highlights-theme-master",
@@ -11202,10 +11215,9 @@
     "stars": 224,
     "forks": 110,
     "open_issues": 8,
-    "last_commit": "2019-10-12T17:03:25Z",
+    "last_commit": "2020-01-02T07:51:07Z",
     "created_at": "2018-09-10T03:48:22Z",
-    "description": "A Casper 2 blog starter for Gatsby",
-    "stale": false
+    "description": "A Casper 2 blog starter for Gatsby"
   },
   "seanlane-gochowdown-master": {
     "theme_key": "seanlane-gochowdown-master",
@@ -11247,7 +11259,7 @@
     "repo": "sergiokopplin/indigo",
     "branch": "gh-pages",
     "url": "https://github.com/sergiokopplin/indigo",
-    "stars": 1681,
+    "stars": 1680,
     "forks": 1670,
     "open_issues": 31,
     "last_commit": "2019-01-29T19:46:12Z",
@@ -11456,7 +11468,7 @@
     "branch": "master",
     "url": "https://github.com/sharu725/karna",
     "stars": 36,
-    "forks": 83,
+    "forks": 82,
     "open_issues": 1,
     "last_commit": "2017-10-24T13:29:08Z",
     "created_at": "2016-11-01T14:59:40Z",
@@ -11472,7 +11484,7 @@
     "branch": "master",
     "url": "https://github.com/sharu725/online-cv",
     "stars": 1094,
-    "forks": 2035,
+    "forks": 2038,
     "open_issues": 15,
     "last_commit": "2019-11-12T11:45:33Z",
     "created_at": "2016-07-29T04:35:27Z",
@@ -11552,7 +11564,7 @@
     "branch": "gh-pages",
     "url": "https://github.com/ShawnTeoh/matjek",
     "stars": 71,
-    "forks": 297,
+    "forks": 298,
     "open_issues": 9,
     "last_commit": "2017-06-27T17:43:21Z",
     "created_at": "2017-03-23T09:55:40Z",
@@ -11602,9 +11614,10 @@
     "stars": 1,
     "forks": 2,
     "open_issues": 0,
-    "last_commit": "2019-09-15T06:21:14Z",
+    "last_commit": "2019-09-15T06:21:05Z",
     "created_at": "2019-07-19T17:57:04Z",
-    "description": "A Gatsby starter for a professional and minimal fashion portfolio."
+    "description": "A Gatsby starter for a professional and minimal fashion portfolio.",
+    "stale": false
   },
   "siawyoung-immaculate-master": {
     "theme_key": "siawyoung-immaculate-master",
@@ -11630,7 +11643,7 @@
     "repo": "siegerts/hugo-theme-basic",
     "branch": "master",
     "url": "https://github.com/siegerts/hugo-theme-basic",
-    "stars": 50,
+    "stars": 51,
     "forks": 28,
     "open_issues": 1,
     "last_commit": "2019-06-08T14:06:37Z",
@@ -11649,10 +11662,9 @@
     "stars": 2,
     "forks": 0,
     "open_issues": 1,
-    "last_commit": "2019-08-08T11:29:59Z",
+    "last_commit": "2019-09-25T11:15:21Z",
     "created_at": "2019-08-07T17:16:18Z",
-    "description": null,
-    "stale": false
+    "description": null
   },
   "simpleyyt-jekyll-jacman-master": {
     "theme_key": "simpleyyt-jekyll-jacman-master",
@@ -11713,10 +11725,9 @@
     "stars": 7,
     "forks": 2,
     "open_issues": 0,
-    "last_commit": "2019-06-25T12:33:34Z",
+    "last_commit": "2019-08-02T17:33:00Z",
     "created_at": "2019-06-25T12:25:49Z",
-    "description": "Gatsby Apollo starter - with client side routing",
-    "stale": false
+    "description": "Gatsby Apollo starter - with client side routing"
   },
   "smakosh-gatsby-app-starter-rest-api-master": {
     "theme_key": "smakosh-gatsby-app-starter-rest-api-master",
@@ -11729,10 +11740,9 @@
     "stars": 11,
     "forks": 1,
     "open_issues": 1,
-    "last_commit": "2019-09-30T21:19:30Z",
+    "last_commit": "2019-12-28T00:07:22Z",
     "created_at": "2019-05-14T06:50:04Z",
-    "description": "Not todo Gatsby app for my talk",
-    "stale": false
+    "description": "Not todo Gatsby app for my talk"
   },
   "smakosh-gatsby-portfolio-dev-master": {
     "theme_key": "smakosh-gatsby-portfolio-dev-master",
@@ -11742,7 +11752,7 @@
     "repo": "smakosh/gatsby-portfolio-dev",
     "branch": "master",
     "url": "https://github.com/smakosh/gatsby-portfolio-dev",
-    "stars": 228,
+    "stars": 229,
     "forks": 63,
     "open_issues": 1,
     "last_commit": "2019-12-31T08:58:19Z",
@@ -11857,10 +11867,9 @@
     "stars": 17,
     "forks": 6,
     "open_issues": 0,
-    "last_commit": "2019-11-15T01:28:03Z",
+    "last_commit": "2019-12-29T16:09:36Z",
     "created_at": "2018-12-19T08:58:58Z",
-    "description": "👌 A starter for GatsbyJS with a preconfigured MDX, Storybook and ESLint environment",
-    "stale": false
+    "description": "👌 A starter for GatsbyJS with a preconfigured MDX, Storybook and ESLint environment"
   },
   "spaceg-glas-master": {
     "theme_key": "spaceg-glas-master",
@@ -11967,7 +11976,7 @@
     "branch": "master",
     "url": "https://github.com/squidfunk/mkdocs-material",
     "stars": 2924,
-    "forks": 795,
+    "forks": 796,
     "open_issues": 18,
     "last_commit": "2020-01-01T14:39:19Z",
     "created_at": "2016-01-28T22:09:23Z",
@@ -12220,7 +12229,7 @@
     "repo": "stackbithq/stackbit-theme-fresh",
     "branch": "gatsby",
     "url": "https://github.com/stackbithq/stackbit-theme-fresh",
-    "stars": 17,
+    "stars": 18,
     "forks": 16,
     "open_issues": 2,
     "last_commit": "2019-09-24T09:30:10Z",
@@ -12236,7 +12245,7 @@
     "repo": "stackbithq/stackbit-theme-fresh",
     "branch": "hugo",
     "url": "https://github.com/stackbithq/stackbit-theme-fresh",
-    "stars": 17,
+    "stars": 18,
     "forks": 16,
     "open_issues": 2,
     "last_commit": "2019-09-24T09:23:18Z",
@@ -12252,7 +12261,7 @@
     "repo": "stackbithq/stackbit-theme-fresh",
     "branch": "jekyll",
     "url": "https://github.com/stackbithq/stackbit-theme-fresh",
-    "stars": 17,
+    "stars": 18,
     "forks": 16,
     "open_issues": 2,
     "last_commit": "2019-09-24T09:24:07Z",
@@ -12828,10 +12837,9 @@
     "stars": 14,
     "forks": 7,
     "open_issues": 0,
-    "last_commit": "2019-11-10T16:55:15Z",
+    "last_commit": "2019-11-19T18:57:38Z",
     "created_at": "2019-03-01T20:56:53Z",
-    "description": "Repo for github portfolio using gatsby",
-    "stale": false
+    "description": "Repo for github portfolio using gatsby"
   },
   "the-development-flex-master": {
     "theme_key": "the-development-flex-master",
@@ -12873,8 +12881,8 @@
     "repo": "thelehhman/plainwhite-jekyll",
     "branch": "master",
     "url": "https://github.com/thelehhman/plainwhite-jekyll",
-    "stars": 116,
-    "forks": 193,
+    "stars": 115,
+    "forks": 195,
     "open_issues": 2,
     "last_commit": "2019-10-15T10:12:03Z",
     "created_at": "2019-03-24T16:00:17Z",
@@ -12923,11 +12931,10 @@
     "url": "https://github.com/themefisher/dot",
     "stars": 75,
     "forks": 65,
-    "open_issues": 1,
-    "last_commit": "2020-01-01T07:11:29Z",
+    "open_issues": 2,
+    "last_commit": "2020-01-01T19:35:30Z",
     "created_at": "2019-01-05T09:42:06Z",
-    "description": "Dot - Hugo Documentation Theme",
-    "stale": false
+    "description": "Dot - Hugo Documentation Theme"
   },
   "themefisher-infinity-hugo-master": {
     "theme_key": "themefisher-infinity-hugo-master",
@@ -12970,7 +12977,7 @@
     "branch": "master",
     "url": "https://github.com/themefisher/meghna-hugo",
     "stars": 107,
-    "forks": 167,
+    "forks": 168,
     "open_issues": 1,
     "last_commit": "2019-12-29T05:56:45Z",
     "created_at": "2018-09-12T09:09:05Z",
@@ -13097,7 +13104,7 @@
     "repo": "thiagorossener/jekflix-template",
     "branch": "master",
     "url": "https://github.com/thiagorossener/jekflix-template",
-    "stars": 282,
+    "stars": 281,
     "forks": 481,
     "open_issues": 6,
     "last_commit": "2019-11-07T13:50:45Z",
@@ -13177,12 +13184,13 @@
     "repo": "thomaswang/gatsby-personal-starter-blog",
     "branch": "master",
     "url": "https://github.com/thomaswang/gatsby-personal-starter-blog",
-    "stars": 25,
-    "forks": 20,
+    "stars": 26,
+    "forks": 21,
     "open_issues": 1,
-    "last_commit": "2019-12-29T08:50:23Z",
+    "last_commit": "2019-12-13T01:58:02Z",
     "created_at": "2019-04-22T00:28:28Z",
-    "description": "Gatsby starter for a personal site && blog! 🐶"
+    "description": "Gatsby starter for a personal site && blog! 🐶",
+    "stale": false
   },
   "thomaswangio-gatsby-starter-primer-master": {
     "theme_key": "thomaswangio-gatsby-starter-primer-master",
@@ -13227,9 +13235,10 @@
     "stars": 12,
     "forks": 6,
     "open_issues": 1,
-    "last_commit": "2019-12-11T14:35:51Z",
+    "last_commit": "2019-09-18T11:30:59Z",
     "created_at": "2019-05-14T11:18:12Z",
-    "description": "an easily configurable gatsby-starter-blog with overreacted looking and tags, breadcrumbs, disqus, i18n, eslint supported"
+    "description": "an easily configurable gatsby-starter-blog with overreacted looking and tags, breadcrumbs, disqus, i18n, eslint supported",
+    "stale": false
   },
   "tigefa4u-jekmdl-gh-pages": {
     "theme_key": "tigefa4u-jekmdl-gh-pages",
@@ -13290,9 +13299,10 @@
     "stars": 2,
     "forks": 0,
     "open_issues": 0,
-    "last_commit": "2019-07-09T22:04:05Z",
+    "last_commit": "2019-04-19T10:50:05Z",
     "created_at": "2019-04-18T17:56:10Z",
-    "description": "A fine blog starter for Gatsby "
+    "description": "A fine blog starter for Gatsby ",
+    "stale": false
   },
   "tocttou-hacker-blog-master": {
     "theme_key": "tocttou-hacker-blog-master",
@@ -13302,8 +13312,8 @@
     "repo": "tocttou/hacker-blog",
     "branch": "master",
     "url": "https://github.com/tocttou/hacker-blog",
-    "stars": 60,
-    "forks": 112,
+    "stars": 61,
+    "forks": 114,
     "open_issues": 1,
     "last_commit": "2019-04-25T07:06:39Z",
     "created_at": "2017-12-12T21:51:39Z",
@@ -13385,9 +13395,10 @@
     "stars": 15,
     "forks": 5,
     "open_issues": 1,
-    "last_commit": "2019-12-12T14:22:55Z",
+    "last_commit": "2019-02-21T12:11:46Z",
     "created_at": "2019-02-20T13:07:57Z",
-    "description": "Gatsby starter for creating a blog which support AMP and PWA"
+    "description": "Gatsby starter for creating a blog which support AMP and PWA",
+    "stale": false
   },
   "tomrutgers-middleman-starter-netlify-cms-master": {
     "theme_key": "tomrutgers-middleman-starter-netlify-cms-master",
@@ -13448,10 +13459,9 @@
     "stars": 60,
     "forks": 23,
     "open_issues": 1,
-    "last_commit": "2019-09-03T08:16:48Z",
+    "last_commit": "2019-12-31T07:35:31Z",
     "created_at": "2019-07-15T11:43:52Z",
-    "description": "A starter template to build websites with Ghost & Eleventy",
-    "stale": false
+    "description": "A starter template to build websites with Ghost & Eleventy"
   },
   "tryghost-gatsby-starter-ghost-master": {
     "theme_key": "tryghost-gatsby-starter-ghost-master",
@@ -13493,8 +13503,8 @@
     "repo": "tummychow/lanyon-hugo",
     "branch": "master",
     "url": "https://github.com/tummychow/lanyon-hugo",
-    "stars": 130,
-    "forks": 58,
+    "stars": 131,
+    "forks": 59,
     "open_issues": 2,
     "last_commit": "2019-12-01T00:42:50Z",
     "created_at": "2014-03-14T05:52:03Z",
@@ -13576,10 +13586,9 @@
     "stars": 7,
     "forks": 3,
     "open_issues": 0,
-    "last_commit": "2019-10-22T04:06:52Z",
+    "last_commit": "2019-12-31T15:20:33Z",
     "created_at": "2019-03-31T12:27:43Z",
-    "description": "Official Gatsby.js Clean portfolio starter! Get a clean looking portfolio up and running in no time using gatsby.js starters.  ",
-    "stale": false
+    "description": "Official Gatsby.js Clean portfolio starter! Get a clean looking portfolio up and running in no time using gatsby.js starters.  "
   },
   "uicardiodev-hugo-appyness-master": {
     "theme_key": "uicardiodev-hugo-appyness-master",
@@ -13672,9 +13681,10 @@
     "stars": 187,
     "forks": 68,
     "open_issues": 1,
-    "last_commit": "2020-01-01T17:10:28Z",
+    "last_commit": "2019-11-10T12:10:23Z",
     "created_at": "2018-03-31T13:20:45Z",
-    "description": "Gatsby Business Website Starter"
+    "description": "Gatsby Business Website Starter",
+    "stale": false
   },
   "vaga-hugo-theme-m10c-master": {
     "theme_key": "vaga-hugo-theme-m10c-master",
@@ -13700,13 +13710,12 @@
     "repo": "Vagr9K/gatsby-advanced-starter",
     "branch": "master",
     "url": "https://github.com/Vagr9K/gatsby-advanced-starter",
-    "stars": 817,
+    "stars": 819,
     "forks": 199,
     "open_issues": 4,
-    "last_commit": "2019-11-16T07:12:49Z",
+    "last_commit": "2020-01-02T11:54:45Z",
     "created_at": "2017-07-18T20:18:32Z",
-    "description": "A high performance skeleton starter for GatsbyJS that focuses on SEO/Social features/development environment.",
-    "stale": false
+    "description": "A high performance skeleton starter for GatsbyJS that focuses on SEO/Social features/development environment."
   },
   "vagr9k-gatsby-material-starter-master": {
     "theme_key": "vagr9k-gatsby-material-starter-master",
@@ -13719,10 +13728,9 @@
     "stars": 407,
     "forks": 142,
     "open_issues": 2,
-    "last_commit": "2019-05-10T16:23:05Z",
+    "last_commit": "2019-12-31T21:18:57Z",
     "created_at": "2017-07-02T14:02:13Z",
-    "description": "A high performance blog starter with Material design in mind for GatsbyJS.",
-    "stale": false
+    "description": "A high performance blog starter with Material design in mind for GatsbyJS."
   },
   "vfalanis-taken-master": {
     "theme_key": "vfalanis-taken-master",
@@ -13909,7 +13917,7 @@
     "branch": "master",
     "url": "https://github.com/vividvilla/ezhil",
     "stars": 102,
-    "forks": 75,
+    "forks": 76,
     "open_issues": 10,
     "last_commit": "2019-12-31T04:41:22Z",
     "created_at": "2019-04-09T20:57:27Z",
@@ -13925,7 +13933,7 @@
     "branch": "master",
     "url": "https://github.com/volny/creative-theme-jekyll",
     "stars": 288,
-    "forks": 481,
+    "forks": 482,
     "open_issues": 16,
     "last_commit": "2018-11-16T23:57:37Z",
     "created_at": "2015-09-13T04:48:49Z",
@@ -13991,10 +13999,9 @@
     "stars": 4,
     "forks": 4,
     "open_issues": 1,
-    "last_commit": "2019-10-09T03:55:41Z",
+    "last_commit": "2019-12-03T14:33:52Z",
     "created_at": "2019-10-08T09:53:49Z",
-    "description": "Flexible-Gatsby is a simple and clean theme for Gatsby",
-    "stale": false
+    "description": "Flexible-Gatsby is a simple and clean theme for Gatsby"
   },
   "wangonya-the-plain-gatsby-master": {
     "theme_key": "wangonya-the-plain-gatsby-master",
@@ -14055,10 +14062,9 @@
     "stars": 49,
     "forks": 23,
     "open_issues": 3,
-    "last_commit": "2019-11-02T13:01:37Z",
+    "last_commit": "2019-12-17T20:27:44Z",
     "created_at": "2019-03-10T21:21:12Z",
-    "description": "Adapt Material Kit React to Gatsby",
-    "stale": false
+    "description": "Adapt Material Kit React to Gatsby"
   },
   "wemake-services-jekyll-theme-hackcss-gh-pages": {
     "theme_key": "wemake-services-jekyll-theme-hackcss-gh-pages",
@@ -14103,10 +14109,9 @@
     "stars": 82,
     "forks": 10,
     "open_issues": 3,
-    "last_commit": "2018-09-24T16:29:50Z",
+    "last_commit": "2019-12-11T09:21:33Z",
     "created_at": "2018-09-21T00:04:42Z",
-    "description": "Automatically generate docs for React components using MDX, react-docgen, and GatsbyJS",
-    "stale": true
+    "description": "Automatically generate docs for React components using MDX, react-docgen, and GatsbyJS"
   },
   "wild-flame-jekyll-simple-master": {
     "theme_key": "wild-flame-jekyll-simple-master",
@@ -14212,7 +14217,7 @@
     "repo": "willianjusten/will-jekyll-template",
     "branch": "gh-pages",
     "url": "https://github.com/willianjusten/will-jekyll-template",
-    "stars": 329,
+    "stars": 328,
     "forks": 395,
     "open_issues": 5,
     "last_commit": "2018-03-11T05:01:05Z",
@@ -14231,9 +14236,10 @@
     "stars": 19,
     "forks": 7,
     "open_issues": 0,
-    "last_commit": "2019-12-04T02:29:37Z",
+    "last_commit": "2019-12-04T02:29:34Z",
     "created_at": "2019-05-27T14:26:21Z",
-    "description": "An official Gatsby blog template designed for web developers. Blazing fast, it includes beautful web developer topic tags and social-media links"
+    "description": "An official Gatsby blog template designed for web developers. Blazing fast, it includes beautful web developer topic tags and social-media links",
+    "stale": false
   },
   "windedge-gatsby-tailwind-serif-master": {
     "theme_key": "windedge-gatsby-tailwind-serif-master",
@@ -14276,7 +14282,7 @@
     "branch": "master",
     "url": "https://github.com/wowthemesnet/affiliates-jekyll-theme",
     "stars": 103,
-    "forks": 149,
+    "forks": 148,
     "open_issues": 2,
     "last_commit": "2019-03-12T14:54:33Z",
     "created_at": "2018-02-01T16:37:57Z",
@@ -14371,7 +14377,7 @@
     "repo": "xianmin/hugo-theme-jane",
     "branch": "master",
     "url": "https://github.com/xianmin/hugo-theme-jane",
-    "stars": 445,
+    "stars": 446,
     "forks": 180,
     "open_issues": 42,
     "last_commit": "2019-11-23T06:37:20Z",
@@ -14436,7 +14442,7 @@
     "branch": "gh-pages",
     "url": "https://github.com/y7kim/agency-jekyll-theme",
     "stars": 632,
-    "forks": 1272,
+    "forks": 1273,
     "open_issues": 20,
     "last_commit": "2017-02-27T18:44:56Z",
     "created_at": "2014-08-20T19:54:22Z",
@@ -14517,7 +14523,7 @@
     "url": "https://github.com/yiluyanxia/hexo-theme-antiquity",
     "stars": 88,
     "forks": 22,
-    "open_issues": 7,
+    "open_issues": 6,
     "last_commit": "2019-09-25T12:29:27Z",
     "created_at": "2019-01-12T09:22:31Z",
     "description": "一个有点古风的Hexo主题，来自一个不会设计不会配色的前端渣渣。点击这里预览-->",
@@ -14564,7 +14570,7 @@
     "branch": "master",
     "url": "https://github.com/yous/whiteglass",
     "stars": 390,
-    "forks": 159,
+    "forks": 158,
     "open_issues": 5,
     "last_commit": "2019-10-28T02:34:48Z",
     "created_at": "2017-01-06T17:13:03Z",
@@ -14774,7 +14780,7 @@
     "stars": 31,
     "forks": 19,
     "open_issues": 1,
-    "last_commit": "2019-12-11T03:20:09Z",
+    "last_commit": "2020-01-02T09:43:05Z",
     "created_at": "2019-02-21T21:33:54Z",
     "description": "A Hugo theme made with PaperCSS, the less formal CSS framework.",
     "stale": false
