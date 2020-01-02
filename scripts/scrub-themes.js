@@ -10,13 +10,23 @@ const subYears = require('date-fns/subYears');
 // been no commits since.
 const staleBeforeDate = subYears(new Date(), 1);
 
+const themesDataFile = path.join(__dirname, '../data/themes.json');
 const themesFolder = './content/theme';
-const themesData = JSON.parse(fs.readFileSync('./data/themes.json'));
+const themesData = fs.existsSync(themesDataFile) ? JSON.parse(fs.readFileSync(themesDataFile)) : {};
 
 var filesUpdated = 0;
 
-function loadFrontmatter(dir, file) {
-  const fileData = fs.readFileSync(path.join(dir, file));
+function loadFrontmatter(dir, file, themeKey) {
+  const fileData = fs.existsSync(path.join(dir, file)) ? fs.readFileSync(path.join(dir, file)) : null;
+  
+  if (!fileData) {
+    console.log("file not found", file, themesData[themeKey]);
+    delete themesData[themeKey];
+    console.log(`entry deleted from ${themesDataFile}`);
+    fs.writeFileSync(themesDataFile, JSON.stringify(themesData, null, 2));
+    return {fileData: null, frontmatter: null};
+  }
+
   var frontmatter = yamlFront.loadFront(fileData);
 
   if (frontmatter.stale === undefined) {
@@ -35,10 +45,14 @@ const themeKeys = Object.keys(themesData);
 
 for (const themeKey of themeKeys) {
   const theme = themesData[themeKey];
-  const { fileData, frontmatter } = loadFrontmatter(themesFolder, theme.file);
+  const { fileData, frontmatter } = loadFrontmatter(themesFolder, theme.file, themeKey);
   const newFrontmatterEntries = [];
 
   const isThemeStale = !isAfter(parseISO(theme.last_commit), staleBeforeDate);
+
+  if (!fileData) {
+    return false;
+  }
 
   if (frontmatter.date === undefined) {
     if (frontmatter.date != theme.created_at) {

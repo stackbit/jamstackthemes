@@ -1619,21 +1619,6 @@
     "created_at": "2017-05-28T01:14:55Z",
     "stale": false
   },
-  "bep-docuapi-master": {
-    "theme_key": "bep-docuapi-master",
-    "file": "hugo-docuapi.md",
-    "name": "docuapi",
-    "github_username": "bep",
-    "repo": "bep/docuapi",
-    "branch": "master",
-    "url": "https://github.com/bep/docuapi",
-    "stars": 345,
-    "forks": 108,
-    "open_issues": 10,
-    "last_commit": "2019-11-15T18:29:10Z",
-    "created_at": "2016-10-17T19:02:31Z",
-    "stale": false
-  },
   "bijenkorf-james-wakefield-gatsby-firebase-hosting-starter-master": {
     "theme_key": "bijenkorf-james-wakefield-gatsby-firebase-hosting-starter-master",
     "file": "gatsby-firebase-hosting-starter.md",

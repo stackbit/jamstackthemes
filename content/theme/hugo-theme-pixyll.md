@@ -1,5 +1,5 @@
 ---
-title: "Pixyll"
+title: "Hugo Pixyll"
 github: https://github.com/azmelanar/hugo-theme-pixyll
 demo: https://themes.gohugo.io/theme/pixyll/
 author: Dmytro Slupytskyi

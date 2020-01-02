@@ -5,6 +5,7 @@
 {{ define "meta_tags" }}
 {{ $themes := (where .Site.RegularPages "Type" "theme") }}
 {{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themes := (where $themes ".Params.stale" "!=" true) }}
 {{ $themeCount := len $themes}}
 <meta name="description" content="The most popular list of themes and starters for JAMstack sites. Over {{ $themeCount }} free static site generator themes for Hugo, Gatsby, Jekyll, Gridsome & more." />
 <link rel="canonical" href="https://jamstackthemes.dev" />
