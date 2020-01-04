@@ -14,7 +14,7 @@ github_branch: master
 description: "A Minimal Light theme for Jekyll with minimal CSS by Sharad Raj Singh Maurya"
 ---
 
-# A simple starter kit for Gridsome
+# A minimal theme for Jekyll
 
 A super simple theme with minimal CSS and HTML. You can also change the Hero color from `_config.yml` file.
 
