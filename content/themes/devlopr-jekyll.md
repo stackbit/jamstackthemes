@@ -1,3 +1,47 @@
 ---
-theme: devlopr-jekyll
+title: "devlopr-jekyll"
+github: https://github.com/sujaykundu777/devlopr-jekyll
+demo: https://sujaykundu.com
+author: Sujay Kundu
+date: 2020-01-11
+github_branch: master 
+ssg:
+  - jekyll
+cms:
+  - NetlifyCMS
+  - Github Pages
+css:
+  - Bootstrap
+archetype:
+  - Blog
+  - Portfolio
+  - Ecommerce
+services:
+  - Snipcart
+  - Formspree
+  - Algolia Search
+description: A Jekyll Theme built for Developers and Software Engineers
 ---
+
+# A Jekyll Theme built for Developers 
+
+
+Devlopr is a modern Jekyll theme built for Developers focused on speed performance & SEO best practices. 
+
+### Features
+
+* Minimal, responsive and speed performance optimized
+* Real Time Search Using Algolia 
+* Super Fast Minfification for Fast Client Side Rendering
+* SEO friendly and Google Tag Manager/Analytics Integration
+* Code Syntax Highlighter
+* [Wakatime](https://wakatime.com) Integrated
+* Form submissions with **[Formspree.io](https://formspree.io/) contact form integration**
+* Comments usin Disquss
+* Inline critical CSS with [critical](https://github.com/addyosmani/critical)
+* Add your **social profiles** easily in `_config.yml`. Only the social icons you enter in `config.yml` will show up on the site footer.
+* Using Bootstrap + Material Design
+* Customizable About Me and Projects Page
+* Quick Start using Startup Template [devlopr-starter](https://github.com/sujaykundu777/devlopr-starter)
+
+### Demo - [here](https://devlopr.netlify.com)
