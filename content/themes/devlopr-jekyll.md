@@ -8,7 +8,9 @@ github_branch: master
 ssg:
   - jekyll
 cms:
-  - Github Pages
+  - Forestry
+  - Contentful
+  - NetlifyCMS
 css:
   - Bootstrap
 archetype:
