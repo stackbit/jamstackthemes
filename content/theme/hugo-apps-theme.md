@@ -10,4 +10,5 @@ cms:
 date: 2018-10-28T08:09:14Z
 github_branch: master
 description: "Hugo Apps Theme"
+stale: true
 ---

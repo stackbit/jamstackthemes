@@ -10,4 +10,5 @@ cms:
 date: 2015-10-10T22:37:27Z
 github_branch: master
 description: "Single page Jekyll theme for dental clinics"
+stale: true
 ---

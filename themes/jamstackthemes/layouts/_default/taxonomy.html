@@ -20,7 +20,6 @@
     <div class="official-website"><strong>Official Website:</strong> <a href="{{ .Params.official_url }}">{{ $url.Host }}</a></div>
   </div>
   {{ partial "breadcrumbs.html" . }}
-  {{ partial "sort-buttons.html" . }}
 
   <div id="grids-taxonomy" class="grids">
     {{ $paginator := .Paginate .RegularPages.ByPublishDate.Reverse }}

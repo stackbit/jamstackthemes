@@ -10,4 +10,5 @@ cms:
 date: 2018-07-14T20:02:15Z
 github_branch: master
 description: "Hexo + Netlify CMS starter based on material design"
+stale: true
 ---

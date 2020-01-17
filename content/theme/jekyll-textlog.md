@@ -11,4 +11,5 @@ cms:
 date: 2017-01-15T08:19:03Z
 github_branch: gh-pages
 description: "Minimalist, lefty-style Jekyll theme designed for documentation based blog."
+stale: true
 ---

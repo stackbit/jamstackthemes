@@ -10,4 +10,5 @@ cms:
 date: 2018-04-14T23:17:41Z
 github_branch: master
 description: "Beautiful responsive Hugo blog theme focused on simplicity and elegance, with many extra features including presentations, math typesetting, music notation, and search."
+stale: true
 ---

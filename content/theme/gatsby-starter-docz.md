@@ -11,4 +11,5 @@ cms:
 date: 2019-01-19T19:10:34Z
 github_branch: master
 description: "Simple starter where building your own documentation with Docz is possible"
+stale: true
 ---

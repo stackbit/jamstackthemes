@@ -11,4 +11,5 @@ cms:
 date: 2019-06-25T12:25:49Z
 github_branch: master
 description: "Gatsby Apollo starter - with client side routing"
+stale: true
 ---

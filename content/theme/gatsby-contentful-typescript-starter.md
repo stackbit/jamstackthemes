@@ -10,4 +10,5 @@ cms:
 date: 2018-10-01T21:52:18Z
 github_branch: master
 description: "Gatsby.js starter with TypeScript and Contentful "
+stale: true
 ---

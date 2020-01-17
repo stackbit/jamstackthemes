@@ -11,4 +11,5 @@ cms:
 date: 2018-09-21T19:19:22Z
 github_branch: master
 description: "A Gatsby v2 starter based on Grommet v2 UI. Demo:"
+stale: true
 ---

@@ -11,4 +11,5 @@ cms:
 date: 2016-08-21T18:10:19Z
 github_branch: master
 description: "Kikofri, a Jekyll Theme, and a fork of Kiko."
+stale: true
 ---

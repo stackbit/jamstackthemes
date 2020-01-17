@@ -11,4 +11,5 @@ cms:
 date: 2019-01-02T16:26:06Z
 github_branch: master
 description: "GatsbyJS starter for a minimal portfolio website with blog. Suitable for developers."
+stale: true
 ---

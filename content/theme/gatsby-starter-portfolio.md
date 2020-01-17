@@ -11,4 +11,5 @@ cms:
 date: 2019-02-27T20:42:33Z
 github_branch: master
 description: "Gatsby starter for creating a portfolio website"
+stale: true
 ---

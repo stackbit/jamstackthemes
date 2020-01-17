@@ -14,4 +14,5 @@ services:
 date: 2018-10-03T18:24:48Z
 github_branch: master
 description: "A demo app built with JavaScript SSG 11ty"
+stale: true
 ---

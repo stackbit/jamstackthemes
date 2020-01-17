@@ -10,4 +10,5 @@ cms:
   - No Cms
 date: 2018-09-19T13:00:05Z
 github_branch: master
+stale: true
 ---

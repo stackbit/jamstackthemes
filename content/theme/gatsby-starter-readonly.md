@@ -11,4 +11,5 @@ cms:
 date: 2019-05-17T10:45:41Z
 github_branch: master
 description: "Gatsby.js V2 starter template based on readonly by HTML5 UP"
+stale: true
 ---

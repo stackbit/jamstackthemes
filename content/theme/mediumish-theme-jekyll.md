@@ -10,4 +10,5 @@ cms:
 date: 2018-01-12T23:01:51Z
 github_branch: master
 description: "Jekyll Template - Mediumish"
+stale: true
 ---

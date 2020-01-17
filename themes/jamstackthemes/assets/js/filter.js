@@ -1,3 +1,11 @@
+
+const pageId = document.querySelector('body').id
+console.log(pageId);
+let sortOrder = null
+if (pageId === "page-all-themes") {
+  sortOrder = "stars:desc"
+}
+
 const mixer = mixitup('#grids-homepage', {
   multifilter: {
     enable: true,
@@ -9,6 +17,9 @@ const mixer = mixitup('#grids-homepage', {
   },
   selectors: {
     target: '.grid'
+  },
+  load: {
+    sort: sortOrder
   },
   // pagination: {
   //   limit: 50,

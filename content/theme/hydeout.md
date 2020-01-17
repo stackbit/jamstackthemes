@@ -10,4 +10,5 @@ cms:
 date: 2017-06-01T00:22:41Z
 github_branch: master
 description: "A refreshed version of Hyde for Jekyll 3.x"
+stale: true
 ---
