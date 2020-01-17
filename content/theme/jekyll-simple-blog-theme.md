@@ -11,4 +11,5 @@ cms:
 date: 2017-05-20T16:21:49Z
 github_branch: master
 description: "Simple Blog Theme is a clean, responsive blogging theme for Jekyll and GitLab/GitHub Pages."
+stale: true
 ---

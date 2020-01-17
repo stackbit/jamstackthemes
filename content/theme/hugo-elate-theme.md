@@ -10,4 +10,5 @@ cms:
 date: 2016-11-18T15:14:54Z
 github_branch: master
 description: "A one page parallax theme with animation for Hugo"
+stale: true
 ---

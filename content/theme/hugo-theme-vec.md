@@ -11,4 +11,5 @@ cms:
 date: 2016-09-08T14:50:26Z
 github_branch: master
 description: "Vec is a minimal, clean and beautiful theme for Hugo."
+stale: true
 ---

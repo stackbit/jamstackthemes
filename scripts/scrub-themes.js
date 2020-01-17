@@ -6,8 +6,7 @@ const isAfter = require('date-fns/isAfter');
 const parseISO = require('date-fns/parseISO');
 const subYears = require('date-fns/subYears');
 
-// Set this to the date you want to consider themes stale if there have 
-// been no commits since.
+// Set this to the date you want to consider themes stale if there have been no commits since.
 const staleBeforeDate = subYears(new Date(), 1);
 
 const themesDataFile = path.join(__dirname, '../data/themes.json');
@@ -55,16 +54,18 @@ for (const themeKey of themeKeys) {
   }
 
   if (frontmatter.description === undefined) {
-    console.log(theme.description)
+      
     if (theme.description) {
       let description = theme.description.replace(/["]/g, "'")
       newFrontmatterEntries.push(`description: "${description}"`);
+      console.log('update description: ' + theme.file + " - " + description);
     }
   }
 
   if (frontmatter.date === undefined) {
     if (frontmatter.date != theme.created_at) {
       newFrontmatterEntries.push('date: ' + theme.created_at);
+      console.log('update date: ' + theme.file + " - " + theme.created_at);
     }
   }
 
@@ -72,12 +73,14 @@ for (const themeKey of themeKeys) {
   // entry for stale setting.
   if (isThemeStale != frontmatter.stale) {
     newFrontmatterEntries.push('stale: ' + isThemeStale);
+    console.log('update stale: ' + theme.file + " - " + isThemeStale);
   }
 
   // If the github branch is missing, generate new frontmatter entry
   // for github branch setting.
   if (frontmatter.github_branch === undefined) {
     newFrontmatterEntries.push('github_branch: ' + theme.branch);
+    console.log('update github branch: ' + theme.file + " - " + theme.branch);
   }
 
   // When there are new frontmatter entries re-write the theme markdown file
@@ -91,12 +94,13 @@ for (const themeKey of themeKeys) {
     } else {
       frontmatterLines = fileData.toString().split('\n');
     }
-    const idx = frontmatterLines.lastIndexOf('---');
+    const idx = frontmatterLines.indexOf('---', frontmatterLines.indexOf('---') +1 );
     frontmatterLines.splice(idx, 0, ...newFrontmatterEntries);
     console.log('Updating: ' + theme.file);
     fs.writeFileSync(path.join(themesFolder, theme.file), frontmatterLines.join("\n"));
     filesUpdated++;
   }
 }
-
+const numberOfThemes = themeKeys.length;
+console.log(numberOfThemes + " files checked.");
 console.log(filesUpdated + " files updated.");

@@ -11,4 +11,5 @@ cms:
 date: 2017-10-29T12:19:33Z
 github_branch: master
 description: "The easiest way to create websites for conference/events"
+stale: true
 ---

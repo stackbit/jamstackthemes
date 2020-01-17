@@ -9,6 +9,7 @@ ssg:
   - Hugo
 css:
   - Bootstrap
+description: "A simple, bootstrap 4 based hugo blog theme."
 ---
 
 # Features
@@ -104,8 +105,6 @@ Enable sharing under `params` with `share` set to `true` and disable per-post sh
 ```yaml
 ---
 share: false
-description: "A simple, bootstrap 4 based hugo blog theme."
-description: "A simple, bootstrap 4 based hugo blog theme."
 ---
 ```
 
