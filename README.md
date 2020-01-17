@@ -82,7 +82,7 @@ Generate Github stars and other metadata
 ```
 npm install
 export GITHUB_TOKEN=XXX
-npm run build
+npm run fetch
 ```
 
 > Generating github data requires a Github Token. You can generate this token in your Github account at settings > developer settings > personal access tokens https://github.com/settings/tokens
