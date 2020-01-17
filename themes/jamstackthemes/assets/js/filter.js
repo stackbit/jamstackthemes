@@ -1,6 +1,5 @@
 
 const pageId = document.querySelector('body').id
-console.log(pageId);
 let sortOrder = null
 if (pageId === "page-all-themes") {
   sortOrder = "stars:desc"
