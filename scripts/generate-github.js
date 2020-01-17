@@ -19,7 +19,7 @@ let themesData = fs.existsSync(themesDataFile) ? JSON.parse(fs.readFileSync(them
 let githubErrors = {}
 
 const token = process.env.GITHUB_TOKEN;
-const axiosLimit = rateLimit(axios.create(), { maxRequests: 2, perMilliseconds: 100 })
+const axiosLimit = rateLimit(axios.create(), { maxRequests: 2, perMilliseconds: 200 })
 
 // Set this to the date you want to consider themes stale if there have
 // been no commits since.
