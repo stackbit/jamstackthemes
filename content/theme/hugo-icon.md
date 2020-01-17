@@ -10,4 +10,5 @@ cms:
 date: 2017-09-19T11:24:46Z
 github_branch: master
 description: "Icon theme for Hugo"
+stale: true
 ---

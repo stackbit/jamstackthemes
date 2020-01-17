@@ -11,4 +11,5 @@ cms:
 date: 2019-02-08T20:22:56Z
 github_branch: master
 description: "Simple Gatsby.js starter that uses material design and that's perfect for tiny agencies."
+stale: true
 ---

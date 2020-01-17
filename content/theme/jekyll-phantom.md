@@ -11,5 +11,5 @@ cms:
 date: 2016-02-21T18:15:37Z
 github_branch: master
 description: "A minimalist, responsive portfolio theme for Jekyll with Bootstrap"
-stale: true
+stale: false
 ---

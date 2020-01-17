@@ -10,4 +10,5 @@ cms:
 date: 2017-10-13T18:45:57Z
 github_branch: master
 description: "Gatsbyjs boilerplate"
+stale: true
 ---

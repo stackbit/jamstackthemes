@@ -10,4 +10,5 @@ cms:
 date: 2017-01-17T05:20:07Z
 github_branch: master
 description: "A simple portfolio Jekyll theme:"
+stale: true
 ---

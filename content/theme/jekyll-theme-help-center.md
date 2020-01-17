@@ -11,4 +11,5 @@ cms:
 date: 2017-12-12T15:50:55Z
 github_branch: master
 description: "Simple and responsive Jekyll theme for help center."
+stale: true
 ---

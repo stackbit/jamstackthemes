@@ -11,4 +11,5 @@ cms:
 date: 2015-02-20T17:02:41Z
 github_branch: master
 description: "Naringu is jekyll dark theme"
+stale: true
 ---

@@ -11,4 +11,5 @@ cms:
 date: 2013-09-22T10:23:03Z
 github_branch: master
 description: "A simple Jekyll blog theme"
+stale: true
 ---

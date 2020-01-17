@@ -11,4 +11,5 @@ cms:
 date: 2019-02-09T20:41:57Z
 github_branch: master
 description: "Gatsby v2 i18n starter which makes static pages for every locale and detect your browsers lang."
+stale: true
 ---

@@ -10,4 +10,5 @@ cms:
 date: 2017-11-18T01:53:43Z
 github_branch: master
 description: "Forty theme - Hugo theme ported from HTML5UP origrinal theme called Forty."
+stale: true
 ---

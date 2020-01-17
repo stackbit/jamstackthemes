@@ -15,4 +15,5 @@ css:
 date: 2019-11-08
 github_branch: master
 description: "Serif is a beautiful small business theme for Jekyll."
+stale: true
 ---

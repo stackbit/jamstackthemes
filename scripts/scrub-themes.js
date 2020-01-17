@@ -4,10 +4,10 @@ const path = require('path');
 const yamlFront = require('yaml-front-matter');
 const isAfter = require('date-fns/isAfter');
 const parseISO = require('date-fns/parseISO');
-const subYears = require('date-fns/subYears');
+const subMonths = require('date-fns/subMonths');
 
 // Set this to the date you want to consider themes stale if there have been no commits since.
-const staleBeforeDate = subYears(new Date(), 1);
+const staleBeforeDate = subMonths(new Date(), 6);
 
 const themesDataFile = path.join(__dirname, '../data/themes.json');
 const themesFolder = './content/theme';
@@ -96,7 +96,7 @@ for (const themeKey of themeKeys) {
     }
     const idx = frontmatterLines.indexOf('---', frontmatterLines.indexOf('---') +1 );
     frontmatterLines.splice(idx, 0, ...newFrontmatterEntries);
-    console.log('Updating: ' + theme.file);
+    // console.log('Updating: ' + theme.file);
     fs.writeFileSync(path.join(themesFolder, theme.file), frontmatterLines.join("\n"));
     filesUpdated++;
   }

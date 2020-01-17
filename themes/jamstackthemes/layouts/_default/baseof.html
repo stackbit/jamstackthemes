@@ -41,7 +41,7 @@
 {{ if eq .Site.Params.banner true }}{{ $bodyClasses = $bodyClasses | append "body-banner" }}{{ end }}
 {{ if and (eq .Site.Params.banner true) (eq .Site.Params.banner_fixed true) }}{{ $bodyClasses = $bodyClasses | append "body-banner-fixed" }}{{ end }}
 
-<body class='page {{ block "body_classes" . }}{{ end }} {{ delimit $bodyClasses " " }}'>
+<body id="{{ block "body_id" . }}{{ end }}" class='page {{ block "body_classes" . }}{{ end }} {{ delimit $bodyClasses " " }}'>
   {{ if .Site.Params.banner }}
     {{ partial "banner.html" . }}
   {{ end }}

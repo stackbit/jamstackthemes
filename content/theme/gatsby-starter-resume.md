@@ -11,4 +11,5 @@ cms:
 date: 2019-06-22T16:31:13Z
 github_branch: master
 description: "Gatsby.js V2 starter template based on Resume  by startbootstrap"
+stale: true
 ---

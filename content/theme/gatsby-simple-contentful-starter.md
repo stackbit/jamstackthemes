@@ -10,4 +10,5 @@ cms:
 date: 2018-10-10T00:47:54Z
 github_branch: master
 description: "🎊 A simple Gatsby Starter that talks to Contentful."
+stale: true
 ---

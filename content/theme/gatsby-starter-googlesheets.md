@@ -11,4 +11,5 @@ cms:
 date: 2019-05-22T10:09:13Z
 github_branch: master
 description: "A gatsby starter using Google Sheets "
+stale: true
 ---

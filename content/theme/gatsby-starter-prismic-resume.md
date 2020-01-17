@@ -11,4 +11,5 @@ cms:
 date: 2019-03-15T23:07:16Z
 github_branch: master
 description: "Resume/CV page - Gatsby starter which uses Prismic as a headless CMS."
+stale: true
 ---

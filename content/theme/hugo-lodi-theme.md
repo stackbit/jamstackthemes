@@ -10,4 +10,5 @@ cms:
 date: 2017-10-15T09:52:43Z
 github_branch: master
 description: "Lodi theme for Hugo"
+stale: true
 ---
