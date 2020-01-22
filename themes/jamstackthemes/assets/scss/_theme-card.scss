@@ -1,6 +1,5 @@
 
 .theme {
-  // height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -17,16 +16,6 @@
     box-shadow: 1px 5px 16px 2px adjust-color($primary, $alpha: -0.8);
     color: currentColor;
   }
-  .theme-container {
-    position: relative;
-  }
-  .theme-overlay {
-    position: absolute;
-    top: 0; 
-    left: 0;
-    height: 100%; 
-    width: 100%;
-  }
   .theme-header {
     border-bottom: 1px solid $grey;
     max-height: 180px;
@@ -38,9 +27,6 @@
       max-width: 100%;
       height: auto;
       vertical-align: bottom;
-      @include breakpoint('small') {
-       
-      }
     }
   }
   .theme-body {
@@ -68,29 +54,6 @@
         margin-bottom: 0;
         line-height: 18px
       }
-    }
-    
-    .theme-fresh {
-      display: flex;
-      align-items: center;
-      > div {
-        &:first-of-type {
-          border-right: 1px solid $grey;
-          ;
-        }
-      }
-    }
-    .theme-submitted {
-      display: none;
-      font-size: 13px;
-      line-height: 18px;
-      color: $steel;
-    }
-    .theme-summary {
-      font-size: 13px;
-      line-height: 18px;
-      color: $steel;
-      margin: 0;
     }
   }
   .theme-footer {

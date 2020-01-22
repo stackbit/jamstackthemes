@@ -11,8 +11,7 @@
     {{ $githubLink = (printf "%s/%s/%s" $githubLink "tree" .theme.Params.github_branch)}}
   {{ end }}
 
-  <div class="theme-header">
-    <a href="{{ .theme.Permalink }}" title="{{ .theme.Params.title }}">
+    <a href="{{ .theme.Permalink }}" title="{{ .theme.Params.title }}" class="theme-header">
       {{ if .theme.Params.thumbnail }}
       <img loading="lazy" src="{{ .theme.Params.thumbnail | relURL }}" alt="{{ .theme.Params.title }} screenshot" />
       {{ else if .repo }}
@@ -39,7 +38,6 @@
         <img src="{{ "images/default.png" | relURL }}" width="280" height="180" loading="lazy" alt="{{ .theme.Params.title }} screenshot" />
       {{ end }}
     </a>
-  </div>
 
   <div class="theme-body">
     <h2>{{ .theme.Params.title }}</h2>

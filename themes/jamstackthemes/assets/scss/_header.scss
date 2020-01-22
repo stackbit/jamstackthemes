@@ -19,16 +19,12 @@
   position: fixed;
   width: 100%;
   z-index: 10;
-  // opacity: 0.8;
   @include breakpoint('small') {
     padding: 0 30px;
     height: 60px;
   }
   .header-left {
     display: flex;
-  }
-  > div {
-
   }
   h1 {
     margin: 0;

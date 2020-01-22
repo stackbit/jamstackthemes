@@ -1,5 +1,4 @@
 .footer {
-  // background: $bone;
   border-top: 1px solid $grey;
   padding: 30px 20px;
   display: flex;
@@ -20,8 +19,6 @@
     }
   }
   .footer-column-brand {
-    // background: $primary;
-    // color: white;
     @include breakpoint('small') {
       width: 235px;
     }
@@ -42,7 +39,6 @@
   }
   h3 {
     margin-bottom: 10px;
-    // font-weight: normal;
   }
   ul {
     margin: 0;

@@ -32,16 +32,12 @@
         &:hover {
           text-decoration: underline;
         }
-       
       }
       &.active {
         > a {
           text-decoration: none;
           background: $primary;
           color: white;
-          &:hover {
-           
-          }
         }
       }
       &:last-of-type {

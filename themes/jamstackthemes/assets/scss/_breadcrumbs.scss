@@ -8,16 +8,12 @@
   font-size: 15px;
   margin-bottom: 10px;
   margin-top: 10px;
-  @include breakpoint('small') {
-  }
   a {
     color: $primary;
     padding: 8px;
     &:first-of-type {
       padding-left: 0;
     }
-  }
-  span {
   }
   .end {
     padding: 8px;

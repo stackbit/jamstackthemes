@@ -27,7 +27,7 @@ $breakpoints: (
 @import 'header';
 @import 'button';
 @import 'filter';
-@import 'sort';
+@import 'sort-buttons';
 @import 'intro';
 @import 'info';
 @import 'icon';
@@ -38,9 +38,9 @@ $breakpoints: (
 @import 'star';
 @import 'made-by';
 @import 'not-found';
-@import 'badge';
+// @import 'badge';
 @import 'hero';
-@import 'banner';
+// @import 'banner';
 @import 'pagination';
 @import 'logo';
 @import 'main-menu';
@@ -49,7 +49,6 @@ $breakpoints: (
 @import 'blurb';
 @import 'content';
 @import 'pygments/github';
-@import 'mixitup-pagination';
 
 *,
 *::before,
