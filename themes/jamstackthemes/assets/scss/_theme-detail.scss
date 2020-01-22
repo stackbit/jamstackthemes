@@ -5,22 +5,28 @@
 
   .theme-detail-top {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    @include breakpoint('small') {
+      flex-direction: row;
+    }
+    .theme-info {
+      flex: 1;
+      min-width: 400px;
+      padding-right: 60px;
+    }
+    .theme-preview {
+      margin-top: 20px;
+      max-width: 800px;
+      @include breakpoint('small') {
+        margin-top: 0;
+      }
+    }
   }
   .theme-detail-bottom {
     padding-top: 60px;
   }
-  .theme-info {
-    flex: 1;
-    min-width: 400px;
-    padding-right: 60px;
-  }
-  .theme-preview {
-    max-width: 800px;
-  }
   .theme-image {
     border: 1px solid $grey;
-
     img {
       width: 100%;
       height: auto;
@@ -30,7 +36,9 @@
 
   .theme-detail-buttons {
     margin-top: 20px;
-    margin-bottom: 20px;
+    a {
+      display: inline-block;
+    }
   }
   .theme-detail-heading {
     font-size: 46px;
@@ -41,10 +49,13 @@
     color: $steel;
   }
   .theme-detail-tags {
-    margin-top: 40px;
+    margin-top: 20px;
     display: inline-block;
     background: $grey;
     border-radius: 3px;
-    padding: 20px;
+    padding: 10px;
+    @include breakpoint('small') {
+      padding: 20px;
+    }
   }
 }

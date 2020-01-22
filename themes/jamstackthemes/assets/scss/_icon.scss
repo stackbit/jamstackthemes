@@ -18,8 +18,11 @@
   border-radius: 3px;
   background-color: white;
   box-shadow: 1px 1px 8px 2px adjust-color(black, $alpha: -0.9);
-  padding: 10px;
+  padding: 5px;
   margin-right: 5px;
+  @include breakpoint('small') {
+    padding: 10px;
+  }
   &:hover {
     transform: translateY(-3px);
     box-shadow: 1px 5px 16px 2px adjust-color($primary, $alpha: -0.8);
@@ -28,7 +31,11 @@
   img {
     display: inline-block;
     vertical-align: bottom;
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
+    @include breakpoint('small') {
+      width: 32px;
+      height: 32px;
+    }
   }
 }

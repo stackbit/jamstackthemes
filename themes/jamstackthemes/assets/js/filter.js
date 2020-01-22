@@ -43,7 +43,7 @@ const ssgGroup = ["brunch", "eleventy", "gatsby", "gridsome", "hexo", "hugo", "j
 const cmsGroup = ["airtable", "contentful", "datocms", "firebase", "forestry", "ghost", "netlifycms", "no-cms", "sanity", "wordpress"]
 const cssGroup = ["bootstrap", "scss"]
 const archetypeGroup = ["agency", "portfolio", "business", "multi-purpose", "blog", "single-page", "ecommerce"]
-const servicesGroup = ["snipcart"]
+const servicesGroup = ["snipcart",'mailchimp','algolia','formspree']
 
 const groups = {
   ssg: ssgGroup,

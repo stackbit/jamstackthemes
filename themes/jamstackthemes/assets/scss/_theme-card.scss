@@ -63,6 +63,7 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     a {
+      flex: 0;
       padding: 6px;
       border-right: 1px solid $grey;
       border-bottom: 1px solid $grey;

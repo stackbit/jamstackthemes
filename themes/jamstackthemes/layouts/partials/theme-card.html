@@ -40,7 +40,7 @@
     </a>
 
   <div class="theme-body">
-    <h2>{{ .theme.Params.title }}</h2>
+    <h2><a href="{{ .theme.Permalink }}">{{ .theme.Params.title }}</a></h2>
     {{ if .repo }}
       {{ partial "star.html" (dict "stars" .repo.stars "float" "right")}}
       <p><strong>Author:</strong> {{ .theme.Params.author }}</p>
@@ -89,6 +89,13 @@
       {{ end }}
     {{ end }}
 
+    {{ if .theme.Params.services }}
+    {{- range .theme.Params.services }}
+      {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "services/%s" (urlize .)) }}
+        {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+      {{ end }}
+    {{ end }}
+
     {{ if .theme.Params.archetype }}
       {{- range .theme.Params.archetype }}
         {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
@@ -96,6 +103,6 @@
         {{ end }}
       {{ end }}
     {{ end }}
+  {{ end }}
   </div>
-
 </div>
