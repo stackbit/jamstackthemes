@@ -6,7 +6,7 @@ author: Sujay Kundu
 date: 2020-01-11
 github_branch: master
 ssg:
-  - jekyll
+  - Jekyll
 cms:
   - Forestry
 css:
@@ -18,7 +18,7 @@ archetype:
 services:
   - Snipcart
   - Formspree
-  - Algolia Search
+  - Algolia
 description: A Jekyll Theme built for Developers and Software Engineers
 ---
 
