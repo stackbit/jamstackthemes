@@ -3,7 +3,7 @@ title: "Light Hugo"
 github: https://github.com/tblyler/light-hugo
 demo: https://themes.gohugo.io/theme/light-hugo/
 author: Tony Blyler
-draft: true
+
 ssg:
   - Hugo
 cms:

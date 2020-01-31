@@ -1,4 +1,4 @@
 <div class="last-commit">
-  last commit {{ dateFormat "Jan 2, 2006" .last_commit }}<br/>
-  (<time class="timeago" datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" .last_commit }}">...</time>)
+  <span class="last-commit-label">Last Commit:</span> 
+  <span class="last-commit-date">{{ dateFormat "Jan 2, 2006" .last_commit }}</span>
 </div>

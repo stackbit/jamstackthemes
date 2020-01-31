@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2018-03-15T03:06:27Z
 github_branch: master
+description: "A Hexo theme inspired by Kalafina's song ARIA."
 ---

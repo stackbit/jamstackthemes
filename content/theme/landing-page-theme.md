@@ -9,4 +9,6 @@ cms:
   - No Cms
 date: 2014-10-04T15:07:16Z
 github_branch: master
+description: "Jekyll Bootstrap theme"
+stale: true
 ---

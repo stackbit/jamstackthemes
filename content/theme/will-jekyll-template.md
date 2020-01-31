@@ -9,4 +9,6 @@ cms:
   - No Cms
 date: 2015-08-04T06:35:46Z
 github_branch: gh-pages
+description: "A simple Jekyll theme."
+stale: true
 ---

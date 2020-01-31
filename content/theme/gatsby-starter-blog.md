@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2015-07-22T00:07:37Z
 github_branch: master
+description: "Gatsby starter for creating a blog"
 ---

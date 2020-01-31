@@ -9,6 +9,7 @@ cms:
   - No Cms
 date: 2016-01-28T22:09:23Z
 github_branch: master
+description: "A Material Design theme for MkDocs"
 ---
 
 A Material Design theme for MkDocs

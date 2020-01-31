@@ -19,7 +19,7 @@ let themesData = fs.existsSync(themesDataFile) ? JSON.parse(fs.readFileSync(them
 let githubErrors = {}
 
 const token = process.env.GITHUB_TOKEN;
-const axiosLimit = rateLimit(axios.create(), { maxRequests: 2, perMilliseconds: 100 })
+const axiosLimit = rateLimit(axios.create(), { maxRequests: 2, perMilliseconds: 200 })
 
 // Set this to the date you want to consider themes stale if there have
 // been no commits since.
@@ -96,7 +96,8 @@ const getThemeGithubData = (theme) => {
         forks: res.data.forks_count,
         open_issues: res.data.open_issues_count,
         last_commit: res.data.updated_at,
-        created_at: res.data.created_at
+        created_at: res.data.created_at,
+        description: res.data.description
       }
       return themesData[themeKey]
     }).catch(err => {
@@ -124,19 +125,30 @@ const getThemes = async () => {
   let filterCounts = {
     draft: 0,
     disabled: 0,
-    latest: 0
+    latest: 0,
+    skipped: 0
   }
 
+  // Filter out themes which will not be fetched from Github
   let filteredThemesFrontMatter = themesFrontMatter.filter(theme => {
+    // Don't fetch themes with draft or disabled in the frontmatter
     for (let key in filter) {
       if (theme[key]) {
         filterCounts[key] += 1
         return false;
       }
     }
+    // if the cli command --latest is used, only fetch themes which do exist in `data/themes.json`
     if (argv.latest) {
       if (themesData[theme.themeKey]) {
         filterCounts.latest += 1
+        return false
+      }
+    }
+    // if the cli command --file=hugo-swift-theme.md is used, only fetch that specific theme
+    if (argv.file) {
+      if (argv.file !== themesData[theme.themeKey].file) {
+        filterCounts.skipped += 1
         return false
       }
     }
@@ -147,6 +159,7 @@ const getThemes = async () => {
   console.log("Disabled ", themesFrontMatter.filter(theme => theme.disabled).length)
   console.log("Drafts ", themesFrontMatter.filter(theme => theme.draft).length)
   console.log("Latest ", filterCounts.latest)
+  console.log("Skipped ", filterCounts.skipped)
   
   const results = await allSettled(filteredThemesFrontMatter.map(theme => {
     return getThemeGithubData(theme)

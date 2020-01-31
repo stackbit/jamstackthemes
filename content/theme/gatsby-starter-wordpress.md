@@ -9,4 +9,5 @@ cms:
   - Wordpress
 date: 2018-02-03T21:55:52Z
 github_branch: master
+description: "A GatsbyJS starter template that leverages the WordPress API, ACF and more"
 ---

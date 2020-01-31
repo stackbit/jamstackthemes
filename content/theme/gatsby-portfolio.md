@@ -9,4 +9,5 @@ cms:
   - DatoCMS
 date: 2017-12-01T17:08:02Z
 github_branch: master
+description: "Sample DatoCMS website built with GatsbyJS"
 ---

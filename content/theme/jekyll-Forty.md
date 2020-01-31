@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2016-08-23T00:53:06Z
 github_branch: master
+description: "A Jekyll version of the 'Forty' theme by HTML5 UP."
 ---

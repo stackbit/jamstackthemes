@@ -41,38 +41,6 @@
   }
 }
 
-.blurb {
-  padding: 20px 15px 5px 15px;
-  display: none;
-  @include breakpoint('small') {
-    display: block;
-    padding: 20px 15px 0 15px;
-  }
-  &.blurb-mobile {
-    display: block;
-    padding: 0;
-    margin-bottom: 10px;
-    @include breakpoint('small') {
-      display: none;
-    }
-  }
-  &.blurb-desktop {
-    display: none;
-    @include breakpoint('small') {
-      display: block;
-    }
-  }
-  p {
-    line-height: 20px;
-    margin: 0;
-    
-  }
-  a {
-    color: $primary;
-  }
-
-}
-
 .byline {
   p {
     font-size: 15px;

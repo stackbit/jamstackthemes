@@ -22,12 +22,17 @@
     @include breakpoint('small') {
       width: 270px;
       padding: 0 0 40px 0;
-      height: calc(100vh - 100px);
+      height: calc(100vh - 60px);
     }
   }
   .main {
     flex: 1;
     padding: 15px 20px 15px 20px;
+    @include breakpoint('small') {
+      padding: 30px;
+    }
+  }
+  .sidebar + .main {
     @include breakpoint('small') {
       padding: 20px 40px 20px 40px;
     }
@@ -37,18 +42,3 @@
   }
 }
 
-// Banner
-.page.body-banner {
-  .sidebar {
-    top: 110px;
-    @include breakpoint('small') {
-      top: 100px;
-    }
-  }
-  .wrapper {
-    padding-top: 110px;
-    @include breakpoint('small') {
-      padding-top: 100px;
-    }
-  }
-}

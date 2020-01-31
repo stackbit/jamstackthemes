@@ -1,5 +1,9 @@
-let filters = {}
-let initialFilters = {}
+
+const pageId = document.querySelector('body').id
+let sortOrder = null
+if (pageId === "page-all-themes") {
+  sortOrder = "stars:desc"
+}
 
 const mixer = mixitup('#grids-homepage', {
   multifilter: {
@@ -13,181 +17,122 @@ const mixer = mixitup('#grids-homepage', {
   selectors: {
     target: '.grid'
   },
+  load: {
+    sort: sortOrder
+  },
+  // pagination: {
+  //   limit: 50,
+  //   maintainActivePage: false
+  // },
   callbacks: {
     onMixStart: function(state, futureState) {
       let total = futureState.totalShow;
       let count = document.querySelector('.count-number');
-      count.textContent = total
+      count.textContent = total;
+      window.scrollTo(0,0);
       updateFilterCounts(state, futureState);
     },
     onMixClick: function(state, originalEvent) {
-    }
+    },
+    onParseFilterGroups: handleParseFilterGroups,
+    onMixEnd: setHash
   }
 });
 
+const ssgGroup = ["brunch", "eleventy", "gatsby", "gridsome", "hexo", "hugo", "jekyll", "middleman", "mkdocs", "nuxt", "pelican", "vuepress"]
+const cmsGroup = ["airtable", "contentful", "datocms", "firebase", "forestry", "ghost", "netlifycms", "no-cms", "sanity", "wordpress"]
+const cssGroup = ["bootstrap", "scss"]
+const archetypeGroup = ["agency", "portfolio", "business", "multi-purpose", "blog", "single-page", "ecommerce"]
+const servicesGroup = ["snipcart",'mailchimp','algolia','formspree']
+
+const groups = {
+  ssg: ssgGroup,
+  cms: cmsGroup,
+  css: cssGroup,
+  archetype: archetypeGroup,
+  services: servicesGroup
+}
+
+function getTriggerGroup(event) {
+  triggerGroup = null;
+  if (!event) {
+    return triggerGroup
+  } else if (event.classList.contains('filter-button')) {
+    triggerGroup = event.parentNode.parentNode.parentNode.id.slice(13);
+  };
+  return triggerGroup;
+}
+
 function updateFilterCounts(state, futureState) {
-  let emptyGroups = Object.keys(filters).filter((filterGroup) => {
-    return groupEmpty(filterGroup);
-  })
-  let parent = futureState.triggerElement.parentNode.parentNode.parentNode.id.slice(13)
-  // let trigger = futureState.triggerElement.id.slice(14)
-
-  // let selected = Object.keys(filters).filter((filterGroup) => {
-  //   listSelected(filterGroup);
-  // })
-
-  // console.log("emptyGroups", emptyGroups);
-  // console.log("parent", parent);
-  // console.log("trigger", trigger);
-  // console.log("selected");
-
-  if (parent === "ssg") {
-    emptyGroups.forEach((group) => {
-      if (group === "cms") {
-        updateFilterGroup("cms", futureState);
-        resetFilterGroup("ssg");
-      }
-      if (group === "ssg") {
-        updateFilterGroup("ssg", futureState);
-        resetFilterGroup("cms");
-      }
-    })
-    if (!emptyGroups.length) {
-      updateFilterGroup("cms", futureState);
-      updateFilterGroup("ssg", futureState);
-    }
-  }
-  if (parent === "cms") {
-    emptyGroups.forEach((group) => {
-      if (group === "ssg") {
-        updateFilterGroup("ssg", futureState);
-        resetFilterGroup("cms");
-      }
-      if (group === "cms") {
-        updateFilterGroup("cms", futureState);
-        resetFilterGroup("ssg");
-      }
-    })
-    if (!emptyGroups.length) {
-      updateFilterGroup("cms", futureState);
-      updateFilterGroup("ssg", futureState);
-    }
-  }
-
-  if (emptyGroups.length >= 2) {
-    emptyGroups.forEach((group) => {
-      resetFilterGroup(group);
-    })
-  }
-}
-
-function listSelected(filterGroup) {
-  let selected = []
-  document.querySelectorAll(`#filter-group-${filterGroup} .filter-button`).forEach((filter)=> {
-    let classArray = [...filter.classList];
-    classArray.forEach((item) =>{
-      if (item === 'mixitup-control-active') {
-        selected.push(item)
-      }
-    });
-  });
-  return selected
-}
-
-function groupEmpty(filterGroup) {
-  let empty = []
-  document.querySelectorAll(`#filter-group-${filterGroup} .filter-button`).forEach((filter)=> {
-    let classArray = [...filter.classList];
-    classArray.forEach((item) =>{
-      if (item === 'mixitup-control-active') {
-        empty.push(item)
-      }
-    });
-  });
-  // console.log("groupEmpty", filterGroup, empty)
-  if (empty.length) {
-    return false
-  }
-  return true
-}
-
-function updateFilters(state, futureState) {
-
-  let parent = futureState.triggerElement.parentNode.parentNode.parentNode.id.slice(13)
-  let grid = futureState.matching;
-
-  Object.keys(filters).forEach((filterGroup) => {
-    console.log("updateFilters", filterGroup)
-    Object.keys(filters[filterGroup]).forEach(filter => {
-      filters[filterGroup][filter] = grid.reduce((sum, grid) => {
-        let gridClasses = grid.className.trim().split(' ');
-        let matchedClasses = gridClasses.filter((className) => {
-          return filter == className;
-        });
-        if (matchedClasses.length > 0) {
-          return sum += 1
-        }
-        return sum;
-      }, 0);
-    })
-  })
-
-  console.log("filters", filters);
-
-  Object.keys(filters).forEach((filterGroup) => {
-    Object.keys(filters[filterGroup]).forEach((filter) => {
-      document.querySelector(`#filter-count-${filter}`).innerText = filters[filterGroup][filter]
-    })
-  })
-}
-
-function updateFilterGroup(filterGroup, futureState) {
-
-  let parent = futureState.triggerElement.parentNode.parentNode.parentNode.id.slice(13)
-  let grid = futureState.matching;
-
-  // console.log("update filter group", filterGroup);
-
-  Object.keys(filters[filterGroup]).forEach(filter => {
-    filters[filterGroup][filter] = grid.reduce((sum, grid) => {
-      let gridClasses = grid.className.trim().split(' ');
-      let matchedClasses = gridClasses.filter((className) => {
-        return filter == className;
-      });
-      if (matchedClasses.length > 0) {
-        return sum += 1
-      }
-      return sum;
-    }, 0);
-  })
-
-  Object.keys(filters[filterGroup]).forEach((filter) => {
-    document.querySelector(`#filter-count-${filter}`).innerText = filters[filterGroup][filter]
-  })
-}
-
-function resetFilterGroup(filterGroup) {
-  // console.log("reset", filterGroup)
-  // console.log("reset filters", initialFilters)
-  Object.keys(initialFilters[filterGroup]).forEach((filter) => {
-    document.querySelector(`#filter-count-${filter}`).innerText = initialFilters[filterGroup][filter]
-  })
-  filters[filterGroup] = JSON.parse(JSON.stringify(initialFilters[filterGroup]))
-}
-
-function initFilters() {
-  document.querySelectorAll('.filter').forEach((filterGroup)=> {
-    let filterGroupName = filterGroup.classList[1].slice(13);
-    filters[filterGroupName] = {}
-    let filterCounts = filterGroup.querySelectorAll('.filter-count');
   
-    filterCounts.forEach((item) => {
-      let name = item.id.slice(13);
-      let count = item.innerHTML;
-      filters[filterGroupName][name] = count
-    });
-    initialFilters = JSON.parse(JSON.stringify(filters))
+  // console.log("state", state);
+  // console.log("futureState", futureState)
+
+  let triggerGroup = getTriggerGroup(futureState.triggerElement)
+  let totalMatching = futureState.targets.map(theme => theme.className.trim().split(" "));
+  let matching = futureState.matching.map(theme => theme.className.trim().split(" "));
+
+  // console.log("triggerGroup", triggerGroup);
+
+  let hasMultipleActiveGroups = checkActiveGroups();
+
+  // console.log("hasMultipleActiveGroups", hasMultipleActiveGroups);
+  // console.log("matching", matching)
+  // console.log("groups", groups)
+
+  // Update Filter Counts 
+  Object.keys(groups).forEach((group) => {
+    if (hasMultipleActiveGroups) {
+      resetCount(groups[group], totalMatching);
+      updateCount(groups[group], matching);
+    } else {
+      if (group === triggerGroup) {
+        resetCount(groups[group], totalMatching);
+      } else if (!triggerGroup) {
+        
+      } else {
+        updateCount(groups[group], matching);
+      } 
+    }
   })
 }
 
-initFilters();
+function checkActiveGroups() {
+  let activeGroups = Object.keys(groups).map(group => {
+    return mixer.getFilterGroupSelectors(group)
+  })
+
+  let activeGroupsLength = 0
+  activeGroups.forEach(group => {
+    if (group.length) {
+      activeGroupsLength += 1
+    }
+  })
+  return activeGroupsLength >= 2;
+}
+
+function updateCount(group, matches) {
+  
+  group.forEach(term => {
+    let count = matches.filter(match => {
+      return match.includes(term);
+    })
+    document.querySelector(`#filter-count-${term}`).innerText = count.length
+  })
+}
+
+function resetCount(group, matches) {
+  group.forEach(term => {
+    let count = matches.filter(match => {
+      return match.includes(term);
+    })
+    document.querySelector(`#filter-count-${term}`).innerText = count.length
+  })
+}
+
+var uiState = deserializeHash();
+
+if (uiState) {
+  // If a valid uiState object is present on page load, filter the mixer
+  syncMixerWithPreviousUiState(uiState);
+}

@@ -8,7 +8,7 @@
     justify-content: flex-start;
   }
   > div {
-    margin: 10px 10px 10px 0;
+    // margin: 10px 10px 10px 0;
     &:last-of-type {
       margin-right: 0;
     }
@@ -46,7 +46,8 @@
         vertical-align: bottom;
         width: 24px;
         @include breakpoint('small') {
-         width: 34px;
+         width: 36px;
+         line-height: 44px;
         }
       }
     }
@@ -59,6 +60,7 @@
       font-weight: 400;
       @include breakpoint('small') {
         font-size: 40px;
+        line-height: 44px;
         margin-bottom: 0px;
       }
     }

@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2018-06-16T13:57:14Z
 github_branch: master
+description: "A clean, elegant blog theme for hugo"
 ---

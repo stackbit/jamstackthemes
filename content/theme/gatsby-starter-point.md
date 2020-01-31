@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2019-10-24T02:47:15Z
 github_branch: master
+description: "A humble Gatsby starter for blog"
 ---

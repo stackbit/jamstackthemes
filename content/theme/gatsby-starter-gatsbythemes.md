@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2017-10-21T09:52:00Z
 github_branch: master
+description: "Basic gatsby-starter package"
 ---

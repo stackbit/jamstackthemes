@@ -1,24 +1,34 @@
+{{ $countAll := .countAll }}
 <div class="filters">
 
   <div id="filter-group-ssg" class="filter filter-group-ssg" data-filter-group="ssg">
     <div class="filter-title">
       <h3>SSG </h3>
+     
       <span class="toggle-info">
-        <a href="https://www.staticgen.com" target="_blank" rel="noopener" class="tooltip" title="staticgen.com" data-tippy-content="StaticGen Rankings">
-          <svg height='20px' width='20px'  fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" x="0px" y="0px"><title>01</title><path d="M50,12.06A37.94,37.94,0,1,0,87.94,50,38,38,0,0,0,50,12.06Zm0,6A32,32,0,0,1,81.79,47H66a3,3,0,0,0-2.47,1.29l-6.16,8.9L45.66,34.62a3,3,0,0,0-5.19-.24L32.36,47H18.21A32,32,0,0,1,50,18.06Zm0,63.88A32,32,0,0,1,18.21,53H34a3,3,0,0,0,2.52-1.38L42.72,42l11.62,22.4A3,3,0,0,0,56.81,66H57a3,3,0,0,0,2.47-1.29L67.57,53H81.79A32,32,0,0,1,50,81.94Z"></path></svg>
+        <a href="https://www.staticgen.com" target="_blank" rel="noopener" class="tooltip" aria-label="StaticGen Rankings" title="StaticGen Rankings" data-tippy-content="StaticGen Rankings">
+          <img src="{{ "images/ui/pulse.svg" | relURL }}" alt="" />
         </a>
       </span>
-      <span class="toggle-icon" role="button" aria-expanded="true" tabindex="0">
-        <img src="{{ "images/ui/chevron-down-solid.svg" | relURL }}"  alt="Toggle SSG list button" />
-      </span>
+      {{ partial "toggle-icon.html" . }}
     </div>
     <ul class="filter-list">
-      {{ range .Site.Taxonomies.ssg }}
+      {{ range .context.Site.Taxonomies.ssg }}
       <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
-        {{ partial "icon.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
+        {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
         <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
-        <span class="filter-link">{{ .Page.Title }}</span>
-        <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ .Count }}</span>
+        <span class="filter-name">{{ .Page.Title }}</span>
+        {{ $count := 0 }}
+        {{ if $countAll }}
+          {{ $count = .Count }}
+        {{ else }}
+          {{ range .Pages }}
+              {{ if not .Params.stale }}
+                {{ $count = add $count 1 }}
+              {{ end }}
+          {{ end }}
+        {{ end }}
+        <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ $count }}</span>
       </li>
       {{ end }}
     </ul>
@@ -28,8 +38,8 @@
     <div class="filter-title">
       <h3>CMS</h3>
       <span class="toggle-info">
-        <a href="https://www.headlesscms.org" target="_blank" rel="noopener" class="tooltip" title="headlesscms.org" data-tippy-content="HeadlessCMS Rankings">
-          <svg height='20px' width='20px'  fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" x="0px" y="0px"><title>01</title><path d="M50,12.06A37.94,37.94,0,1,0,87.94,50,38,38,0,0,0,50,12.06Zm0,6A32,32,0,0,1,81.79,47H66a3,3,0,0,0-2.47,1.29l-6.16,8.9L45.66,34.62a3,3,0,0,0-5.19-.24L32.36,47H18.21A32,32,0,0,1,50,18.06Zm0,63.88A32,32,0,0,1,18.21,53H34a3,3,0,0,0,2.52-1.38L42.72,42l11.62,22.4A3,3,0,0,0,56.81,66H57a3,3,0,0,0,2.47-1.29L67.57,53H81.79A32,32,0,0,1,50,81.94Z"></path></svg>
+        <a href="https://www.headlesscms.org" target="_blank" rel="noopener" class="tooltip" aria-label="Headless CMS Rankings" title="Headless CMS Rankings" data-tippy-content="HeadlessCMS Rankings">
+          <img src="{{ "images/ui/pulse.svg" | relURL }}" alt="" />
         </a>
       </span>
       <span class="toggle-icon" role="button" aria-expanded="true" tabindex="0">
@@ -37,11 +47,99 @@
       </span>
     </div>
     <ul class="filter-list">
-      {{ range .Site.Taxonomies.cms }}
+      {{ range .context.Site.Taxonomies.cms }}
       <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
-        {{ partial "icon.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
+        {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
         <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
-        <span class="filter-link">{{ .Page.Title }}</span>
+        <span class="filter-name">{{ .Page.Title }}</span>
+        {{ $count := 0 }}
+        {{ if $countAll }}
+          {{ $count = .Count }}
+        {{ else }}
+          {{ range .Pages }}
+              {{ if not .Params.stale }}
+                {{ $count = add $count 1 }}
+              {{ end }}
+          {{ end }}
+        {{ end }}
+        <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ $count }}</span>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+
+  <div id="filter-group-css" class="filter filter-group-css" data-filter-group="css">
+    <div class="filter-title">
+      <h3>CSS</h3>
+      <span class="toggle-icon" role="button" aria-expanded="true" tabindex="0">
+        <img src="{{ "images/ui/chevron-down-solid.svg" | relURL }}" alt="Toggle css list button" />
+      </span>
+    </div>
+    <ul class="filter-list">
+      {{ range .context.Site.Taxonomies.css }}
+      <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
+        {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
+        <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
+        <span class="filter-name">{{ .Page.Title }}</span>
+        {{ $count := 0 }}
+        {{ if $countAll }}
+          {{ $count = .Count }}
+        {{ else }}
+          {{ range .Pages }}
+              {{ if not .Params.stale }}
+                {{ $count = add $count 1 }}
+              {{ end }}
+          {{ end }}
+        {{ end }}
+        <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ $count }}</span>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+
+  <div id="filter-group-archetype" class="filter filter-group-archetype" data-filter-group="archetype">
+    <div class="filter-title">
+      <h3>Archetype</h3>
+      <span class="toggle-icon" role="button" aria-expanded="true" tabindex="0">
+        <img src="{{ "images/ui/chevron-down-solid.svg" | relURL }}" alt="Toggle archetype list button" />
+      </span>
+    </div>
+    <ul class="filter-list">
+      {{ range .context.Site.Taxonomies.archetype }}
+      <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
+        {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
+        <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
+        <span class="filter-name">{{ .Page.Title }}</span>
+        {{ $count := 0 }}
+        {{ if $countAll }}
+          {{ $count = .Count }}
+        {{ else }}
+          {{ range .Pages }}
+              {{ if not .Params.stale }}
+                {{ $count = add $count 1 }}
+              {{ end }}
+          {{ end }}
+        {{ end }}
+        <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ $count }}</span>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+
+  <div id="filter-group-services" class="filter filter-group-services" data-filter-group="services">
+    <div class="filter-title">
+      <h3>Services</h3>
+      <span class="toggle-icon" role="button" aria-expanded="true" tabindex="0">
+        <img src="{{ "images/ui/chevron-down-solid.svg" | relURL }}" alt="Toggle services list button" />
+      </span>
+    </div>
+    <ul class="filter-list">
+      {{ range .context.Site.Taxonomies.services }}
+      <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
+        {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
+        <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
+        <!-- <a class="filter-link" href="{{ .Page.Permalink | relURL }}">{{ .Page.Title }}</a> -->
+        <span class="filter-name">{{ .Page.Title }}</span>
         <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ .Count }}</span>
       </li>
       {{ end }}

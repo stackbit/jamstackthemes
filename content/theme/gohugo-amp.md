@@ -9,4 +9,6 @@ cms:
   - No Cms
 date: 2016-11-13T01:26:33Z
 github_branch: develop
+description: "⚡ AMP starter theme for gohugo https://gohugo-amp.gohugohq.com"
+stale: true
 ---

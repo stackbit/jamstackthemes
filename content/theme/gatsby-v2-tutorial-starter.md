@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2018-10-28T04:45:46Z
 github_branch: master
+description: "Gatsby V2 Starter - product of step by step tutorial"
 ---

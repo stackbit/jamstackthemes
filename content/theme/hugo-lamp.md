@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2018-05-28T08:10:44Z
 github_branch: master
+description: "A light Hugo AMP responsive theme for blogger ⚡."
 ---

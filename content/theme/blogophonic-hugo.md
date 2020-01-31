@@ -7,4 +7,6 @@ ssg:
   - Hugo
 date: 2019-04-10T19:54:55Z
 github_branch: master
+description: "Blogophonic – a Hugo blog theme by Formspree"
+stale: true
 ---

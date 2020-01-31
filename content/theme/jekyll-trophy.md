@@ -9,4 +9,6 @@ cms:
   - No Cms
 date: 2016-08-29T04:37:02Z
 github_branch: master
+description: "🏆 – A blog theme for Jekyll."
+stale: true
 ---

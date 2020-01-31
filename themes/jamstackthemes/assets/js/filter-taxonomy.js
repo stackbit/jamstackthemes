@@ -4,5 +4,5 @@ const mixer = mixitup('#grids-taxonomy', {
   },
   animation: {
     enable: false,
-  },
+  }
 });

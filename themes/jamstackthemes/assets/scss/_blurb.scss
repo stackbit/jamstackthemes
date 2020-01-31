@@ -1,0 +1,35 @@
+
+.blurb {
+  display: none;
+  color: #333;
+  @include breakpoint('small') {
+    display: block;
+  }
+  &.blurb-mobile {
+    display: block;
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    @include breakpoint('small') {
+      display: none;
+    }
+  }
+  &.blurb-desktop {
+    display: none;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    width: 75%;
+    @include breakpoint('small') {
+      display: block;
+    }
+  }
+  a {
+    color: $primary;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

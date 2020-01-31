@@ -9,4 +9,6 @@ cms:
   - No Cms
 date: 2015-11-26T15:45:00Z
 github_branch: master
+description: "💎 Clean Jekyll theme"
+stale: true
 ---

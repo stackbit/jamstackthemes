@@ -7,8 +7,17 @@
   <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <meta property="og:title" content="JAMstack Themes" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jamstackthemes.dev" />
+  <meta property="og:description" content="The most complete list of themes and starters for JAMstack sites. Easily filter themes by static site generator, headless CMS, category and more.">
+  <meta property="og:image" content="https://jamstackthemes.dev/images/jamstackthemes-screenshot.png">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@stackbithq" />
+  <meta name="twitter:creator" content="@stackbithq" />
+
   {{ block "meta_tags" . }}{{end}}
-  
+
   {{ if .Site.IsServer }}
   {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}
   <link rel="stylesheet" href="{{ ($style).RelPermalink }}">
@@ -32,9 +41,9 @@
 {{ if eq .Site.Params.banner true }}{{ $bodyClasses = $bodyClasses | append "body-banner" }}{{ end }}
 {{ if and (eq .Site.Params.banner true) (eq .Site.Params.banner_fixed true) }}{{ $bodyClasses = $bodyClasses | append "body-banner-fixed" }}{{ end }}
 
-<body class='page {{ block "body_classes" . }}{{ end }} {{ delimit $bodyClasses " " }}'>
+<body id="{{ block "body_id" . }}{{ end }}" class='page {{ block "body_classes" . }}{{ end }} {{ delimit $bodyClasses " " }}'>
   {{ if .Site.Params.banner }}
-  {{ partial "banner.html" . }}
+    {{ partial "banner.html" . }}
   {{ end }}
   {{ partial "header.html" . }}
 
@@ -45,16 +54,9 @@
 
   {{ partial "footer.html" . }}
 
-  {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
-  {{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
-  {{ $popper := resources.Get "js/libs/popper.min.js" }}
-  {{ $tooltip := resources.Get "js/libs/tippy.min.js" }}
-  {{ $jquery := resources.Get "js/libs/jquery-3.4.1.min.js" }}
-  {{ $timeago := resources.Get "js/libs/jquery.timeago.js" }}
-  {{ $scripts := resources.Get "js/scripts.js" }}
-  {{ $analytics := resources.Get "js/analytics.js" }}
+  {{ $themeTracking := resources.Get "js/theme-tracking.js" }}
 
-  {{ $js := slice $mixitup $mixitupMultiFilter $popper $tooltip $jquery $timeago $scripts $analytics | resources.Concat "js/bundle.js" }}
+  {{ $js := slice $themeTracking | resources.Concat "js/bundle.js" }}
   
   {{ if .Site.IsServer }}
   <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>
@@ -65,9 +67,7 @@
   {{ block "footer_js" . }}
   {{ end }}
 
-  {{ partial "google-analytics.html" . }}
   {{ partial "segment.html" . }}
 
 </body>
-
 </html>

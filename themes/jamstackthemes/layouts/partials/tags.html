@@ -1,0 +1,34 @@
+<div class="categories">
+  <ul class="categories-list">
+    {{ range .ssg }}
+    <li class="category-item">
+      {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink ) }}
+      <a class="category-link" href="{{ .Page.Permalink | relURL }}">{{ .Page.Title }}</a>
+    </li>
+    {{ end }}
+    {{ range .cms }}
+    <li class="category-item">
+      {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink ) }}
+      <a class="category-link" href="{{ .Page.Permalink | relURL }}">{{ .Page.Title }}</a>
+    </li>
+    {{ end }}
+    {{ range .css }}
+    <li class="category-item">
+      {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink ) }}
+      <a class="category-link" href="{{ .Page.Permalink | relURL }}">{{ .Page.Title }}</a>
+    </li>
+    {{ end }}
+    {{ range .archetype }}
+    <li class="category-item">
+      {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink ) }}
+      <a class="category-link" href="{{ .Page.Permalink | relURL }}">{{ .Page.Title }}</a>
+    </li>
+    {{ end }}
+    {{ range .services }}
+    <li class="category-item">
+      {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink ) }}
+      <a class="category-link" href="{{ .Page.Permalink | relURL }}">{{ .Page.Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</div>

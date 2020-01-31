@@ -9,4 +9,6 @@ cms:
   - No Cms
 date: 2015-01-13T23:50:25Z
 github_branch: master
+description: "Demo code for an e-commerce static site with Snipcart & Middleman."
+stale: true
 ---

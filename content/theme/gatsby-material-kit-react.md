@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2019-03-10T21:21:12Z
 github_branch: master
+description: "Adapt Material Kit React to Gatsby"
 ---

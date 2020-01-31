@@ -9,6 +9,7 @@ cms:
   - No Cms
 date: 2015-04-14T00:39:17Z
 github_branch: master
+description: "A simple yet classy theme for your Jekyll website or blog."
 ---
 
 A simple yet classy theme for your Jekyll website or blog. 

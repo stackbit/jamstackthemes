@@ -9,4 +9,6 @@ cms:
   - No Cms
 date: 2017-10-15T13:40:48Z
 github_branch: master
+description: "Calpa's Blog (GatsbyJS Starter X Netlify CMS)"
+stale: true
 ---

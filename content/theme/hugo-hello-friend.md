@@ -9,4 +9,5 @@ cms:
   - No Cms
 date: 2018-07-20T17:13:14Z
 github_branch: master
+description: "Pretty basic theme for Hugo that covers all of the essentials. All you have to do is start typing!"
 ---

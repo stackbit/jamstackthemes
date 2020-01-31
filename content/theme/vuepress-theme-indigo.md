@@ -9,4 +9,6 @@ cms:
   - No Cms
 date: 2018-04-14T08:21:05Z
 github_branch: master
+description: "A blog theme for VuePress."
+stale: true
 ---

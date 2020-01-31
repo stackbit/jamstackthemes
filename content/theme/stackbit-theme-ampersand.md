@@ -1,6 +1,6 @@
 ---
 title: "Ampersand"
-draft: true
+
 github: https://github.com/stackbithq/stackbit-theme-ampersand
 demo: https://themes.stackbit.com/demos/ampersand
 author: Stackbit
@@ -16,4 +16,5 @@ cms:
   - Sanity
 date: 2019-05-10T13:57:28Z
 github_branch: master
+description: "Ampersand a Medium inspired blogging theme for Stackbit"
 ---

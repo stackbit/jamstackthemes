@@ -1,53 +1,62 @@
-{{ define "title" }}JAMstack Themes{{ end}}
+{{ define "title" }}JAMstack Themes{{ end }}
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-home{{ end }}
 
 {{ define "meta_tags" }}
-<meta name="description" content="{{ .Site.Params.description }}" />
-<meta property="og:title" content="JAMstack Themes" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.jamstackthemes.dev" />
-<meta property="og:description" content="{{ .Site.Params.description }}" />
-<meta property="og:image" content="https://jamstackthemes.dev/images/jamstackthemes-screenshot.png">
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@stackbithq" />
-<meta name="twitter:creator" content="@stackbithq" />
+{{ $themes := (where .Site.RegularPages "Type" "theme") }}
+{{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themes := (where $themes ".Params.stale" "!=" true) }}
+{{ $themeCount := len $themes}}
+<meta name="description" content="The most popular list of themes and starters for JAMstack sites. Over {{ $themeCount }} free static site generator themes for Hugo, Gatsby, Jekyll, Gridsome & more." />
+<link rel="canonical" href="https://jamstackthemes.dev" />
 {{ end }}
 
 {{ define "main" }}
 {{ $themes := (where .Site.RegularPages "Type" "theme") }}
 {{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themes := (where $themes ".Params.stale" "!=" true) }}
 {{ $themeCount := len $themes}}
 
 <div class="sidebar">
-  <div class="blurb blurb-desktop">
-    <p>A list of Themes and Starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites.</p>
-  </div>
-  {{ partial "filters.html" . }}
+  {{ partial "filters.html" (dict "context" . "countAll" false) }}
   {{ partial "stackbit.html" . }}
 </div>
+
 <div class="main">
-  
   <div class="intro">
-    <h1>Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
-    <div class="blurb blurb-mobile">
-      <p>A list of Themes and Starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites.</p>
-    </div>
-    {{ partial "sort-buttons.html" . }}
+    <h1>New Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
   </div>
+
+  <div>
+    <div class="blurb blurb-desktop"><p>A list of themes and starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites. We're the largest gallery of user submitted, open source themes for static site generators 🦖. This site is maintained with <a href="https://github.com/stackbithq/jamstackthemes#contribution-guidelines">community contributions</a> and with the kind support of <a href="https://www.stackbit.com">stackbit.com.</a></p></div>
+    <div class="blurb blurb-mobile"><p>A list of themes and starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites.</p></div>
+  </div>
+  
+  {{ partial "sort-buttons.html" . }}
+
   <div id="grids-homepage" class="grids">
     {{ range $themes.ByPublishDate.Reverse }}
-    {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
-    {{ $repo := index .Site.Data.themes $repoName }}
-    {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
+      {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
+      {{ $repo := index .Site.Data.themes $repoName }}
+        {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
     {{ end }}
   </div>
+
+  <div class="controls-pagination">
+    <div class="mixitup-page-list"></div>
+    <div class="mixitup-page-stats"></div>
+</div>
+
 </div>
 {{ end }}
 
 {{ define "footer_js" }}
-{{ $filterHomepage := resources.Get "js/filter.js" }}
-{{ $bundle := slice $filterHomepage | resources.Concat "js/filterHomepage.js" }}
+{{ $mixitup := resources.Get "js/libs/mixitup.js" }}
+{{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
+{{ $filterHash := resources.Get "js/filter-hash.js" }}
+{{ $filter := resources.Get "js/filter.js" }}
+{{ $scripts := resources.Get "js/scripts.js" }}
+{{ $bundle := slice $mixitup $mixitupMultiFilter $filterHash $filter $scripts  | resources.Concat "js/AllThemes.js" }}
 {{ if .Site.IsServer }}
   <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
   {{ else }}
