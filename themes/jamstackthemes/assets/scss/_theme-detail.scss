@@ -37,6 +37,7 @@
   .theme-detail-buttons {
     margin-top: 20px;
     a {
+      @extend .button;
       display: inline-block;
     }
   }
