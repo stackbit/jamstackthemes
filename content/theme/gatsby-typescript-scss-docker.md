@@ -11,4 +11,5 @@ cms:
 date: 2018-12-16T20:28:09Z
 github_branch: master
 description: "gatsby with typescript, scss typed modules, eslint, prettier & husky, docker"
+stale: true
 ---

@@ -11,4 +11,5 @@ cms:
 date: 2019-08-09T08:35:08Z
 github_branch: master
 description: "This is a Hugo template to create WebSlides presentation using markdown."
+stale: true
 ---

@@ -11,4 +11,5 @@ cms:
 date: 2015-01-23T10:41:56Z
 github_branch: master
 description: "A simple and customizable theme for Jekyll."
+stale: true
 ---

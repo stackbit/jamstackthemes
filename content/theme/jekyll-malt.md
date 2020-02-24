@@ -11,4 +11,5 @@ cms:
 date: 2016-11-09T22:42:40Z
 github_branch: master
 description: ":beers: Event marketing template for Jekyll"
+stale: true
 ---

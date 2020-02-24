@@ -11,4 +11,5 @@ cms:
 date: 2019-06-19T12:59:10Z
 github_branch: master
 description: "Gatsby and Snipcart Starter"
+stale: true
 ---

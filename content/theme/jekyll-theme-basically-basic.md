@@ -10,4 +10,5 @@ cms:
 date: 2017-03-07T21:08:01Z
 github_branch: master
 description: "Your new Jekyll default theme"
+stale: true
 ---

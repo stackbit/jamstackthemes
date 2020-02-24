@@ -25,8 +25,10 @@
           {{ end }}
 
           <div class="last-commit">
-            <span class="last-commit-label">Submitted On:</span> 
+            <span class="last-commit-label">Submitted On:</span>
+            {{ if .Params.date }}
             <span class="last-commit-date">{{ dateFormat "Jan 2, 2006" .Params.date }}</span>
+            {{ end }}
           </div>
 
           <div class="theme-detail-buttons">

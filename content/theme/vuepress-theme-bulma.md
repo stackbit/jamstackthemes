@@ -10,4 +10,5 @@ cms:
 date: 2018-07-16T12:37:30Z
 github_branch: master
 description: "A pure Bulma.css theme for VuePress"
+stale: true
 ---

@@ -33,7 +33,7 @@ imageFiles.forEach((image) => {
         position: 'top',
       })
       .jpeg({
-        quality: 70,
+        quality: 85,
       })
       .toFile(outputImage)
       .then( (ImageResult) => {
@@ -50,7 +50,7 @@ imageFiles.forEach((image) => {
         position: 'top',
       })
       .jpeg({
-        quality: 70,
+        quality: 85,
       })
       .toFile(outputImage2x)
       .then( (ImageResult) => {

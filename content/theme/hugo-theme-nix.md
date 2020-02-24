@@ -10,4 +10,5 @@ cms:
 date: 2016-09-30T08:11:59Z
 github_branch: master
 description: "Nix is a simple, minimal theme for Hugo"
+stale: true
 ---

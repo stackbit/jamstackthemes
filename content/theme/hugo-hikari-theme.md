@@ -11,4 +11,5 @@ cms:
 date: 2015-07-26T17:27:04Z
 github_branch: master
 description: "Port of Mathieu Mayer-Mazzoli's Hikari theme to Hugo"
+stale: true
 ---

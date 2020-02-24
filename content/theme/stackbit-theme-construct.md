@@ -17,4 +17,5 @@ cms:
 date: 2019-05-10T14:33:16Z
 github_branch: master
 description: "Construct a multipage theme for Stackbit"
+stale: true
 ---
