@@ -11421,6 +11421,22 @@
     "description": "Ported theme by HTML5 UP. Prologue is a single page responsive site template with a sticky sidebar.",
     "stale": true
   },
+  "sfreytag-friday-theme-master": {
+    "theme_key": "sfreytag-friday-theme-master",
+    "file": "jekyll-friday-theme.md",
+    "name": "friday-theme",
+    "github_username": "sfreytag",
+    "repo": "sfreytag/friday-theme",
+    "branch": "master",
+    "url": "https://github.com/sfreytag/friday-theme",
+    "stars": 15,
+    "forks": 12,
+    "open_issues": 3,
+    "last_commit": "2020-03-02T18:51:50Z",
+    "created_at": "2017-10-16T10:03:35Z",
+    "description": "A Bootstrap 4 portfolio and blog theme for Jekyll",
+    "stale": false
+  },
   "shaform-hugo-theme-den-master": {
     "theme_key": "shaform-hugo-theme-den-master",
     "file": "hugo-theme-den.md",
