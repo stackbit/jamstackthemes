@@ -8,7 +8,7 @@ ssg:
   - Gatsby
 cms:
   - Prismic
-date: 2019-03-10T12:05:37Z
+date: 2020-03-18T00:00:00Z
 github_branch: master
 description: "Based on gatsby-starter-prismic with Internationalization (i18n) support"
 ---
