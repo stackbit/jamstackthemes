@@ -10,16 +10,17 @@ ssg:
 cms:
   - No Cms
 css:
-  - W3 CSS
+  - W3CSS
 archetype:
+  - Single Page
   - Blog
   - Portfolio
 description: This is a port of the 'Dark Portfolio Template" by W3C to 11ty!
 ---
 
-The original, pure HTML&CSS temlate was created by W3C, [you can check it out here!](https://www.w3schools.com/w3css/tryw3css_templates_dark_portfolio.htm)
-This has been "ported" to run on Eleventy, and stays true to the original as much as possible.
+The original, pure CSS template was created by W3C, [you can check it out here!](https://www.w3schools.com/w3css/tryw3css_templates_dark_portfolio.htm)
 
+This has been "ported" to run on Eleventy, and stays true to the original as much as possible.
 Uses the original W3.css with no modifications!
 
 ## Eleventy specific additions
