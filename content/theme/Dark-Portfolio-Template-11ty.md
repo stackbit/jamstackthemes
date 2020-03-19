@@ -10,7 +10,7 @@ ssg:
 cms:
   - No Cms
 css:
-  - W3.CSS
+  - W3 CSS
 archetype:
   - Blog
   - Portfolio
