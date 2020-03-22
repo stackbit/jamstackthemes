@@ -6,8 +6,8 @@ author: Marguerite Roth
 ssg:
   - Gatsby
 cms:
-  - No Cms
-date: 2019-07-01T16:19:33Z
+  - Prismic
+date: 2020-03-18T00:00:00Z
 github_branch: master
 description: "Gatsby starter for portfolios and blogs using Prismic CMS"
 ---

@@ -8,7 +8,9 @@ ssg:
   - Gatsby
 cms:
   - No Cms
-date: 2019-06-19T12:59:10Z
+services:
+  - Snipcart
+date: 2020-03-18T00:00:00Z
 github_branch: master
 description: "Gatsby and Snipcart Starter"
 stale: true
