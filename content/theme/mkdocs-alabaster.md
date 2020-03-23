@@ -10,5 +10,5 @@ cms:
 date: 2016-01-29T22:40:46Z
 github_branch: master
 description: "Alabaster port for MkDocs"
-stale: true
+stale: false
 ---

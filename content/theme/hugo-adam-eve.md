@@ -11,4 +11,5 @@ cms:
 date: 2017-06-21T19:35:04Z
 github_branch: master
 description: "Adam & Eve theme for Hugo"
+stale: false
 ---

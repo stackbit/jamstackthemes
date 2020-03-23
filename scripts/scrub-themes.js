@@ -7,7 +7,7 @@ const parseISO = require('date-fns/parseISO');
 const subMonths = require('date-fns/subMonths');
 
 // Set this to the date you want to consider themes stale if there have been no commits since.
-const staleBeforeDate = subMonths(new Date(), 6);
+const staleBeforeDate = subMonths(new Date(), 12);
 
 const themesDataFile = path.join(__dirname, '../data/themes.json');
 const themesFolder = './content/theme';

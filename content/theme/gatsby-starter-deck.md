@@ -10,4 +10,5 @@ cms:
 date: 2017-11-23T23:22:27Z
 github_branch: master
 description: "🗣 Create presentations using Gatsby, React & Markdown."
+stale: false
 ---

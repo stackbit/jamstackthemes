@@ -10,4 +10,5 @@ cms:
 date: 2013-08-23T19:03:11Z
 github_branch: master
 description: "A Jekyll theme with some tumble-log tendencies."
+stale: false
 ---

@@ -11,5 +11,5 @@ cms:
 date: 2019-05-08T12:49:36Z
 github_branch: master
 description: "A hugo theme that looks like an editor with a builtin style generator, INFINITE COLOR MODE from a market perspective. 😂"
-stale: true
+stale: false
 ---

@@ -11,5 +11,5 @@ cms:
 date: 2017-12-04T06:41:05Z
 github_branch: master
 description: "A responsive, lightning-fast Jekyll theme built using AMP (Accelerated Mobile Pages) to speed up your blogs and websites."
-stale: true
+stale: false
 ---

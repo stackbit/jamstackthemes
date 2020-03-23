@@ -11,5 +11,5 @@ cms:
 date: 2019-05-11T14:53:26Z
 github_branch: master
 description: "Gatsby.js V2 starter template based on aerial  by HTML5 UP"
-stale: true
+stale: false
 ---

@@ -11,5 +11,5 @@ cms:
 date: 2017-05-28T01:14:55Z
 github_branch: master
 description: "A sleek Jekyll theme for blogs with clean typography and post featured images."
-stale: true
+stale: false
 ---

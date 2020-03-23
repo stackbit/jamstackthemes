@@ -11,5 +11,5 @@ cms:
 date: 2016-04-28T04:46:31Z
 github_branch: master
 description: "Minimalist two-column jekyll theme"
-stale: true
+stale: false
 ---

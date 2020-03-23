@@ -11,5 +11,5 @@ cms:
 date: 2019-05-01T15:58:21Z
 github_branch: master
 description: "A Gatsby starter with powerful built-in accessibility tools."
-stale: true
+stale: false
 ---

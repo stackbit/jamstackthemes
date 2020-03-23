@@ -8,5 +8,5 @@ github_branch: master # This is the repos default branch
 ssg:
   - Jekyll
 description: "Ultra - Super fast Jekyll theme"
-stale: true
+stale: false
 ---

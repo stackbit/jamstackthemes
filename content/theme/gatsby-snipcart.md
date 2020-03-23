@@ -13,5 +13,5 @@ services:
 date: 2020-03-18T00:00:00Z
 github_branch: master
 description: "Gatsby and Snipcart Starter"
-stale: true
+stale: false
 ---

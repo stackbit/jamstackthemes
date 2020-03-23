@@ -8,5 +8,5 @@ github_branch: master # This is the repos default branch
 ssg:
   - Jekyll
 description: "Gray - Single column blog and portfolio Jekyll theme"
-stale: true
+stale: false
 ---

@@ -10,5 +10,5 @@ cms:
 date: 2019-11-07
 github_branch: master
 description: "Whisper is a minimal documentation theme for Hugo."
-stale: true
+stale: false
 ---

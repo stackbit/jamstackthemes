@@ -11,4 +11,5 @@ cms:
 date: 2015-07-20T19:10:35Z
 github_branch: master
 description: "A minimalist, mobile first Jekyll theme."
+stale: false
 ---

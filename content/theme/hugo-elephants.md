@@ -11,5 +11,5 @@ cms:
 date: 2018-01-01T20:30:49Z
 github_branch: master
 description: "Minimal Hugo theme using the Ubuntu font"
-stale: true
+stale: false
 ---

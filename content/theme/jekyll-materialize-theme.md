@@ -11,4 +11,5 @@ cms:
 date: 2017-08-09T19:17:13Z
 github_branch: master
 description: "Jekyll Materialize Starter Theme"
+stale: false
 ---

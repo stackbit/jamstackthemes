@@ -10,5 +10,5 @@ cms:
 date: 2014-12-14T08:41:52Z
 github_branch: master
 description: "A minimal, type-focused Jekyll theme."
-stale: true
+stale: false
 ---

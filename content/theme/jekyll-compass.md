@@ -11,5 +11,5 @@ cms:
 date: 2015-01-03T21:56:41Z
 github_branch: master
 description: "The Jekyll theme for your personal landing page."
-stale: true
+stale: false
 ---

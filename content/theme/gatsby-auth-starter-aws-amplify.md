@@ -10,5 +10,5 @@ cms:
 date: 2018-08-24T22:49:54Z
 github_branch: master
 description: "Starter Project with Authentication with Gatsby & AWS Amplify"
-stale: true
+stale: false
 ---

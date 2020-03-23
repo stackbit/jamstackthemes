@@ -10,7 +10,7 @@ cms:
 date: 2018-02-01T16:37:57Z
 github_branch: master
 description: "Affiliates - Jekyll Blogging Theme for Affiliate Marketers"
-stale: true
+stale: false
 ---
 
 Affiliates - Jekyll Blogging Theme for Affiliate Marketers

@@ -11,5 +11,5 @@ cms:
 date: 2019-04-13T20:22:30Z
 github_branch: master
 description: ":grapes: Create rich quizzes with Gatsby and MDX"
-stale: true
+stale: false
 ---

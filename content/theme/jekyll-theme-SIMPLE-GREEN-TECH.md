@@ -11,4 +11,5 @@ cms:
 date: 2016-12-16T09:55:03Z
 github_branch: master
 description: "Personal blog to present projects and thoughts"
+stale: false
 ---

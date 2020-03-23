@@ -11,5 +11,5 @@ cms:
 date: 2018-09-21T12:47:31Z
 github_branch: master
 description: "A starter kit for building a websites using Gatsby and Contentstack"
-stale: true
+stale: false
 ---

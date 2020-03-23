@@ -5,9 +5,9 @@ demo: https://compose-docs.netlify.com
 author: Weru
 date: 2020-02-22T18:24:48Z
 github_branch: master
-stale: false
 ssg:
   - Hugo
 cms:
   - No Cms
+description: "A hugo theme for documentation sites. It's inspired by https://forestry.io/docs/welcome/"
 ---

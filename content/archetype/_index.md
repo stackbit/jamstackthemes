@@ -1,4 +1,4 @@
 ---
 title: Archetype
-weight: 1
+weight: 4
 ---

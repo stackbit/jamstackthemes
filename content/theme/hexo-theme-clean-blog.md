@@ -10,5 +10,5 @@ cms:
 date: 2016-03-11T05:53:04Z
 github_branch: master
 description: "Hexo implementation of Clean Blog http://blackrockdigital.github.io/startbootstrap-clean-blog/index.html"
-stale: true
+stale: false
 ---

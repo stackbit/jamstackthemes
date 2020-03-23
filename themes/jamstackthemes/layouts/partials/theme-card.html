@@ -96,6 +96,7 @@
       {{ end }}
     {{ end }}
 
+    {{ if .Site.Params.theme_card.show_archetype_icons }}
     {{ if .theme.Params.archetype }}
       {{- range .theme.Params.archetype }}
         {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
@@ -103,6 +104,8 @@
         {{ end }}
       {{ end }}
     {{ end }}
+    {{ end }}
+
   {{ end }}
   </div>
 </div>

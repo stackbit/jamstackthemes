@@ -11,5 +11,5 @@ cms:
 date: 2016-12-30T13:15:34Z
 github_branch: master
 description: "A Jekyll theme for my personal website"
-stale: true
+stale: false
 ---

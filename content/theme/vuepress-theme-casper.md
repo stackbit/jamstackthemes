@@ -13,5 +13,5 @@ cms:
 date: 2018-08-26T09:29:18Z
 github_branch: master
 description: "Ghost default theme ported to vuepress"
-stale: true
+stale: false
 ---

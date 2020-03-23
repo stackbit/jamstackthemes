@@ -10,4 +10,5 @@ cms:
 date: 2016-02-02T06:55:49Z
 github_branch: master
 description: "Port of the classic Octopress theme to Hugo"
+stale: false
 ---

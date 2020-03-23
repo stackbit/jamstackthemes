@@ -11,4 +11,5 @@ cms:
 date: 2017-06-24T04:21:19Z
 github_branch: master
 description: "Sweet little Hugo's theme for personal website"
+stale: false
 ---

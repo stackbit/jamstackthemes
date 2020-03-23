@@ -17,6 +17,9 @@ pygmentsUseClasses = true
   banner_text = "Announcing the Stackbit Control Center for managing modern websites. 🤙👩🏼‍🎤🔥"
   banner_link = "https://www.stackbit.com/control-center/"
   banner_link_text = "Try It Now"
+  [theme_card]
+    show_archetype_icons = false
+
  
 [taxonomies]
   ssg = "ssg"

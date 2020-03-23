@@ -11,5 +11,5 @@ cms:
 date: 2018-08-10T21:13:26Z
 github_branch: master
 description: "A free blog theme for HUGO (https://gohugo.io/), with tags, archives, last posts..."
-stale: true
+stale: false
 ---

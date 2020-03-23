@@ -11,5 +11,5 @@ cms:
 date: 2015-12-09T16:01:53Z
 github_branch: master
 description: "Hugo theme with base16 eighties colorscheme"
-stale: true
+stale: false
 ---

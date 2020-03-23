@@ -11,4 +11,5 @@ cms:
 date: 2018-10-05T23:07:08Z
 github_branch: master
 description: "Gatsby starter with i18n and some cool features"
+stale: false
 ---

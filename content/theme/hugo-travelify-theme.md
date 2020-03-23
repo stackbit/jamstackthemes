@@ -11,5 +11,5 @@ cms:
 date: 2017-06-28T12:20:18Z
 github_branch: master
 description: "Port of Aigars Silkalns's Wordpress theme Travelify to Hugo. Demo -"
-stale: true
+stale: false
 ---

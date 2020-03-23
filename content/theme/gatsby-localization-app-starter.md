@@ -11,5 +11,5 @@ cms:
 date: 2019-05-03T16:34:14Z
 github_branch: master
 description: "A Gatsby localization website powered by Cosmic JS"
-stale: true
+stale: false
 ---

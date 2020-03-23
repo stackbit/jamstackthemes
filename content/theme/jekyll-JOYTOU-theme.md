@@ -11,5 +11,5 @@ cms:
 date: 2017-08-03T13:26:48Z
 github_branch: master
 description: "JOYTOU is a BootStrap blog template developed by Joytou Wu."
-stale: true
+stale: false
 ---

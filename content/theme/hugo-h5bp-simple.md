@@ -11,5 +11,5 @@ cms:
 date: 2015-07-24T20:42:48Z
 github_branch: master
 description: "Simple responsive them for Go Hugo"
-stale: true
+stale: false
 ---

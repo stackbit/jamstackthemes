@@ -10,7 +10,7 @@ cms:
 date: 2019-11-09
 github_branch: master
 description: "Brutalist Blog theme for Netlify CMS"
-stale: true
+stale: false
 ---
 
 Bael is a free blogging theme to use with Netlify CMS. It has a utilitarian, brutalist design that lends itself to written content and full width images. It has the option of a grid-based layout or full-width, image-based layout. Made by jake101.
