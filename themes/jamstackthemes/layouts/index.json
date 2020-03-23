@@ -5,7 +5,7 @@
     "github": "{{ .Params.github }}",
     "demo": "{{ .Params.demo }}",
     "author": "{{ .Params.author }}",
-    "ssg": [{{ range $index, $category := .Params.ssg }}"{{.}}"{{ end }}],
+    "ssg": [{{ range $index, $category := .Params.ssg }}{{ if $index }},{{ end }}"{{.}}"{{ end }}],
     "cms": [{{ range $index, $category := .Params.cms }}{{ if $index }},{{ end }}"{{.}}"{{ end }}],
     "repo_name": "{{ $repo.name }}",
     "repo": "{{ $repo.repo }}",
