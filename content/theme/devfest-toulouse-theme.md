@@ -7,4 +7,7 @@ ssg:
   - Hugo
 cms:
   - No Cms
+date: 2019-01-10T21:22:23Z
+github_branch: master
+description: "A theme for a conference website. Created for DevFest Toulouse 2019"
 ---

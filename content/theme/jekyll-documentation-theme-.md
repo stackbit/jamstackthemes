@@ -7,4 +7,7 @@ ssg:
   - Jekyll
 cms:
   - No Cms
+date: 2015-02-13T22:56:26Z
+github_branch: gh-pages
+description: "A Jekyll-based theme designed for documentation and help systems. See the link for detailed instructions on setting up and configuring everything."
 ---

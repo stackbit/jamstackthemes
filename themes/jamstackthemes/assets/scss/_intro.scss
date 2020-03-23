@@ -7,12 +7,6 @@
     justify-content: flex-start;
     margin-bottom: 20px;
   }
-  // &.intro-block {
-  //   @include breakpoint('small') {
-  //     flex-direction: column;
-  //     align-items: flex-start;
-  //   }
-  // }
   h1 {
     font-size: 24px;
     font-weight: 400;
@@ -45,38 +39,6 @@
       vertical-align: bottom;
     }
   }
-}
-
-.blurb {
-  padding: 20px 15px 5px 15px;
-  display: none;
-  @include breakpoint('small') {
-    display: block;
-    padding: 40px 15px 5px 15px;
-  }
-  &.blurb-mobile {
-    display: block;
-    padding: 0;
-    margin-bottom: 10px;
-    @include breakpoint('small') {
-      display: none;
-    }
-  }
-  &.blurb-desktop {
-    display: none;
-    @include breakpoint('small') {
-      display: block;
-    }
-  }
-  p {
-    line-height: 20px;
-    margin: 0;
-    
-  }
-  a {
-    color: $primary;
-  }
-
 }
 
 .byline {

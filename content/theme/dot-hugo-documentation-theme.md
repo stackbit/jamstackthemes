@@ -7,4 +7,7 @@ ssg:
   - Hugo
 cms:
   - No Cms
+date: 2019-01-05T09:42:06Z
+github_branch: master
+description: "Dot - Hugo Documentation Theme"
 ---

@@ -1,8 +1,15 @@
+{{ define "meta_tags" }}
+<meta name="description" content="{{.Title}} for JAMstack Sites." />
+{{ end }}
+
 {{ define "main" }}
+{{ $themeCount := len .Pages }}
+
 <div class="main">
-  {{ $themeCount := len .Pages }}
-  <div class="intro">
-    <h1>{{.Title}} <span class="count">({{ $themeCount }})</span></h1>
+  <div class="hero">
+    <div class="heading">
+      <h1 class="heading-title">{{.Title}} <span class="count">({{ $themeCount }})</span></h1>
+    </div>
   </div>
   {{ partial "breadcrumbs.html" . }}
   <div class="terms">

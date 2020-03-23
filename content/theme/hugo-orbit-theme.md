@@ -7,4 +7,8 @@ ssg:
   - Hugo
 cms:
   - No Cms
+date: 2016-09-26T06:30:06Z
+github_branch: master
+description: "Great looking resume/CV theme designed for developers."
+stale: true
 ---

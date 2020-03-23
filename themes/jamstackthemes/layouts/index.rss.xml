@@ -13,36 +13,61 @@
     {{ with .OutputFormats.Get "RSS" }}
         {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
-    {{ range .Pages.ByLastmod }}
+
+    {{ $themes := (where .Site.RegularPages "Type" "theme") }}
+    {{ $themes := (where $themes ".Params.disabled" "!=" true) }}
+
+    {{ range sort $themes "Lastmod" "desc" }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
-      
-     
-      {{ $repoName := (substr (replace .Params.github "/" "-") 19 | urlize) }}
+
+      {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
       {{ $repo := index .Site.Data.themes $repoName }}
+
+      {{ $imageUrl := "https://jamstackthemes.dev/images/default.png" }}
+      {{ if .Params.thumbnail }}
+        {{ $imageUrl = printf "%s/%s" "https://jamstackthemes.dev" .Params.thumbnail }}
+      {{ else if $repo }}
+        {{ $staticPath := (printf "%s/%s%s" "static/images/theme/thumbnail" $repo.theme_key ".jpg") }}
+        {{ $filePath := (printf "%s/%s%s" "images/theme/thumbnail" $repo.theme_key ".jpg") }}
+        {{ $filePathHiRes := (printf "%s/%s%s" "images/theme/thumbnail/2x" $repo.theme_key "-2x.jpg") }}
+        {{ if (fileExists $staticPath) }}
+          {{ $imageUrl = printf "%s/%s" "https://jamstackthemes.dev" $filePath }}
+        {{ end }}
+      {{ end }}
+
       <image>
-        <title>{{ .Params.Title }} Screenshot</title>
-        <link>https://jamstackthemes.dev</link>
-        {{ if .Params.thumbnail }}
-          <url>https://jamstackthemes.dev{{ .theme.Params.thumbnail | relURL }}</url>
-          {{ else if $repo }}
-              {{ $staticPath := (printf "%s/%s%s" "static/images/theme/thumbnail" $repo.theme_key ".jpg") }}
-              {{ $filePath := (printf "%s/%s%s" "images/theme/thumbnail" $repo.theme_key ".jpg") }}
-              {{ $filePathHiRes := (printf "%s/%s%s" "images/theme/thumbnail/2x" $repo.theme_key "-2x.jpg") }}
-              {{ if (fileExists $staticPath) }}
-                <url>https://jamstackthemes.dev{{ $filePath | relURL }}</url>
-              {{ else }}
-                <url>https://jamstackthemes.dev/images/default.png</url>
-              {{ end }}
-          {{ else }}
-            <url>https://jamstackthemes.dev/images/default.png</url>
-          {{ end }}
+        <title>{{ .Params.Title }} Theme Screenshot</title>
+        <link>{{ .Permalink }}</link>
+        <url>{{ $imageUrl }}</url>
       </image>
-      <description><img src="https://jamstackthemes.dev/images/default.png" />{{ .Summary | html }}</description>
+      <description>
+        <img src="{{ $imageUrl }}" />
+        <span><strong>Theme Name: </strong>{{ .Params.Title }}</span>
+        <span><strong>Author: </strong>{{ .Params.author }}</span>
+     
+        {{ if .Params.ssg }}
+        <ul>
+          {{- range .Params.ssg }}
+             <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+        {{ end }}
+
+        {{ if .Params.cms }}
+        <ul>
+          {{- range .Params.cms }}
+             <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+        {{ end }}
+
+        {{ .Summary | html }}
+      </description>
     </item>
     {{ end }}
   </channel>

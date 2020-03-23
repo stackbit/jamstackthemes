@@ -1,6 +1,6 @@
 ---
 title: "Spectral"
-draft: true
+
 github: https://github.com/stackbithq/stackbit-theme-spectral
 demo: https://themes.stackbit.com/demos/spectral/blue
 author: Stackbit
@@ -14,4 +14,8 @@ cms:
   - Forestry
   - NetlifyCMS
   - Sanity
+date: 2019-05-10T14:40:45Z
+github_branch: master
+description: "Spectral a multipage theme for Stackbit"
+stale: false
 ---

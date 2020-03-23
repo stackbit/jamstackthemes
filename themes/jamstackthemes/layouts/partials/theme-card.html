@@ -1,69 +1,111 @@
 
 <div
-  class="grid theme {{ range .theme.Params.ssg }}{{ . | urlize }} {{ end }}{{ range .theme.Params.cms }}{{ . | urlize }} {{end}}{{ range .theme.Params.css }}{{ . | urlize }} {{end}}"
+  id="{{ .theme.Params.Title | urlize }}"
+  class="grid theme {{ .classes }} {{ range .theme.Params.ssg }}{{ . | urlize }} {{ end }}{{ range .theme.Params.cms }}{{ . | urlize }} {{end}}{{ range .theme.Params.css }}{{ . | urlize }} {{end}}{{ range .theme.Params.archetype }}{{ . | urlize }} {{end}}{{ range .theme.Params.services }}{{ . | urlize }} {{end}}"
   data-stars="{{ if .repo }}{{ .repo.stars }}{{ else }}0{{ end }}"
   data-last-commit="{{ if .repo }}{{ .repo.last_commit }}{{ end }}"
-  data-name="{{ .theme.Params.Title | urlize }}"
   data-submitted="{{ .theme.Lastmod.Format "Jan 2, 2006" }}"
 >
-    {{ $githubLink := .theme.Params.github }}
-    {{ if .theme.Params.github_branch }}
-      {{ $githubLink = (printf "%s/%s/%s" $githubLink "tree" .theme.Params.github_branch)}}
+  {{ $githubLink := .theme.Params.github }}
+  {{ if ne .theme.Params.github_branch "master" }}
+    {{ $githubLink = (printf "%s/%s/%s" $githubLink "tree" .theme.Params.github_branch)}}
+  {{ end }}
+
+    <a href="{{ .theme.Permalink }}" title="{{ .theme.Params.title }}" class="theme-header">
+      {{ if .theme.Params.thumbnail }}
+      <img loading="lazy" src="{{ .theme.Params.thumbnail | relURL }}" alt="{{ .theme.Params.title }} screenshot" />
+      {{ else if .repo }}
+          {{ $staticPath := (printf "%s/%s%s" "static/images/theme/thumbnail" .repo.theme_key ".jpg") }}
+          {{ $filePath := (printf "%s/%s%s" "images/theme/thumbnail" .repo.theme_key ".jpg") }}
+          {{ $filePathHiRes := (printf "%s/%s%s" "images/theme/thumbnail/2x" .repo.theme_key "-2x.jpg") }}
+
+          {{ if .featured }}
+            {{ $filePath = (printf "%s/%s%s" "capture" .repo.theme_key ".png") }}
+            {{ if (fileExists $staticPath) }}
+              <img loading="lazy" src="{{ $filePath | relURL }}" alt="{{ .theme.Params.title }} screenshot"  />
+            {{ else }}
+              <img src="{{ "images/default-large.png" | relURL }}" loading="lazy" alt="{{ .theme.Params.title }} screenshot" />
+            {{ end }}
+          {{ else }}
+            {{ if (fileExists $staticPath) }}
+              <img width="280" height="180" loading="lazy" src="{{ $filePath | relURL }}" alt="{{ .theme.Params.title }} screenshot" srcset="{{ $filePathHiRes | relURL }} 2x" />
+            {{ else }}
+              <img width="280" height="180" src="{{ "images/default.png" | relURL }}" loading="lazy" alt="{{ .theme.Params.title }} screenshot" />
+            {{ end }}
+          {{ end }}
+
+      {{ else }}
+        <img src="{{ "images/default.png" | relURL }}" width="280" height="180" loading="lazy" alt="{{ .theme.Params.title }} screenshot" />
+      {{ end }}
+    </a>
+
+  <div class="theme-body">
+    <h2><a href="{{ .theme.Permalink }}">{{ .theme.Params.title }}</a></h2>
+    {{ if .repo }}
+      {{ partial "star.html" (dict "stars" .repo.stars "float" "right")}}
+      <p><strong>Author:</strong> {{ .theme.Params.author }}</p>
+      <p><strong>Last Commit:</strong> {{ dateFormat "Jan 2, 2006" .repo.last_commit }}</p>
+    {{ end }}
+    <div class="theme-buttons">
+      <a class="theme-button" href="{{ .theme.Params.github }}" target="_blank" rel="noopener nofollow">Github</a>
+      <a class="theme-button" href="{{ .theme.Params.demo }}" target="_blank" rel="noopener nofollow">Live Demo</a>
+    </div>
+    {{ if .theme.Params.description }}
+      <p class="description">{{ .theme.Params.description | truncate 80 }}</p>
+    {{ else }}
+      <p class="description">{{ .theme.Summary | truncate 80 }}</p>
+    {{ end }}
+    
+  </div>
+  
+
+
+  <div class="theme-footer">
+
+    {{ if .theme.Params.ssg }}
+      {{- range .theme.Params.ssg }}
+        {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
+          {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+        {{ end }}
+      {{ end }}
     {{ end }}
 
-    <div class="theme-container">
-      <a class="theme-overlay" href="{{ $githubLink }}" title="{{ .theme.Params.title }} Github Repo" target="_blank" rel="noopener"></a>
-      <div class="theme-header">
-          {{ if .theme.Params.thumbnail }}
-            <img loading="lazy" src="{{ .theme.Params.thumbnail | relURL }}" alt="{{ .theme.Params.title }} screenshot" />
-          {{ else if .repo }}
-              {{ $staticPath := (printf "%s/%s%s" "static/images/theme/thumbnail" .repo.theme_key ".jpg") }}
-              {{ $filePath := (printf "%s/%s%s" "images/theme/thumbnail" .repo.theme_key ".jpg") }}
-              {{ $filePathHiRes := (printf "%s/%s%s" "images/theme/thumbnail/2x" .repo.theme_key "-2x.jpg") }}
-              {{ if (fileExists $staticPath) }}
-                <img width="280" height="180" loading="lazy" src="{{ $filePath | relURL }}" alt="{{ .theme.Params.title }} screenshot" srcset="{{ $filePathHiRes | relURL }} 2x" />
-              {{ else }}
-                <img src="{{ "images/default.png" | relURL }}" loading="lazy" alt="{{ .theme.Params.title }} screenshot" />
-              {{ end }}
+    {{ if .theme.Params.cms }}
+      {{- range .theme.Params.cms }}
+        {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
+          {{ if eq .Page.Title "No CMS" }}
           {{ else }}
-            <img src="{{ "images/default.png" | relURL }}" loading="lazy" alt="{{ .theme.Params.title }} screenshot" />
-          {{ end }}
-      </div>
-      <div class="theme-body">
-        <h2>{{ .theme.Params.title }}</h2>
-        {{ if .repo }}
-          {{ partial "star.html" (dict "stars" .repo.stars)}}
-        {{ end }}
-        <div class="author">
-          By {{ .theme.Params.author }}
-        </div>
-        {{ if .repo }}
-          {{ partial "last-commit.html" (dict "last_commit" .repo.last_commit)}} 
-        {{ end }}
-      </div>
-    </div>
-    
-    <div class="theme-footer">
-
-        {{ if .theme.Params.ssg }}
-          {{- range .theme.Params.ssg }}
-            {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
-              {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-            {{ end }}
+          {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
           {{ end }}
         {{ end }}
+      {{ end }}
+    {{ end }}
 
-        {{ if .theme.Params.cms }}
-          {{- range .theme.Params.cms }}
-            {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
-              {{ if eq .Page.Title "No CMS" }}
-              {{ else }}
-              {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-              {{ end }}
-            {{ end }}
-          {{ end }}
+    {{ if .theme.Params.css }}
+      {{- range .theme.Params.css }}
+        {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
+          {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
         {{ end }}
+      {{ end }}
+    {{ end }}
 
-    </div>
+    {{ if .theme.Params.services }}
+    {{- range .theme.Params.services }}
+      {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "services/%s" (urlize .)) }}
+        {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+      {{ end }}
+    {{ end }}
 
+    {{ if .Site.Params.theme_card.show_archetype_icons }}
+    {{ if .theme.Params.archetype }}
+      {{- range .theme.Params.archetype }}
+        {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
+          {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ end }}
+
+  {{ end }}
+  </div>
 </div>

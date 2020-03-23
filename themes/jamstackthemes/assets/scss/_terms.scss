@@ -3,6 +3,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   @include breakpoint('small') {
+    margin-left: -10px;
+    margin-right: -10px;
     justify-content: flex-start;
   }
   .term {
@@ -41,6 +43,7 @@
       margin-bottom: 0;
       font-weight: 400;
       font-size: 20px;
+      text-align: center;
       a {
         text-decoration: none;
         color: black;

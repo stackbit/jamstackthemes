@@ -7,63 +7,67 @@
     flex-wrap: wrap;
     justify-content: flex-start;
   }
+  > div {
+    // margin: 10px 10px 10px 0;
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
   .badges {
     display: flex;
-    margin-bottom: 10px;
+    
     @include breakpoint('small') {
-      margin-bottom: 20px;
+      margin-left: auto;
+    }
+  }
+  .official-website {
+    font-size: 16px;
+    @include breakpoint('small') {
+      margin-left: auto;
+    }
+    a {
+      color: $primary;
+      padding: 8px;
+      &:first-of-type {
+        padding-left: 0;
+      }
     }
   }
   .heading {
-    margin-right: 20px;
-    margin-bottom: 10px;
     @include breakpoint('small') {
-      margin-bottom: 20px;
     }
     .heading-icon {
       display: inline-block;
-      padding: 10px;
-      border: 1px solid $grey;
       border-radius: 3px;
-      margin-right: 10px;
+      margin-right: 6px;
       vertical-align: middle;
       img {
         display: inline-block;
         vertical-align: bottom;
-        width: 26px;
+        width: 24px;
         @include breakpoint('small') {
-         width: 40px;
+         width: 36px;
+         line-height: 44px;
         }
       }
     }
+
     .heading-title {
       display: inline-block;
       vertical-align: middle;
       margin: 0;
-    }
-    h1 {
-      font-size: 24px;
+      font-size: 28px;
       font-weight: 400;
-      margin-bottom: 10px;
       @include breakpoint('small') {
-        margin-right: 20px;
         font-size: 40px;
+        line-height: 44px;
         margin-bottom: 0px;
       }
     }
-    h2 {
-      font-size: 16px;
-      line-height: 22px;
-      font-weight: 400;
-      @include breakpoint('small') {
-        font-size: 16px;
-      }
-    }
-    p {
-      line-height: 20px;
-      margin: 0;
+    .heading-sort {
+      margin: 10px 0 10px 0;
+      display: inline-block;
     }
   }
-
 }
 

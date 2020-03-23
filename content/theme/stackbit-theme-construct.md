@@ -1,6 +1,6 @@
 ---
 title: "Construct"
-draft: true
+
 github: https://github.com/stackbithq/stackbit-theme-construct
 demo: https://themes.stackbit.com/demos/construct/blue
 author: Stackbit
@@ -14,4 +14,8 @@ cms:
   - Forestry
   - NetlifyCMS
   - Sanity
+date: 2019-05-10T14:33:16Z
+github_branch: master
+description: "Construct a multipage theme for Stackbit"
+stale: false
 ---

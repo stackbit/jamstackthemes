@@ -7,4 +7,8 @@ ssg:
   - Jekyll
 cms:
   - No Cms
+date: 2017-07-21T08:44:59Z
+github_branch: master
+description: "Elegant theme for Jekyll."
+stale: true
 ---

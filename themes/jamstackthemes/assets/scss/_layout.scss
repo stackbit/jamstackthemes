@@ -6,41 +6,39 @@
   .wrapper {
     display: flex;
     width: 100%;
+    padding-top: 60px;
   }
   .sidebar {
     position: sticky;
+    top: 60px;
     z-index: 1;
     border-right: 1px solid $grey;
-    top: 0;
-    width: 100px;
+    width: 110px;
     overflow: auto;
-    padding: 50px 0 20px 0;
-    height: calc(100vh);
+    padding: 0 0 20px 0;
+    height: calc(100vh - 60px);
     display: flex;
     flex-direction: column;
     @include breakpoint('small') {
       width: 270px;
-      padding: 60px 0 40px 0;
+      padding: 0 0 40px 0;
+      height: calc(100vh - 60px);
     }
-    h3 {
-      font-size: 16px;
-      font-weight: 700;
-      margin-bottom: 15px;
-    }
-
   }
   .main {
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
     flex: 1;
-    padding: 70px 20px 20px 20px;
-    width: 100%;
+    padding: 15px 20px 15px 20px;
     @include breakpoint('small') {
-      padding: 100px 40px 40px 40px;
+      padding: 30px;
+    }
+  }
+  .sidebar + .main {
+    @include breakpoint('small') {
+      padding: 20px 40px 20px 40px;
     }
   }
   .footer {
     justify-items: flex-end;
   }
 }
+

@@ -1,0 +1,27 @@
+.button {
+  padding: 5px;
+  background: $primary;
+  border-radius: 3px;
+  color: white;
+  outline: none;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin-right: 5px;
+  cursor: pointer;
+  @include breakpoint('small') {
+    margin-bottom: 0;
+  }
+  &:hover {
+    border-color: $primary;
+    opacity: 0.8;
+  }
+  &:focus {
+    outline: none;
+  }
+  &.selected,
+  &.mixitup-control-active {
+    background: $primary;
+    color: white;
+  }
+}

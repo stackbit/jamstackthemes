@@ -3,19 +3,30 @@ languageCode = "en-us"
 title = "JAMstack Themes"
 theme = "jamstackthemes"
 paginate = 30
-enableGitInfo = true
+summaryLength = 10
+# enableGitInfo = true
 
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[params]
+  google_analytics_id = ""
+  description = "A list of Themes and Starters for JAMstack Sites."
+  banner = false
+  banner_text = "Announcing the Stackbit Control Center for managing modern websites. 🤙👩🏼‍🎤🔥"
+  banner_link = "https://www.stackbit.com/control-center/"
+  banner_link_text = "Try It Now"
+  [theme_card]
+    show_archetype_icons = false
+
+ 
 [taxonomies]
   ssg = "ssg"
   cms = "cms"
   css = "css"
-
-[params]
-    google_analytics_id = ""
-    description = "A list of Themes and Starters for JAMstack Sites."
-    enable_badge_staticgen = false
-    enable_badge_headlesscms = false
-    enable_badge_official = true
+  archetype = "archetype"
+  services = "services"
 
 [outputs]
   home = ["HTML","RSS","JSON"]
@@ -26,6 +37,12 @@ enableGitInfo = true
 
 # Main Menu
 [[menu.main]]
-	name = "About"
-	url = "/about/"
+	name = "New Themes"
+	url = "/"
     weight = 1
+
+[[menu.main]]
+	name = "All Themes"
+	url = "/themes/"
+    weight = 2
+

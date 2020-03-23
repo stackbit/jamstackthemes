@@ -10,4 +10,8 @@ cms:
   - Forestry
   - DatoCMS
   - Contentful
+date: 2016-08-27T15:50:21Z
+github_branch: master
+description: "⚗️ A Jekyll boilerplate theme designed to be a starting point for any Jekyll website"
+stale: false
 ---

@@ -7,4 +7,8 @@ ssg:
   - Hexo
 cms:
   - No Cms
+date: 2018-01-21T18:18:25Z
+github_branch: master
+description: "🦀 A Responsive Theme for Hexo 🦀 "
+stale: true
 ---

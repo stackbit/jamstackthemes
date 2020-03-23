@@ -7,4 +7,8 @@ ssg:
   - MkDocs
 cms:
   - No Cms
+date: 2015-08-28T03:45:23Z
+github_branch: master
+description: "A clean, responsive MkDocs theme"
+stale: false
 ---

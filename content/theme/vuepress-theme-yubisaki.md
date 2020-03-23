@@ -7,4 +7,7 @@ ssg:
   - Vuepress
 cms:
   - No Cms
+date: 2018-04-21T17:50:17Z
+github_branch: master
+description: ":sparkles: A blog theme for vuepress"
 ---

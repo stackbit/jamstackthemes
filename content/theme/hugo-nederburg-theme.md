@@ -7,4 +7,8 @@ ssg:
   - Hugo
 cms:
   - No Cms
+date: 2018-03-16T01:18:29Z
+github_branch: master
+description: "Nederburg is a fast and secure hugo theme and is a port of the Tracks WP theme"
+stale: false
 ---

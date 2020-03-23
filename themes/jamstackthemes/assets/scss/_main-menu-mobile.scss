@@ -1,0 +1,58 @@
+.main-menu-mobile {
+  display: block;
+  opacity: 1;
+  font-size: 12px;
+  margin-bottom: 10px;
+  @include breakpoint("medium") {
+    display: none;
+  }
+  > ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    > li {
+      list-style: none;
+      display: inline-block;
+      margin: 0;
+      flex: 1;
+      text-align: center;
+      > a {
+        display: block;
+        text-decoration: none;
+        padding: 5px;
+        background: none;
+        border: 2px solid $primary;
+        border-right: none;
+        color: $primary;
+        outline: none;
+        margin-bottom: 5px;
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      &.active {
+        > a {
+          text-decoration: none;
+          background: $primary;
+          color: white;
+        }
+      }
+      &:last-of-type {
+        > a {
+          border-right: 2px solid $primary;
+          border-top-right-radius: 3px;
+          border-bottom-right-radius: 3px;
+        }
+      }
+      &:first-of-type {
+        > a {
+          border-top-left-radius: 3px;
+          border-bottom-left-radius: 3px;
+        }
+      }
+    }
+  }
+}

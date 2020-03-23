@@ -7,4 +7,7 @@ ssg:
   - Jekyll
 cms:
   - No Cms
+date: 2016-07-29T04:35:27Z
+github_branch: master
+description: "A minimal Jekyll Theme to host your resume (CV)"
 ---

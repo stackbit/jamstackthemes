@@ -2,36 +2,31 @@
 
   <div class="footer-column footer-column-brand">
     <h3>JAMstack Themes</h3>
-    <ul>
-    <li>
-      <a href="https://github.com/stackbithq/jamstackthemes#submit-a-theme">Submit a theme</a>
-    </li>
-    <li>
-      <a href="{{ "/index.json" | relURL }}">Themes JSON</a>
-    </li>
-    </ul>
+    <a href="https://github.com/stackbithq/jamstackthemes#submit-a-theme" rel="nofollow">Submit a theme</a>
+    <a href="{{ "/index.json" | relURL }}">Themes JSON</a>
+    <a href="{{ "/index.xml" | relURL }}">Themes RSS</a>
+    
+  </div>
+
+  <div class="footer-column">
+    <h3>Themes</h3>
+    {{ range .Site.Menus.main }}
+      <a href="{{.URL}}">{{ .Name }}</a>
+    {{ end }}
   </div>
 
   <div class="footer-column">
     <h3>Static Site Generator Themes</h3>
-    <ul>
     {{ range .Site.Taxonomies.ssg }}
-    <li>
       <a href="{{.Page.Permalink }}">{{.Page.Title}} Themes</a>
-    </li>
     {{ end }}
-    </ul>
   </div>
 
   <div class="footer-column">
     <h3>Headless CMS Themes</h3>
-    <ul>
     {{ range .Site.Taxonomies.cms }}
-    <li>
       <a href="{{.Page.Permalink }}">{{.Page.Title}} Themes</a>
-    </li>
     {{ end }}
-    </ul>
   </div>
 
 </div>

@@ -7,4 +7,8 @@ ssg:
   - Jekyll
 cms:
   - No Cms
+date: 2016-05-13T12:47:31Z
+github_branch: master
+description: "Yummy Jekyll Theme"
+stale: true
 ---

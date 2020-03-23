@@ -1,13 +1,11 @@
-
-[
-  {{ range $index, $theme := (where .Site.RegularPages "Type" "theme") }}{{ $repoName := (substr (replace .Params.github "/" "-") 19 | urlize) }}{{ if .Params.github_branch }}{{ $repoName = (printf "%s-%s" $repoName .Params.github_branch)}}{{ else }}{{ $repoName = (printf "%s-%s" $repoName "master")}}{{ end }}{{ $repo := index .Site.Data.themes $repoName }}{{ if $index }},{{ end }}
+[{{ range $index, $theme := (where .Site.RegularPages "Type" "theme") }}{{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}{{ $repo := index .Site.Data.themes $repoName }}{{ if $index }},{{ end }}
   {
     "title": "{{ .Params.title }}",
     "theme_key": "{{ $repo.theme_key }}",
     "github": "{{ .Params.github }}",
     "demo": "{{ .Params.demo }}",
     "author": "{{ .Params.author }}",
-    "ssg": [{{ range $index, $category := .Params.ssg }}"{{.}}"{{ end }}],
+    "ssg": [{{ range $index, $category := .Params.ssg }}{{ if $index }},{{ end }}"{{.}}"{{ end }}],
     "cms": [{{ range $index, $category := .Params.cms }}{{ if $index }},{{ end }}"{{.}}"{{ end }}],
     "repo_name": "{{ $repo.name }}",
     "repo": "{{ $repo.repo }}",

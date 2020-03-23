@@ -11,4 +11,7 @@ cms:
   - Forestry
   - NetlifyCMS
   - Sanity
+date: 2018-02-17T13:45:54Z
+github_branch: master
+description: "A minimalist blog theme for hugo."
 ---

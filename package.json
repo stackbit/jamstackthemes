@@ -1,10 +1,12 @@
 {
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ./generate-github.js && node ./capture-screenshots.js && node ./generate-thumbnails.js && hugo",
-    "generate-github": "node ./generate-github.js",
-    "capture-screenshots": "node ./capture-screenshots.js",
-    "generate-thumbnails": "node ./generate-thumbnails.js"
+    "build": "node ./scripts/generate-github.js && node ./scripts/capture-screenshots.js && node ./scripts/generate-thumbnails.js && hugo",
+    "deploy": "node ./scripts/generate-github.js --latest && node ./scripts/capture-screenshots.js && node ./scripts/generate-thumbnails.js && hugo",
+    "fetch": "node ./scripts/generate-github.js --latest",
+    "generate-github": "node ./scripts/generate-github.js",
+    "capture-screenshots": "node ./scripts/capture-screenshots.js",
+    "generate-thumbnails": "node ./scripts/generate-thumbnails.js",
+    "scrub-themes": "node ./scripts/scrub-themes.js"
   },
   "dependencies": {
     "axios": "^0.19.0",
@@ -12,11 +14,13 @@
     "date-fns": "^2.4.1",
     "front-matter": "^3.0.2",
     "fs-extra": "^8.1.0",
+    "js-yaml": "^3.13.1",
     "pageres": "^5.1.0",
     "parse-github-url": "^1.0.2",
     "promise.allsettled": "^1.0.1",
     "sharp": "^0.23.0",
-    "yaml-front-matter": "^4.0.0"
+    "yaml-front-matter": "^4.0.0",
+    "yargs": "^14.2.0"
   },
   "devDependencies": {}
 }

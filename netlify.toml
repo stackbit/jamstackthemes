@@ -1,6 +1,9 @@
 [build]
   publish = "public"
-  command = "npm run build"
+  command = "npm run deploy"
 
 [build.environment]
   HUGO_VERSION = "0.57.2"
+
+[context.deploy-preview]
+  command = "npm run deploy"

@@ -7,4 +7,8 @@ ssg:
   - Jekyll
 cms:
   - No Cms
+date: 2017-11-08T16:22:28Z
+github_branch: master
+description: "A modern, high customizable, responsive Jekyll theme for documention with built-in search."
+stale: false
 ---

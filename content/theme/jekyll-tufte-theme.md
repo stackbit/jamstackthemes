@@ -7,4 +7,7 @@ ssg:
   - Jekyll
 cms:
   - No Cms
+date: 2015-02-20T21:51:52Z
+github_branch: master
+description: "Minimal Jekyll blog styled to resemble the look and layout of Edward Tufte's books"
 ---

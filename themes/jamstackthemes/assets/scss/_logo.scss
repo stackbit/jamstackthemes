@@ -1,0 +1,19 @@
+.logo {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: $font_family_heading;
+  margin-right: 20px;
+  @include breakpoint('small') {
+    font-size: 22px;
+  }
+  a {
+    padding: 20px 15px 0 15px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    &:hover {
+      color: $primary;
+    }
+  }
+}

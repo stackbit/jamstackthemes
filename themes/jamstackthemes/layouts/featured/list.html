@@ -1,0 +1,38 @@
+{{ define "title" }}Featured Themes{{ end }}
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-featured{{ end }}
+
+{{ define "main" }}
+{{ $themes := (where .Site.RegularPages "Type" "theme") }}
+{{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themes := (where $themes ".Params.featured" "==" true) }}
+{{ $themeCount := len $themes}}
+
+<div class="main">
+ 
+  <div class="intro">
+    <h1>Featured Themes</h1>
+  </div>
+
+  <div>
+    <div class="blurb blurb-desktop">
+      <p>A smaller, curated list of themes we think are pretty darn great 🔥. Technical quality, highlighting best practices for a particular SSG, innovative features, ease of configuration, UX and visual design are all factors.</p></div>
+    <div class="blurb blurb-mobile">
+      <p>A smaller, curated list of themes we think are pretty darn great 🔥.</p>
+    </div>
+  </div>
+
+  <div id="grids-homepage" class="grids">
+    {{ $paginator := .Paginate $themes.ByPublishDate.Reverse }}
+    {{ range $paginator.Pages }}
+
+    {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
+    {{ $repo := index .Site.Data.themes $repoName }}
+      {{ partial "theme-card.html" (dict "theme" . "repo" $repo "classes" "grid-large theme-featured" "featured" true) }}
+    {{ end }}
+  </div>
+  {{ $paginator := .Paginator }}
+  {{ partial "pagination.html" . }}
+
+</div>
+{{ end }}
