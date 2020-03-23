@@ -12541,6 +12541,37 @@
     "description": "Vanilla a vanilla theme for Stackbit",
     "stale": false
   },
+  "stackbithq-stackbit-theme-vanilla-master": {
+    "theme_key": "stackbithq-stackbit-theme-vanilla-master",
+    "file": "stackbit-theme-vanilla-jekyll.md",
+    "name": "stackbit-theme-vanilla",
+    "github_username": "stackbithq",
+    "repo": "stackbithq/stackbit-theme-vanilla",
+    "branch": "master",
+    "url": "https://github.com/stackbithq/stackbit-theme-vanilla",
+    "stars": 2,
+    "forks": 0,
+    "open_issues": 0,
+    "last_commit": "2019-10-03T06:07:15Z",
+    "created_at": "2019-05-10T14:51:58Z",
+    "stale": false
+  },
+  "staticmania-roxo-hugo-master": {
+    "theme_key": "staticmania-roxo-hugo-master",
+    "file": "roxo-hugo.md",
+    "name": "roxo-hugo",
+    "github_username": "StaticMania",
+    "repo": "StaticMania/roxo-hugo",
+    "branch": "master",
+    "url": "https://github.com/StaticMania/roxo-hugo",
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "last_commit": "2020-03-16T16:09:16Z",
+    "created_at": "2020-03-08T11:52:08Z",
+    "description": null,
+    "stale": false
+  },
   "stevelane-hugo-icon-master": {
     "theme_key": "stevelane-hugo-icon-master",
     "file": "hugo-icon.md",
@@ -13837,6 +13868,22 @@
     "description": "A high performance blog starter with Material design in mind for GatsbyJS.",
     "stale": false
   },
+  "vantagedesign-ace-documentation-master": {
+    "theme_key": "vantagedesign-ace-documentation-master",
+    "file": "ace-documentation.md",
+    "name": "ace-documentation",
+    "github_username": "vantagedesign",
+    "repo": "vantagedesign/ace-documentation",
+    "branch": "master",
+    "url": "https://github.com/vantagedesign/ace-documentation",
+    "stars": 1,
+    "forks": 1,
+    "open_issues": 0,
+    "last_commit": "2020-03-13T13:25:47Z",
+    "created_at": "2020-01-23T22:48:08Z",
+    "description": "A Bootstrap 4 powered documentation theme for Hugo. Repsonsive, search, code highlighting and more.",
+    "stale": false
+  },
   "vfalanis-taken-master": {
     "theme_key": "vfalanis-taken-master",
     "file": "jekyll-taken-theme.md",
@@ -14076,6 +14123,21 @@
     "created_at": "2015-08-10T03:11:53Z",
     "description": "Roon theme for Jekyll",
     "stale": false
+  },
+  "vvalchev-creative-theme-jekyll-new-master": {
+    "theme_key": "vvalchev-creative-theme-jekyll-new-master",
+    "file": "jekyll-creative-theme-new.md",
+    "name": "creative-theme-jekyll-new",
+    "github_username": "vvalchev",
+    "repo": "vvalchev/creative-theme-jekyll-new",
+    "branch": "master",
+    "url": "https://github.com/vvalchev/creative-theme-jekyll-new",
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 1,
+    "last_commit": "2020-03-14T16:28:25Z",
+    "created_at": "2020-03-03T00:48:35Z",
+    "description": "This is an updated version of creative-theme-jekyll that also features pure markdown site creation."
   },
   "vvelox-hugo-dusky-neon-potato-master": {
     "theme_key": "vvelox-hugo-dusky-neon-potato-master",
