@@ -10,7 +10,7 @@ ssg:
 cms:
   - Contentful
 css:
-  - TailwindCSS
+  - Tailwind
 archetype:
   - Portfolio
 description: Gatsby portfolio theme integrated with Contentful

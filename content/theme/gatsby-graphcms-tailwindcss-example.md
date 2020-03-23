@@ -8,6 +8,8 @@ ssg:
   - Gatsby
 cms:
   - No Cms
+css:
+  - Tailwind
 date: 2018-09-19T13:00:05Z
 github_branch: master
 stale: true

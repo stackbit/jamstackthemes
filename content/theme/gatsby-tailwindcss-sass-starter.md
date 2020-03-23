@@ -8,6 +8,9 @@ ssg:
   - Gatsby
 cms:
   - No Cms
+css:
+  - Tailwind
+  - SCSS
 date: 2019-01-02T07:24:27Z
 github_branch: master
 description: "Just another Gatsby Tailwind with SASS starter"

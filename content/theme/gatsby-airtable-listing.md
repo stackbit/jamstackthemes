@@ -10,7 +10,7 @@ ssg:
 cms:
   - Airtable
 css:
-  - TailwindCSS
+  - Tailwind
 archetype:
   - Multi Purpose
 description: Gatsby starter theme integrated with Airtable
