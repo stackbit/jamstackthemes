@@ -1,7 +1,7 @@
 ---
 title: "Onassis"
 github: https://github.com/ohduran/Onassis
-demo: https://alvaroduran.com/Onassis
+demo: https://ohduran.github.io/Onassis
 author: Alvaro Duran
 ssg:
   - Jekyll
