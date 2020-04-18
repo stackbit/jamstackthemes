@@ -12,7 +12,7 @@ archetype:
 services:
   - Disqus
   - Google Analytics
- cms:
+cms:
   - No Cms
 description: This is a minimal and lightweight blogging Gatsby template
 ---
