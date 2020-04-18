@@ -33,6 +33,7 @@
   </div>
   
   {{ partial "sort-buttons.html" . }}
+  <div class="hint">Only themes which have a commit within the last 12 months years are shown in this list. View <a href="/themes">All Themes</a></div>
 
   <div id="grids-homepage" class="grids">
     {{ range $themes.ByPublishDate.Reverse }}
