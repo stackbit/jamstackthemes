@@ -8,14 +8,13 @@ github_branch: master
 ssg:
   - Jekyll
 cms:
-  - 
+  - No Cms
 css:
   - Sass
 archetype:
   - Blog
   - Personal Site
-services:
-  -
+ 
 description: 🏖  Klisé is a minimalist Jekyll theme for running a personal site or blog, light & dark mode support.
 ---
 
