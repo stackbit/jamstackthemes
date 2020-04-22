@@ -9,8 +9,6 @@ ssg:
   - Eleventy
 cms:
   - No Cms
-css:
-  - W3CSS
 archetype:
   - Single Page
   - Blog

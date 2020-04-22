@@ -19,6 +19,7 @@ pygmentsUseClasses = true
   banner_link_text = "Try It Now"
   [theme_card]
     show_archetype_icons = false
+    show_services_icons = false
 
  
 [taxonomies]

@@ -109,7 +109,6 @@
         margin-bottom: 0;
       }
       .filter-button {
-        margin-left: 10px;
         margin-right: 10px;
         display: inline-block;
         vertical-align: text-top;
@@ -140,6 +139,9 @@
         }
       }
       .filter-icon {
+        img {
+
+        }
         width: 18px;
         height: 18px;
         margin-right: 7px;

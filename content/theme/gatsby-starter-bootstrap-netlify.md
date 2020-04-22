@@ -7,6 +7,8 @@ ssg:
   - Gatsby
 cms:
   - NetlifyCMS
+css:
+  - Bootstrap
 date: 2017-11-08T01:59:41Z
 github_branch: master
 description: "Bootstrap and netlify CMS starter for Gatsby"

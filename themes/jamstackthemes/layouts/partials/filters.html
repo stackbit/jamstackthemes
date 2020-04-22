@@ -4,7 +4,6 @@
   <div id="filter-group-ssg" class="filter filter-group-ssg" data-filter-group="ssg">
     <div class="filter-title">
       <h3>SSG </h3>
-     
       <span class="toggle-info">
         <a href="https://www.staticgen.com" target="_blank" rel="noopener" class="tooltip" aria-label="StaticGen Rankings" title="StaticGen Rankings" data-tippy-content="StaticGen Rankings">
           <img src="{{ "images/ui/pulse.svg" | relURL }}" alt="" />
@@ -15,7 +14,7 @@
     <ul class="filter-list">
       {{ range .context.Site.Taxonomies.ssg }}
       <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
-        {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
+        <img class="filter-icon" alt="{{ .Page.Title }}" src="{{ .Page.Params.icon | relURL }}" />
         <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
         <span class="filter-name">{{ .Page.Title }}</span>
         {{ $count := 0 }}
@@ -49,7 +48,7 @@
     <ul class="filter-list">
       {{ range .context.Site.Taxonomies.cms }}
       <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
-        {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
+        <img class="filter-icon" alt="{{ .Page.Title }}" src="{{ .Page.Params.icon | relURL }}" />
         <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
         <span class="filter-name">{{ .Page.Title }}</span>
         {{ $count := 0 }}
@@ -78,7 +77,7 @@
     <ul class="filter-list">
       {{ range .context.Site.Taxonomies.css }}
       <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
-        {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
+        <img class="filter-icon" alt="{{ .Page.Title }}" src="{{ .Page.Params.icon | relURL }}" />
         <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
         <span class="filter-name">{{ .Page.Title }}</span>
         {{ $count := 0 }}
@@ -97,17 +96,17 @@
     </ul>
   </div>
 
-  <div id="filter-group-services" class="filter filter-group-services" data-filter-group="services">
+  <div id="filter-group-services" class="filter closed filter-group-services" data-filter-group="services">
     <div class="filter-title">
       <h3>Services</h3>
-      <span class="toggle-icon" role="button" aria-expanded="true" tabindex="0">
+      <span class="toggle-icon closed" role="button" aria-expanded="true" tabindex="0">
         <img src="{{ "images/ui/chevron-down-solid.svg" | relURL }}" alt="Toggle services list button" />
       </span>
     </div>
     <ul class="filter-list">
       {{ range .context.Site.Taxonomies.services }}
       <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
-        {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
+        <img class="filter-icon" alt="{{ .Page.Title }}" src="{{ .Page.Params.icon | relURL }}" />
         <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
         <span class="filter-name">{{ .Page.Title }}</span>
         {{ $count := 0 }}
@@ -126,17 +125,16 @@
     </ul>
   </div>
 
-  <div id="filter-group-archetype" class="filter filter-group-archetype" data-filter-group="archetype">
+  <div id="filter-group-archetype" class="filter closed filter-group-archetype" data-filter-group="archetype">
     <div class="filter-title">
       <h3>Archetype</h3>
-      <span class="toggle-icon" role="button" aria-expanded="true" tabindex="0">
+      <span class="toggle-icon closed" role="button" aria-expanded="true" tabindex="0">
         <img src="{{ "images/ui/chevron-down-solid.svg" | relURL }}" alt="Toggle archetype list button" />
       </span>
     </div>
     <ul class="filter-list">
       {{ range .context.Site.Taxonomies.archetype }}
       <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
-        {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
         <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
         <span class="filter-name">{{ .Page.Title }}</span>
         {{ $count := 0 }}

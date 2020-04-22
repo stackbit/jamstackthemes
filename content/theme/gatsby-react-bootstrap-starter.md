@@ -8,6 +8,8 @@ ssg:
   - Gatsby
 cms:
   - No Cms
+css:
+  - Bootstrap
 date: 2019-04-30T23:01:02Z
 github_branch: master
 stale: false

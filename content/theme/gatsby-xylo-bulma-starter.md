@@ -8,6 +8,8 @@ ssg:
   - Gatsby
 cms:
   - No Cms
+css:
+  - Bulma
 date: 2018-10-07T03:53:26Z
 github_branch: master
 description: "Gatsby v2 Starter with Bulma based on default starter."

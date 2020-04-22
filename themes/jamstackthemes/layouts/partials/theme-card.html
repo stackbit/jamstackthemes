@@ -89,11 +89,13 @@
       {{ end }}
     {{ end }}
 
+    {{ if .Site.Params.theme_card.show_services_icons }}
     {{ if .theme.Params.services }}
     {{- range .theme.Params.services }}
       {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "services/%s" (urlize .)) }}
         {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
       {{ end }}
+    {{ end }}
     {{ end }}
 
     {{ if .Site.Params.theme_card.show_archetype_icons }}

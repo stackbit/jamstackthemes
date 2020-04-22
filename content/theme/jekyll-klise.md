@@ -10,11 +10,10 @@ ssg:
 cms:
   - No Cms
 css:
-  - Sass
+  - SCSS
 archetype:
   - Blog
-  - Personal Site
- 
+  - Personal
 description: 🏖  Klisé is a minimalist Jekyll theme for running a personal site or blog, light & dark mode support.
 ---
 

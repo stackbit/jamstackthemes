@@ -7,6 +7,8 @@ ssg:
   - Gatsby
 cms:
   - No Cms
+css:
+  - Bulma
 date: 2018-11-26T13:25:33Z
 github_branch: master
 description: "🚀 + ⚛️  A Quick Way to bootstrap your next Gatsby + Bulma site."
