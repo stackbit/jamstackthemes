@@ -9,9 +9,6 @@ ssg:
   - Gatsby
 archetype:
   - Blog
-services:
-  - Disqus
-  - Google Analytics
 cms:
   - No Cms
 description: This is a minimal and lightweight blogging Gatsby template
