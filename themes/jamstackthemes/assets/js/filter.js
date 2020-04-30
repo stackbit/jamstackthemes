@@ -40,7 +40,7 @@ const mixer = mixitup('#grids-homepage', {
 });
 
 const ssgGroup = ["brunch", "eleventy", "gatsby", "gridsome", "hexo", "hugo", "jekyll", "middleman", "mkdocs", "nuxt", "pelican", "vuepress", "metalsmith"]
-const cmsGroup = ["airtable", "contentful", "datocms", "firebase", "forestry", "ghost", "netlifycms", "no-cms", "prismic", "sanity", "wordpress", "directus"]
+const cmsGroup = ["airtable", "contentful", "datocms", "firebase", "forestry", "ghost", "kontent", "netlifycms", "no-cms", "prismic", "sanity", "wordpress", "directus"]
 const cssGroup = ["bootstrap", "scss",'tailwind',"bulma"]
 const servicesGroup = ['algolia','formspree','formstack','mailchimp','snipcart']
 const archetypeGroup = ["agency", "portfolio", "business", "multi-purpose", "blog", "single-page", "ecommerce","documentation"]

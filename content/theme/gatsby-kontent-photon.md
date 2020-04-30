@@ -9,8 +9,6 @@ ssg:
   - Gatsby
 cms:
   - Kontent
-css:
-  - CSS Grid
 archetype:
   - Starter
   - Portfolio
