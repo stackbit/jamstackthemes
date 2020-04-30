@@ -9,8 +9,6 @@ ssg:
   - Gatsby
 cms:
   - Kontent
-css:
-  - SCSS
 archetype:
   - Blog
   - Portfolio
