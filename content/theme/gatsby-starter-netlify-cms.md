@@ -7,6 +7,8 @@ ssg:
   - Gatsby
 cms:
   - NetlifyCMS
+css:
+  - Bulma
 date: 2017-08-15T23:15:14Z
 github_branch: master
 featured: true
