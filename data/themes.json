@@ -6455,7 +6455,7 @@
     "branch": "master",
     "url": "https://github.com/jarrekk/Jalpc",
     "stars": 792,
-    "forks": 1062,
+    "forks": 1063,
     "open_issues": 33,
     "last_commit": "2019-07-10T05:49:41Z",
     "created_at": "2016-05-29T08:02:13Z",
@@ -7262,6 +7262,22 @@
     "description": "Gatsby starter site with Kentico Kontent.",
     "stale": false
   },
+  "kentico-gatsby-starter-kontent-lumen-master": {
+    "theme_key": "kentico-gatsby-starter-kontent-lumen-master",
+    "file": "gatsby-kontent-lumen.md",
+    "name": "gatsby-starter-kontent-lumen",
+    "github_username": "Kentico",
+    "repo": "Kentico/gatsby-starter-kontent-lumen",
+    "branch": "master",
+    "url": "https://github.com/Kentico/gatsby-starter-kontent-lumen",
+    "stars": 7,
+    "forks": 3,
+    "open_issues": 0,
+    "last_commit": "2020-05-13T08:25:52Z",
+    "created_at": "2020-02-25T08:43:55Z",
+    "description": "Lumen is a minimal, lightweight and mobile-first starter for creating blogs using Gatsby and Kentico Kontent.",
+    "stale": false
+  },
   "kevit-devaid-jekyll-theme-master": {
     "theme_key": "kevit-devaid-jekyll-theme-master",
     "file": "jekyll-devaid.md",
@@ -8029,6 +8045,22 @@
     "created_at": "2015-11-17T09:51:10Z",
     "description": "Xizhi's personal website",
     "stale": true
+  },
+  "longpdo-neumorphism-master": {
+    "theme_key": "longpdo-neumorphism-master",
+    "file": "jekyll-neumorphism.md",
+    "name": "neumorphism",
+    "github_username": "longpdo",
+    "repo": "longpdo/neumorphism",
+    "branch": "master",
+    "url": "https://github.com/longpdo/neumorphism",
+    "stars": 2,
+    "forks": 3,
+    "open_issues": 0,
+    "last_commit": "2020-05-08T09:29:52Z",
+    "created_at": "2020-04-10T21:08:01Z",
+    "description": "      Neumorphism designed Jekyll theme for personal websites, portfolios and resumes.",
+    "stale": false
   },
   "lordmathis-hugo-theme-nix-master": {
     "theme_key": "lordmathis-hugo-theme-nix-master",
@@ -9912,7 +9944,7 @@
     "url": "https://github.com/pacollins/hugo-future-imperfect-slim",
     "stars": 107,
     "forks": 88,
-    "open_issues": 16,
+    "open_issues": 17,
     "last_commit": "2020-04-28T15:10:48Z",
     "created_at": "2019-04-06T17:48:53Z",
     "description": "Multilingual Blogging Theme for Hugo",
@@ -10253,6 +10285,22 @@
     "created_at": "2016-02-12T19:24:16Z",
     "description": "A Jekyll theme for the responsive theme for GitHub Pages http://jasonlong.github.io/cayman-theme/",
     "stale": true
+  },
+  "piharpi-jekyll-klise-master": {
+    "theme_key": "piharpi-jekyll-klise-master",
+    "file": "jekyll-klise.md",
+    "name": "jekyll-klise",
+    "github_username": "piharpi",
+    "repo": "piharpi/jekyll-klise",
+    "branch": "master",
+    "url": "https://github.com/piharpi/jekyll-klise",
+    "stars": 38,
+    "forks": 26,
+    "open_issues": 0,
+    "last_commit": "2020-05-17T19:09:19Z",
+    "created_at": "2019-03-03T04:02:13Z",
+    "description": "🏖  Klisé is a minimalist Jekyll theme for running a personal site or blog, light & dark mode support. (https://klise.now.sh)",
+    "stale": false
   },
   "pipporj-hugo-refresh-master": {
     "theme_key": "pipporj-hugo-refresh-master",
@@ -11886,6 +11934,22 @@
     "description": "Elegant theme for Jekyll.",
     "stale": true
   },
+  "simply007-kontent-template-gatsby-landing-page-photon-master": {
+    "theme_key": "simply007-kontent-template-gatsby-landing-page-photon-master",
+    "file": "gatsby-kontent-photon.md",
+    "name": "kontent-template-gatsby-landing-page-photon",
+    "github_username": "Simply007",
+    "repo": "Simply007/kontent-template-gatsby-landing-page-photon",
+    "branch": "master",
+    "url": "https://github.com/Simply007/kontent-template-gatsby-landing-page-photon",
+    "stars": 2,
+    "forks": 6,
+    "open_issues": 1,
+    "last_commit": "2020-04-28T07:29:30Z",
+    "created_at": "2019-05-03T10:39:07Z",
+    "description": "Kentico Kontent web template using Gatsby and Kentico Kontent.",
+    "stale": false
+  },
   "smakosh-gatsby-apollo-starter-master": {
     "theme_key": "smakosh-gatsby-apollo-starter-master",
     "file": "gatsby-apollo-starter.md",
@@ -13034,6 +13098,22 @@
     "last_commit": "2020-01-04T18:01:15Z",
     "created_at": "2016-10-06T16:42:56Z",
     "description": "A fresh and french theme for Hugo",
+    "stale": false
+  },
+  "thecodemint-gatsby-starter-simple-master": {
+    "theme_key": "thecodemint-gatsby-starter-simple-master",
+    "file": "gatsby-starter-simple.md",
+    "name": "gatsby-starter-simple",
+    "github_username": "thecodemint",
+    "repo": "thecodemint/gatsby-starter-simple",
+    "branch": "master",
+    "url": "https://github.com/thecodemint/gatsby-starter-simple",
+    "stars": 6,
+    "forks": 2,
+    "open_issues": 0,
+    "last_commit": "2020-05-10T15:40:43Z",
+    "created_at": "2020-04-12T18:31:25Z",
+    "description": "A simple blogging Gatsby starter",
     "stale": false
   },
   "thelehhman-plainwhite-jekyll-master": {
@@ -14538,6 +14618,22 @@
     "last_commit": "2020-05-04T15:14:54Z",
     "created_at": "2020-03-11T20:50:55Z",
     "description": "Portfolio theme for Gatsby",
+    "stale": false
+  },
+  "wkocjan-gatsby-theme-intro-master": {
+    "theme_key": "wkocjan-gatsby-theme-intro-master",
+    "file": "gatsby-theme-intro.md",
+    "name": "gatsby-theme-intro",
+    "github_username": "wkocjan",
+    "repo": "wkocjan/gatsby-theme-intro",
+    "branch": "master",
+    "url": "https://github.com/wkocjan/gatsby-theme-intro",
+    "stars": 9,
+    "forks": 8,
+    "open_issues": 2,
+    "last_commit": "2020-05-14T10:57:54Z",
+    "created_at": "2020-04-10T09:58:21Z",
+    "description": "Personal branding theme for developers",
     "stale": false
   },
   "wowthemesnet-affiliates-jekyll-theme-master": {
