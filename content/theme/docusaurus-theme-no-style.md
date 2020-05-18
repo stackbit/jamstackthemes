@@ -2,7 +2,7 @@
 title: 'Docusaurus Theme No Style'
 github: https://github.com/wgao19/docusaurus-theme-no-style
 demo: https://docusaurus-theme-no-style.netlify.com/
-author: wgao19
+author: Wei Gao
 ssg:
   - Docusaurus
 cms:
