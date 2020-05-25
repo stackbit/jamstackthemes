@@ -7,10 +7,11 @@ ssg:
   - Gridsome
 cms:
   - Storyblok
-date: 2019-11-09
+date: 2020-05-20
 github_branch: master
 description: "Gridsome Website by Storyblok"
 stale: false
+draft: true
 ---
 
 <p align="center">
