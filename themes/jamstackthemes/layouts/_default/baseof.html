@@ -54,14 +54,18 @@
 
   {{ partial "footer.html" . }}
 
-  {{ $themeTracking := resources.Get "js/theme-tracking.js" }}
+  {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
+  {{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
+  {{ $filterGroups := resources.Get "js/filter/filter-groups.js" }}
+  {{ $filterHash := resources.Get "js/filter/filter-hash.js" }}
+  {{ $filter := resources.Get "js/filter/filter.js" }}
+  {{ $scripts := resources.Get "js/scripts.js" }}
 
-  {{ $js := slice $themeTracking | resources.Concat "js/bundle.js" }}
-  
+  {{ $bundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter $scripts | resources.Concat "js/bundle.js" }}
   {{ if .Site.IsServer }}
-  <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>
+  <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
   {{ else }}
-  <script type="text/javascript" src="{{ ($js | minify | fingerprint).RelPermalink }}"></script>
+  <script type="text/javascript" src="{{ ($bundle | minify | fingerprint).RelPermalink }}"></script>
   {{ end }}
 
   {{ block "footer_js" . }}

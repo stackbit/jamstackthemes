@@ -69,8 +69,7 @@ function getUiState() {
     ssg: mixer.getFilterGroupSelectors("ssg").map(getValueFromSelector),
     cms: mixer.getFilterGroupSelectors("cms").map(getValueFromSelector),
     css: mixer.getFilterGroupSelectors("css").map(getValueFromSelector),
-    archetype: mixer.getFilterGroupSelectors("archetype").map(getValueFromSelector),
-    services: mixer.getFilterGroupSelectors("services").map(getValueFromSelector),
+    archetype: mixer.getFilterGroupSelectors("archetype").map(getValueFromSelector)
   };
 
   return uiState;

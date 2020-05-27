@@ -1,8 +1,5 @@
-const pageId = document.querySelector('body').id
-let sortOrder = null
-if (pageId === "page-all-themes") {
-  sortOrder = "stars:desc"
-}
+const pageId = document.querySelector('body').id;
+const sortOrder = pageId === "page-all-themes" ? "stars:desc" : null;
 
 const mixer = mixitup('#grids-homepage', {
   multifilter: {
@@ -38,19 +35,6 @@ const mixer = mixitup('#grids-homepage', {
   }
 });
 
-const ssgGroup = ["brunch", "eleventy", "gatsby", "gridsome", "hexo", "hugo", "jekyll", "middleman", "mkdocs", "nuxt", "pelican", "vuepress", "metalsmith","docusaurus"]
-const cmsGroup = ["airtable", "contentful", "datocms", "firebase", "forestry", "ghost", "kontent", "netlifycms", "no-cms", "prismic", "sanity", "wordpress", "directus","storyblok"]
-const cssGroup = ["bootstrap", "scss",'tailwind',"bulma"]
-const servicesGroup = ['algolia','formspree','formstack','mailchimp','snipcart']
-const archetypeGroup = ["agency", "portfolio", "business", "multi-purpose", "blog", "single-page", "ecommerce","documentation"]
-
-const groups = {
-  ssg: ssgGroup,
-  cms: cmsGroup,
-  css: cssGroup,
-  archetype: archetypeGroup,
-  services: servicesGroup
-}
 
 function getTriggerGroup(event) {
   triggerGroup = null;
@@ -63,21 +47,11 @@ function getTriggerGroup(event) {
 }
 
 function updateFilterCounts(state, futureState) {
-  
-  // console.log("state", state);
-  // console.log("futureState", futureState)
 
   let triggerGroup = getTriggerGroup(futureState.triggerElement)
   let totalMatching = futureState.targets.map(theme => theme.className.trim().split(" "));
   let matching = futureState.matching.map(theme => theme.className.trim().split(" "));
-
-  // console.log("triggerGroup", triggerGroup);
-
   let hasMultipleActiveGroups = checkActiveGroups();
-
-  // console.log("hasMultipleActiveGroups", hasMultipleActiveGroups);
-  // console.log("matching", matching)
-  // console.log("groups", groups)
 
   // Update Filter Counts 
   Object.keys(groups).forEach((group) => {
@@ -111,7 +85,6 @@ function checkActiveGroups() {
 }
 
 function updateCount(group, matches) {
-  
   group.forEach(term => {
     let count = matches.filter(match => {
       return match.includes(term);
