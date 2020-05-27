@@ -20,7 +20,6 @@ pygmentsUseClasses = true
   [theme_card]
     show_archetype_icons = false
     show_services_icons = false
-
  
 [taxonomies]
   ssg = "ssg"
