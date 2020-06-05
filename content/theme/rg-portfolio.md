@@ -20,11 +20,11 @@ description: Kick-off your Portfolio website with RG-Portfolio gatsby starter. W
 
 ---
 
-# A simple starter kit for Gridsome
+# A simple starter kit for Gatsby
 
-In this starter, you can easily manage your content from contentful CMS. you can post blogs and your photos. you can manage homepage section in contentful for an exmple if you dont want to show Work and Testimonials in homepage you can easily unchecked menus listing in Site Information content_types.
+In this starter, you can easily manage your content from contentful CMS. you can post blogs and your photos. you can manage homepage section in Contentful for an example if you don't want to show Work and Testimonials in homepage you can easily unchecked menus listing in Site Information content_types.
 
-Manage all site infromations, Header manu and Home page section in contentful. see the screeshot of settings.
+Manage all site infromations, Header menu and Home page section in Contentful. see the screenshot of settings.
 
 
 ## Features
@@ -34,6 +34,6 @@ Manage all site infromations, Header manu and Home page section in contentful. s
 * Photos and Blogs page listing.
 * Different types of sections like About, Service, Blogs, Work, Testimonials, Photos, and contact.
 * _Super_ lightweight front-end  
-* All settings manage from contentful for example Header Menu, Homepage sections, blogs, and photos, etc.
+* All settings manage from Contentful for example Header Menu, Homepage sections, blogs, and photos, etc.
 * Social share in blog details pages with comment ( Disqus ).
 * PWA
