@@ -2,7 +2,7 @@
 title: "Artisan Static"
 github: https://github.com/raniesantos/artisan-static
 author: raniesantos
-demo: https://artisan-static-demo.netlify.com/
+demo: https://artisanstatic.netlify.app/
 date: 2020-06-03
 ssg:
     - Jigsaw
