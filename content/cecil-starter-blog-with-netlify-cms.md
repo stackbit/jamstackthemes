@@ -5,7 +5,7 @@ author: Cecilapp
 demo: https://demo.cecil.app
 date: 2020-06-03
 ssg:
-    _ Cecil
+    - Cecil
 cms:
     - NetlifyCMS
 archetype:
