@@ -54,14 +54,8 @@
 
   {{ partial "footer.html" . }}
 
-  {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
-  {{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
-  {{ $filterGroups := resources.Get "js/filter/filter-groups.js" }}
-  {{ $filterHash := resources.Get "js/filter/filter-hash.js" }}
-  {{ $filter := resources.Get "js/filter/filter.js" }}
   {{ $scripts := resources.Get "js/scripts.js" }}
-
-  {{ $bundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter $scripts | resources.Concat "js/bundle.js" }}
+  {{ $bundle := slice $scripts | resources.Concat "js/bundle.js" }}
   {{ if .Site.IsServer }}
   <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
   {{ else }}

@@ -58,4 +58,17 @@ All Themes ({{ $themeCount }})
 {{ end }}
 
 {{ define "footer_js" }}
+  {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
+  {{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
+  {{ $filterGroups := resources.Get "js/filter/filter-groups.js" }}
+  {{ $filterHash := resources.Get "js/filter/filter-hash.js" }}
+  {{ $filter := resources.Get "js/filter/filter.js" }}
+
+  {{ $themesBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter | resources.Concat "js/homeBundle.js" }}
+  {{ if .Site.IsServer }}
+  <script type="text/javascript" src="{{ $themesBundle.RelPermalink }}"></script>
+  {{ else }}
+  <script type="text/javascript" src="{{ ($themesBundle | minify | fingerprint).RelPermalink }}"></script>
+{{ end }}
+
 {{ end }}

@@ -5,6 +5,7 @@
   data-stars="{{ if .repo }}{{ .repo.stars }}{{ else }}0{{ end }}"
   data-last-commit="{{ if .repo }}{{ .repo.last_commit }}{{ end }}"
   data-submitted="{{ .theme.Lastmod.Format "Jan 2, 2006" }}"
+  data-name="{{ .theme.Title }}"
 >
   {{ $githubLink := .theme.Params.github }}
   {{ if ne .theme.Params.github_branch "master" }}
@@ -47,8 +48,8 @@
       <p><strong>Last Commit:</strong> {{ dateFormat "Jan 2, 2006" .repo.last_commit }}</p>
     {{ end }}
     <div class="theme-buttons">
-      <a class="theme-button" href="{{ .theme.Params.github }}" target="_blank" rel="noopener nofollow">Github</a>
-      <a class="theme-button" href="{{ .theme.Params.demo }}" target="_blank" rel="noopener nofollow">Live Demo</a>
+      <a class="theme-button theme-button-github" href="{{ .theme.Params.github }}" target="_blank" rel="noopener nofollow">Github</a>
+      <a class="theme-button theme-button-demo" href="{{ .theme.Params.demo }}" target="_blank" rel="noopener nofollow">Live Demo</a>
     </div>
     {{ if .theme.Params.description }}
       <p class="description">{{ .theme.Params.description | truncate 80 }}</p>
