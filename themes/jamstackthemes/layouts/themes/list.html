@@ -1,7 +1,7 @@
 {{ define "title" }}
-  {{ $themes := (where .Site.RegularPages "Type" "theme") }}
-  {{ $themes := (where $themes ".Params.draft" "!=" true) }}
-  {{ $themeCount := len $themes}}
+{{ $themes := (where .Site.RegularPages "Type" "theme") }}
+{{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themeCount := len $themes}}
 All Themes ({{ $themeCount }})
 {{ end }}
 
@@ -19,56 +19,57 @@ All Themes ({{ $themeCount }})
 {{ $themeCount := len $themes}}
 
 <div class="sidebar">
-  {{ partial "filters.html" (dict "context" . "countAll" true) }}
-  {{ partial "stackbit.html" . }}
+    {{ partial "filters.html" (dict "context" . "countAll" true) }}
+    {{ partial "stackbit.html" . }}
 </div>
 
 <div class="main">
-  
-  <div class="intro">
-    <h1>All Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
-  </div>
 
-  <div>
-    <div class="blurb blurb-desktop">
-      <p>Search hundreds of open-source JAMstack themes and find the perfect starter theme or boilerplate for your next project. Filter themes by static site generator, headless CMS and more. Sort themes by stars, last commit date or submission date.</p>
+    <div class="intro">
+        <h1>All Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
     </div>
-    <div class="blurb blurb-mobile">
-      <p>Search hundreds of open-source JAMstack themes!</p>
-    </div>  
-      
-  </div>
 
-  {{ partial "sort-buttons.html" . }}
+    <div>
+        <div class="blurb blurb-desktop">
+            <p>Search hundreds of open-source JAMstack themes and find the perfect starter theme or boilerplate for your next project. Filter themes by static site generator, headless CMS and more. Sort themes by stars, last commit date or submission date.</p>
+        </div>
+        <div class="blurb blurb-mobile">
+            <p>Search hundreds of open-source JAMstack themes!</p>
+        </div>
 
-  <div id="grids-homepage" class="grids">
-    {{ range $themes.ByPublishDate.Reverse }}
-    {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
-    {{ $repo := index .Site.Data.themes $repoName }}
-      {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
-    {{ end }}
-  </div>
+    </div>
 
-  <div class="controls-pagination">
-    <div class="mixitup-page-list"></div>
-    <div class="mixitup-page-stats"></div>
-</div>
+    {{ partial "sort-buttons.html" . }}
+
+    <div id="grids-homepage" class="grids">
+        {{ range $themes.ByPublishDate.Reverse }}
+        {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
+        {{ $repo := index .Site.Data.themes $repoName }}
+        {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
+        {{ end }}
+    </div>
+
+    <div class="controls-pagination">
+        <div class="mixitup-page-list"></div>
+        <div class="mixitup-page-stats"></div>
+    </div>
 
 </div>
 {{ end }}
 
 {{ define "footer_js" }}
-  {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
-  {{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
-  {{ $filterGroups := resources.Get "js/filter/filter-groups.js" }}
-  {{ $filterHash := resources.Get "js/filter/filter-hash.js" }}
-  {{ $filter := resources.Get "js/filter/filter.js" }}
 
-  {{ $themesBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter | resources.Concat "js/homeBundle.js" }}
-  {{ if .Site.IsServer }}
-  <script type="text/javascript" src="{{ $themesBundle.RelPermalink }}"></script>
-  {{ else }}
-  <script type="text/javascript" src="{{ ($themesBundle | minify | fingerprint).RelPermalink }}"></script>
-{{ end }}
+    {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
+    {{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
+    {{ $filterGroups := resources.Get "js/filter/filter-groups.js" }}
+    {{ $filterHash := resources.Get "js/filter/filter-hash.js" }}
+    {{ $filter := resources.Get "js/filter/filter.js" }}
+
+    {{ $themesBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter | resources.Concat "js/themesBundle.js" }}
+    {{ if .Site.IsServer }}
+        <script type="text/javascript" src="{{ $themesBundle.RelPermalink }}"></script>
+    {{ else }}
+        <script type="text/javascript" src="{{ ($themesBundle | minify | fingerprint).RelPermalink }}"></script>
+    {{ end }}
 
 {{ end }}

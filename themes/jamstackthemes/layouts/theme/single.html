@@ -7,7 +7,7 @@
 {{ $repo := index .Site.Data.themes $repoName }}
 
 <div class="main">
-    <div class="theme-detail">
+    <div class="theme-detail" data-name="{{ .Title }}">
         <div class="theme-detail-top">
             <div class="theme-info">
 
@@ -32,8 +32,8 @@
                 </div>
 
                 <div class="theme-detail-buttons">
-                    <a class="button" href="{{ .Params.github }}" target="_blank" rel="nofollow noopener">Github</a>
-                    <a class="button" href="{{ .Params.demo }}" target="_blank" rel="nofollow noopener">Live Demo</a>
+                    <a class="button theme-button-github" href="{{ .Params.github }}" target="_blank" rel="nofollow noopener">Github</a>
+                    <a class="button theme-button-demo" href="{{ .Params.demo }}" target="_blank" rel="nofollow noopener">Live Demo</a>
                 </div>
 
                 <div class="theme-detail-tags">
@@ -98,9 +98,19 @@
             </div>
         </div>
     </div>
-
-
-
 </div>
 
 {{ end }}
+
+{{ define "footer_js" }}
+
+    {{ $theme := resources.Get "js/theme.js" }}
+    {{ $themeBundle := slice $theme | resources.Concat "js/themeBundle.js" }}
+    {{ if .Site.IsServer }}
+        <script type="text/javascript" src="{{ $themeBundle.RelPermalink }}"></script>
+    {{ else }}
+        <script type="text/javascript" src="{{ ($themeBundle | minify | fingerprint).RelPermalink }}"></script>
+    {{ end }}
+
+{{ end }}
+
