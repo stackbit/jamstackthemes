@@ -3,14 +3,16 @@ document.querySelectorAll(".theme").forEach((theme) => {
     const githubButton = theme.querySelector('.theme-button-github');
     const demoButton = theme.querySelector('.theme-button-demo');
 
+    const event = {
+        theme: themeName,
+        category: 'Themes',
+        label: themeName,
+    };
+
     githubButton.addEventListener('click', (e) => {
-        analytics.track("Theme Github Clicked", {
-            theme: themeName
-        });
+        analytics.track("Theme Github Clicked", event);
     });
     demoButton.addEventListener('click', (e) => {
-        analytics.track("Theme Demo Clicked", {
-            theme: themeName
-        });
+        analytics.track("Theme Demo Clicked", event);
     })
 });
