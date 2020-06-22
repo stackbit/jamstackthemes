@@ -11,5 +11,5 @@ cms:
 date: 2014-05-16T05:57:19Z
 github_branch: master
 description: "block-log , A Jekyll theme"
-stale: false
+stale: true
 ---

@@ -11,5 +11,5 @@ cms:
 date: 2014-04-16T20:52:20Z
 github_branch: gh-pages
 description: "Noita is a Jekyll theme built with Foundation"
-stale: false
+stale: true
 ---

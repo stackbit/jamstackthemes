@@ -11,5 +11,5 @@ cms:
 date: 2012-12-26T11:06:28Z
 github_branch: gh-pages
 description: "Simple Jekyll-based documentation site for APIs."
-stale: true
+stale: false
 ---

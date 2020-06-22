@@ -11,6 +11,7 @@ cms:
 archetype:
     - Blog
 description: Awake is a Nuxt.js template for generating a beautifully robust static site with blog
+github_branch: master
 ---
 
 Awake is a Nuxt.js template for generating a beautifully robust static site with blog. It comes with support for site search, newsletter sign-up via mailchimp, comments via disqus and more. It's built with performance in mind (auto image resizing, lazy loading, and more).

@@ -11,6 +11,7 @@ cms:
 archetype:
     - Blog
 description: A super unopinionated starter project.
+github_branch: master
 ---
 
 A super unopinionated starter project, built off the `create-nuxt-app` CLI tool, and leveraging Netlify CMS to generate content in the Nuxt API from flat files.

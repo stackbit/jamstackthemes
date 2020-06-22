@@ -11,5 +11,5 @@ cms:
 date: 2016-09-06T08:42:27Z
 github_branch: gh-pages
 description: "lightweight jekyll blog theme"
-stale: true
+stale: false
 ---

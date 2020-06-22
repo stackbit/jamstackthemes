@@ -11,6 +11,7 @@ cms:
 archetype:
     - Blog
 description: A Hugo boilerplate for creating a blog site
+github_branch: master
 ---
 
 A Hugo boilerplate for creating a blog site backed with [NetlifyCMS](https://www.netlifycms.org) for content authoring and [Netlify Identity](https://www.netlify.com/docs/identity/) for CMS user authentication.

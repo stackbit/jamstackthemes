@@ -11,6 +11,7 @@ cms:
 archetype:
     - Blog
 description: A simple, hackable & minimalistic template for Gridsome
+github_branch: master
 ---
 
 A simple, hackable & minimalistic template for [Gridsome](https://gridsome.org/) that uses [Netlify CMS](https://netlifycms.org) for content and is hosted by [Netlify](https://netlify.com).

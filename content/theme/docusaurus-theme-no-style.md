@@ -10,5 +10,5 @@ cms:
 date: 2020-05-17T18:24:48Z
 github_branch: master
 description: "This theme is a trim down from @docusaurus/theme-classic of Docusaurus 2 to contain only opinionated minimum styles"
-stale: true
+stale: false
 ---

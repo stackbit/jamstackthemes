@@ -10,5 +10,5 @@ cms:
 date: 2019-10-28
 github_branch: master
 description: " Blazing Fast & Minimalist Blog Hugo Themes for Developer"
-stale: false
+stale: true
 ---

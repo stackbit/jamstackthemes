@@ -11,6 +11,7 @@ cms:
 archetype:
     - Blog
 description: A boilerplate for creating a blog site with Hyde
+github_branch: master
 ---
 
 A boilerplate for creating a blog site with Hyde (a static site generator written in Python) and with [Netlify CMS](https://www.netlifycms.org) for content authoring.
