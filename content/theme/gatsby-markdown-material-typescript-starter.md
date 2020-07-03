@@ -3,7 +3,7 @@ title: "Gatsby Markdown Material TypeScript/TSX Responsive Blog Starter"
 github: https://github.com/stephen-cloud/gatsby-markdown-material-typescript-starter
 demo: http://gatsby-markdown-material-typescript-starter.stephen.cloud/
 github_branch: master
-author: Stephen Harrison
+author: Stephen Harrison and Alejandro Roman
 archetype:
   - Blog
   - Portfolio
@@ -11,10 +11,8 @@ ssg:
   - Gatsby
 cms:
   - No Cms
-css:
-  - Material UI
 date: 2020-06-30
-description: "A Gatsby V2 Markdown Material TypeScript/TSX Responsive Blog Starter with GitHub actions to get you published on GitHub pages if that's your thing"
+description: "Markdown Material UI TypeScript/TSX"
 stale: false
 ---
 
@@ -25,6 +23,7 @@ Based on the simple blog starters out there but ported to Material UI and TypeSc
 ## Features
 
 * Material UI
+* Support for customized themes
 * TypeScript/TSX
 * Responsive design
 * GitHub actions for publishing to GitHub pages
