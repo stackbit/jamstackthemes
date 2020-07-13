@@ -6999,6 +6999,22 @@
     "description": "Lithium - A simple responsive Hugo theme",
     "stale": false
   },
+  "jsappme-gridsome-shopify-starter-master": {
+    "theme_key": "jsappme-gridsome-shopify-starter-master",
+    "file": "gridsome-shopify.md",
+    "name": "gridsome-shopify-starter",
+    "github_username": "jsappme",
+    "repo": "jsappme/gridsome-shopify-starter",
+    "branch": "master",
+    "url": "https://github.com/jsappme/gridsome-shopify-starter",
+    "stars": 6,
+    "forks": 2,
+    "open_issues": 0,
+    "last_commit": "2020-07-09T15:05:16Z",
+    "created_at": "2020-06-16T19:25:47Z",
+    "description": "Ecommerce Headless PWA Gridsome Shopify Starter using TailwindCSS",
+    "stale": false
+  },
   "jsnjack-hugo-changelog-theme-master": {
     "theme_key": "jsnjack-hugo-changelog-theme-master",
     "file": "hugo-changelog-theme.md",
@@ -9542,6 +9558,22 @@
     "created_at": "2017-09-07T03:11:30Z",
     "description": "Hugo template with Netlify CMS"
   },
+  "ngzhio-jekyll-theme-hamilton-master": {
+    "theme_key": "ngzhio-jekyll-theme-hamilton-master",
+    "file": "hamilton.md",
+    "name": "jekyll-theme-hamilton",
+    "github_username": "ngzhio",
+    "repo": "ngzhio/jekyll-theme-hamilton",
+    "branch": "master",
+    "url": "https://github.com/ngzhio/jekyll-theme-hamilton",
+    "stars": 2,
+    "forks": 0,
+    "open_issues": 0,
+    "last_commit": "2020-07-10T14:28:24Z",
+    "created_at": "2020-04-04T11:56:55Z",
+    "description": "A minimal and beautiful Jekyll theme best for writing and note-taking.",
+    "stale": false
+  },
   "nickbalestra-kactus-master": {
     "theme_key": "nickbalestra-kactus-master",
     "file": "jekyll-kactus.md",
@@ -10277,6 +10309,22 @@
     "created_at": "2015-06-30T09:07:58Z",
     "description": "Polymer Material Design Theme for Hugo",
     "stale": true
+  },
+  "peaceiris-hugo-theme-iris-master": {
+    "theme_key": "peaceiris-hugo-theme-iris-master",
+    "file": "hugo-theme-iris.md",
+    "name": "hugo-theme-iris",
+    "github_username": "peaceiris",
+    "repo": "peaceiris/hugo-theme-iris",
+    "branch": "master",
+    "url": "https://github.com/peaceiris/hugo-theme-iris",
+    "stars": 9,
+    "forks": 7,
+    "open_issues": 18,
+    "last_commit": "2020-07-09T02:20:58Z",
+    "created_at": "2018-07-28T14:56:18Z",
+    "description": "Hugo IRIS Theme - Portfolio and Blog",
+    "stale": false
   },
   "peahatlanding-plain-webcomic-master": {
     "theme_key": "peahatlanding-plain-webcomic-master",
@@ -12911,6 +12959,22 @@
     "last_commit": "2020-05-30T11:57:12Z",
     "created_at": "2020-03-08T11:52:08Z",
     "description": null,
+    "stale": false
+  },
+  "stephen-cloud-gatsby-markdown-material-typescript-starter-master": {
+    "theme_key": "stephen-cloud-gatsby-markdown-material-typescript-starter-master",
+    "file": "gatsby-markdown-material-typescript-starter.md",
+    "name": "gatsby-markdown-material-typescript-starter",
+    "github_username": "stephen-cloud",
+    "repo": "stephen-cloud/gatsby-markdown-material-typescript-starter",
+    "branch": "master",
+    "url": "https://github.com/stephen-cloud/gatsby-markdown-material-typescript-starter",
+    "stars": 0,
+    "forks": 2,
+    "open_issues": 0,
+    "last_commit": "2020-07-03T15:37:53Z",
+    "created_at": "2020-06-21T17:57:54Z",
+    "description": "A Gatsby theme in Material UI and TypeScript",
     "stale": false
   },
   "stevelane-hugo-icon-master": {
