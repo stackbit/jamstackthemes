@@ -1,7 +1,7 @@
 ---
 title: "Mainroad"
 github: https://github.com/Vimux/Mainroad
-demo: https://hugothemes.gitlab.io/mainroad/
+demo: https://mainroad-demo.netlify.app/
 author: Vimux
 ssg:
   - Hugo
