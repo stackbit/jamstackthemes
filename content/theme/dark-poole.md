@@ -9,6 +9,8 @@ ssg:
   - Jekyll
 cms:
   - No cms
+css:
+  - scss
 archetype:
   - Blog
   - Portfolio
