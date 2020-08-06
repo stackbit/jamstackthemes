@@ -6,7 +6,7 @@ author: Young-Suk Ahn Park
 date: 2020-07-24
 github_branch: master 
 ssg:
-  - Eleventy`
+  - Eleventy
 cms:
   - No Cms
 css:
