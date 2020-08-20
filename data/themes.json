@@ -734,6 +734,22 @@
     "description": "A Jekyll version of the \"Forty\" theme by HTML5 UP.",
     "stale": false
   },
+  "andrewhwanpark-dark-poole-master": {
+    "theme_key": "andrewhwanpark-dark-poole-master",
+    "file": "dark-poole.md",
+    "name": "dark-poole",
+    "github_username": "andrewhwanpark",
+    "repo": "andrewhwanpark/dark-poole",
+    "branch": "master",
+    "url": "https://github.com/andrewhwanpark/dark-poole",
+    "stars": 6,
+    "forks": 5,
+    "open_issues": 0,
+    "last_commit": "2020-08-04T00:10:59Z",
+    "created_at": "2020-08-01T21:54:31Z",
+    "description": "Permanent dark(er) theme for Poole",
+    "stale": false
+  },
   "andybelldesign-hylia-master": {
     "theme_key": "andybelldesign-hylia-master",
     "file": "11ty-hylia.md",
@@ -2410,6 +2426,22 @@
     "description": "A simple theme for Hexo with great performance on different devices .",
     "stale": false
   },
+  "chec-commercejs-nextjs-demo-store-master": {
+    "theme_key": "chec-commercejs-nextjs-demo-store-master",
+    "file": "commercejs-nextjs-demo-store.md",
+    "name": "commercejs-nextjs-demo-store",
+    "github_username": "chec",
+    "repo": "chec/commercejs-nextjs-demo-store",
+    "branch": "master",
+    "url": "https://github.com/chec/commercejs-nextjs-demo-store",
+    "stars": 32,
+    "forks": 10,
+    "open_issues": 4,
+    "last_commit": "2020-08-13T22:19:38Z",
+    "created_at": "2020-03-23T18:51:15Z",
+    "description": "Serverless eCommerce demo store built for the Jamstack. Built with Commerce.js, Next.js, and can be one-click deployed to Netlify. Includes product catalog, categories, variants, cart, checkout, order confirmation, and printable receipts.",
+    "stale": false
+  },
   "chesterhow-tale-master": {
     "theme_key": "chesterhow-tale-master",
     "file": "jekyll-tale-theme.md",
@@ -3080,6 +3112,22 @@
     "last_commit": "2020-06-17T13:22:44Z",
     "created_at": "2019-01-12T07:37:30Z",
     "description": "A minimal, sidebar, responsive web design Jekyll theme, focusing on text presentation.",
+    "stale": false
+  },
+  "creasoft-dev-fundamenty-master": {
+    "theme_key": "creasoft-dev-fundamenty-master",
+    "file": "11ty-fundamenty.md",
+    "name": "fundamenty",
+    "github_username": "creasoft-dev",
+    "repo": "creasoft-dev/fundamenty",
+    "branch": "master",
+    "url": "https://github.com/creasoft-dev/fundamenty",
+    "stars": 1,
+    "forks": 1,
+    "open_issues": 1,
+    "last_commit": "2020-08-16T04:53:23Z",
+    "created_at": "2020-07-19T14:35:02Z",
+    "description": "Eleventy starter project. Uses Tailwind, Algolia, Webpack. Supports multi-language",
     "stale": false
   },
   "cssandstuff-hugo-theme-winning-master": {
@@ -4230,6 +4278,22 @@
     "last_commit": "2020-03-01T10:40:37Z",
     "created_at": "2014-08-17T22:54:01Z",
     "description": "Liquorice is a small black and white theme for Hugo.",
+    "stale": false
+  },
+  "eliottvincent-bay-master": {
+    "theme_key": "eliottvincent-bay-master",
+    "file": "jekyll-bay.md",
+    "name": "bay",
+    "github_username": "eliottvincent",
+    "repo": "eliottvincent/bay",
+    "branch": "master",
+    "url": "https://github.com/eliottvincent/bay",
+    "stars": 6,
+    "forks": 7,
+    "open_issues": 0,
+    "last_commit": "2020-08-12T09:10:16Z",
+    "created_at": "2019-10-24T08:21:45Z",
+    "description": "🐟 A simple theme for Jekyll. Live at https://eliottvincent.github.io/bay/",
     "stale": false
   },
   "ellekasai-resumecards-gh-pages": {
@@ -6373,6 +6437,22 @@
     "last_commit": "2020-06-20T18:16:50Z",
     "created_at": "2020-06-12T18:33:08Z",
     "description": "🚀 Eleventy Starter Boilerplate is production-ready with SEO-friendly for quickly starting a blog. ⚡ Built with Eleventy, ESLint, Prettier, Webpack, PostCSS, Tailwind CSS.",
+    "stale": false
+  },
+  "ixartz-next-js-blog-boilerplate-master": {
+    "theme_key": "ixartz-next-js-blog-boilerplate-master",
+    "file": "nextjs-starter.md",
+    "name": "Next-js-Blog-Boilerplate",
+    "github_username": "ixartz",
+    "repo": "ixartz/Next-js-Blog-Boilerplate",
+    "branch": "master",
+    "url": "https://github.com/ixartz/Next-js-Blog-Boilerplate",
+    "stars": 4,
+    "forks": 1,
+    "open_issues": 0,
+    "last_commit": "2020-08-14T19:18:15Z",
+    "created_at": "2020-07-25T13:09:25Z",
+    "description": "🚀 Next.js Blog Boilerplate is starter code for your blog based on Next.js framework. ⚡️ Made with Next.js, TypeScript, ESLint, Prettier, PostCSS, Tailwind CSS.",
     "stale": false
   },
   "jack614-jalpc-a-gh-pages": {
@@ -9095,6 +9175,22 @@
     "description": ":tomato: A Jekyll theme.",
     "stale": true
   },
+  "mudassirgithub-next-basic-blog-master": {
+    "theme_key": "mudassirgithub-next-basic-blog-master",
+    "file": "next-basic-blog.md",
+    "name": "next-basic-blog",
+    "github_username": "mudassirgithub",
+    "repo": "mudassirgithub/next-basic-blog",
+    "branch": "master",
+    "url": "https://github.com/mudassirgithub/next-basic-blog",
+    "stars": 1,
+    "forks": 0,
+    "open_issues": 0,
+    "last_commit": "2020-08-14T12:32:26Z",
+    "created_at": "2020-08-13T19:45:11Z",
+    "description": "A JAMstack Theme of Basic Blog Site with dark/light theme toggle support built using Nextjs, Tailwindcss and Markdown.",
+    "stale": false
+  },
   "muhajirdev-gatsby-starter-firebase-master": {
     "theme_key": "muhajirdev-gatsby-starter-firebase-master",
     "file": "gatsby-starter-firebase.md",
@@ -10118,6 +10214,22 @@
     "description": "Multilingual Blogging Theme for Hugo | Check the Wiki!",
     "stale": false
   },
+  "pandasekh-jekyll-podcaster-master": {
+    "theme_key": "pandasekh-jekyll-podcaster-master",
+    "file": "jekyll-podcaster.md",
+    "name": "Jekyll-Podcaster",
+    "github_username": "PandaSekh",
+    "repo": "PandaSekh/Jekyll-Podcaster",
+    "branch": "master",
+    "url": "https://github.com/PandaSekh/Jekyll-Podcaster",
+    "stars": 4,
+    "forks": 4,
+    "open_issues": 0,
+    "last_commit": "2020-07-20T10:55:03Z",
+    "created_at": "2020-05-26T21:38:52Z",
+    "description": "Podcaster is a dynamic Jekyll theme built for... Podcasters!",
+    "stale": false
+  },
   "pandasekh-jekyll-yamt-master": {
     "theme_key": "pandasekh-jekyll-yamt-master",
     "file": "jekyll-yamt.md",
@@ -11012,6 +11124,22 @@
     "description": "Stupidly simple Hugo blogging theme",
     "stale": false
   },
+  "riggraz-no-style-please-master": {
+    "theme_key": "riggraz-no-style-please-master",
+    "file": "no-style-please.md",
+    "name": "no-style-please",
+    "github_username": "riggraz",
+    "repo": "riggraz/no-style-please",
+    "branch": "master",
+    "url": "https://github.com/riggraz/no-style-please",
+    "stars": 16,
+    "forks": 7,
+    "open_issues": 0,
+    "last_commit": "2020-07-24T09:36:12Z",
+    "created_at": "2020-07-10T12:23:19Z",
+    "description": "A (nearly) no-CSS, fast, minimalist Jekyll theme.",
+    "stale": false
+  },
   "rlue-jekyll-solana-master": {
     "theme_key": "rlue-jekyll-solana-master",
     "file": "jekyll-solana-theme.md",
@@ -11298,6 +11426,22 @@
     "last_commit": "2019-10-09T18:02:09Z",
     "created_at": "2019-07-04T11:28:21Z",
     "description": "Gatsby Theme for UltronEle - the Fastest Elearning Engine in the world",
+    "stale": false
+  },
+  "rundocs-jekyll-rtd-theme-master": {
+    "theme_key": "rundocs-jekyll-rtd-theme-master",
+    "file": "jekyll-rtd-theme.md",
+    "name": "jekyll-rtd-theme",
+    "github_username": "rundocs",
+    "repo": "rundocs/jekyll-rtd-theme",
+    "branch": "master",
+    "url": "https://github.com/rundocs/jekyll-rtd-theme",
+    "stars": 10,
+    "forks": 14,
+    "open_issues": 0,
+    "last_commit": "2020-08-19T16:59:35Z",
+    "created_at": "2020-07-22T15:50:21Z",
+    "description": "Just another documentation theme compatible with GitHub Pages, based on sphinx_rtd_theme",
     "stale": false
   },
   "runningstream-hugograyscale-master": {
