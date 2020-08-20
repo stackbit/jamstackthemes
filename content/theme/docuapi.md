@@ -1,13 +1,14 @@
 ---
-title: "DocuAPI"
-github: https://github.com/bep/docuapi
-demo: https://docuapi.netlify.com/
+title: DocuAPI
+github: 'https://github.com/bep/docuapi'
+demo: 'https://docuapi.netlify.com/'
 author: Bjørn Erik Pedersen
 ssg:
   - Hugo
 cms:
   - No Cms
-date: 2019-10-27
+date: 2019-10-27T00:00:00.000Z
 github_branch: master
-description: "Beautiful multilingual API documentation theme for Hugo"
+description: Beautiful multilingual API documentation theme for Hugo
+stale: false
 ---

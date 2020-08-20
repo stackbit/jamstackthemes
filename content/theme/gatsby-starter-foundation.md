@@ -1,9 +1,9 @@
 ---
-title: "Foundation"
-github: https://github.com/stackrole/gatsby-starter-foundation
-demo: https://foundation.stackrole.com/
+title: Foundation
+github: 'https://github.com/stackrole/gatsby-starter-foundation'
+demo: 'https://foundation.stackrole.com/'
 author: Stackrole
-date: 2020-05-27
+date: 2020-05-27T00:00:00.000Z
 github_branch: master
 ssg:
   - gatsby
@@ -13,7 +13,10 @@ css:
   - scss
 archetype:
   - blog
-description: A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. 
+description: >-
+  A starter to launch your blazing fast personal website and a blog, Built with
+  Gatsby and Netlify CMS.
+stale: false
 ---
 
 # Foundation

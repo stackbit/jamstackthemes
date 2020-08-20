@@ -1,10 +1,10 @@
 ---
-title: "Next Basic Blog"
-github: https://github.com/mudassirgithub/next-basic-blog
-demo: https://next-basic-blog.vercel.app/
+title: Next Basic Blog
+github: 'https://github.com/mudassirgithub/next-basic-blog'
+demo: 'https://next-basic-blog.vercel.app/'
 author: Ahmed Mudassir
-date: 2020-08-18
-github_branch: master 
+date: 2020-08-18T00:00:00.000Z
+github_branch: master
 ssg:
   - Next
 cms:
@@ -13,7 +13,10 @@ css:
   - Tailwind
 archetype:
   - Blog
-description: A JAMstack Theme of Basic Blog Site with dark/light theme toggle support built using Nextjs, Tailwindcss and Markdown.
+description: >-
+  A JAMstack Theme of Basic Blog Site with dark/light theme toggle support built
+  using Nextjs, Tailwindcss and Markdown.
+stale: false
 ---
 
 # A simple starter kit for Blog with Nextjs, Tailwindcss, Markdown Files

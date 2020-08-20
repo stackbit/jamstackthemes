@@ -1,15 +1,14 @@
 ---
-title: "Light Material"
-github: https://github.com/lukas-h/material-theme/
-demo: http://himsel.me/material-theme/
+title: Light Material
+github: 'https://github.com/lukas-h/material-theme/'
+demo: 'http://himsel.me/material-theme/'
 author: Lukas Himsel
-
 ssg:
   - Jekyll
 cms:
   - No Cms
-date: 2016-09-06T08:42:27Z
+date: 2016-09-06T08:42:27.000Z
 github_branch: gh-pages
-description: "lightweight jekyll blog theme"
+description: lightweight jekyll blog theme
 stale: false
 ---

@@ -1,10 +1,10 @@
 ---
-title: "Fundamenty"
-github: https://github.com/creasoft-dev/fundamenty
-demo: https://creasoft-dev.github.io/fundamenty/
+title: Fundamenty
+github: 'https://github.com/creasoft-dev/fundamenty'
+demo: 'https://creasoft-dev.github.io/fundamenty/'
 author: Young-Suk Ahn Park
-date: 2020-07-24
-github_branch: master 
+date: 2020-07-24T00:00:00.000Z
+github_branch: master
 ssg:
   - Eleventy
 cms:
@@ -14,8 +14,11 @@ css:
 archetype:
   - Blog
   - Business
-  - "Multi Purpose"
-description: "11ty Starter with Multi-language support, SEO-friendly, GitHub/GitLab Pages-ready"
+  - Multi Purpose
+description: >-
+  11ty Starter with Multi-language support, SEO-friendly, GitHub/GitLab
+  Pages-ready
+stale: false
 ---
 
 # Eleventy Starter Kit.

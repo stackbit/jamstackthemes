@@ -1,15 +1,14 @@
 ---
-title: "Malt"
-github: https://github.com/CloudCannon/malt-jekyll-template
-demo: https://whispering-boat.cloudvent.net/
+title: Malt
+github: 'https://github.com/CloudCannon/malt-jekyll-template'
+demo: 'https://whispering-boat.cloudvent.net/'
 author: CloudCannon
-
 ssg:
   - Jekyll
 cms:
   - No Cms
-date: 2016-11-09T22:42:40Z
+date: 2016-11-09T22:42:40.000Z
 github_branch: master
-description: ":beers: Event marketing template for Jekyll"
-stale: false
+description: ':beers: Event marketing template for Jekyll'
+stale: true
 ---

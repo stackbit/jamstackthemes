@@ -1,13 +1,14 @@
 ---
-title: "portfolYOU"
-github: https://github.com/YoussefRaafatNasry/portfolYOU
-demo: https://youssefraafatnasry.github.io/portfolYOU/
+title: portfolYOU
+github: 'https://github.com/YoussefRaafatNasry/portfolYOU'
+demo: 'https://youssefraafatnasry.github.io/portfolYOU/'
 author: YoussefRaafatNasry
 ssg:
   - Jekyll
 cms:
   - No Cms
-date: 2019-02-09T10:06:09Z
+date: 2019-02-09T10:06:09.000Z
 github_branch: master
-description: "A beautiful portfolio Jekyll theme that works with GitHub Pages."
+description: A beautiful portfolio Jekyll theme that works with GitHub Pages.
+stale: false
 ---

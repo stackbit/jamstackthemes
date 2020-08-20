@@ -1,16 +1,15 @@
 ---
-title: "Memoirs"
-github: https://github.com/wowthemesnet/jekyll-theme-memoirs
-demo: https://wowthemesnet.github.io/jekyll-theme-memoirs
+title: Memoirs
+github: 'https://github.com/wowthemesnet/jekyll-theme-memoirs'
+demo: 'https://wowthemesnet.github.io/jekyll-theme-memoirs'
 author: wowthemesnet
-
 ssg:
   - Jekyll
 cms:
   - No Cms
-date: 2020-04-08T05:58:15Z
+date: 2020-04-08T05:58:15.000Z
 github_branch: master
-description: "Memoirs - beautiful free Jekyll theme"
+description: Memoirs - beautiful free Jekyll theme
 stale: false
 ---
 

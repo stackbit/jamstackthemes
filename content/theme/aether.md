@@ -1,13 +1,14 @@
 ---
-title: 'Aether'
-github: https://github.com/josephhutch/aether
-demo: https://themes.gohugo.io/theme/aether/
+title: Aether
+github: 'https://github.com/josephhutch/aether'
+demo: 'https://themes.gohugo.io/theme/aether/'
 author: Joe Hutchinson
 ssg:
   - Hugo
 cms:
   - No Cms
-date: 2018-03-15T15:52:42Z
+date: 2018-03-15T15:52:42.000Z
 github_branch: master
-description: "A responsive and clean Hugo theme for blogs"
+description: A responsive and clean Hugo theme for blogs
+stale: false
 ---

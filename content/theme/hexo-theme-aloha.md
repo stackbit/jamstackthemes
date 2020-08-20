@@ -1,13 +1,14 @@
 ---
-title: "Aloha"
-github: https://github.com/henryhuang/hexo-theme-aloha
-demo: https://huangyijie.com/
+title: Aloha
+github: 'https://github.com/henryhuang/hexo-theme-aloha'
+demo: 'https://huangyijie.com/'
 author: Henry Huang
 ssg:
   - Hexo
 cms:
   - No Cms
-date: 2016-08-27T16:11:12Z
+date: 2016-08-27T16:11:12.000Z
 github_branch: master
-description: "A hexo theme, use semantic ui."
+description: 'A hexo theme, use semantic ui.'
+stale: false
 ---

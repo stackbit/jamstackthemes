@@ -1,10 +1,10 @@
 ---
-title: "Gatsby Kontent Lumen"
-github: https://github.com/Kentico/gatsby-starter-kontent-lumen
-demo: https://gatsby-starter-kontent-lumen.netlify.app/
+title: Gatsby Kontent Lumen
+github: 'https://github.com/Kentico/gatsby-starter-kontent-lumen'
+demo: 'https://gatsby-starter-kontent-lumen.netlify.app/'
 author: makma
-date: 2020-04-30 # This is the date you submitted the theme YYYY-MM-DD
-github_branch: master # This is the repos default branch
+date: 2020-04-30T00:00:00.000Z
+github_branch: master
 ssg:
   - Gatsby
 cms:
@@ -12,7 +12,10 @@ cms:
 archetype:
   - Blog
   - Portfolio
-description: Lumen is a minimal, lightweight and mobile-first starter for creating blogs using Gatsby and Kentico Kontent.
+description: >-
+  Lumen is a minimal, lightweight and mobile-first starter for creating blogs
+  using Gatsby and Kentico Kontent.
+stale: false
 ---
 
 # Gatsby Kontent Lumen

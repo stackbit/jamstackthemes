@@ -1,9 +1,9 @@
 ---
-title: "Gastsby Simple Blog"
-github: https://github.com/thecodemint/gatsby-starter-simple
-demo: https://thecodemint.github.io/gatsby-starter-simple/
+title: Gastsby Simple Blog
+github: 'https://github.com/thecodemint/gatsby-starter-simple'
+demo: 'https://thecodemint.github.io/gatsby-starter-simple/'
 author: collinsmuriuki
-date: 2020-04-14
+date: 2020-04-14T00:00:00.000Z
 github_branch: master
 ssg:
   - Gatsby
@@ -12,6 +12,7 @@ archetype:
 cms:
   - No Cms
 description: This is a minimal and lightweight blogging Gatsby template
+stale: false
 ---
 
 # A Simple Blogging Gatsby Starter

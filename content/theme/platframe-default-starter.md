@@ -1,17 +1,18 @@
 ---
-title: "Platframe default starter"
-github: https://github.com/platframe/platframe
+title: Platframe default starter
+github: 'https://github.com/platframe/platframe'
 author: platframe
-demo: https://default.platframe.com/
-date: 2020-06-03
+demo: 'https://default.platframe.com/'
+date: 2020-06-03T00:00:00.000Z
 ssg:
-    - Platframe
+  - Platframe
 cms:
-    - NetlifyCMS
+  - NetlifyCMS
 archetype:
-    - Blog
+  - Blog
 description: Platframe's default (responsive) starter template.
 github_branch: master
+stale: false
 ---
 
 Platframe's default (responsive) starter template takes the form of a landing page that can be personalized in a jiffy, or be extensively adapted to suit variable project scopes.  

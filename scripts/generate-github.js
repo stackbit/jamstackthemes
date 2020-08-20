@@ -9,6 +9,7 @@ const rateLimit = require('axios-rate-limit');
 const isBefore = require('date-fns/isBefore');
 const parseISO = require('date-fns/parseISO');
 const subYears = require('date-fns/subYears');
+const formatDistanceToNow = require('date-fns/formatDistanceToNow')
 const argv = require('yargs').argv
 const updateMarkdown = require('./update-markdown.js');
 
@@ -43,9 +44,6 @@ const loadThemeFrontMatter = fileName => {
   
   try {
     let draft = frontmatter.draft;
-    let description = frontmatter.description;
-    let stale = frontmatter.stale;
-    let date = frontmatter.date;
     let disabled = frontmatter.disabled;
     let repoUrl = frontmatter.github
     let repoName = gh(frontmatter.github).repo; // stackbithq/stackbit-theme-fresh
@@ -67,10 +65,11 @@ const getBranchCommit = (theme) => {
         Authorization: `Token ${token}`,
       },
     }).then((res) => {
-      const lastCommit = res.data.commit.commit.author.date
-      console.log(`${theme.file} => last commit ${theme.branch} ${lastCommit}`)
-      themesData[theme.themeKey].last_commit = lastCommit;
+      const lastCommit = res.data.commit.commit.author.date;
+      const lastCommitToNow = formatDistanceToNow(parseISO(lastCommit));
       const isStale = isBefore(parseISO(lastCommit), staleBeforeDate)
+      console.log(`${theme.file} => last commit to branch '${theme.branch}' ${lastCommitToNow}`)
+      themesData[theme.themeKey].last_commit = lastCommit;
       themesData[theme.themeKey].stale = isStale;
       if (theme.stale != isStale) {
         updateMarkdown.updateFrontmatter(theme.file, {

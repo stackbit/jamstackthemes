@@ -1,14 +1,14 @@
 ---
-title: "Gatsby Starter Blog Mdx"
-github: https://github.com/hagnerd/gatsby-starter-blog-mdx
-demo: https://gatsby-starter-blog-mdx-demo.netlify.com/
+title: Gatsby Starter Blog Mdx
+github: 'https://github.com/hagnerd/gatsby-starter-blog-mdx'
+demo: 'https://gatsby-starter-blog-mdx-demo.netlify.com/'
 author: Matt Hagner
-
 ssg:
   - Gatsby
 cms:
   - No Cms
-date: 2019-01-03T15:16:26Z
+date: 2019-01-03T15:16:26.000Z
 github_branch: master
-description: "Live Demo"
+description: Live Demo
+stale: false
 ---

@@ -1,17 +1,20 @@
 ---
-title: "Gatsby developer blog"
-github: https://github.com/RyanFitzgerald/devblog
+title: Gatsby developer blog
+github: 'https://github.com/RyanFitzgerald/devblog'
 author: RyanFitzgerald
-demo: https://gatsby-devblog.netlify.com/
-date: 2020-06-03
+demo: 'https://gatsby-devblog.netlify.com/'
+date: 2020-06-03T00:00:00.000Z
 ssg:
-    - Gatsby
+  - Gatsby
 cms:
-    - NetlifyCMS
+  - NetlifyCMS
 archetype:
-    - Blog
-description: A fully customizable blog template designed for developers (or anyone else) wanting to get into blogging
+  - Blog
+description: >-
+  A fully customizable blog template designed for developers (or anyone else)
+  wanting to get into blogging
 github_branch: master
+stale: false
 ---
 
 A fully customizable blog template designed for developers (or anyone else) wanting to get into blogging. 

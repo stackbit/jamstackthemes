@@ -1,7 +1,7 @@
 ---
-title: "Freelancer"
-github: https://github.com/jeromelachaud/freelancer-theme
-demo: http://jeromelachaud.com/freelancer-theme/
+title: Freelancer
+github: 'https://github.com/jeromelachaud/freelancer-theme'
+demo: 'http://jeromelachaud.com/freelancer-theme/'
 author: Jerome Lachaud
 ssg:
   - Jekyll
@@ -9,9 +9,10 @@ cms:
   - No Cms
 css:
   - Bootstrap
-date: 2014-07-19T15:13:08Z
+date: 2014-07-19T15:13:08.000Z
 github_branch: master
-description: "Jekyll theme based on Freelancer Start Bootstrap theme"
+description: Jekyll theme based on Freelancer Start Bootstrap theme
+stale: false
 ---
 
 Jekyll theme based on Freelancer Start Bootstrap theme

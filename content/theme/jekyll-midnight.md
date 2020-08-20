@@ -1,15 +1,14 @@
 ---
-title: "Midnight"
-github: https://github.com/mattgraham/midnight
-demo: http://madebygraham.com/midnight/
+title: Midnight
+github: 'https://github.com/mattgraham/midnight'
+demo: 'http://madebygraham.com/midnight/'
 author: Matt Graham
-
 ssg:
   - Jekyll
 cms:
   - No Cms
-date: 2012-04-04T23:05:14Z
+date: 2012-04-04T23:05:14.000Z
 github_branch: master
-description: "GitHub Pages Theme: Midnight"
+description: 'GitHub Pages Theme: Midnight'
 stale: true
 ---

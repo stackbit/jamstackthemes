@@ -1,7 +1,7 @@
 ---
-title: 'Planty'
-github: https://github.com/snipcart/stackbit-theme-planty
-demo: https://stackbit-theme-planty.netlify.com
+title: Planty
+github: 'https://github.com/snipcart/stackbit-theme-planty'
+demo: 'https://stackbit-theme-planty.netlify.com'
 author: Snipcart
 ssg:
   - Jekyll
@@ -12,7 +12,8 @@ cms:
   - NetlifyCMS
 services:
   - Snipcart
-date: 2020-03-18T00:00:00Z
+date: 2020-03-18T00:00:00.000Z
 github_branch: master
-description: "Planty is an e-commerce ready theme for Stackbit, powered by Snipcart."
+description: 'Planty is an e-commerce ready theme for Stackbit, powered by Snipcart.'
+stale: false
 ---

@@ -1,16 +1,19 @@
 ---
-title: 'Eleventy Hylia'
-github: https://github.com/andybelldesign/hylia
-demo: https://hylia.website/
+title: Eleventy Hylia
+github: 'https://github.com/andybelldesign/hylia'
+demo: 'https://hylia.website/'
 author: Andy Bell
 ssg:
   - Eleventy
 cms:
   - NetlifyCMS
-date: 2019-06-11T20:15:02Z
+date: 2019-06-11T20:15:02.000Z
 github_branch: master
 featured: true
-description: "Hylia is a lightweight Eleventy starter kit to help you to create your own blog or personal website."
+description: >-
+  Hylia is a lightweight Eleventy starter kit to help you to create your own
+  blog or personal website.
+stale: false
 ---
 
 # A simple starter kit for Eleventy

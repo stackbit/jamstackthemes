@@ -1,9 +1,9 @@
 ---
 title: Airtable listing theme for Gatsby
-github: https://github.com/wkocjan/gatsby-airtable-listing
-demo: https://gatsby-airtable-listing.netlify.com/
+github: 'https://github.com/wkocjan/gatsby-airtable-listing'
+demo: 'https://gatsby-airtable-listing.netlify.com/'
 author: Wojciech Kocjan
-date: 2020-03-16
+date: 2020-03-16T00:00:00.000Z
 github_branch: master
 ssg:
   - Gatsby
@@ -14,6 +14,7 @@ css:
 archetype:
   - Multi Purpose
 description: Gatsby starter theme integrated with Airtable
+stale: false
 ---
 
 # Airtable listing theme for Gatsby

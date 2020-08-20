@@ -1,7 +1,7 @@
 ---
-title: "Directus Metalsmith Snipcart"
-github: https://github.com/snipcart/directus-metalsmith-snipcart
-demo: https://snipcart-directus-metalsmith.netlify.com
+title: Directus Metalsmith Snipcart
+github: 'https://github.com/snipcart/directus-metalsmith-snipcart'
+demo: 'https://snipcart-directus-metalsmith.netlify.com'
 author: Maxime Laboissonniere
 ssg:
   - Metalsmith
@@ -9,9 +9,9 @@ cms:
   - Directus
 services:
   - Snipcart
-date: 2020-04-19T00:00:00Z
+date: 2020-04-19T00:00:00.000Z
 github_branch: master
-description: "API-First CMS Primer with Directus' Open Source Headless CMS"
+description: API-First CMS Primer with Directus' Open Source Headless CMS
 stale: true
 ---
 

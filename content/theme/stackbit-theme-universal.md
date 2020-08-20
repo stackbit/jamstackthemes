@@ -1,7 +1,7 @@
 ---
-title: "Stackbit Universal"
-github: https://github.com/stackbithq/stackbit-theme-universal
-demo: https://themes.stackbit.com/demos/universal
+title: Stackbit Universal
+github: 'https://github.com/stackbithq/stackbit-theme-universal'
+demo: 'https://themes.stackbit.com/demos/universal'
 author: Stackbit
 ssg:
   - Hugo
@@ -13,8 +13,8 @@ cms:
   - Forestry
   - NetlifyCMS
   - Sanity
-date: 2019-06-24T23:17:20Z
+date: 2019-06-24T23:17:20.000Z
 github_branch: master
-description: "Universal the default starter theme for Unibit"
+description: Universal the default starter theme for Unibit
 stale: false
 ---

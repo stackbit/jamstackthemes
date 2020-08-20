@@ -1,15 +1,15 @@
 ---
-title: 'Bael Theme'
-github: https://github.com/jake-101/bael-template
-demo: https://bael-theme.jake101.com/
+title: Bael Theme
+github: 'https://github.com/jake-101/bael-template'
+demo: 'https://bael-theme.jake101.com/'
 author: jake101
 ssg:
   - Nuxt
 cms:
   - NetlifyCMS
-date: 2019-11-09
+date: 2019-11-09T00:00:00.000Z
 github_branch: master
-description: "Brutalist Blog theme for Netlify CMS"
+description: Brutalist Blog theme for Netlify CMS
 stale: false
 ---
 

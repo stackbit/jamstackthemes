@@ -1,15 +1,14 @@
 ---
-title: "Gatsby Starter Storybook"
-github: https://github.com/markoradak/gatsby-starter-storybook
-demo: https://gatsby-starter-storybook.netlify.com/
+title: Gatsby Starter Storybook
+github: 'https://github.com/markoradak/gatsby-starter-storybook'
+demo: 'https://gatsby-starter-storybook.netlify.com/'
 author: Marko Radak
-
 ssg:
   - Gatsby
 cms:
   - No Cms
-date: 2018-11-01T10:06:05Z
+date: 2018-11-01T10:06:05.000Z
 github_branch: master
-description: "👾 Gatsby Storybook Starter"
+description: "\U0001F47E Gatsby Storybook Starter"
 stale: false
 ---

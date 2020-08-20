@@ -1,7 +1,7 @@
 ---
 title: Jamify Starter
-github: https://github.com/styxlab/gatsby-starter-try-ghost
-demo: https://demo.jamify.org/
+github: 'https://github.com/styxlab/gatsby-starter-try-ghost'
+demo: 'https://demo.jamify.org/'
 author: styxlab
 ssg:
   - Gatsby
@@ -10,9 +10,10 @@ cms:
 archetype:
   - Blog
   - Portfolio
-date: 2020-06-11
+date: 2020-06-11T00:00:00.000Z
 github_branch: master
 description: Publish flaring fast blogs with Gatsby and Ghost
+stale: false
 ---
 
 # A rich starter kit for Ghost blogs

@@ -1,9 +1,10 @@
 ---
-title: "Friday Theme"
-github: https://github.com/sfreytag/friday-theme
-demo: https://sfreytag.github.io/friday-theme/2017/10/19/friday-theme-multiple-images.html
+title: Friday Theme
+github: 'https://github.com/sfreytag/friday-theme'
+demo: >-
+  https://sfreytag.github.io/friday-theme/2017/10/19/friday-theme-multiple-images.html
 author: Simon Freytag
-date: 2020-03-02
+date: 2020-03-02T00:00:00.000Z
 github_branch: master
 ssg:
   - Jekyll
@@ -16,6 +17,7 @@ archetype:
   - Portfolio
   - Documentation
 description: A Bootstrap 4 portfolio and blog theme for Jekyll.
+stale: false
 ---
 
 # About

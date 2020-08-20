@@ -1,15 +1,14 @@
 ---
-title: "Materialize"
-github: https://github.com/alexcarpenter/material-jekyll-theme
-demo: http://alexcarpenter.me/material-jekyll-theme/
+title: Materialize
+github: 'https://github.com/alexcarpenter/material-jekyll-theme'
+demo: 'http://alexcarpenter.me/material-jekyll-theme/'
 author: Alex Carpenter
-
 ssg:
   - Jekyll
 cms:
   - No Cms
-date: 2015-12-01T23:49:41Z
+date: 2015-12-01T23:49:41.000Z
 github_branch: master
-description: "Material Design inspired Jekyll Theme"
+description: Material Design inspired Jekyll Theme
 stale: true
 ---

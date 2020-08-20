@@ -1,15 +1,14 @@
 ---
-title: "MAD4Jekyll"
-github: https://github.com/madforjekyll/madforjekyll.github.io
-demo: http://madforjekyll.github.io
+title: MAD4Jekyll
+github: 'https://github.com/madforjekyll/madforjekyll.github.io'
+demo: 'http://madforjekyll.github.io'
 author: MADness
-
 ssg:
   - Jekyll
 cms:
   - No Cms
-date: 2015-11-28T23:40:15Z
+date: 2015-11-28T23:40:15.000Z
 github_branch: master
-description: "MAD4Jekyll theme for Jekyll"
+description: MAD4Jekyll theme for Jekyll
 stale: true
 ---

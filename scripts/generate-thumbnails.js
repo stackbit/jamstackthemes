@@ -21,7 +21,7 @@ imageFiles.forEach((image) => {
   const outputImage2x = path.join(outputFolder2x, `${imageName}-2x.jpg`)
 
   if (fs.existsSync(outputImage) && fs.existsSync(outputImage2x)) {
-    console.log(`skipped ${inputImage}`)
+    // console.log(`skipped ${inputImage}`)
     return false
   } else {
     console.log(`processing ${inputImage}`)

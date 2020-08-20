@@ -1,8 +1,7 @@
 ---
-title: "Fractal"
-
-github: https://github.com/stackbithq/stackbit-theme-fractal
-demo: https://themes.stackbit.com/demos/fractal/blue
+title: Fractal
+github: 'https://github.com/stackbithq/stackbit-theme-fractal'
+demo: 'https://themes.stackbit.com/demos/fractal/blue'
 author: Stackbit
 ssg:
   - Hugo
@@ -14,8 +13,8 @@ cms:
   - Forestry
   - NetlifyCMS
   - Sanity
-date: 2019-05-10T14:36:37Z
+date: 2019-05-10T14:36:37.000Z
 github_branch: master
-description: "Fractal single page mobile application marketing theme for Stackbit"
+description: Fractal single page mobile application marketing theme for Stackbit
 stale: false
 ---

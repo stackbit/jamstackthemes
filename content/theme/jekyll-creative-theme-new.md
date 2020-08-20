@@ -1,9 +1,9 @@
 ---
-title: "Creative Theme - New"
-github: https://github.com/vvalchev/creative-theme-jekyll-new
-demo: https://vvalchev.github.io/creative-theme-jekyll-new/
-author: Start Bootstrap, Valentin Valchev
-date: 2020-03-03
+title: Creative Theme - New
+github: 'https://github.com/vvalchev/creative-theme-jekyll-new'
+demo: 'https://vvalchev.github.io/creative-theme-jekyll-new/'
+author: 'Start Bootstrap, Valentin Valchev'
+date: 2020-03-03T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
@@ -15,6 +15,7 @@ archetype:
   - Portfolio
 description: A Jekyll theme based on Creative Theme v5.1.8 and Bootstrap v4.3.1
 github_branch: master
+stale: false
 ---
 
 # Description

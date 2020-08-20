@@ -1,8 +1,7 @@
 ---
-title: "Hyperspace"
-
-github: https://github.com/stackbithq/stackbit-theme-hyperspace
-demo: https://themes.stackbit.com/demos/hyperspace/blue
+title: Hyperspace
+github: 'https://github.com/stackbithq/stackbit-theme-hyperspace'
+demo: 'https://themes.stackbit.com/demos/hyperspace/blue'
 author: Stackbit
 ssg:
   - Hugo
@@ -14,7 +13,8 @@ cms:
   - Forestry
   - NetlifyCMS
   - Sanity
-date: 2019-05-10T14:37:17Z
+date: 2019-05-10T14:37:17.000Z
 github_branch: master
-description: "Hyperspace a multi-page theme with scroll-animated home sections for Stackbit"
+description: Hyperspace a multi-page theme with scroll-animated home sections for Stackbit
+stale: false
 ---

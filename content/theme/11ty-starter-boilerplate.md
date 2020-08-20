@@ -1,7 +1,8 @@
 ---
-title: 'Eleventy Starter Boilerplate'
-github: https://github.com/ixartz/Eleventy-Starter-Boilerplate
-demo: https://creativedesignsguru.com/demo/Eleventy-Starter-Boilerplate/eleventy-starter-boilerplate-presentation/
+title: Eleventy Starter Boilerplate
+github: 'https://github.com/ixartz/Eleventy-Starter-Boilerplate'
+demo: >-
+  https://creativedesignsguru.com/demo/Eleventy-Starter-Boilerplate/eleventy-starter-boilerplate-presentation/
 author: Ixartz
 ssg:
   - Eleventy
@@ -9,9 +10,10 @@ cms:
   - No Cms
 css:
   - Tailwind
-date: 2020-06-21T14:48:50Z
+date: 2020-06-21T14:48:50.000Z
 github_branch: master
-description: "🚀 Eleventy Starter Boilerplate is production-ready with SEO-friendly for quickly starting a blog."
+description: "\U0001F680 Eleventy Starter Boilerplate is production-ready with SEO-friendly for quickly starting a blog."
+stale: false
 ---
 
 # Eleventy Starter Boilerplate

@@ -1,10 +1,10 @@
 ---
-title: "Gatsby Kontent Photon"
-github: https://github.com/Simply007/kontent-template-gatsby-landing-page-photon
-demo: https://kontent-template-gatsby-landing-page-photon.netlify.app
+title: Gatsby Kontent Photon
+github: 'https://github.com/Simply007/kontent-template-gatsby-landing-page-photon'
+demo: 'https://kontent-template-gatsby-landing-page-photon.netlify.app'
 author: Simply007
-date: 2020-04-30 # This is the date you submitted the theme YYYY-MM-DD
-github_branch: master # This is the repos default branch
+date: 2020-04-30T00:00:00.000Z
+github_branch: master
 ssg:
   - Gatsby
 cms:
@@ -13,6 +13,7 @@ archetype:
   - Starter
   - Portfolio
 description: Kentico Kontent web template using Gatsby and Kentico Kontent.
+stale: false
 ---
 
 # A simple starter kit for Kontent and GatsbyJS

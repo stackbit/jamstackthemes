@@ -1,12 +1,12 @@
 ---
-title: "Ultra"
-github: https://github.com/ronv/ultra
-demo: https://ultra-jekyll.netlify.com
+title: Ultra
+github: 'https://github.com/ronv/ultra'
+demo: 'https://ultra-jekyll.netlify.com'
 author: Ronalds Vilcins
-date: 2019-11-09 # This is the date you submitted the theme YYYY-MM-DD
-github_branch: master # This is the repos default branch
+date: 2019-11-09T00:00:00.000Z
+github_branch: master
 ssg:
   - Jekyll
-description: "Ultra - Super fast Jekyll theme"
+description: Ultra - Super fast Jekyll theme
 stale: false
 ---

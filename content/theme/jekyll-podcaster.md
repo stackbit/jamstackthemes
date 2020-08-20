@@ -1,15 +1,16 @@
 ---
-title: "jekyll Podcaster"
-github: https://github.com/PandaSekh/Jekyll-Podcaster
-demo: https://jekyll-podcaster.netlify.app/ # Please make sure this links to the theme demo and not your personal/business site
+title: jekyll Podcaster
+github: 'https://github.com/PandaSekh/Jekyll-Podcaster'
+demo: 'https://jekyll-podcaster.netlify.app/'
 author: Alessio Franceschi
-date: 2020-07-20 # This is the date you submitted the theme YYYY-MM-DD
-github_branch: master # This is the repos default branch
+date: 2020-07-20T00:00:00.000Z
+github_branch: master
 ssg:
   - Jekyll
 cms:
   - no cms
 description: Podcaster is a dynamic Jekyll theme built for... Podcasters!
+stale: false
 ---
 
 # [Jekyll Podcaster](https://jekyll-podcaster.netlify.app/)

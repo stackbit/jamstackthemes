@@ -1,9 +1,9 @@
 ---
-title: "Hamilton"
-github: https://github.com/ngzhio/jekyll-theme-hamilton
-demo: https://ngzhio.github.io/jekyll-theme-hamilton/
+title: Hamilton
+github: 'https://github.com/ngzhio/jekyll-theme-hamilton'
+demo: 'https://ngzhio.github.io/jekyll-theme-hamilton/'
 author: Shangzhi Huang
-date: 2020-07-02
+date: 2020-07-02T00:00:00.000Z
 github_branch: master
 ssg:
   - Jekyll
@@ -14,6 +14,7 @@ css:
 archetype:
   - Blog
 description: A minimal and beautiful Jekyll theme best for writing and note-taking.
+stale: false
 ---
 
 # Hamilton

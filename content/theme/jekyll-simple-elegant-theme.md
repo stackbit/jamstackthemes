@@ -1,14 +1,14 @@
 ---
-title: "Simple Elegant"
-github: https://github.com/panxw/panxw.github.com
-demo: https://www.panxw.com/
+title: Simple Elegant
+github: 'https://github.com/panxw/panxw.github.com'
+demo: 'https://www.panxw.com/'
 author: Panxw
-
 ssg:
   - Jekyll
 cms:
   - No Cms
-date: 2015-08-21T04:20:04Z
+date: 2015-08-21T04:20:04.000Z
 github_branch: master
-description: "Blog theme powered by Jekyll."
+description: Blog theme powered by Jekyll.
+stale: false
 ---

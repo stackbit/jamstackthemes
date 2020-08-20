@@ -1,14 +1,14 @@
 ---
-title: "Clover"
-github: https://github.com/esappear/hexo-theme-clover
-demo: https://clovertuan.github.io/
+title: Clover
+github: 'https://github.com/esappear/hexo-theme-clover'
+demo: 'https://clovertuan.github.io/'
 author: Shawn
 ssg:
   - Hexo
 cms:
   - No Cms
-date: 2018-10-05T13:57:23Z
+date: 2018-10-05T13:57:23.000Z
 github_branch: master
-description: "Clover theme for Hexo."
+description: Clover theme for Hexo.
 stale: false
 ---

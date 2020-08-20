@@ -1,20 +1,21 @@
 ---
-title: 'Hugo Iris'
+title: Hugo Iris
 github: 'https://github.com/peaceiris/hugo-theme-iris'
 demo: 'https://hugothemeiris.peaceiris.app'
-author: 'peaceiris'
-date: 2020-06-25
-github_branch: 'master'
+author: peaceiris
+date: 2020-06-25T00:00:00.000Z
+github_branch: master
 ssg:
-  - 'Hugo'
+  - Hugo
 cms:
-  - 'NetlifyCMS'
+  - NetlifyCMS
 css:
-  - 'Bulma'
+  - Bulma
 archetype:
-  - 'Blog'
-  - 'Portfolio'
-description: 'This theme is a lightweight and dark theme for a blog or a portfolio'
+  - Blog
+  - Portfolio
+description: This theme is a lightweight and dark theme for a blog or a portfolio
+stale: false
 ---
 
 This theme is a lightweight and dark theme for a blog or a portfolio.

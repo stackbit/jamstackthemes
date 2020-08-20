@@ -30,7 +30,7 @@ captureWebScreenshot = async theme => {
     const url = frontmatter.demo
 
     if (fs.existsSync(path.join(hiresImagesFolder, themeImage))) {
-      console.log(`${theme} skipped`)
+      // console.log(`${theme} skipped`)
       return false
     } else {
       console.log(`${theme} capturing`);

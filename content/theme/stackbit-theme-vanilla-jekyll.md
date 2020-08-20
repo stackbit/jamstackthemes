@@ -1,8 +1,8 @@
 ---
-title: "Jekyll Vanilla"
-github: https://github.com/stackbithq/stackbit-theme-vanilla
+title: Jekyll Vanilla
+github: 'https://github.com/stackbithq/stackbit-theme-vanilla'
 github_branch: jekyll
-demo: https://themes.stackbit.com/demos/vanilla
+demo: 'https://themes.stackbit.com/demos/vanilla'
 author: Stackbit
 ssg:
   - Jekyll
@@ -12,6 +12,7 @@ cms:
   - Forestry
   - NetlifyCMS
   - Sanity
-date: 2019-05-10T14:51:58Z
-description: "Vanilla a vanilla theme for Stackbit"
+date: 2019-05-10T14:51:58.000Z
+description: Vanilla a vanilla theme for Stackbit
+stale: false
 ---

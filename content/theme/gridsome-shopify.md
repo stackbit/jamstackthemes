@@ -1,7 +1,7 @@
 ---
-title: 'Gridsome Tailwind CSS Shopify Starter'
-github: https://github.com/jsappme/gridsome-shopify-starter
-demo: https://gridsome-shopify.netlify.app/
+title: Gridsome Tailwind CSS Shopify Starter
+github: 'https://github.com/jsappme/gridsome-shopify-starter'
+demo: 'https://gridsome-shopify.netlify.app/'
 author: Gridsomify
 ssg:
   - Gridsome
@@ -13,8 +13,8 @@ archetype:
   - Ecommerce
 services:
   - Shopify
-date: 2020-07-03T18:24:48Z
+date: 2020-07-03T18:24:48.000Z
 github_branch: master
-description: "This Gridsome Shopify starter app is built with Tailwind CSS."
-stale: true
+description: This Gridsome Shopify starter app is built with Tailwind CSS.
+stale: false
 ---

@@ -1,10 +1,10 @@
 ---
-title: "Hitchens"
-github: https://github.com/patdryburgh/hitchens
-demo: https://patdryburgh.github.io/hitchens/
+title: Hitchens
+github: 'https://github.com/patdryburgh/hitchens'
+demo: 'https://patdryburgh.github.io/hitchens/'
 author: patdryburgh
-date: 2020-03-22 # This is the date you submitted the theme YYYY-MM-DD
-github_branch: master # This is the repos default branch
+date: 2020-03-22T00:00:00.000Z
+github_branch: master
 ssg:
   - Jekyll
 cms:

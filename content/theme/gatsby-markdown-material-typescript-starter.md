@@ -1,7 +1,7 @@
 ---
-title: "Gatsby Markdown Material TypeScript/TSX Responsive Blog Starter"
-github: https://github.com/stephen-cloud/gatsby-markdown-material-typescript-starter
-demo: http://gatsby-markdown-material-typescript-starter.stephen.cloud/
+title: Gatsby Markdown Material TypeScript/TSX Responsive Blog Starter
+github: 'https://github.com/stephen-cloud/gatsby-markdown-material-typescript-starter'
+demo: 'http://gatsby-markdown-material-typescript-starter.stephen.cloud/'
 github_branch: master
 author: Stephen Harrison and Alejandro Roman
 archetype:
@@ -11,8 +11,8 @@ ssg:
   - Gatsby
 cms:
   - No Cms
-date: 2020-06-30
-description: "Markdown Material UI TypeScript/TSX"
+date: 2020-06-30T00:00:00.000Z
+description: Markdown Material UI TypeScript/TSX
 stale: false
 ---
 

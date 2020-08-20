@@ -1,14 +1,14 @@
 ---
-title: "Jekyll Pixyll"
-github: https://github.com/johnotander/pixyll
-demo: http://pixyll.com
+title: Jekyll Pixyll
+github: 'https://github.com/johnotander/pixyll'
+demo: 'http://pixyll.com'
 author: John Otander
 ssg:
   - Jekyll
 cms:
   - No Cms
-date: 2014-01-04T22:52:55Z
+date: 2014-01-04T22:52:55.000Z
 github_branch: master
-description: "A simple, beautiful Jekyll theme that's mobile first"
+description: 'A simple, beautiful Jekyll theme that''s mobile first'
 stale: false
 ---

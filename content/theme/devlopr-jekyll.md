@@ -1,9 +1,9 @@
 ---
-title: "devlopr-jekyll"
-github: https://github.com/sujaykundu777/devlopr-jekyll
-demo: https://devlopr.netlify.com
+title: devlopr-jekyll
+github: 'https://github.com/sujaykundu777/devlopr-jekyll'
+demo: 'https://devlopr.netlify.com'
 author: Sujay Kundu
-date: 2020-01-11
+date: 2020-01-11T00:00:00.000Z
 github_branch: master
 ssg:
   - Jekyll
@@ -20,6 +20,7 @@ services:
   - Formspree
   - Algolia
 description: A Jekyll Theme built for Developers and Software Engineers
+stale: false
 ---
 
 # A Jekyll Theme built for Developers

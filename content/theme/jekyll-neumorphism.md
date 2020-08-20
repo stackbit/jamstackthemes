@@ -1,10 +1,10 @@
 ---
-title: "Neumorphism"
-github: https://github.com/longpdo/neumorphism
-demo: https://longpdo.github.io/neumorphism/ # Please make sure this links to the theme demo and not your personal/business site
+title: Neumorphism
+github: 'https://github.com/longpdo/neumorphism'
+demo: 'https://longpdo.github.io/neumorphism/'
 author: Long Do
-date: 2020-04-22 # This is the date you submitted the theme YYYY-MM-DD
-github_branch: master # This is the repos default branch
+date: 2020-04-22T00:00:00.000Z
+github_branch: master
 ssg:
   - Jekyll
 cms:
@@ -15,7 +15,10 @@ archetype:
   - Personal
   - Portfolio
   - Single Page
-description: Neumorphism designed Jekyll theme for personal websites, portfolios and resumes.
+description: >-
+  Neumorphism designed Jekyll theme for personal websites, portfolios and
+  resumes.
+stale: false
 ---
 
 # Neumorphism

@@ -1,15 +1,14 @@
 ---
-title: "Xixia"
-github: https://github.com/zxixia/jekyll-xixia
-demo: http://xixia.info/jekyll-xixia/
+title: Xixia
+github: 'https://github.com/zxixia/jekyll-xixia'
+demo: 'http://xixia.info/jekyll-xixia/'
 author: Xixia
-
 ssg:
   - Jekyll
 cms:
   - No Cms
-date: 2017-09-19T06:00:06Z
+date: 2017-09-19T06:00:06.000Z
 github_branch: gh-pages
-description: "A Jekyll theme."
+description: A Jekyll theme.
 stale: true
 ---

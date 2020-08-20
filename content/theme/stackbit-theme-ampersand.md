@@ -1,8 +1,7 @@
 ---
-title: "Ampersand"
-
-github: https://github.com/stackbithq/stackbit-theme-ampersand
-demo: https://themes.stackbit.com/demos/ampersand
+title: Ampersand
+github: 'https://github.com/stackbithq/stackbit-theme-ampersand'
+demo: 'https://themes.stackbit.com/demos/ampersand'
 author: Stackbit
 ssg:
   - Hugo
@@ -14,7 +13,8 @@ cms:
   - Forestry
   - NetlifyCMS
   - Sanity
-date: 2019-05-10T13:57:28Z
+date: 2019-05-10T13:57:28.000Z
 github_branch: master
-description: "Ampersand a Medium inspired blogging theme for Stackbit"
+description: Ampersand a Medium inspired blogging theme for Stackbit
+stale: false
 ---

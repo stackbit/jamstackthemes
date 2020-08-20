@@ -1,6 +1,7 @@
 {{ define "title" }}
 {{ $themes := (where .Site.RegularPages "Type" "theme") }}
 {{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themes := (where $themes ".Params.disabled" "!=" true) }}
 {{ $themeCount := len $themes}}
 All Themes ({{ $themeCount }})
 {{ end }}
@@ -16,6 +17,7 @@ All Themes ({{ $themeCount }})
 {{ define "main" }}
 {{ $themes := (where .Site.RegularPages "Type" "theme") }}
 {{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themes := (where $themes ".Params.disabled" "!=" true) }}
 {{ $themeCount := len $themes}}
 
 <div class="sidebar">

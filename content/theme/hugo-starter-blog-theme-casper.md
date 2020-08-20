@@ -1,17 +1,18 @@
 ---
-title: "Hugo Casper"
-github: https://github.com/bdougie/casper-cms-template
+title: Hugo Casper
+github: 'https://github.com/bdougie/casper-cms-template'
 author: bdougie
-demo: http://casper-theme.netlify.com/
-date: 2020-06-03
+demo: 'http://casper-theme.netlify.com/'
+date: 2020-06-03T00:00:00.000Z
 ssg:
-    - Hugo
+  - Hugo
 cms:
-    - NetlifyCMS
+  - NetlifyCMS
 archetype:
-    - Blog
+  - Blog
 description: A Hugo boilerplate for creating a blog site backed with NetlifyCMS.
 github_branch: master
+stale: true
 ---
 
 A Hugo boilerplate for creating a blog site backed with [NetlifyCMS](https://www.netlifycms.org) for content authoring.

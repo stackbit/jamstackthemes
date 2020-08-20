@@ -1,15 +1,14 @@
 ---
-title: "jekyll-simple"
-github: https://github.com/wild-flame/jekyll-simple
-demo: http://wild-flame.github.io/jekyll-simple
-author: David Lin 
-
+title: jekyll-simple
+github: 'https://github.com/wild-flame/jekyll-simple'
+demo: 'http://wild-flame.github.io/jekyll-simple'
+author: David Lin
 ssg:
   - Jekyll
 cms:
   - No Cms
-date: 2016-06-28T03:38:47Z
+date: 2016-06-28T03:38:47.000Z
 github_branch: master
-description: "a simple jekyll theme"
+description: a simple jekyll theme
 stale: true
 ---
