@@ -1,7 +1,7 @@
 ---
-title: "Garth"
-github: https://github.com/daviddarnes/garth
-demo: https://garth.darn.es
+title: Garth
+github: 'https://github.com/daviddarnes/garth'
+demo: 'https://garth.darn.es'
 author: David Darnes
 ssg:
   - Jekyll
@@ -11,9 +11,10 @@ archetype:
   - Blog
 css:
   - SCSS
-date: 2019-11-01
+date: 2019-11-01T00:00:00.000Z
 github_branch: master
-description: "🥁 A really basic theme for Jekyll"
+description: "\U0001F941 A really basic theme for Jekyll"
+stale: false
 ---
 
 🥁 A really basic theme for Jekyll, using the official Jekyll theme implementation.

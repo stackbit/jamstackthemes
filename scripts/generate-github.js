@@ -10,6 +10,7 @@ const isBefore = require('date-fns/isBefore');
 const parseISO = require('date-fns/parseISO');
 const subYears = require('date-fns/subYears');
 const argv = require('yargs').argv
+const updateMarkdown = require('./update-markdown.js');
 
 const themesDataFile = path.join(__dirname, '../data/themes.json');
 const themesContentFolder = path.join(__dirname, '../content/theme');
@@ -21,31 +22,40 @@ let githubErrors = {}
 const token = process.env.GITHUB_TOKEN;
 const axiosLimit = rateLimit(axios.create(), { maxRequests: 2, perMilliseconds: 200 })
 
-// Set this to the date you want to consider themes stale if there have
-// been no commits since.
+// Themes with no commits after a certain time period are marked as `stale`
 const staleBeforeDate = subYears(new Date(), 1);
 
+if (!process.env.GITHUB_TOKEN) {
+  throw new Error(
+      'Cannot access Github API - environment variable "GITHUB_TOKEN" is missing'
+  )
+}
+
 console.log("***********************************")
-console.log("fetching Github data for each theme")
+console.log("Fetching Github data for each theme")
 console.log("***********************************")
 console.log(`themesDataFile ${themesDataFile}`)
 console.log(`themesContentFolder ${themesContentFolder}\n`)
 
-const loadThemeFrontMatter = file => {
-  const fileData = fs.readFileSync(path.join(themesContentFolder, file));
+const loadThemeFrontMatter = fileName => {
+  const fileData = fs.readFileSync(path.join(themesContentFolder, fileName));
   const frontmatter = yamlFront.loadFront(fileData);
   
   try {
     let draft = frontmatter.draft;
+    let description = frontmatter.description;
+    let stale = frontmatter.stale;
+    let date = frontmatter.date;
     let disabled = frontmatter.disabled;
     let repoUrl = frontmatter.github
     let repoName = gh(frontmatter.github).repo; // stackbithq/stackbit-theme-fresh
     let branch = frontmatter.github_branch;
     let themeKey = repoName.replace("/", "-").toLowerCase() + "-" + branch;
+    let file = fileName;
     return { file, repoUrl, repoName, branch, themeKey, disabled, draft }
   }
   catch {
-    throw new Error(`${file} invalid github frontmatter`)
+    throw new Error(`${fileName} invalid github frontmatter`)
   }
 };
 
@@ -59,8 +69,14 @@ const getBranchCommit = (theme) => {
     }).then((res) => {
       const lastCommit = res.data.commit.commit.author.date
       console.log(`${theme.file} => last commit ${theme.branch} ${lastCommit}`)
-      themesData[theme.themeKey].last_commit = lastCommit
-      themesData[theme.themeKey].stale = isBefore(parseISO(lastCommit), staleBeforeDate)
+      themesData[theme.themeKey].last_commit = lastCommit;
+      const isStale = isBefore(parseISO(lastCommit), staleBeforeDate)
+      themesData[theme.themeKey].stale = isStale;
+      if (theme.stale != isStale) {
+        updateMarkdown.updateFrontmatter(theme.file, {
+          stale: isStale
+        })
+      }
       return lastCommit;
     }).catch((err) => {
       console.log(theme.file, err.message)
@@ -102,6 +118,15 @@ const getThemeGithubData = (theme) => {
       return themesData[themeKey]
     }).catch(err => {
       console.log(theme.file, err.message)
+      if (err.response.status === 401) {
+
+      }
+      if (err.response.status === 404) {
+        updateMarkdown.updateFrontmatter(theme.file, {
+          disabled: true,
+          disabled_reason: err.response.data.message
+        });
+      }
       githubErrors[theme.repoName] = {
         file: theme.file,
         repoUrl: theme.repoUrl,
@@ -113,8 +138,8 @@ const getThemeGithubData = (theme) => {
 
 const getThemes = async () => {
 
-  const themesFrontMatter = themesFiles.map(file => {
-    return loadThemeFrontMatter(file)
+  const themesFrontMatter = themesFiles.map(fileName => {
+    return loadThemeFrontMatter(fileName)
   })
 
   const filter = {
@@ -129,7 +154,7 @@ const getThemes = async () => {
     skipped: 0
   }
 
-  // Filter out themes which will not be fetched from Github
+  // Filter themes before fetching from Github
   let filteredThemesFrontMatter = themesFrontMatter.filter(theme => {
     // Don't fetch themes with draft or disabled in the frontmatter
     for (let key in filter) {
@@ -155,7 +180,7 @@ const getThemes = async () => {
     return true;
   });
 
-  console.log(`Loading (${filteredThemesFrontMatter.length}/${themesFrontMatter.length}) theme files from ${themesContentFolder}`)
+  console.log(`Loading (${filteredThemesFrontMatter.length}/${themesFrontMatter.length}) themes`)
   console.log("Disabled ", themesFrontMatter.filter(theme => theme.disabled).length)
   console.log("Drafts ", themesFrontMatter.filter(theme => theme.draft).length)
   console.log("Latest ", filterCounts.latest)
