@@ -8,7 +8,7 @@ github_branch: master
 ssg:
   - Hexo
 cms:
-  - Netlify
+  - No CMS
 css:
   - Bootstrap
   - SCSS 
