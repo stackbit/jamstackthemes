@@ -76,6 +76,7 @@
     </div>
     <ul class="filter-list">
       {{ range .context.Site.Taxonomies.css }}
+      {{ if .Page.Params.icon }}
       <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
         <img class="filter-icon" alt="{{ .Page.Title }}" src="{{ .Page.Params.icon | relURL }}" />
         <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
@@ -92,6 +93,7 @@
         {{ end }}
         <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ $count }}</span>
       </li>
+      {{ end }}
       {{ end }}
     </ul>
   </div>

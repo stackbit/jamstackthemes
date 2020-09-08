@@ -10,6 +10,7 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 
+
 [params]
   google_analytics_id = ""
   description = "A list of Themes and Starters for JAMstack Sites."
@@ -20,7 +21,7 @@ pygmentsUseClasses = true
   [theme_card]
     show_archetype_icons = false
     show_services_icons = false
- 
+
 [taxonomies]
   ssg = "ssg"
   cms = "cms"
