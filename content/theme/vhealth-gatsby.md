@@ -1,15 +1,16 @@
 ---
-title: "vHealth - Virtual healthcare"
-github: https://github.com/shantanu-deshmukh/vhealth-gatsby
-demo: https://vhealth.openthemes.dev/
+title: vHealth - Virtual healthcare
+github: 'https://github.com/shantanu-deshmukh/vhealth-gatsby'
+demo: 'https://vhealth.openthemes.dev/'
 author: Shantanu Deshmukh
-date: 2020-08-26
+date: 2020-08-26T00:00:00.000Z
 github_branch: master
 ssg:
   - Gatsby
 cms:
   - No Cms
 description: Modular and easy to use Gatsby template for a Healthcare Startup.
+stale: false
 ---
 
 # Easy to use gatsby template for a healthcare startup.

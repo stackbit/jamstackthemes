@@ -10,5 +10,5 @@ cms:
 date: 2018-08-21T20:17:16.000Z
 github_branch: master
 description: Minimalistic and Responsive blog theme for hugo
-stale: false
+stale: true
 ---

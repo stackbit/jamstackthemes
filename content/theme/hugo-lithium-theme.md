@@ -10,5 +10,5 @@ cms:
 date: 2016-05-06T02:29:31.000Z
 github_branch: master
 description: Lithium - A simple responsive Hugo theme
-stale: false
+stale: true
 ---

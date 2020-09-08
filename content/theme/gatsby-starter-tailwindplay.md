@@ -10,5 +10,5 @@ cms:
 date: 2019-06-24T18:26:49.000Z
 github_branch: master
 description: GatsbyJS Tailwind Starter - TailwindPlay
-stale: false
+stale: true
 ---

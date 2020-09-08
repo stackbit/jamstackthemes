@@ -10,5 +10,5 @@ cms:
 date: 2018-11-01T10:06:05.000Z
 github_branch: master
 description: "\U0001F47E Gatsby Storybook Starter"
-stale: false
+stale: true
 ---

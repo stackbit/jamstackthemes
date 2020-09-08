@@ -1,12 +1,12 @@
 ---
-title: "Bulma Clean Theme"
-github: https://github.com/chrisrhymes/bulma-clean-theme
-demo: https://www.csrhymes.com/bulma-clean-theme/ 
+title: Bulma Clean Theme
+github: 'https://github.com/chrisrhymes/bulma-clean-theme'
+demo: 'https://www.csrhymes.com/bulma-clean-theme/'
 author: chrisrhymes
-date: 2020-08-22 
+date: 2020-08-22T00:00:00.000Z
 github_branch: master
 ssg:
-  - Jekyll 
+  - Jekyll
 cms:
   - No CMS
 css:
@@ -15,7 +15,10 @@ archetype:
   - Blog
   - Portfolio
   - Documentation
-description: A clean and simple Jekyll theme built with the Bulma CSS framework providing a variety of page layouts anb blog pages.
+description: >-
+  A clean and simple Jekyll theme built with the Bulma CSS framework providing a
+  variety of page layouts anb blog pages.
+stale: false
 ---
 
 Bulma clean theme works with GitHub Pages and has a wide range of page layout available to use.

@@ -10,5 +10,5 @@ cms:
 date: 2015-01-28T02:49:52.000Z
 github_branch: master
 description: ':droplet: API Documentation template for Jekyll'
-stale: false
+stale: true
 ---
