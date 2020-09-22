@@ -8,10 +8,14 @@ Anyone can submit an open-source theme to the gallery using a PR.
 
 1. Fork this repo and create a new markdown `.md` file in `content/theme` folder. For example `hugo-air-.md`
 2. Edit the markdown file with the required front-matter as shown below.
-3. Submit a pull-request with the title **Theme Submission: theme-name**
+3. Submit a pull-request with the title **Theme Submission: theme-name** (replace theme-name with your themes name)
 4. You **do not** need to generate the Github stars or theme screenshots. Please just submit the markdown file in the PR. 
 
-The markdown file should contain the following front-matter.
+The markdown file should contain the following front-matter. 
+
+* Please make sure to update the `date` and that at least 1 `ssg` and `cms` is specified. 
+* If your theme uses markdown (no CMS) the cms should be `No CMS
+* Please remove the comments from the front-matter
 
 ```yaml
 ---
@@ -22,9 +26,9 @@ author: authorname
 date: 2019-08-20 # Enter the date you submitted the theme YYYY-MM-DD
 github_branch: master # Specify the repos default branch
 ssg:
-  - Gridsome # Matches the frontmatter value in `content/ssg/gridsome/_index.md Title`
+  - Gridsome
 cms:
-  - NetlifyCMS
+  - No CMS
 css:
   - Bootstrap
 archetype:
