@@ -1,12 +1,10 @@
 ---
-title: "Tiny Blog"
-github: https://github.com/sumeetmathpati/tiny-blog
-demo: https://sumeetmathpati.github.io/tiny-blog/
+title: Tiny Blog
+github: 'https://github.com/sumeetmathpati/tiny-blog'
+demo: 'https://sumeetmathpati.github.io/tiny-blog/'
 author: Sumeet Mathpati
-date: 2020-09-218 # Enter the date you submitted the theme YYYY-MM-DD
-github_branch: master # Specify the repos default branch
-ssg:
-  - Gridsome # Matches the frontmatter value in `content/ssg/gridsome/_index.md Title`
+date: 2020-09-218
+github_branch: master
 ssg:
   - Jekyll
 cms:
@@ -15,6 +13,7 @@ archetype:
   - Blog
   - Portfolio
 description: Small and minimal jekyll blog theme.
+stale: false
 ---
 
 # Small theme for jekyll blog and portfolio.

@@ -10,5 +10,5 @@ cms:
 date: 2017-11-02T18:03:28.000Z
 github_branch: master
 description: 'A responsive minimalist theme for Hugo that is simple as 1, 2, 3'
-stale: false
+stale: true
 ---

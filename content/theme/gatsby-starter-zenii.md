@@ -1,9 +1,9 @@
 ---
-title: "Gastby Starter Zenii"
-github: https://github.com/thebakerdev/gatsby-starter-zenii
-demo: https://gatsby-starter-zenii.netlify.app/
+title: Gastby Starter Zenii
+github: 'https://github.com/thebakerdev/gatsby-starter-zenii'
+demo: 'https://gatsby-starter-zenii.netlify.app/'
 author: The Bakerdev
-date: 2019-08-20 # Enter the date you submitted the theme YYYY-MM-DD
+date: 2019-08-20T00:00:00.000Z
 github_branch: master
 ssg:
   - Gatsby
@@ -15,6 +15,7 @@ archetype:
   - Agency
   - Business
 description: A One-page Gatsby starter built with Tailwindcss and Postcss.
+stale: false
 ---
 
 # A simple one-page theme for Gatsby

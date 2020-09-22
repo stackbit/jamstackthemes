@@ -10,5 +10,5 @@ cms:
 date: 2018-10-05T13:57:23.000Z
 github_branch: master
 description: Clover theme for Hexo.
-stale: false
+stale: true
 ---

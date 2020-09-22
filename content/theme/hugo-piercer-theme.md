@@ -12,5 +12,5 @@ github_branch: master
 description: >-
   Piercer is a very customizable, fast and simple Hugo theme designed under the
   mobile-first philosophy.
-stale: false
+stale: true
 ---

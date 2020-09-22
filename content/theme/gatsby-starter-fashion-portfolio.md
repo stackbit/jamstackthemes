@@ -10,5 +10,5 @@ cms:
 date: 2019-07-19T17:57:04.000Z
 github_branch: master
 description: A Gatsby starter for a professional and minimal fashion portfolio.
-stale: false
+stale: true
 ---
