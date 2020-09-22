@@ -1,13 +1,17 @@
 ---
 title: "Lines"
 github: https://github.com/ronv/lines
-demo: https://lines-hugo-theme.netlify.app/ # Please make sure this links to the theme demo and not your personal/business site
+demo: https://lines-hugo-theme.netlify.app/ 
 author: Ronalds Vilcins
-date: 2020-09-08 # Enter the date you submitted the theme YYYY-MM-DD
-github_branch: master # Specify the repos default branch
+date: 2020-09-08 
+github_branch: master 
 archetype:
   - Blog
 description: Minimalistic and clean Hugo blogging theme.
+ssg:
+  - Hugo
+cms:
+  - No CMS
 ---
 
 # Lines hugo theme
