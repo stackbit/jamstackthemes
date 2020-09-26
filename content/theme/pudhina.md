@@ -7,6 +7,8 @@ date: 2020-09-12 # Enter the date you submitted the theme YYYY-MM-DD
 github_branch: master # Specify the repos default branch
 ssg:
   - Jekyll
+cms:
+  - No CMS
 ---
 
 # Pudhina
