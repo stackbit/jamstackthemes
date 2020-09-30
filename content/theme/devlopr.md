@@ -1,5 +1,5 @@
 ---
-title: devlopr
+title: devlopr-jekyll
 github: 'https://github.com/sujaykundu777/devlopr-jekyll'
 demo: 'https://devlopr.netlify.app'
 author: Sujay Kundu
@@ -19,7 +19,7 @@ archetype:
 services:
   - Snipcart
   - Formspree
-description: A Jekyll Theme built for Developers and Software Engineers
+description: A Jekyll Theme built for Developers and Software Engineers, Dark Mode Supported
 stale: false
 ---
 
@@ -30,7 +30,7 @@ Devlopr is a modern Jekyll Theme built for Developers focused on speed performan
 ### Features
 
 * Latest Jekyll 4 and Bundler Support
-* Supports Dark Mode
+* Supports Dark Mode Switching
 * Responsive and speed performance optimized
 * Gallery for High Resolution Pics
 * Real Time Search
@@ -39,9 +39,8 @@ Devlopr is a modern Jekyll Theme built for Developers focused on speed performan
 * Code Syntax Highlighter
 * [Wakatime](https://wakatime.com) Integrated
 * Form submissions with **[Formspree.io](https://formspree.io/) contact form integration**
-* Comments using Disqus and Hyvor
-* Inline critical CSS with [critical](https://github.com/addyosmani/critical)
-* Add your **social profiles** easily in `_config.yml`. Only the social icons you enter in `config.yml` will show up on the site footer.
-* Using Bootstrap + Material Design
+* Comments using Disqus and [Hyvor](https://hyvor.com)
+
+### Latest Updates - [Logs](https://opencollective.com/devlopr-jekyll#section-updates)
 
 ### Setup Tutorial - [here](https://blog.sujaykundu.com/using-devlopr-jekyll-to-create-a-static-website-and-host-for-free-using-github-pages-cjwgqd96u001ezws1v8linwdk)
