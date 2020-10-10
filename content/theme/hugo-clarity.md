@@ -2,7 +2,7 @@
 title: "Clarity"
 github: https://github.com/chipzoller/hugo-clarity
 demo: https://neonmirrors.net/
-author: Dan Waweru and Chip Zoller
+author: Dan Weru and Chip Zoller
 date: 2020-10-10
 github_branch: master
 ssg:
