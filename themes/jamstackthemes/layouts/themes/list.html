@@ -66,8 +66,9 @@ All Themes ({{ $themeCount }})
     {{ $filterGroups := resources.Get "js/filter/filter-groups.js" }}
     {{ $filterHash := resources.Get "js/filter/filter-hash.js" }}
     {{ $filter := resources.Get "js/filter/filter.js" }}
+    {{ $filterToggle := resources.Get "js/filter/filter-toggle.js" }}
 
-    {{ $themesBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter | resources.Concat "js/themesBundle.js" }}
+    {{ $themesBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter $filterToggle | resources.Concat "js/themesBundle.js" }}
     {{ if .Site.IsServer }}
         <script type="text/javascript" src="{{ $themesBundle.RelPermalink }}"></script>
     {{ else }}

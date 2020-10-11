@@ -8,7 +8,7 @@ github_branch: master
 ssg:
   - gatsby
 cms:
-  - netlifycms
+  - netlifyCMS
 css:
   - scss
 archetype:

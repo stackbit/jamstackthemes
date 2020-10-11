@@ -9,7 +9,7 @@ ssg:
   - Jekyll
 cms:
   - Forestry
-  - Netlify
+  - NetlifyCMS
 css:
   - Bootstrap
 archetype:

@@ -12,6 +12,9 @@
       .filter-title {
         margin: 0;
       }
+      .toggle-icon {
+        transform: rotate(270deg);
+      }
     }
     &:first-of-type {
       @include breakpoint('small') {
@@ -35,7 +38,7 @@
       align-items: center;
     }
     h3 {
-      
+
       margin-bottom: 0;
       font-size: 14px;
       line-height: 18px;
@@ -86,9 +89,6 @@
       }
       &:hover {
         opacity: 0.6;
-      }
-      &.closed { 
-        transform: rotate(270deg);
       }
     }
   }

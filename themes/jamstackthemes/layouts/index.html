@@ -33,7 +33,7 @@
     <div class="blurb blurb-desktop"><p>A list of themes and starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites. We're the largest gallery of user submitted, open source themes for static site generators 🦖. This site is maintained with <a href="https://github.com/stackbithq/jamstackthemes#contribution-guidelines">community contributions</a> and with the kind support of <a href="https://www.stackbit.com">stackbit.com.</a></p></div>
     <div class="blurb blurb-mobile"><p>A list of themes and starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites.</p></div>
   </div>
-  
+
   {{ partial "sort-buttons.html" . }}
   <div class="hint">Only themes which have a commit within the last 12 months are shown on the homepage. View <a href="/themes">All Themes</a></div>
 
@@ -59,8 +59,9 @@
   {{ $filterGroups := resources.Get "js/filter/filter-groups.js" }}
   {{ $filterHash := resources.Get "js/filter/filter-hash.js" }}
   {{ $filter := resources.Get "js/filter/filter.js" }}
+  {{ $filterToggle := resources.Get "js/filter/filter-toggle.js" }}
 
-  {{ $homeBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter | resources.Concat "js/homeBundle.js" }}
+  {{ $homeBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter $filterToggle | resources.Concat "js/homeBundle.js" }}
   {{ if .Site.IsServer }}
   <script type="text/javascript" src="{{ $homeBundle.RelPermalink }}"></script>
   {{ else }}

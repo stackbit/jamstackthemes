@@ -9,8 +9,6 @@ ssg:
   - Jekyll
 cms:
   - No CMS
-css:
-  - Pure
 archetype:
   - Blog
   - Personal homepage
