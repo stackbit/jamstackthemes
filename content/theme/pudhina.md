@@ -1,14 +1,15 @@
 ---
-title: "Pudhina"
-github: https://github.com/knhash/Pudhina
-demo: https://knhash.github.io/Pudhina/ # Please make sure this links to the theme demo and not your personal/business site
+title: Pudhina
+github: 'https://github.com/knhash/Pudhina'
+demo: 'https://knhash.github.io/Pudhina/'
 author: Knhash
-date: 2020-09-12 # Enter the date you submitted the theme YYYY-MM-DD
-github_branch: master # Specify the repos default branch
+date: 2020-09-12T00:00:00.000Z
+github_branch: master
 ssg:
   - Jekyll
 cms:
   - No CMS
+stale: false
 ---
 
 # Pudhina

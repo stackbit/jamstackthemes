@@ -14,5 +14,5 @@ cms:
   - Sanity
 date: 2019-05-10T14:36:46.000Z
 description: Fresh a personal theme with a blog for Stackbit
-stale: false
+stale: true
 ---

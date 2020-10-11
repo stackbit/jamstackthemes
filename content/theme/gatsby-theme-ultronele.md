@@ -8,7 +8,7 @@ ssg:
 date: 2019-07-04T11:28:21.000Z
 github_branch: master
 description: Gatsby Theme for UltronEle - the Fastest Elearning Engine in the world
-stale: false
+stale: true
 ---
 
 Welcome to Ultronele, the world’s fastest e-learning/LMS engine.

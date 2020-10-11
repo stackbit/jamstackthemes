@@ -14,5 +14,5 @@ cms:
   - Sanity
 date: 2019-05-23T18:24:11.000Z
 description: Azimuth is a sleek SaaS theme for Stackbit
-stale: false
+stale: true
 ---

@@ -10,5 +10,5 @@ cms:
 date: 2015-08-04T06:35:46.000Z
 github_branch: gh-pages
 description: A simple Jekyll theme.
-stale: true
+stale: false
 ---

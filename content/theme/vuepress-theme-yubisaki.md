@@ -10,5 +10,5 @@ cms:
 date: 2018-04-21T17:50:17.000Z
 github_branch: master
 description: ':sparkles: A blog theme for vuepress'
-stale: false
+stale: true
 ---

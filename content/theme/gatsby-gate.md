@@ -10,5 +10,5 @@ cms:
 date: 2019-01-29T09:40:17.000Z
 github_branch: master
 description: Static API documentation with GatsbyJS
-stale: false
+stale: true
 ---

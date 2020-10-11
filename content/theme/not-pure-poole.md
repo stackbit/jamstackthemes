@@ -1,9 +1,9 @@
 ---
-title: "Not Pure Poole"
-github: https://github.com/vszhub/not-pure-poole
-demo: https://vszhub.github.io/not-pure-poole/
+title: Not Pure Poole
+github: 'https://github.com/vszhub/not-pure-poole'
+demo: 'https://vszhub.github.io/not-pure-poole/'
 author: Songzi Vong
-date: 2020-10-01
+date: 2020-10-01T00:00:00.000Z
 github_branch: master
 ssg:
   - Jekyll
@@ -14,7 +14,8 @@ css:
 archetype:
   - Blog
   - Personal homepage
-description: A simple, beautiful, and powerful Jekyll theme for blogs
+description: 'A simple, beautiful, and powerful Jekyll theme for blogs'
+stale: false
 ---
 
 # A simple starter kit for Gridsome

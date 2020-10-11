@@ -10,5 +10,5 @@ cms:
 date: 2017-07-10T05:09:20.000Z
 github_branch: master
 description: A minimal magazine theme for Hugo
-stale: true
+stale: false
 ---

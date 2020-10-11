@@ -14,7 +14,7 @@ cms:
   - Sanity
 date: 2019-05-23T18:26:16.000Z
 description: Exto is a portfolio theme with a blog for Stackbit
-stale: false
+stale: true
 ---
 
 Exto is a portfolio theme with a blog for Stackbit.

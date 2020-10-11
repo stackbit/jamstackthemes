@@ -19,7 +19,9 @@ archetype:
 services:
   - Snipcart
   - Formspree
-description: A Jekyll Theme built for Developers and Software Engineers, Dark Mode Supported
+description: >-
+  A Jekyll Theme built for Developers and Software Engineers, Dark Mode
+  Supported
 stale: false
 ---
 

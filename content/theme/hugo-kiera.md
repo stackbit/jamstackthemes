@@ -10,5 +10,5 @@ cms:
 date: 2017-11-13T00:53:41.000Z
 github_branch: master
 description: Kiera - A Hugo Theme for writing
-stale: false
+stale: true
 ---

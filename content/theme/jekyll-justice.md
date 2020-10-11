@@ -10,5 +10,5 @@ cms:
 date: 2016-11-10T00:56:02.000Z
 github_branch: master
 description: ':office: Law firm themed business template for Jekyll'
-stale: false
+stale: true
 ---

@@ -10,7 +10,7 @@ cms:
 date: 2015-04-14T00:39:17.000Z
 github_branch: master
 description: A simple yet classy theme for your Jekyll website or blog.
-stale: false
+stale: true
 ---
 
 A simple yet classy theme for your Jekyll website or blog. 

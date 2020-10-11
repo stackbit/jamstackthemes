@@ -14,5 +14,5 @@ cms:
   - Sanity
 date: 2019-05-10T14:51:58.000Z
 description: Vanilla a vanilla theme for Stackbit
-stale: false
+stale: true
 ---
