@@ -12,7 +12,7 @@
             <div class="theme-info">
 
                 <h1 class="theme-detail-heading">{{.Title}}</h1>
-                <p class="theme-detail-summary">{{ .Summary }}</p>
+                <p class="theme-detail-summary">{{ .Params.description }}</p>
 
                 {{ if $repo }}
                 {{ partial "star-large.html" (dict "stars" $repo.stars)}}

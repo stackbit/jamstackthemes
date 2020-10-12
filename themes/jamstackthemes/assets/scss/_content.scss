@@ -1,17 +1,15 @@
 .content {
   font-size: 16px;
   p {
-    font-size: 16px;
-    line-height: 1.4;
     margin: 0;
     padding: 0;
     margin-bottom: 20px;
   }
   h1 {
-    font-size: 40px;
-    line-height: 1.6;
-    font-weight: bold;
-    margin-top: 30px;
+    font-size: 36px;
+    line-height: 1.5;
+    font-weight: normal;
+    margin-top: 20px;
     margin-bottom: 20px;
     &:first-of-type {
       margin-top: 0;
@@ -20,8 +18,8 @@
   h2 {
     font-size: 28px;
     line-height: 1.4;
-    font-weight: bold;
-    margin-top: 30px;
+    font-weight: normal;
+    margin-top: 20px;
     margin-bottom: 20px;
     &:first-of-type {
       margin-top: 0;
@@ -35,7 +33,7 @@
     font-size: 22px;
     line-height: 1.4;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 20px;
   }
   ul,
@@ -43,11 +41,10 @@
     margin-left: 0;
     margin-top: 10px;
     margin-bottom: 20px;
+    padding: 0;
     list-style: disc;
     li {
-      font-size: 18px;
-      line-height: 20px;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
       margin-left: 0;
       @include breakpoint('small') {
         margin-left: 20px;
@@ -72,7 +69,6 @@
     display: inline;
   }
   img {
-    margin: 40px 0 40px 0;
     max-width: 100%;
     height: auto;
   }
@@ -95,11 +91,11 @@
     margin: 0;
     padding: 10px;
     border-radius: 1px;
+    overflow-x: auto;
     code {
       font-family: $font-family-mono;
       font-size: 0.9rem;
       line-height: 1.4;
-      border-radius: none;
       padding: 0;
       margin: 0;
       background: none;

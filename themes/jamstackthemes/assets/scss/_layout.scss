@@ -28,6 +28,7 @@
   .main {
     flex: 1;
     padding: 15px 20px 15px 20px;
+    min-width: 0;
     @include breakpoint('small') {
       padding: 30px;
     }
