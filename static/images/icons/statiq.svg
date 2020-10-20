@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 605.99999 606"
+   xml:space="preserve"
+   sodipodi:docname="12.svg"
+   width="606"
+   height="606"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"><metadata
+     id="metadata917"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs915" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1373"
+     id="namedview913"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.46826172"
+     inkscape:cx="792.2"
+     inkscape:cy="916.3"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" /><style
+     type="text/css"
+     id="style876">.st10{fill:url(#SVGID_1_);}.st11{fill:url(#SVGID_2_);}.st12{fill:url(#SVGID_3_);}.st13{fill:url(#SVGID_4_);}</style><g
+     id="g910"
+     transform="translate(-107.8,-107.7)">
+	<linearGradient
+   id="SVGID_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="320.9115"
+   y1="107.7329"
+   x2="320.9115"
+   y2="543.90698">
+		<stop
+   offset="0"
+   style="stop-color:#8FD7FD"
+   id="stop878" />
+		<stop
+   offset="1"
+   style="stop-color:#48BDFE"
+   id="stop880" />
+	</linearGradient>
+	<path
+   class="st10"
+   d="M 409.9,107.7 C 308.5,128 231.8,218.3 231.8,326.1 c 0,100.6 66.8,185.9 158.2,213.3 4.8,1.6 9.7,2.9 14.8,3.9 l 5.2,0.6"
+   id="path883"
+   style="fill:url(#SVGID_1_)" />
+	<linearGradient
+   id="SVGID_2_"
+   gradientUnits="userSpaceOnUse"
+   x1="499.07101"
+   y1="198.06799"
+   x2="499.07101"
+   y2="712.91803">
+		<stop
+   offset="0"
+   style="stop-color:#D792FD"
+   id="stop885" />
+		<stop
+   offset="1"
+   style="stop-color:#BF4BFF"
+   id="stop887" />
+	</linearGradient>
+	<path
+   class="st11"
+   d="m 409.9,634.7 97.8,78.3 69.7,-61.7 -75.1,-59 c 52.2,-40.8 85.9,-104.5 85.9,-175.9 0,-103.8 -71,-191.2 -166.9,-215.8 -3.6,-1.1 -8.6,-1.8 -11.4,-2.6"
+   id="path890"
+   style="fill:url(#SVGID_2_)" />
+	<linearGradient
+   id="SVGID_3_"
+   gradientUnits="userSpaceOnUse"
+   x1="410.04541"
+   y1="198.06799"
+   x2="410.04541"
+   y2="543.89838">
+		<stop
+   offset="0"
+   style="stop-color:#AC83FF"
+   id="stop892" />
+		<stop
+   offset="1"
+   style="stop-color:#7849D8"
+   id="stop894" />
+	</linearGradient>
+	<path
+   class="st12"
+   d="m 409.9,198.1 c -31.9,11.3 -58.1,34.1 -73.7,63.5 -10,18.8 -15.6,40.1 -15.6,62.8 0,11 1.3,21.6 3.7,31.7 10.6,44.2 43,79.5 85.5,94.5 v 93.2 c 52.3,-18.3 89.5,-68.2 89.5,-126.3 0,-58.6 -37.1,-107.8 -89.5,-126.3"
+   id="path897"
+   style="fill:url(#SVGID_3_)" />
+	<linearGradient
+   id="SVGID_4_"
+   gradientUnits="userSpaceOnUse"
+   x1="486.59949"
+   y1="581.44818"
+   x2="518.72467"
+   y2="521.02948">
+		<stop
+   offset="0"
+   style="stop-color:#A632E6"
+   id="stop899" />
+		<stop
+   offset="0.1817"
+   style="stop-color:#A939E9;stop-opacity:0.7515"
+   id="stop901" />
+		<stop
+   offset="0.4481"
+   style="stop-color:#B14DF0;stop-opacity:0.3873"
+   id="stop903" />
+		<stop
+   offset="0.7314"
+   style="stop-color:#BD69FA;stop-opacity:0"
+   id="stop905" />
+	</linearGradient>
+	<path
+   class="st13"
+   d="m 502.3,592.3 c 12,-9.4 23,-20 32.9,-31.6 l -69.6,-54.2 c -10,11.3 -21.9,20.9 -35.3,28.2 L 544,625.6 c 0.1,-0.1 0.3,-0.2 0.4,-0.3 z"
+   id="path908"
+   style="fill:url(#SVGID_4_)" />
+</g></svg>
