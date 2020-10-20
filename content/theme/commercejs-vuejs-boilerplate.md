@@ -13,14 +13,13 @@ css:
 archetype:
   - Ecommerce
 description: >-
-  Commerce.js boilerplate, built with Vue.js, for fast eCommerce development and
-  design.
+  Commerce.js boilerplate built with Vue.js, for fast eCommerce development and design.
 github_branch: master
 stale: false
 ---
 
-Commerce.js boilerplate, built with Vue.js, for fast eCommerce development and design.
+Commerce.js boilerplate built with Vue.js, for fast eCommerce development and design.
 
-This boilerplate was developed to help developers build quick eCommerce sites in the Commerce.js ecosystem. Included is a complete, unstyled, product listing, cart, and checkout workflow to aid in fast and easy development using the Vue.js framework.
+This boilerplate helps developers quickly build eCommerce sites in the Commerce.js ecosystem. Included in this theme are unstyled; product listing views, a cart, and checkout workflow to aid in fast and easy development using the Vue.js framework.
 
 _Note: You will need to sign up for a Chec account at commercejs.com which includes the API access. Please follow the guide in the github repo to configure your inital setup._
