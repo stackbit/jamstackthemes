@@ -1,5 +1,5 @@
 ---
-title: "Gatsby Starter Kontent Lumen"
+title: "Statiq Starter Kontent Lumen"
 github: 'https://github.com/petrsvihlik/statiq-starter-kontent-lumen'
 demo: 'https://petrsvihlik.github.io/statiq-starter-kontent-lumen/'
 author: Kentico
