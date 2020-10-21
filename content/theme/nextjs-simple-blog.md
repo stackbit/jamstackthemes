@@ -15,6 +15,6 @@ archetype:
 description: A simple NextJS blog powered by Lyket to support like, clap and like/dislike buttons!
 ---
 
-# A simple starter blog for NextJS 👏👏👏 
+# A simple starter blog for NextJS with feedback buttons
 
 This theme is a simple blog starter kit. It integrates [Lyket](https://lyket.dev)'s like👍, clap👏 and like/dislike 👍/👎 buttons!
