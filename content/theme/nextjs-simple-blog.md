@@ -17,4 +17,4 @@ description: A simple NextJS blog powered by Lyket to support like, clap and lik
 
 # A simple starter blog for NextJS
 
-This theme is a simple blog starter kit. It integrates Lykets's like, clap and like/dislike buttons!
+This theme is a simple blog starter kit. It integrates [Lykets](https://lyket.dev)'s like, clap and like/dislike buttons!
