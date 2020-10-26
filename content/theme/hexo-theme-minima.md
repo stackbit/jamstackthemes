@@ -9,8 +9,6 @@ ssg:
   - Hexo
 cms:
   - No CMS
-css:
-  - Skeleton
 archetype:
   - Blog
 description: An undoubtedly simple and lightweight dark/light mode theme for Hexo

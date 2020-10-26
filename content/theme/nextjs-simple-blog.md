@@ -6,7 +6,7 @@ author: Lyket
 date: 2020-10-21T00:00:00.000Z
 github_branch: main
 ssg:
-  - NextJS
+  - Next
 cms:
   - No CMS
 css: null
