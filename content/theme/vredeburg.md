@@ -1,7 +1,7 @@
 ---
-title: "Vredeburg"
-github: https://github.com/dafiulh/vredeburg
-demo: https://vredeburg.netlify.app
+title: Vredeburg
+github: 'https://github.com/dafiulh/vredeburg'
+demo: 'https://vredeburg.netlify.app'
 author: Dafiul Haq
 date: 2020-10-12T00:14:00.000Z
 github_branch: master
@@ -13,7 +13,8 @@ css:
   - Tailwind
 archetype:
   - Blog
-description: 'A simple starter project to create a blog using Eleventy and Tailwind CSS'
+description: A simple starter project to create a blog using Eleventy and Tailwind CSS
+stale: false
 ---
 
 # Vredeburg

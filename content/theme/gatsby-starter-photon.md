@@ -12,5 +12,5 @@ github_branch: master
 description: >-
   Gatsby.js V2 starter template based on Photon. Check out
   https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters.
-stale: false
+stale: true
 ---

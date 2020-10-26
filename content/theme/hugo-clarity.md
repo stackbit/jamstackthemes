@@ -1,9 +1,9 @@
 ---
-title: "Clarity"
-github: https://github.com/chipzoller/hugo-clarity
-demo: https://themes.gohugo.io/theme/hugo-clarity/
+title: Clarity
+github: 'https://github.com/chipzoller/hugo-clarity'
+demo: 'https://themes.gohugo.io/theme/hugo-clarity/'
 author: Dan Weru and Chip Zoller
-date: 2020-10-10
+date: 2020-10-10T00:00:00.000Z
 github_branch: master
 ssg:
   - Hugo
@@ -11,7 +11,11 @@ cms:
   - No CMS
 archetype:
   - Blog
-description: A technology-minded theme for Hugo based on VMware's open-source Clarity Design System featuring rich code support, dark/light mode, mobile support, and much more.
+description: >-
+  A technology-minded theme for Hugo based on VMware's open-source Clarity
+  Design System featuring rich code support, dark/light mode, mobile support,
+  and much more.
+stale: false
 ---
 
 # A perfect theme for bloggers who code

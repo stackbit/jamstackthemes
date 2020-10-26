@@ -10,5 +10,5 @@ cms:
 date: 2015-03-17T10:26:55.000Z
 github_branch: master
 description: A minimal and mobile-first blog theme for Jekyll
-stale: false
+stale: true
 ---

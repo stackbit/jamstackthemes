@@ -1,9 +1,9 @@
 ---
-title: "Hugo Theme Zdoc"
-github: https://github.com/zzossig/hugo-theme-zdoc
-demo: https://themes.gohugo.io//theme/hugo-theme-zdoc/
+title: Hugo Theme Zdoc
+github: 'https://github.com/zzossig/hugo-theme-zdoc'
+demo: 'https://themes.gohugo.io//theme/hugo-theme-zdoc/'
 author: zzossig
-date: 2020-10-21
+date: 2020-10-21T00:00:00.000Z
 github_branch: master
 ssg:
   - Hugo
@@ -16,6 +16,7 @@ archetype:
   - Portfolio
   - Documentation
 description: Documentation theme for Hugo. It has rich features and looks clean.
+stale: false
 ---
 
 ## Hugo Theme Zdoc

@@ -10,5 +10,5 @@ cms:
 date: 2019-10-14T16:19:53.000Z
 github_branch: master
 description: Theme for streamer websites
-stale: false
+stale: true
 ---
