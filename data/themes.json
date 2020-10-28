@@ -3145,7 +3145,7 @@
     "open_issues": 0,
     "last_commit": "2019-02-12T17:43:22Z",
     "created_at": "2019-02-11T17:12:40Z",
-    "description": "Create and view documentation using Gatsby and Cosmic JS",
+    "description": "Create and view documentation using Gatsby and Cosmic",
     "stale": true
   },
   "cosmicjs-gatsby-localization-app-starter-master": {
@@ -3161,7 +3161,7 @@
     "open_issues": 0,
     "last_commit": "2019-05-03T16:41:38Z",
     "created_at": "2019-05-03T16:34:14Z",
-    "description": "A Gatsby localization website powered by Cosmic JS",
+    "description": "A Gatsby localization website powered by Cosmic",
     "stale": true
   },
   "cosmicjs-gatsby-starter-master": {

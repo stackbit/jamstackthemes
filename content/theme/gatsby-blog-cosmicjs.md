@@ -6,9 +6,9 @@ author: null
 ssg:
   - Gatsby
 cms:
-  - No Cms
+  - Cosmic
 date: 2018-06-05T18:40:26.000Z
 github_branch: master
-description: "\U0001F680⚡️ Blazing fast blog built with Gatsby and Cosmic JS \U0001F525"
+description: "\U0001F680⚡️ Blazing fast blog built with Gatsby and Cosmic \U0001F525"
 stale: false
 ---
