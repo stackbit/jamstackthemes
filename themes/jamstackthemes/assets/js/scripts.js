@@ -1,18 +1,31 @@
 document.querySelectorAll(".theme").forEach((theme) => {
     const themeName = theme.getAttribute('data-name');
-    const githubButton = theme.querySelector('.theme-button-github');
-    const demoButton = theme.querySelector('.theme-button-demo');
+    const buttons = theme.querySelector(".theme-buttons");
 
-    const event = {
-        theme: themeName,
-        category: 'Themes',
-        label: themeName,
-    };
+    buttons.addEventListener('click', (e) => {
+        console.log(e);
 
-    githubButton.addEventListener('click', (e) => {
-        analytics.track("Theme Github Clicked", event);
+        let action = null;
+        if (e.target.classList.contains("theme-button-demo")) {
+            action = "demo"
+        }
+        if (e.target.classList.contains("theme-button-github")) {
+            action = "github"
+        }
+        if (e.target.classList.contains("theme-button-stackbit")) {
+            action = "stackbit"
+        }
+
+        if (action) {
+            const event = {
+                theme: themeName,
+                action: action,
+                category: 'Themes',
+                label: themeName,
+
+            };
+            analytics.track("Theme Clicked", event);
+        }
     });
-    demoButton.addEventListener('click', (e) => {
-        analytics.track("Theme Demo Clicked", event);
-    })
+
 });

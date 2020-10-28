@@ -9,14 +9,14 @@
     @include breakpoint('medium') {
       flex-direction: row;
     }
-    .theme-info {
+    .theme-detail-info {
       flex: 1;
       @include breakpoint('medium') {
         min-width: 460px;
         padding-right: 60px;
       }
     }
-    .theme-preview {
+    .theme-detail-preview {
       margin-top: 20px;
       max-width: 700px;
       @include breakpoint('medium') {
@@ -27,7 +27,7 @@
   .theme-detail-bottom {
     padding-top: 20px;
   }
-  .theme-image {
+  .theme-detail-image {
     border: 1px solid $grey;
     img {
       width: 100%;

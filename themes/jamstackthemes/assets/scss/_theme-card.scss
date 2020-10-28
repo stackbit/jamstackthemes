@@ -1,5 +1,5 @@
 
-.theme {
+.theme-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -100,7 +100,7 @@
       height: auto;
       vertical-align: bottom;
       @include breakpoint('small') {
-       
+
       }
     }
   }

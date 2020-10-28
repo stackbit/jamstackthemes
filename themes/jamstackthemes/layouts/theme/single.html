@@ -7,9 +7,9 @@
 {{ $repo := index .Site.Data.themes $repoName }}
 
 <div class="main">
-    <div class="theme-detail" data-name="{{ .Title }}">
+    <div class="theme theme-detail" data-name="{{ .Title }}">
         <div class="theme-detail-top">
-            <div class="theme-info">
+            <div class="theme-detail-info">
 
                 <h1 class="theme-detail-heading">{{.Title}}</h1>
                 <p class="theme-detail-summary">{{ .Params.description }}</p>
@@ -31,9 +31,12 @@
                     {{ end }}
                 </div>
 
-                <div class="theme-detail-buttons">
+                <div class="theme-buttons theme-detail-buttons">
                     <a class="button theme-button-github" href="{{ .Params.github }}" target="_blank" rel="nofollow noopener">Github</a>
                     <a class="button theme-button-demo" href="{{ .Params.demo }}" target="_blank" rel="nofollow noopener">Live Demo</a>
+                    {{ if .Params.stackbit }}
+                    <a class="theme-button theme-button-stackbit" href="{{ .Params.stackbit }}" target="_blank" rel="noopener nofollow">Stackbit</a>
+                    {{ end }}
                 </div>
 
                 <div class="theme-detail-tags">
@@ -80,8 +83,8 @@
                     {{ end }}
                 </div>
             </div>
-            <div class="theme-preview">
-                <div class="theme-image">
+            <div class="theme-detail-preview">
+                <div class="theme-detail-image">
                     {{ if $repo }}
                     {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
                     {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
@@ -102,15 +105,5 @@
 
 {{ end }}
 
-{{ define "footer_js" }}
-
-    {{ $theme := resources.Get "js/theme.js" }}
-    {{ $themeBundle := slice $theme | resources.Concat "js/themeBundle.js" }}
-    {{ if .Site.IsServer }}
-        <script type="text/javascript" src="{{ $themeBundle.RelPermalink }}"></script>
-    {{ else }}
-        <script type="text/javascript" src="{{ ($themeBundle | minify | fingerprint).RelPermalink }}"></script>
-    {{ end }}
-
-{{ end }}
+{{ define "footer_js" }}{{ end }}
 
