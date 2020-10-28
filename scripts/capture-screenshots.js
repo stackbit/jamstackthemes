@@ -30,12 +30,11 @@ captureWebScreenshot = async theme => {
     const url = frontmatter.demo
 
     if (fs.existsSync(path.join(hiresImagesFolder, themeImage))) {
-      // console.log(`${theme} skipped`)
       return false
     } else {
       console.log(`${theme} capturing`);
       const page = await new Pageres({delay: 2, filename: themeKey})
-      .src(url, ['1024x768'], {crop: true})
+      .src(url, ['1280x960'], {crop: true})
       .dest(hiresImagesFolder)
       .run();
       return page

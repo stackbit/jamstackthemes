@@ -3,8 +3,6 @@ document.querySelectorAll(".theme").forEach((theme) => {
     const buttons = theme.querySelector(".theme-buttons");
 
     buttons.addEventListener('click', (e) => {
-        console.log(e);
-
         let action = null;
         if (e.target.classList.contains("theme-button-demo")) {
             action = "demo"

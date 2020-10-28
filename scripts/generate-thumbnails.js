@@ -28,7 +28,7 @@ imageFiles.forEach((image) => {
     sharp(inputImage)
       .resize({
         width: 280,
-        height: 180,
+        height: 210,
         fit: 'cover',
         position: 'top',
       })
@@ -45,7 +45,7 @@ imageFiles.forEach((image) => {
     sharp(inputImage)
       .resize({
         width: 560,
-        height: 360,
+        height: 420,
         fit: 'cover',
         position: 'top',
       })

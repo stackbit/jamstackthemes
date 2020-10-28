@@ -12923,6 +12923,22 @@
     "description": "A Jekyll port of the Solid theme (by blacktie.co). ",
     "stale": true
   },
+  "stackbit-themes-stackbit-starter-hugo-master": {
+    "theme_key": "stackbit-themes-stackbit-starter-hugo-master",
+    "file": "stackbit-theme-starter-hugo.md",
+    "name": "stackbit-starter-hugo",
+    "github_username": "stackbit-themes",
+    "repo": "stackbit-themes/stackbit-starter-hugo",
+    "branch": "master",
+    "url": "https://github.com/stackbit-themes/stackbit-starter-hugo",
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "last_commit": "2020-10-28T05:05:32Z",
+    "created_at": "2020-10-28T02:55:22Z",
+    "description": "Starter is a flexible, multi-purpose hugo theme built for developers.",
+    "stale": false
+  },
   "stackbithq-stackbit-theme-ampersand-master": {
     "theme_key": "stackbithq-stackbit-theme-ampersand-master",
     "file": "stackbit-theme-ampersand.md",
