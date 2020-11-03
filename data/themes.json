@@ -15933,17 +15933,23 @@
     "theme_key": "zerostaticthemes-hugo-serif-theme-master",
     "file": "hugo-serif.md",
     "name": "hugo-serif-theme",
+    "title": "Hugo Serif",
     "github_username": "zerostaticthemes",
     "repo": "zerostaticthemes/hugo-serif-theme",
     "branch": "master",
     "url": "https://github.com/zerostaticthemes/hugo-serif-theme",
-    "stars": 139,
-    "forks": 120,
+    "stars": 141,
+    "forks": 125,
     "open_issues": 1,
     "last_commit": "2020-10-14T23:04:06Z",
     "created_at": "2018-11-28T07:14:22Z",
     "description": "Serif is a modern business theme for Hugo.",
-    "stale": false
+    "stale": false,
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/zerostaticthemes-hugo-serif-theme-master.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/zerostaticthemes-hugo-serif-theme-master.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/zerostaticthemes-hugo-serif-theme-master-2x.jpg"
+    }
   },
   "zhaohuabing-hugo-theme-cleanwhite-master": {
     "theme_key": "zhaohuabing-hugo-theme-cleanwhite-master",

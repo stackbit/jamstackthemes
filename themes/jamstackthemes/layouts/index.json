@@ -7,11 +7,19 @@
     "author": "{{ .Params.author }}",
     "ssg": [{{ range $index, $category := .Params.ssg }}{{ if $index }},{{ end }}"{{.}}"{{ end }}],
     "cms": [{{ range $index, $category := .Params.cms }}{{ if $index }},{{ end }}"{{.}}"{{ end }}],
+    "css": [{{ range $index, $category := .Params.css }}{{ if $index }},{{ end }}"{{.}}"{{ end }}],
+    "archetype": [{{ range $index, $category := .Params.archetype }}{{ if $index }},{{ end }}"{{.}}"{{ end }}],
     "repo_name": "{{ $repo.name }}",
+    "branch": "{{ $repo.branch }}",
     "repo": "{{ $repo.repo }}",
     "stars": "{{ $repo.stars }}",
     "forks": "{{ $repo.forks }}",
     "open_issues":  "{{ $repo.open_issues }}",
-    "last_commit": "{{ $repo.last_commit }}"
+    "last_commit": "{{ $repo.last_commit }}",
+    "images": {
+      "hires": {{ if $repo.images.hires }}"{{ $repo.images.hires }}"{{ else }}null{{ end }},
+      "thumbnail": {{ if $repo.images.thumbnail }}"{{ $repo.images.thumbnail }}"{{ else }}null{{ end }},
+      "screenshot": {{ if $repo.images.screenshot }}"{{ $repo.images.screenshot }}"{{ else }}null{{ end }}
+}
   }{{ end }}
 ]

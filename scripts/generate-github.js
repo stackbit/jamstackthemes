@@ -41,8 +41,10 @@ console.log(`themesContentFolder ${themesContentFolder}\n`)
 const loadThemeFrontMatter = fileName => {
   const fileData = fs.readFileSync(path.join(themesContentFolder, fileName));
   const frontmatter = yamlFront.loadFront(fileData);
-  
+
   try {
+    let title = frontmatter.title;
+    let description = frontmatter.description;
     let draft = frontmatter.draft;
     let disabled = frontmatter.disabled;
     let repoUrl = frontmatter.github
@@ -50,7 +52,7 @@ const loadThemeFrontMatter = fileName => {
     let branch = frontmatter.github_branch;
     let themeKey = repoName.replace("/", "-").toLowerCase() + "-" + branch;
     let file = fileName;
-    return { file, repoUrl, repoName, branch, themeKey, disabled, draft }
+    return { title, description, file, repoUrl, repoName, branch, themeKey, disabled, draft }
   }
   catch {
     throw new Error(`${fileName} invalid github frontmatter`)
@@ -103,6 +105,7 @@ const getThemeGithubData = (theme) => {
         theme_key: themeKey,
         file: theme.file,
         name: res.data.name,
+        title: theme.title,
         github_username: res.data.owner.login,
         repo: res.data.full_name,
         branch: defaultBranch,
@@ -133,6 +136,13 @@ const getThemeGithubData = (theme) => {
       }
       throw err
     });
+}
+
+const getImages = (theme) => {
+    themesData[theme.themeKey].images = {}
+    themesData[theme.themeKey].images.hires = `https://www.jamstackthemes.dev/capture/${theme.themeKey}.png`
+    themesData[theme.themeKey].images.thumbnail = `https://www.jamstackthemes.dev/images/theme/thumbnail/${theme.themeKey}.jpg`
+    themesData[theme.themeKey].images.screenshot = `https://www.jamstackthemes.dev/images/theme/thumbnail/2x/${theme.themeKey}-2x.jpg`
 }
 
 const getThemes = async () => {
@@ -184,7 +194,7 @@ const getThemes = async () => {
   console.log("Drafts ", themesFrontMatter.filter(theme => theme.draft).length)
   console.log("Latest ", filterCounts.latest)
   console.log("Skipped ", filterCounts.skipped)
-  
+
   const results = await allSettled(filteredThemesFrontMatter.map(theme => {
     return getThemeGithubData(theme)
   }))
@@ -195,6 +205,10 @@ const getThemes = async () => {
     }))
   }
 
+  const screenshots = filteredThemesFrontMatter.map(theme => {
+    return getImages(theme)
+  })
+
   // Check if any of the allSettled promises failed.
   const errors = results.filter(error => error.status === 'rejected');
 
@@ -202,8 +216,8 @@ const getThemes = async () => {
     console.log(`${Object.keys(errors).length} Errors Founds`);
     console.log(githubErrors);
     throw new Error("Error fetching github data...");
-  } 
-  
+  }
+
   // Sort data
   let sortedThemesData = {}
   Object.keys(themesData).sort().forEach(key => {
