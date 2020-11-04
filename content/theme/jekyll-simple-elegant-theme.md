@@ -11,4 +11,5 @@ date: 2015-08-21T04:20:04.000Z
 github_branch: master
 description: Blog theme powered by Jekyll.
 stale: false
+disabled: true
 ---

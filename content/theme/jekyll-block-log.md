@@ -11,4 +11,6 @@ date: 2014-05-16T05:57:19.000Z
 github_branch: master
 description: 'block-log , A Jekyll theme'
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

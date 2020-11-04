@@ -11,4 +11,6 @@ date: 2014-01-26T21:40:33.000Z
 github_branch: master
 description: This is a Jekyll Theme
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

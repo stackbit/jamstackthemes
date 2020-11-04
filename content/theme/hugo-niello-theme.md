@@ -10,5 +10,5 @@ cms:
 date: 2019-01-03T09:47:08.000Z
 github_branch: master
 description: A Dark Theme for Hugo
-stale: false
+stale: true
 ---

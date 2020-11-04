@@ -14,4 +14,6 @@ description: >-
   internal/external events, showing times and information for anybody that wants
   to attend.
 stale: true
+disabled: true
+disabled_reason: "Demo url not working"
 ---

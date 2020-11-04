@@ -10,5 +10,5 @@ cms:
 date: 2019-05-25T12:43:28.000Z
 github_branch: master
 description: A minimalist GatsbyJs starter for your personal blog.
-stale: false
+stale: true
 ---

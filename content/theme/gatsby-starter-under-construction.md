@@ -11,4 +11,6 @@ date: 2019-01-23T18:50:25.000Z
 github_branch: master
 description: A Gatsby theme to showcase your open-source work
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

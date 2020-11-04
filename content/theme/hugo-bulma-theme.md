@@ -13,4 +13,6 @@ description: >-
   Bulma is a simple and a responsive Hugo theme that offers a traditional blog
   mixed with a landing page designed to bootstrap your frontend!.
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

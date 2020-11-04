@@ -11,4 +11,6 @@ date: 2015-07-26T17:27:04.000Z
 github_branch: master
 description: Port of Mathieu Mayer-Mazzoli's Hikari theme to Hugo
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

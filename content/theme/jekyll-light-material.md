@@ -11,4 +11,6 @@ date: 2016-09-06T08:42:27.000Z
 github_branch: gh-pages
 description: lightweight jekyll blog theme
 stale: false
+disabled: true
+disabled_reason: Demo URL not found
 ---

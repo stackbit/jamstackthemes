@@ -11,4 +11,6 @@ date: 2015-08-08T14:36:05.000Z
 github_branch: master
 description: jekyll starter theme - minimial
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

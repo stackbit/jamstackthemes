@@ -11,4 +11,6 @@ date: 2016-11-01T17:51:22.000Z
 github_branch: master
 description: Basic Jekyll Theme with 2 Column
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

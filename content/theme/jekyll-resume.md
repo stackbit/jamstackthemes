@@ -11,4 +11,6 @@ date: 2016-05-31T20:26:59.000Z
 github_branch: master
 description: A simple resume theme for Jekyll
 stale: true
+disabled: true
+disabled_reason: Demo URL not found
 ---

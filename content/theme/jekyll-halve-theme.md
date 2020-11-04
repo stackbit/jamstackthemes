@@ -10,5 +10,7 @@ cms:
 date: 2016-05-30T18:47:21.000Z
 github_branch: master
 description: Stylish Two-Column Jekyll Theme
-stale: false
+stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

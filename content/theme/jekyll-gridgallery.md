@@ -13,4 +13,6 @@ description: >-
   A responsive grid gallery based on the [Google Chromebook getting
   started](https://gweb-gettingstartedguide.appspot.com/) guide gallery. 
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

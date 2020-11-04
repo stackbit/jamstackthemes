@@ -47,12 +47,13 @@ const loadThemeFrontMatter = fileName => {
     let description = frontmatter.description;
     let draft = frontmatter.draft;
     let disabled = frontmatter.disabled;
-    let repoUrl = frontmatter.github
+    let repoUrl = frontmatter.github;
     let repoName = gh(frontmatter.github).repo; // stackbithq/stackbit-theme-fresh
+    let demoUrl = frontmatter.demo;
     let branch = frontmatter.github_branch;
     let themeKey = repoName.replace("/", "-").toLowerCase() + "-" + branch;
     let file = fileName;
-    return { title, description, file, repoUrl, repoName, branch, themeKey, disabled, draft }
+    return { title, description, file, repoUrl, repoName, demoUrl, branch, themeKey, disabled, draft }
   }
   catch {
     throw new Error(`${fileName} invalid github frontmatter`)
@@ -109,7 +110,8 @@ const getThemeGithubData = (theme) => {
         github_username: res.data.owner.login,
         repo: res.data.full_name,
         branch: defaultBranch,
-        url: res.data.html_url,
+        github_url: res.data.html_url,
+        demo_url: theme.demoUrl,
         stars: res.data.stargazers_count,
         forks: res.data.forks_count,
         open_issues: res.data.open_issues_count,
@@ -136,6 +138,32 @@ const getThemeGithubData = (theme) => {
       }
       throw err
     });
+}
+
+
+const checkDemoUrl = (theme) => {
+  return axios.get(theme.demoUrl).then((res) => {
+    console.log(`${theme.demoUrl} => checking Demo URL - ${res.status}`);
+    return true;
+  }).catch(err => {
+    if (err) {
+      if (err.response) {
+        if (err.response.status === 404) {
+          console.log(`${theme.demoUrl} => checking Demo URL - ${err.response.status}`);
+          updateMarkdown.updateFrontmatter(theme.file, {
+            disabled: true,
+            disabled_reason: "demo url not found"
+          });
+        }
+      } else if (err.code === "ENOTFOUND") {
+        console.log(`${theme.demoUrl} => checking Demo URL - ${err.response.status}`);
+        updateMarkdown.updateFrontmatter(theme.file, {
+          disabled: true,
+          disabled_reason: "demo url not found"
+        });
+      }
+    }
+  });
 }
 
 const getImages = (theme) => {
@@ -172,7 +200,7 @@ const getThemes = async () => {
         return false;
       }
     }
-    // if the cli command --latest is used, only fetch themes which do exist in `data/themes.json`
+    // if the cli command --latest is used, only fetch new themes which don't already exist in `data/themes.json`
     if (argv.latest) {
       if (themesData[theme.themeKey]) {
         filterCounts.latest += 1
@@ -181,7 +209,7 @@ const getThemes = async () => {
     }
     // if the cli command --file=hugo-swift-theme.md is used, only fetch that specific theme
     if (argv.file) {
-      if (argv.file !== themesData[theme.themeKey].file) {
+      if (argv.file !== theme.file) {
         filterCounts.skipped += 1
         return false
       }
@@ -205,8 +233,8 @@ const getThemes = async () => {
     }))
   }
 
-  const screenshots = filteredThemesFrontMatter.map(theme => {
-    return getImages(theme)
+  const demos = filteredThemesFrontMatter.map(theme => {
+    return checkDemoUrl(theme)
   })
 
   // Check if any of the allSettled promises failed.

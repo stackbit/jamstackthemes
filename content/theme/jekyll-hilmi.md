@@ -11,4 +11,6 @@ date: 2017-01-01T14:27:40.000Z
 github_branch: master
 description: jekyll-hilmi is the minimal jekyll theme that focuses on writing matters.
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

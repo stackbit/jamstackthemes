@@ -11,4 +11,6 @@ date: 2015-03-17T10:26:55.000Z
 github_branch: master
 description: A minimal and mobile-first blog theme for Jekyll
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

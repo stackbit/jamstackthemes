@@ -10,5 +10,7 @@ cms:
 date: 2017-12-21T14:43:28.000Z
 github_branch: master
 description: Simple and Functional Hugo theme.
-stale: false
+stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -17,4 +17,6 @@ date: 2019-05-10T14:39:35.000Z
 github_branch: master
 description: Phantom a multipage theme with posts for Stackbit
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -11,4 +11,6 @@ date: 2016-03-29T12:52:40.000Z
 github_branch: master
 description: A Simple Jakyll Blog Theme.
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

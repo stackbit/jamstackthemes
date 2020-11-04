@@ -10,5 +10,5 @@ cms:
 date: 2017-10-21T09:52:00.000Z
 github_branch: master
 description: Basic gatsby-starter package
-stale: false
+stale: true
 ---

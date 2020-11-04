@@ -1,7 +1,7 @@
 ---
 title: Stackbit Starter Hugo
 github: 'https://github.com/stackbit-themes/stackbit-starter-hugo'
-demo: 'https://themes.stackbit.com/demos/starter/?hideThemeBar'
+demo: 'https://themes.stackbit.com/demos/starter/?themeBarFork=false'
 author: Stackbit
 ssg:
   - Hugo

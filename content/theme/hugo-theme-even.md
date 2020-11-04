@@ -11,4 +11,6 @@ date: 2017-08-28T09:20:45.000Z
 github_branch: master
 description: "\U0001F680 A super concise theme for Hugo https://blog.olowolo.com/example-site/"
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

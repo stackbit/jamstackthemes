@@ -11,4 +11,6 @@ date: 2018-10-05T13:57:23.000Z
 github_branch: master
 description: Clover theme for Hexo.
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

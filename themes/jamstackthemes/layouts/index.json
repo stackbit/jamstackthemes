@@ -1,6 +1,7 @@
 [{{ range $index, $theme := (where .Site.RegularPages "Type" "theme") }}{{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}{{ $repo := index .Site.Data.themes $repoName }}{{ if $index }},{{ end }}
   {
     "title": "{{ .Params.title }}",
+    "description": {{ if .Params.description }}"{{ .Params.description }}"{{ else }}""{{ end }},
     "theme_key": "{{ $repo.theme_key }}",
     "github": "{{ .Params.github }}",
     "demo": "{{ .Params.demo }}",
@@ -12,9 +13,9 @@
     "repo_name": "{{ $repo.name }}",
     "branch": "{{ $repo.branch }}",
     "repo": "{{ $repo.repo }}",
-    "stars": "{{ $repo.stars }}",
-    "forks": "{{ $repo.forks }}",
-    "open_issues":  "{{ $repo.open_issues }}",
+    "stars": {{ $repo.stars }},
+    "forks": {{ $repo.forks }},
+    "open_issues": {{ $repo.open_issues }},
     "last_commit": "{{ $repo.last_commit }}",
     "images": {
       "hires": {{ if $repo.images.hires }}"{{ $repo.images.hires }}"{{ else }}null{{ end }},

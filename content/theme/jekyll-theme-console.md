@@ -13,4 +13,6 @@ description: >-
   A jekyll theme inspired by linux consoles for hackers, developers and script
   kiddies.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

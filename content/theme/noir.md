@@ -8,7 +8,9 @@ github_branch: master
 ssg:
   - Jekyll
 cms:
-  - no-cms
+  - No Cms
 description: An automatic dark mode adaptation of the Poole theme for Jekyll.
 stale: false
+disabled: true
+disabled_reason: "demo url not found"
 ---

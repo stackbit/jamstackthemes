@@ -11,4 +11,6 @@ date: 2016-09-01T14:41:11.000Z
 github_branch: gh-pages
 description: Jekyll Instagram Portfolio Theme
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

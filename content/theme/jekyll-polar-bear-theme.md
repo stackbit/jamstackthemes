@@ -11,4 +11,6 @@ date: 2015-05-25T11:00:22.000Z
 github_branch: master
 description: ':snowflake: A lightweight theme for Jekyll'
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

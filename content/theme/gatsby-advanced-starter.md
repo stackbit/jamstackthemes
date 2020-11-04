@@ -15,4 +15,6 @@ description: >-
   A high performance skeleton starter for GatsbyJS that focuses on SEO/Social
   features/development environment.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -11,4 +11,6 @@ date: 2015-07-11T17:08:43.000Z
 github_branch: master
 description: A Jekyll theme based in Google Material Design Lite library.
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---
