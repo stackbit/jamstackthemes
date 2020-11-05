@@ -13,7 +13,7 @@ archetype:
   - Single Page
   - Blog
   - Portfolio
-description: This is a port of the 'Dark Portfolio Template" by W3C to 11ty!
+description: This is a port of the Dark Portfolio Template by W3C to 11ty!
 stale: false
 ---
 

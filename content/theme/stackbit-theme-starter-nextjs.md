@@ -13,6 +13,6 @@ date: 2020-10-28T00:00:00.000Z
 github_branch: master
 description: An ultra customizable starter for Nextjs and Stackbit.
 stackbit: >-
-  http://app.stackbit.com/create?theme=https://github.com/stackbit-themes/stackbit-starter-nextjs
+  https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/stackbit-starter-nextjs
 stale: false
 ---
