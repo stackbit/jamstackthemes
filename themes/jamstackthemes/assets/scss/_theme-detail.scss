@@ -55,6 +55,10 @@
         background-color: $primary;
         color: white;
       }
+      &.theme-button-link {
+        border: none;
+        text-decoration: underline;
+      }
     }
   }
   .theme-detail-heading {
