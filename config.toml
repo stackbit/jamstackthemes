@@ -10,7 +10,6 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 
-
 [params]
   google_analytics_id = ""
   description = "A list of Themes and Starters for JAMstack Sites."
@@ -18,6 +17,7 @@ pygmentsUseClasses = true
   banner_text = "Announcing the Stackbit Control Center for managing modern websites. 🤙👩🏼‍🎤🔥"
   banner_link = "https://www.stackbit.com/control-center/"
   banner_link_text = "Try It Now"
+  stackbit_button = false
   [theme_card]
     show_archetype_icons = false
     show_services_icons = false

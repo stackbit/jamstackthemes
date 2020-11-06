@@ -34,8 +34,10 @@
                 <div class="theme-buttons theme-detail-buttons">
                     <a class="button theme-button-github" href="{{ .Params.github }}" target="_blank" rel="nofollow noopener">Github</a>
                     <a class="button theme-button-demo" href="{{ .Params.demo }}" target="_blank" rel="nofollow noopener">Live Demo</a>
-                    {{ if .Params.stackbit }}
-                    <a class="theme-button theme-button-stackbit" href="{{ .Params.stackbit }}" target="_blank" rel="noopener nofollow">Stackbit</a>
+                    {{ if .Site.Params.stackbit_button }}
+                        {{ if .Params.stackbit }}
+                            <a class="theme-button theme-button-stackbit" href="{{ .Params.stackbit }}" target="_blank" rel="noopener nofollow">Stackbit</a>
+                        {{ end }}
                     {{ end }}
                 </div>
 
