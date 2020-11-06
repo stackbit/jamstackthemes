@@ -83,7 +83,11 @@
       color: $primary;
       text-decoration: none;
       &:hover {
-        background: $primary;
+        color: $primary;
+        opacity: 0.8;
+      }
+      &.theme-button-fill {
+        background-color: $primary;
         color: white;
       }
     }

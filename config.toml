@@ -17,7 +17,7 @@ pygmentsUseClasses = true
   banner_text = "Announcing the Stackbit Control Center for managing modern websites. 🤙👩🏼‍🎤🔥"
   banner_link = "https://www.stackbit.com/control-center/"
   banner_link_text = "Try It Now"
-  stackbit_button = false
+  stackbit_button = true
   [theme_card]
     show_archetype_icons = false
     show_services_icons = false

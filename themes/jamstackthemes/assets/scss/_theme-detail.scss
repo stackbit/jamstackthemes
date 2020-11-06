@@ -38,9 +38,23 @@
 
   .theme-detail-buttons {
     margin-top: 20px;
-    a {
-      @extend .button;
+    .theme-button {
       display: inline-block;
+      padding: 9px 17px;
+      border: 1px solid $primary;
+      border-radius: 4px;
+      font-size: 16px;
+      margin-right: 5px;
+      color: $primary;
+      text-decoration: none;
+      &:hover {
+        color: $primary;
+        opacity: 0.8;
+      }
+      &.theme-button-fill {
+        background-color: $primary;
+        color: white;
+      }
     }
   }
   .theme-detail-heading {
