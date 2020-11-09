@@ -1295,6 +1295,10 @@
     "theme_key": "gkmngrgn-hugo-alageek-theme-master",
     "stackbit": "https://app.stackbit.com/create?theme=https://github.com/gkmngrgn/hugo-alageek-theme"
   },
+  "gmlunesa-gatsby-starter-personal-portfolio-master": {
+    "theme_key": "gmlunesa-gatsby-starter-personal-portfolio-master",
+    "stackbit": "https://app.stackbit.com/create?theme=https://github.com/gmlunesa/gatsby-starter-personal-portfolio"
+  },
   "gonapps-org-hugo-apps-theme-master": {
     "theme_key": "gonapps-org-hugo-apps-theme-master",
     "stackbit": "https://app.stackbit.com/create?theme=https://github.com/gonapps-org/hugo-apps-theme"
@@ -1334,6 +1338,10 @@
   "guovz-pithy-master": {
     "theme_key": "guovz-pithy-master",
     "stackbit": "https://app.stackbit.com/create?theme=https://github.com/guovz/pithy"
+  },
+  "gurusabarish-hugo-profile-master": {
+    "theme_key": "gurusabarish-hugo-profile-master",
+    "stackbit": "https://app.stackbit.com/create?theme=https://github.com/gurusabarish/hugo-profile"
   },
   "gustavoquinalha-jekyll-help-center-theme-master": {
     "theme_key": "gustavoquinalha-jekyll-help-center-theme-master",
@@ -2019,9 +2027,9 @@
     "theme_key": "lwz7512-gatsby-netlify-identity-starter-master",
     "stackbit": "https://app.stackbit.com/create?theme=https://github.com/lwz7512/gatsby-netlify-identity-starter"
   },
-  "lyket-dev-demos-master": {
-    "theme_key": "lyket-dev-demos-master",
-    "stackbit": "https://app.stackbit.com/create?theme=https://github.com/lyket-dev/demos/tree/main/nextjs-blog"
+  "lyket-dev-nextjs-simple-blog-theme-master": {
+    "theme_key": "lyket-dev-nextjs-simple-blog-theme-master",
+    "stackbit": "https://app.stackbit.com/create?theme=https://github.com/lyket-dev/nextjs-simple-blog-theme"
   },
   "macrod68-jekyll-materialize-starter-template-master": {
     "theme_key": "macrod68-jekyll-materialize-starter-template-master",
@@ -3107,6 +3115,10 @@
     "theme_key": "stackbithq-stackbit-theme-vanilla-master",
     "stackbit": "https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-vanilla"
   },
+  "stackrole-gatsby-starter-foundation-master": {
+    "theme_key": "stackrole-gatsby-starter-foundation-master",
+    "stackbit": "https://app.stackbit.com/create?theme=https://github.com/stackrole/gatsby-starter-foundation"
+  },
   "staticmania-roxo-hugo-master": {
     "theme_key": "staticmania-roxo-hugo-master",
     "stackbit": "https://app.stackbit.com/create?theme=https://github.com/StaticMania/roxo-hugo"
@@ -3191,6 +3203,10 @@
     "theme_key": "szhielelp-jekylltheme-projectgaia-master",
     "stackbit": "https://app.stackbit.com/create?theme=https://github.com/szhielelp/JekyllTheme-ProjectGaia"
   },
+  "sziv2p-jekyll-theme-scaffold-master": {
+    "theme_key": "sziv2p-jekyll-theme-scaffold-master",
+    "stackbit": "https://app.stackbit.com/create?theme=https://github.com/sziv2p/jekyll-theme-scaffold"
+  },
   "t413-singlepaged-master": {
     "theme_key": "t413-singlepaged-master",
     "stackbit": "https://app.stackbit.com/create?theme=https://github.com/t413/SinglePaged"
@@ -3218,6 +3234,10 @@
   "tblyler-light-hugo-master": {
     "theme_key": "tblyler-light-hugo-master",
     "stackbit": "https://app.stackbit.com/create?theme=https://github.com/tblyler/light-hugo"
+  },
+  "tcbutler320-jekyll-theme-dumbarton-master": {
+    "theme_key": "tcbutler320-jekyll-theme-dumbarton-master",
+    "stackbit": "https://app.stackbit.com/create?theme=https://github.com/tcbutler320/Jekyll-Theme-Dumbarton"
   },
   "teaware-gatsby-starter-point-master": {
     "theme_key": "teaware-gatsby-starter-point-master",
@@ -3466,6 +3486,10 @@
   "vantagedesign-ace-documentation-master": {
     "theme_key": "vantagedesign-ace-documentation-master",
     "stackbit": "https://app.stackbit.com/create?theme=https://github.com/vantagedesign/ace-documentation"
+  },
+  "vercel-next.js-master": {
+    "theme_key": "vercel-next.js-master",
+    "stackbit": "https://app.stackbit.com/create?theme=https://github.com/vercel/next.js/tree/canary/examples/cms-cosmic"
   },
   "vfalanis-taken-master": {
     "theme_key": "vfalanis-taken-master",

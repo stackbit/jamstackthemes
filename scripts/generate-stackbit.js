@@ -39,8 +39,8 @@ const loadThemeFrontMatter = fileName => {
 const generateStackbit = (theme) => {
       const defaultBranch = theme.branch ? theme.branch : "master";
       const themeKey = theme.repoName.replace("/", "-").toLowerCase() + "-" + defaultBranch;
-      const allowedSsgs = ["Hugo", "Jekyll", "Gatsby", "Next", "Eleventy", "Vuepress", "Gridsome"]
-      if (theme.ssg.some(ssg => allowedSsgs.includes(ssg))) {
+      const allowedSsgs = ["hugo", "jekyll", "gatsby", "next", "eleventy", "vuepress", "gridsome"]
+      if (theme.ssg.some(ssg => allowedSsgs.includes(ssg.toLowerCase()))) {
         themesData[themeKey] = {
           theme_key: themeKey,
           stackbit: `https://app.stackbit.com/create?theme=${theme.repoUrl}`
