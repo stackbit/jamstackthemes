@@ -9,7 +9,7 @@ cms:
   - Stackbit
 css:
   - SCSS
-date: 2020-10-28T00:00:00.000Z
+date: 2020-08-18T00:00:00.000Z
 github_branch: master
 description: An ultra customizable starter for Hugo and Stackbit.
 stackbit: >-

@@ -1,9 +1,9 @@
 ---
-title: "Gatsby Personal Portfolio"
-github: https://github.com/gmlunesa/gatsby-starter-personal-portfolio
-demo: https://gatsby-starter-personal-portfolio.vercel.app/
+title: Gatsby Personal Portfolio
+github: 'https://github.com/gmlunesa/gatsby-starter-personal-portfolio'
+demo: 'https://gatsby-starter-personal-portfolio.vercel.app/'
 author: gmlunesa
-date: 2020-10-28
+date: 2020-10-28T00:00:00.000Z
 github_branch: main
 ssg:
   - Gatsby
@@ -16,6 +16,7 @@ archetype:
   - Portfolio
   - Personal
 description: This theme is a minimalistic resume style Gatsby portfolio
+stale: false
 ---
 
 # A minimalistic resume style Gatsby portfolio

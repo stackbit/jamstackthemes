@@ -15,5 +15,5 @@ archetype:
 date: 2019-05-13T17:02:32.000Z
 github_branch: master
 description: Portfolio client designed with creative agencies in mind.
-stale: false
+stale: true
 ---

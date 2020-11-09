@@ -1,9 +1,9 @@
 ---
-title: "Hugo-profile"
-github: https://github.com/gurusabarish/hugo-profile
-demo: https://hugo-profile.netlify.app
+title: Hugo-profile
+github: 'https://github.com/gurusabarish/hugo-profile'
+demo: 'https://hugo-profile.netlify.app'
 author: GuruSabarish
-date: 2020-10-22
+date: 2020-10-22T00:00:00.000Z
 github_branch: master
 ssg:
   - Hugo
@@ -15,6 +15,7 @@ archetype:
   - Blog
   - Portfolio
 description: The fastest Hugo theme for personal portfolio and blog.
+stale: false
 ---
 
 

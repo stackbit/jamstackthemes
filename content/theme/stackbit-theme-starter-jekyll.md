@@ -9,7 +9,7 @@ cms:
   - Stackbit
 css:
   - SCSS
-date: 2020-10-28T00:00:00.000Z
+date: 2020-06-10T00:00:00.000Z
 github_branch: master
 description: An ultra customizable starter for Jekyll and Stackbit.
 stackbit: >-
