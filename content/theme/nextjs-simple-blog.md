@@ -1,6 +1,6 @@
 ---
 title: NextJS simple blog
-github: 'https://github.com/lyket-dev/demos/tree/main/nextjs-blog'
+github: 'https://github.com/lyket-dev/nextjs-simple-blog-theme'
 demo: 'https://nextjs-simple-blog.netlify.app/'
 author: Lyket
 date: 2020-10-21T00:00:00.000Z
@@ -15,9 +15,6 @@ archetype:
 description: >-
   A simple NextJS blog powered by Lyket to support like, clap and like/dislike
   buttons!
-stale: false
-disabled: true
-disabled_reason: github repo links to a a nested folder
 ---
 
 # A simple starter blog for NextJS with feedback buttons
