@@ -2,12 +2,12 @@
 title: Gatsby Ecommerce
 github: 'https://github.com/a9kitkumar/Gatsby-Ecommerce'
 demo: 'https://cosmicjs.com/apps/gatsby-ecommerce-website/demo'
-author: Cosmic JS
+author: Cosmic
 ssg:
   - Gatsby
 cms:
-  - No Cms
+  - Cosmic
 date: 2019-04-26T22:45:03.000Z
 github_branch: master
-stale: true
+stale: false
 ---
