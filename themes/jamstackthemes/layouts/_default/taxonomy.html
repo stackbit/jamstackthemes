@@ -16,7 +16,7 @@
       <h1 class="heading-title">{{.Title}} Themes <span class="count">({{ $themeCount }})</span></h1>
     </div>
 
-    {{ $url := urls.Parse .Params.official_url }}		
+    {{ $url := urls.Parse .Params.official_url }}
     <div class="official-website"><strong>Official Website:</strong> <a href="{{ .Params.official_url }}">{{ $url.Host }}</a></div>
   </div>
   {{ partial "breadcrumbs.html" . }}
@@ -24,9 +24,10 @@
   <div id="grids-taxonomy" class="grids">
     {{ $paginator := .Paginate .RegularPages.ByPublishDate.Reverse }}
     {{ range $paginator.Pages }}
-    {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
-    {{ $repo := index .Site.Data.themes $repoName }}
-      {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
+      {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
+      {{ $repo := index .Site.Data.themes $repoName }}
+      {{ $stackbit := index .Site.Data.stackbit $repoName }}
+      {{ partial "theme-card.html" (dict "theme" . "repo" $repo "site" $.Site "stackbit" $stackbit) }}
     {{ end }}
   </div>
   {{ $paginator := .Paginator }}
