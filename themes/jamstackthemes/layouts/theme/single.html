@@ -5,6 +5,7 @@
 
 {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
 {{ $repo := index .Site.Data.themes $repoName }}
+{{ $stackbit := index .Site.Data.stackbit $repoName }}
 
 <div class="main">
     <div class="theme theme-detail" data-name="{{ .Title }}">
@@ -33,12 +34,12 @@
 
                 <div class="theme-buttons theme-detail-buttons">
                     {{ if .Site.Params.stackbit_button }}
-                    {{ if .Params.stackbit }}
-                    <a class="theme-button theme-button-fill theme-button-stackbit" href="{{ .Params.stackbit }}" target="_blank" rel="noopener nofollow">Create Site</a>
+                    {{ if $stackbit }}
+                    <a class="theme-button theme-button-fill theme-button-stackbit" href="{{ $stackbit.stackbit }}" target="_blank" rel="noopener nofollow">Create Site</a>
                     {{ end }}
                     {{ end }}
                     <a class="theme-button theme-button-github" href="{{ .Params.github }}" target="_blank" rel="nofollow noopener">Github</a>
-                    <a class="theme-button theme-button-link theme-button-demo" href="{{ .Params.demo }}" target="_blank" rel="nofollow noopener">Live Demo</a>
+                    <a class="theme-button theme-button-demo" href="{{ .Params.demo }}" target="_blank" rel="nofollow noopener">Live Demo</a>
 
                 </div>
 

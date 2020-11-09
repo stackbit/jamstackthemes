@@ -49,12 +49,12 @@
     {{ end }}
     <div class="theme-buttons">
       {{ if .site.Params.stackbit_button }}
-      {{ if .theme.Params.stackbit }}
-      <a class="theme-button theme-button-fill theme-button-stackbit" href="{{ .theme.Params.stackbit }}" target="_blank" rel="noopener nofollow">Create Site</a>
+      {{ if .stackbit }}
+      <a class="theme-button theme-button-fill theme-button-stackbit" href="{{ .stackbit.stackbit }}" target="_blank" rel="noopener nofollow">Create Site</a>
       {{ end }}
       {{ end }}
       <a class="theme-button theme-button-github" href="{{ .theme.Params.github }}" target="_blank" rel="noopener nofollow">Github</a>
-      <a class="theme-button theme-button-link theme-button-demo" href="{{ .theme.Params.demo }}" target="_blank" rel="noopener nofollow">Live Demo</a>
+      <a class="theme-button theme-button-demo" href="{{ .theme.Params.demo }}" target="_blank" rel="noopener nofollow">Live Demo</a>
 
     </div>
     {{ if .theme.Params.description }}
