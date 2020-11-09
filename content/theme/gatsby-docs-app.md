@@ -2,13 +2,13 @@
 title: Gatsby Docs App
 github: 'https://github.com/cosmicjs/gatsby-docs-app'
 demo: 'https://cosmicjs.com/apps/gatsby-docs/demo'
-author: Cosmic JS
+author: Cosmic
 ssg:
   - Gatsby
 cms:
-  - No Cms
+  - Cosmic
 date: 2019-02-11T17:12:40.000Z
 github_branch: master
-description: Create and view documentation using Gatsby and Cosmic JS
-stale: true
+description: Create and view documentation using Gatsby and Cosmic
+stale: false
 ---
