@@ -3,7 +3,7 @@
   id="{{ .theme.Params.Title | urlize }}"
   class="grid theme theme-card {{ .classes }} {{ range .theme.Params.ssg }}{{ . | urlize }} {{ end }}{{ range .theme.Params.cms }}{{ . | urlize }} {{end}}{{ range .theme.Params.css }}{{ . | urlize }} {{end}}{{ range .theme.Params.archetype }}{{ . | urlize }} {{end}}{{ range .theme.Params.services }}{{ . | urlize }} {{end}}"
   data-stars="{{ if .repo }}{{ .repo.stars }}{{ else }}0{{ end }}"
-  data-last-commit="{{ if .repo }}{{ .repo.last_commit }}{{ end }}"
+  data-last-commit="{{ if .repo }}{{ .repo.last_commit }}{{ else }} XXX {{ end }}"
   data-submitted="{{ .theme.Lastmod.Format "Jan 2, 2006" }}"
   data-name="{{ .theme.Title }}"
 >
@@ -48,12 +48,13 @@
       <p><strong>Last Commit:</strong> {{ dateFormat "Jan 2, 2006" .repo.last_commit }}</p>
     {{ end }}
     <div class="theme-buttons">
-      {{ if .site.Params.stackbit_button }}
-      <a class="theme-button theme-button-fill theme-button-stackbit" href="{{ .theme.Params.github }}" target="_blank" rel="noopener nofollow">Create Site</a>
-      {{ end }}
       <a class="theme-button theme-button-github" href="{{ .theme.Params.github }}" target="_blank" rel="noopener nofollow">Github</a>
       <a class="theme-button theme-button-demo" href="{{ .theme.Params.demo }}" target="_blank" rel="noopener nofollow">Live Demo</a>
-
+      {{ if .site.Params.stackbit_button }}
+      {{ if .theme.Params.stackbit }}
+      <a class="theme-button theme-button-fill theme-button-stackbit" href="{{ .theme.Params.stackbit }}&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=card" target="_blank" rel="noopener nofollow">Create Site</a>
+      {{ end }}
+      {{ end }}
     </div>
     {{ if .theme.Params.description }}
       <p class="description">{{ .theme.Params.description | truncate 80 }}</p>
