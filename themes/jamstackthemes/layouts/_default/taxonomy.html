@@ -7,7 +7,10 @@
 {{ end }}
 
 {{ define "main" }}
-{{ $themeCount := len .Pages }}
+{{ $themes := .RegularPages }}
+{{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themes := (where $themes ".Params.disabled" "!=" true) }}
+{{ $themeCount := len $themes}}
 
 <div class="main">
   <div class="hero">
@@ -22,7 +25,7 @@
   {{ partial "breadcrumbs.html" . }}
 
   <div id="grids-taxonomy" class="grids">
-    {{ $paginator := .Paginate .RegularPages.ByPublishDate.Reverse }}
+    {{ $paginator := .Paginate $themes }}
     {{ range $paginator.Pages }}
       {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
       {{ $repo := index .Site.Data.themes $repoName }}
