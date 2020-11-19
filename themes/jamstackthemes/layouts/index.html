@@ -42,9 +42,7 @@
       {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
       {{ $repo := index .Site.Data.themes $repoName }}
       {{ $stackbit := index .Site.Data.stackbit $repoName }}
-        <div class="grid">
-          {{ partial "theme-card.html" (dict "theme" . "repo" $repo "site" $.Site "stackbit" $stackbit) }}
-        </div>
+      {{ partial "theme-card.html" (dict "theme" . "repo" $repo "site" $.Site "stackbit" $stackbit) }}
     {{ end }}
   </div>
 

@@ -1,8 +1,7 @@
-
 .blurb {
   display: none;
   color: #333;
-  @include breakpoint('small') {
+  @include breakpoint('medium') {
     display: block;
   }
   &.blurb-mobile {
@@ -11,7 +10,7 @@
     margin-bottom: 10px;
     font-size: 16px;
     line-height: 20px;
-    @include breakpoint('small') {
+    @include breakpoint('medium') {
       display: none;
     }
   }
@@ -21,7 +20,7 @@
     line-height: 24px;
     margin-bottom: 15px;
     width: 75%;
-    @include breakpoint('small') {
+    @include breakpoint('medium') {
       display: block;
     }
   }

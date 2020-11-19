@@ -1,7 +1,7 @@
 .intro {
   display: flex;
   flex-direction: column;
-  @include breakpoint('small') {
+  @include breakpoint('medium') {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
@@ -11,7 +11,7 @@
     font-size: 24px;
     font-weight: 400;
     margin-bottom: 10px;
-    @include breakpoint('small') {
+    @include breakpoint('medium') {
       margin-right: 20px;
       font-size: 40px;
       margin-bottom: 0px;
@@ -21,7 +21,7 @@
     font-size: 16px;
     line-height: 22px;
     font-weight: 400;
-    @include breakpoint('small') {
+    @include breakpoint('medium') {
       font-size: 16px;
     }
   }
@@ -45,7 +45,7 @@
   p {
     font-size: 15px;
     line-height: 23px;
-    @include breakpoint('small') {
+    @include breakpoint('medium') {
       font-size: 18px;
       line-height: 26px;
     }

@@ -2,28 +2,29 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: -20px;
-  margin-right: -20px;
+  margin-left: -15px;
+  margin-right: -15px;
   position: relative;
-  @include breakpoint('small') {
+  @include breakpoint('medium') {
     justify-content: flex-start;
+    margin-left: -15px;
+    margin-right: -15px
+  }
+  @include breakpoint('large') {
+    margin-left: -20px;
+    margin-right: -20px
   }
   .grid {
-    width: 33.33%;
-    padding: 20px;
-    @include breakpoint('small') {
-      width: 33.33%;
-      padding: 20px;
+    padding: 15px;
+    width: 100%;
+
+    @include breakpoint('medium') {
+      padding: 15px;
+      width: 50%;
     }
-  }
-  .grid-large {
-    max-width: 282px;
-    width: auto;
-    margin: 10px 15px;
-    @include breakpoint('small') {
-      max-width: none;
-      width: 480px;
-      margin: 15px;
+    @include breakpoint('large') {
+      padding: 20px;
+      width: 33.33%;
     }
   }
 }

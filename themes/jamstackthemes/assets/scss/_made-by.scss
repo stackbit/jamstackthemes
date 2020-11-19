@@ -1,9 +1,9 @@
 .made-by {
   margin-top: auto;
-  color: $steel;
+  color: $carbon;
   font-size: 15px;
   line-height: 17px;
-  padding: 0px 20px;
+  font-weight: 600;
   span {
     display: inline-block;
     vertical-align: middle;
@@ -12,10 +12,12 @@
     color: $primary;
     display: inline-block;
     vertical-align: middle;
+    text-decoration: none;
   }
   img {
     display: inline-block;
     vertical-align: middle;
+    float: right;
   }
   &.made-by-desktop {
     display: none;
@@ -36,5 +38,5 @@
      display: none;
     }
   }
-  
+
 }

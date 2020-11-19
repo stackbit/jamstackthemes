@@ -12,21 +12,25 @@
   position: relative;
   z-index: 1;
   min-height: 340px;
-  &:hover {
-    transform: translateY(-2px);
-    transition: box-shadow 0.2s ease-out, transform 0.2s ease-out;
-    box-shadow: 1px 4px 12px 2px adjust-color($primary, $alpha: -0.8);
-    color: currentColor;
-  }
+  //&:hover {
+  //  transform: translateY(-2px);
+  //  transition: box-shadow 0.2s ease-out, transform 0.2s ease-out;
+  //  box-shadow: 1px 4px 12px 2px adjust-color($primary, $alpha: -0.8);
+  //  color: currentColor;
+  //}
   .theme-header {
     border-bottom: 1px solid $grey;
     max-height: 180px;
     overflow: hidden;
+    @include breakpoint(large) {
+      max-height: 220px;
+    }
     a {
       display: block;
     }
     img {
       max-width: 100%;
+      width: 100%;
       height: auto;
       vertical-align: bottom;
     }

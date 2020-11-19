@@ -8,21 +8,6 @@
   }
 }
 .header {
-  //border-top: 4px solid $primary;
-  border-bottom: 1px solid $grey;
-  padding: 0 15px;
-  background-color: white;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: fixed;
-  width: 100%;
-  z-index: 10;
-  @include breakpoint('small') {
-    padding: 0 15px;
-    height: 60px;
-  }
   .header-left {
     display: flex;
   }

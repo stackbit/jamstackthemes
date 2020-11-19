@@ -1,7 +1,7 @@
 
 <div
   id="{{ .theme.Params.Title | urlize }}"
-  class="theme theme-card {{ .classes }} {{ range .theme.Params.ssg }}{{ . | urlize }} {{ end }}{{ range .theme.Params.cms }}{{ . | urlize }} {{end}}{{ range .theme.Params.css }}{{ . | urlize }} {{end}}{{ range .theme.Params.archetype }}{{ . | urlize }} {{end}}{{ range .theme.Params.services }}{{ . | urlize }} {{end}}"
+  class="grid {{ .classes }} {{ range .theme.Params.ssg }}{{ . | urlize }} {{ end }}{{ range .theme.Params.cms }}{{ . | urlize }} {{end}}{{ range .theme.Params.css }}{{ . | urlize }} {{end}}{{ range .theme.Params.archetype }}{{ . | urlize }} {{end}}{{ range .theme.Params.services }}{{ . | urlize }} {{end}}"
   data-stars="{{ if .repo }}{{ .repo.stars }}{{ else }}0{{ end }}"
   data-last-commit="{{ if .repo }}{{ .repo.last_commit }}{{ else }} XXX {{ end }}"
   data-submitted="{{ .theme.Lastmod.Format "Jan 2, 2006" }}"
@@ -11,7 +11,7 @@
   {{ if ne .theme.Params.github_branch "master" }}
     {{ $githubLink = (printf "%s/%s/%s" $githubLink "tree" .theme.Params.github_branch)}}
   {{ end }}
-
+  <div class="theme theme-card">
     <a href="{{ .theme.Permalink }}" title="{{ .theme.Params.title }}" class="theme-header">
       {{ if .theme.Params.thumbnail }}
       <img loading="lazy" src="{{ .theme.Params.thumbnail | relURL }}" alt="{{ .theme.Params.title }} screenshot" class="theme-screenshot"/>
@@ -120,5 +120,6 @@
     {{ end }}
 
   {{ end }}
+  </div>
   </div>
 </div>

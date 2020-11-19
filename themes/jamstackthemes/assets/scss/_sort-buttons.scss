@@ -25,8 +25,11 @@
     margin-bottom: 5px;
     margin-right: 5px;
     cursor: pointer;
-    @include breakpoint('small') {
+    @include breakpoint('medium') {
       margin-bottom: 0;
+      padding: 10px 15px;
+      font-size: 14px;
+      margin-right: 10px;
     }
     &:hover {
       border-color: $primary;
@@ -39,7 +42,10 @@
     &.mixitup-control-active {
       background: $primary;
       color: white;
+      &:hover {
+        opacity: 1;
+      }
     }
   }
-  
+
 }
