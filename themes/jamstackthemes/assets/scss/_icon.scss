@@ -20,7 +20,7 @@ a.icon {
   border: 1px solid $grey;
   border-radius: 3px;
   background-color: white;
-  box-shadow: 1px 1px 8px 2px adjust-color(black, $alpha: -0.9);
+  //box-shadow: 1px 1px 8px 2px adjust-color(black, $alpha: -0.9);
   padding: 5px;
   margin-right: 5px;
   @include breakpoint('small') {

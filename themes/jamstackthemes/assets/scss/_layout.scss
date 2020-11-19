@@ -10,6 +10,8 @@
     width: 100%;
     z-index: 10;
     border-bottom: 1px solid $grey;
+    display: flex;
+    align-items: center;
     @include breakpoint('medium') {
       height: 60px;
     }
@@ -24,18 +26,6 @@
       align-items: center;
       justify-content: space-between;
       padding: 0 15px;
-      @include breakpoint('small') {
-        padding: 0 20px;
-        max-width: 360px;
-      }
-      @include breakpoint('medium') {
-        padding: 0 30px;
-        max-width: 720px;
-      }
-      @include breakpoint('large') {
-        padding: 0 60px;
-        max-width: 1200px;
-      }
     }
     &.header-fullwidth {
       .header-inner {
@@ -128,4 +118,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 100%;
+  margin: 0 auto;
+  @include breakpoint('small') {
+    padding: 0 20px;
+    max-width: 400px;
+  }
+  @include breakpoint('medium') {
+    padding: 0 30px;
+    max-width: 720px;
+  }
+  @include breakpoint('large') {
+    padding: 0 60px;
+    max-width: 1200px;
+  }
 }

@@ -18,25 +18,23 @@
     display: inline-block;
     vertical-align: middle;
     margin: 0;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 400;
     @include breakpoint('small') {
-      font-size: 40px;
-      line-height: 44px;
+      font-size: 30px;
+      line-height: 36px;
       margin-bottom: 0px;
     }
   }
   .intro-description {
     display: none;
-    color: #333;
+    color: $carbon;
     padding: 10px 0 10px 0;
     @include breakpoint('medium') {
       display: block;
     }
     &.intro-description-mobile {
       display: block;
-      padding: 0;
-      margin-bottom: 10px;
       font-size: 16px;
       line-height: 20px;
       @include breakpoint('medium') {
@@ -47,7 +45,6 @@
       display: none;
       font-size: 18px;
       line-height: 24px;
-      margin-bottom: 15px;
       width: 75%;
       @include breakpoint('medium') {
         display: block;

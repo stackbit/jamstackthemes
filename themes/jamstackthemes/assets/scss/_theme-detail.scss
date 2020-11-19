@@ -1,89 +1,112 @@
 .theme-detail {
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  max-width: 1200px;
+  width: 100%;
   .theme-detail-top {
-    display: flex;
-    flex-direction: column;
-    @include breakpoint('medium') {
-      flex-direction: row;
-    }
-    .theme-detail-info {
-      flex: 1;
-      @include breakpoint('medium') {
-        min-width: 460px;
-        padding-right: 60px;
+    background-image: url(/images/material-design-4k-wallpaper-greyscale.png);
+    //background-image: url(/images/patterns/Kander.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //background-color: antiquewhite;
+    background-color: #fdf5dd;
+    background-blend-mode: overlay;
+    //background-color: #cdf3fd;
+    width: 100%;
+    .theme-detail-header {
+      padding: 60px 0 60px 0;
+      display: flex;
+      flex-direction: column;
+      .theme-detail-info {
+        margin-bottom: 40px;
+        .theme-detail-heading {
+          font-size: 46px;
+          font-weight: normal;
+          margin-bottom: 10px;
+        }
+        .theme-detail-description {
+          margin-bottom: 20px;
+          font-size: 18px;
+          line-height: 1.4;
+          color: $steel;
+        }
+        .theme-detail-github {
+          padding: 20px 0 20px 0;
+          display: flex;
+          align-items: center;
+          font-size: 20px;
+          line-height: 24px;
+          > div {
+            margin-right: 14px;
+            background-size: 20px 20px;
+            background-repeat: no-repeat;
+            padding-left: 26px;
+            vertical-align: middle;
+            opacity: 0.8;
+          }
+          .stars {
+            background-image: url("../images/ui/star.svg");
+          }
+          .issues {
+            background-image: url("../images/ui/issues.svg");
+          }
+          .forks {
+            background-image: url("../images/ui/forks.svg");
+          }
+        }
+        .theme-detail-buttons {
+          margin-top: 20px;
+          .theme-button {
+            display: inline-block;
+            padding: 9px 17px;
+            border: 1px solid $primary;
+            border-radius: 4px;
+            font-size: 16px;
+            margin-right: 5px;
+            color: $primary;
+            text-decoration: none;
+            &:hover {
+              color: $primary;
+              opacity: 0.8;
+            }
+            &.theme-button-fill {
+              background-color: $primary;
+              color: white;
+            }
+            &.theme-button-link {
+              border: none;
+              text-decoration: underline;
+            }
+          }
+        }
+        .theme-detail-tags {
+          margin-top: 20px;
+          display: inline-block;
+          border-radius: 3px;
+          .icon {
+            margin-bottom: 10px;
+            @include breakpoint('medium') {
+              margin-bottom: 10px;
+            }
+          }
+        }
       }
-    }
-    .theme-detail-preview {
-      margin-top: 20px;
-      max-width: 700px;
-      @include breakpoint('medium') {
-        margin-top: 0;
+      .theme-detail-preview {
+        flex: 1;
+        .theme-detail-image {
+          box-shadow: 1px 4px 12px 2px adjust-color(#fdf5dd, $alpha: -0.8);
+          border: 1px solid $grey;
+          img {
+            border-radius: 10px;
+            width: 100%;
+            height: auto;
+            vertical-align: bottom;
+          }
+        }
       }
     }
   }
   .theme-detail-bottom {
-    padding-top: 20px;
-  }
-  .theme-detail-image {
-    border: 1px solid $grey;
-    img {
-      width: 100%;
-      height: auto;
-      vertical-align: bottom;
-    }
+    padding: 60px 0 60px 0;
   }
 
-  .theme-detail-buttons {
-    margin-top: 20px;
-    .theme-button {
-      display: inline-block;
-      padding: 9px 17px;
-      border: 1px solid $primary;
-      border-radius: 4px;
-      font-size: 16px;
-      margin-right: 5px;
-      color: $primary;
-      text-decoration: none;
-      &:hover {
-        color: $primary;
-        opacity: 0.8;
-      }
-      &.theme-button-fill {
-        background-color: $primary;
-        color: white;
-      }
-      &.theme-button-link {
-        border: none;
-        text-decoration: underline;
-      }
-    }
-  }
-  .theme-detail-heading {
-    font-size: 46px;
-    font-weight: normal;
-  }
-  .theme-detail-summary {
-    font-size: 18px;
-    line-height: 1.4;
-    color: $steel;
-  }
-  .theme-detail-tags {
-    margin-top: 20px;
-    display: inline-block;
-    background: $grey;
-    border-radius: 3px;
-    padding: 10px 7px 0 10px;
-    @include breakpoint('medium') {
-      padding: 10px 7px 0 10px;
-    }
-    .icon {
-      margin-bottom: 10px;
-      @include breakpoint('medium') {
-        margin-bottom: 10px;
-      }
-    }
-  }
 }

@@ -16,3 +16,20 @@ description: >-
 stackbit: "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/diy-jekyll"
 stale: false
 ---
+
+## Theme Features
+
+- Feature highlights
+- Pricing page
+- Pricing page
+- Calls to action
+- Product cards
+- Blog & showcase
+- Mobile responsive
+- Customer testimonials 
+
+### Super flexible template
+You can create various sections for your landing page like testimonials, clients logotypes grid, pricing, team section, etc.
+
+### Comes with predefined colors and styles
+You can pick from preseleected colors and styles. Template styles include minimal, clasicc and bold. Pick what works best for your brand.
