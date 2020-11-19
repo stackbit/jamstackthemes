@@ -22,7 +22,17 @@
     {{ $url := urls.Parse .Params.official_url }}
     <div class="official-website"><strong>Official Website:</strong> <a href="{{ .Params.official_url }}">{{ $url.Host }}</a></div>
   </div>
+
   {{ partial "breadcrumbs.html" . }}
+
+  <div>
+    <div class="blurb blurb-desktop">
+      <p>Search hundreds of open-source JAMstack themes and find the perfect starter theme or boilerplate for your next project. Filter themes by static site generator, headless CMS and more. Sort themes by stars, last commit date or submission date.</p>
+    </div>
+    <div class="blurb blurb-mobile">
+      <p>Search hundreds of open-source JAMstack themes!</p>
+    </div>
+  </div>
 
   <div id="grids-taxonomy" class="grids">
     {{ $paginator := .Paginate $themes }}

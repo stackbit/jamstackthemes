@@ -8,7 +8,7 @@
   }
 }
 .header {
-  border-top: 4px solid $primary;
+  //border-top: 4px solid $primary;
   border-bottom: 1px solid $grey;
   padding: 0 15px;
   background-color: white;
@@ -20,7 +20,7 @@
   width: 100%;
   z-index: 10;
   @include breakpoint('small') {
-    padding: 0 30px;
+    padding: 0 15px;
     height: 60px;
   }
   .header-left {

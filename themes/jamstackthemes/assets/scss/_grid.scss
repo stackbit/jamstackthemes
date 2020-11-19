@@ -2,19 +2,18 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: -20px;
+  margin-right: -20px;
   position: relative;
   @include breakpoint('small') {
     justify-content: flex-start;
   }
   .grid {
-    max-width: 282px;
-    width: auto;
-    margin: 10px 15px;
+    width: 33.33%;
+    padding: 20px;
     @include breakpoint('small') {
-      width: 282px;
-      margin: 15px;
+      width: 33.33%;
+      padding: 20px;
     }
   }
   .grid-large {

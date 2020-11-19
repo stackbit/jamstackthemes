@@ -1,9 +1,9 @@
 .filters {
   .filter {
-    border-bottom: 1px solid $grey;
-    padding: 15px 10px;
+    //border-bottom: 1px solid $grey;
+    padding: 15px 0px;
     @include breakpoint('small') {
-      padding: 10px 20px;
+      //padding: 10px 20px;
     }
     &.closed {
       .filter-list {
@@ -102,20 +102,20 @@
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      margin-bottom: 4px;
+      margin-bottom: 6px;
       font-size: 13px;
-      line-height: 16px;
+      line-height: 18px;
       &:last-of-type {
         margin-bottom: 0;
       }
       .filter-button {
-        margin-right: 10px;
+        margin-right: 8px;
         display: inline-block;
         vertical-align: text-top;
-        width: 20px;
-        height: 20px;
+        width: 18px;
+        height: 18px;
         background: lighten($grey,6%);
-        border: 2px solid darken($grey, 0%);
+        border: 1px solid darken($grey, 40%);
         border-radius: 3px;
         cursor: pointer;
         &:hover {
@@ -144,10 +144,11 @@
         }
         width: 18px;
         height: 18px;
-        margin-right: 7px;
+        margin-right: 8px;
       }
       .filter-name {
         display: none;
+        color: $carbon;
         a {
           color: black;
           text-decoration: none;

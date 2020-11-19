@@ -3,41 +3,48 @@
   justify-content: space-between;
   flex-direction: column;
   min-height: 100vh;
+  .header {
+
+  }
   .wrapper {
     display: flex;
-    width: 100%;
     padding-top: 60px;
+    .main {
+      flex: 1;
+      padding: 15px 20px 15px 20px;
+      padding-top: 120px;
+      min-width: 0;
+      max-width: 70%;
+      margin: 0 auto;
+      @include breakpoint('small') {
+        padding: 30px;
+        padding-top: 60px;
+      }
+    }
   }
   .sidebar {
     position: sticky;
     top: 60px;
     z-index: 1;
-    border-right: 1px solid $grey;
+    //border-right: 1px solid $grey;
     width: 110px;
     overflow: auto;
     padding: 0 0 20px 0;
     height: calc(100vh - 60px);
     display: flex;
     flex-direction: column;
+    background-color: #f8f8f8;
     @include breakpoint('small') {
-      width: 270px;
-      padding: 0 0 40px 0;
+      width: 360px;
+      padding: 60px;
       height: calc(100vh - 60px);
     }
   }
-  .main {
-    flex: 1;
-    padding: 15px 20px 15px 20px;
-    min-width: 0;
-    @include breakpoint('small') {
-      padding: 30px;
-    }
-  }
-  .sidebar + .main {
-    @include breakpoint('small') {
-      padding: 20px 40px 20px 40px;
-    }
-  }
+  //.sidebar + .main {
+  //  @include breakpoint('small') {
+  //    padding: 20px 40px 20px 40px;
+  //  }
+  //}
   .footer {
     justify-items: flex-end;
   }
