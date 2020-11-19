@@ -6,7 +6,7 @@
 All Themes ({{ $themeCount }})
 {{ end }}
 
-{{ define "header_css" }}{{ end }}
+{{ define "header_classes" }}header-fullwidth{{ end }}
 {{ define "body_classes" }}page-all-themes{{ end }}
 {{ define "body_id" }}page-all-themes{{ end }}
 
@@ -28,17 +28,13 @@ All Themes ({{ $themeCount }})
 <div class="main">
 
     <div class="intro">
-        <h1>All Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
-    </div>
-
-    <div>
-        <div class="blurb blurb-desktop">
+        <h1 class="intro-title">All Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
+        <div class="intro-description intro-description-desktop">
             <p>Search hundreds of open-source JAMstack themes and find the perfect starter theme or boilerplate for your next project. Filter themes by static site generator, headless CMS and more. Sort themes by stars, last commit date or submission date.</p>
         </div>
-        <div class="blurb blurb-mobile">
+        <div class="intro-description intro-description-mobile">
             <p>Search hundreds of open-source JAMstack themes!</p>
         </div>
-
     </div>
 
     {{ partial "sort-buttons.html" . }}

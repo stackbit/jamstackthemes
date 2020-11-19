@@ -1,6 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 github: https://github.com/username/repo
+github_branch: master
 demo: https://www.demo.com
 author: Github Author
 ssg:
@@ -12,8 +13,7 @@ css:
 archetype:
   - Blog
   - Portfolio
-date: 2019-06-11T20:15:02Z
-github_branch: master
+date: 2019-06-11
 description: This theme is a lightweight Gridsome starter kit which is perfect for a blog or a portfolio
 ---
 

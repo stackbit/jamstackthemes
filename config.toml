@@ -4,8 +4,7 @@ title = "JAMstack Themes"
 theme = "jamstackthemes"
 paginate = 18
 summaryLength = 10
-# enableGitInfo = true
-
+# enableGitInfo = false
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
@@ -13,10 +12,6 @@ pygmentsUseClasses = true
 [params]
   google_analytics_id = ""
   description = "A list of Themes and Starters for JAMstack Sites."
-  banner = false
-  banner_text = "Announcing the Stackbit Control Center for managing modern websites. 🤙👩🏼‍🎤🔥"
-  banner_link = "https://www.stackbit.com/control-center/"
-  banner_link_text = "Try It Now"
   stackbit_button = true
   [theme_card]
     show_archetype_icons = false

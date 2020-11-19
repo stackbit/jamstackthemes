@@ -1,16 +1,4 @@
-.body-banner {
-  .header {
-    top: 60px;
-    border-top: 0;
-    @include breakpoint('small') {
-      top: 40px;
-    }
-  }
-}
 .header {
-  .header-left {
-    display: flex;
-  }
   h1 {
     margin: 0;
     font-size: 18px;
@@ -23,6 +11,25 @@
     a {
       color: black;
       text-decoration: none;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+  .logo {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: $font_family_heading;
+    margin-right: 20px;
+    @include breakpoint('small') {
+      font-size: 22px;
+    }
+    a {
+      padding: 20px 15px 0 15px;
+      color: black;
+      text-decoration: none;
+      display: block;
       &:hover {
         color: $primary;
       }
@@ -64,6 +71,37 @@
     .github {
       &:hover {
         opacity: 0.7;
+      }
+    }
+  }
+  .main-menu {
+    display: none;
+    opacity: 1;
+    @include breakpoint("medium") {
+      display: block;
+    }
+    > ul {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      > li {
+        list-style: none;
+        font-size: 1rem;
+        > a {
+          display: inline-block;
+          text-decoration: none;
+          color: $primary;
+          padding: 5px 8px;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+        &.active {
+          > a {
+            font-weight: bold;
+            text-decoration: none;
+          }
+        }
       }
     }
   }

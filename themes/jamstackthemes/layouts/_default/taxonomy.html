@@ -13,25 +13,11 @@
 {{ $themeCount := len $themes}}
 
 <div class="main">
-  <div class="hero">
-    <div class="heading">
-      <div class="heading-icon"><img src="{{ .Params.icon | relURL }}" alt="{{.Title}} Logo" /></div>
-      <h1 class="heading-title">{{.Title}} Themes <span class="count">({{ $themeCount }})</span></h1>
-    </div>
-
-    {{ $url := urls.Parse .Params.official_url }}
-    <div class="official-website"><strong>Official Website:</strong> <a href="{{ .Params.official_url }}">{{ $url.Host }}</a></div>
-  </div>
-
-  {{ partial "breadcrumbs.html" . }}
-
-  <div>
-    <div class="blurb blurb-desktop">
-      <p>Search hundreds of open-source JAMstack themes and find the perfect starter theme or boilerplate for your next project. Filter themes by static site generator, headless CMS and more. Sort themes by stars, last commit date or submission date.</p>
-    </div>
-    <div class="blurb blurb-mobile">
-      <p>Search hundreds of open-source JAMstack themes!</p>
-    </div>
+  <div class="intro">
+      {{ partial "official-website.html" (dict "url" .Params.official_url)}}
+      <div class="intro-icon"><img src="{{ .Params.icon | relURL }}" alt="{{.Title}} Logo" /></div>
+      <h1 class="intro-title">{{.Title}} Themes <span class="count">({{ $themeCount }})</span></h1>
+      {{ partial "breadcrumbs.html" . }}
   </div>
 
   <div id="grids-taxonomy" class="grids">
@@ -43,11 +29,9 @@
       {{ partial "theme-card.html" (dict "theme" . "repo" $repo "site" $.Site "stackbit" $stackbit) }}
     {{ end }}
   </div>
+
   {{ $paginator := .Paginator }}
   {{ partial "pagination.html" . }}
 
 </div>
-{{ end }}
-
-{{ define "footer_js" }}
 {{ end }}

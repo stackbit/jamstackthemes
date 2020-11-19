@@ -1,57 +1,77 @@
 .intro {
-  display: flex;
-  flex-direction: column;
-  @include breakpoint('medium') {
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    margin-bottom: 20px;
-  }
-  h1 {
-    font-size: 24px;
-    font-weight: 400;
-    margin-bottom: 10px;
-    @include breakpoint('medium') {
-      margin-right: 20px;
-      font-size: 40px;
-      margin-bottom: 0px;
-    }
-  }
-  h2 {
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 400;
-    @include breakpoint('medium') {
-      font-size: 16px;
-    }
-  }
-  p {
-    line-height: 20px;
-    margin: 0;
-  }
   .intro-icon {
-    padding: 10px;
-    border: 1px solid $grey;
+    display: inline-block;
     border-radius: 3px;
-    margin-right: 10px;
+    margin-right: 6px;
+    vertical-align: middle;
     img {
       display: inline-block;
       vertical-align: bottom;
+      width: 24px;
+      @include breakpoint('small') {
+        width: 36px;
+        line-height: 44px;
+      }
+    }
+  }
+  .intro-title {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 400;
+    @include breakpoint('small') {
+      font-size: 40px;
+      line-height: 44px;
+      margin-bottom: 0px;
+    }
+  }
+  .intro-description {
+    display: none;
+    color: #333;
+    padding: 10px 0 10px 0;
+    @include breakpoint('medium') {
+      display: block;
+    }
+    &.intro-description-mobile {
+      display: block;
+      padding: 0;
+      margin-bottom: 10px;
+      font-size: 16px;
+      line-height: 20px;
+      @include breakpoint('medium') {
+        display: none;
+      }
+    }
+    &.intro-description-desktop {
+      display: none;
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 15px;
+      width: 75%;
+      @include breakpoint('medium') {
+        display: block;
+      }
+    }
+  }
+  .official-website {
+    float: right;
+    font-size: 16px;
+    @include breakpoint('small') {
+      margin-left: auto;
+    }
+    a {
+      color: $primary;
+      padding: 8px;
+      &:first-of-type {
+        padding-left: 0;
+      }
     }
   }
 }
 
-.byline {
-  p {
-    font-size: 15px;
-    line-height: 23px;
-    @include breakpoint('medium') {
-      font-size: 18px;
-      line-height: 26px;
-    }
-  }
-  a {
-    color: $primary;
-  }
 
+.hint {
+  font-size: 14px;
+  color: #666;
 }

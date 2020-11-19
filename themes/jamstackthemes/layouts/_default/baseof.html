@@ -37,36 +37,18 @@
 
 </head>
 
-{{ $bodyClasses := slice "" }}
-{{ if eq .Site.Params.banner true }}{{ $bodyClasses = $bodyClasses | append "body-banner" }}{{ end }}
-{{ if and (eq .Site.Params.banner true) (eq .Site.Params.banner_fixed true) }}{{ $bodyClasses = $bodyClasses | append "body-banner-fixed" }}{{ end }}
-
-<body id="{{ block "body_id" . }}{{ end }}" class='page {{ block "body_classes" . }}{{ end }} {{ delimit $bodyClasses " " }}'>
-  {{ if .Site.Params.banner }}
-    {{ partial "banner.html" . }}
-  {{ end }}
-  {{ partial "header.html" . }}
+<body id="{{ block "body_id" . }}{{ end }}" class="page {{ block "body_classes" . }}{{ end }}">
+  <div class="header {{ block "header_classes" . }}{{ end }}">
+    {{ partial "header.html" . }}
+  </div>
 
   <div class="wrapper">
-    {{ block "main" . }}
-    {{ end }}
+    {{ block "main" . }}{{ end }}
   </div>
 
   {{ partial "footer.html" . }}
-
-  {{ $scripts := resources.Get "js/scripts.js" }}
-  {{ $bundle := slice $scripts | resources.Concat "js/bundle.js" }}
-  {{ if .Site.IsServer }}
-  <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
-  {{ else }}
-  <script type="text/javascript" src="{{ ($bundle | minify | fingerprint).RelPermalink }}"></script>
-  {{ end }}
-
-  {{ block "footer_js" . }}
-  {{ end }}
-
+  {{ block "footer_js" . }}{{ end }}
   {{ partial "segment.html" . }}
   {{ partial "branches.html" . }}
-
 </body>
 </html>

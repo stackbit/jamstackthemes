@@ -1,20 +1,9 @@
-{{ $themes := (where .Site.RegularPages "Type" "theme") }}
-{{ $themeCount := len $themes }}
-
-<div class="header">
-  <div class="header-inner">
-  <div class="header-left">
-    <h1><a href="/" title="JAMstack Themes">JAMstack Themes </a></h1>
-  </div>
-
+<div class="header-inner">
+  <h1><a href="/" title="JAMstack Themes">JAMstack Themes </a></h1>
   {{ partial "main-menu.html" . }}
-
   <div class="submit">
     <a class="submit-button submit-button-mobile" href="https://github.com/stackbithq/jamstackthemes" rel="nofollow">Submit</a>
     <a class="submit-button submit-button-desktop" href="https://github.com/stackbithq/jamstackthemes" rel="nofollow">Submit Theme</a>
-    <a class="github" href="https://github.com/stackbithq/jamstackthemes" rel="nofollow">
-      <img width="26" height="26" alt="Github Repo" src="{{ "images/icons/github.svg" | relURL }}"/>
-    </a>
-  </div>
+    <a class="github" href="https://github.com/stackbithq/jamstackthemes" rel="nofollow"><img width="26" height="26" alt="Github Repo" src="{{ "images/icons/github.svg" | relURL }}"/></a>
   </div>
 </div>

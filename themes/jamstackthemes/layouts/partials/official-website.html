@@ -1,0 +1,2 @@
+{{ $url := urls.Parse .url }}
+<div class="official-website"><strong>Official Website:</strong> <a href="{{ .Params.official_url }}">{{ $url.Host }}</a></div>

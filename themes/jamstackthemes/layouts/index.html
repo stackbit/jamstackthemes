@@ -1,5 +1,5 @@
 {{ define "title" }}JAMstack Themes{{ end }}
-{{ define "header_css" }}{{ end }}
+{{ define "header_classes" }}header-fullwidth{{ end }}
 {{ define "body_classes" }}page-home{{ end }}
 
 {{ define "meta_tags" }}
@@ -13,6 +13,7 @@
 {{ end }}
 
 {{ define "main" }}
+
 {{ $themes := (where .Site.RegularPages "Type" "theme") }}
 {{ $themes := (where $themes ".Params.draft" "!=" true) }}
 {{ $themes := (where $themes ".Params.stale" "!=" true) }}
@@ -26,16 +27,13 @@
 
 <div class="main">
   <div class="intro">
-    <h1>New Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
-  </div>
-
-  <div>
-    <div class="blurb blurb-desktop"><p>A list of themes and starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites. We're the largest gallery of user submitted, open source themes for static site generators 🦖. This site is maintained by the community and with the kind support of <a href="https://www.stackbit.com/?utm_source=jamstackthemes&utm_medium=referral&utm_campaign=jamstackthemeswebsite&utm_content=blurb">Stackbit</a></p></div>
-    <div class="blurb blurb-mobile"><p>A list of themes and starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites.</p></div>
+    <h1 class="intro-title">New Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
+    <div class="intro-description intro-description-desktop"><p>A list of themes and starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites. We're the largest gallery of user submitted, open source themes for static site generators 🦖. This site is maintained by the community and with the kind support of <a href="https://www.stackbit.com/?utm_source=jamstackthemes&utm_medium=referral&utm_campaign=jamstackthemeswebsite&utm_content=blurb">Stackbit</a></p></div>
+    <div class="intro-description intro-description-mobile"><p>A list of themes and starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites.</p></div>
   </div>
 
   {{ partial "sort-buttons.html" . }}
-<!--  <div class="hint">Only themes which have a commit within the last 12 months are shown on the homepage. View <a href="/themes">All Themes</a></div>-->
+  <!--  <div class="hint">Only themes which have a commit within the last 12 months are shown on the homepage. View <a href="/themes">All Themes</a></div>-->
 
   <div id="grids-homepage" class="grids">
     {{ range $themes.ByPublishDate.Reverse }}
@@ -45,16 +43,12 @@
       {{ partial "theme-card.html" (dict "theme" . "repo" $repo "site" $.Site "stackbit" $stackbit) }}
     {{ end }}
   </div>
-
-  <div class="controls-pagination">
-    <div class="mixitup-page-list"></div>
-    <div class="mixitup-page-stats"></div>
-</div>
-
 </div>
 {{ end }}
 
+
 {{ define "footer_js" }}
+
   {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
   {{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
   {{ $filterGroups := resources.Get "js/filter/filter-groups.js" }}
@@ -63,10 +57,11 @@
   {{ $filterToggle := resources.Get "js/filter/filter-toggle.js" }}
 
   {{ $homeBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter $filterToggle | resources.Concat "js/homeBundle.js" }}
+
   {{ if .Site.IsServer }}
-  <script type="text/javascript" src="{{ $homeBundle.RelPermalink }}"></script>
-  {{ else }}
-  <script type="text/javascript" src="{{ ($homeBundle | minify | fingerprint).RelPermalink }}"></script>
-{{ end }}
+    <script type="text/javascript" src="{{ $homeBundle.RelPermalink }}"></script>
+    {{ else }}
+    <script type="text/javascript" src="{{ ($homeBundle | minify | fingerprint).RelPermalink }}"></script>
+  {{ end }}
 
 {{ end }}
