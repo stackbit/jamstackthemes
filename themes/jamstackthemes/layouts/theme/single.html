@@ -11,42 +11,46 @@
     <div class="main">
         <div class="container">
             <div class="theme theme-detail" data-name="{{ .Title }}">
-            <div class="theme-detail-top">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-xl-4">
 
-                <div class="theme-detail-stars"><span>{{ $repo.stars }}</span></div>
-                <h1 class="theme-detail-title">{{ .Title }}</h1>
-                <p class="theme-detail-description">{{ .Params.description }}</p>
+                        <div class="intro">
+                            <h1 class="intro-title">{{ .Title }} </h1>
+                            <div class="intro-description"><p>{{ .Params.description }}</p></div>
+                        </div>
 
-                {{ if .Params.ssg }}
-                    {{- range .Params.ssg }}
-                    {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
-                        {{ partial "labels/label-ssg.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink ) }}
-                    {{ end }}
-                    {{ end }}
-                {{ end }}
-
-                {{ partial "labels/label-author.html" (dict "author" .Params.author) }}
-                {{ if $repo }}{{ partial "labels/label-last-commit.html" (dict "last_commit" $repo.last_commit) }}{{ end }}
-
-                <div class="theme-buttons theme-detail-buttons">
-                    {{ if .Site.Params.stackbit_button }}
-                        <a class="theme-button theme-button-fill theme-button-stackbit" href="{{ .Params.github }}" target="_blank" rel="noopener nofollow">Create Site</a>
-                    {{ end }}
-                    <a class="theme-button theme-button-github" href="{{ .Params.github }}" target="_blank" rel="nofollow noopener">Github</a>
-                    <a class="theme-button theme-button-demo" href="{{ .Params.demo }}" target="_blank" rel="nofollow noopener">Live Demo</a>
-                </div>
-
-                <div class="theme-detail-preview">
-                    <div class="theme-detail-image">
-                        {{ if $repo }}
-                        {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
-                        {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
-                        {{ if (fileExists $staticPath) }}
-                        <img src="{{ $filePath | relURL }}" alt="{{ .Title }} screenshot"  />
+                        {{ if .Params.ssg }}
+                            {{- range .Params.ssg }}
+                            {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
+                                {{ partial "labels/label-ssg.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink ) }}
+                            {{ end }}
+                            {{ end }}
                         {{ end }}
-                        {{ end }}
+
+                        {{ partial "labels/label-stars.html" (dict "stars" $repo.stars) }}
+                        {{ partial "labels/label-author.html" (dict "author" .Params.author) }}
+                        {{ if $repo }}{{ partial "labels/label-last-commit.html" (dict "last_commit" $repo.last_commit) }}{{ end }}
+
+                        <div class="theme-buttons theme-detail-buttons">
+                            {{ if .Site.Params.stackbit_button }}
+                                <a class="theme-button theme-button-fill theme-button-stackbit" href="{{ .Params.github }}" target="_blank" rel="noopener nofollow">Create Site</a>
+                            {{ end }}
+                            <a class="theme-button theme-button-github" href="{{ .Params.github }}" target="_blank" rel="nofollow noopener">Github</a>
+                            <a class="theme-button theme-button-demo" href="{{ .Params.demo }}" target="_blank" rel="nofollow noopener">Live Demo</a>
+                        </div>
+
                     </div>
-                </div>
+                    <div class="col-12 col-xl-8">
+                        <div class="theme-detail-image">
+                            {{ if $repo }}
+                            {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
+                            {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
+                            {{ if (fileExists $staticPath) }}
+                            <img src="{{ $filePath | relURL }}" alt="{{ .Title }} screenshot"  />
+                            {{ end }}
+                            {{ end }}
+                        </div>
+                    </div>
 
                 <div class="theme-detail-tags">
                     {{ if .Params.ssg }}
@@ -100,6 +104,8 @@
             </div>
 
         </div>
+        </div>
+            </div>
         </div>
     </div>
 </div>

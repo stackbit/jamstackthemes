@@ -70,8 +70,6 @@ $layout-padding: 15px;
       }
     }
     .sidebar {
-      padding-top: $grid-gutter-width / 2;
-      padding-bottom: $grid-gutter-width / 2;
       position: sticky;
       top: 60px;
       z-index: 1;
@@ -81,6 +79,8 @@ $layout-padding: 15px;
       display: flex;
       flex-direction: column;
       background-color: $bone;
+      padding-top: $grid-gutter-width / 2;
+      padding-bottom: $grid-gutter-width / 2;
       @include media-breakpoint-up(sm) {
         width: 140px;
         padding: $layout-padding;
@@ -92,6 +92,13 @@ $layout-padding: 15px;
       @include media-breakpoint-up(lg) {
         width: 360px;
         padding: $layout-padding * 4;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+
       }
     }
   }
