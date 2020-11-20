@@ -10,5 +10,5 @@ cms:
 date: 2016-11-02T14:30:30.000Z
 github_branch: gh-pages
 description: 'A light weight, minimal Jekyll theme.'
-stale: false
+stale: true
 ---

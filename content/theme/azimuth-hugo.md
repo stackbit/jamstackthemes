@@ -1,8 +1,8 @@
 ---
 title: Azimuth Hugo
-github: https://github.com/stackbit-themes/azimuth-hugo
+github: 'https://github.com/stackbit-themes/azimuth-hugo'
 github_branch: master
-demo: https://themes.stackbit.com/demos/azimuth/?demo=jstazimuthhugo
+demo: 'https://themes.stackbit.com/demos/azimuth/?demo=jstazimuthhugo'
 author: Stackbit
 ssg:
   - Hugo

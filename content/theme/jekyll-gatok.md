@@ -10,5 +10,5 @@ cms:
 date: 2016-07-15T17:24:18.000Z
 github_branch: master
 description: A minimal responsive jekyll theme -Webjeda Gatok
-stale: false
+stale: true
 ---

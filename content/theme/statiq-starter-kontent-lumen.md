@@ -16,6 +16,8 @@ description: >-
   Lumen is a lightweight starter for creating blogs using Statiq and Kentico
   Kontent.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
 
 # Lumen - blog/portfolio starter for Statiq and Kontent

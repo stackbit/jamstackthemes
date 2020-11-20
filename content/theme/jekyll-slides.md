@@ -10,5 +10,5 @@ cms:
 date: 2016-07-06T17:15:11.000Z
 github_branch: master
 description: A presentstion theme
-stale: false
+stale: true
 ---

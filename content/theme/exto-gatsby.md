@@ -1,8 +1,8 @@
 ---
 title: Exto Gatsby
-github: 'https://github.com/stackbit-themes/exto-gatsby'
+github: https://github.com/stackbit-themes/exto-gatsby
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/exto/?demo=jstextogatsby'
+demo: https://themes.stackbit.com/demos/exto/portfolio?themeBarHidden=true
 author: Stackbit
 ssg:
   - Gatsby
@@ -10,9 +10,9 @@ cms:
   - Stackbit
 css:
   - Scss
-date: 2020-11-20
-description: >-
-  Exto is an exceptionally well design portfolio and blog theme.
-stackbit: "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/exto-gatsby"
+date: 2020-11-20T00:00:00.000Z
+description: Exto is an exceptionally well design portfolio and blog theme.
+stackbit: >-
+  https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/exto-gatsby
 stale: false
 ---
