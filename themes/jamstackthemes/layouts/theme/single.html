@@ -19,16 +19,51 @@
                             <div class="intro-description"><p>{{ .Params.description }}</p></div>
                         </div>
 
-                        {{ if .Params.ssg }}
+                        <div class="theme-detail-tags">
+                            {{ if .Params.ssg }}
                             {{- range .Params.ssg }}
                             {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
-                                {{ partial "labels/label-ssg.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink ) }}
+                            {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
                             {{ end }}
                             {{ end }}
-                        {{ end }}
+                            {{ end }}
 
-                        {{ partial "labels/label-stars.html" (dict "stars" $repo.stars) }}
+                            {{ if .Params.cms }}
+                            {{- range .Params.cms }}
+                            {{- with $.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
+                            {{ if eq .Page.Title "No CMS" }}
+                            {{ else }}
+                            {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                            {{ end }}
+                            {{ end }}
+                            {{ end }}
+                            {{ end }}
+
+                            {{ if .Params.css }}
+                            {{- range .Params.css }}
+                            {{- with $.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
+                            {{ if eq .Page.Title "No css" }}
+                            {{ else }}
+                            {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                            {{ end }}
+                            {{ end }}
+                            {{ end }}
+                            {{ end }}
+
+                            {{ if .Params.archetype }}
+                            {{- range .Params.archetype }}
+                            {{- with $.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
+                            {{ if eq .Page.Title "No archetype" }}
+                            {{ else }}
+                            {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                            {{ end }}
+                            {{ end }}
+                            {{ end }}
+                            {{ end }}
+                        </div>
+
                         {{ partial "labels/label-author.html" (dict "author" .Params.author) }}
+                        {{ if $repo }}{{ partial "labels/label-stars.html" (dict "stars" $repo.stars) }}{{ end }}
                         {{ if $repo }}{{ partial "labels/label-last-commit.html" (dict "last_commit" $repo.last_commit) }}{{ end }}
 
                         <div class="theme-buttons theme-detail-buttons">
@@ -51,60 +86,14 @@
                             {{ end }}
                         </div>
                     </div>
-
-                <div class="theme-detail-tags">
-                    {{ if .Params.ssg }}
-                    {{- range .Params.ssg }}
-                    {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
-                    {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-                    {{ end }}
-                    {{ end }}
-                    {{ end }}
-
-                    {{ if .Params.cms }}
-                    {{- range .Params.cms }}
-                    {{- with $.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
-                    {{ if eq .Page.Title "No CMS" }}
-                    {{ else }}
-                    {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-                    {{ end }}
-                    {{ end }}
-                    {{ end }}
-                    {{ end }}
-
-                    {{ if .Params.css }}
-                    {{- range .Params.css }}
-                    {{- with $.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
-                    {{ if eq .Page.Title "No css" }}
-                    {{ else }}
-                    {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-                    {{ end }}
-                    {{ end }}
-                    {{ end }}
-                    {{ end }}
-
-                    {{ if .Params.archetype }}
-                    {{- range .Params.archetype }}
-                    {{- with $.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
-                    {{ if eq .Page.Title "No archetype" }}
-                    {{ else }}
-                    {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-                    {{ end }}
-                    {{ end }}
-                    {{ end }}
-                    {{ end }}
                 </div>
-
-            </div>
-
-            <div class="theme-detail-bottom">
-                <div class="content">
-                    {{ .Content }}
+                <div class="row mt-3 mt-md-3 mt-lg-6">
+                    <div class="col-12 col-lg-8">
+                        <div class="content">
+                            {{ .Content }}
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-        </div>
-        </div>
             </div>
         </div>
     </div>

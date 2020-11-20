@@ -59,9 +59,9 @@ $spacers: map-merge(
   $spacers
 );
 
-
+@import 'bootstrap/bootstrap-reboot';
 @import 'bootstrap/bootstrap-grid';
-@import 'reset';
+//@import 'reset';
 @import 'layout';
 @import 'header';
 @import 'footer';
@@ -74,7 +74,7 @@ $spacers: map-merge(
 @import 'buttons';
 @import 'categories';
 @import 'icon';
-@import 'count';
+//@import 'count';
 @import 'star';
 @import 'made-by';
 @import 'pagination';

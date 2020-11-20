@@ -21,18 +21,21 @@
   .intro-title {
     display: inline-block;
     vertical-align: middle;
-    margin: 0;
     font-size: 24px;
+    line-height: 30px;
     font-weight: 400;
+    margin-bottom: 0px;
+    @include media-breakpoint-up(sm) {
+      font-size: 28px;
+      line-height: 36px;
+    }
     @include media-breakpoint-up(md) {
       font-size: 36px;
       line-height: 42px;
-      margin-bottom: 0px;
     }
     @include media-breakpoint-up(xl) {
       font-size: 46px;
       line-height: 54px;
-      margin-bottom: 0px;
     }
   }
   .intro-description {
@@ -80,5 +83,16 @@
   .intro-bar {
     display: flex;
     align-items: center;
+  }
+  .total-count {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-bottom: 1px solid $grey;
+    span {
+      float: right;
+    }
+  }
+  .count {
+    color: #8e8e8e;
   }
 }
