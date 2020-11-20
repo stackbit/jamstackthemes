@@ -2,7 +2,7 @@
 title: DIY Hugo
 github: 'https://github.com/stackbit-themes/diy-hugo'
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/diy/?themeBarHidden=true'
+demo: 'https://themes.stackbit.com/demos/diy/?demo=jstdiyhugo'
 author: Stackbit
 ssg:
   - Hugo

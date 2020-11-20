@@ -2,7 +2,7 @@
 title: DIY Gatsby
 github: 'https://github.com/stackbit-themes/diy-gatsby'
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/diy/?themeBarHidden=true'
+demo: 'https://themes.stackbit.com/demos/diy/?demo=jstdiygatsby'
 author: Stackbit
 ssg:
   - Gatsby

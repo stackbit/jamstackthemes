@@ -2,7 +2,7 @@
 title: Fjord Jekyll
 github: 'https://github.com/stackbit-themes/fjord-jekyll'
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/fjord/?themeBarHidden=true'
+demo: 'https://themes.stackbit.com/demos/fjord/?demo=jstfjordjekyll'
 author: Stackbit
 ssg:
   - Jekyll

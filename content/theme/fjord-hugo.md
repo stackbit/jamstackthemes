@@ -2,7 +2,7 @@
 title: Fjord Hugo
 github: 'https://github.com/stackbit-themes/fjord-hugo'
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/fjord/?themeBarHidden=true'
+demo: 'https://themes.stackbit.com/demos/fjord/?demo=jstfjordhugo'
 author: Stackbit
 ssg:
   - Hugo

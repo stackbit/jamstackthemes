@@ -1,8 +1,8 @@
 ---
 title: Exto Gatsby
-github: https://github.com/stackbit-themes/exto-gatsby
+github: 'https://github.com/stackbit-themes/exto-gatsby'
 github_branch: master
-demo: https://themes.stackbit.com/demos/exto/portfolio?themeBarHidden=true
+demo: 'https://themes.stackbit.com/demos/exto/?demo=jstextogatsby'
 author: Stackbit
 ssg:
   - Gatsby
