@@ -16,6 +16,11 @@
   <meta name="twitter:site" content="@stackbithq" />
   <meta name="twitter:creator" content="@stackbithq" />
 
+  {{ $environment := (getenv "environment") }}
+  {{ if ne $environment "production" }}
+  <meta name="robots" content="noindex">
+  {{ end }}
+
   {{ block "meta_tags" . }}{{end}}
 
   {{ if .Site.IsServer }}

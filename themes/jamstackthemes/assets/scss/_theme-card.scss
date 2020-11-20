@@ -22,26 +22,32 @@
     border-bottom: 1px solid $grey;
     max-height: 260px;
     overflow: hidden;
+
     a {
       display: block;
     }
+
     img {
       max-width: 100%;
       width: 100%;
       height: auto;
       vertical-align: bottom;
       transition: opacity 0.2s ease-out;
+
       &:hover {
         opacity: 0.7;
       }
     }
   }
+
   .theme-body {
     min-height: 200px;
     background: white;
     color: $steel;
+
     .theme-meta {
       padding: 20px;
+
       h2 {
         font-size: 20px;
         line-height: 26px;
@@ -50,12 +56,15 @@
         margin: 0;
         margin-bottom: 10px;
       }
+
       p {
         color: $steel;
         font-size: 14px;
+
         strong {
           color: $carbon;
         }
+
         &.description {
           margin-top: 20px;
           margin-bottom: 0;
@@ -63,35 +72,13 @@
         }
       }
     }
+
     .theme-description {
       padding: 0px 20px;
     }
-    .theme-buttons {
-      padding: 20px 20px;
-      .theme-button {
-        padding: 3px 5px;
-        border: 1px solid $primary;
-        border-radius: 2px;
-        font-size: 13px;
-        margin-right: 5px;
-        color: $primary;
-        text-decoration: none;
-        display: inline-block;
-        &:hover {
-          color: $primary;
-          opacity: 0.8;
-        }
-        &.theme-button-fill {
-          background-color: $primary;
-          color: white;
-        }
-        &.theme-button-link {
-          border: none;
-          text-decoration: underline;
-        }
-      }
-    }
+
   }
+
   .theme-footer {
     border-top: 1px solid $grey;
     background: $bone;
@@ -99,60 +86,61 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     padding: 0 15px;
+
     a {
       flex: 0;
       padding: 8px;
       border-right: 1px solid $grey;
       border-bottom: 1px solid $grey;
+
       &:last-of-type {
         border-right: none;
       }
     }
   }
-}
 
-.theme-featured {
-  .theme-header {
-    border-bottom: 1px solid $grey;
-    max-height: 280px;
-    overflow: hidden;
-    img {
-      max-width: 100%;
-      height: auto;
-      vertical-align: bottom;
-      @include media-breakpoint-up(sm) {
-
+  .theme-buttons {
+    padding: 20px 20px;
+    .theme-button {
+      padding: 3px 5px;
+      border: 1px solid $primary;
+      border-radius: 2px;
+      font-size: 14px;
+      margin-right: 10px;
+      color: $primary;
+      text-decoration: none;
+      display: inline-block;
+      &:hover {
+        color: $primary;
+        opacity: 0.8;
+      }
+      &.theme-button-fill {
+        background-color: $primary;
+        color: white;
+      }
+      &.theme-button-link {
+        border: none;
+        text-decoration: underline;
       }
     }
   }
-}
 
-.last-commit {
-  text-transform: uppercase;
-  font-size: 11px;
-  line-height: 16px;
-  color: $steel;
-  margin-bottom: 2px;
-  .last-commit-label {
+  .theme-stars {
     display: inline-block;
-  }
-  .last-commit-date {
-    display: inline-block;
-    color: black;
-  }
-}
+    border: 1px solid $bone;
+    padding: 4px 7px 4px 26px;
+    border-radius: 2px;
+    font-size: 16px;
+    color: $steel;
+    margin-bottom: 8px;
+    background-image: url("../images/ui/star.svg");
+    background-repeat: no-repeat;
+    background-position: 6px 6px;
+    background-size: 16px;
+    background-color: $bone;
 
-.author {
-  text-transform: uppercase;
-  font-size: 11px;
-  line-height: 16px;
-  color: $steel;
-  margin-bottom: 2px;
-  .author-label {
-    display: inline-block;
-  }
-  .author-name {
-    display: inline-block;
-    color: black;
+    .star-count {
+      display: inline-block;
+    }
   }
 }

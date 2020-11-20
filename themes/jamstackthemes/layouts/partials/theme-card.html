@@ -44,7 +44,7 @@
     <div class="theme-meta">
       <h2><a href="{{ .theme.Permalink }}" class="theme-title">{{ .theme.Params.title }}</a></h2>
       {{ if .repo }}
-        {{ partial "star.html" (dict "stars" .repo.stars "float" "right")}}
+        <div class="theme-stars">{{ .repo.stars }}</div>
         {{ partial "labels/label-author.html" (dict "author" .theme.Params.author) }}
         {{ partial "labels/label-last-commit.html" (dict "last_commit" .repo.last_commit ) }}
       {{ end }}
