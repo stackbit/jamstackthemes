@@ -4,15 +4,19 @@
 
 {{ define "main" }}
 {{ $themeCount := len .Pages }}
-<div class="main">
-    <div class="intro">
-        <h1 class="intro-title">{{.Title}} <span class="count">({{ $themeCount }})</span></h1>
-        {{ partial "breadcrumbs.html" . }}
-    </div>
-    <div class="terms">
-        {{ range .Pages }}
-            {{ partial "term-card.html" (dict "term" .) }}
-        {{ end }}
+<div class="wrapper">
+    <div class="main">
+        <div class="container">
+            <div class="intro">
+                <h1 class="intro-title">{{.Title}} <span class="count">({{ $themeCount }})</span></h1>
+                {{ partial "breadcrumbs.html" . }}
+            </div>
+            <div class="terms">
+                {{ range .Pages }}
+                    {{ partial "term-card.html" (dict "term" .) }}
+                {{ end }}
+            </div>
+        </div>
     </div>
 </div>
 {{ end }}

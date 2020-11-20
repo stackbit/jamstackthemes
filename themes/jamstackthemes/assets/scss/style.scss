@@ -1,28 +1,65 @@
-//$primary: #5004E0;
 $primary: #2f5ffd;
 $grey: #e9e9e9;
 $bone: #f5f5f5;
-$steel: #666666;
-$yellow: #f6d603;
-$blue: #57b8ff;
+$steel: #585858;
 $carbon: #2a2a2a;
 
- @import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:wght@300&Source+Code+Pro:wght@300&Open+Sans:wght@300;400;600&Roboto:400,700&Source+Code+Pro:wght@300&display=swap');
+//@import url('https://fonts.googleapis.com/css?family=display=swap');
 
 $font-family-base: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $font-family-heading: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-$font-family-mono: 'Source Code Pro', monospace;
-$font-family-serif: 'Source Serif Pro', serif;
+$font-family-mono: monospace;
+$font-family-serif: serif;
 
-$breakpoints: (
-  'small':  480px,
-  'medium': 768px,
-  'large':  1200px
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1240px
 );
 
-@import 'breakpoints';
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1200px
+);
+
+$grid-gutter-width: 30px;
+
+// Links
+$spacers: ();
+$spacers: map-merge(
+  (
+    0: 0,
+    1: 10px,
+    2: 20px,
+    3: 30px,
+    4: 40px,
+    5: 50px,
+    6: 60px,
+    7: 70px,
+    8: 80px,
+    9: 90px,
+    10: 100px,
+    11: 110px,
+    12: 120px,
+    13: 130px,
+    14: 140px,
+    15: 150px,
+    16: 160px,
+    17: 170px,
+    18: 180px,
+    19: 190px,
+    20: 200px,
+  ),
+  $spacers
+);
+
+
+@import 'bootstrap/bootstrap-grid';
 @import 'reset';
-@import 'grid';
 @import 'layout';
 @import 'header';
 @import 'footer';
@@ -40,6 +77,7 @@ $breakpoints: (
 @import 'made-by';
 @import 'pagination';
 @import 'content';
+@import 'label';
 @import 'pygments/github';
 
 *,
@@ -56,11 +94,14 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  font-size: 14px;
-  line-height: 1.2;
-  font-family: $font_family_heading, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: $font-family-heading, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
-  color: #2a2a2a;
+  color: $carbon;
+}
+
+p {
+  color: $steel;
 }

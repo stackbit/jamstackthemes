@@ -20,7 +20,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
-    @include breakpoint('medium') {
+    @include media-breakpoint-up(md) {
       display: flex;
       align-items: center;
     }
@@ -32,7 +32,7 @@
       margin-bottom: 0;
       font-size: 14px;
       line-height: 18px;
-      @include breakpoint('medium') {
+      @include media-breakpoint-up(md) {
         font-size: 17px;
         line-height: 22px;
       }
@@ -40,7 +40,7 @@
     .toggle-info {
       margin-left: 4px;
       display: flex;
-      @include breakpoint('medium') {
+      @include media-breakpoint-up(md) {
         margin-left: 6px;
         margin-bottom: 1px;
       }
@@ -55,7 +55,7 @@
         path {
           fill: $primary;
         }
-        @include breakpoint('medium') {
+        @include media-breakpoint-up(md) {
           width: 19px;
           fill: $primary;
           path {
@@ -71,7 +71,7 @@
       margin-left: auto;
       cursor: pointer;
       display: none;
-      @include breakpoint('medium') {
+      @include media-breakpoint-up(md) {
          display: flex;
       }
       img {
@@ -185,7 +185,7 @@
           color: black;
           text-decoration: none;
         }
-        @include breakpoint('medium') {
+        @include media-breakpoint-up(md) {
           display: block;
         }
       }
@@ -194,7 +194,7 @@
         color: $primary;
         text-decoration: none;
         padding: 2px 5px;
-        @include breakpoint('medium') {
+        @include media-breakpoint-up(md) {
           display: block;
         }
         &:hover {
@@ -203,7 +203,7 @@
       }
       .filter-count {
         color: #666;
-        @include breakpoint('medium') {
+        @include media-breakpoint-up(md) {
           margin: 0 0 0 auto;
         }
       }

@@ -5,12 +5,12 @@
   margin-left: -15px;
   margin-right: -15px;
   position: relative;
-  @include breakpoint('medium') {
+  @include media-breakpoint-up(md) {
     justify-content: flex-start;
     margin-left: -15px;
     margin-right: -15px
   }
-  @include breakpoint('large') {
+  @include media-breakpoint-up(lg) {
     margin-left: -20px;
     margin-right: -20px
   }
@@ -18,11 +18,11 @@
     padding: 15px;
     width: 100%;
 
-    @include breakpoint('medium') {
+    @include media-breakpoint-up(md) {
       padding: 15px;
       width: 50%;
     }
-    @include breakpoint('large') {
+    @include media-breakpoint-up(lg) {
       padding: 20px;
       width: 33.33%;
     }

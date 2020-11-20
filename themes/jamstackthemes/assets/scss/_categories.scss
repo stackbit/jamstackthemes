@@ -24,7 +24,7 @@
       margin-right: 5px;
       margin-left: 5px;
       margin-bottom: 10px;
-      @include breakpoint('small') {
+      @include media-breakpoint-up(sm) {
         display: flex;
       }
       .category-link {
@@ -32,7 +32,7 @@
         color: $primary;
         text-decoration: none;
         margin-left: 5px;
-        @include breakpoint('small') {
+        @include media-breakpoint-up(sm) {
           display: block;
         }
         &:hover {

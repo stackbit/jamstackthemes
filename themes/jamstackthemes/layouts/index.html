@@ -1,6 +1,6 @@
 {{ define "title" }}JAMstack Themes{{ end }}
-{{ define "header_classes" }}header-fullwidth{{ end }}
-{{ define "body_classes" }}page-home{{ end }}
+{{ define "header_classes" }}{{ end }}
+{{ define "body_classes" }}page-home has-sidebar{{ end }}
 
 {{ define "meta_tags" }}
 {{ $themes := (where .Site.RegularPages "Type" "theme") }}
@@ -13,35 +13,39 @@
 {{ end }}
 
 {{ define "main" }}
-
 {{ $themes := (where .Site.RegularPages "Type" "theme") }}
 {{ $themes := (where $themes ".Params.draft" "!=" true) }}
 {{ $themes := (where $themes ".Params.stale" "!=" true) }}
 {{ $themes := (where $themes ".Params.disabled" "!=" true) }}
 {{ $themeCount := len $themes}}
-
-<div class="sidebar">
-  {{ partial "filters.html" (dict "context" . "countAll" false) }}
-  {{ partial "stackbit.html" . }}
-</div>
-
-<div class="main">
-  <div class="intro">
-    <h1 class="intro-title">New Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
-    <div class="intro-description intro-description-desktop"><p>A list of themes and starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites. We're the largest gallery of user submitted, open source themes for static site generators 🦖. This site is maintained by the community and with the kind support of <a href="https://www.stackbit.com/?utm_source=jamstackthemes&utm_medium=referral&utm_campaign=jamstackthemeswebsite&utm_content=blurb">Stackbit</a></p></div>
-    <div class="intro-description intro-description-mobile"><p>A list of themes and starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites.</p></div>
+<div class="wrapper">
+  <div class="sidebar">
+    <div class="container">
+      {{ partial "filters.html" (dict "context" . "countAll" false) }}
+      {{ partial "stackbit.html" . }}
+    </div>
   </div>
 
-  {{ partial "sort-buttons.html" . }}
-  <!--  <div class="hint">Only themes which have a commit within the last 12 months are shown on the homepage. View <a href="/themes">All Themes</a></div>-->
+  <div class="main">
+    <div class="container">
 
-  <div id="grids-homepage" class="grids">
-    {{ range $themes.ByPublishDate.Reverse }}
-      {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
-      {{ $repo := index .Site.Data.themes $repoName }}
-      {{ $stackbit := index .Site.Data.stackbit $repoName }}
-      {{ partial "theme-card.html" (dict "theme" . "repo" $repo "site" $.Site "stackbit" $stackbit) }}
-    {{ end }}
+      <div class="intro">
+        <h1 class="intro-title">New Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
+        <div class="intro-description intro-description-desktop"><p>A list of themes and starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites. We're the largest gallery of user submitted, open source themes for static site generators 🦖. This site is maintained by the community and with the kind support of <a href="https://www.stackbit.com/?utm_source=jamstackthemes&utm_medium=referral&utm_campaign=jamstackthemeswebsite&utm_content=blurb">Stackbit</a></p></div>
+        <div class="intro-description intro-description-mobile"><p>A list of themes and starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites.</p></div>
+      </div>
+
+      {{ partial "sort-buttons.html" . }}
+
+      <div id="grids-homepage" class="row mt-3">
+        {{ range $themes.ByPublishDate.Reverse }}
+          {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
+          {{ $repo := index .Site.Data.themes $repoName }}
+          {{ partial "theme-card.html" (dict "theme" . "repo" $repo "site" $.Site) }}
+        {{ end }}
+      </div>
+
+    </div>
   </div>
 </div>
 {{ end }}

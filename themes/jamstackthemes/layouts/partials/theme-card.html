@@ -1,7 +1,7 @@
 
 <div
   id="{{ .theme.Params.Title | urlize }}"
-  class="grid {{ .classes }} {{ range .theme.Params.ssg }}{{ . | urlize }} {{ end }}{{ range .theme.Params.cms }}{{ . | urlize }} {{end}}{{ range .theme.Params.css }}{{ . | urlize }} {{end}}{{ range .theme.Params.archetype }}{{ . | urlize }} {{end}}{{ range .theme.Params.services }}{{ . | urlize }} {{end}}"
+  class="col-12 col-md-6 col-xl-4 mb-3 grid {{ .classes }} {{ range .theme.Params.ssg }}{{ . | urlize }} {{ end }}{{ range .theme.Params.cms }}{{ . | urlize }} {{end}}{{ range .theme.Params.css }}{{ . | urlize }} {{end}}{{ range .theme.Params.archetype }}{{ . | urlize }} {{end}}{{ range .theme.Params.services }}{{ . | urlize }} {{end}}"
   data-stars="{{ if .repo }}{{ .repo.stars }}{{ else }}0{{ end }}"
   data-last-commit="{{ if .repo }}{{ .repo.last_commit }}{{ else }} XXX {{ end }}"
   data-submitted="{{ .theme.Lastmod.Format "Jan 2, 2006" }}"
@@ -45,8 +45,8 @@
       <h2><a href="{{ .theme.Permalink }}" class="theme-title">{{ .theme.Params.title }}</a></h2>
       {{ if .repo }}
         {{ partial "star.html" (dict "stars" .repo.stars "float" "right")}}
-        {{ partial "author.html" (dict "author" .theme.Params.author) }}
-        {{ partial "last-commit.html" (dict "last_commit" .repo.last_commit ) }}
+        {{ partial "labels/label-author.html" (dict "author" .theme.Params.author) }}
+        {{ partial "labels/label-last-commit.html" (dict "last_commit" .repo.last_commit ) }}
       {{ end }}
     </div>
 
@@ -74,7 +74,7 @@
     {{ if .theme.Params.ssg }}
       {{- range .theme.Params.ssg }}
         {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
-          {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+          {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
         {{ end }}
       {{ end }}
     {{ end }}
@@ -84,7 +84,7 @@
         {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
           {{ if eq .Page.Title "No CMS" }}
           {{ else }}
-          {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+          {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
           {{ end }}
         {{ end }}
       {{ end }}
@@ -93,7 +93,7 @@
     {{ if .theme.Params.css }}
       {{- range .theme.Params.css }}
         {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
-          {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+          {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
         {{ end }}
       {{ end }}
     {{ end }}
@@ -102,7 +102,7 @@
     {{ if .theme.Params.services }}
     {{- range .theme.Params.services }}
       {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "services/%s" (urlize .)) }}
-        {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+        {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
       {{ end }}
     {{ end }}
     {{ end }}
@@ -111,7 +111,7 @@
     {{ if .theme.Params.archetype }}
       {{- range .theme.Params.archetype }}
         {{- with $.theme.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
-          {{ partial "icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+          {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
         {{ end }}
       {{ end }}
     {{ end }}

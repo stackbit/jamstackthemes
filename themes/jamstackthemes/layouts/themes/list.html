@@ -6,8 +6,8 @@
 All Themes ({{ $themeCount }})
 {{ end }}
 
-{{ define "header_classes" }}header-fullwidth{{ end }}
-{{ define "body_classes" }}page-all-themes{{ end }}
+{{ define "header_classes" }}{{ end }}
+{{ define "body_classes" }}page-all-themes has-sidebar{{ end }}
 {{ define "body_id" }}page-all-themes{{ end }}
 
 {{ define "meta_tags" }}
@@ -20,38 +20,30 @@ All Themes ({{ $themeCount }})
 {{ $themes := (where $themes ".Params.disabled" "!=" true) }}
 {{ $themeCount := len $themes}}
 
-<div class="sidebar">
-    {{ partial "filters.html" (dict "context" . "countAll" true) }}
-    {{ partial "stackbit.html" . }}
-</div>
-
-<div class="main">
-
-    <div class="intro">
-        <h1 class="intro-title">All Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
-        <div class="intro-description intro-description-desktop">
-            <p>Search hundreds of open-source JAMstack themes and find the perfect starter theme or boilerplate for your next project. Filter themes by static site generator, headless CMS and more. Sort themes by stars, last commit date or submission date.</p>
-        </div>
-        <div class="intro-description intro-description-mobile">
-            <p>Search hundreds of open-source JAMstack themes!</p>
+<div class="wrapper">
+    <div class="sidebar">
+        <div class="container">
+            {{ partial "filters.html" (dict "context" . "countAll" true) }}
+            {{ partial "stackbit.html" . }}
         </div>
     </div>
-
-    {{ partial "sort-buttons.html" . }}
-
-    <div id="grids-homepage" class="grids">
-        {{ range $themes.ByPublishDate.Reverse }}
-        {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
-        {{ $repo := index .Site.Data.themes $repoName }}
-        {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
-        {{ end }}
+    <div class="main">
+        <div class="container">
+            <div class="intro">
+                <h1 class="intro-title">All Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
+                <div class="intro-description intro-description-desktop"><p>Search hundreds of open-source JAMstack themes and find the perfect starter theme or boilerplate for your next project. Filter themes by static site generator, headless CMS and more. Sort themes by stars, last commit date or submission date.</p></div>
+                <div class="intro-description intro-description-mobile"><p>Search hundreds of open-source JAMstack themes!</p></div>
+            </div>
+            {{ partial "sort-buttons.html" . }}
+            <div id="grids-homepage" class="row mt-3">
+                {{ range $themes.ByPublishDate.Reverse }}
+                {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
+                {{ $repo := index .Site.Data.themes $repoName }}
+                {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
+                {{ end }}
+            </div>
+        </div>
     </div>
-
-    <div class="controls-pagination">
-        <div class="mixitup-page-list"></div>
-        <div class="mixitup-page-stats"></div>
-    </div>
-
 </div>
 {{ end }}
 

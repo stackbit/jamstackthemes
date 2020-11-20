@@ -24,7 +24,7 @@
     &:first-of-type {
       margin-top: 0;
     }
-    @include breakpoint('small') {
+    @include media-breakpoint-up(sm) {
       font-size: 30px;
       line-height: 1.4;
     }
@@ -45,12 +45,12 @@
     list-style: disc;
     li {
       margin-bottom: 5px;
-      margin-left: 0;
-      @include breakpoint('small') {
+      margin-left: 15px;
+      @include media-breakpoint-up(sm) {
         margin-left: 20px;
       }
     }
-    @include breakpoint('small') {
+    @include media-breakpoint-up(sm) {
       margin-left: 20px;
     }
   }

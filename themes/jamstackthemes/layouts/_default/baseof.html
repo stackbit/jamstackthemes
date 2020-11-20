@@ -42,12 +42,12 @@
     {{ partial "header.html" . }}
   </div>
 
-  <div class="wrapper">
-    {{ block "main" . }}{{ end }}
-  </div>
+  {{ block "main" . }}{{ end }}
 
   {{ partial "footer.html" . }}
+
   {{ block "footer_js" . }}{{ end }}
+
   {{ partial "segment.html" . }}
   {{ partial "branches.html" . }}
 </body>

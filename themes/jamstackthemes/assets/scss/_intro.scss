@@ -1,16 +1,20 @@
 .intro {
   .intro-icon {
     display: inline-block;
-    border-radius: 3px;
-    margin-right: 6px;
     vertical-align: middle;
+    margin-right: 2px;
     img {
       display: inline-block;
       vertical-align: bottom;
       width: 24px;
-      @include breakpoint('small') {
+      line-height: 32px;
+      @include media-breakpoint-up(sm) {
         width: 36px;
         line-height: 44px;
+      }
+      @include media-breakpoint-up(xl) {
+        width: 46px;
+        line-height: 52px;
       }
     }
   }
@@ -20,42 +24,50 @@
     margin: 0;
     font-size: 24px;
     font-weight: 400;
-    @include breakpoint('small') {
-      font-size: 30px;
-      line-height: 36px;
+    @include media-breakpoint-up(md) {
+      font-size: 36px;
+      line-height: 42px;
+      margin-bottom: 0px;
+    }
+    @include media-breakpoint-up(xl) {
+      font-size: 46px;
+      line-height: 54px;
       margin-bottom: 0px;
     }
   }
   .intro-description {
-    display: none;
     color: $carbon;
     padding: 10px 0 10px 0;
-    @include breakpoint('medium') {
-      display: block;
+    @include media-breakpoint-up(md) {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 75%;
     }
     &.intro-description-mobile {
       display: block;
-      font-size: 16px;
-      line-height: 20px;
-      @include breakpoint('medium') {
+      @include media-breakpoint-up(md) {
         display: none;
       }
     }
     &.intro-description-desktop {
       display: none;
-      font-size: 18px;
-      line-height: 24px;
       width: 75%;
-      @include breakpoint('medium') {
+      @include media-breakpoint-up(md) {
         display: block;
       }
     }
   }
-  .official-website {
-    float: right;
-    font-size: 16px;
-    @include breakpoint('small') {
+  .intro-backlink {
+    display: none;
+    margin-top: 6px;
+    padding: 4px 10px;
+    border: 1px solid $grey;
+    border-radius: 3px;
+    @include media-breakpoint-up(md) {
       margin-left: auto;
+      display: block;
     }
     a {
       color: $primary;
@@ -65,10 +77,8 @@
       }
     }
   }
-}
-
-
-.hint {
-  font-size: 14px;
-  color: #666;
+  .intro-bar {
+    display: flex;
+    align-items: center;
+  }
 }

@@ -34,7 +34,7 @@ ul.pagination {
       color: $primary;
       text-decoration: none;
       vertical-align: middle;
-      @include breakpoint("large") {
+      @include media-breakpoint-up(lg) {
         padding: 10px 16px;
       }
     }

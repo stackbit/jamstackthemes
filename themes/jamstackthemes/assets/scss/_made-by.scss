@@ -24,7 +24,7 @@
     img {
       width: 22px;
     }
-    @include breakpoint('small') {
+    @include media-breakpoint-up(sm) {
      display: block;
     }
   }
@@ -34,7 +34,7 @@
     img {
       width: 30px;
     }
-    @include breakpoint('small') {
+    @include media-breakpoint-up(sm) {
      display: none;
     }
   }

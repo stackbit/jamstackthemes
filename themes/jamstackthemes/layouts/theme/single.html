@@ -7,45 +7,35 @@
 {{ $repo := index .Site.Data.themes $repoName }}
 {{ $stackbit := index .Site.Data.stackbit $repoName }}
 
-<div class="theme theme-detail" data-name="{{ .Title }}">
-    <div class="theme-detail-top">
+<div class="wrapper">
+    <div class="main">
         <div class="container">
-            <div class="theme-detail-header">
-                <div class="theme-detail-info">
-                    <h1 class="theme-detail-heading">{{ .Title }}</h1>
-                    <p class="theme-detail-description">{{ .Params.description }}</p>
+            <div class="theme theme-detail" data-name="{{ .Title }}">
+            <div class="theme-detail-top">
 
-                    {{ if $repo }}
-                    <div class="theme-detail-github">
-                        <div class="stars">
-                            <span>{{ $repo.stars }}</span>
-                        </div>
-                        <div class="issues">
-                            <span>{{ $repo.open_issues }}</span>
-                        </div>
-                        <div class="forks">
-                            <span>{{ $repo.forks }}</span>
-                        </div>
-                    </div>
+                <div class="theme-detail-stars"><span>{{ $repo.stars }}</span></div>
+                <h1 class="theme-detail-title">{{ .Title }}</h1>
+                <p class="theme-detail-description">{{ .Params.description }}</p>
+
+                {{ if .Params.ssg }}
+                    {{- range .Params.ssg }}
+                    {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
+                        {{ partial "labels/label-ssg.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink ) }}
                     {{ end }}
+                    {{ end }}
+                {{ end }}
 
+                {{ partial "labels/label-author.html" (dict "author" .Params.author) }}
+                {{ if $repo }}{{ partial "labels/label-last-commit.html" (dict "last_commit" $repo.last_commit) }}{{ end }}
 
-                    {{ partial "author.html" (dict "author" .Params.author)}}
-                    {{ partial "last-commit.html" (dict "last_commit" $repo.last_commit) }}
-                    {{ partial "submitted-on.html" (dict "date" .Params.date) }}
-
-
-
-
-                    <div class="theme-buttons theme-detail-buttons">
-                        {{ if .Site.Params.stackbit_button }}
+                <div class="theme-buttons theme-detail-buttons">
+                    {{ if .Site.Params.stackbit_button }}
                         <a class="theme-button theme-button-fill theme-button-stackbit" href="{{ .Params.github }}" target="_blank" rel="noopener nofollow">Create Site</a>
-                        {{ end }}
-                        <a class="theme-button theme-button-github" href="{{ .Params.github }}" target="_blank" rel="nofollow noopener">Github</a>
-                        <a class="theme-button theme-button-demo" href="{{ .Params.demo }}" target="_blank" rel="nofollow noopener">Live Demo</a>
-                    </div>
-
+                    {{ end }}
+                    <a class="theme-button theme-button-github" href="{{ .Params.github }}" target="_blank" rel="nofollow noopener">Github</a>
+                    <a class="theme-button theme-button-demo" href="{{ .Params.demo }}" target="_blank" rel="nofollow noopener">Live Demo</a>
                 </div>
+
                 <div class="theme-detail-preview">
                     <div class="theme-detail-image">
                         {{ if $repo }}
@@ -57,62 +47,60 @@
                         {{ end }}
                     </div>
                 </div>
+
+                <div class="theme-detail-tags">
+                    {{ if .Params.ssg }}
+                    {{- range .Params.ssg }}
+                    {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
+                    {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                    {{ end }}
+                    {{ end }}
+                    {{ end }}
+
+                    {{ if .Params.cms }}
+                    {{- range .Params.cms }}
+                    {{- with $.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
+                    {{ if eq .Page.Title "No CMS" }}
+                    {{ else }}
+                    {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                    {{ end }}
+                    {{ end }}
+                    {{ end }}
+                    {{ end }}
+
+                    {{ if .Params.css }}
+                    {{- range .Params.css }}
+                    {{- with $.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
+                    {{ if eq .Page.Title "No css" }}
+                    {{ else }}
+                    {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                    {{ end }}
+                    {{ end }}
+                    {{ end }}
+                    {{ end }}
+
+                    {{ if .Params.archetype }}
+                    {{- range .Params.archetype }}
+                    {{- with $.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
+                    {{ if eq .Page.Title "No archetype" }}
+                    {{ else }}
+                    {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                    {{ end }}
+                    {{ end }}
+                    {{ end }}
+                    {{ end }}
+                </div>
+
             </div>
-        </div>
-    </div>
 
-    <div class="theme-detail-bottom">
-        <div class="container">
-            <div class="theme-detail-tags">
-                {{ if .Params.ssg }}
-                {{- range .Params.ssg }}
-                {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
-                {{ partial "icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-                {{ end }}
-                {{ end }}
-                {{ end }}
-
-                {{ if .Params.cms }}
-                {{- range .Params.cms }}
-                {{- with $.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
-                {{ if eq .Page.Title "No CMS" }}
-                {{ else }}
-                {{ partial "icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-                {{ end }}
-                {{ end }}
-                {{ end }}
-                {{ end }}
-
-                {{ if .Params.css }}
-                {{- range .Params.css }}
-                {{- with $.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
-                {{ if eq .Page.Title "No css" }}
-                {{ else }}
-                {{ partial "icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-                {{ end }}
-                {{ end }}
-                {{ end }}
-                {{ end }}
-
-                {{ if .Params.archetype }}
-                {{- range .Params.archetype }}
-                {{- with $.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
-                {{ if eq .Page.Title "No archetype" }}
-                {{ else }}
-                {{ partial "icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
-                {{ end }}
-                {{ end }}
-                {{ end }}
-                {{ end }}
+            <div class="theme-detail-bottom">
+                <div class="content">
+                    {{ .Content }}
+                </div>
             </div>
-        <div class="content">
-            {{ .Content }}
+
         </div>
         </div>
     </div>
 </div>
-
 {{ end }}
-
-{{ define "footer_js" }}{{ end }}
-

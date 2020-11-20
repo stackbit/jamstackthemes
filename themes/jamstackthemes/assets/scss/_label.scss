@@ -1,0 +1,14 @@
+.label {
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 16px;
+  color: #666666;
+  margin-bottom: 2px;
+  .label-key {
+    display: inline-block;
+  }
+  .label-value {
+    display: inline-block;
+    color: black;
+  }
+}

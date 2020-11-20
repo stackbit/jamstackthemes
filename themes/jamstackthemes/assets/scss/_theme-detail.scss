@@ -1,112 +1,153 @@
 .theme-detail {
-  margin: 0 auto;
-  width: 100%;
   .theme-detail-top {
-    background-image: url(/images/material-design-4k-wallpaper-greyscale.png);
-    //background-image: url(/images/patterns/Kander.png);
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    //background-color: antiquewhite;
-    background-color: #fdf5dd;
-    background-blend-mode: overlay;
-    //background-color: #cdf3fd;
-    width: 100%;
-    .theme-detail-header {
-      padding: 60px 0 60px 0;
+    .theme-detail-bar {
       display: flex;
-      flex-direction: column;
-      .theme-detail-info {
-        margin-bottom: 40px;
-        .theme-detail-heading {
-          font-size: 46px;
-          font-weight: normal;
-          margin-bottom: 10px;
+      align-items: center;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 12px;
+      margin-bottom: 5px;
+      color: $steel;
+      .theme-detail-icon {
+        margin-right: 4px;
+        width: 16px;
+      }
+    }
+    .theme-detail-heading {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 10px;
+    }
+    .theme-detail-title {
+      font-size: 24px;
+      line-height: 28px;
+      font-weight: normal;
+      margin-bottom: 15px;
+    }
+    .theme-detail-stars {
+      float: right;
+      height: 18px;
+      margin-top: 4px;
+      font-size: 16px;
+      background-position: center left;
+      background-size: 18px;
+      background-repeat: no-repeat;
+      padding-left: 24px;
+      background-image: url("../images/ui/star.svg");
+      span {
+        line-height: 22px;
+      }
+    }
+    .theme-detail-description {
+      font-size: 16px;
+      line-height: 22px;
+      color: $steel;
+      margin-bottom: 20px;
+    }
+    .theme-detail-github {
+      padding: 10px 0 10px 0;
+      display: flex;
+      align-items: center;
+      > div {
+        font-size: 16px;
+        line-height: 18px;
+        margin-right: 14px;
+        background-size: 18px 18px;
+        background-repeat: no-repeat;
+        padding-left: 26px;
+        vertical-align: middle;
+      }
+      .stars {
+        background-image: url("../images/ui/star.svg");
+      }
+      .issues {
+        background-image: url("../images/ui/issues.svg");
+      }
+      .forks {
+        background-image: url("../images/ui/forks.svg");
+      }
+    }
+    .theme-detail-buttons {
+      display: flex;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      .theme-button {
+        display: inline-block;
+        padding: 7px 15px;
+        border: 1px solid $primary;
+        border-radius: 4px;
+        font-size: 16px;
+        margin-right: 5px;
+        color: $primary;
+        text-decoration: none;
+        &:hover {
+          color: $primary;
+          opacity: 0.8;
         }
-        .theme-detail-description {
-          margin-bottom: 20px;
-          font-size: 18px;
-          line-height: 1.4;
-          color: $steel;
+        &:last-of-type {
+          margin-right: 0;
         }
-        .theme-detail-github {
-          padding: 20px 0 20px 0;
-          display: flex;
-          align-items: center;
-          font-size: 20px;
-          line-height: 24px;
-          > div {
-            margin-right: 14px;
-            background-size: 20px 20px;
-            background-repeat: no-repeat;
-            padding-left: 26px;
-            vertical-align: middle;
-            opacity: 0.8;
-          }
-          .stars {
-            background-image: url("../images/ui/star.svg");
-          }
-          .issues {
-            background-image: url("../images/ui/issues.svg");
-          }
-          .forks {
-            background-image: url("../images/ui/forks.svg");
-          }
+        &.theme-button-fill {
+          background-color: $primary;
+          color: white;
         }
-        .theme-detail-buttons {
-          margin-top: 20px;
-          .theme-button {
-            display: inline-block;
-            padding: 9px 17px;
-            border: 1px solid $primary;
-            border-radius: 4px;
-            font-size: 16px;
-            margin-right: 5px;
-            color: $primary;
-            text-decoration: none;
-            &:hover {
-              color: $primary;
-              opacity: 0.8;
-            }
-            &.theme-button-fill {
-              background-color: $primary;
-              color: white;
-            }
-            &.theme-button-link {
-              border: none;
-              text-decoration: underline;
-            }
-          }
-        }
-        .theme-detail-tags {
-          margin-top: 20px;
-          display: inline-block;
-          border-radius: 3px;
-          .icon {
-            margin-bottom: 10px;
-            @include breakpoint('medium') {
-              margin-bottom: 10px;
-            }
-          }
+        &.theme-button-link {
+          border: none;
+          text-decoration: underline;
         }
       }
-      .theme-detail-preview {
-        flex: 1;
-        .theme-detail-image {
-          box-shadow: 1px 4px 12px 2px adjust-color(#fdf5dd, $alpha: -0.8);
-          border: 1px solid $grey;
-          img {
-            border-radius: 10px;
-            width: 100%;
-            height: auto;
-            vertical-align: bottom;
-          }
+    }
+    .theme-detail-preview {
+      .theme-detail-image {
+        img {
+          //box-shadow: 1px 2px 14px 2px rgba(0, 0, 0, 0.1);
+          border-radius: 3px;
+          border: 1px solid $bone;
+          width: 100%;
+          height: auto;
+          vertical-align: bottom;
+        }
+      }
+    }
+    .theme-detail-tags {
+      margin-top: 10px;
+      display: inline-block;
+      border-radius: 3px;
+      .icon {
+        margin-bottom: 10px;
+        @include media-breakpoint-up(md) {
+          margin-bottom: 10px;
         }
       }
     }
   }
   .theme-detail-bottom {
-    padding: 60px 0 60px 0;
+    padding-top: 40px;
   }
 
+}
+
+.page-default-single .wrapper {
+  //position: relative;
+  //overflow: hidden;
+}
+
+.page-default-single .wrapper::before {
+  //content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  transform: rotate(30deg);
+  overflow: hidden;
+  //background-image: url(/images/material-design-4k-wallpaper-greyscale.png);
+  background-image: url(/images/1.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  //background-color: antiquewhite;
+  //background-color: #fdf5dd;
+  //background-color: #cdf3fd;
 }
