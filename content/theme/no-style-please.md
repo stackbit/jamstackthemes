@@ -15,7 +15,7 @@ archetype:
 description: 'A (nearly) no-CSS, fast, minimalist Jekyll theme.'
 stale: false
 weight: 26
-stackbit: 'https://github.com/riggraz/no-style-please'
+stackbit: 'https://github.com/riggraz/no-style-please?stackbit=true'
 ---
 
 # A (nearly) no-CSS, fast, minimalist Jekyll theme

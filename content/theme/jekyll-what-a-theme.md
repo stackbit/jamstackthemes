@@ -20,5 +20,5 @@ description: >-
   portfolio.
 stale: false
 weight: 16
-stackbit: 'https://github.com/thedevslot/WhatATheme/'
+stackbit: 'https://github.com/thedevslot/WhatATheme/?stackbit=true'
 ---

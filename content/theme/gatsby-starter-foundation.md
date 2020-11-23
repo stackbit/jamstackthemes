@@ -18,7 +18,7 @@ description: >-
   Gatsby and Netlify CMS.
 stale: false
 weight: 28
-stackbit: 'https://github.com/stackrole/gatsby-starter-foundation'
+stackbit: 'https://github.com/stackrole/gatsby-starter-foundation?stackbit=true'
 ---
 
 # Foundation

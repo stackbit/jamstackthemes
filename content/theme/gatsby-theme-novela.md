@@ -12,7 +12,7 @@ github_branch: master
 description: 'Welcome to Novela, the simplest way to start publishing with Gatsby.'
 stale: false
 weight: 20
-stackbit: 'https://github.com/narative/gatsby-theme-novela'
+stackbit: 'https://github.com/narative/gatsby-theme-novela?stackbit=true'
 ---
 
 Welcome to Novela, the simplest way to start publishing with Gatsby. 

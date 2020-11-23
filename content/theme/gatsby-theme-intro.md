@@ -20,7 +20,7 @@ services:
 description: Personal branding theme for developers
 weight: 19
 stale: false
-stackbit: 'https://github.com/wkocjan/gatsby-theme-intro'
+stackbit: 'https://github.com/wkocjan/gatsby-theme-intro?stackbit=true'
 ---
 
 # Intro - Personal branding theme for developers

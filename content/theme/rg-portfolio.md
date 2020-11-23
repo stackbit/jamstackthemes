@@ -20,7 +20,7 @@ description: >-
   Gatsby + Contenful.
 stale: false
 weight: 18
-stackbit: 'https://github.com/rohitguptab/rg-portfolio'
+stackbit: 'https://github.com/rohitguptab/rg-portfolio?stackbit=true'
 ---
 
 # A simple starter kit for Gatsby

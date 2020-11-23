@@ -20,7 +20,7 @@ description: >-
   resumes.
 stale: false
 weight: 24
-stackbit: 'https://github.com/longpdo/neumorphism'
+stackbit: 'https://github.com/longpdo/neumorphism?stackbit=true'
 ---
 
 # Neumorphism

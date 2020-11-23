@@ -16,7 +16,7 @@ description: >-
 github_branch: master
 stale: false
 weight: 25
-stackbit: 'https://github.com/RyanFitzgerald/devblog'
+stackbit: 'https://github.com/RyanFitzgerald/devblog?stackbit=true'
 ---
 
 A fully customizable blog template designed for developers (or anyone else) wanting to get into blogging. 

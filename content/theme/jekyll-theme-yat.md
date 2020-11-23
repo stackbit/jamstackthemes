@@ -16,7 +16,7 @@ archetype:
 description: "\U0001F3A8 Yet another theme for elegant writers with modern flat style."
 stale: false
 weight: 15
-stackbit: 'https://github.com/jeffreytse/jekyll-theme-yat'
+stackbit: 'https://github.com/jeffreytse/jekyll-theme-yat?stackbit=true'
 ---
 
 ## What's new?
