@@ -11,6 +11,8 @@ cms:
   - No Cms
 description: Modular and easy to use Gatsby template for a Healthcare Startup.
 stale: false
+weight: 17
+stackbit: 'https://github.com/shantanu-deshmukh/vhealth-gatsby'
 ---
 
 # Easy to use gatsby template for a healthcare startup.

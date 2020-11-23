@@ -7,13 +7,12 @@ ssg:
   - Gatsby
 cms:
   - Contentful
-services:
-  - Mailchimp
 date: 2019-08-01T00:00:00.000Z
 github_branch: master
-featured: true
 description: 'Welcome to Novela, the simplest way to start publishing with Gatsby.'
 stale: false
+weight: 20
+stackbit: 'https://github.com/narative/gatsby-theme-novela'
 ---
 
 Welcome to Novela, the simplest way to start publishing with Gatsby. 

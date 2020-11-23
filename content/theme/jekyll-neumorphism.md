@@ -19,6 +19,8 @@ description: >-
   Neumorphism designed Jekyll theme for personal websites, portfolios and
   resumes.
 stale: false
+weight: 24
+stackbit: 'https://github.com/longpdo/neumorphism'
 ---
 
 # Neumorphism

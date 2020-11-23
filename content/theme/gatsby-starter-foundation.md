@@ -17,6 +17,8 @@ description: >-
   A starter to launch your blazing fast personal website and a blog, Built with
   Gatsby and Netlify CMS.
 stale: false
+weight: 28
+stackbit: 'https://github.com/stackrole/gatsby-starter-foundation'
 ---
 
 # Foundation

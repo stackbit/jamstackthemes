@@ -15,6 +15,8 @@ description: >-
   wanting to get into blogging
 github_branch: master
 stale: false
+weight: 25
+stackbit: 'https://github.com/RyanFitzgerald/devblog'
 ---
 
 A fully customizable blog template designed for developers (or anyone else) wanting to get into blogging. 
