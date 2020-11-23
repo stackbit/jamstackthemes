@@ -15,5 +15,8 @@ css:
 date: 2019-11-08T00:00:00.000Z
 github_branch: master
 description: Serif is a beautiful small business theme for Jekyll.
+stackbit: >-
+  https://app.stackbit.com/create?theme=https://github.com/zerostaticthemes/jekyll-serif&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=card
 stale: false
+weight: 5
 ---

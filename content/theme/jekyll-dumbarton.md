@@ -12,7 +12,7 @@ css:
 archetype:
   - Blog
   - Portfolio
-date: 2020-11-01T09:36:30.000Z
+date: 2020-10-30T00:00:00.000Z
 github_branch: master
 description: 'A Jekyll theme designed for academics, powered by Bootstrap'
 stale: false

@@ -12,5 +12,5 @@ github_branch: master
 description: >-
   Liberxue blog for lightweight Jekyll  themes  轻量级自适应 简洁 卡片式博客主题 3秒搞定GitHub
   blog
-stale: false
+stale: true
 ---

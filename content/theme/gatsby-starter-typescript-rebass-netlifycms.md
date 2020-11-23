@@ -10,5 +10,5 @@ cms:
 date: 2019-01-26T04:06:58.000Z
 github_branch: master
 description: 'My default Gatsby setup. Includes rich MDX support. '
-stale: false
+stale: true
 ---
