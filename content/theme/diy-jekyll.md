@@ -15,6 +15,7 @@ description: >-
   DIY is a marketing theme for Jekyll with an advanced layout builder.
 stackbit: "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/diy-jekyll"
 stale: false
+weight: 1
 ---
 
 ## Theme Features

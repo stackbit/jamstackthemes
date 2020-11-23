@@ -3,7 +3,7 @@ title: Tiny Blog
 github: 'https://github.com/sumeetmathpati/tiny-blog'
 demo: 'https://sumeetmathpati.github.io/tiny-blog/'
 author: Sumeet Mathpati
-date: 2020-09-218
+date: 2020-09-21
 github_branch: master
 ssg:
   - Jekyll

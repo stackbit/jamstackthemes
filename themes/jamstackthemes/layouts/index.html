@@ -18,6 +18,7 @@
 {{ $themes := (where $themes ".Params.stale" "!=" true) }}
 {{ $themes := (where $themes ".Params.disabled" "!=" true) }}
 {{ $themeCount := len $themes}}
+
 <div class="wrapper">
   <div class="sidebar">
     <div class="container">
@@ -40,7 +41,7 @@
       {{ partial "sort-buttons.html" . }}
 
       <div id="grids-homepage" class="row mt-3">
-        {{ range $themes.ByPublishDate.Reverse }}
+        {{ range (($themes.ByParam "date").Reverse).ByParam "weight" }}
           {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
           {{ $repo := index .Site.Data.themes $repoName }}
           {{ partial "theme-card.html" (dict "theme" . "repo" $repo "site" $.Site) }}
