@@ -1,4 +1,7 @@
 .intro {
+  .intro-heading {
+    margin-bottom: 10px;
+  }
   .intro-icon {
     display: inline-block;
     vertical-align: middle;
@@ -7,14 +10,14 @@
       display: inline-block;
       vertical-align: bottom;
       width: 24px;
-      line-height: 32px;
       @include media-breakpoint-up(sm) {
+        width: 28px;
+      }
+      @include media-breakpoint-up(md) {
         width: 36px;
-        line-height: 44px;
       }
       @include media-breakpoint-up(xl) {
         width: 46px;
-        line-height: 52px;
       }
     }
   }
@@ -22,8 +25,7 @@
     display: inline-block;
     vertical-align: middle;
     font-size: 24px;
-    font-weight: 400;
-    margin-bottom: 10px;
+    margin: 0;
     @include media-breakpoint-up(sm) {
       font-size: 28px;
     }

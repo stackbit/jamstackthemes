@@ -16,8 +16,10 @@
         <div class="container">
 
             <div class="intro">
-                <div class="intro-icon"><img src="{{ .Params.icon | relURL }}" alt="{{.Title}} Logo" /></div>
-                <h1 class="intro-title">{{.Title}} Themes <span class="count">({{ $themeCount }})</span></h1>
+                <div class="intro-heading">
+                    <div class="intro-icon"><img src="{{ .Params.icon | relURL }}" alt="{{.Title}} Logo" /></div>
+                    <h1 class="intro-title">{{.Title}} Themes <span class="count">({{ $themeCount }})</span></h1>
+                </div>
                 <div class="intro-description"><p>Browse our list of {{ .Title }} themes, starters and templates.</p></div>
                 <div class="intro-bar">
                     <div class="intro-breadcrumbs">{{ partial "breadcrumbs.html" . }}</div>

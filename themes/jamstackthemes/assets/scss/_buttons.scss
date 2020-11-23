@@ -1,15 +1,14 @@
 .button {
-  background: $primary;
   border-radius: 3px;
-  color: white;
+  color: $primary;
   outline: none;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 5px 10px;
   margin-right: 5px;
   cursor: pointer;
-  @include media-breakpoint-up(sm) {
-    margin-bottom: 0;
-  }
+  background: none;
+  border: 1px solid $primary;
+  margin-bottom: 5px;
   &:hover {
     border-color: $primary;
     opacity: 0.8;
@@ -27,7 +26,7 @@
 .sort-buttons {
   margin-bottom: 10px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   @include media-breakpoint-up(sm) {
     margin-bottom: 15px;
     margin-top: 15px;
@@ -41,34 +40,13 @@
     }
   }
   button {
-    padding: 5px;
-    background: none;
-    border: 2px solid $primary;
-    border-radius: 3px;
-    color: $primary;
-    outline: none;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    cursor: pointer;
-    @include media-breakpoint-up(md) {
-      margin-bottom: 0;
-      padding: 10px 15px;
-      margin-right: 10px;
+    font-size: 14px;
+    flex-grow: 1;
+    @include media-breakpoint-up(sm) {
+      font-size: 16px;
     }
-    &:hover {
-      border-color: $primary;
-      opacity: 0.8;
-    }
-    &:focus {
-      outline: none;
-    }
-    &.selected,
-    &.mixitup-control-active {
-      background: $primary;
-      color: white;
-      &:hover {
-        opacity: 1;
-      }
+    @include media-breakpoint-up(lg) {
+      flex-grow: 0;
     }
   }
 }

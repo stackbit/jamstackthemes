@@ -41,14 +41,13 @@
     </a>
 
   <div class="theme-body">
-    <div class="theme-meta">
-      <h2><a href="{{ .theme.Permalink }}" class="theme-title">{{ .theme.Params.title }}</a></h2>
-      {{ if .repo }}
-        <div class="theme-stars">{{ .repo.stars }}</div>
-        {{ partial "labels/label-author.html" (dict "author" .theme.Params.author) }}
-        {{ partial "labels/label-last-commit.html" (dict "last_commit" .repo.last_commit ) }}
-      {{ end }}
-    </div>
+
+    <h2><a href="{{ .theme.Permalink }}" class="theme-title">{{ .theme.Params.title }}</a></h2>
+    {{ if .repo }}
+      <div class="theme-stars">{{ .repo.stars }}</div>
+      {{ partial "labels/label-author.html" (dict "author" .theme.Params.author) }}
+      {{ partial "labels/label-last-commit.html" (dict "last_commit" .repo.last_commit ) }}
+    {{ end }}
 
     <div class="theme-description">
       {{ if .theme.Params.description }}

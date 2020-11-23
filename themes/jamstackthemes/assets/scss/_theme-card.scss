@@ -1,23 +1,14 @@
-
 .theme-card {
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid #e9e9e9;
+  border: 1px solid $grey;
   border-radius: 8px;
   background-color: white;
-  box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.05);
-  transition: color 0.1s, box-shadow 0.1s linear, transform 0.1s linear;
   position: relative;
   z-index: 1;
   height: 100%;
-  //&:hover {
-  //  transform: translateY(-2px);
-  //  transition: box-shadow 0.2s ease-out, transform 0.2s ease-out;
-  //  box-shadow: 1px 4px 12px 2px adjust-color($primary, $alpha: -0.8);
-  //  color: currentColor;
-  //}
   .theme-header {
     border-bottom: 1px solid $grey;
     max-height: 260px;
@@ -33,80 +24,65 @@
       }
     }
   }
-
   .theme-body {
     min-height: 200px;
     background: white;
-    color: $steel;
-    .theme-meta {
-      padding: 20px;
+    padding: 20px;
+    flex: 1;
+    h2 {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 10px;
+      @include media-breakpoint-up(xl) {
+        font-size: 26px;
+      }
+    }
 
-      h2 {
-        font-size: 20px;
-        line-height: 26px;
-        font-weight: 500;
-        font-family: $font-family-heading;
+    p {
+      font-size: 14px;
+      @include media-breakpoint-up(xl) {
+        font-size: 16px;
+      }
+      &.description {
+        padding: 20px 0 20px 0;
         margin: 0;
-        margin-bottom: 10px;
-      }
-
-      p {
-        color: $steel;
-        font-size: 14px;
-
-        strong {
-          color: $carbon;
-        }
-
-        &.description {
-          margin-top: 20px;
-          margin-bottom: 0;
-          line-height: 18px
-        }
       }
     }
-
-    .theme-description {
-      padding: 0px 20px;
-    }
-
   }
-
   .theme-footer {
     border-top: 1px solid $grey;
     background: $bone;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding: 0 15px;
-
+    padding: 0 12px;
     a {
       flex: 0;
       padding: 8px;
       border-right: 1px solid $grey;
       border-bottom: 1px solid $grey;
-
       &:last-of-type {
         border-right: none;
       }
     }
   }
-
+  .theme-description {
+    min-height: 100px;
+  }
   .theme-buttons {
-    padding: 20px 20px;
-    .theme-button {
-      padding: 3px 5px;
-      border: 1px solid $primary;
-      border-radius: 2px;
-      font-size: 14px;
-      margin-right: 10px;
-      color: $primary;
-      text-decoration: none;
-      display: inline-block;
-      &:hover {
-        color: $primary;
-        opacity: 0.8;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .theme-buttons-group {
+      &:last-of-type {
+        margin-bottom: 0;
       }
+    }
+    .theme-button {
+      @extend .button;
+      text-align: center;
+      flex: 1 0 auto;
+      font-size: 14px;
       &.theme-button-fill {
         background-color: $primary;
         color: white;
@@ -117,21 +93,27 @@
       }
     }
   }
-
   .theme-stars {
+    float: right;
     display: inline-block;
     border: 1px solid $bone;
-    padding: 4px 7px 4px 26px;
+    padding: 4px 6px 4px 24px;
     border-radius: 2px;
-    font-size: 16px;
     color: $steel;
-    margin-bottom: 8px;
     background-image: url("../images/ui/star.svg");
     background-repeat: no-repeat;
-    background-position: 6px 6px;
-    background-size: 16px;
+    background-position: 6px;
+    background-size: 13px;
     background-color: $bone;
-
+    font-size: 14px;
+    font-weight: 600;
+    @include media-breakpoint-up(xl) {
+      background-size: 15px;
+      background-position: 8px;
+      padding: 4px 6px 4px 28px;
+      font-size: 16px;
+      font-weight: normal;
+    }
     .star-count {
       display: inline-block;
     }
