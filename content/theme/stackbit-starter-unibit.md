@@ -17,8 +17,7 @@ cms:
   - Sanity
 date: 2019-05-23T18:26:16.000Z
 description: A developer focused starter theme for Stackbit.
-stackbit: >-
-  https://app.stackbit.com/create?theme=starter
+stackbit: 'https://app.stackbit.com/create?theme=starter'
 stale: false
 weight: 5
 ---

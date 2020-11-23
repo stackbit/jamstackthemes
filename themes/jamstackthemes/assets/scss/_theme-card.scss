@@ -55,15 +55,11 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding: 0 12px;
     a {
       flex: 0;
-      padding: 8px;
+      padding: 7px;
       border-right: 1px solid $grey;
       border-bottom: 1px solid $grey;
-      &:last-of-type {
-        border-right: none;
-      }
     }
   }
   .theme-description {

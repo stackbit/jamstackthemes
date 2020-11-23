@@ -1,12 +1,12 @@
 ---
 title: Jekyll Serif
-github: 'https://github.com/JugglerX/jekyll-serif-theme'
-demo: 'https://jekyll-serif-theme.netlify.com/'
+github: 'https://github.com/zerostaticthemes/jekyll-serif-theme'
+demo: 'https://jekyll-serif.netlify.app/'
 author: Robert Austin
 ssg:
   - Jekyll
 cms:
-  - No Cms
+  - Stackbit
 archetype:
   - Business
   - Multi Purpose
@@ -16,7 +16,7 @@ date: 2019-11-08T00:00:00.000Z
 github_branch: master
 description: Serif is a beautiful small business theme for Jekyll.
 stackbit: >-
-  https://app.stackbit.com/create?theme=https://github.com/zerostaticthemes/jekyll-serif&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=card
+  https://app.stackbit.com/create?theme=https://github.com/zerostaticthemes/jekyll-serif
 stale: false
-weight: 5
+weight: 10
 ---

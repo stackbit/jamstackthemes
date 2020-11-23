@@ -17,7 +17,7 @@ cms:
   - Sanity
 date: 2020-11-10T00:00:00.000Z
 description: DIY is a marketing theme for Jekyll with an advanced layout builder.
-stackbit: https://app.stackbit.com/create?theme=diy
+stackbit: 'https://app.stackbit.com/create?theme=diy'
 stale: false
 weight: 1
 ---

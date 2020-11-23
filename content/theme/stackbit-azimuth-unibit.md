@@ -17,8 +17,7 @@ cms:
   - Sanity
 date: 2020-10-15T00:00:00.000Z
 description: Azimuth is a sleek marketing theme
-stackbit: >-
-  https://app.stackbit.com/create?theme=azimuth
+stackbit: 'https://app.stackbit.com/create?theme=azimuth'
 stale: false
 weight: 4
 ---

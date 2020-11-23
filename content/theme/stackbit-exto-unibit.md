@@ -17,7 +17,7 @@ cms:
   - Sanity
 date: 2019-05-23T18:26:16.000Z
 description: Exto is an exceptionally well portfolio theme
-stackbit: >-
-  https://app.stackbit.com/create?theme=exto
+stackbit: 'https://app.stackbit.com/create?theme=exto'
 weight: 2
+stale: false
 ---

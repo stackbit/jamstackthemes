@@ -19,4 +19,6 @@ github_branch: master
 description: Hyperspace a multi-page theme with scroll-animated home sections for Stackbit
 stale: false
 stackbit: 'https://app.stackbit.com/create?theme=hyperspace'
+disabled: true
+disabled_reason: demo url not found
 ---

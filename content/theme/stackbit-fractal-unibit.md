@@ -19,4 +19,6 @@ date: 2019-05-10T14:36:37.000Z
 description: Fractal single page mobile application marketing theme for Stackbit
 stackbit: 'https://app.stackbit.com/create?theme=fractal'
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

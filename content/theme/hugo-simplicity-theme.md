@@ -10,5 +10,5 @@ cms:
 date: 2017-11-05T18:54:34.000Z
 github_branch: master
 description: Hugo theme.
-stale: true
+stale: false
 ---

@@ -17,8 +17,7 @@ cms:
   - Sanity
 date: 2019-05-10T13:57:28.000Z
 description: Ampersand is a Medium inspired blogging theme.
-stackbit: >-
-  https://app.stackbit.com/create?theme=ampersand
+stackbit: 'https://app.stackbit.com/create?theme=ampersand'
 stale: false
-weight: 7
+weight: 5
 ---
