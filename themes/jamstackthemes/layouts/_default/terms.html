@@ -8,10 +8,14 @@
     <div class="main">
         <div class="container">
             <div class="intro">
-                <h1 class="intro-title">{{.Title}} <span class="count">({{ $themeCount }})</span></h1>
-                {{ partial "breadcrumbs.html" . }}
+                <div class="intro-heading">
+                    <h1 class="intro-title">{{.Title}} Themes <span class="count">({{ $themeCount }})</span></h1>
+                </div>
+                <div class="intro-bar">
+                    <div class="intro-breadcrumbs">{{ partial "breadcrumbs.html" . }}</div>
+                </div>
             </div>
-            <div class="terms">
+            <div class="terms mt-2">
                 {{ range .Pages }}
                     {{ partial "term-card.html" (dict "term" .) }}
                 {{ end }}
