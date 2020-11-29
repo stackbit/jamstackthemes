@@ -6,17 +6,17 @@ author: Ankit Kumar Jat
 date: 2020-11-28 # Enter the date you submitted the theme YYYY-MM-DD
 github_branch: master # Specify the repos default branch
 ssg:
-  - No
+  - Jekyll
 cms:
   - No CMS
 css:
-  - Custom
+  - sass
 archetype:
   - Blog
 description: A Lightning fast dark jekyll blog theme
 ---
 
-# A simple starter kit for Gridsome
+# A simple starter kit for blog
 
 This theme is a lightweight starter kit. It also gives you a well organised starting point to extend it for yourself.
 
