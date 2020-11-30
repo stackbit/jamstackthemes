@@ -1,10 +1,10 @@
 ---
 title: "Hugo Connectome Theme"
 github: https://github.com/kausalflow/connectome
-demo: https://hugo-connectome.kausalflow.com # Please make sure this links to the theme demo and not your personal/business site
+demo: https://hugo-connectome.kausalflow.com
 author: KausalFlow
-date: 2020-11-20 # Enter the date you submitted the theme YYYY-MM-DD
-github_branch: master # Specify the repos default branch
+date: 2020-11-20
+github_branch: master
 ssg:
   - Hugo
 cms:
