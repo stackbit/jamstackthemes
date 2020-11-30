@@ -11,6 +11,4 @@ archetype:
   - Blog
 description: Simple and minimalistic jekyll blogging theme
 stale: false
-weight: 23
-stackbit: 'https://github.com/ronv/sidey?stackbit=true'
 ---

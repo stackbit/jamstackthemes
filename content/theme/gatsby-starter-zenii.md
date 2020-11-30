@@ -16,8 +16,6 @@ archetype:
   - Business
 description: A One-page Gatsby starter built with Tailwindcss and Postcss.
 stale: false
-weight: 21
-stackbit: 'https://github.com/thebakerdev/gatsby-starter-zenii?stackbit=true'
 ---
 
 # A simple one-page theme for Gatsby

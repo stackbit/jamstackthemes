@@ -10,8 +10,6 @@ ssg:
 cms:
   - No CMS
 stale: false
-weight: 22
-stackbit: 'https://github.com/knhash/Pudhina?stackbit=true'
 ---
 
 # Pudhina

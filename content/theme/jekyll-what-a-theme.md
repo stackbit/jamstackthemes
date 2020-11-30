@@ -19,6 +19,4 @@ description: >-
   You can use this theme in order to create an elegant, fully responsive
   portfolio.
 stale: false
-weight: 16
-stackbit: 'https://github.com/thedevslot/WhatATheme/?stackbit=true'
 ---

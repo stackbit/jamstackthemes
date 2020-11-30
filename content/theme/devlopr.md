@@ -23,8 +23,6 @@ description: >-
   A Jekyll Theme built for Developers and Software Engineers, Dark Mode
   Supported
 stale: false
-weight: 13
-stackbit: 'https://github.com/sujaykundu777/devlopr-jekyll?stackbit=true'
 ---
 
 # A Jekyll Theme built for Developers
