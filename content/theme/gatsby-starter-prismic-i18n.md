@@ -10,5 +10,5 @@ cms:
 date: 2020-03-18T00:00:00.000Z
 github_branch: master
 description: Based on gatsby-starter-prismic with Internationalization (i18n) support
-stale: false
+stale: true
 ---

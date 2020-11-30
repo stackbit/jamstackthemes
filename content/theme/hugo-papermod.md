@@ -1,16 +1,17 @@
 ---
-title: "PaperMod"
-github: "https://github.com/adityatelange/hugo-PaperMod"
-demo: "https://adityatelange.github.io/hugo-PaperMod/"
+title: PaperMod
+github: 'https://github.com/adityatelange/hugo-PaperMod'
+demo: 'https://adityatelange.github.io/hugo-PaperMod/'
 author: adityatelange
-date: 2020-11-22
+date: 2020-11-22T00:00:00.000Z
 github_branch: master
 ssg:
-    - Hugo
+  - Hugo
 cms:
-    - No CMS
+  - No CMS
 archetype:
-    - Blog
-    - Portfolio
-description: A fast, clean, responsive Hugo theme based on Paper
+  - Blog
+  - Portfolio
+description: 'A fast, clean, responsive Hugo theme based on Paper'
+stale: false
 ---
