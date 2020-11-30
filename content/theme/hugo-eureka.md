@@ -3,18 +3,17 @@ title: "Eureka"
 github: https://github.com/wangchucheng/hugo-eureka
 demo: https://themes.gohugo.io/theme/hugo-eureka/
 author: C. Wang
-date: 2020-11-22 # Enter the date you submitted the theme YYYY-MM-DD
-github_branch: master # Specify the repos default branch
+date: 2020-11-22
+github_branch: master
 ssg:
   - Hugo
 cms:
   - No CMS
 css:
-  - Tailwindcss
+  - Tailwind
 archetype:
-  - Posts
-  - Docs
-  - Authors
+  - Documentation
+  - Blog
 description: Eureka is a feature-rich and highly customizable Hugo theme.
 ---
 
