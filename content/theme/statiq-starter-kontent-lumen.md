@@ -1,7 +1,7 @@
 ---
 title: Statiq Starter Kontent Lumen
-github: 'https://github.com/petrsvihlik/statiq-starter-kontent-lumen'
-demo: 'https://petrsvihlik.github.io/statiq-starter-kontent-lumen/'
+github: 'https://github.com/Kentico/statiq-starter-kontent-lumen'
+demo: 'https://kentico.github.io/statiq-starter-kontent-lumen/'
 author: Kentico
 ssg:
   - Statiq
@@ -16,8 +16,6 @@ description: >-
   Lumen is a lightweight starter for creating blogs using Statiq and Kentico
   Kontent.
 stale: false
-disabled: true
-disabled_reason: demo url not found
 ---
 
 # Lumen - blog/portfolio starter for Statiq and Kontent
