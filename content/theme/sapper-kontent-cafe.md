@@ -13,8 +13,6 @@ archetype:
   - Business
 description: Website showcase for fictional café with Svelte, Sapper, and Kentico Kontent.
 stale: false
-disabled: true
-disabled_reason: demo url not found
 ---
 
 # Sapper Kontent Café
