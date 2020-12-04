@@ -1,9 +1,9 @@
 ---
-title: "Hugo Connectome Theme"
-github: https://github.com/kausalflow/connectome
-demo: https://hugo-connectome.kausalflow.com
+title: Hugo Connectome Theme
+github: 'https://github.com/kausalflow/connectome'
+demo: 'https://hugo-connectome.kausalflow.com'
 author: KausalFlow
-date: 2020-11-20
+date: 2020-11-20T00:00:00.000Z
 github_branch: master
 ssg:
   - Hugo
@@ -11,7 +11,10 @@ cms:
   - No CMS
 css:
   - Bulma
-description: A Hugo theme for online community notes with backlinks and graph of connected notes.
+description: >-
+  A Hugo theme for online community notes with backlinks and graph of connected
+  notes.
+stale: false
 ---
 
 # A Theme for Connected Notes

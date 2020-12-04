@@ -1,9 +1,9 @@
 ---
-title: "Eureka"
-github: https://github.com/wangchucheng/hugo-eureka
-demo: https://themes.gohugo.io/theme/hugo-eureka/
+title: Eureka
+github: 'https://github.com/wangchucheng/hugo-eureka'
+demo: 'https://themes.gohugo.io/theme/hugo-eureka/'
 author: C. Wang
-date: 2020-11-22
+date: 2020-11-22T00:00:00.000Z
 github_branch: master
 ssg:
   - Hugo
@@ -15,6 +15,7 @@ archetype:
   - Documentation
   - Blog
 description: Eureka is a feature-rich and highly customizable Hugo theme.
+stale: false
 ---
 
 English | [简体中文](https://github.com/wangchucheng/hugo-eureka/blob/master/README.zh.md)

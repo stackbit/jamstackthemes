@@ -1,10 +1,10 @@
 ---
-title: "Limp Dark"
-github: https://github.com/ankit-kumar-jat/limp-dark
-demo: https://ankitkumarjat.me/limp/ # Please make sure this links to the theme demo and not your personal/business site
+title: Limp Dark
+github: 'https://github.com/ankit-kumar-jat/limp-dark'
+demo: 'https://ankitkumarjat.me/limp/'
 author: Ankit Kumar Jat
-date: 2020-11-28 # Enter the date you submitted the theme YYYY-MM-DD
-github_branch: master # Specify the repos default branch
+date: 2020-11-28T00:00:00.000Z
+github_branch: master
 ssg:
   - Jekyll
 cms:
@@ -14,6 +14,8 @@ css:
 archetype:
   - Blog
 description: A Lightning fast dark jekyll blog theme
+disabled: true
+disabled_reason: demo url not found
 ---
 
 # A simple starter kit for blog
