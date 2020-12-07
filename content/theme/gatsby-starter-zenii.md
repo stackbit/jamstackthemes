@@ -15,6 +15,8 @@ archetype:
   - Agency
   - Business
 description: A One-page Gatsby starter built with Tailwindcss and Postcss.
+stackbit: >-
+  https://app.stackbit.com/create?theme=https://github.com/thebakerdev/gatsby-starter-zenii
 stale: false
 ---
 

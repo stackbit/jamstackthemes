@@ -15,6 +15,8 @@ archetype:
   - Blog
   - Personal
 description: "\U0001F3D6  Klisé is a minimalist Jekyll theme for running a personal site or blog, light & dark mode support."
+stackbit: >-
+  https://app.stackbit.com/create?theme=https://github.com/piharpi/jekyll-klise
 stale: false
 ---
 
