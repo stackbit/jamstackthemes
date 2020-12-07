@@ -14,6 +14,8 @@ description: >-
   Delog is developed for professional bloggers and web designers to build a
   website that has a lightning-fast navigation speed
 github_branch: master
+stackbit: >-
+  https://app.stackbit.com/create?theme=https://github.com/W3Layouts/gatsby-starter-delog
 stale: false
 ---
 

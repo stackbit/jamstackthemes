@@ -16,6 +16,8 @@ archetype:
 description: >-
   A starter to launch your blazing fast personal website and a blog, Built with
   Gatsby and Netlify CMS.
+stackbit: >-
+  https://app.stackbit.com/create?theme=https://github.com/stackrole/gatsby-starter-foundation
 stale: false
 ---
 
