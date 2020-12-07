@@ -8,6 +8,7 @@ ssg:
   - Gatsby
 cms:
   - NetlifyCMS
+  - Stackbit
 archetype:
   - Blog
 description: >-

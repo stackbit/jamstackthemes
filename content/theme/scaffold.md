@@ -11,7 +11,6 @@ cms:
   - No CMS
 archetype:
   - Blog
-  - Personal Homepage
 description: A one-column minimalist Jekyll theme for bloggers.
 stale: false
 ---

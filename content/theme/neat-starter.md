@@ -12,8 +12,6 @@ cms:
 css:
   - Tailwind
 archetype:
-  - Landing
-  - Website
   - Blog
 description: 'Starter Template for Netlify CMS, Eleventy, Alphine JS & Tailwind CSS'
 stale: false

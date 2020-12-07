@@ -7,6 +7,7 @@ ssg:
   - Jekyll
 cms:
   - No Cms
+  - Stackbit
 date: 2015-03-02T20:04:26.000Z
 github_branch: master
 description: >-

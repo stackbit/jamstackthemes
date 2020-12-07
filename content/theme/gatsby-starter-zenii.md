@@ -9,11 +9,13 @@ ssg:
   - Gatsby
 cms:
   - Contentful
+  - Stackbit
 css:
   - Tailwind
+  - PostCSS
 archetype:
-  - Agency
   - Business
+  - Single Page
 description: A One-page Gatsby starter built with Tailwindcss and Postcss.
 stackbit: >-
   https://app.stackbit.com/create?theme=https://github.com/thebakerdev/gatsby-starter-zenii

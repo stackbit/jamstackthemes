@@ -11,7 +11,6 @@ cms:
   - No CMS
 archetype:
   - Blog
-  - Personal homepage
 description: 'A simple, beautiful, and powerful Jekyll theme for blogs'
 stale: false
 ---

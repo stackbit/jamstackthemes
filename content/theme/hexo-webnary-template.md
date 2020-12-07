@@ -14,8 +14,6 @@ css:
   - SCSS
 archetype:
   - Blog
-  - Contact
-  - About
 description: >-
   An Hexo Template you ever wanted. This theme is perfect for Starting an Blog,
   open online library, testimonial blogs, news article and whatever you need it

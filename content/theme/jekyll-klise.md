@@ -9,6 +9,7 @@ ssg:
   - Jekyll
 cms:
   - No Cms
+  - Stackbit
 css:
   - SCSS
 archetype:

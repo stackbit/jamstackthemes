@@ -10,7 +10,6 @@ ssg:
 cms:
   - Kontent
 archetype:
-  - Starter
   - Portfolio
 description: Kentico Kontent web template using Gatsby and Kentico Kontent.
 stale: false

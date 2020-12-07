@@ -15,6 +15,10 @@ cms:
   - Forestry
   - NetlifyCMS
   - Sanity
+  - No CMS
+  - Stackbit
+css:
+  - SCSS
 date: 2019-05-23T18:26:16.000Z
 description: Fresh is a personal theme with a blog for Stackbit
 stackbit: 'https://app.stackbit.com/create?theme=fresh'

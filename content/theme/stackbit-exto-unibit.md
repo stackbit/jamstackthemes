@@ -15,8 +15,15 @@ cms:
   - Forestry
   - NetlifyCMS
   - Sanity
+  - No CMS
+  - Stackbit
+css:
+  - SCSS
+archetype:
+  - Portfolio
+  - Blog
 date: 2019-05-23T18:26:16.000Z
-description: Exto is an exceptionally well portfolio theme
+description: Exto is portfolio and blog theme with a clean design.
 stackbit: 'https://app.stackbit.com/create?theme=exto'
 weight: 2
 stale: false
