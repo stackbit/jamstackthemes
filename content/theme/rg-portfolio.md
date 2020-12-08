@@ -9,6 +9,7 @@ ssg:
   - Gatsby
 cms:
   - Contentful
+  - Stackbit
 archetype:
   - Blog
   - Portfolio
@@ -16,8 +17,9 @@ archetype:
 services:
   - Formstack
 description: >-
-  Kick-off your Portfolio website with RG-Portfolio gatsby starter. We have used
-  Gatsby + Contenful.
+  Kick-off your Portfolio website with RG-Portfolio gatsby starter. We have used Gatsby + Contenful.
+stackbit: >-
+  https://app.stackbit.com/create?theme=https://github.com/rohitguptab/rg-portfolio
 ---
 
 # A simple starter kit for Gatsby

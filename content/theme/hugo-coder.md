@@ -6,13 +6,14 @@ author: Luiz F. A. de Prá
 ssg:
   - Hugo
 cms:
-  - Contentful
-  - DatoCMS
-  - Forestry
-  - NetlifyCMS
-  - Sanity
+  - Stackbit
+  - No CMS
+css:
+  - SCSS
 date: 2018-02-17T13:45:54.000Z
 github_branch: master
 description: A minimalist blog theme for hugo.
+stackbit: >-
+  https://app.stackbit.com/create?theme=https://github.com/luizdepra/hugo-coder
 stale: false
 ---
