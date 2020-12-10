@@ -4,66 +4,48 @@ const path = require('path');
 const yamlFront = require('yaml-front-matter');
 const gh = require('parse-github-url');
 
-const themesDataFile = path.join(__dirname, '../data/stackbit.json');
+const stackbitDataFile = path.join(__dirname, '../data/stackbit.json');
 const themesContentFolder = path.join(__dirname, '../content/theme');
-
-let themesFiles = fs.readdirSync(themesContentFolder);
-let themesData = {};
+const themesFiles = fs.readdirSync(themesContentFolder);
 
 console.log("Generating Stackbit")
-console.log(`themesDataFile ${themesDataFile}`)
+console.log(`stackbitDataFile ${stackbitDataFile}`)
 console.log(`themesContentFolder ${themesContentFolder}\n`)
 
-const loadThemeFrontMatter = fileName => {
+let stackbitData = {};
+
+const generateStackbit = (fileName) => {
   const fileData = fs.readFileSync(path.join(themesContentFolder, fileName));
   const frontmatter = yamlFront.loadFront(fileData);
-  // if (fileName === "stackbit-theme-starter-gatsby.md") {
-  //   console.log(fileName)
-  //   console.log(frontmatter)
-  // }
 
-  try {
-    let title = frontmatter.title;
-    let repoUrl = frontmatter.github;
-    let repoName = gh(frontmatter.github).repo; // stackbithq/stackbit-theme-fresh
-    let file = fileName;
-    let ssg = frontmatter.ssg;
-    let cms = frontmatter.cms;
-    return { title, ssg, cms, file, repoUrl, repoName }
-  }
-  catch {
-    throw new Error(`${fileName} invalid github frontmatter`)
-  }
-};
+  const repoName = gh(frontmatter.github).repo;
+  const defaultBranch = frontmatter.branch ? frontmatter.branch : "master";
+  const themeKey = repoName.replace("/", "-").toLowerCase() + "-" + defaultBranch;
 
-const generateStackbit = (theme) => {
-      const defaultBranch = theme.branch ? theme.branch : "master";
-      const themeKey = theme.repoName.replace("/", "-").toLowerCase() + "-" + defaultBranch;
-      const allowedSsgs = ["hugo", "jekyll", "gatsby", "next", "eleventy", "vuepress", "gridsome"]
-      if (theme.ssg.some(ssg => allowedSsgs.includes(ssg.toLowerCase()))) {
-        themesData[themeKey] = {
-          theme_key: themeKey,
-          stackbit: `https://app.stackbit.com/create?theme=${theme.repoUrl}`
-        };
-        return themesData[themeKey]
-      }
-      return false;
+  if (frontmatter.stackbit) {
+    // if frontmatter contains a stackbit value already, use that
+    stackbitData[themeKey] = {
+      createUrl: frontmatter.stackbit
+    };
+  } else if (frontmatter.ssg.includes("Hugo")) {
+    // enable stackbit on all hugo themes
+    stackbitData[themeKey] = {
+      createUrl: `https://app.stackbit.com/create?theme=${frontmatter.github}&ssg=hugo`
+    };
+  }
+  return false;
 };
 
 const getThemes = async () => {
 
-  const themesFrontMatter = themesFiles.map(fileName => {
-    return loadThemeFrontMatter(fileName)
-  });
-
-  const stackbit = themesFrontMatter.map(theme => {
-    return generateStackbit(theme)
+  themesFiles.forEach(fileName => {
+    generateStackbit(fileName)
   });
 
   // Sort data
   let sortedThemesData = {};
-  Object.keys(themesData).sort().forEach(key => {
-    sortedThemesData[key] = themesData[key];
+  Object.keys(stackbitData).sort().forEach(key => {
+    sortedThemesData[key] = stackbitData[key];
   });
 
   return sortedThemesData;
@@ -72,7 +54,7 @@ const getThemes = async () => {
 getThemes().then(res => {
   console.log("Success");
   console.log("Writing data/stackbit.json...");
-  fs.writeFileSync(themesDataFile, JSON.stringify(res, null, 2));
+  fs.writeFileSync(stackbitDataFile, JSON.stringify(res, null, 2));
 }).catch(err => {
   console.log(err);
 });

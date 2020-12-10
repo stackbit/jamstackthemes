@@ -61,8 +61,10 @@
       <a class="theme-button theme-button-github" href="{{ .theme.Params.github }}" target="_blank" rel="noopener nofollow">Github</a>
       <a class="theme-button theme-button-demo" href="{{ .theme.Params.demo }}" target="_blank" rel="noopener nofollow">Live Demo</a>
       {{ if .site.Params.stackbit_button }}
-      {{ if .theme.Params.stackbit }}
-      <a class="theme-button theme-button-fill theme-button-stackbit" href="{{ .theme.Params.stackbit }}&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=card" target="_blank" rel="noopener nofollow">Create Site</a>
+      {{ if .stackbit }}
+      {{ if .stackbit.createUrl }}
+      <a class="theme-button theme-button-fill theme-button-stackbit" href="{{ .stackbit.createUrl }}&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=card" target="_blank" rel="noopener nofollow">Create Site</a>
+      {{ end }}
       {{ end }}
       {{ end }}
     </div>
