@@ -72,8 +72,10 @@
                             <a class="theme-button theme-button-github" href="{{ .Params.github }}" target="_blank" rel="nofollow noopener">Github</a>
                             <a class="theme-button theme-button-demo" href="{{ .Params.demo }}" target="_blank" rel="nofollow noopener">Live Demo</a>
                             {{ if .Site.Params.stackbit_button }}
-                            {{ if .Params.stackbit }}
-                            <a class="theme-button theme-button-fill theme-button-stackbit" href="{{ .Params.stackbit }}&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=card" target="_blank" rel="noopener nofollow">Create Site</a>
+                            {{ if $stackbit }}
+                            {{ if $stackbit.createUrl }}
+                            <a class="theme-button theme-button-fill theme-button-stackbit" href="{{ $stackbit.createUrl }}&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=detail" target="_blank" rel="noopener nofollow">Create Site</a>
+                            {{ end }}
                             {{ end }}
                             {{ end }}
                         </div>
