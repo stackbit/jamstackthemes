@@ -13,7 +13,6 @@ css:
 date: 2018-02-17T13:45:54.000Z
 github_branch: master
 description: A minimalist blog theme for hugo.
-stackbit: >-
-  https://app.stackbit.com/create?theme=https://github.com/luizdepra/hugo-coder
+stackbit: 'https://app.stackbit.com/create?theme=https://github.com/luizdepra/hugo-coder'
 stale: false
 ---

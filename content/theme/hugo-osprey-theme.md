@@ -10,5 +10,5 @@ cms:
 date: 2017-05-15T05:32:08.000Z
 github_branch: master
 description: 'Simple, clean, and fast one-page Hugo portfolio theme accompanied by a blog'
-stale: false
+stale: true
 ---

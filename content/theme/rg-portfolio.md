@@ -17,9 +17,11 @@ archetype:
 services:
   - Formstack
 description: >-
-  Kick-off your Portfolio website with RG-Portfolio gatsby starter. We have used Gatsby + Contenful.
+  Kick-off your Portfolio website with RG-Portfolio gatsby starter. We have used
+  Gatsby + Contenful.
 stackbit: >-
   https://app.stackbit.com/create?theme=https://github.com/rohitguptab/rg-portfolio
+stale: false
 ---
 
 # A simple starter kit for Gatsby

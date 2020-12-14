@@ -13,7 +13,7 @@ github_branch: master
 description: >-
   :sparkles: Build a beautiful and simple website in literally minutes. Demo at
   http://deanattali.com/beautiful-jekyll
-stackbit: >- 
+stackbit: >-
   https://app.stackbit.com/create?theme=https://github.com/daattali/beautiful-jekyll
 stale: false
 ---

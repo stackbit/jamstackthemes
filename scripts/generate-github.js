@@ -228,13 +228,17 @@ const getThemes = async () => {
   }))
 
   if (!argv.skipBranchCommits) {
-    const lastCommits = await allSettled(filteredThemesFrontMatter.map(theme => {
+    await allSettled(filteredThemesFrontMatter.map(theme => {
       return getBranchCommit(theme)
     }))
   }
 
-  const demos = filteredThemesFrontMatter.map(theme => {
+  filteredThemesFrontMatter.map(theme => {
     return checkDemoUrl(theme)
+  })
+
+  filteredThemesFrontMatter.map(theme => {
+    return getImages(theme)
   })
 
   // Check if any of the allSettled promises failed.

@@ -18,7 +18,7 @@ cms:
   - No CMS
   - Stackbit
 css:
-  - SCSS  
+  - SCSS
 date: 2019-05-23T18:26:16.000Z
 description: Vanilla a vanilla theme for Stackbit
 stackbit: 'https://app.stackbit.com/create?theme=vanilla'
