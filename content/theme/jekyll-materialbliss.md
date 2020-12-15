@@ -1,7 +1,7 @@
 ---
 title: Material Bliss
 github: 'https://github.com/InsidiousMind/material-bliss-jekyll-theme'
-demo: 'http://code.liquidthink.net'
+demo: 'https://code.liquidthink.net'
 author: Andrew Plaza
 ssg:
   - Jekyll

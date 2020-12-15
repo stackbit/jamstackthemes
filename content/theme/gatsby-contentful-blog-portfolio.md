@@ -66,7 +66,7 @@ stale: false
 
 5.  **Open the source code and start editing!**
 
-    Your site is now running at `http://localhost:8000`!
+    Your site is now running at `https://localhost:8000`!
 
     Feel free to change everything you want!
     

@@ -1,7 +1,7 @@
 ---
 title: Wiki Blog
 github: 'https://github.com/lixizhi/lixizhi.github.io'
-demo: 'http://lixizhi.github.io/'
+demo: 'https://lixizhi.github.io/'
 author: LiXizhi
 ssg:
   - Jekyll

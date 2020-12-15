@@ -46,7 +46,9 @@
 
   {{ block "main" . }}{{ end }}
 
-  {{ partial "footer.html" . }}
+  {{ block "footer" . }}
+    {{ partial "footer.html" . }}
+  {{ end }}
 
   {{ partial "segment.html" . }}
 

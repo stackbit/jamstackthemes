@@ -1,7 +1,7 @@
 ---
 title: HardCandy-Jekyll
 github: 'https://github.com/xukimseven/HardCandy-Jekyll'
-demo: 'http://ww1.xseven.me/'
+demo: 'https://ww1.xseven.me/'
 author: xujinqi
 ssg:
   - Jekyll

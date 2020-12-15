@@ -1,7 +1,7 @@
 ---
 title: Vuepress Casper
 github: 'https://github.com/alexander-heimbuch/vuepress-theme-casper'
-demo: 'http://alexander.heimbu.ch/vuepress-theme-casper/'
+demo: 'https://alexander.heimbu.ch/vuepress-theme-casper/'
 author: Alexander Heimbuch
 ssg:
   - Vuepress

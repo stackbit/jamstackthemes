@@ -1,7 +1,7 @@
 ---
 title: EasyBook
 github: 'https://github.com/laobubu/jekyll-theme-EasyBook'
-demo: 'http://blog.laobubu.net/'
+demo: 'https://blog.laobubu.net/'
 author: laobubu
 ssg:
   - Jekyll

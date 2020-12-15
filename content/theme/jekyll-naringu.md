@@ -1,7 +1,7 @@
 ---
 title: Naringu
 github: 'https://github.com/ariestiyansyah/naringu'
-demo: 'http://naringu.oonlab.com'
+demo: 'https://naringu.oonlab.com'
 author: Rizky Ariestiyansyah
 ssg:
   - Jekyll

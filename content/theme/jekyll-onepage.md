@@ -1,7 +1,7 @@
 ---
 title: Onepage
 github: 'https://github.com/lukas-h/onepage'
-demo: 'http://himsel.me'
+demo: 'https://himsel.me'
 author: Lukas Himsel
 ssg:
   - Jekyll

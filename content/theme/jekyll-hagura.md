@@ -1,7 +1,7 @@
 ---
 title: Webjeda Hagura
 github: 'https://github.com/sharu725/hagura'
-demo: 'http://webjeda.com/hagura'
+demo: 'https://webjeda.com/hagura'
 author: webjeda
 ssg:
   - Jekyll

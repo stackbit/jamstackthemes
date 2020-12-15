@@ -1,7 +1,7 @@
 ---
 title: Incorporated
 github: 'https://github.com/kippt/jekyll-incorporated'
-demo: 'http://blog.sendtoinc.com/'
+demo: 'https://blog.sendtoinc.com/'
 author: Kippt Inc.
 ssg:
   - Jekyll

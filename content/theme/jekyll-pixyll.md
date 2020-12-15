@@ -1,7 +1,7 @@
 ---
 title: Jekyll Pixyll
 github: 'https://github.com/johnotander/pixyll'
-demo: 'http://pixyll.com'
+demo: 'https://pixyll.com'
 author: John Otander
 ssg:
   - Jekyll

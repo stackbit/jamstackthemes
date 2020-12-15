@@ -1,7 +1,7 @@
 ---
 title: Less Or More
 github: 'https://github.com/luoyan35714/LessOrMore'
-demo: 'http://www.hifreud.com/'
+demo: 'https://www.hifreud.com/'
 author: Freud Kang
 ssg:
   - Jekyll

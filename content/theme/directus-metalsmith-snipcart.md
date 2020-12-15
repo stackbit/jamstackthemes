@@ -27,4 +27,4 @@ Learn what API-first, decoupled CMS are and how to build a web app with:
 
 > [Read full tutorial](https://snipcart.com/blog/intro-api-first-headless-cms-directus)
 
-> [See live demo](http://snipcart-directus-metalsmith.netlify.com/)
+> [See live demo](https://snipcart-directus-metalsmith.netlify.com/)

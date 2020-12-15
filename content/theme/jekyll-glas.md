@@ -1,7 +1,7 @@
 ---
 title: Glas
 github: 'https://github.com/SpaceG/glas'
-demo: 'http://lucasgatsas.ch'
+demo: 'https://lucasgatsas.ch'
 author: Lucas Gatsas
 ssg:
   - Jekyll

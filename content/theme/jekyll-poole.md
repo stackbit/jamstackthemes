@@ -1,7 +1,7 @@
 ---
 title: Poole
 github: 'https://github.com/poole/poole'
-demo: 'http://demo.getpoole.com/'
+demo: 'https://demo.getpoole.com/'
 author: Mark Otto
 ssg:
   - Jekyll

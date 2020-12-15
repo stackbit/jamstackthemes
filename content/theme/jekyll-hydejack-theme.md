@@ -1,7 +1,7 @@
 ---
 title: Hydejack
 github: 'https://github.com/qwtel/hydejack'
-demo: 'http://qwtel.com/hydejack/'
+demo: 'https://qwtel.com/hydejack/'
 author: Florian Klampfer (@qwtel)
 ssg:
   - Jekyll

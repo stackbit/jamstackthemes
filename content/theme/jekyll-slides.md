@@ -1,7 +1,7 @@
 ---
 title: Webjeda Slides
 github: 'https://github.com/sharu725/slides'
-demo: 'http://webjeda.com/slides/'
+demo: 'https://webjeda.com/slides/'
 author: webjeda
 ssg:
   - Jekyll

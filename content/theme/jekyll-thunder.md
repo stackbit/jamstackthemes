@@ -1,7 +1,7 @@
 ---
 title: Thunder
 github: 'https://github.com/sharu725/thunder'
-demo: 'http://webjeda.com/thunder/'
+demo: 'https://webjeda.com/thunder/'
 author: sharathdt
 ssg:
   - Jekyll

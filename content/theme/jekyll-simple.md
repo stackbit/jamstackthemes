@@ -1,7 +1,7 @@
 ---
 title: jekyll-simple
 github: 'https://github.com/wild-flame/jekyll-simple'
-demo: 'http://wild-flame.github.io/jekyll-simple'
+demo: 'https://wild-flame.github.io/jekyll-simple'
 author: David Lin
 ssg:
   - Jekyll

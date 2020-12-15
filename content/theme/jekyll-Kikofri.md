@@ -1,7 +1,7 @@
 ---
 title: 'Kikofri '
 github: 'https://github.com/kxxvii/Kikofri'
-demo: 'http://kxxvii.github.io/Kikofri'
+demo: 'https://kxxvii.github.io/Kikofri'
 author: kxxvii
 ssg:
   - Jekyll

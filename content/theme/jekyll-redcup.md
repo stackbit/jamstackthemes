@@ -1,7 +1,7 @@
 ---
 title: redcup
 github: 'https://github.com/nadjetey/redcup'
-demo: 'http://nadjetey.github.io/redcup/'
+demo: 'https://nadjetey.github.io/redcup/'
 author: Nii Adjetey Sowah
 ssg:
   - Jekyll

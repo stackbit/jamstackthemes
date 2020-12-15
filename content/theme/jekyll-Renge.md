@@ -1,7 +1,7 @@
 ---
 title: Renge
 github: 'https://github.com/billyfish152/Renge'
-demo: 'http://junchaowang.com'
+demo: 'https://junchaowang.com'
 author: Junchao Wang
 ssg:
   - Jekyll

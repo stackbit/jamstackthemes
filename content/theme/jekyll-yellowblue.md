@@ -1,7 +1,7 @@
 ---
 title: Yellowblue
 github: 'https://github.com/chalatz/yellowblue'
-demo: 'http://chalatz.github.io/yellowblue/'
+demo: 'https://chalatz.github.io/yellowblue/'
 author: Christos Alatzas
 ssg:
   - Jekyll

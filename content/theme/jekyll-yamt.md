@@ -15,7 +15,7 @@ stale: false
 
 # YAMT - Yet Another Minimal Theme
 
-YAMT is a minimal [Jekyll](http://jekyllrb.com) theme focused on simplicity and ease-of-use. It has great modularity, allowing you to easily decide what you actually want on your website.  
+YAMT is a minimal [Jekyll](https://jekyllrb.com) theme focused on simplicity and ease-of-use. It has great modularity, allowing you to easily decide what you actually want on your website.  
 
 ## Features
 

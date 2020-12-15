@@ -1,7 +1,7 @@
 ---
 title: Xixia
 github: 'https://github.com/zxixia/jekyll-xixia'
-demo: 'http://xixia.info/jekyll-xixia/'
+demo: 'https://xixia.info/jekyll-xixia/'
 author: Xixia
 ssg:
   - Jekyll

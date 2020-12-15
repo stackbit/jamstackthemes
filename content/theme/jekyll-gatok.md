@@ -1,7 +1,7 @@
 ---
 title: Webjeda Gatok
 github: 'https://github.com/sharu725/gatok'
-demo: 'http://webjeda.com/gatok'
+demo: 'https://webjeda.com/gatok'
 author: webjeda
 ssg:
   - Jekyll

@@ -1,7 +1,7 @@
 ---
 title: Typing
 github: 'https://github.com/williamcanin/typing-jekyll-template'
-demo: 'http://williamcanin.github.io/typing-jekyll-template/'
+demo: 'https://williamcanin.github.io/typing-jekyll-template/'
 author: William Canin
 ssg:
   - Jekyll

@@ -1,7 +1,7 @@
 ---
 title: Jekyll Metro
 github: 'https://github.com/olakara/JekyllMetro'
-demo: 'http://abdelraoof.com'
+demo: 'https://abdelraoof.com'
 author: Abdel Raoof Olakara
 ssg:
   - Jekyll

@@ -1,7 +1,7 @@
 ---
 title: Joon
 github: 'https://github.com/vormwald/joon'
-demo: 'http://vormwald.github.io/joon/'
+demo: 'https://vormwald.github.io/joon/'
 author: Mike Vormwald
 ssg:
   - Jekyll

@@ -1,7 +1,7 @@
 ---
 title: SinglePaged
 github: 'https://github.com/t413/SinglePaged'
-demo: 'http://t413.com/SinglePaged'
+demo: 'https://t413.com/SinglePaged'
 author: Tim O'Brien
 ssg:
   - Jekyll

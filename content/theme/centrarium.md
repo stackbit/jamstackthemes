@@ -1,7 +1,7 @@
 ---
 title: Centrarium
 github: 'https://github.com/bencentra/centrarium'
-demo: 'http://bencentra.com/centrarium/'
+demo: 'https://bencentra.com/centrarium/'
 author: Bencentra
 ssg:
   - Jekyll

@@ -1,7 +1,7 @@
 ---
 title: Sciblog
 github: 'https://github.com/airrayagroupwebdesign/sciblog'
-demo: 'http://sciblog.yourfreebies.org/'
+demo: 'https://sciblog.yourfreebies.org/'
 author: Air Raya Group Web Design
 ssg:
   - Jekyll

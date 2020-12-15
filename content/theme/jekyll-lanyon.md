@@ -1,7 +1,7 @@
 ---
 title: Lanyon
 github: 'https://github.com/poole/lanyon'
-demo: 'http://lanyon.getpoole.com/'
+demo: 'https://lanyon.getpoole.com/'
 author: Mark Otto
 ssg:
   - Jekyll

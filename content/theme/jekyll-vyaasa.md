@@ -1,7 +1,7 @@
 ---
 title: Vyaasa
 github: 'https://github.com/sharu725/vyaasa'
-demo: 'http://webjeda.com/vyaasa'
+demo: 'https://webjeda.com/vyaasa'
 author: webjeda
 ssg:
   - Jekyll

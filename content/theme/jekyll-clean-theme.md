@@ -1,7 +1,7 @@
 ---
 title: Jekyll Clean
 github: 'https://github.com/scotte/jekyll-clean'
-demo: 'http://scotte.github.io/jekyll-clean'
+demo: 'https://scotte.github.io/jekyll-clean'
 author: Scott Emmons
 ssg:
   - Jekyll

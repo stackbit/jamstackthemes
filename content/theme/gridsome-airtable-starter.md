@@ -29,7 +29,7 @@ This starter is meant to act as a starting point/example for connecting [Gridsom
 
 1. `gridsome create my-gridsome-site https://github.com/12vanblart/gridsome-airtable-starter.git` to install this starter
 2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
+3. `gridsome develop` to start a local dev server at `https://localhost:8080`
 4. Happy coding 🎉💻
 
 ## Configure your Airtable connection

@@ -1,7 +1,7 @@
 ---
 title: accent
 github: 'https://github.com/ankitsultana/accent'
-demo: 'http://ankitsultana.com/accent'
+demo: 'https://ankitsultana.com/accent'
 author: Ankit Sultana
 ssg:
   - Jekyll
