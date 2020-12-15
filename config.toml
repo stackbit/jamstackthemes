@@ -13,6 +13,7 @@ pygmentsUseClasses = true
   google_analytics_id = ""
   description = "A list of Themes and Starters for JAMstack Sites."
   stackbit_button = true
+  iframe_demo = true
   [theme_card]
     show_archetype_icons = false
     show_services_icons = false
@@ -24,9 +25,17 @@ pygmentsUseClasses = true
   archetype = "archetype"
   services = "services"
 
+[outputFormats]
+  [outputFormats.demo]
+    name = "demo"
+    mediaType = "text/html"
+    isHTML = "true"
+    path = "demo"
+
 [outputs]
   home = ["HTML","RSS","JSON"]
   section = ["HTML","RSS"]
+  page = ["HTML", "demo"]
 
 [frontmatter]
   lastmod = [":git", "lastmod", ":fileModTime", ":default"]

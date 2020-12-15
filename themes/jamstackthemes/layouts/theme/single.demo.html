@@ -1,0 +1,33 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-theme-single-demo{{ end }}
+{{ define "title" }}{{ .Title }} - Theme Demo{{ end }}
+
+{{ define "meta_tags" }}
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ .Permalink | absURL }}" />
+    <meta property="og:description" content="{{ .Params.description }}" />
+    {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
+    {{ $repo := index .Site.Data.themes $repoName }}
+    {{ if $repo }}
+    {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
+    {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
+    {{ if (fileExists $staticPath) }}
+    <meta property="og:image" content="{{ $filePath | absURL }}">
+    {{ end }}
+    {{ end }}
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@jamstackthemes" />
+    <meta name="twitter:creator" content="@jamstackthemes" />
+{{end}}
+
+{{ define "header" }}
+    {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
+    {{ $repo := index .Site.Data.themes $repoName }}
+    {{ $stackbit := index .Site.Data.stackbit $repoName }}
+    {{ partial "demo.html" (dict "theme" . "repo" $repo "stackbit" $stackbit "site" $.Site) }}
+{{ end }}
+
+{{ define "main" }}
+    <iframe class="iframe-preview" width="100%" src="{{ .Params.demo }}"></iframe>
+{{ end }}

@@ -1,0 +1,196 @@
+
+/* NAVBAR PREVIEW */
+.navbar-preview {
+  border-bottom: 3px solid #7952B3;
+  border-top: 1px solid #E5E9EF;
+  min-height: 60px;
+  background: #ffffff;
+  font-size: 12px;
+  padding-left: 0;
+  padding-right: 0; }
+.navbar-preview > .container, .navbar-preview > .container-fluid {
+  position: relative; }
+
+@media (min-width: 768px) {
+  .nav-preview {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); } }
+
+.nav-preview .nav-link {
+  color: #ACB5BA;
+  padding: .35rem .4rem; }
+@media (min-width: 768px) {
+  .nav-preview .nav-link {
+    min-height: 56px; } }
+.nav-preview .nav-link:before {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 5px 8px 5px;
+  border-color: transparent transparent #7952B3 transparent;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: -3px; }
+.nav-preview .nav-link.active {
+  color: #7952B3; }
+.nav-preview .nav-link.active:before {
+  content: ''; }
+
+.nav-preview__icon {
+  font-size: 30px; }
+
+.nav-preview__icon--sm {
+  -webkit-transform: scale(0.8, 0.8);
+  transform: scale(0.8, 0.8); }
+
+
+
+.iframe-preview {
+  position: absolute;
+  border: none;
+  width: 100%;
+  height: calc(100% - 60px);
+  margin-top: 60px; }
+
+.iframe-preview--mobile {
+  width: 375px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+.demo {
+  background-color: white;
+  border-bottom: 1px solid $grey;
+  box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  @include media-breakpoint-up(sm) {
+    padding-left: $layout-padding;
+    padding-right: $layout-padding;
+  }
+  @include media-breakpoint-up(md) {
+    padding-left: $layout-padding * 2;
+    padding-right: $layout-padding * 2;
+  }
+  @include media-breakpoint-up(lg) {
+    padding-left: $layout-padding * 4;
+    padding-right: $layout-padding * 4;
+  }
+  .container {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  h1.demo-theme-title {
+    font-size: 18px;
+    font-family: $font_family_heading;
+    margin: 0;
+    margin-left: 10px;
+    font-weight: 400;
+    a {
+      color: $primary;
+    }
+  }
+  .demo-buttons {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .theme-buttons-group {
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+    .theme-button {
+      @extend .button;
+      text-align: center;
+      flex: 1 0 auto;
+      font-size: 14px;
+      &.theme-button-fill {
+        background-color: $primary;
+        color: white;
+      }
+      &.theme-button-link {
+        border: none;
+        text-decoration: underline;
+      }
+    }
+  }
+  .submit {
+    display: flex;
+    align-items: center;
+    .submit-button {
+      padding: 10px;
+      border-radius: 3px;
+      text-decoration: none;
+      color: #000;
+      &:hover {
+        color: $primary;
+      }
+    }
+    .submit-button-mobile {
+      display: block;
+      @include media-breakpoint-up(sm) {
+        display: none;
+      }
+    }
+    .submit-button-desktop {
+      display: none;
+      @include media-breakpoint-up(sm) {
+        display: block;
+      }
+    }
+    svg {
+      width: 20px;
+      height: 20px;
+      @include media-breakpoint-up(sm) {
+        width: 24px;
+        height: 24px;
+      }
+    }
+    .github {
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+  .main-menu {
+    display: none;
+    @include media-breakpoint-up(md) {
+      display: block;
+    }
+    > ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      > li {
+        flex: 1 0 auto;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        > a {
+          text-decoration: none;
+          color: $primary;
+          padding: 5px 8px;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+        &.active {
+          > a {
+            font-weight: bold;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

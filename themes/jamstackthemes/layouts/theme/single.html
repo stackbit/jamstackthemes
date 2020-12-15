@@ -1,6 +1,25 @@
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-default-single{{ end }}
 
+{{ define "meta_tags" }}
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ .Permalink | absURL }}" />
+<meta property="og:description" content="{{ .Params.description }}" />
+{{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
+{{ $repo := index .Site.Data.themes $repoName }}
+{{ if $repo }}
+{{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
+{{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
+{{ if (fileExists $staticPath) }}
+<meta property="og:image" content="{{ $filePath | absURL }}">
+{{ end }}
+{{ end }}
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@jamstackthemes" />
+<meta name="twitter:creator" content="@jamstackthemes" />
+{{end}}
+
 {{ define "main" }}
 
 {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
@@ -68,13 +87,18 @@
                         {{ if $repo }}{{ partial "labels/label-stars.html" (dict "stars" $repo.stars) }}{{ end }}
                         {{ if $repo }}{{ partial "labels/label-last-commit.html" (dict "last_commit" $repo.last_commit) }}{{ end }}
 
-                        <div class="theme-buttons theme-detail-buttons">
-                            <a class="theme-button theme-button-github" href="{{ .Params.github }}" target="_blank" rel="nofollow noopener">Github</a>
-                            <a class="theme-button theme-button-demo" href="{{ .Params.demo }}" target="_blank" rel="nofollow noopener">Live Demo</a>
+                        <div class="action-buttons action-buttons-detail">
+                            <a class="action-button action-button-github" data-action="github" data-context="detail" data-name="{{ .Title }}" href="{{ .Params.github }}" target="_blank" rel="nofollow noopener">Github</a>
+                            {{ if .Site.Params.iframe_demo }}
+                                <a class="action-button action-button-demo" data-action="demo" data-context="detail" data-name="{{ .Title }}" href="/demo{{ .RelPermalink }}">Live Demo</a>
+                            {{ else }}
+                                <a class="action-button action-button-demo" data-action="demo" data-context="detail" data-name="{{ .Title }}" href="{{ .Params.demo }}" target="_blank" rel="noopener nofollow">Live Demo</a>
+                            {{ end }}
+
                             {{ if .Site.Params.stackbit_button }}
                             {{ if $stackbit }}
                             {{ if $stackbit.createUrl }}
-                            <a class="theme-button theme-button-fill theme-button-stackbit" href="{{ $stackbit.createUrl }}&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=detail" target="_blank" rel="noopener nofollow">Create Site</a>
+                            <a class="action-button action-button-fill action-button-stackbit" data-action="stackbit" data-context="detail" data-name="{{ .Title }}" href="{{ $stackbit.createUrl }}&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=detail" target="_blank" rel="noopener nofollow">Create Site</a>
                             {{ end }}
                             {{ end }}
                             {{ end }}

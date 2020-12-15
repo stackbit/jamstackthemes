@@ -36,7 +36,6 @@ const mixer = mixitup('#grids-homepage', {
   }
 });
 
-
 function getTriggerGroup(event) {
   triggerGroup = null;
   if (!event) {

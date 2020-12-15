@@ -7,16 +7,16 @@
   <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="JAMstack Themes" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.jamstackthemes.dev" />
-  <meta property="og:description" content="The most complete list of themes and starters for JAMstack sites. Easily filter themes by static site generator, headless CMS, category and more.">
-  <meta property="og:image" content="https://jamstackthemes.dev/images/jamstackthemes-screenshot.png">
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@stackbithq" />
-  <meta name="twitter:creator" content="@stackbithq" />
-
-  {{ block "meta_tags" . }}{{end}}
+  {{ block "meta_tags" . }}
+    <meta property="og:title" content="JAMstack Themes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.jamstackthemes.dev" />
+    <meta property="og:description" content="The most complete list of themes and starters for JAMstack sites. Easily filter themes by static site generator, headless CMS, category and more.">
+    <meta property="og:image" content="https://jamstackthemes.dev/images/jamstackthemes-screenshot.png">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@stackbithq" />
+    <meta name="twitter:creator" content="@stackbithq" />
+  {{end}}
 
   {{ if .Site.IsServer }}
   {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}
@@ -38,17 +38,30 @@
 </head>
 
 <body id="{{ block "body_id" . }}{{ end }}" class="page {{ block "body_classes" . }}{{ end }}">
+  {{ block "header" . }}
   <div class="header {{ block "header_classes" . }}{{ end }}">
     {{ partial "header.html" . }}
   </div>
+  {{ end }}
 
   {{ block "main" . }}{{ end }}
 
   {{ partial "footer.html" . }}
 
+  {{ partial "segment.html" . }}
+
   {{ block "footer_js" . }}{{ end }}
 
-  {{ partial "segment.html" . }}
-  {{ partial "branches.html" . }}
+  {{ $branches := resources.Get "js/branches.js" }}
+  {{ $scripts := resources.Get "js/scripts.js" }}
+
+  {{ $scriptsBundle := slice $branches $scripts | resources.Concat "js/scriptsBundle.js" }}
+
+  {{ if .Site.IsServer }}
+    <script type="text/javascript" src="{{ $scriptsBundle.RelPermalink }}"></script>
+  {{ else }}
+    <script type="text/javascript" src="{{ ($scriptsBundle | minify | fingerprint).RelPermalink }}"></script>
+  {{ end }}
+
 </body>
 </html>

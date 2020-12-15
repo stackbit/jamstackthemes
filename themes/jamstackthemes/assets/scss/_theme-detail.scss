@@ -66,36 +66,6 @@
       background-image: url("../images/ui/forks.svg");
     }
   }
-  .theme-detail-buttons {
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    .theme-button {
-      display: inline-block;
-      padding: 7px 15px;
-      border: 1px solid $primary;
-      border-radius: 4px;
-      font-size: 16px;
-      margin-right: 10px;
-      color: $primary;
-      text-decoration: none;
-      &:hover {
-        color: $primary;
-        opacity: 0.8;
-      }
-      &:last-of-type {
-        margin-right: 0;
-      }
-      &.theme-button-fill {
-        background-color: $primary;
-        color: white;
-      }
-      &.theme-button-link {
-        border: none;
-        text-decoration: underline;
-      }
-    }
-  }
   .theme-detail-image {
     img {
       //box-shadow: 1px 2px 14px 2px rgba(0, 0, 0, 0.1);
