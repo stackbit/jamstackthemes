@@ -32,6 +32,11 @@ const generateStackbit = (fileName) => {
     stackbitData[themeKey] = {
       createUrl: `https://app.stackbit.com/create?theme=${frontmatter.github}&ssg=hugo`
     };
+  } else if (frontmatter.ssg.includes("Jekyll")) {
+    // enable stackbit on all jekyll themes
+    stackbitData[themeKey] = {
+      createUrl: `https://app.stackbit.com/create?theme=${frontmatter.github}&ssg=jekyll`
+    };
   }
   return false;
 };

@@ -1,9 +1,9 @@
 ---
-title: "Doks"
-github: https://github.com/h-enk/doks
-demo: https://doks.netlify.app
+title: Doks
+github: 'https://github.com/h-enk/doks'
+demo: 'https://doks.netlify.app'
 author: Henk Verlinde
-date: 2020-12-07
+date: 2020-12-07T00:00:00.000Z
 github_branch: master
 ssg:
   - Hugo
@@ -15,7 +15,10 @@ css:
 archetype:
   - Blog
   - Documentation
-description: Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default.
+description: >-
+  Doks is a Hugo theme helping you build modern documentation websites that are
+  secure, fast, and SEO-ready — by default.
+stale: false
 ---
 
 # Doks

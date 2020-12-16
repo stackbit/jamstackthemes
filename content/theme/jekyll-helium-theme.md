@@ -10,5 +10,5 @@ cms:
 date: 2017-10-07T14:59:13.000Z
 github_branch: master
 description: Bootstrap 4 responsive Jekyll Theme.
-stale: true
+stale: false
 ---

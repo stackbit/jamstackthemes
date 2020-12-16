@@ -10,5 +10,5 @@ cms:
 date: 2016-10-25T05:15:39.000Z
 github_branch: master
 description: Start Boostrap New Age Theme for Jekyll
-stale: true
+stale: false
 ---

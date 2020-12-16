@@ -5,11 +5,29 @@
   "aanupam23-hugo-sugoi-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/aanupam23/hugo-sugoi&ssg=hugo"
   },
+  "abhinavs-moonwalk-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/abhinavs/moonwalk&ssg=jekyll"
+  },
+  "abhn-soot-spirits-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/abhn/Soot-Spirits&ssg=jekyll"
+  },
+  "abhn-wall-e-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/abhn/Wall-E&ssg=jekyll"
+  },
   "achary-engimo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/achary/engimo&ssg=hugo"
   },
+  "adagio-cantabile-adagio-cantabile.github.io-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Adagio-cantabile/Adagio-cantabile.github.io&ssg=jekyll"
+  },
   "adityatelange-hugo-papermod-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/adityatelange/hugo-PaperMod&ssg=hugo"
+  },
+  "adueck-cayman-blog-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/adueck/cayman-blog&ssg=jekyll"
+  },
+  "adueck-good-clean-read-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/adueck/good-clean-read&ssg=jekyll"
   },
   "aerohub-hugo-faq-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/aerohub/hugo-faq-theme&ssg=hugo"
@@ -23,20 +41,83 @@
   "aerohub-hugrid-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/aerohub/hugrid&ssg=hugo"
   },
+  "agusmakmun-agusmakmun.github.io-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/agusmakmun/agusmakmun.github.io&ssg=jekyll"
+  },
+  "aigarsdz-brume-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/aigarsdz/brume&ssg=jekyll"
+  },
+  "airrayagroupwebdesign-sciblog-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/airrayagroupwebdesign/sciblog&ssg=jekyll"
+  },
+  "akiritsu-project-negya-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/akiritsu/pRoJEct-NeGYa&ssg=jekyll"
+  },
+  "aksakalli-jekyll-doc-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/aksakalli/jekyll-doc-theme&ssg=jekyll"
+  },
+  "akshayagarwal007-jekyll-mono-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/AkshayAgarwal007/Jekyll-Mono&ssg=jekyll"
+  },
+  "alainpham-alainpham.github.io-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/alainpham/alainpham.github.io&ssg=jekyll"
+  },
   "alanorth-hugo-theme-bootstrap4-blog-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/alanorth/hugo-theme-bootstrap4-blog&ssg=hugo"
   },
   "alex-shpak-hugo-book-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/alex-shpak/hugo-book&ssg=hugo"
   },
+  "alexanderussell-progress-for-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/alexanderussell/progress-for-jekyll&ssg=jekyll"
+  },
+  "alexcarpenter-butane-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/alexcarpenter/butane-jekyll-theme&ssg=jekyll"
+  },
+  "alexcarpenter-library-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/alexcarpenter/library-jekyll-theme&ssg=jekyll"
+  },
+  "alexcarpenter-material-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/alexcarpenter/material-jekyll-theme&ssg=jekyll"
+  },
   "alexfinn-simple-a-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/AlexFinn/simple-a&ssg=hugo"
+  },
+  "alixedi-typewriter-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/alixedi/typewriter&ssg=jekyll"
   },
   "allnightgrocery-hugo-theme-blueberry-detox-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/allnightgrocery/hugo-theme-blueberry-detox&ssg=hugo"
   },
+  "alperenbozkurt-jblog-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/alperenbozkurt/JBlog&ssg=jekyll"
+  },
+  "altcointrading-trading-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/altcointrading/trading&ssg=jekyll"
+  },
+  "anandubajith-block-log-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/anandubajith/block-log&ssg=jekyll"
+  },
+  "andrewbanchich-forty-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/andrewbanchich/Forty-Jekyll-Theme&ssg=jekyll"
+  },
+  "andrewhwanpark-dark-poole-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/andrewhwanpark/dark-poole&ssg=jekyll"
+  },
   "angelostavrow-indigo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/AngeloStavrow/indigo&ssg=hugo"
+  },
+  "ankit-kumar-jat-limp-dark-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ankit-kumar-jat/limp-dark&ssg=jekyll"
+  },
+  "ankitsultana-accent-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ankitsultana/accent&ssg=jekyll"
+  },
+  "ankitsultana-chaplin-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ankitsultana/Chaplin&ssg=jekyll"
+  },
+  "ankitsultana-researcher-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ankitsultana/researcher&ssg=jekyll"
   },
   "antonpolishko-hugo-stellar-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/antonpolishko/hugo-stellar-theme&ssg=hugo"
@@ -47,11 +128,47 @@
   "arhen-hugo-cereus-pro-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/arhen/hugo-cereus-pro-theme&ssg=hugo"
   },
+  "ariestiyansyah-naringu-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ariestiyansyah/naringu&ssg=jekyll"
+  },
+  "arkadianriver-spectral-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/arkadianriver/spectral&ssg=jekyll"
+  },
+  "aron-bordin-neo-hpstr-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/aron-bordin/neo-hpstr-jekyll-theme&ssg=jekyll"
+  },
+  "artemsheludko-adam-blog-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/artemsheludko/adam-blog&ssg=jekyll"
+  },
+  "artemsheludko-bef-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/artemsheludko/bef&ssg=jekyll"
+  },
+  "artemsheludko-flexible-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/artemsheludko/flexible-jekyll&ssg=jekyll"
+  },
+  "artemsheludko-fresh-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/artemsheludko/fresh&ssg=jekyll"
+  },
+  "artemsheludko-monday-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/artemsheludko/monday&ssg=jekyll"
+  },
+  "artemsheludko-mr-brown-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/artemsheludko/mr-brown&ssg=jekyll"
+  },
+  "aspirethemes-type-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/aspirethemes/type&ssg=jekyll"
+  },
   "avianto-hugo-kiera-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/avianto/hugo-kiera&ssg=hugo"
   },
+  "aweekj-kiko-plus-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/AWEEKJ/Kiko-plus&ssg=jekyll"
+  },
   "azmelanar-hugo-theme-pixyll-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/azmelanar/hugo-theme-pixyll&ssg=hugo"
+  },
+  "b2a3e8-jekyll-theme-console-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/b2a3e8/jekyll-theme-console&ssg=jekyll"
   },
   "bake-solar-theme-hugo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/bake/solar-theme-hugo&ssg=hugo"
@@ -59,17 +176,62 @@
   "balaramadurai-hugo-travelify-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/balaramadurai/hugo-travelify-theme&ssg=hugo"
   },
+  "barryclark-jekyll-now-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/barryclark/jekyll-now&ssg=jekyll"
+  },
+  "bawn92-sleek_blog-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/bawn92/sleek_blog&ssg=jekyll"
+  },
   "bdougie-casper-cms-template-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/bdougie/casper-cms-template&ssg=hugo"
+  },
+  "bencentra-centrarium-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/bencentra/centrarium&ssg=jekyll"
+  },
+  "benradford-slate-and-simple-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/benradford/Slate-and-Simple-Jekyll-Theme&ssg=jekyll"
   },
   "bep-docuapi-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/bep/docuapi&ssg=hugo"
   },
+  "billyfish152-renge-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/billyfish152/Renge&ssg=jekyll"
+  },
+  "biomadeira-jasper-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/biomadeira/jasper&ssg=jekyll"
+  },
+  "biomadeira-sustain-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/biomadeira/sustain&ssg=jekyll"
+  },
+  "biomadeira-vitae-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/biomadeira/vitae&ssg=jekyll"
+  },
+  "bit-ranger-blog-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/bit-ranger/blog&ssg=jekyll"
+  },
   "bjacquemet-personal-web-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/bjacquemet/personal-web&ssg=hugo"
   },
+  "blackrockdigital-startbootstrap-clean-blog-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll&ssg=jekyll"
+  },
   "blankoworld-hugo_theme_adam_eve-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/blankoworld/hugo_theme_adam_eve&ssg=hugo"
+  },
+  "boyney123-evento-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/boyney123/evento&ssg=jekyll"
+  },
+  "bradykondek-streamer-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/bradykondek/streamer&ssg=jekyll"
+  },
+  "brianmaierjr-long-haul-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/brianmaierjr/long-haul&ssg=jekyll"
+  },
+  "brijeshb42-bitwiser-material-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/brijeshb42/bitwiser-material&ssg=jekyll"
+  },
+  "brxyxncorp-ultra-minimalista-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/brxyxncorp/ultra-minimalista&ssg=jekyll"
   },
   "brycematheson-allegiant-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/brycematheson/allegiant&ssg=hugo"
@@ -95,17 +257,95 @@
   "cfrome77-hugo-theme-sky-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/cfrome77/hugo-theme-sky&ssg=hugo"
   },
+  "chalatz-yellowblue-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/chalatz/yellowblue&ssg=jekyll"
+  },
+  "chesterhow-tale-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/chesterhow/tale&ssg=jekyll"
+  },
+  "chibicode-solo-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/chibicode/solo/&ssg=jekyll"
+  },
   "chipsenkbeil-grid-side-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/chipsenkbeil/grid-side&ssg=hugo"
   },
   "chipzoller-hugo-clarity-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/chipzoller/hugo-clarity&ssg=hugo"
   },
+  "chrisbobbe-jekyll-theme-prologue-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/chrisbobbe/jekyll-theme-prologue&ssg=jekyll"
+  },
+  "chrisrhymes-bulma-clean-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/chrisrhymes/bulma-clean-theme&ssg=jekyll"
+  },
+  "chrisrhymes-mere-blog-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/chrisrhymes/mere-blog-theme&ssg=jekyll"
+  },
+  "chrisrhymes-purpletual-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/chrisrhymes/purpletual&ssg=jekyll"
+  },
+  "christianezeani-panthera-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/christianezeani/panthera-jekyll&ssg=jekyll"
+  },
   "christianmendoza-hugo-split-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/christianmendoza/hugo-split-theme&ssg=hugo"
   },
+  "clark-zhao-bohu-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Clark-Zhao/bohu-jekyll-theme&ssg=jekyll"
+  },
+  "clarkhacks-minimal-text-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/clarkhacks/Minimal-Text&ssg=jekyll"
+  },
+  "clayh53-tufte-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/clayh53/tufte-jekyll&ssg=jekyll"
+  },
+  "cloudcannon-aviator-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/CloudCannon/Aviator-Jekyll-Theme&ssg=jekyll"
+  },
+  "cloudcannon-cause-jekyll-template-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/CloudCannon/cause-jekyll-template&ssg=jekyll"
+  },
+  "cloudcannon-dopetrope-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/CloudCannon/DopeTrope-Jekyll-Theme&ssg=jekyll"
+  },
+  "cloudcannon-edition-jekyll-template-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/CloudCannon/edition-jekyll-template&ssg=jekyll"
+  },
+  "cloudcannon-frisco-jekyll-template-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/CloudCannon/frisco-jekyll-template&ssg=jekyll"
+  },
+  "cloudcannon-hydra-jekyll-template-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/CloudCannon/hydra-jekyll-template&ssg=jekyll"
+  },
+  "cloudcannon-justice-jekyll-template-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/CloudCannon/justice-jekyll-template&ssg=jekyll"
+  },
+  "cloudcannon-malt-jekyll-template-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/CloudCannon/malt-jekyll-template&ssg=jekyll"
+  },
+  "cloudcannon-strata-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/CloudCannon/Strata-Jekyll-Theme&ssg=jekyll"
+  },
+  "cloudcannon-twenty-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/CloudCannon/Twenty-Jekyll-Theme&ssg=jekyll"
+  },
+  "cloudcannon-urban-jekyll-template-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/CloudCannon/urban-jekyll-template&ssg=jekyll"
+  },
+  "codeasashu-hcz-jekyll-blog-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/codeasashu/hcz-jekyll-blog&ssg=jekyll"
+  },
   "coderzh-hugo-pacman-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/coderzh/hugo-pacman-theme&ssg=hugo"
+  },
+  "codinfox-codinfox-lanyon-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/codinfox/codinfox-lanyon&ssg=jekyll"
+  },
+  "coletownsend-balzac-for-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/coletownsend/balzac-for-jekyll&ssg=jekyll"
+  },
+  "cotes2020-jekyll-theme-chirpy-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/cotes2020/jekyll-theme-chirpy/&ssg=jekyll"
   },
   "cssandstuff-hugo-theme-winning-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/cssandstuff/hugo-theme-winning&ssg=hugo"
@@ -115,6 +355,9 @@
   },
   "curtistimson-hugo-theme-massively-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/curtistimson/hugo-theme-massively&ssg=hugo"
+  },
+  "cyevgeniy-jekyll-true-minimal-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/cyevgeniy/jekyll-true-minimal&ssg=jekyll"
   },
   "d-kusk-minimage-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/d-kusk/minimage&ssg=hugo"
@@ -149,17 +392,47 @@
   "dashdashzako-paperback-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/dashdashzako/paperback&ssg=hugo"
   },
+  "dashingcode-front-cover-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/dashingcode/front-cover&ssg=jekyll"
+  },
+  "daviddarnes-alembic-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/daviddarnes/alembic&ssg=jekyll"
+  },
+  "daviddarnes-garth-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/daviddarnes/garth&ssg=jekyll"
+  },
   "davidhampgonsalves-hugo-black-and-light-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/davidhampgonsalves/hugo-black-and-light-theme&ssg=hugo"
   },
+  "dbtek-dbyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/dbtek/dbyll&ssg=jekyll"
+  },
+  "dbtek-paper-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/dbtek/paper&ssg=jekyll"
+  },
+  "ddbullfrog-resumecard-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ddbullfrog/resumecard&ssg=jekyll"
+  },
   "de-souza-hugo-flex-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/de-souza/hugo-flex&ssg=hugo"
+  },
+  "deepidea-web-presentation-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/deepidea/web-presentation&ssg=jekyll"
   },
   "devcows-hugo-universal-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/devcows/hugo-universal-theme&ssg=hugo"
   },
   "dgraph-io-hugo-dgraph-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/dgraph-io/hugo-dgraph-theme&ssg=hugo"
+  },
+  "diezcami-arctic-fox-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/diezcami/arctic-fox-theme/&ssg=jekyll"
+  },
+  "diezcami-polar-bear-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/diezcami/polar-bear-theme/&ssg=jekyll"
+  },
+  "digital-roots-jekyll-2-column-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Digital-Roots/Jekyll-2-Column-Theme&ssg=jekyll"
   },
   "digitalcraftsman-hugo-artists-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/digitalcraftsman/hugo-artists-theme&ssg=hugo"
@@ -182,14 +455,41 @@
   "digitalcraftsman-hugo-type-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/digitalcraftsman/hugo-type-theme&ssg=hugo"
   },
+  "digitalmindch-gridster-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/DigitalMindCH/gridster-jekyll-theme&ssg=jekyll"
+  },
+  "digitalmindch-twister-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/DigitalMindCH/twister&ssg=jekyll"
+  },
+  "dikiaap-mangan-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/dikiaap/mangan&ssg=jekyll"
+  },
+  "dirkfabisch-mediator-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/dirkfabisch/mediator&ssg=jekyll"
+  },
   "diwao-hestia-pure-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/diwao/hestia-pure&ssg=hugo"
   },
   "dldx-hpstr-hugo-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/dldx/hpstr-hugo-theme&ssg=hugo"
   },
+  "dongchuan-yummy-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/DONGChuan/Yummy-Jekyll&ssg=jekyll"
+  },
   "dplesca-purehugo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/dplesca/purehugo&ssg=hugo"
+  },
+  "drassil-git-wiki-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/drassil/git-wiki&ssg=jekyll"
+  },
+  "drvy-minimal-block-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/drvy/minimal-block&ssg=jekyll"
+  },
+  "dyndna-lanyon-plus-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/dyndna/lanyon-plus&ssg=jekyll"
+  },
+  "dyutibarma-monochrome-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/dyutibarma/monochrome&ssg=jekyll"
   },
   "dzello-reveal-hugo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/dzello/reveal-hugo&ssg=hugo"
@@ -203,6 +503,18 @@
   "eliasson-liquorice-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/eliasson/liquorice&ssg=hugo"
   },
+  "eliottvincent-bay-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/eliottvincent/bay&ssg=jekyll"
+  },
+  "ellekasai-resumecards-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ellekasai/resumecards/&ssg=jekyll"
+  },
+  "ellekasai-shiori-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ellekasai/shiori/&ssg=jekyll"
+  },
+  "elotroalex-ed-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/elotroalex/ed&ssg=jekyll"
+  },
   "emielh-hallo-hugo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/EmielH/hallo-hugo&ssg=hugo"
   },
@@ -212,11 +524,32 @@
   "emielh-tale-hugo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/EmielH/tale-hugo&ssg=hugo"
   },
+  "emilbaehr-automatic-app-landing-page-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/emilbaehr/automatic-app-landing-page&ssg=jekyll"
+  },
+  "erayaydin-jekyll-bulma-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/erayaydin/jekyll-bulma&ssg=jekyll"
+  },
   "eshlox-simplicity-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/eshlox/simplicity&ssg=hugo"
   },
+  "essentialenemy-noir-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/essentialenemy/noir&ssg=jekyll"
+  },
+  "excentris-compass-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/excentris/compass&ssg=jekyll"
+  },
+  "exchangerate-api-rlstevenson-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ExchangeRate-API/rlstevenson-jekyll-theme&ssg=jekyll"
+  },
   "exchangerate-api-strange-case-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ExchangeRate-API/strange-case&ssg=hugo"
+  },
+  "ezrasavard-ezora-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ezrasavard/ezora-jekyll-theme&ssg=jekyll"
+  },
+  "fareez-ahamed-millikyl-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/fareez-ahamed/millikyl&ssg=jekyll"
   },
   "fastbyte01-keepit-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Fastbyte01/KeepIt&ssg=hugo"
@@ -224,11 +557,20 @@
   "felicianotech-hugo-theme-lean-launch-page-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/felicianotech/hugo-theme-lean-launch-page&ssg=hugo"
   },
+  "ferrolho-jekyll-theme-libretto-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ferrolho/jekyll-theme-libretto&ssg=jekyll"
+  },
   "fiatjaf-classless-hugo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/fiatjaf/classless-hugo&ssg=hugo"
   },
   "fncnt-vncnt-hugo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/fncnt/vncnt-hugo&ssg=hugo"
+  },
+  "fongandrew-hydeout-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/fongandrew/hydeout&ssg=jekyll"
+  },
+  "forestryio-ubuild-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/forestryio/ubuild-jekyll&ssg=jekyll"
   },
   "formspree-blogophonic-hugo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/formspree/blogophonic-hugo&ssg=hugo"
@@ -236,17 +578,32 @@
   "frjo-hugo-theme-zen-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/frjo/hugo-theme-zen&ssg=hugo"
   },
+  "fromendworld-loffer-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/FromEndWorld/LOFFER&ssg=jekyll"
+  },
+  "fullit-fullit.github.io-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/fullit/fullit.github.io&ssg=jekyll"
+  },
   "funkydan2-alpha-church-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/funkydan2/alpha-church&ssg=hugo"
   },
   "g1eny0ung-hugo-theme-dream-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/g1eny0ung/hugo-theme-dream&ssg=hugo"
   },
+  "gaohaoyang-gaohaoyang.github.io-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Gaohaoyang/gaohaoyang.github.io&ssg=jekyll"
+  },
   "garvincasimir-hugo-h5bp-simple-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/garvincasimir/hugo-h5bp-simple&ssg=hugo"
   },
+  "gchauras-much-worse-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gchauras/much-worse-jekyll-theme&ssg=jekyll"
+  },
   "gcushen-hugo-academic-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gcushen/hugo-academic&ssg=hugo"
+  },
+  "gdg-managua-jekyll-mdl-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gdg-managua/jekyll-mdl&ssg=jekyll"
   },
   "gdgtoulouse-devfest-theme-hugo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/GDGToulouse/devfest-theme-hugo&ssg=hugo"
@@ -257,8 +614,14 @@
   "gesquive-slate-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gesquive/slate&ssg=hugo"
   },
+  "gildasio-clyell-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gildasio/clyell&ssg=jekyll"
+  },
   "gizak-nofancy-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gizak/nofancy&ssg=hugo"
+  },
+  "gjuniioor-darcli-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gjuniioor/darcli&ssg=jekyll"
   },
   "gkmngrgn-hugo-alageek-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gkmngrgn/hugo-alageek-theme&ssg=hugo"
@@ -269,17 +632,32 @@
   "goodroot-hugo-classic-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/goodroot/hugo-classic&ssg=hugo"
   },
+  "grrinchas-aliquam-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/grrinchas/aliquam&ssg=jekyll"
+  },
   "guangmean-niello-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/guangmean/Niello&ssg=hugo"
   },
   "gundamew-hugo-bingo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gundamew/hugo-bingo&ssg=hugo"
   },
+  "guovz-pithy-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/guovz/pithy&ssg=jekyll"
+  },
   "gurusabarish-hugo-profile-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gurusabarish/hugo-profile&ssg=hugo"
   },
+  "gustavoquinalha-jekyll-help-center-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gustavoquinalha/jekyll-help-center-theme&ssg=jekyll"
+  },
   "gyorb-hugo-dusk-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gyorb/hugo-dusk&ssg=hugo"
+  },
+  "h-enk-doks-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/h-enk/doks&ssg=hugo"
+  },
+  "h01000110-windows-95-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/h01000110/windows-95&ssg=jekyll"
   },
   "hadisinaee-avicenna-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/hadisinaee/avicenna&ssg=hugo"
@@ -293,11 +671,65 @@
   "hdcdstr8fwd-foundation-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/hdcdstr8fwd/foundation-theme&ssg=hugo"
   },
+  "heiswayi-textlog-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/heiswayi/textlog&ssg=jekyll"
+  },
+  "heiswayi-the-plain-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/heiswayi/the-plain&ssg=jekyll"
+  },
+  "heiswayi-thinkspace-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/heiswayi/thinkspace&ssg=jekyll"
+  },
+  "heliumjk-heliumjk.github.io-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/heliumjk/heliumjk.github.io&ssg=jekyll"
+  },
+  "hemangsk-devjournal-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/hemangsk/DevJournal&ssg=jekyll"
+  },
+  "hemangsk-gravity-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/hemangsk/Gravity&ssg=jekyll"
+  },
+  "hemangsk-safarnama-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/hemangsk/safarnama&ssg=jekyll"
+  },
+  "henrythemes-jekyll-book-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/henrythemes/jekyll-book-theme&ssg=jekyll"
+  },
+  "henrythemes-jekyll-bootstrap-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/henrythemes/jekyll-bootstrap-theme&ssg=jekyll"
+  },
+  "henrythemes-jekyll-minimal-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/henrythemes/jekyll-minimal-theme&ssg=jekyll"
+  },
+  "hmfaysal-hmfaysal-omega-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/hmfaysal/hmfaysal-omega-theme&ssg=jekyll"
+  },
+  "hmfaysal-jekyll-hmfaysal-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/hmfaysal/Jekyll-HMFAYSAL-Theme&ssg=jekyll"
+  },
+  "hmfaysal-notepad-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/hmfaysal/Notepad&ssg=jekyll"
+  },
+  "hoffli-saigon-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/hoffli/saigon-jekyll-theme&ssg=jekyll"
+  },
+  "holman-left-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/holman/left&ssg=jekyll"
+  },
   "htdvisser-hugo-base16-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/htdvisser/hugo-base16-theme&ssg=hugo"
   },
   "htr3n-hyde-hyde-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/htr3n/hyde-hyde&ssg=hugo"
+  },
+  "hugocarreira-jekyll-materializecss-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/hugocarreira/jekyll-materializecss&ssg=jekyll"
+  },
+  "hugocarreira-jekyll-vision-casper-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/hugocarreira/jekyll-vision-casper-theme&ssg=jekyll"
+  },
+  "hugoferreira-papyrus-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/hugoferreira/papyrus-theme&ssg=jekyll"
   },
   "humrochagf-colordrop-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/humrochagf/colordrop&ssg=hugo"
@@ -308,23 +740,68 @@
   "icyris-hugo-theme-yuki-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/iCyris/hugo-theme-yuki&ssg=hugo"
   },
+  "ifedyukin-mekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ifedyukin/Mekyll&ssg=jekyll"
+  },
   "ijsucceed-onepress-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ijsucceed/onepress&ssg=hugo"
+  },
+  "inded-jekyll_modern-blog-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/inded/Jekyll_modern-blog&ssg=jekyll"
+  },
+  "insidiousmind-material-bliss-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/InsidiousMind/material-bliss-jekyll-theme&ssg=jekyll"
   },
   "it-gro-hugo-theme-w3css-basic-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/it-gro/hugo-theme-w3css-basic&ssg=hugo"
   },
+  "itisbenjamin-nice_blog-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/itisbenjamin/Nice_Blog&ssg=jekyll"
+  },
+  "itsrifat-rifyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/itsrifat/rifyll&ssg=jekyll"
+  },
   "ivanchou-hugo-theme-vec-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/IvanChou/hugo-theme-vec&ssg=hugo"
+  },
+  "iwiedenm-jekyll-theme-massively-src-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/iwiedenm/jekyll-theme-massively-src&ssg=jekyll"
+  },
+  "jack614-jalpc-a-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Jack614/Jalpc-A&ssg=jekyll"
   },
   "jacobsun-edidor-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jacobsun/edidor&ssg=hugo"
   },
+  "jacobtomlinson-carte-noire-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jacobtomlinson/carte-noire&ssg=jekyll"
+  },
   "jaden-twentyfourteen-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jaden/twentyfourteen&ssg=hugo"
   },
+  "jaehee0113-console-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jaehee0113/console&ssg=jekyll"
+  },
+  "jameshamann-jekyll-material-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jameshamann/jekyll-material-theme&ssg=jekyll"
+  },
+  "jamigibbs-phantom-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jamigibbs/phantom&ssg=jekyll"
+  },
+  "janczizikow-sleek-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/janczizikow/sleek&ssg=jekyll"
+  },
+  "jarrekk-jalpc-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jarrekk/Jalpc&ssg=jekyll"
+  },
+  "jasoncostello-slate-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jasoncostello/slate&ssg=jekyll"
+  },
   "jbub-ghostwriter-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jbub/ghostwriter&ssg=hugo"
+  },
+  "jdh8-sweet-16-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jdh8/sweet-16/&ssg=jekyll"
   },
   "jeblister-bulma-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jeblister/bulma&ssg=hugo"
@@ -332,17 +809,53 @@
   "jeblister-kube-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jeblister/kube&ssg=hugo"
   },
+  "jeffreytse-jekyll-theme-yat-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jeffreytse/jekyll-theme-yat&ssg=jekyll"
+  },
+  "jekyller-jasper2-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jekyller/jasper2&ssg=jekyll"
+  },
+  "jekyller-online-cv-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jekyller/online-cv&ssg=jekyll"
+  },
+  "jekyller-panelcv-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jekyller/PanelCV&ssg=jekyll"
+  },
+  "jekynewage-jekynewage.github.io-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jekynewage/jekynewage.github.io&ssg=jekyll"
+  },
+  "jeromelachaud-freelancer-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jeromelachaud/freelancer-theme&ssg=jekyll"
+  },
+  "jeromelachaud-grayscale-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jeromelachaud/grayscale-theme&ssg=jekyll"
+  },
   "jesselau76-hugo-w3-simple-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jesselau76/hugo-w3-simple&ssg=hugo"
   },
   "jnjosh-internet-weblog-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jnjosh/internet-weblog&ssg=hugo"
   },
+  "johncoene-marat-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/JohnCoene/marat&ssg=jekyll"
+  },
+  "johnotander-pixyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/johnotander/pixyll&ssg=jekyll"
+  },
   "josephhutch-aether-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/josephhutch/aether&ssg=hugo"
   },
+  "joshgerdes-jekyll-uno-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/joshgerdes/jekyll-uno&ssg=jekyll"
+  },
+  "joshuaavalon-jekyll-avalon-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/joshuaavalon/Jekyll-Avalon&ssg=jekyll"
+  },
   "joway-hugo-theme-yinyang-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/joway/hugo-theme-yinyang&ssg=hugo"
+  },
+  "joytou-joytou.github.io-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/joytou/joytou.github.io&ssg=jekyll"
   },
   "jpescador-hugo-future-imperfect-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jpescador/hugo-future-imperfect&ssg=hugo"
@@ -362,11 +875,23 @@
   "jugglerx-hugo-whisper-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/JugglerX/hugo-whisper-theme&ssg=hugo"
   },
+  "junlulocky-popuptweets-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/junlulocky/PopupTweets&ssg=jekyll"
+  },
   "jweslley-hugo-conference-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jweslley/hugo-conference&ssg=hugo"
   },
+  "jwillmer-jekylldecent-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jwillmer/jekyllDecent&ssg=jekyll"
+  },
   "kakawait-hugo-tranquilpeak-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kakawait/hugo-tranquilpeak-theme&ssg=hugo"
+  },
+  "kamikat-jekyll-theme-kagami-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kamikat/jekyll-theme-kagami&ssg=jekyll"
+  },
+  "karloespiritu-blackdoc-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/karloespiritu/BlackDoc&ssg=jekyll"
   },
   "kausalflow-connectome-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kausalflow/connectome&ssg=hugo"
@@ -374,41 +899,146 @@
   "kaushalmodi-hugo-bare-min-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kaushalmodi/hugo-bare-min-theme&ssg=hugo"
   },
+  "kazumasato-siera-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/KazumaSATO/Siera&ssg=jekyll"
+  },
   "keichi-vienna-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/keichi/vienna&ssg=hugo"
+  },
+  "kejunmao-jekyll-theme-mdui-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/KeJunMao/jekyll-theme-mdui&ssg=jekyll"
+  },
+  "kentico-kontent-jekyll-blog-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Kentico/kontent-jekyll-blog&ssg=jekyll"
+  },
+  "kevit-devaid-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kevit/devaid-jekyll-theme&ssg=jekyll"
+  },
+  "kingfelix-emerald-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/KingFelix/emerald&ssg=jekyll"
+  },
+  "kippt-jekyll-incorporated-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kippt/jekyll-incorporated&ssg=jekyll"
   },
   "kishaningithub-hugo-creative-portfolio-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kishaningithub/hugo-creative-portfolio-theme&ssg=hugo"
   },
+  "kitian616-jekyll-text-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kitian616/jekyll-TeXt-theme&ssg=jekyll"
+  },
+  "kkninjae-book-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kkninjae/book/&ssg=jekyll"
+  },
+  "knaman2609-clean-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/knaman2609/clean&ssg=jekyll"
+  },
+  "knhash-pudhina-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/knhash/Pudhina&ssg=jekyll"
+  },
   "koirand-pulp-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/koirand/pulp&ssg=hugo"
+  },
+  "kronik3r-daktilo-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kronik3r/daktilo&ssg=jekyll"
+  },
+  "kuntoaji-dekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kuntoaji/dekyll&ssg=jekyll"
+  },
+  "kxxvii-kikofri-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kxxvii/Kikofri&ssg=jekyll"
+  },
+  "laixintao-princess-diaries-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/laixintao/Princess-Diaries&ssg=jekyll"
+  },
+  "laobubu-jekyll-theme-easybook-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/laobubu/jekyll-theme-EasyBook&ssg=jekyll"
   },
   "lasseborly-anybodyhome-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/lasseborly/anybodyhome&ssg=hugo"
   },
+  "lavkumarv-feature-blog-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/lavkumarv/feature-blog-jekyll&ssg=jekyll"
+  },
+  "le4ker-personal-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/le4ker/personal-jekyll-theme&ssg=jekyll"
+  },
   "lednerb-bilberry-hugo-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Lednerb/bilberry-hugo-theme&ssg=hugo"
+  },
+  "lekoarts-gatsby-starter-minimal-blog-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/LekoArts/gatsby-starter-minimal-blog&ssg=jekyll"
+  },
+  "lenpaul-lagrange-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/LeNPaul/Lagrange&ssg=jekyll"
+  },
+  "lenpaul-millennial-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/LeNPaul/Millennial&ssg=jekyll"
+  },
+  "lenpaul-portfolio-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/LeNPaul/portfolio-jekyll-theme&ssg=jekyll"
   },
   "leonhe-hugo_eiio-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/leonhe/hugo_eiio&ssg=hugo"
   },
+  "leopardpan-leopardpan.github.io-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/leopardpan/leopardpan.github.io&ssg=jekyll"
+  },
   "lgaida-mediumish-gohugo-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/lgaida/mediumish-gohugo-theme&ssg=hugo"
+  },
+  "liberxue-liberxue.github.io-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Liberxue/liberxue.github.io&ssg=jekyll"
   },
   "lingxz-er-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/lingxz/er&ssg=hugo"
   },
+  "link9596-hydrogen-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/link9596/hydrogen&ssg=jekyll"
+  },
+  "liungkejin-liungkejin.github.io-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/liungkejin/liungkejin.github.io&ssg=jekyll"
+  },
   "liuzc-leaveit-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/liuzc/LeaveIt&ssg=hugo"
   },
+  "lixizhi-lixizhi.github.io-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/lixizhi/lixizhi.github.io&ssg=jekyll"
+  },
+  "longpdo-neumorphism-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/longpdo/neumorphism&ssg=jekyll"
+  },
   "lordmathis-hugo-theme-nix-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/LordMathis/hugo-theme-nix&ssg=hugo"
+  },
+  "lorepirri-cayman-blog-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/lorepirri/cayman-blog&ssg=jekyll"
+  },
+  "lorepirri-jekyll-theme-simple-blog-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://gitlab.com/lorepirri/jekyll-theme-simple-blog&ssg=jekyll"
   },
   "lubang-hugo-hello-programmer-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/lubang/hugo-hello-programmer-theme&ssg=hugo"
   },
   "luizdepra-hugo-coder-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/luizdepra/hugo-coder"
+  },
+  "lukas-h-material-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/lukas-h/material-theme/&ssg=jekyll"
+  },
+  "lukas-h-onepage-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/lukas-h/onepage&ssg=jekyll"
+  },
+  "luoyan35714-lessormore-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/luoyan35714/LessOrMore&ssg=jekyll"
+  },
+  "macrod68-jekyll-materialize-starter-template-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/macrod68/jekyll-materialize-starter-template&ssg=jekyll"
+  },
+  "madforjekyll-madforjekyll.github.io-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/madforjekyll/madforjekyll.github.io&ssg=jekyll"
+  },
+  "manid2-lone-wolf-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/manid2/lone-wolf-theme/&ssg=jekyll"
   },
   "marcanuy-hugotube-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/marcanuy/hugotube&ssg=hugo"
@@ -422,8 +1052,23 @@
   "matcornic-hugo-theme-learn-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/matcornic/hugo-theme-learn&ssg=hugo"
   },
+  "mateussmedeiros-blade-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mateussmedeiros/blade-theme&ssg=jekyll"
+  },
   "mattbutton-silhouette-hugo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mattbutton/silhouette-hugo&ssg=hugo"
+  },
+  "mattcouchman-jekyll-resume-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mattcouchman/jekyll-resume&ssg=jekyll"
+  },
+  "mattgraham-leap-day-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mattgraham/Leap-Day&ssg=jekyll"
+  },
+  "mattgraham-midnight-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mattgraham/midnight&ssg=jekyll"
+  },
+  "mattvh-solar-theme-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mattvh/solar-theme-jekyll&ssg=jekyll"
   },
   "mazgi-hugo-theme-techlog-simple-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mazgi/hugo-theme-techlog-simple&ssg=hugo"
@@ -431,17 +1076,98 @@
   "meibenny-elephants-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/meibenny/elephants&ssg=hugo"
   },
+  "melangue-dactl-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/melangue/dactl&ssg=jekyll"
+  },
+  "meliodus-meliodus.github.io-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/meliodus/meliodus.github.io&ssg=jekyll"
+  },
+  "meliodus-uno-dbyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/meliodus/uno-dbyll&ssg=jekyll"
+  },
+  "melvinchng-event-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/melvinchng/event-jekyll-theme&ssg=jekyll"
+  },
+  "midzer-urban-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/midzer/urban-theme&ssg=jekyll"
+  },
   "miguelsimoni-hugo-initio-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/miguelsimoni/hugo-initio&ssg=hugo"
   },
   "mikeblum-hugo-now-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mikeblum/hugo-now&ssg=hugo"
   },
+  "minhhuy150894-minhhuy150894.github.io-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/minhhuy150894/minhhuy150894.github.io&ssg=jekyll"
+  },
+  "mmistakes-hpstr-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mmistakes/hpstr-jekyll-theme&ssg=jekyll"
+  },
+  "mmistakes-jekyll-theme-basically-basic-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mmistakes/jekyll-theme-basically-basic&ssg=jekyll"
+  },
+  "mmistakes-jekyll-theme-skinny-bones-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mmistakes/jekyll-theme-skinny-bones&ssg=jekyll"
+  },
+  "mmistakes-minimal-mistakes-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mmistakes/minimal-mistakes&ssg=jekyll"
+  },
+  "mmistakes-so-simple-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mmistakes/so-simple-theme&ssg=jekyll"
+  },
   "mmrath-hugo-bootstrap-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mmrath/hugo-bootstrap&ssg=hugo"
   },
+  "muan-scribble-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/muan/scribble&ssg=jekyll"
+  },
+  "mumuxme-materialize-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mumuxme/materialize-jekyll&ssg=jekyll"
+  },
   "muniftanjim-minimo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/MunifTanjim/minimo&ssg=hugo"
+  },
+  "murraco-jekyll-theme-minimal-resume-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/murraco/jekyll-theme-minimal-resume&ssg=jekyll"
+  },
+  "mushishi78-jekyll-video-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mushishi78/jekyll-video&ssg=jekyll"
+  },
+  "mushishi78-one-page-wonder-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mushishi78/one-page-wonder-jekyll&ssg=jekyll"
+  },
+  "mx3m-hikari-for-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mx3m/hikari-for-Jekyll&ssg=jekyll"
+  },
+  "nadjetey-gridgallery-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nadjetey/GridGallery&ssg=jekyll"
+  },
+  "nadjetey-redcup-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nadjetey/redcup&ssg=jekyll"
+  },
+  "nadjetey-wangana-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nadjetey/wangana&ssg=jekyll"
+  },
+  "nandomoreirame-dotx-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nandomoreirame/dotX&ssg=jekyll"
+  },
+  "nandomoreirame-end2end-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nandomoreirame/end2end&ssg=jekyll"
+  },
+  "nandomoreirame-lora-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nandomoreirame/lora&ssg=jekyll"
+  },
+  "nandomoreirame-mug-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nandomoreirame/mug&ssg=jekyll"
+  },
+  "nandomoreirame-nandomoreira-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nandomoreirame/nandomoreira-jekyll-theme&ssg=jekyll"
+  },
+  "nandomoreirame-simplest-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nandomoreirame/simplest&ssg=jekyll"
+  },
+  "nandomoreirame-zetsu-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nandomoreirame/zetsu&ssg=jekyll"
   },
   "nanxiaobei-hugo-paper-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nanxiaobei/hugo-paper&ssg=hugo"
@@ -452,23 +1178,65 @@
   "nathancday-min_night-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nathancday/min_night&ssg=hugo"
   },
+  "neizod-lemma-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/neizod/lemma-theme&ssg=jekyll"
+  },
   "netlify-templates-one-click-hugo-cms-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/netlify-templates/one-click-hugo-cms&ssg=hugo"
+  },
+  "ngzhio-jekyll-theme-hamilton-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ngzhio/jekyll-theme-hamilton&ssg=jekyll"
+  },
+  "nickbalestra-kactus-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nickbalestra/kactus&ssg=jekyll"
+  },
+  "nielsenramon-chalk-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nielsenramon/chalk&ssg=jekyll"
   },
   "niklasbuschmann-contrast-hugo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/niklasbuschmann/contrast-hugo&ssg=hugo"
   },
+  "niklasbuschmann-contrast-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/niklasbuschmann/contrast&ssg=jekyll"
+  },
+  "nikrich-jekyll-slender-template-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nikrich/jekyll-slender-template&ssg=jekyll"
+  },
+  "nikrich-jekyll-wing-template-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nikrich/jekyll-wing-template&ssg=jekyll"
+  },
+  "ninapetrop-artist-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ninapetrop/Artist-Theme&ssg=jekyll"
+  },
   "nirocfz-arabica-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nirocfz/arabica&ssg=hugo"
+  },
+  "nix1947-jekyll-hilmi-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nix1947/jekyll-hilmi&ssg=jekyll"
   },
   "nodejh-hugo-theme-cactus-plus-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nodejh/hugo-theme-cactus-plus&ssg=hugo"
   },
+  "nrandecker-particle-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nrandecker/particle&ssg=jekyll"
+  },
   "nurlansu-hugo-sustain-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nurlansu/hugo-sustain&ssg=hugo"
   },
+  "obaez-dentistsmile-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/obaez/dentistsmile&ssg=jekyll"
+  },
+  "ohduran-onassis-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ohduran/Onassis&ssg=jekyll"
+  },
+  "ohduran-the-interesting-times-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ohduran/the-interesting-times&ssg=jekyll"
+  },
   "okkur-syna-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/okkur/syna&ssg=hugo"
+  },
+  "olakara-jekyllmetro-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/olakara/JekyllMetro&ssg=jekyll"
   },
   "olowolo-hugo-theme-even-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/olOwOlo/hugo-theme-even&ssg=hugo"
@@ -482,8 +1250,29 @@
   "onweru-newsroom-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/onweru/newsroom&ssg=hugo"
   },
+  "open-sl-jekyll-modern-blog-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Open-SL/Jekyll-Modern-Blog&ssg=jekyll"
+  },
+  "open-start-opentheme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/open-start/opentheme&ssg=jekyll"
+  },
+  "orderedlist-minimal-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/orderedlist/minimal&ssg=jekyll"
+  },
+  "orderedlist-modernist-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/orderedlist/modernist&ssg=jekyll"
+  },
+  "ozgrozer-dasper-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ozgrozer/dasper&ssg=jekyll"
+  },
   "pacollins-hugo-future-imperfect-slim-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/pacollins/hugo-future-imperfect-slim&ssg=hugo"
+  },
+  "pandasekh-jekyll-podcaster-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/PandaSekh/Jekyll-Podcaster&ssg=jekyll"
+  },
+  "pandasekh-jekyll-yamt-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/PandaSekh/Jekyll-YAMT&ssg=jekyll"
   },
   "panr-hugo-theme-hello-friend-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/panr/hugo-theme-hello-friend&ssg=hugo"
@@ -491,8 +1280,17 @@
   "panr-hugo-theme-terminal-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/panr/hugo-theme-terminal&ssg=hugo"
   },
+  "panxw-panxw.github.com-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/panxw/panxw.github.com&ssg=jekyll"
+  },
   "parsiya-hugo-octopress-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/parsiya/Hugo-Octopress&ssg=hugo"
+  },
+  "pasindud-jekyll-masonry-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/pasindud/jekyll-masonry&ssg=jekyll"
+  },
+  "patdryburgh-hitchens-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/patdryburgh/hitchens&ssg=jekyll"
   },
   "pdevty-material-design-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/pdevty/material-design&ssg=hugo"
@@ -503,14 +1301,59 @@
   "peaceiris-hugo-theme-iris-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/peaceiris/hugo-theme-iris&ssg=hugo"
   },
+  "peahatlanding-plain-webcomic-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/peahatlanding/Plain-Webcomic&ssg=jekyll"
+  },
+  "penibelst-jekyll-noita-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/penibelst/jekyll-noita&ssg=jekyll"
+  },
+  "phlow-feeling-responsive-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Phlow/feeling-responsive&ssg=jekyll"
+  },
+  "pietromenna-jekyll-architect-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/pietromenna/jekyll-architect-theme&ssg=jekyll"
+  },
+  "pietromenna-jekyll-cayman-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/pietromenna/jekyll-cayman-theme&ssg=jekyll"
+  },
   "piharpi-jekyll-klise-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/piharpi/jekyll-klise"
   },
   "pipporj-hugo-refresh-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/PippoRJ/hugo-refresh&ssg=hugo"
   },
+  "planetjekyll-jekyll-starter-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/planetjekyll/jekyll-starter-theme&ssg=jekyll"
+  },
+  "pmarsceill-just-the-docs-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/pmarsceill/just-the-docs&ssg=jekyll"
+  },
+  "poole-hyde-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/poole/hyde&ssg=jekyll"
+  },
+  "poole-lanyon-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/poole/lanyon&ssg=jekyll"
+  },
+  "poole-poole-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/poole/poole&ssg=jekyll"
+  },
+  "portfolio-central-jekyll-instagram-portfolio-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/portfolio-central/jekyll-instagram-portfolio-theme&ssg=jekyll"
+  },
+  "pranavrajs-limpid-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/pranavrajs/limpid&ssg=jekyll"
+  },
+  "pranavrajs-swift-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/pranavrajs/swift/&ssg=jekyll"
+  },
+  "prio101-metaphor-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/prio101/metaphor-jekyll&ssg=jekyll"
+  },
   "progrhyme-hugo-theme-bootie-docs-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/progrhyme/hugo-theme-bootie-docs&ssg=hugo"
+  },
+  "projectpages-project-pages-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/projectpages/project-pages&ssg=jekyll"
   },
   "puresyntax71-hugo-theme-chunky-poster-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/puresyntax71/hugo-theme-chunky-poster&ssg=hugo"
@@ -518,11 +1361,23 @@
   "qqhann-hugo-primer-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/qqhann/hugo-primer&ssg=hugo"
   },
+  "qwtel-hydejack-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/qwtel/hydejack&ssg=jekyll"
+  },
+  "railsr-autm-rb-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/railsr/autm-rb&ssg=jekyll"
+  },
   "rcjach-hugo-webslides-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/RCJacH/hugo-webslides&ssg=hugo"
   },
   "realorangeone-hugo-theme-revealjs-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/RealOrangeOne/hugo-theme-revealjs&ssg=hugo"
+  },
+  "redvi-voyager-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/redVi/voyager&ssg=jekyll"
+  },
+  "renyuanz-leonids-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/renyuanz/leonids&ssg=jekyll"
   },
   "reuixiy-hugo-theme-meme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/reuixiy/hugo-theme-meme&ssg=hugo"
@@ -533,11 +1388,50 @@
   "ribice-kiss-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ribice/kiss&ssg=hugo"
   },
+  "riggraz-no-style-please-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/riggraz/no-style-please&ssg=jekyll"
+  },
+  "rlue-jekyll-solana-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/rlue/jekyll-solana&ssg=jekyll"
+  },
+  "rmsubekti-emping-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/rmsubekti/emping&ssg=jekyll"
+  },
+  "rmsubekti-nangka-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/rmsubekti/nangka&ssg=jekyll"
+  },
+  "rohanchandra-type-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/rohanchandra/type-theme&ssg=jekyll"
+  },
   "rohitguptab-rg-portfolio-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/rohitguptab/rg-portfolio"
   },
+  "ronv-colorie-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ronv/colorie&ssg=jekyll"
+  },
+  "ronv-gray-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ronv/gray&ssg=jekyll"
+  },
   "ronv-lines-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ronv/lines&ssg=hugo"
+  },
+  "ronv-sidey-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ronv/sidey&ssg=jekyll"
+  },
+  "ronv-ultra-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ronv/ultra&ssg=jekyll"
+  },
+  "rosario-kasper-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/rosario/kasper&ssg=jekyll"
+  },
+  "rowanoulton-galileo-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/rowanoulton/galileo-theme&ssg=jekyll"
+  },
+  "rowanoulton-travelog-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/rowanoulton/travelog-theme&ssg=jekyll"
+  },
+  "rundocs-jekyll-rtd-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/rundocs/jekyll-rtd-theme&ssg=jekyll"
   },
   "runningstream-hugograyscale-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/runningstream/hugograyscale/&ssg=hugo"
@@ -551,8 +1445,17 @@
   "salcan-beyondnothing-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/salcan/BeyondNothing&ssg=hugo"
   },
+  "salgnt-travelogue-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/SalGnt/Travelogue&ssg=jekyll"
+  },
   "salsysd-hugo-assembly-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/salsysd/hugo-assembly&ssg=hugo"
+  },
+  "samanyougarg-hanuman-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/samanyougarg/hanuman&ssg=jekyll"
+  },
+  "samesies-barber-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/samesies/barber-jekyll&ssg=jekyll"
   },
   "schmanat-hugo-highlights-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/schmanat/hugo-highlights-theme&ssg=hugo"
@@ -560,11 +1463,23 @@
   "schollz-onetwothree-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/schollz/onetwothree&ssg=hugo"
   },
+  "scotte-jekyll-clean-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/scotte/jekyll-clean&ssg=jekyll"
+  },
+  "scottmathson-simpol-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/scottmathson/simpol-theme&ssg=jekyll"
+  },
   "seanlane-gochowdown-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/seanlane/gochowdown&ssg=hugo"
   },
   "serg-yourfolio-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/serg/yourfolio&ssg=hugo"
+  },
+  "sergiokopplin-indigo-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sergiokopplin/indigo&ssg=jekyll"
+  },
+  "sergiokopplin-violet-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sergiokopplin/violet&ssg=jekyll"
   },
   "sethmacleod-aerial-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sethmacleod/aerial&ssg=hugo"
@@ -572,20 +1487,92 @@
   "sethmacleod-prologue-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sethmacleod/prologue&ssg=hugo"
   },
+  "sfreytag-friday-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sfreytag/friday-theme&ssg=jekyll"
+  },
   "shaform-hugo-theme-den-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/shaform/hugo-theme-den&ssg=hugo"
   },
   "shankar-hugo-grapes-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/shankar/hugo-grapes&ssg=hugo"
   },
+  "sharadcodes-geekyll-starter-blog-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sharadcodes/geekyll-starter-blog&ssg=jekyll"
+  },
+  "sharadcodes-jekyll-theme-dark-reader-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sharadcodes/jekyll-theme-dark-reader&ssg=jekyll"
+  },
+  "sharadcodes-jekyll-theme-milo-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sharadcodes/jekyll-theme-milo&ssg=jekyll"
+  },
+  "sharadcodes-jekyll-theme-retro-yellow-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sharadcodes/jekyll-theme-retro-yellow&ssg=jekyll"
+  },
+  "sharu725-ashwath-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sharu725/ashwath&ssg=jekyll"
+  },
+  "sharu725-bheema-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sharu725/bheema&ssg=jekyll"
+  },
+  "sharu725-cards-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sharu725/cards&ssg=jekyll"
+  },
+  "sharu725-gatok-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sharu725/gatok&ssg=jekyll"
+  },
+  "sharu725-hagura-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sharu725/hagura&ssg=jekyll"
+  },
+  "sharu725-karna-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sharu725/karna&ssg=jekyll"
+  },
+  "sharu725-online-cv-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sharu725/online-cv&ssg=jekyll"
+  },
+  "sharu725-slides-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sharu725/slides&ssg=jekyll"
+  },
+  "sharu725-thunder-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sharu725/thunder&ssg=jekyll"
+  },
+  "sharu725-vyaasa-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sharu725/vyaasa&ssg=jekyll"
+  },
+  "shawnteoh-matjek-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ShawnTeoh/matjek&ssg=jekyll"
+  },
   "shenoybr-hugo-goa-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/shenoybr/hugo-goa&ssg=hugo"
+  },
+  "siawyoung-immaculate-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/siawyoung/immaculate&ssg=jekyll"
   },
   "siegerts-hugo-theme-basic-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/siegerts/hugo-theme-basic&ssg=hugo"
   },
+  "simpleyyt-jekyll-jacman-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Simpleyyt/jekyll-jacman&ssg=jekyll"
+  },
+  "simpleyyt-jekyll-simpleyyt-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Simpleyyt/jekyll-simpleyyt&ssg=jekyll"
+  },
+  "simpleyyt-jekyll-theme-next-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Simpleyyt/jekyll-theme-next&ssg=jekyll"
+  },
+  "smallmuou-jekyll-pithy-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/smallmuou/Jekyll-Pithy&ssg=jekyll"
+  },
   "snipcart-stackbit-theme-planty-master": {
     "createUrl": "https://app.stackbit.com/create?theme=planty"
+  },
+  "songroger-murmur-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/songroger/murmur&ssg=jekyll"
+  },
+  "spaceg-glas-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/SpaceG/glas&ssg=jekyll"
+  },
+  "sparanoid-almace-scaffolding-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sparanoid/almace-scaffolding&ssg=jekyll"
   },
   "spech66-bootstrap-bp-hugo-startpage-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/spech66/bootstrap-bp-hugo-startpage&ssg=hugo"
@@ -598,6 +1585,12 @@
   },
   "spookey-slick-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/spookey/slick&ssg=hugo"
+  },
+  "ssokurenko-jekyll-smart-material-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ssokurenko/jekyll-smart-material&ssg=jekyll"
+  },
+  "st4ple-solid-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/st4ple/solid-jekyll&ssg=jekyll"
   },
   "stackbit-themes-azimuth-gatsby-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-gatsby"
@@ -704,8 +1697,35 @@
   "stevelane-hugo-icon-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/SteveLane/hugo-icon&ssg=hugo"
   },
+  "stijnvc-holo-alfa-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stijnvc/holo-alfa&ssg=jekyll"
+  },
+  "streetturtle-jekyll-clean-dark-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/streetturtle/jekyll-clean-dark&ssg=jekyll"
+  },
   "sudorook-capsule-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sudorook/capsule&ssg=hugo"
+  },
+  "sujaykundu777-devlopr-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sujaykundu777/devlopr-jekyll&ssg=jekyll"
+  },
+  "sumeetmathpati-tiny-blog-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sumeetmathpati/tiny-blog&ssg=jekyll"
+  },
+  "sunbliss-photorama-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sunbliss/photorama&ssg=jekyll"
+  },
+  "svmiller-steve-ngvb-jekyll-template-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/svmiller/steve-ngvb-jekyll-template&ssg=jekyll"
+  },
+  "swanson-lagom-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/swanson/lagom&ssg=jekyll"
+  },
+  "swcool-landing-page-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/swcool/landing-page-theme&ssg=jekyll"
+  },
+  "sylhare-type-on-strap-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Sylhare/Type-on-Strap&ssg=jekyll"
   },
   "syui-hugo-theme-air-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/syui/hugo-theme-air&ssg=hugo"
@@ -713,8 +1733,26 @@
   "syui-hugo-theme-wave-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/syui/hugo-theme-wave&ssg=hugo"
   },
+  "szhielelp-jekylltheme-projectgaia-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/szhielelp/JekyllTheme-ProjectGaia&ssg=jekyll"
+  },
+  "sziv2p-jekyll-theme-scaffold-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sziv2p/jekyll-theme-scaffold&ssg=jekyll"
+  },
+  "t413-singlepaged-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/t413/SinglePaged&ssg=jekyll"
+  },
   "taikii-whiteplain-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/taikii/whiteplain&ssg=hugo"
+  },
+  "taylantatli-halve-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/TaylanTatli/Halve&ssg=jekyll"
+  },
+  "taylantatli-moon-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/TaylanTatli/Moon&ssg=jekyll"
+  },
+  "taylantatli-ramme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/TaylanTatli/Ramme&ssg=jekyll"
   },
   "tazeg-hugo-blog-jeffprod-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Tazeg/hugo-blog-jeffprod&ssg=hugo"
@@ -722,11 +1760,26 @@
   "tblyler-light-hugo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/tblyler/light-hugo&ssg=hugo"
   },
+  "tcbutler320-jekyll-theme-dumbarton-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/tcbutler320/Jekyll-Theme-Dumbarton&ssg=jekyll"
+  },
+  "the-development-flex-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/the-development/flex&ssg=jekyll"
+  },
   "the2ne-hugo-frais-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/the2ne/hugo-frais&ssg=hugo"
   },
   "thebakerdev-gatsby-starter-zenii-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/thebakerdev/gatsby-starter-zenii"
+  },
+  "thedevslot-whatatheme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/thedevslot/WhatATheme/&ssg=jekyll"
+  },
+  "thelehhman-plainwhite-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/thelehhman/plainwhite-jekyll&ssg=jekyll"
+  },
+  "thelehhman-texture-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/thelehhman/texture&ssg=jekyll"
   },
   "themefisher-airspace-hugo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/airspace-hugo&ssg=hugo"
@@ -758,17 +1811,41 @@
   "themefisher-vex-hugo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/vex-hugo&ssg=hugo"
   },
+  "thephuse-strange_case-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/thephuse/strange_case&ssg=jekyll"
+  },
+  "thiagorossener-jekflix-template-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/thiagorossener/jekflix-template&ssg=jekyll"
+  },
   "thingsym-hugo-theme-techdoc-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/thingsym/hugo-theme-techdoc&ssg=hugo"
+  },
+  "thinker3197-ink-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/thinker3197/ink&ssg=jekyll"
   },
   "thomasheller-crab-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/thomasheller/crab&ssg=hugo"
   },
+  "thomasvaeth-trophy-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/thomasvaeth/trophy-jekyll&ssg=jekyll"
+  },
+  "tigefa4u-jekmdl-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/tigefa4u/jekmdl&ssg=jekyll"
+  },
+  "tnguyen-blueface-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/tnguyen/blueface&ssg=jekyll"
+  },
   "tnwhitwell-hugo-startpage-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/tnwhitwell/hugo-startpage-theme&ssg=hugo"
   },
+  "tocttou-hacker-blog-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/tocttou/hacker-blog&ssg=jekyll"
+  },
   "tomanistor-osprey-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/tomanistor/osprey&ssg=hugo"
+  },
+  "tomjohnson1492-documentation-theme-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/tomjohnson1492/documentation-theme-jekyll&ssg=jekyll"
   },
   "tosi29-inkblotty-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/tosi29/inkblotty&ssg=hugo"
@@ -776,8 +1853,20 @@
   "track3-hermit-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Track3/hermit&ssg=hugo"
   },
+  "ttskch-jekyll-ttskch-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ttskch/jekyll-ttskch-theme&ssg=jekyll"
+  },
   "tummychow-lanyon-hugo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/tummychow/lanyon-hugo&ssg=hugo"
+  },
+  "tybenz-exemplar-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/tybenz/exemplar&ssg=jekyll"
+  },
+  "tybenz-otter-pop-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/tybenz/otter-pop/&ssg=jekyll"
+  },
+  "tzuehlke-jekyll-uno-timeline-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/tzuehlke/jekyll-uno-timeline&ssg=jekyll"
   },
   "uicardiodev-hugo-appyness-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/uicardiodev/hugo-appyness&ssg=hugo"
@@ -791,17 +1880,32 @@
   "uicardiodev-hugo-uilite-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/uicardiodev/hugo-uilite&ssg=hugo"
   },
+  "unifreak-unifreak.github.io-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/UniFreak/unifreak.github.io&ssg=jekyll"
+  },
+  "upagge-ubloggerr-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/uPagge/uBloggerr&ssg=hugo"
+  },
   "vaga-hugo-theme-m10c-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/vaga/hugo-theme-m10c&ssg=hugo"
   },
   "vantagedesign-ace-documentation-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/vantagedesign/ace-documentation&ssg=hugo"
   },
+  "vfalanis-taken-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/vfalanis/taken&ssg=jekyll"
+  },
   "victoriadrake-hugo-theme-introduction-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/victoriadrake/hugo-theme-introduction&ssg=hugo"
   },
   "victoriadrake-hugo-theme-sam-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/victoriadrake/hugo-theme-sam&ssg=hugo"
+  },
+  "victorvoid-space-jekyll-template-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/victorvoid/space-jekyll-template/&ssg=jekyll"
+  },
+  "vietanhdev-benice17-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/vietanhdev/beNice17&ssg=jekyll"
   },
   "vimux-binario-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Vimux/Binario&ssg=hugo"
@@ -812,8 +1916,29 @@
   "vimux-mainroad-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Vimux/Mainroad&ssg=hugo"
   },
+  "vincentchan-mickey-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/vincentchan/mickey&ssg=jekyll"
+  },
+  "vinitkumar-white-paper-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/vinitkumar/white-paper&ssg=jekyll"
+  },
   "vividvilla-ezhil-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/vividvilla/ezhil&ssg=hugo"
+  },
+  "volny-creative-theme-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/volny/creative-theme-jekyll&ssg=jekyll"
+  },
+  "volny-stylish-portfolio-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/volny/stylish-portfolio-jekyll&ssg=jekyll"
+  },
+  "vormwald-joon-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/vormwald/joon&ssg=jekyll"
+  },
+  "vszhub-not-pure-poole-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/vszhub/not-pure-poole&ssg=jekyll"
+  },
+  "vvalchev-creative-theme-jekyll-new-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/vvalchev/creative-theme-jekyll-new&ssg=jekyll"
   },
   "vvelox-hugo-dusky-neon-potato-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/VVelox/hugo-dusky-neon-potato&ssg=hugo"
@@ -827,14 +1952,47 @@
   "wd-hugo-fabric-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/wd/hugo-fabric&ssg=hugo"
   },
+  "wemake-services-jekyll-theme-hackcss-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/wemake-services/jekyll-theme-hackcss&ssg=jekyll"
+  },
+  "wild-flame-jekyll-simple-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/wild-flame/jekyll-simple&ssg=jekyll"
+  },
   "wildhaber-gohugo-amp-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/wildhaber/gohugo-amp&ssg=hugo"
   },
   "wileybaba-hugo-theme-robotico-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/wileybaba/hugo-theme-robotico&ssg=hugo"
   },
+  "williamcanin-typing-jekyll-template-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/williamcanin/typing-jekyll-template&ssg=jekyll"
+  },
+  "willianjusten-cards-jekyll-template-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/willianjusten/cards-jekyll-template&ssg=jekyll"
+  },
+  "willianjusten-will-jekyll-template-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/willianjusten/will-jekyll-template&ssg=jekyll"
+  },
+  "wiredcraft-carte-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Wiredcraft/carte&ssg=jekyll"
+  },
   "wkocjan-gatsby-theme-intro-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/wkocjan/gatsby-theme-intro"
+  },
+  "wowthemesnet-affiliates-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/wowthemesnet/affiliates-jekyll-theme&ssg=jekyll"
+  },
+  "wowthemesnet-jekyll-theme-memoirs-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/wowthemesnet/jekyll-theme-memoirs&ssg=jekyll"
+  },
+  "wowthemesnet-mediumish-theme-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/wowthemesnet/mediumish-theme-jekyll&ssg=jekyll"
+  },
+  "wowthemesnet-mundana-theme-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/wowthemesnet/mundana-theme-jekyll&ssg=jekyll"
+  },
+  "wu-kan-wu-kan.github.io-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/wu-kan/wu-kan.github.io&ssg=jekyll"
   },
   "xaprb-story-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/xaprb/story&ssg=hugo"
@@ -845,8 +2003,14 @@
   "xianmin-hugo-theme-jane-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/xianmin/hugo-theme-jane&ssg=hugo"
   },
+  "xukimseven-hardcandy-jekyll-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/xukimseven/HardCandy-Jekyll&ssg=jekyll"
+  },
   "xzya-hugo-material-blog-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Xzya/hugo-material-blog&ssg=hugo"
+  },
+  "y7kim-agency-jekyll-theme-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/y7kim/agency-jekyll-theme&ssg=jekyll"
   },
   "yihui-hugo-xmag-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/yihui/hugo-xmag&ssg=hugo"
@@ -854,8 +2018,26 @@
   "yihui-hugo-xmin-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/yihui/hugo-xmin&ssg=hugo"
   },
+  "yizeng-jekyll-theme-simple-texture-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/yizeng/jekyll-theme-simple-texture&ssg=jekyll"
+  },
+  "yonojoy-yax-coming-soon-jekyll-template-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/yonojoy/YAX-Coming-soon-Jekyll-Template&ssg=jekyll"
+  },
+  "yous-whiteglass-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/yous/whiteglass&ssg=jekyll"
+  },
+  "youssefraafatnasry-portfolyou-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/YoussefRaafatNasry/portfolYOU&ssg=jekyll"
+  },
+  "yulijia-freshman21-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/yulijia/freshman21&ssg=jekyll"
+  },
   "yursan9-manis-hugo-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/yursan9/manis-hugo-theme&ssg=hugo"
+  },
+  "yvesespinosa-jekyll-html5up-fractal-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/yvesespinosa/jekyll-html5up-fractal&ssg=jekyll"
   },
   "zerostaticthemes-hugo-serif-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/zerostaticthemes/hugo-serif-theme"
@@ -883,6 +2065,9 @@
   },
   "zwbetz-gh-vanilla-bootstrap-hugo-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme&ssg=hugo"
+  },
+  "zxixia-jekyll-xixia-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/zxixia/jekyll-xixia&ssg=jekyll"
   },
   "zzossig-hugo-theme-zdoc-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/zzossig/hugo-theme-zdoc&ssg=hugo"
