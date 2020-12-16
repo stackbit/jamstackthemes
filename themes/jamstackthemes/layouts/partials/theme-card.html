@@ -58,16 +58,31 @@
 
 
     <div class="action-buttons action-buttons-card">
-      <a class="action-button action-button-github" data-action="github" data-context="card" data-name="{{ .theme.Title }}" href="{{ .theme.Params.github }}" target="_blank" rel="noopener nofollow">Github</a>
+      <a class="action-button action-button-github"
+         data-action="github"
+         data-context="card"
+         data-name="{{ .theme.Title }}"
+         href="{{ .theme.Params.github }}"
+         target="_blank" rel="noopener nofollow">Github</a>
       {{ if .site.Params.iframe_demo }}
-        <a class="action-button action-button-demo" data-action="demo" data-context="card" data-name="{{ .theme.Title }}" href="/demo{{ .theme.RelPermalink }}">Demo</a>
+        <a class="action-button action-button-demo"
+           data-action="demo"
+           data-context="card"
+           data-name="{{ .theme.Title }}"
+           href="/demo{{ .theme.RelPermalink }}"
+           target="_blank" rel="noopener nofollow">Live Demo</a>
       {{ else }}
-        <a class="action-button action-button-demo" data-action="demo" data-context="card" data-name="{{ .theme.Title }}" href="{{ .theme.Params.demo }}" target="_blank" rel="noopener nofollow">Demo</a>
+        <a class="action-button action-button-demo"
+           data-action="demo"
+           data-context="card"
+           data-name="{{ .theme.Title }}"
+           href="{{ .theme.Params.demo }}"
+           target="_blank" rel="noopener nofollow">Live Demo</a>
       {{ end }}
       {{ if .site.Params.stackbit_button }}
       {{ if .stackbit }}
       {{ if .stackbit.createUrl }}
-      <a class="action-button action-button-stackbit" data-action="stackbit" data-context="card" data-name="{{ .theme.Title }}" href="{{ .stackbit.createUrl }}&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=card" target="_blank" rel="noopener nofollow">Create Site</a>
+      <a class="action-button action-button-fill action-button-stackbit" data-action="stackbit" data-context="card" data-name="{{ .theme.Title }}" href="{{ .stackbit.createUrl }}&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=card" target="_blank" rel="noopener nofollow">Create Site</a>
       {{ end }}
       {{ end }}
       {{ end }}

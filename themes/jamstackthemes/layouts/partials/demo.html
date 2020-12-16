@@ -5,7 +5,50 @@
     </div>
 
     <div class="demo-heading">
-      <h1 class="demo-title">{{ .theme.Title }}</h1>
+
+    </div>
+
+    <div class="theme-detail-tags">
+      {{ if .theme.Params.ssg }}
+      {{- range .theme.Params.ssg }}
+      {{- with .site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
+      {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.theme.Params.icon "link" .Page.Permalink) }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+
+      {{ if .theme.Params.cms }}
+      {{- range .Params.cms }}
+      {{- with $.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
+      {{ if eq .Page.Title "No CMS" }}
+      {{ else }}
+      {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+
+      {{ if .Params.css }}
+      {{- range .Params.css }}
+      {{- with $.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
+      {{ if eq .Page.Title "No css" }}
+      {{ else }}
+      {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+
+      {{ if .Params.archetype }}
+      {{- range .Params.archetype }}
+      {{- with $.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
+      {{ if eq .Page.Title "No archetype" }}
+      {{ else }}
+      {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
     </div>
 
     <div class="action-buttons">

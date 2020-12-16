@@ -42,14 +42,13 @@
     margin: 0;
     margin-left: 10px;
     font-weight: 600;
+    margin-right: 10px;
     a {
       color: $primary;
     }
   }
   .demo-heading {
     display: flex;
-    align-content: center;
-    align-items: center;
   }
   .demo-info {
     font-size: 14px;
