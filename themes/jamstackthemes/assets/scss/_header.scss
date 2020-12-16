@@ -4,18 +4,18 @@
   position: fixed;
   width: 100%;
   z-index: 10;
-  @include media-breakpoint-up(sm) {
-    padding-left: $layout-padding;
-    padding-right: $layout-padding;
-  }
-  @include media-breakpoint-up(md) {
-    padding-left: $layout-padding * 2;
-    padding-right: $layout-padding * 2;
-  }
-  @include media-breakpoint-up(lg) {
-    padding-left: $layout-padding * 4;
-    padding-right: $layout-padding * 4;
-  }
+  //@include media-breakpoint-up(sm) {
+  //  padding-left: $layout-padding;
+  //  padding-right: $layout-padding;
+  //}
+  //@include media-breakpoint-up(md) {
+  //  padding-left: $layout-padding * 2;
+  //  padding-right: $layout-padding * 2;
+  //}
+  //@include media-breakpoint-up(lg) {
+  //  padding-left: $layout-padding * 4;
+  //  padding-right: $layout-padding * 4;
+  //}
   .container {
     height: 60px;
     display: flex;

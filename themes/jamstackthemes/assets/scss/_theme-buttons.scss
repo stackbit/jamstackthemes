@@ -5,10 +5,12 @@
   .action-buttons-group {
     &:last-of-type {
       margin-bottom: 0;
+
     }
   }
   .action-button {
     @extend .button;
+    padding: 5px 8px;
     text-align: center;
     flex: 1 0 auto;
     font-size: 14px;
@@ -19,6 +21,9 @@
     &.action-button-link {
       border: none;
       text-decoration: underline;
+    }
+    &:last-of-type {
+      margin-right: 0;
     }
   }
 }

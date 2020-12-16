@@ -43,10 +43,9 @@
   <div class="theme-body">
 
     <h2><a href="{{ .theme.Permalink }}" class="theme-title">{{ .theme.Params.title }}</a></h2>
+
     {{ if .repo }}
-      <div class="theme-stars">{{ .repo.stars }}</div>
-      {{ partial "labels/label-author.html" (dict "author" .theme.Params.author) }}
-      {{ partial "labels/label-last-commit.html" (dict "last_commit" .repo.last_commit ) }}
+    {{ partial "github-metrics.html" (dict "last_commit" .repo.last_commit "stars" .repo.stars )}}
     {{ end }}
 
     <div class="theme-description">
@@ -57,17 +56,18 @@
       {{ end }}
     </div>
 
+
     <div class="action-buttons action-buttons-card">
       <a class="action-button action-button-github" data-action="github" data-context="card" data-name="{{ .theme.Title }}" href="{{ .theme.Params.github }}" target="_blank" rel="noopener nofollow">Github</a>
       {{ if .site.Params.iframe_demo }}
-        <a class="action-button action-button-demo" data-action="demo" data-context="card" data-name="{{ .theme.Title }}" href="/demo{{ .theme.RelPermalink }}">Live Demo</a>
+        <a class="action-button action-button-demo" data-action="demo" data-context="card" data-name="{{ .theme.Title }}" href="/demo{{ .theme.RelPermalink }}">Demo</a>
       {{ else }}
-        <a class="action-button action-button-demo" data-action="demo" data-context="card" data-name="{{ .theme.Title }}" href="{{ .theme.Params.demo }}" target="_blank" rel="noopener nofollow">Live Demo</a>
+        <a class="action-button action-button-demo" data-action="demo" data-context="card" data-name="{{ .theme.Title }}" href="{{ .theme.Params.demo }}" target="_blank" rel="noopener nofollow">Demo</a>
       {{ end }}
       {{ if .site.Params.stackbit_button }}
       {{ if .stackbit }}
       {{ if .stackbit.createUrl }}
-      <a class="action-button action-button-fill action-button-stackbit" data-action="stackbit" data-context="card" data-name="{{ .theme.Title }}" href="{{ .stackbit.createUrl }}&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=card" target="_blank" rel="noopener nofollow">Create Site</a>
+      <a class="action-button action-button-stackbit" data-action="stackbit" data-context="card" data-name="{{ .theme.Title }}" href="{{ .stackbit.createUrl }}&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=card" target="_blank" rel="noopener nofollow">Create Site</a>
       {{ end }}
       {{ end }}
       {{ end }}

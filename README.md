@@ -1,10 +1,10 @@
 # Jamstack Themes
 
-A list of Themes and Starters for JAMstack Sites. https://jamstackthemes.dev
+A list of themes and starters for the Jamstack and static site generators. https://jamstackthemes.dev
 
 ## Submit A Theme
 
-Anyone can submit an open-source theme to the gallery using a PR. 
+Anyone can submit an open-source theme by doing a pull request.
 
 1. Fork this repo and create a new markdown `.md` file in `content/theme` folder. For example `hugo-air-.md`
 2. Edit the markdown file with the required front-matter as shown below.
@@ -15,7 +15,8 @@ The markdown file should contain the following front-matter.
 
 * Please make sure to update the `date` and that at least 1 `ssg` and `cms` is specified. 
 * If your theme uses markdown (no CMS) the cms should be `No CMS
-* Please remove the comments from the front-matter
+* The demo url must use https
+* Please **remove the comments** from the front-matter
 
 ```yaml
 ---

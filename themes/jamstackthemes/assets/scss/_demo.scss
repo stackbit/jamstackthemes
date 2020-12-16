@@ -1,55 +1,3 @@
-
-/* NAVBAR PREVIEW */
-.navbar-preview {
-  border-bottom: 3px solid #7952B3;
-  border-top: 1px solid #E5E9EF;
-  min-height: 60px;
-  background: #ffffff;
-  font-size: 12px;
-  padding-left: 0;
-  padding-right: 0; }
-.navbar-preview > .container, .navbar-preview > .container-fluid {
-  position: relative; }
-
-@media (min-width: 768px) {
-  .nav-preview {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); } }
-
-.nav-preview .nav-link {
-  color: #ACB5BA;
-  padding: .35rem .4rem; }
-@media (min-width: 768px) {
-  .nav-preview .nav-link {
-    min-height: 56px; } }
-.nav-preview .nav-link:before {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0px 5px 8px 5px;
-  border-color: transparent transparent #7952B3 transparent;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  bottom: -3px; }
-.nav-preview .nav-link.active {
-  color: #7952B3; }
-.nav-preview .nav-link.active:before {
-  content: ''; }
-
-.nav-preview__icon {
-  font-size: 30px; }
-
-.nav-preview__icon--sm {
-  -webkit-transform: scale(0.8, 0.8);
-  transform: scale(0.8, 0.8); }
-
-
-
 .iframe-preview {
   position: absolute;
   border: none;
@@ -88,15 +36,23 @@
     align-items: center;
     justify-content: space-between;
   }
-  h1.demo-theme-title {
-    font-size: 18px;
+  h1.demo-title {
+    font-size: 20px;
     font-family: $font_family_heading;
     margin: 0;
     margin-left: 10px;
-    font-weight: 400;
+    font-weight: 600;
     a {
       color: $primary;
     }
+  }
+  .demo-heading {
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+  .demo-info {
+    font-size: 14px;
   }
   .demo-buttons {
     display: flex;

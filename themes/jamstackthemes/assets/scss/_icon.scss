@@ -2,11 +2,12 @@
   vertical-align: middle;
   display: inline-block;
   position: relative;
-  img {
+  img, svg {
     display: inline-block;
     vertical-align: bottom;
     width: 20px;
     height: 20px;
+    //filter: grayscale(100%) contrast(70%) brightness(80%);
   }
 }
 
