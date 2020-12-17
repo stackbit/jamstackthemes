@@ -11,27 +11,22 @@ Anyone can submit an open-source theme by doing a pull request.
 3. Submit a pull-request with the title **Theme Submission: theme-name** (replace theme-name with your themes name)
 4. You **do not** need to generate the Github stars or theme screenshots. Please just submit the markdown file in the PR. 
 
-The markdown file should contain the following front-matter. 
-
-* Please make sure to update the `date` and that at least 1 `ssg` and `cms` is specified. 
-* If your theme uses markdown (no CMS) the cms should be `No CMS
-* The demo url must use https
-* Please **remove the comments** from the front-matter
+The markdown file should contain the following front-matter. Before submitting your theme, please **remove the comments** from the front-matter.
 
 ```yaml
 ---
 title: "My Theme Name"
 github: https://github.com/username/repo
-demo: https://www.demo.com # Please make sure this links to the theme demo and not your personal/business site
+demo: https://www.demo.com # Please make sure this links to a theme demo and not your personal/business site. The demo url must use https
 author: authorname
 date: 2019-08-20 # Enter the date you submitted the theme YYYY-MM-DD
-github_branch: master # Specify the repos default branch
+github_branch: master # Enter the repos default branch
 ssg:
-  - Gridsome
+  - Gridsome # at least 1 ssg is required
 cms:
-  - No CMS
+  - No CMS # at least 1 cms is required. If your theme uses markdown (no CMS) the cms should be "No CMS"
 css:
-  - Bootstrap
+  - Bootstrap # css is optional
 archetype:
   - Blog
   - Portfolio
