@@ -2,7 +2,7 @@
 title: DIY Jekyll
 github: 'https://github.com/stackbit-themes/diy-jekyll'
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/diy/?demo=jstdiyjekyll'
+demo: 'https://themes.stackbit.com/demos/diy?themeBarHidden=true'
 author: Stackbit
 ssg:
   - Jekyll

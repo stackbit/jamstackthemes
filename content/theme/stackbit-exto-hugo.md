@@ -2,7 +2,7 @@
 title: Exto Hugo
 github: 'https://github.com/stackbit-themes/exto-hugo'
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/exto/?demo=jstextohugo'
+demo: 'https://themes.stackbit.com/demos/exto?themeBarHidden=true'
 author: Stackbit
 ssg:
   - Hugo

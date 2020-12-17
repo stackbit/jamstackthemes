@@ -2,7 +2,7 @@
 title: Azimuth Nextjs
 github: 'https://github.com/stackbit-themes/azimuth-nextjs'
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/azimuth/?demo=jstazimuthnextjs'
+demo: 'https://themes.stackbit.com/demos/azimuth?themeBarHidden=true'
 author: Stackbit
 ssg:
   - Next

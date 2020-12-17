@@ -2,7 +2,7 @@
 title: DIY
 github: 'https://github.com/stackbithq/stackbit-theme-diy'
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/diy/?demo=jstdiyunibit'
+demo: 'https://themes.stackbit.com/demos/diy?themeBarHidden=true'
 author: Stackbit
 ssg:
   - Hugo

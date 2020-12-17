@@ -2,7 +2,7 @@
 title: Fresh
 github: 'https://github.com/stackbithq/stackbit-theme-fresh'
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/fresh?demo=jstfreshunibit'
+demo: 'https://themes.stackbit.com/demos/fresh?themeBarHidden=true'
 author: Stackbit
 ssg:
   - Hugo

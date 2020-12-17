@@ -2,7 +2,7 @@
 title: Azimuth Jekyll
 github: 'https://github.com/stackbit-themes/azimuth-jekyll'
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/azimuth/?demo=jstazimuthjekyll'
+demo: 'https://themes.stackbit.com/demos/azimuth/?themeBarHidden=true'
 author: Stackbit
 ssg:
   - Jekyll

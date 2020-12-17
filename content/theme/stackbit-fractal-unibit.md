@@ -2,7 +2,7 @@
 title: Fractal
 github: 'https://github.com/stackbithq/stackbit-theme-fractal'
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/fractal/blue?demo=jstfractalunibit'
+demo: 'https://themes.stackbit.com/demos/fractal/blue?themeBarHidden=true'
 author: Stackbit
 ssg:
   - Hugo

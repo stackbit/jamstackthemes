@@ -1,7 +1,7 @@
 ---
 title: Starter Jekyll
 github: 'https://github.com/stackbit-themes/stackbit-starter-jekyll'
-demo: 'https://themes.stackbit.com/demos/starter/features/?demo=jststarterjekyll'
+demo: 'https://themes.stackbit.com/demos/starter/features?themeBarHidden=true'
 author: Stackbit
 ssg:
   - Jekyll

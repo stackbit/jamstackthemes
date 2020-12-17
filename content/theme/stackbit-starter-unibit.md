@@ -2,7 +2,7 @@
 title: Starter Stackbit
 github: 'https://github.com/stackbithq/stackbit-theme-starter'
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/starter?demo=jststarterunibit'
+demo: 'https://themes.stackbit.com/demos/starter?themeBarHidden=true'
 author: Stackbit
 ssg:
   - Hugo

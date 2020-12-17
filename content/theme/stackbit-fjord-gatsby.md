@@ -2,7 +2,7 @@
 title: Fjord Gatsby
 github: 'https://github.com/stackbit-themes/fjord-gatsby'
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/fjord/?demo=jstfjordgatsby'
+demo: 'https://themes.stackbit.com/demos/fjord?themeBarHidden=true'
 author: Stackbit
 ssg:
   - Gatsby

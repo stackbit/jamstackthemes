@@ -1,7 +1,7 @@
 ---
 title: Stackbit Starter Gatsby
 github: 'https://github.com/stackbit-themes/stackbit-starter-gatsby'
-demo: 'https://themes.stackbit.com/demos/starter/features/?demo=jststartergatsby'
+demo: 'https://themes.stackbit.com/demos/starter/features?themeBarHidden=true'
 author: Stackbit
 ssg:
   - Gatsby

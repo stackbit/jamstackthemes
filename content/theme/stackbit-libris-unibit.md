@@ -1,7 +1,7 @@
 ---
 title: Libris
 github: 'https://github.com/stackbithq/stackbit-theme-libris'
-demo: 'https://themes.stackbit.com/demos/libris/blue?demo=jstlibrisunibit'
+demo: 'https://themes.stackbit.com/demos/libris/blue?themeBarHidden=true'
 author: Stackbit
 ssg:
   - Hugo

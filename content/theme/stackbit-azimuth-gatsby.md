@@ -2,7 +2,7 @@
 title: Azimuth Gatsby
 github: 'https://github.com/stackbit-themes/azimuth-gatsby'
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/azimuth/?demo=jstazimuthgatsby'
+demo: 'https://themes.stackbit.com/demos/azimuth?themeBarHidden=true'
 author: Stackbit
 ssg:
   - Gatsby

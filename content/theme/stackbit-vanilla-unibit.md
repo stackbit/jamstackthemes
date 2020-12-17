@@ -2,7 +2,7 @@
 title: Vanilla
 github: 'https://github.com/stackbithq/stackbit-theme-vanilla'
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/vanilla?demo=jstvanillaunibit'
+demo: 'https://themes.stackbit.com/demos/vanilla?themeBarHidden=true'
 author: Stackbit
 ssg:
   - Hugo

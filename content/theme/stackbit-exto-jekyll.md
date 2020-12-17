@@ -2,7 +2,7 @@
 title: Exto Jekyll
 github: 'https://github.com/stackbit-themes/exto-jekyll'
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/exto/?demo=jstextojekyll'
+demo: 'https://themes.stackbit.com/demos/exto?themeBarHidden=true'
 author: Stackbit
 ssg:
   - Jekyll

@@ -2,7 +2,7 @@
 title: Ampersand
 github: 'https://github.com/stackbithq/stackbit-theme-ampersand'
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/ampersand?demo=jstampersandunibit'
+demo: 'https://themes.stackbit.com/demos/ampersand?themeBarHidden=true'
 author: Stackbit
 ssg:
   - Hugo
