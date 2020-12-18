@@ -1,5 +1,5 @@
 ---
-title: Gatsby developer blog
+title: Gatsby DevBlog
 github: 'https://github.com/RyanFitzgerald/devblog'
 author: RyanFitzgerald
 demo: 'https://gatsby-devblog.netlify.com/'
@@ -14,6 +14,7 @@ description: >-
   A fully customizable blog template designed for developers (or anyone else)
   wanting to get into blogging
 github_branch: master
+stackbit: 'https://app.stackbit.com/create?theme=https://github.com/RyanFitzgerald/devblog'
 stale: false
 ---
 
