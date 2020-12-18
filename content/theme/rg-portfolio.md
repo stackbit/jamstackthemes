@@ -22,6 +22,7 @@ description: >-
 stackbit: >-
   https://app.stackbit.com/create?theme=https://github.com/rohitguptab/rg-portfolio
 stale: false
+weight: 12
 ---
 
 # A simple starter kit for Gatsby

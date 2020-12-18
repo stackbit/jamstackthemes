@@ -16,6 +16,7 @@ description: >-
 github_branch: master
 stackbit: 'https://app.stackbit.com/create?theme=https://github.com/RyanFitzgerald/devblog'
 stale: false
+weight: 11
 ---
 
 A fully customizable blog template designed for developers (or anyone else) wanting to get into blogging. 

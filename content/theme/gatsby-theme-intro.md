@@ -22,6 +22,7 @@ description: Personal branding theme for developers
 stale: false
 stackbit: >-
   https://app.stackbit.com/create?theme=https://github.com/wkocjan/gatsby-theme-intro
+weight: 14
 ---
 
 # Intro - Personal branding theme for developers
