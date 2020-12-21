@@ -37,6 +37,11 @@ const generateStackbit = (fileName) => {
     stackbitData[themeKey] = {
       createUrl: `https://app.stackbit.com/create?theme=${frontmatter.github}&ssg=jekyll`
     };
+  } else if (frontmatter.ssg.includes("Gatsby")) {
+    // enable stackbit on all gatsby themes
+    stackbitData[themeKey] = {
+      createUrl: `https://app.stackbit.com/create?theme=${frontmatter.github}&ssg=gatsby`
+    };
   }
   return false;
 };
