@@ -14,6 +14,6 @@ description: >-
   :sparkles: Build a beautiful and simple website in literally minutes. Demo at
   https://deanattali.com/beautiful-jekyll
 stackbit: >-
-  https://app.stackbit.com/create?theme=https://github.com/daattali/beautiful-jekyll
+  https://app.stackbit.com/create?theme=https://github.com/daattali/beautiful-jekyll&ssg=jekyll
 stale: false
 ---

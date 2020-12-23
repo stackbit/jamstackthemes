@@ -18,7 +18,7 @@ archetype:
   - Single Page
 description: A One-page Gatsby starter built with Tailwindcss and Postcss.
 stackbit: >-
-  https://app.stackbit.com/create?theme=https://github.com/thebakerdev/gatsby-starter-zenii
+  https://app.stackbit.com/create?theme=https://github.com/thebakerdev/gatsby-starter-zenii&ssg=gatsby
 stale: false
 ---
 

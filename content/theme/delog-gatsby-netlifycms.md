@@ -16,7 +16,7 @@ description: >-
   website that has a lightning-fast navigation speed
 github_branch: master
 stackbit: >-
-  https://app.stackbit.com/create?theme=https://github.com/W3Layouts/gatsby-starter-delog
+  https://app.stackbit.com/create?theme=https://github.com/W3Layouts/gatsby-starter-delog&ssg=gatsby
 stale: false
 ---
 

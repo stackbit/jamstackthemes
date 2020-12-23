@@ -6,7 +6,7 @@ author: Stackrole
 date: 2020-05-27T00:00:00.000Z
 github_branch: master
 ssg:
-  - gatsby
+  - Gatsby
 cms:
   - NetlifyCMS
   - Stackbit
@@ -18,7 +18,7 @@ description: >-
   A starter to launch your blazing fast personal website and a blog, Built with
   Gatsby and Netlify CMS.
 stackbit: >-
-  https://app.stackbit.com/create?theme=https://github.com/stackrole/gatsby-starter-foundation
+  https://app.stackbit.com/create?theme=https://github.com/stackrole/gatsby-starter-foundation&ssg=gatsby&cms=netlifycms
 stale: false
 ---
 
