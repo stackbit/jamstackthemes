@@ -16,9 +16,10 @@ cms:
   - NetlifyCMS
   - Sanity
   - No CMS
-  - Stackbit
 css:
   - SCSS
+archetype:
+  - Blog
 date: 2019-05-23T18:26:16.000Z
 description: 'Fjord is a beautiful, minimal blog theme.'
 stackbit: 'https://app.stackbit.com/create?theme=fjord'

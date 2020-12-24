@@ -16,7 +16,8 @@ cms:
   - NetlifyCMS
   - Sanity
   - No CMS
-  - Stackbit
+css:
+  - Scss
 date: 2019-05-10T14:33:16.000Z
 description: Construct a multipage theme for Stackbit
 stale: false

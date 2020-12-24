@@ -15,7 +15,8 @@ cms:
   - NetlifyCMS
   - Sanity
   - No CMS
-  - Stackbit
+css:
+  - SCSS
 date: 2019-05-10T13:59:15.000Z
 github_branch: master
 description: Archetype a multi-layout theme with posts for Stackbit

@@ -9,7 +9,6 @@ ssg:
   - Gatsby
 cms:
   - NetlifyCMS
-  - Stackbit
 css:
   - scss
 archetype:

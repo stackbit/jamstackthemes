@@ -9,7 +9,6 @@ ssg:
   - Gatsby
 cms:
   - Contentful
-  - Stackbit
 css:
   - Tailwind
   - PostCSS

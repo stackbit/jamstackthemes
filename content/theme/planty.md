@@ -9,7 +9,14 @@ ssg:
   - Gatsby
   - Next
 cms:
-  - Stackbit
+  - Contentful
+  - DatoCMS
+  - Forestry
+  - NetlifyCMS
+  - Sanity
+  - No CMS
+css:
+  - SCSS
 services:
   - Snipcart
 date: 2020-03-18T00:00:00.000Z

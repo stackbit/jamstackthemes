@@ -6,7 +6,6 @@ author: Luiz F. A. de Prá
 ssg:
   - Hugo
 cms:
-  - Stackbit
   - No CMS
 css:
   - SCSS

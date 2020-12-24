@@ -9,7 +9,6 @@ ssg:
   - Gatsby
 cms:
   - No Cms
-  - Stackbit
 css:
   - Tailwind
 archetype:

@@ -7,7 +7,7 @@ author: Stackbit
 ssg:
   - Hugo
 cms:
-  - Stackbit
+  - No CMS
 css:
   - Scss
 date: 2020-07-23T00:00:00.000Z

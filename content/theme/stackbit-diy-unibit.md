@@ -16,7 +16,6 @@ cms:
   - NetlifyCMS
   - Sanity
   - No CMS
-  - Stackbit
 css:
   - SCSS
 date: 2020-11-10T00:00:00.000Z

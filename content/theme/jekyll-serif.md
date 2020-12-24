@@ -6,11 +6,12 @@ author: Robert Austin
 ssg:
   - Jekyll
 cms:
-  - Stackbit
+  - No Cms
 archetype:
   - Business
   - Multi Purpose
 css:
+  - SCSS
   - Bootstrap
 date: 2019-11-08T00:00:00.000Z
 github_branch: master

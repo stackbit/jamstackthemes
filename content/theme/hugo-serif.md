@@ -6,7 +6,7 @@ author: Robert Austin
 ssg:
   - Hugo
 cms:
-  - Stackbit
+  - No Cms
 date: 2020-10-12T00:00:00.000Z
 github_branch: master
 description: >-

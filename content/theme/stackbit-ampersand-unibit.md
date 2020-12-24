@@ -16,7 +16,6 @@ cms:
   - NetlifyCMS
   - Sanity
   - No CMS
-  - Stackbit
 css:
   - SCSS
 archetype:

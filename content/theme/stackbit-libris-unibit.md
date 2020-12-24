@@ -15,9 +15,10 @@ cms:
   - NetlifyCMS
   - Sanity
   - No CMS
-  - Stackbit
 css:
   - SCSS
+archetype:
+  - Documentation
 date: 2019-05-23T18:31:33.000Z
 github_branch: master
 description: Libris is a documentation theme

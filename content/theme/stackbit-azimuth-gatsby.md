@@ -7,7 +7,7 @@ author: Stackbit
 ssg:
   - Gatsby
 cms:
-  - Stackbit
+  - No Cms
 css:
   - Scss
 date: 2019-05-23T00:00:00.000Z
