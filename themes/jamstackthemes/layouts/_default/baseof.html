@@ -7,6 +7,7 @@
   <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel="canonical" href="{{ .Permalink }}" />
   {{ block "meta_tags" . }}
     <meta property="og:title" content="JAMstack Themes" />
     <meta property="og:type" content="website" />
@@ -34,6 +35,8 @@
   {{ with .OutputFormats.Get "rss" }}
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end }}
+
+
 
 </head>
 
