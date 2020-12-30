@@ -14,6 +14,8 @@ archetype:
   - Portfolio
 description: Small and minimal jekyll blog theme.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
 
 # Small theme for jekyll blog and portfolio.

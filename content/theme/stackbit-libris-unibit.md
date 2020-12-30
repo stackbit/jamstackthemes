@@ -25,4 +25,6 @@ github_branch: master
 description: Libris is a documentation theme
 stale: false
 weight: 6
+disabled: true
+disabled_reason: demo url not found
 ---

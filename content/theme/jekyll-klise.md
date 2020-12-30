@@ -14,7 +14,9 @@ css:
 archetype:
   - Blog
   - Personal
-description: "Klisé is a minimalist Jekyll theme for running a personal site or blog, light & dark mode support."
+description: >-
+  Klisé is a minimalist Jekyll theme for running a personal site or blog, light
+  & dark mode support.
 stale: false
 ---
 

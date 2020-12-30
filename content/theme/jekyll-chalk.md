@@ -12,5 +12,5 @@ github_branch: master
 description: >-
   Chalk is a high quality, completely customizable, performant and 100% free
   Jekyll blog theme.
-stale: false
+stale: true
 ---

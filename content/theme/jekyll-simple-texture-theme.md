@@ -10,5 +10,5 @@ cms:
 date: 2017-05-27T10:52:29.000Z
 github_branch: master
 description: A gem-based responsive simple texture styled Jekyll theme.
-stale: false
+stale: true
 ---
