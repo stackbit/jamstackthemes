@@ -78,11 +78,14 @@
     }
   }
   .theme-detail-tags {
+    margin-bottom: 20px;
     .icon {
-      margin-bottom: 10px;
-      @include media-breakpoint-up(md) {
-        margin-bottom: 10px;
-      }
+      width: 36px;
+      height: 36px;
+      margin: 0;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
     }
   }
   .theme-detail-bottom {

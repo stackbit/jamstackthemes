@@ -1,27 +1,36 @@
+{{ define "title" }}{{ .Title }} - Theme Info{{ end }}
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-default-single{{ end }}
 
-{{ define "meta_tags" }}
-<meta property="og:title" content="{{ .Title }}" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="{{ .Permalink | absURL }}" />
-<meta property="og:description" content="{{ .Params.description }}" />
-{{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
-{{ $repo := index .Site.Data.themes $repoName }}
-{{ if $repo }}
-{{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
-{{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
-{{ if (fileExists $staticPath) }}
-<meta property="og:image" content="{{ $filePath | absURL }}">
-{{ end }}
-{{ end }}
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@jamstackthemes" />
-<meta name="twitter:creator" content="@jamstackthemes" />
+{{ define "ogmeta" }}
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:description" content="{{ .Params.description }}" />
+    {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
+    {{ $repo := index .Site.Data.themes $repoName }}
+    {{ if $repo }}
+    {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
+    {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
+    {{ if (fileExists $staticPath) }}
+    <meta property="og:image" content="{{ $filePath | absURL }}">
+    {{ end }}
+    {{ end }}
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@jamstackthemes" />
+    <meta name="twitter:creator" content="@jamstackthemes" />
 {{end}}
 
-{{ define "main" }}
+{{ define "meta_description" }}
+{{ $themes := (where .Site.RegularPages "Type" "theme") }}
+{{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themes := (where $themes ".Params.stale" "!=" true) }}
+{{ $themes := (where $themes ".Params.disabled" "!=" true) }}
+{{ $themeCount := len $themes}}
+<meta name="description" content="{{ .Params.description }}">
+{{ end }}
 
+{{ define "main" }}
 {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
 {{ $repo := index .Site.Data.themes $repoName }}
 {{ $stackbit := index .Site.Data.stackbit $repoName }}

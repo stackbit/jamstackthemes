@@ -1,8 +1,8 @@
+{{ define "title" }}{{ .Title }} - Demo{{ end }}
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-theme-single-demo{{ end }}
-{{ define "title" }}{{ .Title }} - Theme Demo{{ end }}
 
-{{ define "meta_tags" }}
+{{ define "ogmeta" }}
     <meta property="og:title" content="{{ .Title }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ .Permalink | absURL }}" />
@@ -32,7 +32,7 @@
     <div class="demo">
         <div class="container">
             <div class="logo d-none d-md-block">
-                <a href="/" title="JAMstack Themes">JAMstack Themes </a>
+                <a href="/" title="Jamstack Themes">Jamstack Themes </a>
 
             </div>
 

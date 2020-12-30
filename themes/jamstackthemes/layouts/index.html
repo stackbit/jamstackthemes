@@ -1,15 +1,14 @@
-{{ define "title" }}JAMstack Themes{{ end }}
+{{ define "title" }}Jamstack Themes{{ end }}
 {{ define "header_classes" }}{{ end }}
 {{ define "body_classes" }}page-home has-sidebar{{ end }}
 
-{{ define "meta_tags" }}
+{{ define "meta_description" }}
 {{ $themes := (where .Site.RegularPages "Type" "theme") }}
 {{ $themes := (where $themes ".Params.draft" "!=" true) }}
 {{ $themes := (where $themes ".Params.stale" "!=" true) }}
 {{ $themes := (where $themes ".Params.disabled" "!=" true) }}
 {{ $themeCount := len $themes}}
-<meta name="description" content="The most popular list of themes and starters for JAMstack sites. Over {{ $themeCount }} free static site generator themes for Hugo, Gatsby, Jekyll, Gridsome & more." />
-
+<meta name="description" content="The most popular list of themes and starters for Jamstack sites. Over {{ $themeCount }} free static site generator themes for Hugo, Gatsby, Jekyll, Gridsome & more." />
 {{ end }}
 
 {{ define "main" }}
@@ -34,8 +33,8 @@
         <div class="intro-heading">
           <h1 class="intro-title">New Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
         </div>
-        <div class="intro-description d-none d-md-block"><p>A list of themes and starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites. We're the largest gallery of user submitted, open source themes for static site generators 🦖. This site is maintained by the community and with the kind support of <a href="https://www.stackbit.com/?utm_source=jamstackthemes&utm_medium=referral&utm_campaign=jamstackthemeswebsite&utm_content=blurb">Stackbit</a></p></div>
-        <div class="intro-description d-md-none"><p>A list of themes and starters for <a href="https://jamstack.org/" target="_blank" rel="noopener">JAMstack</a> sites.</p></div>
+        <div class="intro-description d-none d-md-block"><p>A list of themes and starters for <a href="https://Jamstack.org/" target="_blank" rel="noopener">Jamstack</a> sites. We're the largest gallery of user submitted, open source themes for static site generators 🦖. This site is maintained by the community and with the kind support of <a href="https://www.stackbit.com/?utm_source=jamstackthemes&utm_medium=referral&utm_campaign=jamstackthemeswebsite&utm_content=blurb">Stackbit</a></p></div>
+        <div class="intro-description d-md-none"><p>A list of themes and starters for <a href="https://Jamstack.org/" target="_blank" rel="noopener">Jamstack</a> sites.</p></div>
       </div>
 
       {{ partial "sort-buttons.html" . }}

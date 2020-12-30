@@ -1,8 +1,8 @@
-name = "JAMstack Themes"
+name = "Jamstack Themes"
 license = "MIT"
-description = "A list of Themes and Starters for JAMstack Sites."
+description = "A list of Themes and Starters for Jamstack Sites."
 min_version = "0.71.1"
 
 [author]
-  name = "JAMstack Themes"
+  name = "Jamstack Themes"
   homepage = "https://www.jamstackthemes.dev"

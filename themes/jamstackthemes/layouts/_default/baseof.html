@@ -6,18 +6,21 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link rel="canonical" href="{{ .Permalink }}" />
-  {{ block "meta_tags" . }}
-    <meta property="og:title" content="JAMstack Themes" />
+
+  {{ block "ogmeta" . }}
+    <meta property="og:title" content="{{ .Title }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.jamstackthemes.dev" />
-    <meta property="og:description" content="The most complete list of themes and starters for JAMstack sites. Easily filter themes by static site generator, headless CMS, category and more.">
-    <meta property="og:image" content="https://jamstackthemes.dev/images/jamstackthemes-screenshot.png">
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:description" content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta property="og:image" content="{{ .Site.BaseURL }}/images/jamstackthemes-screenshot.png">
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@stackbithq" />
-    <meta name="twitter:creator" content="@stackbithq" />
+    <meta name="twitter:site" content="@jamstackthemes" />
+    <meta name="twitter:creator" content="@jamstackthemes" />
   {{end}}
+
+  {{ block "meta_description" . }}
+  {{ end }}
 
   {{ if .Site.IsServer }}
   {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}
@@ -35,8 +38,6 @@
   {{ with .OutputFormats.Get "rss" }}
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end }}
-
-
 
 </head>
 
