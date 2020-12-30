@@ -257,9 +257,6 @@
   "ashr81-gatsby-theme-profile-builder-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ashr81/gatsby-theme-profile-builder&ssg=gatsby"
   },
-  "aslammultidots-blogger-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/aslammultidots/blogger&ssg=gatsby"
-  },
   "aspirethemes-type-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/aspirethemes/type&ssg=jekyll"
   },
@@ -325,9 +322,6 @@
   },
   "bigcommerce-gatsby-bigcommerce-netlify-cms-starter-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/bigcommerce/gatsby-bigcommerce-netlify-cms-starter&ssg=gatsby"
-  },
-  "bijenkorf-james-wakefield-gatsby-firebase-hosting-starter-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/bijenkorf-james-wakefield/gatsby-firebase-hosting-starter&ssg=gatsby"
   },
   "billyfish152-renge-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/billyfish152/Renge&ssg=jekyll"
@@ -440,9 +434,6 @@
   "chipzoller-hugo-clarity-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/chipzoller/hugo-clarity&ssg=hugo"
   },
-  "chrisbobbe-jekyll-theme-prologue-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/chrisbobbe/jekyll-theme-prologue&ssg=jekyll"
-  },
   "chrisrhymes-bulma-clean-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/chrisrhymes/bulma-clean-theme&ssg=jekyll"
   },
@@ -533,9 +524,6 @@
   "collective-gatsby-starter-plone-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/collective/gatsby-starter-plone&ssg=gatsby"
   },
-  "contentful-userland-gatsby-contentful-starter-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/contentful-userland/gatsby-contentful-starter&ssg=gatsby"
-  },
   "contentstack-gatsby-starter-contentstack-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/contentstack/gatsby-starter-contentstack&ssg=gatsby"
   },
@@ -569,9 +557,6 @@
   "cvluca-gatsby-starter-markdown-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/cvluca/gatsby-starter-markdown&ssg=gatsby"
   },
-  "cwlsn-gatsby-simple-contentful-starter-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/cwlsn/gatsby-simple-contentful-starter&ssg=gatsby"
-  },
   "cyevgeniy-jekyll-true-minimal-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/cyevgeniy/jekyll-true-minimal&ssg=jekyll"
   },
@@ -579,7 +564,7 @@
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/d-kusk/minimage&ssg=hugo"
   },
   "daattali-beautiful-jekyll-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/daattali/beautiful-jekyll"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/daattali/beautiful-jekyll&ssg=jekyll"
   },
   "dabit3-gatsby-auth-starter-aws-amplify-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/dabit3/gatsby-auth-starter-aws-amplify&ssg=gatsby"
@@ -626,9 +611,6 @@
   "datocms-gatsby-portfolio-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/datocms/gatsby-portfolio&ssg=gatsby"
   },
-  "daviddarnes-alembic-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/daviddarnes/alembic&ssg=jekyll"
-  },
   "daviddarnes-garth-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/daviddarnes/garth&ssg=jekyll"
   },
@@ -649,9 +631,6 @@
   },
   "de-souza-hugo-flex-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/de-souza/hugo-flex&ssg=hugo"
-  },
-  "deamme-gatsby-starter-prismic-resume-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/deamme/gatsby-starter-prismic-resume&ssg=gatsby"
   },
   "deepidea-web-presentation-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/deepidea/web-presentation&ssg=jekyll"
@@ -773,9 +752,6 @@
   "emasuriano-gatsby-starter-event-calendar-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/EmaSuriano/gatsby-starter-event-calendar&ssg=gatsby"
   },
-  "emasuriano-gatsby-starter-mate-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/EmaSuriano/gatsby-starter-mate&ssg=gatsby"
-  },
   "emielh-hallo-hugo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/EmielH/hallo-hugo&ssg=hugo"
   },
@@ -793,9 +769,6 @@
   },
   "erayaydin-jekyll-bulma-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/erayaydin/jekyll-bulma&ssg=jekyll"
-  },
-  "escapemanuele-gatsby-contentful-blog-portfolio-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/escapemanuele/gatsby-contentful-blog-portfolio&ssg=gatsby"
   },
   "eshlox-simplicity-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/eshlox/simplicity&ssg=hugo"
@@ -836,9 +809,6 @@
   "ferrolho-jekyll-theme-libretto-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ferrolho/jekyll-theme-libretto&ssg=jekyll"
   },
-  "fhavrlent-gatsby-contentful-typescript-starter-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/fhavrlent/gatsby-contentful-typescript-starter&ssg=gatsby"
-  },
   "fiatjaf-classless-hugo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/fiatjaf/classless-hugo&ssg=hugo"
   },
@@ -849,7 +819,7 @@
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/fongandrew/hydeout&ssg=jekyll"
   },
   "forestryio-ubuild-jekyll-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/forestryio/ubuild-jekyll&ssg=jekyll"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/forestryio/ubuild-jekyll&ssg=jekyll&cms=forestry"
   },
   "formspree-blogophonic-hugo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/formspree/blogophonic-hugo&ssg=hugo"
@@ -890,9 +860,6 @@
   "garvincasimir-hugo-h5bp-simple-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/garvincasimir/hugo-h5bp-simple&ssg=hugo"
   },
-  "gatsbycentral-gatsby-starter-wordpress-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/GatsbyCentral/gatsby-starter-wordpress&ssg=gatsby"
-  },
   "gatsbycentral-gatsby-v2-starter-casper-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/GatsbyCentral/gatsby-v2-starter-casper&ssg=gatsby"
   },
@@ -913,9 +880,6 @@
   },
   "gdg-managua-jekyll-mdl-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gdg-managua/jekyll-mdl&ssg=jekyll"
-  },
-  "gdgtoulouse-devfest-theme-hugo-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/GDGToulouse/devfest-theme-hugo&ssg=hugo"
   },
   "geocine-gatsby-starter-devto-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/geocine/gatsby-starter-devto&ssg=gatsby"
@@ -985,9 +949,6 @@
   },
   "gyorb-hugo-dusk-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gyorb/hugo-dusk&ssg=hugo"
-  },
-  "h-enk-doks-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/h-enk/doks&ssg=hugo"
   },
   "h01000110-windows-95-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/h01000110/windows-95&ssg=jekyll"
@@ -1217,9 +1178,6 @@
   "josephhutch-aether-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/josephhutch/aether&ssg=hugo"
   },
-  "joshgerdes-jekyll-uno-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/joshgerdes/jekyll-uno&ssg=jekyll"
-  },
   "joshuaavalon-jekyll-avalon-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/joshuaavalon/Jekyll-Avalon&ssg=jekyll"
   },
@@ -1286,6 +1244,12 @@
   "kazumasato-siera-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/KazumaSATO/Siera&ssg=jekyll"
   },
+  "kc0bfv-autophugo-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kc0bfv/autophugo&ssg=hugo"
+  },
+  "kc0bfv-ticky_tacky_dark-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kc0bfv/ticky_tacky_dark&ssg=hugo"
+  },
   "keichi-vienna-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/keichi/vienna&ssg=hugo"
   },
@@ -1293,16 +1257,7 @@
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/KeJunMao/jekyll-theme-mdui&ssg=jekyll"
   },
   "kendallstrautman-brevifolia-gatsby-forestry-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kendallstrautman/brevifolia-gatsby-forestry&ssg=gatsby"
-  },
-  "kentico-gatsby-starter-kontent-lumen-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Kentico/gatsby-starter-kontent-lumen&ssg=gatsby"
-  },
-  "kentico-gatsby-starter-kontent-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Kentico/gatsby-starter-kontent&ssg=gatsby"
-  },
-  "kentico-kontent-jekyll-blog-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Kentico/kontent-jekyll-blog&ssg=jekyll"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kendallstrautman/brevifolia-gatsby-forestry&ssg=gatsby&cms=forestry"
   },
   "kevit-devaid-jekyll-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kevit/devaid-jekyll-theme&ssg=jekyll"
@@ -1370,9 +1325,6 @@
   "lekoarts-gatsby-starter-minimal-blog-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/LekoArts/gatsby-starter-minimal-blog&ssg=jekyll"
   },
-  "lekoarts-gatsby-starter-portfolio-bella-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/LekoArts/gatsby-starter-portfolio-bella&ssg=gatsby"
-  },
   "lekoarts-gatsby-starter-portfolio-cara-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/LekoArts/gatsby-starter-portfolio-cara&ssg=gatsby"
   },
@@ -1384,9 +1336,6 @@
   },
   "lekoarts-gatsby-starter-portfolio-jodie-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/LekoArts/gatsby-starter-portfolio-jodie&ssg=gatsby"
-  },
-  "lekoarts-gatsby-starter-prismic-i18n-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/LekoArts/gatsby-starter-prismic-i18n&ssg=gatsby"
   },
   "lekovicmilos-gatsby-starter-portfolio-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/LekovicMilos/gatsby-starter-portfolio&ssg=gatsby"
@@ -1436,9 +1385,6 @@
   "lixizhi-lixizhi.github.io-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/lixizhi/lixizhi.github.io&ssg=jekyll"
   },
-  "longpdo-neumorphism-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/longpdo/neumorphism&ssg=jekyll"
-  },
   "lordmathis-hugo-theme-nix-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/LordMathis/hugo-theme-nix&ssg=hugo"
   },
@@ -1452,7 +1398,7 @@
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/lubang/hugo-hello-programmer-theme&ssg=hugo"
   },
   "luizdepra-hugo-coder-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/luizdepra/hugo-coder"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/luizdepra/hugo-coder&ssg=hugo"
   },
   "lukas-h-material-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/lukas-h/material-theme/&ssg=jekyll"
@@ -1490,14 +1436,8 @@
   "marcanuy-simpleit-hugo-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/marcanuy/simpleit-hugo-theme&ssg=hugo"
   },
-  "marcomelilli-gatsby-airtable-advanced-starter-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/marcomelilli/gatsby-airtable-advanced-starter&ssg=gatsby"
-  },
   "marcusvirg-forty-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/MarcusVirg/forty&ssg=hugo"
-  },
-  "margueriteroth-gatsby-prismic-starter-prist-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/margueriteroth/gatsby-prismic-starter-prist&ssg=gatsby"
   },
   "markoradak-gatsby-starter-storybook-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/markoradak/gatsby-starter-storybook&ssg=gatsby"
@@ -1528,9 +1468,6 @@
   },
   "mazgi-hugo-theme-techlog-simple-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mazgi/hugo-theme-techlog-simple&ssg=hugo"
-  },
-  "mccrodp-gatsby-starter-contentful-i18n-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mccrodp/gatsby-starter-contentful-i18n&ssg=gatsby"
   },
   "meibenny-elephants-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/meibenny/elephants&ssg=hugo"
@@ -1595,9 +1532,6 @@
   "muhajirdev-gatsby-starter-firebase-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/muhajirdev/gatsby-starter-firebase&ssg=gatsby"
   },
-  "muhajirdev-gatsby-starter-redux-firebase-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/muhajirdev/gatsby-starter-redux-firebase&ssg=gatsby"
-  },
   "muhajirdev-gatsby-tailwind-emotion-starter-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/muhajirdev/gatsby-tailwind-emotion-starter&ssg=gatsby"
   },
@@ -1653,7 +1587,7 @@
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/nanxiaobei/hugo-paper&ssg=hugo"
   },
   "narative-gatsby-theme-novela-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/narative/gatsby-theme-novela"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/narative/gatsby-theme-novela&ssg=gatsby&cms=contentful"
   },
   "natarajmb-charaka-hugo-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/natarajmb/charaka-hugo-theme&ssg=hugo"
@@ -1737,7 +1671,7 @@
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/olOwOlo/hugo-theme-even&ssg=hugo"
   },
   "onweru-compose-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/onweru/compose&ssg=hugo"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/onweru/compose&ssg=hugo&cms=forestry"
   },
   "onweru-hugo-swift-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/onweru/hugo-swift-theme&ssg=hugo"
@@ -1759,9 +1693,6 @@
   },
   "osogrizz-gatsby-starter-santa-fe-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/osogrizz/gatsby-starter-santa-fe&ssg=gatsby"
-  },
-  "ovidiumihaibelciug-gatsby-firebase-starter-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ovidiumihaibelciug/gatsby-firebase-starter&ssg=gatsby"
   },
   "ozgrozer-dasper-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ozgrozer/dasper&ssg=jekyll"
@@ -1833,7 +1764,7 @@
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/pietromenna/jekyll-cayman-theme&ssg=jekyll"
   },
   "piharpi-jekyll-klise-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/piharpi/jekyll-klise"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/piharpi/jekyll-klise&ssg=jekyll"
   },
   "pipporj-hugo-refresh-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/PippoRJ/hugo-refresh&ssg=hugo"
@@ -1877,17 +1808,11 @@
   "prototypeinteractive-gatsby-react-boilerplate-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/PrototypeInteractive/gatsby-react-boilerplate&ssg=gatsby"
   },
-  "puresyntax71-hugo-theme-chunky-poster-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/puresyntax71/hugo-theme-chunky-poster&ssg=hugo"
-  },
   "qingpingmeng-gatsby-starter-traveler-blog-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/QingpingMeng/gatsby-starter-traveler-blog&ssg=gatsby"
   },
   "qqhann-hugo-primer-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/qqhann/hugo-primer&ssg=hugo"
-  },
-  "qwtel-hydejack-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/qwtel/hydejack&ssg=jekyll"
   },
   "railsr-autm-rb-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/railsr/autm-rb&ssg=jekyll"
@@ -1953,7 +1878,7 @@
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/rohitguptab/OneShopper&ssg=gatsby"
   },
   "rohitguptab-rg-portfolio-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/rohitguptab/rg-portfolio"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/rohitguptab/rg-portfolio&ssg=gatsby&cms=contentful"
   },
   "ronv-colorie-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ronv/colorie&ssg=jekyll"
@@ -1979,9 +1904,6 @@
   "rowanoulton-travelog-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/rowanoulton/travelog-theme&ssg=jekyll"
   },
-  "runbytech-gatsby-theme-ultronele-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/runbytech/gatsby-theme-ultronele&ssg=gatsby"
-  },
   "rundocs-jekyll-rtd-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/rundocs/jekyll-rtd-theme&ssg=jekyll"
   },
@@ -1989,10 +1911,7 @@
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/runningstream/hugograyscale/&ssg=hugo"
   },
   "ryanfitzgerald-devblog-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/RyanFitzgerald/devblog"
-  },
-  "ryanwiemer-gatsby-starter-gcn-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ryanwiemer/gatsby-starter-gcn&ssg=gatsby"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/RyanFitzgerald/devblog&ssg=gatsby"
   },
   "s-kris-gatsby-minimal-portfolio-blog-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/s-kris/gatsby-minimal-portfolio-blog&ssg=gatsby"
@@ -2002,9 +1921,6 @@
   },
   "sag-dev-hugo-minimalist-spa-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Sag-Dev/hugo-minimalist-spa&ssg=hugo"
-  },
-  "sagar7993-gatsby-wordpress-typescript-scss-blog-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sagar7993/gatsby-wordpress-typescript-scss-blog&ssg=gatsby"
   },
   "salcan-beyondnothing-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/salcan/BeyondNothing&ssg=hugo"
@@ -2041,9 +1957,6 @@
   },
   "scottmathson-simpol-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/scottmathson/simpol-theme&ssg=jekyll"
-  },
-  "scttcper-gatsby-casper-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/scttcper/gatsby-casper&ssg=gatsby"
   },
   "seanlane-gochowdown-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/seanlane/gochowdown&ssg=hugo"
@@ -2144,12 +2057,6 @@
   "simpleyyt-jekyll-theme-next-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Simpleyyt/jekyll-theme-next&ssg=jekyll"
   },
-  "simply007-kontent-sample-app-gatsby-intranet-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Simply007/kontent-sample-app-gatsby-intranet&ssg=gatsby"
-  },
-  "simply007-kontent-template-gatsby-landing-page-photon-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Simply007/kontent-template-gatsby-landing-page-photon&ssg=gatsby"
-  },
   "smakosh-gatsby-apollo-starter-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/smakosh/gatsby-apollo-starter&ssg=gatsby"
   },
@@ -2166,7 +2073,7 @@
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/smallmuou/Jekyll-Pithy&ssg=jekyll"
   },
   "snipcart-stackbit-theme-planty-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=planty"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/snipcart/stackbit-theme-planty"
   },
   "songroger-murmur-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/songroger/murmur&ssg=jekyll"
@@ -2199,103 +2106,91 @@
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/st4ple/solid-jekyll&ssg=jekyll"
   },
   "stackbit-themes-azimuth-gatsby-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-gatsby"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-gatsby&ssg=gatsby"
   },
   "stackbit-themes-azimuth-hugo-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-hugo"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-hugo&ssg=hugo"
   },
   "stackbit-themes-azimuth-jekyll-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-jekyll"
-  },
-  "stackbit-themes-azimuth-nextjs-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-next"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-jekyll&ssg=jekyll"
   },
   "stackbit-themes-diy-gatsby-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/diy-gatsby"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/diy-gatsby&ssg=gatsby"
   },
   "stackbit-themes-diy-hugo-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/diy-hugo"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/diy-hugo&ssg=hugo"
   },
   "stackbit-themes-diy-jekyll-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/diy-jekyll"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/diy-jekyll&ssg=jekyll"
   },
   "stackbit-themes-exto-gatsby-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/exto-gatsby"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/exto-gatsby&ssg=gatsby"
   },
   "stackbit-themes-exto-hugo-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/exto-hugo"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/exto-hugo&ssg=hugo"
   },
   "stackbit-themes-exto-jekyll-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/exto-jekyll"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/exto-jekyll&ssg=jekyll"
   },
   "stackbit-themes-fjord-gatsby-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/fjord-gatsby"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/fjord-gatsby&ssg=gatsby"
   },
   "stackbit-themes-fjord-hugo-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/fjord-hugo"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/fjord-hugo&ssg=hugo"
   },
   "stackbit-themes-fjord-jekyll-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/fjord-jekyll"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/fjord-jekyll&ssg=jekyll"
   },
   "stackbit-themes-stackbit-starter-gatsby-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/stackbit-starter-gatsby"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/stackbit-starter-gatsby&ssg=gatsby"
   },
   "stackbit-themes-stackbit-starter-hugo-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/stackbit-starter-hugo"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/stackbit-starter-hugo&ssg=hugo"
   },
   "stackbit-themes-stackbit-starter-jekyll-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/stackbit-starter-jekyll"
-  },
-  "stackbit-themes-stackbit-starter-nextjs-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/stackbit-starter-jekyll"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/stackbit-starter-jekyll&ssg=jekyll"
   },
   "stackbithq-stackbit-theme-ampersand-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=ampersand"
-  },
-  "stackbithq-stackbit-theme-archetype-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=archetype"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-ampersand"
   },
   "stackbithq-stackbit-theme-azimuth-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=azimuth"
-  },
-  "stackbithq-stackbit-theme-construct-master": {
-    "createUrl": "https://app.stackbit.com?create=construct"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-azimuth"
   },
   "stackbithq-stackbit-theme-diy-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=diy"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-diy"
   },
   "stackbithq-stackbit-theme-exto-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=exto"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-exto"
   },
   "stackbithq-stackbit-theme-fjord-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=fjord"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-fjord"
   },
   "stackbithq-stackbit-theme-fractal-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=fractal"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-fractal"
   },
   "stackbithq-stackbit-theme-fresh-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=fresh"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-fresh"
   },
   "stackbithq-stackbit-theme-hyperspace-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=hyperspace"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-hyperspace"
   },
   "stackbithq-stackbit-theme-libris-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=libris"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-libris"
   },
   "stackbithq-stackbit-theme-reflex-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=reflex"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-reflex"
   },
   "stackbithq-stackbit-theme-spectral-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=spectral"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-spectral"
   },
   "stackbithq-stackbit-theme-starter-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=starter"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-starter"
   },
   "stackbithq-stackbit-theme-vanilla-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=vanilla"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-vanilla"
   },
   "stackrole-gatsby-starter-foundation-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackrole/gatsby-starter-foundation"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackrole/gatsby-starter-foundation&ssg=gatsby"
   },
   "staticmania-roxo-hugo-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/StaticMania/roxo-hugo&ssg=hugo"
@@ -2311,9 +2206,6 @@
   },
   "streetturtle-jekyll-clean-dark-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/streetturtle/jekyll-clean-dark&ssg=jekyll"
-  },
-  "styxlab-gatsby-starter-try-ghost-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/styxlab/gatsby-starter-try-ghost&ssg=gatsby"
   },
   "sudorook-capsule-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sudorook/capsule&ssg=hugo"
@@ -2389,9 +2281,6 @@
   },
   "the2ne-hugo-frais-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/the2ne/hugo-frais&ssg=hugo"
-  },
-  "thebakerdev-gatsby-starter-zenii-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/thebakerdev/gatsby-starter-zenii"
   },
   "thecodemint-gatsby-starter-simple-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/thecodemint/gatsby-starter-simple&ssg=gatsby"
@@ -2500,9 +2389,6 @@
   },
   "track3-hermit-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Track3/hermit&ssg=hugo"
-  },
-  "tryghost-gatsby-starter-ghost-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/TryGhost/gatsby-starter-ghost&ssg=gatsby"
   },
   "ttskch-jekyll-ttskch-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ttskch/jekyll-ttskch-theme&ssg=jekyll"
@@ -2613,7 +2499,7 @@
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/VVelox/hugo-dusky-neon-potato&ssg=hugo"
   },
   "w3layouts-gatsby-starter-delog-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/W3Layouts/gatsby-starter-delog"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/W3Layouts/gatsby-starter-delog&ssg=gatsby"
   },
   "wangchucheng-hugo-eureka-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/wangchucheng/hugo-eureka&ssg=hugo"
@@ -2666,14 +2552,8 @@
   "wiredcraft-carte-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Wiredcraft/carte&ssg=jekyll"
   },
-  "wkocjan-gatsby-airtable-listing-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/wkocjan/gatsby-airtable-listing&ssg=gatsby"
-  },
-  "wkocjan-gatsby-contentful-portfolio-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/wkocjan/gatsby-contentful-portfolio&ssg=gatsby"
-  },
   "wkocjan-gatsby-theme-intro-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/wkocjan/gatsby-theme-intro"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/wkocjan/gatsby-theme-intro&ssg=gatsby"
   },
   "wowthemesnet-affiliates-jekyll-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/wowthemesnet/affiliates-jekyll-theme&ssg=jekyll"
@@ -2695,9 +2575,6 @@
   },
   "xaviablaza-hugo-lodi-theme-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/xaviablaza/hugo-lodi-theme&ssg=hugo"
-  },
-  "xianmin-hugo-theme-jane-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/xianmin/hugo-theme-jane&ssg=hugo"
   },
   "xukimseven-hardcandy-jekyll-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/xukimseven/HardCandy-Jekyll&ssg=jekyll"
@@ -2726,9 +2603,6 @@
   "yous-whiteglass-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/yous/whiteglass&ssg=jekyll"
   },
-  "youssefraafatnasry-portfolyou-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/YoussefRaafatNasry/portfolYOU&ssg=jekyll"
-  },
   "yulijia-freshman21-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/yulijia/freshman21&ssg=jekyll"
   },
@@ -2739,10 +2613,10 @@
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/yvesespinosa/jekyll-html5up-fractal&ssg=jekyll"
   },
   "zerostaticthemes-hugo-serif-theme-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/zerostaticthemes/hugo-serif-theme"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/zerostaticthemes/hugo-serif-theme&ssg=hugo"
   },
   "zerostaticthemes-jekyll-serif-theme-master": {
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/zerostaticthemes/jekyll-serif-theme"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/zerostaticthemes/jekyll-serif-theme&ssg=jekyll"
   },
   "zhaohuabing-hugo-theme-cleanwhite-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/zhaohuabing/hugo-theme-cleanwhite&ssg=hugo"

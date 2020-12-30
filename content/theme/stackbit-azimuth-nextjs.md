@@ -7,13 +7,11 @@ author: Stackbit
 ssg:
   - Next
 cms:
-  - Stackbit
+  - No CMS
 css:
   - Scss
 date: 2020-10-15T00:00:00.000Z
 description: Azimuth is a sleek SaaS theme for Nextjs
-stackbit: >-
-  https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-next
 stale: false
 disabled: true
 ---

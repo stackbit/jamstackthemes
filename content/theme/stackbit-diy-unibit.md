@@ -5,6 +5,7 @@ github_branch: master
 demo: 'https://themes.stackbit.com/demos/diy?themeBarHidden=true'
 author: Stackbit
 ssg:
+  - Unibit
   - Hugo
   - Gatsby
   - Jekyll
@@ -20,7 +21,6 @@ css:
   - SCSS
 date: 2020-11-10T00:00:00.000Z
 description: DIY is a multi-page marketing theme with an advanced layout builder.
-stackbit: 'https://app.stackbit.com/create?theme=diy'
 stale: false
 weight: 1
 ---

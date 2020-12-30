@@ -7,13 +7,11 @@ author: Stackbit
 ssg:
   - Hugo
 cms:
-  - Stackbit
+  - No CMS
 css:
   - Scss
 date: 2020-10-01T00:00:00.000Z
 description: DIY is a marketing theme for Hugo with an advanced layout builder.
-stackbit: >-
-  https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/diy-hugo
 stale: false
 weight: 1
 disabled: true

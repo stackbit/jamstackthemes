@@ -13,8 +13,6 @@ description: >-
   Serif is a modern business theme for Hugo. It contains content types for the
   archetypical business website. The theme is fully responsive, blazing fast and
   artfully illustrated.
-stackbit: >-
-  https://app.stackbit.com/create?theme=https://github.com/zerostaticthemes/hugo-serif-theme&ssg=hugo
 stale: false
 weight: 11
 ---

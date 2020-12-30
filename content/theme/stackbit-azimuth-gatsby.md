@@ -12,8 +12,6 @@ css:
   - Scss
 date: 2019-05-23T00:00:00.000Z
 description: Azimuth is a sleek SaaS theme for Gatsby
-stackbit: >-
-  https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-gatsby
 stale: false
 disabled: true
 ---

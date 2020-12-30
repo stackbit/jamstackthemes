@@ -5,6 +5,7 @@ github_branch: master
 demo: 'https://themes.stackbit.com/demos/starter?themeBarHidden=true'
 author: Stackbit
 ssg:
+  - Unibit
   - Hugo
   - Gatsby
   - Jekyll
@@ -20,7 +21,6 @@ css:
   - SCSS
 date: 2019-05-23T18:26:16.000Z
 description: A developer focused starter theme for Stackbit.
-stackbit: 'https://app.stackbit.com/create?theme=starter'
 stale: false
 weight: 5
 ---

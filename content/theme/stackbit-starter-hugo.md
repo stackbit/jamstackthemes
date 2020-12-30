@@ -6,14 +6,12 @@ author: Stackbit
 ssg:
   - Hugo
 cms:
-  - Stackbit
+  - No CMS
 css:
   - SCSS
 date: 2020-09-18T00:00:00.000Z
 github_branch: master
 description: A developer focused starter theme for Hugo and Stackbit.
-stackbit: >-
-  https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/stackbit-starter-hugo
 stale: false
 weight: 5
 disabled: true

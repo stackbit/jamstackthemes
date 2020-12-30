@@ -18,8 +18,6 @@ services:
 description: >-
   Kick-off your Portfolio website with RG-Portfolio gatsby starter. We have used
   Gatsby + Contenful.
-stackbit: >-
-  https://app.stackbit.com/create?theme=https://github.com/rohitguptab/rg-portfolio&ssg=gatsby
 stale: false
 weight: 12
 ---

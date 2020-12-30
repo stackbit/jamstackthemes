@@ -21,7 +21,6 @@ css:
 date: 2019-05-10T14:33:16.000Z
 description: Construct a multipage theme for Stackbit
 stale: false
-stackbit: 'https://app.stackbit.com?create=construct'
 weight: 10
 disabled: true
 disabled_reason: demo url not found

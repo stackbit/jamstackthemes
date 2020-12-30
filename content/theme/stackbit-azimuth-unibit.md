@@ -5,6 +5,7 @@ github_branch: master
 demo: 'https://themes.stackbit.com/demos/azimuth?themeBarHidden=true'
 author: Stackbit
 ssg:
+  - Unibit
   - Hugo
   - Gatsby
   - Jekyll
@@ -20,7 +21,6 @@ css:
   - SCSS
 date: 2020-10-15T00:00:00.000Z
 description: Azimuth is a sleek marketing theme for startup and product sites.
-stackbit: 'https://app.stackbit.com/create?theme=azimuth'
 stale: false
 weight: 4
 ---

@@ -14,7 +14,6 @@ description: >-
   A fully customizable blog template designed for developers (or anyone else)
   wanting to get into blogging
 github_branch: master
-stackbit: 'https://app.stackbit.com/create?theme=https://github.com/RyanFitzgerald/devblog&ssg=gatsby&cms=netlifycms'
 stale: false
 weight: 11
 ---

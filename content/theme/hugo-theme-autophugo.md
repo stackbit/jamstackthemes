@@ -10,6 +10,6 @@ ssg:
 cms:
   - No CMS
 archetype:
-  - Gallery
+  - Portfolio
 description: Image gallery/photoblog theme for Hugo.
 ---

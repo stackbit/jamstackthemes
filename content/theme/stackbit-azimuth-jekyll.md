@@ -7,13 +7,11 @@ author: Stackbit
 ssg:
   - Jekyll
 cms:
-  - Stackbit
+  - No CMS
 css:
   - Scss
 date: 2020-06-09T00:00:00.000Z
 description: Azimuth is a sleek SaaS theme for Jekyll
-stackbit: >-
-  https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-jekyll
 stale: false
 weight: 4
 disabled: true

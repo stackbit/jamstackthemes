@@ -7,13 +7,11 @@ author: Stackbit
 ssg:
   - Gatsby
 cms:
-  - Stackbit
+  - No CMS
 css:
   - Scss
 date: 2020-09-04T00:00:00.000Z
 description: DIY is a marketing theme for Gatsby with an advanced layout builder.
-stackbit: >-
-  https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/diy-gatsby
 stale: false
 weight: 1
 disabled: true

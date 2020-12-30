@@ -4,6 +4,7 @@ github: 'https://github.com/stackbithq/stackbit-theme-libris'
 demo: 'https://themes.stackbit.com/demos/libris/blue?themeBarHidden=true'
 author: Stackbit
 ssg:
+  - Unibit
   - Hugo
   - Gatsby
   - Jekyll
@@ -22,7 +23,6 @@ archetype:
 date: 2019-05-23T18:31:33.000Z
 github_branch: master
 description: Libris is a documentation theme
-stackbit: 'https://app.stackbit.com/create?theme=libris'
 stale: false
 weight: 6
 ---
