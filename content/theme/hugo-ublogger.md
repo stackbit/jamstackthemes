@@ -1,6 +1,6 @@
 ---
 title: uBlogger
-github: 'https://github.com/uPagge/uBloggerr'
+github: 'https://github.com/uPagge/uBlogger'
 demo: 'https://ublogger.netlify.app'
 author: uPagge
 ssg:
