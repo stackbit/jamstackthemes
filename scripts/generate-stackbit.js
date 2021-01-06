@@ -56,7 +56,31 @@ const generateStackbit = (fileName) => {
   }
 
   // manual overrides
-  const manualDisabled = ['https://github.com/runbytech/gatsby-theme-ultronele','https://github.com/YoussefRaafatNasry/portfolYOU','https://github.com/qwtel/hydejack','https://github.com/joshgerdes/jekyll-uno','https://github.com/GDGToulouse/devfest-theme-hugo','https://github.com/h-enk/doks','https://github.com/ahmadiqbal1/jekyll-webpack-boilerplate','https://github.com/SupunKavinda/jekyll-theme-leaf.git','https://github.com/techonomics69/gatsby-netlify-form-example','https://github.com/lawrencecchen/headless-comments','https://github.com/Joy3Luo/Joy3luo.github.io','https://github.com/chrisbobbe/jekyll-theme-prologue','https://github.com/adityatelange/hugo-PaperMod/','https://github.com/Kentico/kontent-jekyll-blog','https://github.com/longpdo/neumorphism','https://github.com/puresyntax71/hugo-theme-chunky-poster'];
+  const manualDisabled = [
+    'https://github.com/runbytech/gatsby-theme-ultronele',
+    'https://github.com/YoussefRaafatNasry/portfolYOU',
+    'https://github.com/qwtel/hydejack',
+    'https://github.com/joshgerdes/jekyll-uno',
+    'https://github.com/GDGToulouse/devfest-theme-hugo',
+    'https://github.com/h-enk/doks',
+    'https://github.com/ahmadiqbal1/jekyll-webpack-boilerplate',
+    'https://github.com/SupunKavinda/jekyll-theme-leaf.git',
+    'https://github.com/techonomics69/gatsby-netlify-form-example',
+    'https://github.com/lawrencecchen/headless-comments',
+    'https://github.com/Joy3Luo/Joy3luo.github.io',
+    'https://github.com/chrisbobbe/jekyll-theme-prologue',
+    'https://github.com/adityatelange/hugo-PaperMod/',
+    'https://github.com/Kentico/kontent-jekyll-blog',
+    'https://github.com/longpdo/neumorphism',
+    'https://github.com/puresyntax71/hugo-theme-chunky-poster',
+    'https://github.com/sharadcodes/jekyll-theme-dark-reader',
+    'https://github.com/wkocjan/gatsby-theme-intro',
+    'https://github.com/jameshamann/jekyll-material-theme',
+    'https://github.com/fncnt/vncnt-hugo',
+    'https://github.com/wizlee/gatsby-portfolio',
+    'https://github.com/EmaSuriano/gatsby-starter-mate',
+    'https://github.com/guangmean/Niello'
+  ];
   manualDisabled.forEach(url => {
     if (url === frontmatter.github) {
       if (stackbitData[themeKey]) {
