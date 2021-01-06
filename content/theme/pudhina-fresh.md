@@ -24,7 +24,7 @@ A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
 ## Features
 
 * Everything that already comes with [Pudhina theme](https://github.com/knhash/Pudhina) and
-* Masonry style projects page with collapsible cards – [Demo](https://ritijjain.github.io/pudhina-fresh/projects/).
+* Masonry style projects page with collapsible cards – [demo](https://ritijjain.github.io/pudhina-fresh/projects/).
 * Customizable post meta data – tags, published date, updated date, author.
 * Responsive mobile friendly design.
 * Code blocks powered by [highlight.js](https://highlightjs.org/) accompanied by matching styles for in-line code.
