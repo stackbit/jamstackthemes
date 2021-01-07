@@ -3,24 +3,23 @@ title: "Eleventy Duo"
 github: https://github.com/yinkakun/eleventy-duo
 demo: https://eleventyduo.netlify.app
 author: yinkakun
-date: 2020-12-27 # Enter the date you submitted the theme YYYY-MM-DD
-github_branch: master # Enter the repos default branch
+date: 2020-12-27
+github_branch: master
 ssg:
-  - Eleventy # at least 1 ssg is required
+  - Eleventy
 cms:
-  - No CMS # at least 1 cms is required. If your theme uses markdown (no CMS) the cms should be "No CMS"
+  - Forestry
 archetype:
   - Blog
-description: Eleventy Duo is a production-ready and SEO-friendly starter for building a blog or personal website. Comes with a customisable duotone theme, minimal and clean design
+description: Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs.
 ---
 
-# A beautiful blog starter for Eleventy
+# A minimal and beautiful Eleventy theme for personal blogs
 
-Eleventy Duo is a production-ready and SEO-friendly starter for building a blog or personal website. Comes with a customisable duotone theme, minimal and clean design
+Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs.
 
 ## Features
 
-* Customizable duotone theme to make it your own.
 * Fully responsive
 * SEO metadata and Open Graph tags
 * Maximize lighthouse score
