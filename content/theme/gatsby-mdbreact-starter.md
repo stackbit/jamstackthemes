@@ -12,5 +12,5 @@ github_branch: gh-pages
 description: >-
   This is the single page web application starter that I built with MDBootstrap,
   React, and Gatsby
-stale: false
+stale: true
 ---

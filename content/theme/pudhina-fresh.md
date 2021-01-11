@@ -1,9 +1,9 @@
 ---
-title: "Pudhina Fresh"
-github: https://github.com/ritijjain/pudhina-fresh
-demo: https://ritijjain.github.io/pudhina-fresh/
+title: Pudhina Fresh
+github: 'https://github.com/ritijjain/pudhina-fresh'
+demo: 'https://ritijjain.github.io/pudhina-fresh/'
 author: Ritij Jain
-date: 2021-01-02
+date: 2021-01-02T00:00:00.000Z
 github_branch: master
 ssg:
   - Jekyll
@@ -15,6 +15,7 @@ archetype:
   - Blog
   - Portfolio
 description: A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
+stale: false
 ---
 
 # Pudhina Fresh

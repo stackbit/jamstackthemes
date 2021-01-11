@@ -10,5 +10,5 @@ cms:
 date: 2016-10-14T20:36:04.000Z
 github_branch: master
 description: Starter Hugo theme for use as a template for building custom themes
-stale: false
+stale: true
 ---
