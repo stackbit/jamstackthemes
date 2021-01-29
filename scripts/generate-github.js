@@ -48,7 +48,7 @@ const loadThemeFrontMatter = fileName => {
     let draft = frontmatter.draft;
     let disabled = frontmatter.disabled;
     let repoUrl = frontmatter.github;
-    let repoName = gh(frontmatter.github).repo; // stackbithq/stackbit-theme-fresh
+    let repoName = gh(frontmatter.github).repo; // stackbit/stackbit-theme-fresh
     let demoUrl = frontmatter.demo;
     let branch = frontmatter.github_branch;
     let themeKey = repoName.replace("/", "-").toLowerCase() + "-" + branch;

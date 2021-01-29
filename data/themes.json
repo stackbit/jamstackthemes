@@ -19266,15 +19266,15 @@
     "description": "Starter is a flexible, multi-purpose Nextjs theme built for developers.",
     "stale": false
   },
-  "stackbithq-stackbit-theme-ampersand-master": {
-    "theme_key": "stackbithq-stackbit-theme-ampersand-master",
+  "stackbit-stackbit-theme-ampersand-master": {
+    "theme_key": "stackbit-stackbit-theme-ampersand-master",
     "file": "stackbit-ampersand-unibit.md",
     "name": "stackbit-theme-ampersand",
     "title": "Ampersand",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-ampersand",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-ampersand",
     "branch": "master",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-ampersand",
+    "github_url": "https://github.com/stackbit/stackbit-theme-ampersand",
     "demo_url": "https://themes.stackbit.com/demos/ampersand?themeBarHidden=true",
     "stars": 24,
     "forks": 19,
@@ -19284,20 +19284,20 @@
     "description": "Ampersand a Medium inspired blogging theme for Stackbit",
     "stale": false,
     "images": {
-      "hires": "https://www.jamstackthemes.dev/capture/stackbithq-stackbit-theme-ampersand-master.png",
-      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbithq-stackbit-theme-ampersand-master.jpg",
-      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbithq-stackbit-theme-ampersand-master-2x.jpg"
+      "hires": "https://www.jamstackthemes.dev/capture/stackbit-stackbit-theme-ampersand-master.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbit-stackbit-theme-ampersand-master.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbit-stackbit-theme-ampersand-master-2x.jpg"
     }
   },
-  "stackbithq-stackbit-theme-archetype-master": {
-    "theme_key": "stackbithq-stackbit-theme-archetype-master",
+  "stackbit-stackbit-theme-archetype-master": {
+    "theme_key": "stackbit-stackbit-theme-archetype-master",
     "file": "stackbit-archetype-unibit.md",
     "name": "stackbit-theme-archetype",
     "title": "Archetype",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-archetype",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-archetype",
     "branch": "master",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-archetype",
+    "github_url": "https://github.com/stackbit/stackbit-theme-archetype",
     "demo_url": "https://themes.stackbit.com/demos/archetype/blue?demo=jstarchetypeunibit",
     "stars": 3,
     "forks": 8,
@@ -19307,15 +19307,15 @@
     "description": "Archetype a multi-layout theme with posts for Stackbit",
     "stale": false
   },
-  "stackbithq-stackbit-theme-azimuth-gatsby": {
-    "theme_key": "stackbithq-stackbit-theme-azimuth-gatsby",
+  "stackbit-stackbit-theme-azimuth-gatsby": {
+    "theme_key": "stackbit-stackbit-theme-azimuth-gatsby",
     "file": "stackbit-theme-azimuth-gatsby.md",
     "name": "stackbit-theme-azimuth",
     "title": "Gatsby Azimuth",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-azimuth",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-azimuth",
     "branch": "gatsby",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-azimuth",
+    "github_url": "https://github.com/stackbit/stackbit-theme-azimuth",
     "demo_url": "https://themes.stackbit.com/demos/azimuth",
     "stars": 64,
     "forks": 69,
@@ -19325,15 +19325,15 @@
     "description": "Azimuth is a sleek SaaS theme for Stackbit",
     "stale": true
   },
-  "stackbithq-stackbit-theme-azimuth-hugo": {
-    "theme_key": "stackbithq-stackbit-theme-azimuth-hugo",
+  "stackbit-stackbit-theme-azimuth-hugo": {
+    "theme_key": "stackbit-stackbit-theme-azimuth-hugo",
     "file": "stackbit-theme-azimuth-hugo.md",
     "name": "stackbit-theme-azimuth",
     "title": "Hugo Azimuth",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-azimuth",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-azimuth",
     "branch": "hugo",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-azimuth",
+    "github_url": "https://github.com/stackbit/stackbit-theme-azimuth",
     "demo_url": "https://themes.stackbit.com/demos/azimuth",
     "stars": 64,
     "forks": 69,
@@ -19343,15 +19343,15 @@
     "description": "Azimuth is a sleek SaaS theme for Stackbit",
     "stale": true
   },
-  "stackbithq-stackbit-theme-azimuth-jekyll": {
-    "theme_key": "stackbithq-stackbit-theme-azimuth-jekyll",
+  "stackbit-stackbit-theme-azimuth-jekyll": {
+    "theme_key": "stackbit-stackbit-theme-azimuth-jekyll",
     "file": "stackbit-theme-azimuth-jekyll.md",
     "name": "stackbit-theme-azimuth",
     "title": "Jekyll Azimuth",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-azimuth",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-azimuth",
     "branch": "jekyll",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-azimuth",
+    "github_url": "https://github.com/stackbit/stackbit-theme-azimuth",
     "demo_url": "https://themes.stackbit.com/demos/azimuth",
     "stars": 64,
     "forks": 69,
@@ -19361,15 +19361,15 @@
     "description": "Azimuth is a sleek SaaS theme for Stackbit",
     "stale": true
   },
-  "stackbithq-stackbit-theme-azimuth-master": {
-    "theme_key": "stackbithq-stackbit-theme-azimuth-master",
+  "stackbit-stackbit-theme-azimuth-master": {
+    "theme_key": "stackbit-stackbit-theme-azimuth-master",
     "file": "stackbit-azimuth-unibit.md",
     "name": "stackbit-theme-azimuth",
     "title": "Azimuth",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-azimuth",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-azimuth",
     "branch": "master",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-azimuth",
+    "github_url": "https://github.com/stackbit/stackbit-theme-azimuth",
     "demo_url": "https://themes.stackbit.com/demos/azimuth?themeBarHidden=true",
     "stars": 81,
     "forks": 75,
@@ -19379,20 +19379,20 @@
     "description": "Azimuth is a sleek SaaS theme for Stackbit",
     "stale": false,
     "images": {
-      "hires": "https://www.jamstackthemes.dev/capture/stackbithq-stackbit-theme-azimuth-master.png",
-      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbithq-stackbit-theme-azimuth-master.jpg",
-      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbithq-stackbit-theme-azimuth-master-2x.jpg"
+      "hires": "https://www.jamstackthemes.dev/capture/stackbit-stackbit-theme-azimuth-master.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbit-stackbit-theme-azimuth-master.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbit-stackbit-theme-azimuth-master-2x.jpg"
     }
   },
-  "stackbithq-stackbit-theme-construct-master": {
-    "theme_key": "stackbithq-stackbit-theme-construct-master",
+  "stackbit-stackbit-theme-construct-master": {
+    "theme_key": "stackbit-stackbit-theme-construct-master",
     "file": "stackbit-construct-unibit.md",
     "name": "stackbit-theme-construct",
     "title": "Construct",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-construct",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-construct",
     "branch": "master",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-construct",
+    "github_url": "https://github.com/stackbit/stackbit-theme-construct",
     "demo_url": "https://themes.stackbit.com/demos/construct/blue?demo=jstconstructunibit",
     "stars": 5,
     "forks": 4,
@@ -19402,15 +19402,15 @@
     "description": "Construct a multipage theme for Stackbit",
     "stale": false
   },
-  "stackbithq-stackbit-theme-diy-master": {
-    "theme_key": "stackbithq-stackbit-theme-diy-master",
+  "stackbit-stackbit-theme-diy-master": {
+    "theme_key": "stackbit-stackbit-theme-diy-master",
     "file": "stackbit-diy-unibit.md",
     "name": "stackbit-theme-diy",
     "title": "DIY",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-diy",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-diy",
     "branch": "master",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-diy",
+    "github_url": "https://github.com/stackbit/stackbit-theme-diy",
     "demo_url": "https://themes.stackbit.com/demos/diy?themeBarHidden=true",
     "stars": 12,
     "forks": 6,
@@ -19420,20 +19420,20 @@
     "description": "A \"do it yourself\" Stackbit theme",
     "stale": false,
     "images": {
-      "hires": "https://www.jamstackthemes.dev/capture/stackbithq-stackbit-theme-diy-master.png",
-      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbithq-stackbit-theme-diy-master.jpg",
-      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbithq-stackbit-theme-diy-master-2x.jpg"
+      "hires": "https://www.jamstackthemes.dev/capture/stackbit-stackbit-theme-diy-master.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbit-stackbit-theme-diy-master.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbit-stackbit-theme-diy-master-2x.jpg"
     }
   },
-  "stackbithq-stackbit-theme-exto-gatsby": {
-    "theme_key": "stackbithq-stackbit-theme-exto-gatsby",
+  "stackbit-stackbit-theme-exto-gatsby": {
+    "theme_key": "stackbit-stackbit-theme-exto-gatsby",
     "file": "stackbit-theme-exto-gatsby.md",
     "name": "stackbit-theme-exto",
     "title": "Gatsby Exto",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-exto",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-exto",
     "branch": "gatsby",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-exto",
+    "github_url": "https://github.com/stackbit/stackbit-theme-exto",
     "demo_url": "https://themes.stackbit.com/demos/exto",
     "stars": 26,
     "forks": 33,
@@ -19443,15 +19443,15 @@
     "description": "Exto is a portfolio theme with a blog for Stackbit",
     "stale": true
   },
-  "stackbithq-stackbit-theme-exto-hugo": {
-    "theme_key": "stackbithq-stackbit-theme-exto-hugo",
+  "stackbit-stackbit-theme-exto-hugo": {
+    "theme_key": "stackbit-stackbit-theme-exto-hugo",
     "file": "stackbit-theme-exto-hugo.md",
     "name": "stackbit-theme-exto",
     "title": "Hugo Exto",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-exto",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-exto",
     "branch": "hugo",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-exto",
+    "github_url": "https://github.com/stackbit/stackbit-theme-exto",
     "demo_url": "https://themes.stackbit.com/demos/exto",
     "stars": 26,
     "forks": 33,
@@ -19461,15 +19461,15 @@
     "description": "Exto is a portfolio theme with a blog for Stackbit",
     "stale": true
   },
-  "stackbithq-stackbit-theme-exto-jekyll": {
-    "theme_key": "stackbithq-stackbit-theme-exto-jekyll",
+  "stackbit-stackbit-theme-exto-jekyll": {
+    "theme_key": "stackbit-stackbit-theme-exto-jekyll",
     "file": "stackbit-theme-exto-jekyll.md",
     "name": "stackbit-theme-exto",
     "title": "Jekyll Exto",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-exto",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-exto",
     "branch": "jekyll",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-exto",
+    "github_url": "https://github.com/stackbit/stackbit-theme-exto",
     "demo_url": "https://themes.stackbit.com/demos/exto",
     "stars": 26,
     "forks": 33,
@@ -19479,15 +19479,15 @@
     "description": "Exto is a portfolio theme with a blog for Stackbit",
     "stale": true
   },
-  "stackbithq-stackbit-theme-exto-master": {
-    "theme_key": "stackbithq-stackbit-theme-exto-master",
+  "stackbit-stackbit-theme-exto-master": {
+    "theme_key": "stackbit-stackbit-theme-exto-master",
     "file": "stackbit-exto-unibit.md",
     "name": "stackbit-theme-exto",
     "title": "Exto",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-exto",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-exto",
     "branch": "master",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-exto",
+    "github_url": "https://github.com/stackbit/stackbit-theme-exto",
     "demo_url": "https://themes.stackbit.com/demos/exto?themeBarHidden=true",
     "stars": 40,
     "forks": 42,
@@ -19497,20 +19497,20 @@
     "description": "Exto is a portfolio theme with a blog for Stackbit",
     "stale": false,
     "images": {
-      "hires": "https://www.jamstackthemes.dev/capture/stackbithq-stackbit-theme-exto-master.png",
-      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbithq-stackbit-theme-exto-master.jpg",
-      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbithq-stackbit-theme-exto-master-2x.jpg"
+      "hires": "https://www.jamstackthemes.dev/capture/stackbit-stackbit-theme-exto-master.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbit-stackbit-theme-exto-master.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbit-stackbit-theme-exto-master-2x.jpg"
     }
   },
-  "stackbithq-stackbit-theme-fjord-master": {
-    "theme_key": "stackbithq-stackbit-theme-fjord-master",
+  "stackbit-stackbit-theme-fjord-master": {
+    "theme_key": "stackbit-stackbit-theme-fjord-master",
     "file": "stackbit-fjord-unibit.md",
     "name": "stackbit-theme-fjord",
     "title": "Fjord",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-fjord",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-fjord",
     "branch": "master",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-fjord",
+    "github_url": "https://github.com/stackbit/stackbit-theme-fjord",
     "demo_url": "https://themes.stackbit.com/demos/fjord?themeBarHidden=true",
     "stars": 43,
     "forks": 53,
@@ -19520,20 +19520,20 @@
     "description": "Fjord is a minimal blogging theme for Stackbit",
     "stale": false,
     "images": {
-      "hires": "https://www.jamstackthemes.dev/capture/stackbithq-stackbit-theme-fjord-master.png",
-      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbithq-stackbit-theme-fjord-master.jpg",
-      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbithq-stackbit-theme-fjord-master-2x.jpg"
+      "hires": "https://www.jamstackthemes.dev/capture/stackbit-stackbit-theme-fjord-master.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbit-stackbit-theme-fjord-master.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbit-stackbit-theme-fjord-master-2x.jpg"
     }
   },
-  "stackbithq-stackbit-theme-fractal-master": {
-    "theme_key": "stackbithq-stackbit-theme-fractal-master",
+  "stackbit-stackbit-theme-fractal-master": {
+    "theme_key": "stackbit-stackbit-theme-fractal-master",
     "file": "stackbit-fractal-unibit.md",
     "name": "stackbit-theme-fractal",
     "title": "Fractal",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-fractal",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-fractal",
     "branch": "master",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-fractal",
+    "github_url": "https://github.com/stackbit/stackbit-theme-fractal",
     "demo_url": "https://themes.stackbit.com/demos/fractal/blue?demo=jstfractalunibit",
     "stars": 5,
     "forks": 7,
@@ -19543,15 +19543,15 @@
     "description": "Fractal single page mobile application marketing theme for Stackbit",
     "stale": false
   },
-  "stackbithq-stackbit-theme-fresh-gatsby": {
-    "theme_key": "stackbithq-stackbit-theme-fresh-gatsby",
+  "stackbit-stackbit-theme-fresh-gatsby": {
+    "theme_key": "stackbit-stackbit-theme-fresh-gatsby",
     "file": "stackbit-theme-fresh-gatsby.md",
     "name": "stackbit-theme-fresh",
     "title": "Gatsby Fresh",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-fresh",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-fresh",
     "branch": "gatsby",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-fresh",
+    "github_url": "https://github.com/stackbit/stackbit-theme-fresh",
     "demo_url": "https://themes.stackbit.com/demos/fresh",
     "stars": 42,
     "forks": 52,
@@ -19561,15 +19561,15 @@
     "description": "Fresh a personal theme with a blog for Stackbit",
     "stale": true
   },
-  "stackbithq-stackbit-theme-fresh-hugo": {
-    "theme_key": "stackbithq-stackbit-theme-fresh-hugo",
+  "stackbit-stackbit-theme-fresh-hugo": {
+    "theme_key": "stackbit-stackbit-theme-fresh-hugo",
     "file": "stackbit-theme-fresh-hugo.md",
     "name": "stackbit-theme-fresh",
     "title": "Hugo Fresh",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-fresh",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-fresh",
     "branch": "hugo",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-fresh",
+    "github_url": "https://github.com/stackbit/stackbit-theme-fresh",
     "demo_url": "https://themes.stackbit.com/demos/fresh",
     "stars": 42,
     "forks": 52,
@@ -19579,15 +19579,15 @@
     "description": "Fresh a personal theme with a blog for Stackbit",
     "stale": true
   },
-  "stackbithq-stackbit-theme-fresh-jekyll": {
-    "theme_key": "stackbithq-stackbit-theme-fresh-jekyll",
+  "stackbit-stackbit-theme-fresh-jekyll": {
+    "theme_key": "stackbit-stackbit-theme-fresh-jekyll",
     "file": "stackbit-theme-fresh-jekyll.md",
     "name": "stackbit-theme-fresh",
     "title": "Jekyll Fresh",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-fresh",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-fresh",
     "branch": "jekyll",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-fresh",
+    "github_url": "https://github.com/stackbit/stackbit-theme-fresh",
     "demo_url": "https://themes.stackbit.com/demos/fresh",
     "stars": 42,
     "forks": 52,
@@ -19597,15 +19597,15 @@
     "description": "Fresh a personal theme with a blog for Stackbit",
     "stale": true
   },
-  "stackbithq-stackbit-theme-fresh-master": {
-    "theme_key": "stackbithq-stackbit-theme-fresh-master",
+  "stackbit-stackbit-theme-fresh-master": {
+    "theme_key": "stackbit-stackbit-theme-fresh-master",
     "file": "stackbit-fresh-unibit.md",
     "name": "stackbit-theme-fresh",
     "title": "Fresh",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-fresh",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-fresh",
     "branch": "master",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-fresh",
+    "github_url": "https://github.com/stackbit/stackbit-theme-fresh",
     "demo_url": "https://themes.stackbit.com/demos/fresh?themeBarHidden=true",
     "stars": 52,
     "forks": 62,
@@ -19615,20 +19615,20 @@
     "description": "Fresh a personal theme with a blog for Stackbit",
     "stale": false,
     "images": {
-      "hires": "https://www.jamstackthemes.dev/capture/stackbithq-stackbit-theme-fresh-master.png",
-      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbithq-stackbit-theme-fresh-master.jpg",
-      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbithq-stackbit-theme-fresh-master-2x.jpg"
+      "hires": "https://www.jamstackthemes.dev/capture/stackbit-stackbit-theme-fresh-master.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbit-stackbit-theme-fresh-master.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbit-stackbit-theme-fresh-master-2x.jpg"
     }
   },
-  "stackbithq-stackbit-theme-hyperspace-master": {
-    "theme_key": "stackbithq-stackbit-theme-hyperspace-master",
+  "stackbit-stackbit-theme-hyperspace-master": {
+    "theme_key": "stackbit-stackbit-theme-hyperspace-master",
     "file": "stackbit-hyperspace-unibit.md",
     "name": "stackbit-theme-hyperspace",
     "title": "Hyperspace",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-hyperspace",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-hyperspace",
     "branch": "master",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-hyperspace",
+    "github_url": "https://github.com/stackbit/stackbit-theme-hyperspace",
     "demo_url": "https://themes.stackbit.com/demos/hyperspace/blue?demo=jsthyperspaceunibit",
     "stars": 8,
     "forks": 11,
@@ -19638,15 +19638,15 @@
     "description": "Hyperspace a multi-page theme with scroll-animated home sections for Stackbit",
     "stale": false
   },
-  "stackbithq-stackbit-theme-libris-master": {
-    "theme_key": "stackbithq-stackbit-theme-libris-master",
+  "stackbit-stackbit-theme-libris-master": {
+    "theme_key": "stackbit-stackbit-theme-libris-master",
     "file": "stackbit-libris-unibit.md",
     "name": "stackbit-theme-libris",
     "title": "Libris",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-libris",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-libris",
     "branch": "master",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-libris",
+    "github_url": "https://github.com/stackbit/stackbit-theme-libris",
     "demo_url": "https://themes.stackbit.com/demos/libris/blue?demo=jstlibrisunibit",
     "stars": 42,
     "forks": 44,
@@ -19656,20 +19656,20 @@
     "description": "Libris is a documentation theme for Stackbit",
     "stale": false,
     "images": {
-      "hires": "https://www.jamstackthemes.dev/capture/stackbithq-stackbit-theme-libris-master.png",
-      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbithq-stackbit-theme-libris-master.jpg",
-      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbithq-stackbit-theme-libris-master-2x.jpg"
+      "hires": "https://www.jamstackthemes.dev/capture/stackbit-stackbit-theme-libris-master.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbit-stackbit-theme-libris-master.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbit-stackbit-theme-libris-master-2x.jpg"
     }
   },
-  "stackbithq-stackbit-theme-phantom-master": {
-    "theme_key": "stackbithq-stackbit-theme-phantom-master",
+  "stackbit-stackbit-theme-phantom-master": {
+    "theme_key": "stackbit-stackbit-theme-phantom-master",
     "file": "stackbit-theme-phantom.md",
     "name": "stackbit-theme-phantom",
     "title": "Phantom",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-phantom",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-phantom",
     "branch": "master",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-phantom",
+    "github_url": "https://github.com/stackbit/stackbit-theme-phantom",
     "demo_url": "https://themes.stackbit.com/demos/phantom",
     "stars": 6,
     "forks": 8,
@@ -19679,20 +19679,20 @@
     "description": "Phantom a multipage theme with posts for Stackbit",
     "stale": false,
     "images": {
-      "hires": "https://www.jamstackthemes.dev/capture/stackbithq-stackbit-theme-phantom-master.png",
-      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbithq-stackbit-theme-phantom-master.jpg",
-      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbithq-stackbit-theme-phantom-master-2x.jpg"
+      "hires": "https://www.jamstackthemes.dev/capture/stackbit-stackbit-theme-phantom-master.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbit-stackbit-theme-phantom-master.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbit-stackbit-theme-phantom-master-2x.jpg"
     }
   },
-  "stackbithq-stackbit-theme-reflex-master": {
-    "theme_key": "stackbithq-stackbit-theme-reflex-master",
+  "stackbit-stackbit-theme-reflex-master": {
+    "theme_key": "stackbit-stackbit-theme-reflex-master",
     "file": "stackbit-reflex-unibit.md",
     "name": "stackbit-theme-reflex",
     "title": "Reflex",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-reflex",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-reflex",
     "branch": "master",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-reflex",
+    "github_url": "https://github.com/stackbit/stackbit-theme-reflex",
     "demo_url": "https://themes.stackbit.com/demos/reflex",
     "stars": 8,
     "forks": 9,
@@ -19702,15 +19702,15 @@
     "description": "Reflex a multipage theme with posts for Stackbit",
     "stale": false
   },
-  "stackbithq-stackbit-theme-spectral-hugo": {
-    "theme_key": "stackbithq-stackbit-theme-spectral-hugo",
+  "stackbit-stackbit-theme-spectral-hugo": {
+    "theme_key": "stackbit-stackbit-theme-spectral-hugo",
     "file": "stackbit-theme-spectral-hugo.md",
     "name": "stackbit-theme-spectral",
     "title": "Spectral Hugo",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-spectral",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-spectral",
     "branch": "hugo",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-spectral",
+    "github_url": "https://github.com/stackbit/stackbit-theme-spectral",
     "demo_url": "https://themes.stackbit.com/demos/spectral/blue",
     "stars": 8,
     "forks": 15,
@@ -19719,20 +19719,20 @@
     "created_at": "2019-05-10T14:40:45Z",
     "description": "Spectral a multipage theme for Stackbit",
     "images": {
-      "hires": "https://www.jamstackthemes.dev/capture/stackbithq-stackbit-theme-spectral-hugo.png",
-      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbithq-stackbit-theme-spectral-hugo.jpg",
-      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbithq-stackbit-theme-spectral-hugo-2x.jpg"
+      "hires": "https://www.jamstackthemes.dev/capture/stackbit-stackbit-theme-spectral-hugo.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbit-stackbit-theme-spectral-hugo.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbit-stackbit-theme-spectral-hugo-2x.jpg"
     }
   },
-  "stackbithq-stackbit-theme-spectral-master": {
-    "theme_key": "stackbithq-stackbit-theme-spectral-master",
+  "stackbit-stackbit-theme-spectral-master": {
+    "theme_key": "stackbit-stackbit-theme-spectral-master",
     "file": "stackbit-spectral-unibit.md",
     "name": "stackbit-theme-spectral",
     "title": "Spectral",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-spectral",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-spectral",
     "branch": "master",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-spectral",
+    "github_url": "https://github.com/stackbit/stackbit-theme-spectral",
     "demo_url": "https://themes.stackbit.com/demos/spectral/blue",
     "stars": 8,
     "forks": 15,
@@ -19742,15 +19742,15 @@
     "description": "Spectral a multipage theme for Stackbit",
     "stale": false
   },
-  "stackbithq-stackbit-theme-starter-master": {
-    "theme_key": "stackbithq-stackbit-theme-starter-master",
+  "stackbit-stackbit-theme-starter-master": {
+    "theme_key": "stackbit-stackbit-theme-starter-master",
     "file": "stackbit-starter-unibit.md",
     "name": "stackbit-theme-starter",
     "title": "Starter Stackbit",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-starter",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-starter",
     "branch": "master",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-starter",
+    "github_url": "https://github.com/stackbit/stackbit-theme-starter",
     "demo_url": "https://themes.stackbit.com/demos/starter?themeBarHidden=true",
     "stars": 9,
     "forks": 5,
@@ -19760,20 +19760,20 @@
     "description": "Ultra customizable starter. A developers' favorite.",
     "stale": false,
     "images": {
-      "hires": "https://www.jamstackthemes.dev/capture/stackbithq-stackbit-theme-starter-master.png",
-      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbithq-stackbit-theme-starter-master.jpg",
-      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbithq-stackbit-theme-starter-master-2x.jpg"
+      "hires": "https://www.jamstackthemes.dev/capture/stackbit-stackbit-theme-starter-master.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbit-stackbit-theme-starter-master.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbit-stackbit-theme-starter-master-2x.jpg"
     }
   },
-  "stackbithq-stackbit-theme-universal-master": {
-    "theme_key": "stackbithq-stackbit-theme-universal-master",
+  "stackbit-stackbit-theme-universal-master": {
+    "theme_key": "stackbit-stackbit-theme-universal-master",
     "file": "stackbit-theme-universal.md",
     "name": "stackbit-theme-universal",
     "title": "Stackbit Universal",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-universal",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-universal",
     "branch": "master",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-universal",
+    "github_url": "https://github.com/stackbit/stackbit-theme-universal",
     "demo_url": "https://themes.stackbit.com/demos/universal",
     "stars": 14,
     "forks": 15,
@@ -19783,20 +19783,20 @@
     "description": "Universal the default starter theme for Unibit",
     "stale": false,
     "images": {
-      "hires": "https://www.jamstackthemes.dev/capture/stackbithq-stackbit-theme-universal-master.png",
-      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbithq-stackbit-theme-universal-master.jpg",
-      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbithq-stackbit-theme-universal-master-2x.jpg"
+      "hires": "https://www.jamstackthemes.dev/capture/stackbit-stackbit-theme-universal-master.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbit-stackbit-theme-universal-master.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbit-stackbit-theme-universal-master-2x.jpg"
     }
   },
-  "stackbithq-stackbit-theme-vanilla-gatsby": {
-    "theme_key": "stackbithq-stackbit-theme-vanilla-gatsby",
+  "stackbit-stackbit-theme-vanilla-gatsby": {
+    "theme_key": "stackbit-stackbit-theme-vanilla-gatsby",
     "file": "stackbit-theme-vanilla-gatsby.md",
     "name": "stackbit-theme-vanilla",
     "title": "Gatsby Vanilla",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-vanilla",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-vanilla",
     "branch": "gatsby",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-vanilla",
+    "github_url": "https://github.com/stackbit/stackbit-theme-vanilla",
     "demo_url": "https://themes.stackbit.com/demos/vanilla",
     "stars": 12,
     "forks": 10,
@@ -19806,15 +19806,15 @@
     "description": "Vanilla a vanilla theme for Stackbit",
     "stale": true
   },
-  "stackbithq-stackbit-theme-vanilla-hugo": {
-    "theme_key": "stackbithq-stackbit-theme-vanilla-hugo",
+  "stackbit-stackbit-theme-vanilla-hugo": {
+    "theme_key": "stackbit-stackbit-theme-vanilla-hugo",
     "file": "stackbit-theme-vanilla-hugo.md",
     "name": "stackbit-theme-vanilla",
     "title": "Hugo Vanilla",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-vanilla",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-vanilla",
     "branch": "hugo",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-vanilla",
+    "github_url": "https://github.com/stackbit/stackbit-theme-vanilla",
     "demo_url": "https://themes.stackbit.com/demos/vanilla",
     "stars": 12,
     "forks": 10,
@@ -19824,15 +19824,15 @@
     "description": "Vanilla a vanilla theme for Stackbit",
     "stale": true
   },
-  "stackbithq-stackbit-theme-vanilla-jekyll": {
-    "theme_key": "stackbithq-stackbit-theme-vanilla-jekyll",
+  "stackbit-stackbit-theme-vanilla-jekyll": {
+    "theme_key": "stackbit-stackbit-theme-vanilla-jekyll",
     "file": "stackbit-theme-vanilla-jekyll.md",
     "name": "stackbit-theme-vanilla",
     "title": "Jekyll Vanilla",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-vanilla",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-vanilla",
     "branch": "jekyll",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-vanilla",
+    "github_url": "https://github.com/stackbit/stackbit-theme-vanilla",
     "demo_url": "https://themes.stackbit.com/demos/vanilla",
     "stars": 12,
     "forks": 10,
@@ -19842,15 +19842,15 @@
     "description": "Vanilla a vanilla theme for Stackbit",
     "stale": true
   },
-  "stackbithq-stackbit-theme-vanilla-master": {
-    "theme_key": "stackbithq-stackbit-theme-vanilla-master",
+  "stackbit-stackbit-theme-vanilla-master": {
+    "theme_key": "stackbit-stackbit-theme-vanilla-master",
     "file": "stackbit-vanilla-unibit.md",
     "name": "stackbit-theme-vanilla",
     "title": "Vanilla",
-    "github_username": "stackbithq",
-    "repo": "stackbithq/stackbit-theme-vanilla",
+    "github_username": "stackbit",
+    "repo": "stackbit/stackbit-theme-vanilla",
     "branch": "master",
-    "github_url": "https://github.com/stackbithq/stackbit-theme-vanilla",
+    "github_url": "https://github.com/stackbit/stackbit-theme-vanilla",
     "demo_url": "https://themes.stackbit.com/demos/vanilla?themeBarHidden=true",
     "stars": 20,
     "forks": 12,
@@ -19860,9 +19860,9 @@
     "description": "Vanilla a vanilla theme for Stackbit",
     "stale": false,
     "images": {
-      "hires": "https://www.jamstackthemes.dev/capture/stackbithq-stackbit-theme-vanilla-master.png",
-      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbithq-stackbit-theme-vanilla-master.jpg",
-      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbithq-stackbit-theme-vanilla-master-2x.jpg"
+      "hires": "https://www.jamstackthemes.dev/capture/stackbit-stackbit-theme-vanilla-master.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/stackbit-stackbit-theme-vanilla-master.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/stackbit-stackbit-theme-vanilla-master-2x.jpg"
     }
   },
   "stackrole-gatsby-starter-foundation-master": {

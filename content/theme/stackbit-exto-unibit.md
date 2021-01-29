@@ -1,6 +1,6 @@
 ---
 title: Exto
-github: 'https://github.com/stackbithq/stackbit-theme-exto'
+github: 'https://github.com/stackbit/stackbit-theme-exto'
 github_branch: master
 demo: 'https://themes.stackbit.com/demos/exto?themeBarHidden=true'
 author: Stackbit

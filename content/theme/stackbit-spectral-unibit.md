@@ -1,6 +1,6 @@
 ---
 title: Spectral
-github: 'https://github.com/stackbithq/stackbit-theme-spectral'
+github: 'https://github.com/stackbit/stackbit-theme-spectral'
 demo: 'https://themes.stackbit.com/demos/spectral/blue?themeBarHidden=true'
 author: Stackbit
 ssg:

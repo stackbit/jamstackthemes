@@ -1,6 +1,6 @@
 ---
 title: Construct
-github: 'https://github.com/stackbithq/stackbit-theme-construct'
+github: 'https://github.com/stackbit/stackbit-theme-construct'
 github_branch: master
 demo: 'https://themes.stackbit.com/demos/construct/blue?themeBarHidden=true'
 author: Stackbit

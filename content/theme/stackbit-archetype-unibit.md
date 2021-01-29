@@ -1,6 +1,6 @@
 ---
 title: Archetype
-github: 'https://github.com/stackbithq/stackbit-theme-archetype'
+github: 'https://github.com/stackbit/stackbit-theme-archetype'
 demo: 'https://themes.stackbit.com/demos/archetype/blue?themeBarHidden=true'
 author: Stackbit
 ssg:
