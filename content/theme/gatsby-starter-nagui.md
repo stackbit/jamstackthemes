@@ -10,5 +10,5 @@ cms:
 date: 2019-07-15T06:31:10.000Z
 github_branch: master
 description: Gatsbyjs Starter
-stale: false
+stale: true
 ---

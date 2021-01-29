@@ -12,5 +12,5 @@ github_branch: master
 description: >-
   minimo-eng - Minimalist theme for Hugo tuned for engineering content, based on
   Minimo
-stale: false
+stale: true
 ---

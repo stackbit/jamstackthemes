@@ -1,9 +1,9 @@
 ---
-title: "Eleventy Chirpy Blog Template"
-github: https://github.com/muenzpraeger/eleventy-chirpy-blog-template
-demo: https://eleventy-chirpy-blog-template.netlify.app/
+title: Eleventy Chirpy Blog Template
+github: 'https://github.com/muenzpraeger/eleventy-chirpy-blog-template'
+demo: 'https://eleventy-chirpy-blog-template.netlify.app/'
 author: René Winkelmeyer
-date: 2021-08-28
+date: 2021-08-28T00:00:00.000Z
 github_branch: main
 ssg:
   - Eleventy
@@ -13,8 +13,8 @@ css:
   - Tailwind
 archetype:
   - Blog
-description: >-
-  11ty version of the popular Chirpy Jekyll blog theme
+description: 11ty version of the popular Chirpy Jekyll blog theme
+stale: false
 ---
 
 # Eleventy Chirpy Blog Template

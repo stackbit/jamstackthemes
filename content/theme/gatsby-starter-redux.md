@@ -10,5 +10,5 @@ cms:
 date: 2018-02-11T03:38:08.000Z
 github_branch: master
 description: 'Simple and clean Startersite for Gatsby with Redux and Emotion '
-stale: false
+stale: true
 ---

@@ -13,5 +13,5 @@ description: >-
   Gatsby.js V2 starter template based on Dimension, designed by HTML5 UP. Check
   out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby
   starters.
-stale: false
+stale: true
 ---

@@ -16,5 +16,5 @@ github_branch: master
 description: >-
   Jekyll-Uno-Timeline - a minimal, responsive theme for Jekyll based on Uno for
   Ghost with a list of projects as Timeline and without blog.
-stale: false
+stale: true
 ---

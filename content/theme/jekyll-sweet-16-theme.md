@@ -11,4 +11,6 @@ date: 2017-02-08T20:32:46.000Z
 github_branch: master
 description: Wordpress 2016 theme in Jekyll
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

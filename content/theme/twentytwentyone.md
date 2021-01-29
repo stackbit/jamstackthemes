@@ -1,10 +1,10 @@
 ---
-title: "Twenty Twentyone"
-github: https://github.com/smolcodes/twentytwenyonetheme
-demo: https://twentytwenyonetheme.netlify.app/
+title: Twenty Twentyone
+github: 'https://github.com/smolcodes/twentytwenyonetheme'
+demo: 'https://twentytwenyonetheme.netlify.app/'
 author: smolcodes
-date: 2019-01-21 
-github_branch: main 
+date: 2019-01-21T00:00:00.000Z
+github_branch: main
 ssg:
   - Eleventy
 cms:
@@ -14,6 +14,7 @@ css:
 archetype:
   - Blog
 description: This is a simple little blog with support for writing math
+stale: false
 ---
 
 # A simple theme for blogging

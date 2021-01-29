@@ -10,5 +10,5 @@ cms:
 date: 2017-05-15T03:51:22.000Z
 github_branch: master
 description: Outstanding mkdocs theme with a focus on navigation and usability
-stale: false
+stale: true
 ---

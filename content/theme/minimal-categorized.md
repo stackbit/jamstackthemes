@@ -1,9 +1,9 @@
 ---
-title: "minimal-categorized"
-github: https://github.com/ItsMeaga1n/minimal-categorized
-demo: https://itsmeaga1n.github.io/minimal-categorized/
+title: minimal-categorized
+github: 'https://github.com/ItsMeaga1n/minimal-categorized'
+demo: 'https://itsmeaga1n.github.io/minimal-categorized/'
 author: ItsMeaga1n
-date: 2021-01-24
+date: 2021-01-24T00:00:00.000Z
 github_branch: master
 ssg:
   - Jekyll
@@ -12,7 +12,10 @@ cms:
 archetype:
   - Blog
   - Portfolio
-description: This is a flexible Jekyll theme, designed for sites with content easily aggregated into categories.
+description: >-
+  This is a flexible Jekyll theme, designed for sites with content easily
+  aggregated into categories.
+stale: false
 ---
 
 # Minimal Jekyll theme for aggregated content

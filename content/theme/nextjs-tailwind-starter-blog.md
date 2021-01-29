@@ -1,9 +1,9 @@
 ---
 title: Next.js Tailwind Starter Blog
-github: "https://github.com/timlrx/tailwind-nextjs-starter-blog"
-demo: "https://tailwind-nextjs-starter-blog.vercel.app"
+github: 'https://github.com/timlrx/tailwind-nextjs-starter-blog'
+demo: 'https://tailwind-nextjs-starter-blog.vercel.app'
 author: timlrx
-date: 2021-01-21
+date: 2021-01-21T00:00:00.000Z
 github_branch: master
 ssg:
   - Next
@@ -14,7 +14,11 @@ css:
 archetype:
   - Blog
   - Portfolio
-description: Next.js blogging template with Tailwind CSS. Comes out of the box configured with the latest technologies to make technical writing a breeze. Easily configurable and customizable.
+description: >-
+  Next.js blogging template with Tailwind CSS. Comes out of the box configured
+  with the latest technologies to make technical writing a breeze. Easily
+  configurable and customizable.
+stale: false
 ---
 
 # Tailwind Nextjs Starter Blog
