@@ -1,10 +1,21 @@
-{{ define "title" }}{{.Title}} Themes{{ if gt .Paginator.PageNumber 1 }} | Page {{ .Paginator.PageNumber }}{{ end }}{{ end }}
+{{ define "title" }}{{ $themes := .RegularPages }}{{ $themes := (where $themes ".Params.draft" "!=" true) }}{{ $themes := (where $themes ".Params.disabled" "!=" true) }}{{ $paginatorTitle := .Paginate $themes }}{{ .Title }} Themes ({{ $paginatorTitle.TotalNumberOfElements }}){{ if gt $paginatorTitle.PageNumber 1 }} | Page {{ .Paginator.PageNumber }}{{ end }}{{ end }}
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-taxonomy{{ end }}
 
 {{ define "meta_description" }}
 <meta name="description" content="Browse {{ .Title }} themes, starters and templates." />
 {{ end }}
+
+{{ define "ogmeta" }}
+    <meta property="og:title" content="{{ .Title }} Themes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:description" content="Browse {{ .Title }} themes, starters and templates.">
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/jamstackthemes-screenshot.png">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@jamstackthemes" />
+    <meta name="twitter:creator" content="@jamstackthemes" />
+{{end}}
 
 {{ define "main" }}
 {{ $themes := .RegularPages }}
@@ -30,16 +41,13 @@
             <div id="grids-taxonomy" class="row mt-2">
             {{ $paginator := .Paginate $themes }}
             {{ range $paginator.Pages }}
-                {{ if not .Params.disabled }}
                 {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
                 {{ $repo := index .Site.Data.themes $repoName }}
                 {{ $stackbit := index .Site.Data.stackbit $repoName }}
                 {{ partial "theme-card.html" (dict "theme" . "repo" $repo "stackbit" $stackbit "site" $.Site) }}
-                {{ end }}
             {{ end }}
             </div>
 
-            {{ $paginator := .Paginator }}
             {{ partial "pagination.html" . }}
 
         </div>

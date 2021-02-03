@@ -4,8 +4,6 @@ $grey: #e9e9e9;
 $steel: #585858;
 $carbon: #2a2a2a;
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
-
 $font-family-base: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $font-family-heading: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $font-family-mono: monospace;
@@ -16,8 +14,7 @@ $grid-breakpoints: (
     sm: 576px,
     md: 768px,
     lg: 992px,
-    xl: 1240px,
-    xxl: 1400px
+    xl: 1240px
 );
 
 $container-max-widths: (
@@ -43,17 +40,7 @@ $spacers: map-merge(
     7: 70px,
     8: 80px,
     9: 90px,
-    10: 100px,
-    11: 110px,
-    12: 120px,
-    13: 130px,
-    14: 140px,
-    15: 150px,
-    16: 160px,
-    17: 170px,
-    18: 180px,
-    19: 190px,
-    20: 200px,
+    10: 100px
   ),
   $spacers
 );
@@ -78,7 +65,7 @@ $spacers: map-merge(
 @import 'github-metrics';
 @import 'content';
 @import 'label';
-@import 'pygments/github';
+//@import 'pygments/github';
 
 *,
 *::before,

@@ -13,7 +13,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ .Permalink }}" />
     <meta property="og:description" content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-    <meta property="og:image" content="{{ .Site.BaseURL }}/images/jamstackthemes-screenshot.png">
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/jamstackthemes-screenshot.png">
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@jamstackthemes" />
     <meta name="twitter:creator" content="@jamstackthemes" />
@@ -21,6 +21,9 @@
 
   {{ block "meta_description" . }}
   {{ end }}
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
 
   {{ if .Site.IsServer }}
   {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}

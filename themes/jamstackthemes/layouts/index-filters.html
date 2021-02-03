@@ -1,6 +1,6 @@
-{{ define "title" }}{{ $themes := (where .Site.RegularPages "Type" "theme") }}{{ $themes := (where $themes ".Params.draft" "!=" true) }}{{ $themes := (where $themes ".Params.stale" "!=" true) }}{{ $themes := (where $themes ".Params.disabled" "!=" "true") }}{{ $paginatorTitle := .Paginate $themes }}Jamstack Themes{{ if gt $paginatorTitle.PageNumber 1 }} | Page {{ .Paginator.PageNumber }}{{ end }}{{ end }}
+{{ define "title" }}Jamstack Themes{{ end }}
 {{ define "header_classes" }}{{ end }}
-{{ define "body_classes" }}page-home{{ end }}
+{{ define "body_classes" }}page-home has-sidebar{{ end }}
 
 {{ define "meta_description" }}
 {{ $themes := (where .Site.RegularPages "Type" "theme") }}
@@ -15,10 +15,17 @@
 {{ $themes := (where .Site.RegularPages "Type" "theme") }}
 {{ $themes := (where $themes ".Params.draft" "!=" true) }}
 {{ $themes := (where $themes ".Params.stale" "!=" true) }}
-{{ $themes := (where $themes ".Params.disabled" "!=" "true") }}
+{{ $themes := (where $themes ".Params.disabled" "!=" true) }}
 {{ $themeCount := len $themes}}
 
 <div class="wrapper">
+  <div class="sidebar">
+    <div class="container">
+      {{ partial "filters.html" (dict "context" . "countAll" false) }}
+      {{ partial "stackbit.html" . }}
+    </div>
+  </div>
+
   <div class="main">
     <div class="container">
 
@@ -30,9 +37,10 @@
         <div class="intro-description d-md-none"><p>A list of themes and starters for <a href="https://Jamstack.org/" target="_blank" rel="noopener">Jamstack</a> sites.</p></div>
       </div>
 
-      <div id="grids-homepage" class="row mt-2">
-        {{ $paginator := .Paginate $themes }}
-        {{ range $paginator.Pages }}
+      {{ partial "sort-buttons.html" . }}
+
+      <div id="grids-homepage" class="row mt-3">
+        {{ range (($themes.ByParam "date").Reverse).ByParam "weight" }}
           {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
           {{ $repo := index .Site.Data.themes $repoName }}
           {{ $stackbit := index .Site.Data.stackbit $repoName }}
@@ -40,9 +48,29 @@
         {{ end }}
       </div>
 
-      {{ partial "pagination.html" . }}
-
     </div>
   </div>
 </div>
+
+{{ partial "footer.html" . }}
+
+{{ end }}
+
+{{ define "footer_js" }}
+
+  {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
+  {{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
+  {{ $filterGroups := resources.Get "js/filter/filter-groups.js" }}
+  {{ $filterHash := resources.Get "js/filter/filter-hash.js" }}
+  {{ $filter := resources.Get "js/filter/filter.js" }}
+  {{ $filterToggle := resources.Get "js/filter/filter-toggle.js" }}
+
+  {{ $homeBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter $filterToggle | resources.Concat "js/homeBundle.js" }}
+
+  {{ if .Site.IsServer }}
+    <script type="text/javascript" src="{{ $homeBundle.RelPermalink }}"></script>
+    {{ else }}
+    <script type="text/javascript" src="{{ ($homeBundle | minify | fingerprint).RelPermalink }}"></script>
+  {{ end }}
+
 {{ end }}
