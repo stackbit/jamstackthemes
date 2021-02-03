@@ -9,7 +9,7 @@
   command = "npm run deploy"
 
 [context.branch-deploy]
-  command = "npm run noIndex"
+  command = "npm run deploy:branch"
 
 [[headers]]
   for = "/index.json"
