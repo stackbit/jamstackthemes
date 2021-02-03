@@ -1,6 +1,6 @@
 ---
 title: Hyperspace
-github: 'https://github.com/stackbithq/stackbit-theme-hyperspace'
+github: 'https://github.com/stackbit/stackbit-theme-hyperspace'
 demo: 'https://themes.stackbit.com/demos/hyperspace/blue?themeBarHidden=true'
 author: Stackbit
 ssg:

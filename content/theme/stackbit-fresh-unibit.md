@@ -1,6 +1,6 @@
 ---
 title: Fresh
-github: 'https://github.com/stackbithq/stackbit-theme-fresh'
+github: 'https://github.com/stackbit/stackbit-theme-fresh'
 github_branch: master
 demo: 'https://themes.stackbit.com/demos/fresh?themeBarHidden=true'
 author: Stackbit

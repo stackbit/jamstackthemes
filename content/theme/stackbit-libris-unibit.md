@@ -1,6 +1,6 @@
 ---
 title: Libris
-github: 'https://github.com/stackbithq/stackbit-theme-libris'
+github: 'https://github.com/stackbit/stackbit-theme-libris'
 demo: 'https://themes.stackbit.com/demos/libris/blue?themeBarHidden=true'
 author: Stackbit
 ssg:
