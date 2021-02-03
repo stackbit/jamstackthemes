@@ -2,6 +2,7 @@
   "scripts": {
     "build": "node ./scripts/generate-github.js && node ./scripts/capture-screenshots.js && node ./scripts/generate-thumbnails.js && hugo",
     "deploy": "node ./scripts/generate-github.js --latest && node ./scripts/capture-screenshots.js && node ./scripts/generate-thumbnails.js && hugo",
+    "deploy:branch": "npm run deploy && echo 'User-agent: *\nDisallow: /' > public/robots.txt",
     "fetch": "node ./scripts/generate-github.js --latest",
     "generate-github": "node ./scripts/generate-github.js",
     "capture-screenshots": "node ./scripts/capture-screenshots.js",

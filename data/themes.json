@@ -9390,6 +9390,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/itisbenjamin-nice_blog-master-2x.jpg"
     }
   },
+  "itsmeaga1n-minimal-categorized-master": {
+    "theme_key": "itsmeaga1n-minimal-categorized-master",
+    "file": "minimal-categorized.md",
+    "name": "minimal-categorized",
+    "title": "minimal-categorized",
+    "github_username": "ItsMeaga1n",
+    "repo": "ItsMeaga1n/minimal-categorized",
+    "branch": "master",
+    "github_url": "https://github.com/ItsMeaga1n/minimal-categorized",
+    "demo_url": "https://itsmeaga1n.github.io/minimal-categorized/",
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "last_commit": "2021-01-29T23:05:35Z",
+    "created_at": "2020-09-11T22:55:17Z",
+    "description": "Jekyll minimal-categorized theme",
+    "stale": false,
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/itsmeaga1n-minimal-categorized-master.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/itsmeaga1n-minimal-categorized-master.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/itsmeaga1n-minimal-categorized-master-2x.jpg"
+    }
+  },
   "itsnwa-darkfolio-master": {
     "theme_key": "itsnwa-darkfolio-master",
     "file": "darkfolio.md",
@@ -13794,6 +13817,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/mudassirgithub-next-basic-blog-master.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/mudassirgithub-next-basic-blog-master.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/mudassirgithub-next-basic-blog-master-2x.jpg"
+    }
+  },
+  "muenzpraeger-eleventy-chirpy-blog-template-main": {
+    "theme_key": "muenzpraeger-eleventy-chirpy-blog-template-main",
+    "file": "eleventy-chirpy-blog-template.md",
+    "name": "eleventy-chirpy-blog-template",
+    "title": "Eleventy Chirpy Blog Template",
+    "github_username": "muenzpraeger",
+    "repo": "muenzpraeger/eleventy-chirpy-blog-template",
+    "branch": "main",
+    "github_url": "https://github.com/muenzpraeger/eleventy-chirpy-blog-template",
+    "demo_url": "https://eleventy-chirpy-blog-template.netlify.app/",
+    "stars": 4,
+    "forks": 0,
+    "open_issues": 1,
+    "last_commit": "2021-02-01T08:24:14Z",
+    "created_at": "2021-01-28T07:00:56Z",
+    "description": "Blog template for 11ty based on Chirpy UX",
+    "stale": false,
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/muenzpraeger-eleventy-chirpy-blog-template-main.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/muenzpraeger-eleventy-chirpy-blog-template-main.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/muenzpraeger-eleventy-chirpy-blog-template-main-2x.jpg"
     }
   },
   "muhajirdev-gatsby-starter-firebase-master": {
@@ -18615,6 +18661,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/smallmuou-jekyll-pithy-master-2x.jpg"
     }
   },
+  "smolcodes-twentytwenyonetheme-main": {
+    "theme_key": "smolcodes-twentytwenyonetheme-main",
+    "file": "twentytwentyone.md",
+    "name": "twentytwenyonetheme",
+    "title": "Twenty Twentyone",
+    "github_username": "smolcodes",
+    "repo": "smolcodes/twentytwenyonetheme",
+    "branch": "main",
+    "github_url": "https://github.com/smolcodes/twentytwenyonetheme",
+    "demo_url": "https://twentytwenyonetheme.netlify.app/",
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "last_commit": "2021-02-02T04:08:26Z",
+    "created_at": "2021-01-21T20:35:55Z",
+    "description": "A Starter 11ty Theme designed with TailwindCSS with one click install for Netlify",
+    "stale": false,
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/smolcodes-twentytwenyonetheme-main.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/smolcodes-twentytwenyonetheme-main.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/smolcodes-twentytwenyonetheme-main-2x.jpg"
+    }
+  },
   "snipcart-11ty-demo-snipcart-master": {
     "theme_key": "snipcart-11ty-demo-snipcart-master",
     "file": "11ty-demo-snipcart.md",
@@ -21312,6 +21381,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/tigefa4u-jekmdl-gh-pages.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/tigefa4u-jekmdl-gh-pages.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/tigefa4u-jekmdl-gh-pages-2x.jpg"
+    }
+  },
+  "timlrx-tailwind-nextjs-starter-blog-master": {
+    "theme_key": "timlrx-tailwind-nextjs-starter-blog-master",
+    "file": "nextjs-tailwind-starter-blog.md",
+    "name": "tailwind-nextjs-starter-blog",
+    "title": "Next.js Tailwind Starter Blog",
+    "github_username": "timlrx",
+    "repo": "timlrx/tailwind-nextjs-starter-blog",
+    "branch": "master",
+    "github_url": "https://github.com/timlrx/tailwind-nextjs-starter-blog",
+    "demo_url": "https://tailwind-nextjs-starter-blog.vercel.app",
+    "stars": 53,
+    "forks": 12,
+    "open_issues": 1,
+    "last_commit": "2021-01-31T02:13:31Z",
+    "created_at": "2021-01-09T09:41:22Z",
+    "description": "This is a Next.js, Tailwind CSS blogging starter template. Comes out of the box configured with the latest technologies to make technical writing a breeze. Easily configurable and customizable. Perfect as a replacement to existing Jekyll and Hugo individual blogs.",
+    "stale": false,
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/timlrx-tailwind-nextjs-starter-blog-master.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/timlrx-tailwind-nextjs-starter-blog-master.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/timlrx-tailwind-nextjs-starter-blog-master-2x.jpg"
     }
   },
   "tnguyen-blueface-master": {

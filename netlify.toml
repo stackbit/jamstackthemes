@@ -8,6 +8,9 @@
 [context.deploy-preview]
   command = "npm run deploy"
 
+[context.branch-deploy]
+  command = "npm run noIndex"
+
 [[headers]]
   for = "/index.json"
   [headers.values]
