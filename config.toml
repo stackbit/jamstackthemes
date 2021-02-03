@@ -48,5 +48,5 @@ pygmentsUseClasses = true
 
 [[menu.main]]
 	name = "All Themes"
-	url = "/themes/"
+	url = "/theme/"
     weight = 2
