@@ -29,7 +29,7 @@
             {{ end }}
           {{ else }}
             {{ if (fileExists $staticPath) }}
-              <img loading="lazy" src="{{ $filePath | relURL }}" alt="{{ .theme.Params.title }} screenshot" srcset="{{ $filePathHiRes | relURL }} 2x" class="theme-screenshot"/>
+              <img width="296" height="222" loading="lazy" src="{{ $filePath | relURL }}" alt="{{ .theme.Params.title }} screenshot" srcset="{{ $filePathHiRes | relURL }} 2x" class="theme-screenshot"/>
             {{ else }}
               <img src="{{ "images/default.png" | relURL }}" loading="lazy" alt="{{ .theme.Params.title }} screenshot" class="theme-screenshot"/>
             {{ end }}

@@ -1,7 +1,6 @@
 .github-metrics {
   display: inline-flex;
   align-content: center;
-  //border: 1px solid $bone;
   align-items: flex-start;
   border-radius: 3px;
   margin: 0px -9px 10px -9px;
@@ -14,16 +13,18 @@
     &:last-of-type {
       border-right: none;
     }
-    svg {
+    img, svg {
+      opacity: 0.7;
+      width: 15px;
+      height: 15px;
       margin-right: 4px;
-      color: red;
       path {
         fill: $carbon;
       }
     }
     span {
       margin: 0;
-
+      line-height: 16px;
     }
   }
 }
