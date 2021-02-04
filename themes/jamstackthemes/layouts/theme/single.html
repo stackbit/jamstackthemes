@@ -99,9 +99,9 @@
                         <div class="action-buttons action-buttons-detail">
                             <a class="action-button action-button-github" data-action="github" data-context="detail" data-name="{{ .Title }}" href="{{ .Params.github }}" target="_blank" rel="nofollow noopener">Github</a>
                             {{ if .Site.Params.iframe_demo }}
-                                <a class="action-button action-button-demo" data-action="demo" data-context="detail" data-name="{{ .Title }}" href="/demo{{ .RelPermalink }}" target="_blank" rel="noopener nofollow">Live Demo</a>
+                                <a class="action-button action-button-demo" data-action="demo" data-context="detail" data-name="{{ .Title }}" href="/demo{{ .RelPermalink }}">Live Demo</a>
                             {{ else }}
-                                <a class="action-button action-button-demo" data-action="demo" data-context="detail" data-name="{{ .Title }}" href="{{ .Params.demo }}" target="_blank" rel="noopener nofollow">Live Demo</a>
+                                <a class="action-button action-button-demo" data-action="demo" data-context="detail" data-name="{{ .Title }}" href="{{ .Params.demo }}">Live Demo</a>
                             {{ end }}
 
                             {{ if .Site.Params.stackbit_button }}

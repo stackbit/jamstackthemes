@@ -67,12 +67,6 @@ $spacers: map-merge(
 @import 'label';
 //@import 'pygments/github';
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 html {
   margin: 0;
   padding: 0;

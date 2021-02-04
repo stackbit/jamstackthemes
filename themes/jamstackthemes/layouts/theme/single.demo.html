@@ -33,12 +33,11 @@
         <div class="container">
             <div class="logo d-none d-md-block">
                 <a href="/" title="Jamstack Themes">Jamstack Themes </a>
-
             </div>
 
             <div class="demo-heading">
                 <h1 class="demo-title">{{ .Title }}</h1>
-                <div class="theme-tags">
+                <div class="theme-tags d-none d-lg-block">
                 {{ if .Params.ssg }}
                 {{- range .Params.ssg }}
                 {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}

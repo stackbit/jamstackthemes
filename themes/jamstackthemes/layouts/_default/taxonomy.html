@@ -1,4 +1,4 @@
-{{ define "title" }}{{ $themes := .RegularPages }}{{ $themes := (where $themes ".Params.draft" "!=" true) }}{{ $themes := (where $themes ".Params.disabled" "!=" true) }}{{ $paginatorTitle := .Paginate $themes }}{{ .Title }} Themes ({{ $paginatorTitle.TotalNumberOfElements }}){{ if gt $paginatorTitle.PageNumber 1 }} | Page {{ .Paginator.PageNumber }}{{ end }}{{ end }}
+{{ define "title" }}{{ $themes := .RegularPages }}{{ $themes := (where $themes ".Params.draft" "!=" true) }}{{ $themes := (where $themes ".Params.disabled" "!=" true) }}{{ $paginatorTitle := .Paginate $themes }}{{ .Title }} Themes ({{ $paginatorTitle.TotalNumberOfElements }}){{ if gt $paginatorTitle.PageNumber 1 }} | Page {{ $paginatorTitle.PageNumber }}{{ end }}{{ end }}
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-taxonomy{{ end }}
 

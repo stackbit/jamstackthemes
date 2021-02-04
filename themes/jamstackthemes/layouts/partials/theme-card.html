@@ -70,14 +70,14 @@
            data-context="card"
            data-name="{{ .theme.Title }}"
            href="/demo{{ .theme.RelPermalink }}"
-           target="_blank" rel="noopener nofollow">Live Demo</a>
+        >Live Demo</a>
       {{ else }}
         <a class="action-button action-button-demo"
            data-action="demo"
            data-context="card"
            data-name="{{ .theme.Title }}"
            href="{{ .theme.Params.demo }}"
-           target="_blank" rel="noopener nofollow">Live Demo</a>
+        >Live Demo</a>
       {{ end }}
       {{ if .site.Params.stackbit_button }}
         {{ if .theme.Params.stackbit }}

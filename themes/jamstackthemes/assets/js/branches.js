@@ -20,7 +20,6 @@ document.querySelectorAll(".action-button").forEach((button) => {
                 event.branch = branch;
             }
 
-            console.log(event);
             analytics.track("Theme Clicked", event);
         }
     });

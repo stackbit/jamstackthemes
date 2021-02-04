@@ -24,6 +24,7 @@
   .intro-title {
     display: inline-block;
     vertical-align: middle;
+    font-weight: 600;
     font-size: 24px;
     margin: 0;
     @include media-breakpoint-up(sm) {
@@ -67,7 +68,30 @@
     display: flex;
     align-items: center;
   }
+  .intro-hint {
+    font-size: 14px;
+    padding: 11px;
+    background: aliceblue;
+    border-radius: 2px;
+    color: #647f96;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p { margin: 0;}
+    .button {
+      color: #647f96;
+      border-color: #647f96;
+      margin: 0;
+    }
+    strong {
+
+    }
+  }
   .count {
     color: lighten($steel, 20%);
+    font-weight: 400;
+  }
+  .page-number {
+    font-weight: 400;
   }
 }
