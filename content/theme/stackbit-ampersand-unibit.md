@@ -1,5 +1,6 @@
 ---
 title: Ampersand
+layout: single-pricing
 github: 'https://github.com/stackbit/stackbit-theme-ampersand'
 github_branch: master
 demo: 'https://themes.stackbit.com/demos/ampersand?themeBarHidden=true'

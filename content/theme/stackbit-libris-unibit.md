@@ -1,5 +1,6 @@
 ---
 title: Libris
+layout: single-pricing
 github: 'https://github.com/stackbit/stackbit-theme-libris'
 demo: 'https://themes.stackbit.com/demos/libris/blue?themeBarHidden=true'
 author: Stackbit

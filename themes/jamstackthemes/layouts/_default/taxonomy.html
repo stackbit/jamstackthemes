@@ -1,4 +1,4 @@
-{{ define "title" }}{{ $themes := .RegularPages }}{{ $themes := (where $themes ".Params.draft" "!=" true) }}{{ $themes := (where $themes ".Params.disabled" "!=" true) }}{{ $paginatorTitle := .Paginate $themes }}{{ .Title }} Themes ({{ $paginatorTitle.TotalNumberOfElements }}){{ if gt $paginatorTitle.PageNumber 1 }} | Page {{ $paginatorTitle.PageNumber }}{{ end }}{{ end }}
+{{ define "title" }}{{ $themes := .RegularPages }}{{ $themes := (where $themes ".Params.draft" "!=" true) }}{{ $themes := (where $themes ".Params.disabled" "!=" true) }}{{ $paginatorTitle := .Paginate $themes }}{{ .Title }} Themes {{ if eq $paginatorTitle.PageNumber 1 }}({{ $paginatorTitle.TotalNumberOfElements }}){{ end }}{{ if gt $paginatorTitle.PageNumber 1 }} | Page {{ $paginatorTitle.PageNumber }}{{ end }}{{ end }}
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-taxonomy{{ end }}
 
@@ -22,6 +22,9 @@
 {{ $themes := (where $themes ".Params.draft" "!=" true) }}
 {{ $themes := (where $themes ".Params.disabled" "!=" true) }}
 {{ $themeCount := len $themes}}
+
+{{ $paginator := .Paginate $themes }}
+
 <div class="wrapper">
     <div class="main">
         <div class="container">
@@ -29,7 +32,10 @@
             <div class="intro">
                 <div class="intro-heading">
                     <div class="intro-icon"><img src="{{ .Params.icon | relURL }}" alt="{{.Title}} Logo" /></div>
-                    <h1 class="intro-title">{{.Title}} Themes <span class="count">({{ $themeCount }})</span></h1>
+                    <h1 class="intro-title">{{ .Title }} Themes
+                        <span class="page-number">{{ if gt $paginator.PageNumber 1 }} - Page {{ $paginator.PageNumber }}{{ end }}</span>
+                        {{ if eq $paginator.PageNumber 1 }}<span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span>{{ end }}
+                    </h1>
                 </div>
                 <div class="intro-description"><p>Browse our list of {{ .Title }} themes, starters and templates.</p></div>
                 <div class="intro-bar">
@@ -39,8 +45,8 @@
             </div>
 
             <div id="grids-taxonomy" class="row mt-2">
-            {{ $paginator := .Paginate $themes }}
-            {{ range $paginator.Pages }}
+
+            {{ range $paginator.Pages.ByDate.Reverse }}
                 {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
                 {{ $repo := index .Site.Data.themes $repoName }}
                 {{ $stackbit := index .Site.Data.stackbit $repoName }}

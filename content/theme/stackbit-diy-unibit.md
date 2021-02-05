@@ -1,5 +1,6 @@
 ---
 title: DIY
+layout: single-pricing
 github: 'https://github.com/stackbit/stackbit-theme-diy'
 github_branch: master
 demo: 'https://themes.stackbit.com/demos/diy?themeBarHidden=true'
@@ -34,10 +35,10 @@ weight: 1
 - Product cards
 - Blog & showcase
 - Mobile responsive
-- Customer testimonials 
+- Customer testimonials
 
 ### Super flexible template
 You can create various sections for your landing page like testimonials, clients logotypes grid, pricing, team section, etc.
 
 ### Comes with predefined colors and styles
-You can pick from preseleected colors and styles. Template styles include minimal, clasicc and bold. Pick what works best for your brand.
+You can pick from preselected colors and styles. Template styles include minimal, clasicc and bold. Pick what works best for your brand.

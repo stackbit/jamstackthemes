@@ -1,5 +1,6 @@
 ---
 title: Fractal
+layout: single-pricing
 github: 'https://github.com/stackbit/stackbit-theme-fractal'
 github_branch: master
 demo: 'https://themes.stackbit.com/demos/fractal/blue?themeBarHidden=true'

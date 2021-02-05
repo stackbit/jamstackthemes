@@ -6,6 +6,7 @@
   data-last-commit="{{ if .repo }}{{ .repo.last_commit }}{{ else }} XXX {{ end }}"
   data-submitted="{{ .theme.Date }}"
   data-name="{{ .theme.Title }}"
+  data-weight="{{ .theme.Params.weight | default 0 }}"
 >
   {{ $githubLink := .theme.Params.github }}
   {{ if ne .theme.Params.github_branch "master" }}
