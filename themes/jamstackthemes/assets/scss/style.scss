@@ -65,6 +65,8 @@ $spacers: map-merge(
 @import 'github-metrics';
 @import 'content';
 @import 'label';
+@import 'pricing';
+@import 'bootstrap/utilities';
 //@import 'pygments/github';
 
 html {

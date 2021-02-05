@@ -1,5 +1,6 @@
 ---
 title: Reflex
+layout: single-pricing
 github: 'https://github.com/stackbit/stackbit-theme-reflex'
 demo: 'https://themes.stackbit.com/demos/reflex?themeBarHidden=true'
 author: Stackbit

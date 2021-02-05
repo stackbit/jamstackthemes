@@ -1,5 +1,6 @@
 ---
 title: Spectral
+layout: single-pricing
 github: 'https://github.com/stackbit/stackbit-theme-spectral'
 demo: 'https://themes.stackbit.com/demos/spectral/blue?themeBarHidden=true'
 author: Stackbit

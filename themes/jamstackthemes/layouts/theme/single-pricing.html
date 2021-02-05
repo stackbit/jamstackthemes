@@ -1,0 +1,231 @@
+{{ define "title" }}{{ .Title }} - Theme Info{{ end }}
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-default-single{{ end }}
+
+{{ define "ogmeta" }}
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:description" content="{{ .Params.description }}" />
+    {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
+    {{ $repo := index .Site.Data.themes $repoName }}
+    {{ if $repo }}
+    {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
+    {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
+    {{ if (fileExists $staticPath) }}
+    <meta property="og:image" content="{{ $filePath | absURL }}">
+    {{ end }}
+    {{ end }}
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@jamstackthemes" />
+    <meta name="twitter:creator" content="@jamstackthemes" />
+{{end}}
+
+{{ define "meta_description" }}
+{{ $themes := (where .Site.RegularPages "Type" "theme") }}
+{{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themes := (where $themes ".Params.stale" "!=" true) }}
+{{ $themes := (where $themes ".Params.disabled" "!=" true) }}
+{{ $themeCount := len $themes}}
+<meta name="description" content="{{ .Params.description }}">
+{{ end }}
+
+{{ define "main" }}
+{{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
+{{ $repo := index .Site.Data.themes $repoName }}
+{{ $stackbit := index .Site.Data.stackbit $repoName }}
+
+<div class="wrapper">
+    <div class="main">
+        <div class="container mb-3 mb-lg-6">
+            <div class="theme theme-detail" data-name="{{ .Title }}">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-4">
+
+                        <div class="intro">
+                            <div class="intro-heading">
+                                <h1 class="intro-title">{{ .Title }} </h1>
+                            </div>
+                            <div class="intro-description"><p>{{ .Params.description }}</p></div>
+                        </div>
+
+                        <div class="theme-detail-tags">
+                            {{ if .Params.ssg }}
+                            {{- range .Params.ssg }}
+                            {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
+                            {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                            {{ end }}
+                            {{ end }}
+                            {{ end }}
+
+                            {{ if .Params.cms }}
+                            {{- range .Params.cms }}
+                            {{- with $.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
+                            {{ if eq .Page.Title "No CMS" }}
+                            {{ else }}
+                            {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                            {{ end }}
+                            {{ end }}
+                            {{ end }}
+                            {{ end }}
+
+                            {{ if .Params.css }}
+                            {{- range .Params.css }}
+                            {{- with $.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
+                            {{ if eq .Page.Title "No css" }}
+                            {{ else }}
+                            {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                            {{ end }}
+                            {{ end }}
+                            {{ end }}
+                            {{ end }}
+
+                            {{ if .Params.archetype }}
+                            {{- range .Params.archetype }}
+                            {{- with $.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
+                            {{ if eq .Page.Title "No archetype" }}
+                            {{ else }}
+                            {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                            {{ end }}
+                            {{ end }}
+                            {{ end }}
+                            {{ end }}
+                        </div>
+
+                        {{ partial "labels/label-author.html" (dict "author" .Params.author) }}
+                        {{ if $repo }}{{ partial "labels/label-stars.html" (dict "stars" $repo.stars) }}{{ end }}
+                        {{ if $repo }}{{ partial "labels/label-last-commit.html" (dict "last_commit" $repo.last_commit) }}{{ end }}
+
+                        <div class="action-buttons action-buttons-detail">
+                            {{ if .Site.Params.iframe_demo }}
+                            <a class="action-button action-button-demo" data-action="demo" data-context="detail" data-name="{{ .Title }}" href="/demo{{ .RelPermalink }}">Live Demo</a>
+                            {{ else }}
+                            <a class="action-button action-button-demo" data-action="demo" data-context="detail" data-name="{{ .Title }}" href="{{ .Params.demo }}">Live Demo</a>
+                            {{ end }}
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <div class="theme-detail-image">
+                            {{ if $repo }}
+                            {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
+                            {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
+                            {{ if (fileExists $staticPath) }}
+                            <img src="{{ $filePath | relURL }}" alt="{{ .Title }} screenshot"  />
+                            {{ end }}
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="strip strip-bone">
+            <div class="container pt-3 pb-3 pt-lg-6 pb-lg-6">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="strip-title">Download Options</h2>
+                    </div>
+                </div>
+                <div class="row pricing">
+                    <div class="col-12 col-md-4">
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h2>Theme</h2>
+                                <div class="pricing-cost">
+                                    <span class="pricing-cost-price">$0</span>
+                                </div>
+                            </div>
+                            <div class="pricing-body">
+                                <p>Download the theme as a .zip file</p>
+                                <ul>
+                                    <li>NextJS version of theme</li>
+                                    <li>No CMS, Markdown files only</li>
+                                    <li>Setup, provision and deploy yourself</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-footer">
+                                {{ if $stackbit }}
+                                {{ if $stackbit.createUrl }}
+                                <div class="action-buttons action-buttons-detail">
+                                    <a class="action-button action-button-fill action-button-stackbit" data-action="buy-free" data-context="detail" data-name="{{ .Title }}" href="{{ .Params.github }}/archive/master.zip" >Download .zip</a>
+                                </div>
+                                {{ end }}
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h2>Starter</h2>
+                                <div class="pricing-cost">
+                                    <span class="pricing-cost-price">$49</span>/
+                                    <span class="pricing-cost-period">Once off</span>
+                                </div>
+                            </div>
+                            <div class="pricing-body">
+                                <p>Instantly deploy a full website, with the tech stack of your choice</p>
+                                <ul>
+                                    <li>Pick from NextJS, Gatsby, Hugo or Jekyll versions of the theme</li>
+                                    <li>Select a headless CMS from Sanity, Contentful, DatoCMS or Forestry. Or use the Markdown files only.</li>
+                                    <li>Use Git or Markdown </li>
+                                    <li>Deployed to Netlify immediately.</li>
+                                </ul>
+                                {{ if $stackbit }}
+
+                            </div>
+                            <div class="pricing-footer">
+                                {{ if $stackbit.createUrl }}
+                                <div class="action-buttons action-buttons-detail">
+                                    <a class="action-button action-button-fill action-button-stackbit" data-action="buy-once" data-context="detail" data-name="{{ .Title }}" href="{{ $stackbit.createUrl }}&ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=detail" target="_blank" rel="noopener nofollow">Buy Now</a>
+                                </div>
+                                {{ end }}
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h2>Website</h2>
+                                <div class="pricing-cost">
+                                    <span class="pricing-cost-price">$29</span>/
+                                    <span class="pricing-cost-period">Month (1 Year)</span>
+                                </div>
+                            </div>
+                            <div class="pricing-body">
+                                <p>Everything in <strong>Starter</strong> + Stackbit Live Editor</p>
+                                <ul>
+                                    <li>Live preview, inline editing</li>
+                                    <li>Collaborators, roles and permissions</li>
+                                    <li>A/B testing</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-footer">
+                                {{ if $stackbit }}
+                                {{ if $stackbit.createUrl }}
+                                <div class="action-buttons action-buttons-detail">
+                                    <a class="action-button action-button-fill action-button-stackbit" data-action="buy-plan" data-context="detail" data-name="{{ .Title }}" href="{{ $stackbit.createUrl }}&ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=detail" target="_blank" rel="noopener nofollow">Start 7 Day Trial</a>
+                                </div>
+                                {{ end }}
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="strip strip-white">
+            <div class="container pt-3 pb-3 pt-lg-6 pb-lg-6">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <div class="content">
+                            {{ .Content }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

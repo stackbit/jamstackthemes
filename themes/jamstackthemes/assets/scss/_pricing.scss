@@ -1,0 +1,62 @@
+.pricing {
+  .pricing-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid $grey;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    padding: 20px;
+    .pricing-header {
+      display: flex;
+      justify-content: space-between;
+    }
+    .pricing-cost {
+      .pricing-cost-price {
+        font-size: 22px;
+      }
+
+      .pricing-cost-period {
+        font-size: 14px;
+      }
+    }
+    .pricing-body {
+      background: white;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+
+      h2 {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        @include media-breakpoint-up(xl) {
+          font-size: 26px;
+        }
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+          margin-left: 20px;
+        }
+      }
+
+    }
+
+    .pricing-footer {
+      .action-buttons {
+        margin: 0;
+        margin-top: 20px;
+      }
+    }
+  }
+}
