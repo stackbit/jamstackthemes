@@ -1,4 +1,4 @@
-baseURL = "https://jamstackthemes.dev"
+baseURL = "/"
 languageCode = "en-us"
 title = "Jamstack Themes"
 theme = "jamstackthemes"
