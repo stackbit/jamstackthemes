@@ -102,6 +102,7 @@
                             {{ else }}
                             <a class="action-button action-button-demo" data-action="demo" data-context="detail" data-name="{{ .Title }}" href="{{ .Params.demo }}">Live Demo</a>
                             {{ end }}
+                            <a class="action-button action-button-get-started action-button-fill" data-action="get-started" data-context="detail" data-name="{{ .Title }}" href="#get-started">Get Started</a>
                         </div>
 
                     </div>
@@ -111,7 +112,7 @@
                             {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
                             {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
                             {{ if (fileExists $staticPath) }}
-                            <img src="{{ $filePath | relURL }}" alt="{{ .Title }} screenshot"  />
+                            <img src="{{ $filePath | relURL }}" alt="{{ .Title }} screenshot" />
                             {{ end }}
                             {{ end }}
                         </div>
@@ -119,31 +120,31 @@
                 </div>
             </div>
         </div>
-        <div class="strip strip-bone">
+        <div id="get-started" class="strip strip-bone">
             <div class="container pt-3 pb-3 pt-lg-6 pb-lg-6">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <h2 class="strip-title">Download Options</h2>
+                        <h2 class="strip-title mb-3">Get Started</h2>
                     </div>
                 </div>
                 <div class="row pricing">
-                    <div class="col-12 col-md-4">
-                        <div class="pricing-card">
-                            <div class="pricing-header">
+                    <div class="col-12 col-md-4 mb-2">
+                        <div class="pricing-card pricing-card-theme">
+                            <div class="pricing-header p-2">
                                 <h2>Theme</h2>
                                 <div class="pricing-cost">
                                     <span class="pricing-cost-price">$0</span>
                                 </div>
                             </div>
-                            <div class="pricing-body">
-                                <p>Download the theme as a .zip file</p>
+                            <div class="pricing-body p-2">
+                                <p class="mb-3">Download the theme as a .zip file</p>
                                 <ul>
                                     <li>NextJS version of theme</li>
                                     <li>No CMS, Markdown files only</li>
                                     <li>Setup, provision and deploy yourself</li>
                                 </ul>
                             </div>
-                            <div class="pricing-footer">
+                            <div class="pricing-footer px-2 pb-3 pt-2">
                                 {{ if $stackbit }}
                                 {{ if $stackbit.createUrl }}
                                 <div class="action-buttons action-buttons-detail">
@@ -154,27 +155,27 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
-                        <div class="pricing-card">
-                            <div class="pricing-header">
-                                <h2>Starter</h2>
+                    <div class="col-12 col-md-4 mb-2">
+                        <div class="pricing-card pricing-card-website">
+                            <div class="pricing-header p-2">
+                                <h2>Website</h2>
                                 <div class="pricing-cost">
                                     <span class="pricing-cost-price">$49</span>/
-                                    <span class="pricing-cost-period">Once off</span>
+                                    <span class="pricing-cost-period">one time</span>
                                 </div>
                             </div>
-                            <div class="pricing-body">
-                                <p>Instantly deploy a full website, with the tech stack of your choice</p>
+                            <div class="pricing-body p-2">
+                                <p class="mb-3">A website you fully own, provisioned on the tech stack of your choice. Live in seconds.</p>
                                 <ul>
-                                    <li>Pick from NextJS, Gatsby, Hugo or Jekyll versions of the theme</li>
-                                    <li>Select a headless CMS from Sanity, Contentful, DatoCMS or Forestry. Or use the Markdown files only.</li>
-                                    <li>Use Git or Markdown </li>
-                                    <li>Deployed to Netlify immediately.</li>
+                                    <li>Pick NextJS, Gatsby, Hugo, Jekyll, Eleventy, Vuepress or clean HTML</li>
+                                    <li>Select a headless CMS from Sanity, Contentful, DatoCMS or Forestry. Or use the Markdown files only</li>
+                                    <li>Your own Github repo</li>
+                                    <li>Deploy to Netlify, Digital Ocean, Cloudflare, Azure, AWS</li>
                                 </ul>
                                 {{ if $stackbit }}
 
                             </div>
-                            <div class="pricing-footer">
+                            <div class="pricing-footer px-2 pb-3 pt-2">
                                 {{ if $stackbit.createUrl }}
                                 <div class="action-buttons action-buttons-detail">
                                     <a class="action-button action-button-fill action-button-stackbit" data-action="buy-once" data-context="detail" data-name="{{ .Title }}" href="{{ $stackbit.createUrl }}&ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=detail" target="_blank" rel="noopener nofollow">Buy Now</a>
@@ -184,24 +185,26 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
-                        <div class="pricing-card">
-                            <div class="pricing-header">
-                                <h2>Website</h2>
+                    <div class="col-12 col-md-4 mb-2">
+                        <div class="pricing-card pricing-card-full-experience">
+                            <div class="pricing-header p-2">
+                                <h2>Full Experience</h2>
                                 <div class="pricing-cost">
                                     <span class="pricing-cost-price">$29</span>/
-                                    <span class="pricing-cost-period">Month (1 Year)</span>
+                                    <span class="pricing-cost-period">mo (1 year)</span>
                                 </div>
                             </div>
-                            <div class="pricing-body">
-                                <p>Everything in <strong>Starter</strong> + Stackbit Live Editor</p>
+                            <div class="pricing-body p-2">
+                                <p class="mb-3">{{ .Title }} Theme + Website + the best Jamstack site editor</p>
                                 <ul>
-                                    <li>Live preview, inline editing</li>
-                                    <li>Collaborators, roles and permissions</li>
+                                    <li>Live preview</li>
+                                    <li>WISIWYG Jamstack Site Editor</li>
+                                    <li>Integrated Jamstack debugger</li>
+                                    <li>Collaborators, roles and permissions, advanced publishing controls</li>
                                     <li>A/B testing</li>
                                 </ul>
                             </div>
-                            <div class="pricing-footer">
+                            <div class="pricing-footer px-2 pb-3 pt-2">
                                 {{ if $stackbit }}
                                 {{ if $stackbit.createUrl }}
                                 <div class="action-buttons action-buttons-detail">
