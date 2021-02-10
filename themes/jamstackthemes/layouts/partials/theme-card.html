@@ -57,7 +57,6 @@
       {{ end }}
     </div>
 
-
     <div class="action-buttons action-buttons-card">
       <a class="action-button action-button-github"
          data-action="github"
@@ -81,11 +80,15 @@
         >Live Demo</a>
       {{ end }}
       {{ if .site.Params.stackbit_button }}
-        {{ if .theme.Params.stackbit }}
-          <a class="action-button action-button-fill action-button-stackbit" data-action="stackbit" data-context="card" data-name="{{ .theme.Title }}" href="{{ .theme.Params.stackbit }}&ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=card" target="_blank" rel="noopener nofollow">Create Site</a>
-        {{ else if .stackbit }}
-          {{ if .stackbit.createUrl }}
-            <a class="action-button action-button-fill action-button-stackbit" data-action="stackbit" data-context="card" data-name="{{ .theme.Title }}" href="{{ .stackbit.createUrl }}&ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=card" target="_blank" rel="noopener nofollow">Create Site</a>
+        {{ if eq .theme.Params.author "Stackbit" }}
+          <a class="action-button action-button-fill action-button-stackbit" data-action="get-started" data-context="card" data-name="{{ .theme.Title }}" href="{{ .theme.Permalink }}#get-started">Get Started</a>
+        {{ else }}
+          {{ if .theme.Params.stackbit }}
+            <a class="action-button action-button-fill action-button-stackbit" data-action="stackbit" data-context="card" data-name="{{ .theme.Title }}" href="{{ .theme.Params.stackbit }}&ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=card" target="_blank" rel="noopener nofollow">Create Site</a>
+          {{ else if .stackbit }}
+            {{ if .stackbit.createUrl }}
+              <a class="action-button action-button-fill action-button-stackbit" data-action="stackbit" data-context="card" data-name="{{ .theme.Title }}" href="{{ .stackbit.createUrl }}&ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=card" target="_blank" rel="noopener nofollow">Create Site</a>
+            {{ end }}
           {{ end }}
         {{ end }}
       {{ end }}

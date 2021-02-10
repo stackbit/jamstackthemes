@@ -10,11 +10,8 @@ ssg:
   - Gatsby
   - Next
 cms:
-  - Contentful
-  - DatoCMS
   - Forestry
   - NetlifyCMS
-  - Sanity
   - No CMS
 css:
   - SCSS
