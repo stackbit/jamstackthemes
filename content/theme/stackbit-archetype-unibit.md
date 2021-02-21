@@ -1,6 +1,6 @@
 ---
 title: Archetype
-layout: single-pricing
+layout: single
 github: 'https://github.com/stackbit/stackbit-theme-archetype'
 demo: 'https://themes.stackbit.com/demos/archetype/blue?themeBarHidden=true'
 author: Stackbit

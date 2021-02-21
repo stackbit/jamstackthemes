@@ -1,6 +1,6 @@
 ---
 title: Hyperspace
-layout: single-pricing
+layout: single
 github: 'https://github.com/stackbit/stackbit-theme-hyperspace'
 demo: 'https://themes.stackbit.com/demos/hyperspace/blue?themeBarHidden=true'
 author: Stackbit

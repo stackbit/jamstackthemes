@@ -1,6 +1,6 @@
 ---
 title: Fresh
-layout: single-pricing
+layout: single
 github: 'https://github.com/stackbit/stackbit-theme-fresh'
 github_branch: master
 demo: 'https://themes.stackbit.com/demos/fresh?themeBarHidden=true'

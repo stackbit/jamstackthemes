@@ -1,6 +1,6 @@
 ---
 title: Construct
-layout: single-pricing
+layout: single
 github: 'https://github.com/stackbit/stackbit-theme-construct'
 github_branch: master
 demo: 'https://themes.stackbit.com/demos/construct/blue?themeBarHidden=true'
