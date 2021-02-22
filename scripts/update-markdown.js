@@ -21,7 +21,7 @@ function updateFrontmatter(file, update = {}) {
     frontmatter[key] = update[key]
   });
 
-  const fm = `---\n${yaml.safeDump(frontmatter)}---${content}`;
+  const fm = `---\n${yaml.dump(frontmatter)}---${content}`;
 
   fs.writeFileSync(themeFilePath, fm);
 }

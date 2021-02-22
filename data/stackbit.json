@@ -2240,6 +2240,9 @@
   "sziv2p-jekyll-theme-scaffold-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/sziv2p/jekyll-theme-scaffold&ssg=jekyll"
   },
+  "szivong-pole-master": {
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/szivong/pole&ssg=jekyll"
+  },
   "t413-singlepaged-master": {
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/t413/SinglePaged&ssg=jekyll"
   },

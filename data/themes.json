@@ -3595,6 +3595,28 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/chaooo-hexo-theme-bluelake-master-2x.jpg"
     }
   },
+  "chec-commercejs-chopchop-demo-master": {
+    "theme_key": "chec-commercejs-chopchop-demo-master",
+    "file": "commercejs-chopchop-shop.md",
+    "name": "commercejs-chopchop-demo",
+    "title": "ChopChop Shop",
+    "github_username": "chec",
+    "repo": "chec/commercejs-chopchop-demo",
+    "branch": "master",
+    "github_url": "https://github.com/chec/commercejs-chopchop-demo",
+    "demo_url": "https://commercejs-chopchop-demo.vercel.app/",
+    "stars": 33,
+    "forks": 3,
+    "open_issues": 2,
+    "last_commit": "2021-02-20T16:59:29Z",
+    "created_at": "2020-11-22T21:10:48Z",
+    "description": "A Commerce.js starter kit for Next.js. A beautifully designed elegantly developed, end to end commerce experience for developers and agencies. Pre-integrated with Stripe. One-click deploy to Vercel. ",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/chec-commercejs-chopchop-demo-master.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/chec-commercejs-chopchop-demo-master.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/chec-commercejs-chopchop-demo-master-2x.jpg"
+    }
+  },
   "chec-commercejs-nextjs-demo-store-master": {
     "theme_key": "chec-commercejs-nextjs-demo-store-master",
     "file": "commercejs-nextjs-demo-store.md",
@@ -10271,9 +10293,10 @@
     "github_username": "jmschrack",
     "repo": "jmschrack/Dark-Portfolio-Template-11ty",
     "branch": "dev",
+    "default_branch": "dev",
     "github_url": "https://github.com/jmschrack/Dark-Portfolio-Template-11ty",
     "demo_url": "https://jmschrack.github.io/Dark-Portfolio-Template-11ty/",
-    "stars": 8,
+    "stars": 9,
     "forks": 6,
     "open_issues": 0,
     "last_commit": "2020-03-23T04:13:32Z",
@@ -15116,10 +15139,10 @@
     "branch": "master",
     "github_url": "https://github.com/onweru/hugo-swift-theme",
     "demo_url": "https://neuralvibes.com",
-    "stars": 79,
+    "stars": 84,
     "forks": 59,
     "open_issues": 1,
-    "last_commit": "2020-11-19T10:42:17Z",
+    "last_commit": "2021-02-09T18:34:56Z",
     "created_at": "2019-02-14T21:49:30Z",
     "description": "A simple open source theme for publishing with hugo",
     "stale": false,
@@ -18692,9 +18715,10 @@
     "github_username": "snipcart",
     "repo": "snipcart/11ty-demo-snipcart",
     "branch": "master",
+    "default_branch": "master",
     "github_url": "https://github.com/snipcart/11ty-demo-snipcart",
     "demo_url": "https://snipcart-11ty-demo.netlify.com/",
-    "stars": 23,
+    "stars": 25,
     "forks": 3,
     "open_issues": 0,
     "last_commit": "2019-02-25T21:31:29Z",
@@ -20668,6 +20692,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/sziv2p-jekyll-theme-scaffold-master.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/sziv2p-jekyll-theme-scaffold-master.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/sziv2p-jekyll-theme-scaffold-master-2x.jpg"
+    }
+  },
+  "szivong-pole-main": {
+    "theme_key": "szivong-pole-main",
+    "file": "pole.md",
+    "name": "pole",
+    "title": "Pole",
+    "github_username": "szivong",
+    "repo": "szivong/pole",
+    "branch": "main",
+    "github_url": "https://github.com/szivong/pole",
+    "demo_url": "https://szivong.io/pole/",
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "last_commit": "2021-02-22T01:48:42Z",
+    "created_at": "2021-02-19T09:08:51Z",
+    "description": "A one-column minimal responsive Jekyll blog theme",
+    "stale": false,
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/szivong-pole-main.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/szivong-pole-main.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/szivong-pole-main-2x.jpg"
     }
   },
   "t413-singlepaged-gh-pages": {
