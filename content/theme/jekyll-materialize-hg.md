@@ -1,7 +1,7 @@
 ---
 title: MaterializeHG Theme
-github: 'https://github.com/hugocarreira/jekyll-materializecss'
-demo: 'https://hugocarreira.github.io/jekyll-materializecss'
+github: https://github.com/hugocarreira/jekyll-materializecss
+demo: https://hugocarreira.github.io/jekyll-materializecss
 author: Hugo Carreira
 ssg:
   - Jekyll

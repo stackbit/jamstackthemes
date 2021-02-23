@@ -1,7 +1,7 @@
 ---
 title: Hyde
-github: 'https://github.com/poole/hyde'
-demo: 'https://hyde.getpoole.com/'
+github: https://github.com/poole/hyde
+demo: https://hyde.getpoole.com/
 author: Mark Otto
 ssg:
   - Jekyll

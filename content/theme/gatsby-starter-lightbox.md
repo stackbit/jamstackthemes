@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Lightbox
-github: 'https://github.com/416serg/gatsby-starter-lightbox'
-demo: 'https://gatsby-lightbox.416serg.me/'
+github: https://github.com/416serg/gatsby-starter-lightbox
+demo: https://gatsby-lightbox.416serg.me/
 author: Sergiy Dybskiy
 ssg:
   - Gatsby

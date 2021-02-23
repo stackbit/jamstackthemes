@@ -1,7 +1,7 @@
 ---
 title: Lines
-github: 'https://github.com/ronv/lines'
-demo: 'https://lines-hugo-theme.netlify.app/'
+github: https://github.com/ronv/lines
+demo: https://lines-hugo-theme.netlify.app/
 author: Ronalds Vilcins
 date: 2020-09-08T00:00:00.000Z
 github_branch: master

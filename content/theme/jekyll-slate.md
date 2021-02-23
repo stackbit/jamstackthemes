@@ -1,7 +1,7 @@
 ---
 title: Slate
-github: 'https://github.com/jasoncostello/slate'
-demo: 'https://jasoncostello.github.io/slate/'
+github: https://github.com/jasoncostello/slate
+demo: https://jasoncostello.github.io/slate/
 author: Jason Costello
 ssg:
   - Jekyll

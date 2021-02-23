@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Act Blog
-github: 'https://github.com/act-labs/gatsby-starter-act-blog'
-demo: 'https://act-labs.github.io'
+github: https://github.com/act-labs/gatsby-starter-act-blog
+demo: https://act-labs.github.io
 author: act-labs
 ssg:
   - Gatsby

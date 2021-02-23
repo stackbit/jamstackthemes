@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Spectral
-github: 'https://github.com/anubhavsrivastava/gatsby-starter-spectral'
-demo: 'https://anubhavsrivastava.github.io/gatsby-starter-spectral/'
+github: https://github.com/anubhavsrivastava/gatsby-starter-spectral
+demo: https://anubhavsrivastava.github.io/gatsby-starter-spectral/
 author: Anubhav Srivastava
 ssg:
   - Gatsby

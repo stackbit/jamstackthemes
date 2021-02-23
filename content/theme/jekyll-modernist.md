@@ -1,7 +1,7 @@
 ---
 title: Modernist
-github: 'https://github.com/orderedlist/modernist'
-demo: 'https://orderedlist.com/modernist/'
+github: https://github.com/orderedlist/modernist
+demo: https://orderedlist.com/modernist/
 author: Steve Smith
 ssg:
   - Jekyll

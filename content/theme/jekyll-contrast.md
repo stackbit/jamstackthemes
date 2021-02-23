@@ -1,7 +1,7 @@
 ---
 title: Jekyll Contrast
-github: 'https://github.com/niklasbuschmann/contrast'
-demo: 'https://niklasbuschmann.github.io/contrast/'
+github: https://github.com/niklasbuschmann/contrast
+demo: https://niklasbuschmann.github.io/contrast/
 author: Niklas Buschmann
 ssg:
   - Jekyll

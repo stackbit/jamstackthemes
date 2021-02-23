@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Kentico Kontent
-github: 'https://github.com/Kentico/gatsby-starter-kontent'
-demo: 'https://gatsby-starter-kontent.netlify.app'
+github: https://github.com/Kentico/gatsby-starter-kontent
+demo: https://gatsby-starter-kontent.netlify.app
 author: Kentico
 ssg:
   - Gatsby

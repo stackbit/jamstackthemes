@@ -1,7 +1,7 @@
 ---
 title: Ed
-github: 'https://github.com/elotroalex/ed'
-demo: 'https://elotroalex.github.io/ed/'
+github: https://github.com/elotroalex/ed
+demo: https://elotroalex.github.io/ed/
 author: Alex Gil
 ssg:
   - Jekyll

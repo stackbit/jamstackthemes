@@ -1,9 +1,9 @@
 ---
 title: Azimuth
 layout: single
-github: 'https://github.com/stackbit/stackbit-theme-azimuth'
+github: https://github.com/stackbit/stackbit-theme-azimuth
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/azimuth?themeBarHidden=true'
+demo: https://themes.stackbit.com/demos/azimuth?themeBarHidden=true
 author: Stackbit
 ssg:
   - Unibit

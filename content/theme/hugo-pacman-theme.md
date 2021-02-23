@@ -1,7 +1,7 @@
 ---
 title: Pacman
-github: 'https://github.com/coderzh/hugo-pacman-theme'
-demo: 'https://themes.gohugo.io/theme/hugo-pacman-theme/'
+github: https://github.com/coderzh/hugo-pacman-theme
+demo: https://themes.gohugo.io/theme/hugo-pacman-theme/
 author: coderzh
 ssg:
   - Hugo
@@ -10,5 +10,5 @@ cms:
 date: 2016-03-20T16:05:24.000Z
 github_branch: master
 description: pacman theme support Hugo v0.37.1 now
-stale: false
+stale: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: minimal-categorized
-github: 'https://github.com/ItsMeaga1n/minimal-categorized'
-demo: 'https://itsmeaga1n.github.io/minimal-categorized/'
+github: https://github.com/ItsMeaga1n/minimal-categorized
+demo: https://itsmeaga1n.github.io/minimal-categorized/
 author: ItsMeaga1n
 date: 2021-01-24T00:00:00.000Z
 github_branch: master

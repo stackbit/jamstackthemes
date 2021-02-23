@@ -1,7 +1,7 @@
 ---
 title: Sapper Kontent Café
-github: 'https://github.com/Simply007/kontent-sample-app-svelte-sapper'
-demo: 'https://kontent-sample-app-svelte-sapper.now.sh/'
+github: https://github.com/Simply007/kontent-sample-app-svelte-sapper
+demo: https://kontent-sample-app-svelte-sapper.now.sh/
 author: Simply007
 ssg:
   - Sapper
@@ -11,7 +11,7 @@ date: 2020-12-01T00:00:00.000Z
 github_branch: master
 archetype:
   - Business
-description: 'Website showcase for fictional café with Svelte, Sapper, and Kentico Kontent.'
+description: Website showcase for fictional café with Svelte, Sapper, and Kentico Kontent.
 stale: false
 ---
 

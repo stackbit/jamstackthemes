@@ -1,7 +1,7 @@
 ---
 title: Good Clean Read
-github: 'https://github.com/adueck/good-clean-read'
-demo: 'https://adueck.github.io/good-clean-read/'
+github: https://github.com/adueck/good-clean-read
+demo: https://adueck.github.io/good-clean-read/
 author: Adam Dueck
 ssg:
   - Jekyll

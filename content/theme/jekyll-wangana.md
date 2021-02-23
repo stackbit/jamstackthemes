@@ -1,7 +1,7 @@
 ---
 title: Wangana
-github: 'https://github.com/nadjetey/wangana'
-demo: 'https://thesowah.github.io/wangana/'
+github: https://github.com/nadjetey/wangana
+demo: https://thesowah.github.io/wangana/
 author: Nii Adjetey Sowah
 ssg:
   - Jekyll

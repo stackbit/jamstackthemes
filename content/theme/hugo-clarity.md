@@ -1,7 +1,7 @@
 ---
 title: Clarity
-github: 'https://github.com/chipzoller/hugo-clarity'
-demo: 'https://themes.gohugo.io/theme/hugo-clarity/'
+github: https://github.com/chipzoller/hugo-clarity
+demo: https://themes.gohugo.io/theme/hugo-clarity/
 author: Dan Weru and Chip Zoller
 date: 2020-10-10T00:00:00.000Z
 github_branch: master

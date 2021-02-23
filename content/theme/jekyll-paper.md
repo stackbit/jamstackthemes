@@ -1,7 +1,7 @@
 ---
 title: Paper
-github: 'https://github.com/dbtek/paper'
-demo: 'https://dbtek.github.io/paper-demo/'
+github: https://github.com/dbtek/paper
+demo: https://dbtek.github.io/paper-demo/
 author: Ismail Demirbilek
 ssg:
   - Jekyll

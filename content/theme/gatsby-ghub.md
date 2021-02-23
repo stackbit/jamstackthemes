@@ -1,7 +1,7 @@
 ---
 title: Gatsby Ghub
-github: 'https://github.com/dwyfrequency/gatsby-ghub'
-demo: 'https://gatsby-ghub.netlify.com/'
+github: https://github.com/dwyfrequency/gatsby-ghub
+demo: https://gatsby-ghub.netlify.com/
 author: dwyfrequency
 ssg:
   - Gatsby

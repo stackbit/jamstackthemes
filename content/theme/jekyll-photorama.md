@@ -1,7 +1,7 @@
 ---
 title: PHOTORAMA
-github: 'https://github.com/sunbliss/photorama'
-demo: 'https://sunbliss.github.io/photorama'
+github: https://github.com/sunbliss/photorama
+demo: https://sunbliss.github.io/photorama
 author: sunbliss
 ssg:
   - Jekyll

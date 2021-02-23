@@ -1,7 +1,7 @@
 ---
 title: Typescript Mdx Prismjs
-github: 'https://github.com/tylergreulich/gatsby-typescript-mdx-prismjs-starter'
-demo: 'https://infallible-brown-28846b.netlify.com'
+github: https://github.com/tylergreulich/gatsby-typescript-mdx-prismjs-starter
+demo: https://infallible-brown-28846b.netlify.com
 author: tylergreulich
 ssg:
   - Gatsby

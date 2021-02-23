@@ -1,7 +1,7 @@
 ---
 title: Tufte-Jekyll
-github: 'https://github.com/clayh53/tufte-jekyll'
-demo: 'https://clayh53.github.io/tufte-jekyll/'
+github: https://github.com/clayh53/tufte-jekyll
+demo: https://clayh53.github.io/tufte-jekyll/
 author: Clay Harmon
 ssg:
   - Jekyll

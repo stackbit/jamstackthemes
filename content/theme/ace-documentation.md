@@ -1,7 +1,7 @@
 ---
 title: Ace documentation
-github: 'https://github.com/vantagedesign/ace-documentation'
-demo: 'https://docs.vantage-design.com/ace'
+github: https://github.com/vantagedesign/ace-documentation
+demo: https://docs.vantage-design.com/ace
 author: Vantage Design
 date: 2020-03-15T00:00:00.000Z
 github_branch: master

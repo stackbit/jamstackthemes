@@ -1,7 +1,7 @@
 ---
 title: Nangka Theme
-github: 'https://github.com/rmsubekti/nangka'
-demo: 'https://rmsubekti.github.io/nangka'
+github: https://github.com/rmsubekti/nangka
+demo: https://rmsubekti.github.io/nangka
 author: rmsubekti
 ssg:
   - Jekyll

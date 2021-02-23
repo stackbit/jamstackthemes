@@ -1,7 +1,7 @@
 ---
 title: Mangan
-github: 'https://github.com/dikiaap/mangan'
-demo: 'https://mangan.dikiaap.id'
+github: https://github.com/dikiaap/mangan
+demo: https://mangan.dikiaap.id
 author: Diki Ananta
 ssg:
   - Jekyll

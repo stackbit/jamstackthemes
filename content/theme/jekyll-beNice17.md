@@ -1,7 +1,7 @@
 ---
 title: beNice17
-github: 'https://github.com/vietanhdev/beNice17'
-demo: 'https://www.vietanhdev.com/beNice17/'
+github: https://github.com/vietanhdev/beNice17
+demo: https://www.vietanhdev.com/beNice17/
 author: Viet Anh Nguyen
 ssg:
   - Jekyll
@@ -10,5 +10,5 @@ cms:
 date: 2016-12-30T13:15:34.000Z
 github_branch: master
 description: A Jekyll theme for my personal website
-stale: true
+stale: false
 ---

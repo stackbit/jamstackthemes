@@ -1,7 +1,7 @@
 ---
 title: Lora
-github: 'https://github.com/nandomoreirame/lora'
-demo: 'https://nandomoreira.me/lora/'
+github: https://github.com/nandomoreirame/lora
+demo: https://nandomoreira.me/lora/
 author: nandomoreira.me
 ssg:
   - Jekyll

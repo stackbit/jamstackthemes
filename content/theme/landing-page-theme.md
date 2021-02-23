@@ -1,7 +1,7 @@
 ---
 title: Landing Page Jekyll theme
-github: 'https://github.com/swcool/landing-page-theme'
-demo: 'https://shaneweng.com/landing-page-theme/'
+github: https://github.com/swcool/landing-page-theme
+demo: https://shaneweng.com/landing-page-theme/
 author: Shane Weng
 ssg:
   - Jekyll

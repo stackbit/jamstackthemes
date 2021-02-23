@@ -1,7 +1,7 @@
 ---
 title: Rifyll
-github: 'https://github.com/itsrifat/rifyll'
-demo: 'https://itsrifat.github.io/rifyll/'
+github: https://github.com/itsrifat/rifyll
+demo: https://itsrifat.github.io/rifyll/
 author: Moinul
 ssg:
   - Jekyll

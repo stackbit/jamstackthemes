@@ -1,7 +1,7 @@
 ---
 title: Hugo Theme Zzo
-github: 'https://github.com/zzossig/hugo-theme-zzo'
-demo: 'https://themes.gohugo.io/theme/hugo-theme-zzo/en/'
+github: https://github.com/zzossig/hugo-theme-zzo
+demo: https://themes.gohugo.io/theme/hugo-theme-zzo/en/
 author: zzossig
 date: 2020-10-21T00:00:00.000Z
 github_branch: master

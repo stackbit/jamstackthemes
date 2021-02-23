@@ -1,7 +1,7 @@
 ---
 title: Eleventy Chirpy Blog Template
-github: 'https://github.com/muenzpraeger/eleventy-chirpy-blog-template'
-demo: 'https://eleventy-chirpy-blog-template.netlify.app/'
+github: https://github.com/muenzpraeger/eleventy-chirpy-blog-template
+demo: https://eleventy-chirpy-blog-template.netlify.app/
 author: René Winkelmeyer
 date: 2021-08-28T00:00:00.000Z
 github_branch: main

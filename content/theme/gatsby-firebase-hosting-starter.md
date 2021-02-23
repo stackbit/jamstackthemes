@@ -1,7 +1,7 @@
 ---
 title: Gatsby Firebase Hosting Starter
-github: 'https://github.com/bijenkorf-james-wakefield/gatsby-firebase-hosting-starter'
-demo: 'https://gatsby-firebase-hosting.firebaseapp.com/'
+github: https://github.com/bijenkorf-james-wakefield/gatsby-firebase-hosting-starter
+demo: https://gatsby-firebase-hosting.firebaseapp.com/
 author: James Wakefield
 ssg:
   - Gatsby

@@ -1,7 +1,7 @@
 ---
 title: Mere Blog Theme
-github: 'https://github.com/chrisrhymes/mere-blog-theme'
-demo: 'https://www.csrhymes.com/mere-blog-theme/'
+github: https://github.com/chrisrhymes/mere-blog-theme
+demo: https://www.csrhymes.com/mere-blog-theme/
 author: chrisrhymes
 date: 2020-08-22T00:00:00.000Z
 github_branch: master

@@ -1,7 +1,7 @@
 ---
 title: vHealth - Virtual healthcare
-github: 'https://github.com/shantanu-deshmukh/vhealth-gatsby'
-demo: 'https://vhealth.openthemes.dev/'
+github: https://github.com/shantanu-deshmukh/vhealth-gatsby
+demo: https://vhealth.openthemes.dev/
 author: Shantanu Deshmukh
 date: 2020-08-26T00:00:00.000Z
 github_branch: master

@@ -1,7 +1,7 @@
 ---
 title: Neat Starter
-github: 'https://github.com/surjithctly/neat-starter'
-demo: 'https://neat-starter.netlify.app/'
+github: https://github.com/surjithctly/neat-starter
+demo: https://neat-starter.netlify.app/
 author: Surjith S M
 date: 2020-10-05T00:00:00.000Z
 github_branch: master
@@ -13,7 +13,7 @@ css:
   - Tailwind
 archetype:
   - Blog
-description: 'Starter Template for Netlify CMS, Eleventy, Alphine JS & Tailwind CSS'
+description: Starter Template for Netlify CMS, Eleventy, Alphine JS & Tailwind CSS
 stale: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Carte Noire
-github: 'https://github.com/jacobtomlinson/carte-noire'
-demo: 'https://carte-noire.jacobtomlinson.co.uk/'
+github: https://github.com/jacobtomlinson/carte-noire
+demo: https://carte-noire.jacobtomlinson.co.uk/
 author: Jacob Tomlinson
 ssg:
   - Jekyll

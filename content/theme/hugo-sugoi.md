@@ -1,7 +1,7 @@
 ---
 title: Sugoi
-github: 'https://github.com/aanupam23/hugo-sugoi'
-demo: 'https://gosugoi.onrender.com/'
+github: https://github.com/aanupam23/hugo-sugoi
+demo: https://gosugoi.onrender.com/
 author: aanupam23
 ssg:
   - Hugo

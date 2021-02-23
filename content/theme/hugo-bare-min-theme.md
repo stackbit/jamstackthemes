@@ -1,7 +1,7 @@
 ---
 title: Bare Min
-github: 'https://github.com/kaushalmodi/hugo-bare-min-theme'
-demo: 'https://hugo-bare-min.netlify.com/'
+github: https://github.com/kaushalmodi/hugo-bare-min-theme
+demo: https://hugo-bare-min.netlify.com/
 author: Kaushal Modi
 ssg:
   - Hugo
@@ -12,5 +12,5 @@ github_branch: master
 description: >-
   A bare minimum theme for Hugo (https://gohugo.io) to help develop and debug
   Hugo sites -- https://hugo-bare-min.netlify.com/,
-stale: false
+stale: true
 ---

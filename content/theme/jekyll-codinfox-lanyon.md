@@ -1,7 +1,7 @@
 ---
 title: Codinfox Lanyon
-github: 'https://github.com/codinfox/codinfox-lanyon'
-demo: 'https://codinfox.github.io/'
+github: https://github.com/codinfox/codinfox-lanyon
+demo: https://codinfox.github.io/
 author: codinfox
 ssg:
   - Jekyll

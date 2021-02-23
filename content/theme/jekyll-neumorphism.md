@@ -1,7 +1,7 @@
 ---
 title: Neumorphism
-github: 'https://github.com/longpdo/neumorphism'
-demo: 'https://longpdo.github.io/neumorphism/'
+github: https://github.com/longpdo/neumorphism
+demo: https://longpdo.github.io/neumorphism/
 author: Long Do
 date: 2020-04-22T00:00:00.000Z
 github_branch: master

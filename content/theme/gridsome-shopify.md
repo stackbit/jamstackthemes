@@ -1,7 +1,7 @@
 ---
 title: Gridsome Tailwind CSS Shopify Starter
-github: 'https://github.com/jsappme/gridsome-shopify-starter'
-demo: 'https://gridsome-shopify.netlify.app/'
+github: https://github.com/jsappme/gridsome-shopify-starter
+demo: https://gridsome-shopify.netlify.app/
 author: Gridsomify
 ssg:
   - Gridsome

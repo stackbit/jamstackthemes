@@ -1,7 +1,7 @@
 ---
 title: Memoirs
-github: 'https://github.com/wowthemesnet/jekyll-theme-memoirs'
-demo: 'https://wowthemesnet.github.io/jekyll-theme-memoirs'
+github: https://github.com/wowthemesnet/jekyll-theme-memoirs
+demo: https://wowthemesnet.github.io/jekyll-theme-memoirs
 author: wowthemesnet
 ssg:
   - Jekyll

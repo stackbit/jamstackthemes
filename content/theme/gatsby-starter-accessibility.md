@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Accessibility
-github: 'https://github.com/benjamingrobertson/gatsby-starter-accessibility'
-demo: 'https://gatsby-starter-accessibility.netlify.com/'
+github: https://github.com/benjamingrobertson/gatsby-starter-accessibility
+demo: https://gatsby-starter-accessibility.netlify.com/
 author: Ben Robertson
 ssg:
   - Gatsby

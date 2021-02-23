@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Intl
-github: 'https://github.com/tomekskuta/gatsby-starter-intl'
-demo: 'https://gatsby-starter-intl.tomekskuta.pl/en/'
+github: https://github.com/tomekskuta/gatsby-starter-intl
+demo: https://gatsby-starter-intl.tomekskuta.pl/en/
 author: tomekskuta
 ssg:
   - Gatsby

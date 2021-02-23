@@ -1,7 +1,7 @@
 ---
 title: Webjeda Karna
-github: 'https://github.com/sharu725/karna'
-demo: 'https://webjeda.com/karna'
+github: https://github.com/sharu725/karna
+demo: https://webjeda.com/karna
 author: webjeda
 ssg:
   - Jekyll

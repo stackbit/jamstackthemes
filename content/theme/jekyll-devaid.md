@@ -1,7 +1,7 @@
 ---
 title: devAid
-github: 'https://github.com/kevit/devaid-jekyll-theme'
-demo: 'https://themes.3rdwavemedia.com/demo/devaid/'
+github: https://github.com/kevit/devaid-jekyll-theme
+demo: https://themes.3rdwavemedia.com/demo/devaid/
 author: Xiaoying Riley
 ssg:
   - Jekyll

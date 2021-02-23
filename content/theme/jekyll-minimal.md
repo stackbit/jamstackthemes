@@ -1,7 +1,7 @@
 ---
 title: Minimal
-github: 'https://github.com/orderedlist/minimal'
-demo: 'https://orderedlist.com/minimal/'
+github: https://github.com/orderedlist/minimal
+demo: https://orderedlist.com/minimal/
 author: Steve Smith
 ssg:
   - Jekyll

@@ -1,7 +1,7 @@
 ---
 title: Solid
-github: 'https://github.com/st4ple/solid-jekyll'
-demo: 'https://st4ple.github.io/solid-jekyll/'
+github: https://github.com/st4ple/solid-jekyll
+demo: https://st4ple.github.io/solid-jekyll/
 author: Oliver Stapleton
 ssg:
   - Jekyll

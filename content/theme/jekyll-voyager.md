@@ -1,7 +1,7 @@
 ---
 title: Voyager
-github: 'https://github.com/redVi/voyager'
-demo: 'https://redvi.github.io/voyager/'
+github: https://github.com/redVi/voyager
+demo: https://redvi.github.io/voyager/
 author: redVi
 ssg:
   - Jekyll

@@ -1,7 +1,7 @@
 ---
 title: Nextjs Tailwind CSS TypeScript Starter
-github: 'https://github.com/ixartz/Next-js-Boilerplate'
-demo: 'https://creativedesignsguru.com/demo/Nextjs-Boilerplate/'
+github: https://github.com/ixartz/Next-js-Boilerplate
+demo: https://creativedesignsguru.com/demo/Nextjs-Boilerplate/
 author: Ixartz
 ssg:
   - Next
@@ -11,7 +11,9 @@ css:
   - Tailwind
 date: 2020-11-11T10:23:28.000Z
 github_branch: master
-description: "\U0001F680 Boilerplate and Starter for Next.js 10+, Tailwind CSS and TypeScript. The perfect Next JS Tailwind CSS template to quick start your project."
+description: >-
+  🚀 Boilerplate and Starter for Next.js 10+, Tailwind CSS and TypeScript. The
+  perfect Next JS Tailwind CSS template to quick start your project.
 stale: false
 ---
 

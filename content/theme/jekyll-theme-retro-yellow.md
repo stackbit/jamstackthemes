@@ -1,7 +1,7 @@
 ---
 title: Retro Yellow
-github: 'https://github.com/sharadcodes/jekyll-theme-retro-yellow'
-demo: 'https://sharadcodes.github.io/jekyll-theme-retro-yellow/'
+github: https://github.com/sharadcodes/jekyll-theme-retro-yellow
+demo: https://sharadcodes.github.io/jekyll-theme-retro-yellow/
 author: Sharad Raj Singh Maurya
 ssg:
   - Jekyll

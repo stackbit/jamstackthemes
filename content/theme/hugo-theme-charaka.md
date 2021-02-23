@@ -1,7 +1,7 @@
 ---
 title: Charaka
-github: 'https://github.com/natarajmb/charaka-hugo-theme'
-demo: 'https://themes.gohugo.io/theme/charaka-hugo-theme/'
+github: https://github.com/natarajmb/charaka-hugo-theme
+demo: https://themes.gohugo.io/theme/charaka-hugo-theme/
 author: Nataraj Basappa
 ssg:
   - Hugo

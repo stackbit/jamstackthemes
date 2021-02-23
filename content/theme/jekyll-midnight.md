@@ -1,7 +1,7 @@
 ---
 title: Midnight
-github: 'https://github.com/mattgraham/midnight'
-demo: 'https://madebygraham.com/midnight/'
+github: https://github.com/mattgraham/midnight
+demo: https://madebygraham.com/midnight/
 author: Matt Graham
 ssg:
   - Jekyll

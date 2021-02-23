@@ -1,7 +1,7 @@
 ---
 title: Gatsby Snipcart
-github: 'https://github.com/issydennis/gatsby-snipcart'
-demo: 'https://gatsby-snipcart-starter.netlify.com/'
+github: https://github.com/issydennis/gatsby-snipcart
+demo: https://gatsby-snipcart-starter.netlify.com/
 author: Issy Dennis
 ssg:
   - Gatsby

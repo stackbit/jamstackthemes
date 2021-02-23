@@ -1,7 +1,7 @@
 ---
 title: Chalk
-github: 'https://github.com/nielsenramon/chalk'
-demo: 'https://chalk.nielsenramon.com'
+github: https://github.com/nielsenramon/chalk
+demo: https://chalk.nielsenramon.com
 author: Nielsen Ramon
 ssg:
   - Jekyll

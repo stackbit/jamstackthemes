@@ -1,7 +1,7 @@
 ---
 title: brume
-github: 'https://github.com/aigarsdz/brume'
-demo: 'https://aigarsdz.github.io/brume/'
+github: https://github.com/aigarsdz/brume
+demo: https://aigarsdz.github.io/brume/
 author: Aigars Dzerviniks
 ssg:
   - Jekyll

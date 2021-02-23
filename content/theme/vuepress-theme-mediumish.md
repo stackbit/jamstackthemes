@@ -1,7 +1,7 @@
 ---
 title: Mediumish
-github: 'https://github.com/wowthemesnet/mediumish-vuepress-blog-theme'
-demo: 'https://wowthemesnet.github.io/vuepress-theme-mediumish/'
+github: https://github.com/wowthemesnet/mediumish-vuepress-blog-theme
+demo: https://wowthemesnet.github.io/vuepress-theme-mediumish/
 author: wowthemesnet
 ssg:
   - Vuepress

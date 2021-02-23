@@ -1,7 +1,7 @@
 ---
 title: Read The Docs Dropdown
-github: 'https://github.com/cjsheets/mkdocs-rtd-dropdown'
-demo: 'https://readthedocs.sheets.ch/'
+github: https://github.com/cjsheets/mkdocs-rtd-dropdown
+demo: https://readthedocs.sheets.ch/
 author: Chad Sheets
 ssg:
   - MkDocs

@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Aerial
-github: 'https://github.com/anubhavsrivastava/gatsby-starter-aerial'
-demo: 'https://anubhavsrivastava.github.io/gatsby-starter-aerial/'
+github: https://github.com/anubhavsrivastava/gatsby-starter-aerial
+demo: https://anubhavsrivastava.github.io/gatsby-starter-aerial/
 author: Anubhav Srivastava
 ssg:
   - Gatsby

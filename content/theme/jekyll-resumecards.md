@@ -1,7 +1,7 @@
 ---
 title: ResumeCards
-github: 'https://github.com/ellekasai/resumecards/'
-demo: 'https://ellekasai.github.io/resumecards/'
+github: https://github.com/ellekasai/resumecards/
+demo: https://ellekasai.github.io/resumecards/
 author: Elle Kasai
 ssg:
   - Jekyll

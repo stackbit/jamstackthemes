@@ -1,8 +1,8 @@
 ---
 title: Aviator
-github: 'https://github.com/CloudCannon/Aviator-Jekyll-Theme'
-demo: 'https://tangerine-lemon.cloudvent.net/'
-author: 'CloudCannon (https://cloudcannon.com)'
+github: https://github.com/CloudCannon/Aviator-Jekyll-Theme
+demo: https://tangerine-lemon.cloudvent.net/
+author: CloudCannon (https://cloudcannon.com)
 ssg:
   - Jekyll
 cms:

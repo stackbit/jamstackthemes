@@ -1,7 +1,7 @@
 ---
 title: Middleman Zurb
-github: 'https://github.com/mattolson/middleman-zurb-template'
-demo: 'https://mattolson.com/'
+github: https://github.com/mattolson/middleman-zurb-template
+demo: https://mattolson.com/
 author: Matt Olson
 ssg:
   - Middleman

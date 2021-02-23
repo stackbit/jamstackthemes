@@ -1,7 +1,7 @@
 ---
 title: Gatsby Paradigmshift
-github: 'https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift'
-demo: 'https://anubhavsrivastava.github.io/gatsby-starter-paradigmshift/'
+github: https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift
+demo: https://anubhavsrivastava.github.io/gatsby-starter-paradigmshift/
 author: Anubhav Srivastava
 ssg:
   - Gatsby

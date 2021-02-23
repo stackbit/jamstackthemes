@@ -1,7 +1,7 @@
 ---
 title: Minima
-github: 'https://github.com/adisaktijrs/hexo-theme-minima'
-demo: 'https://adisaktijrs.github.io/minima/'
+github: https://github.com/adisaktijrs/hexo-theme-minima
+demo: https://adisaktijrs.github.io/minima/
 author: Adi Sakti Jrs
 date: 2020-10-12T00:00:00.000Z
 github_branch: master

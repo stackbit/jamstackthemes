@@ -1,7 +1,7 @@
 ---
 title: Lagom
-github: 'https://github.com/swanson/lagom'
-demo: 'https://lagom.mdswanson.com/'
+github: https://github.com/swanson/lagom
+demo: https://lagom.mdswanson.com/
 author: Matt Swanson
 ssg:
   - Jekyll

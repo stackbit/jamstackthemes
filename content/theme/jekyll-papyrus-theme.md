@@ -1,7 +1,7 @@
 ---
 title: Papyrus
-github: 'https://github.com/hugoferreira/papyrus-theme'
-demo: 'https://hugosereno.eu'
+github: https://github.com/hugoferreira/papyrus-theme
+demo: https://hugosereno.eu
 author: Hugo Sereno Ferreira
 ssg:
   - Jekyll

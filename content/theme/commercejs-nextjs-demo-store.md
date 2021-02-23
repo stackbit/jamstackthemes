@@ -1,8 +1,8 @@
 ---
 title: Commerce.js Next.js Demo Store
-github: 'https://github.com/chec/commercejs-nextjs-demo-store'
+github: https://github.com/chec/commercejs-nextjs-demo-store
 author: Chec/Commerce.js
-demo: 'https://commercejs-demo-store.netlify.app/'
+demo: https://commercejs-demo-store.netlify.app/
 date: 2020-07-22T00:00:00.000Z
 ssg:
   - Next

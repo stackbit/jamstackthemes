@@ -1,7 +1,7 @@
 ---
 title: Typewriter
-github: 'https://github.com/alixedi/typewriter'
-demo: 'https://alixedi.github.io/typewriter/'
+github: https://github.com/alixedi/typewriter
+demo: https://alixedi.github.io/typewriter/
 author: alixedi
 ssg:
   - Jekyll

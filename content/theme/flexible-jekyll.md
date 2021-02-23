@@ -1,7 +1,7 @@
 ---
 title: Flexible Jekyll
-github: 'https://github.com/artemsheludko/flexible-jekyll'
-demo: 'https://artemsheludko.com/flexible-jekyll/'
+github: https://github.com/artemsheludko/flexible-jekyll
+demo: https://artemsheludko.com/flexible-jekyll/
 author: Artem Sheludko
 ssg:
   - Jekyll

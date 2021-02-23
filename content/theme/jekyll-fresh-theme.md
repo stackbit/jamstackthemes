@@ -1,7 +1,7 @@
 ---
 title: Fresh
-github: 'https://github.com/artemsheludko/fresh'
-demo: 'https://artemsheludko.com/fresh/'
+github: https://github.com/artemsheludko/fresh
+demo: https://artemsheludko.com/fresh/
 author: Artem Sheludko
 ssg:
   - Jekyll

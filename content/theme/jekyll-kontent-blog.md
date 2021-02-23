@@ -1,7 +1,7 @@
 ---
 title: Jekyll Kontent Blog
-github: 'https://github.com/Kentico/kontent-jekyll-blog'
-demo: 'https://kentico.github.io/kontent-jekyll-blog/'
+github: https://github.com/Kentico/kontent-jekyll-blog
+demo: https://kentico.github.io/kontent-jekyll-blog/
 author: Kentico
 ssg:
   - Jekyll

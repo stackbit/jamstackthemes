@@ -1,7 +1,7 @@
 ---
 title: Beautiful Jekyll
-github: 'https://github.com/daattali/beautiful-jekyll'
-demo: 'https://deanattali.com/beautiful-jekyll/'
+github: https://github.com/daattali/beautiful-jekyll
+demo: https://deanattali.com/beautiful-jekyll/
 author: Dean Attali
 ssg:
   - Jekyll

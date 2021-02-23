@@ -1,7 +1,7 @@
 ---
 title: Hexo Clean Blog
-github: 'https://github.com/klugjo/hexo-theme-clean-blog'
-demo: 'https://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/'
+github: https://github.com/klugjo/hexo-theme-clean-blog
+demo: https://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/
 author: Klughertz Jonathan
 ssg:
   - Hexo
@@ -12,5 +12,5 @@ github_branch: master
 description: >-
   Hexo implementation of Clean Blog
   https://blackrockdigital.github.io/startbootstrap-clean-blog/index.html
-stale: true
+stale: false
 ---

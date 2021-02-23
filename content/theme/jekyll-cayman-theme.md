@@ -1,7 +1,7 @@
 ---
 title: Cayman Theme
-github: 'https://github.com/pietromenna/jekyll-cayman-theme'
-demo: 'https://jasonlong.github.io/cayman-theme/'
+github: https://github.com/pietromenna/jekyll-cayman-theme
+demo: https://jasonlong.github.io/cayman-theme/
 author: Pietro Menna (@pietromenna)
 ssg:
   - Jekyll

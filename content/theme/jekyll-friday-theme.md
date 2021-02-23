@@ -1,6 +1,6 @@
 ---
 title: Friday Theme
-github: 'https://github.com/sfreytag/friday-theme'
+github: https://github.com/sfreytag/friday-theme
 demo: >-
   https://sfreytag.github.io/friday-theme/2017/10/19/friday-theme-multiple-images.html
 author: Simon Freytag

@@ -1,7 +1,7 @@
 ---
 title: resumecard
-github: 'https://github.com/ddbullfrog/resumecard'
-demo: 'https://ddbullfrog.github.io/resumecard'
+github: https://github.com/ddbullfrog/resumecard
+demo: https://ddbullfrog.github.io/resumecard
 author: Dong Liang
 ssg:
   - Jekyll

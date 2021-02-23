@@ -1,7 +1,7 @@
 ---
 title: Gastsby Simple Blog
-github: 'https://github.com/thecodemint/gatsby-starter-simple'
-demo: 'https://thecodemint.github.io/gatsby-starter-simple/'
+github: https://github.com/thecodemint/gatsby-starter-simple
+demo: https://thecodemint.github.io/gatsby-starter-simple/
 author: collinsmuriuki
 date: 2020-04-14T00:00:00.000Z
 github_branch: master

@@ -1,7 +1,7 @@
 ---
 title: BlackDoc
-github: 'https://github.com/karloespiritu/BlackDoc'
-demo: 'https://karloespiritu.com/blackdoc'
+github: https://github.com/karloespiritu/BlackDoc
+demo: https://karloespiritu.com/blackdoc
 author: Karlo Espiritu
 ssg:
   - Jekyll

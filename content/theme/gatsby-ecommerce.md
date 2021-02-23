@@ -1,7 +1,7 @@
 ---
 title: Gatsby Ecommerce
-github: 'https://github.com/a9kitkumar/Gatsby-Ecommerce'
-demo: 'https://cosmicjs.com/apps/gatsby-ecommerce-website/demo'
+github: https://github.com/a9kitkumar/Gatsby-Ecommerce
+demo: https://cosmicjs.com/apps/gatsby-ecommerce-website/demo
 author: Cosmic
 ssg:
   - Gatsby

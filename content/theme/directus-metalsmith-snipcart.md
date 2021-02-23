@@ -1,7 +1,7 @@
 ---
 title: Directus Metalsmith Snipcart
-github: 'https://github.com/snipcart/directus-metalsmith-snipcart'
-demo: 'https://snipcart-directus-metalsmith.netlify.com'
+github: https://github.com/snipcart/directus-metalsmith-snipcart
+demo: https://snipcart-directus-metalsmith.netlify.com
 author: Maxime Laboissonniere
 ssg:
   - Metalsmith

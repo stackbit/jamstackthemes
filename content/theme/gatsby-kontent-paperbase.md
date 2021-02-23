@@ -1,7 +1,7 @@
 ---
 title: Gatsby Kontent Paperbase
-github: 'https://github.com/Simply007/kontent-sample-app-gatsby-intranet'
-demo: 'https://kontent-sample-app-gatsby-intranet.netlify.app'
+github: https://github.com/Simply007/kontent-sample-app-gatsby-intranet
+demo: https://kontent-sample-app-gatsby-intranet.netlify.app
 author: Simply007
 date: 2020-12-01T00:00:00.000Z
 github_branch: master

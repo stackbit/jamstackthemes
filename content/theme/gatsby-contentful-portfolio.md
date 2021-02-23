@@ -1,7 +1,7 @@
 ---
 title: Portfolio theme for Gatsby
-github: 'https://github.com/wkocjan/gatsby-contentful-portfolio'
-demo: 'https://gatsby-contentful-portfolio.netlify.com/'
+github: https://github.com/wkocjan/gatsby-contentful-portfolio
+demo: https://gatsby-contentful-portfolio.netlify.com/
 author: Wojciech Kocjan
 date: 2020-03-12T00:00:00.000Z
 github_branch: master

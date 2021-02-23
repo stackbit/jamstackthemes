@@ -1,8 +1,8 @@
 ---
 title: Creative Theme - New
-github: 'https://github.com/vvalchev/creative-theme-jekyll-new'
-demo: 'https://vvalchev.github.io/creative-theme-jekyll-new/'
-author: 'Start Bootstrap, Valentin Valchev'
+github: https://github.com/vvalchev/creative-theme-jekyll-new
+demo: https://vvalchev.github.io/creative-theme-jekyll-new/
+author: Start Bootstrap, Valentin Valchev
 date: 2020-03-03T00:00:00.000Z
 ssg:
   - Jekyll

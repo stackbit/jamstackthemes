@@ -1,7 +1,7 @@
 ---
 title: Feature Blog
-github: 'https://github.com/lavkumarv/feature-blog-jekyll'
-demo: 'https://lavkumarv.github.io/'
+github: https://github.com/lavkumarv/feature-blog-jekyll
+demo: https://lavkumarv.github.io/
 author: Lav Kumar Vishwakarma
 ssg:
   - Jekyll

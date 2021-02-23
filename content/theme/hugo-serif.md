@@ -1,7 +1,7 @@
 ---
 title: Hugo Serif
-github: 'https://github.com/zerostaticthemes/hugo-serif-theme'
-demo: 'https://hugo-serif.netlify.app'
+github: https://github.com/zerostaticthemes/hugo-serif-theme
+demo: https://hugo-serif.netlify.app
 author: Robert Austin
 ssg:
   - Hugo

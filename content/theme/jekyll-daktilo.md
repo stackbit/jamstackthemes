@@ -1,7 +1,7 @@
 ---
 title: Daktilo
-github: 'https://github.com/kronik3r/daktilo'
-demo: 'https://daktilo.github.io/'
+github: https://github.com/kronik3r/daktilo
+demo: https://daktilo.github.io/
 author: Motaquillah Maddane
 ssg:
   - Jekyll

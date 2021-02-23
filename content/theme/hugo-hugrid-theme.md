@@ -1,7 +1,7 @@
 ---
 title: Hugrid
-github: 'https://github.com/aerohub/hugrid'
-demo: 'https://themes.gohugo.io/theme/hugrid/'
+github: https://github.com/aerohub/hugrid
+demo: https://themes.gohugo.io/theme/hugrid/
 author: Pavel Kanyshev
 ssg:
   - Hugo

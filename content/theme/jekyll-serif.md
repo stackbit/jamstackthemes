@@ -1,7 +1,7 @@
 ---
 title: Jekyll Serif
-github: 'https://github.com/zerostaticthemes/jekyll-serif-theme'
-demo: 'https://jekyll-serif.netlify.app/'
+github: https://github.com/zerostaticthemes/jekyll-serif-theme
+demo: https://jekyll-serif.netlify.app/
 author: Robert Austin
 ssg:
   - Jekyll

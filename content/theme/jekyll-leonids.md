@@ -1,7 +1,7 @@
 ---
 title: Leonids
-github: 'https://github.com/renyuanz/leonids'
-demo: 'https://renyuanz.github.io/leonids'
+github: https://github.com/renyuanz/leonids
+demo: https://renyuanz.github.io/leonids
 author: Renyuan Zou
 ssg:
   - Jekyll

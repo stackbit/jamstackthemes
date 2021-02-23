@@ -1,7 +1,7 @@
 ---
 title: Antiquity
-github: 'https://github.com/yiluyanxia/hexo-theme-antiquity'
-demo: 'https://yiluyanxia.site/'
+github: https://github.com/yiluyanxia/hexo-theme-antiquity
+demo: https://yiluyanxia.site/
 author: Yiluyanxia
 ssg:
   - Hexo

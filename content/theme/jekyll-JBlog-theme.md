@@ -1,7 +1,7 @@
 ---
 title: JBlog
-github: 'https://github.com/alperenbozkurt/JBlog'
-demo: 'https://alperenbozkurt.net/JBlog/'
+github: https://github.com/alperenbozkurt/JBlog
+demo: https://alperenbozkurt.net/JBlog/
 author: Alperen Bozkurt
 ssg:
   - Jekyll

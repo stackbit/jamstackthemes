@@ -1,7 +1,7 @@
 ---
 title: Millikyl
-github: 'https://github.com/fareez-ahamed/millikyl'
-demo: 'https://fareez-ahamed.github.io/millikyl/'
+github: https://github.com/fareez-ahamed/millikyl
+demo: https://fareez-ahamed.github.io/millikyl/
 author: Fareez Ahamed
 ssg:
   - Jekyll

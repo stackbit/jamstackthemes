@@ -1,7 +1,7 @@
 ---
 title: Siera
-github: 'https://github.com/KazumaSATO/Siera'
-demo: 'https://ranceworks.com/'
+github: https://github.com/KazumaSATO/Siera
+demo: https://ranceworks.com/
 author: Kazuma SATO
 ssg:
   - Jekyll

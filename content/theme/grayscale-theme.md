@@ -1,7 +1,7 @@
 ---
 title: Grayscale
-github: 'https://github.com/jeromelachaud/grayscale-theme'
-demo: 'https://jeromelachaud.com/grayscale-theme/'
+github: https://github.com/jeromelachaud/grayscale-theme
+demo: https://jeromelachaud.com/grayscale-theme/
 author: Jeromelachaud
 ssg:
   - Jekyll

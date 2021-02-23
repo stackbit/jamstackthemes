@@ -1,7 +1,7 @@
 ---
 title: Fundamenty
-github: 'https://github.com/creasoft-dev/fundamenty'
-demo: 'https://creasoft-dev.github.io/fundamenty/'
+github: https://github.com/creasoft-dev/fundamenty
+demo: https://creasoft-dev.github.io/fundamenty/
 author: Young-Suk Ahn Park
 date: 2020-07-24T00:00:00.000Z
 github_branch: master

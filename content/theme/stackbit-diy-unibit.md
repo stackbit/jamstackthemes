@@ -1,9 +1,9 @@
 ---
 title: DIY
 layout: single
-github: 'https://github.com/stackbit/stackbit-theme-diy'
+github: https://github.com/stackbit/stackbit-theme-diy
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/diy?themeBarHidden=true'
+demo: https://themes.stackbit.com/demos/diy?themeBarHidden=true
 author: Stackbit
 ssg:
   - Unibit

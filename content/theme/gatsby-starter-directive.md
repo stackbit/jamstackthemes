@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Directive
-github: 'https://github.com/anubhavsrivastava/gatsby-starter-directive'
-demo: 'https://anubhavsrivastava.github.io/gatsby-starter-directive/'
+github: https://github.com/anubhavsrivastava/gatsby-starter-directive
+demo: https://anubhavsrivastava.github.io/gatsby-starter-directive/
 author: ANUBHAV SRIVASTAVA
 ssg:
   - Gatsby

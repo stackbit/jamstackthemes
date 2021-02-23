@@ -1,7 +1,7 @@
 ---
 title: Jekyll Indigo
-github: 'https://github.com/sergiokopplin/indigo'
-demo: 'https://sergiokopplin.github.io/indigo/'
+github: https://github.com/sergiokopplin/indigo
+demo: https://sergiokopplin.github.io/indigo/
 author: Sérgio Kopplin
 ssg:
   - Jekyll

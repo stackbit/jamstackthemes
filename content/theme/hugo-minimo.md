@@ -1,7 +1,7 @@
 ---
 title: Minimo
-github: 'https://github.com/MunifTanjim/minimo'
-demo: 'https://minimo.netlify.com/'
+github: https://github.com/MunifTanjim/minimo
+demo: https://minimo.netlify.com/
 author: Munif Tanjim
 ssg:
   - Hugo

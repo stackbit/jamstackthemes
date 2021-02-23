@@ -1,7 +1,7 @@
 ---
 title: Guovz Pithy
-github: 'https://github.com/guovz/pithy'
-demo: 'https://www.guovz.com'
+github: https://github.com/guovz/pithy
+demo: https://www.guovz.com
 author: Jaylin Wang
 ssg:
   - Jekyll

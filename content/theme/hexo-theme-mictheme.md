@@ -1,7 +1,7 @@
 ---
 title: Mic Theme
-github: 'https://github.com/miccall/hexo-theme-Mic_Theme'
-demo: 'https://miccall.tech/'
+github: https://github.com/miccall/hexo-theme-Mic_Theme
+demo: https://miccall.tech/
 author: Mitro
 ssg:
   - Hexo

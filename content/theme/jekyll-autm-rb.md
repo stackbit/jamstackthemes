@@ -1,7 +1,7 @@
 ---
 title: autm-rb
-github: 'https://github.com/railsr/autm-rb'
-demo: 'https://kirqe.github.io/autm-rb/'
+github: https://github.com/railsr/autm-rb
+demo: https://kirqe.github.io/autm-rb/
 author: Kirill Beletskiy
 ssg:
   - Jekyll

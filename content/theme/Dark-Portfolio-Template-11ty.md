@@ -1,7 +1,7 @@
 ---
 title: Dark Porfolio Theme for 11ty
-github: 'https://github.com/jmschrack/Dark-Portfolio-Template-11ty/'
-demo: 'https://jmschrack.github.io/Dark-Portfolio-Template-11ty/'
+github: https://github.com/jmschrack/Dark-Portfolio-Template-11ty/
+demo: https://jmschrack.github.io/Dark-Portfolio-Template-11ty/
 author: Jonathan Schrack
 date: 2020-03-19T00:00:00.000Z
 github_branch: dev

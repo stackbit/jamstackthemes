@@ -1,7 +1,7 @@
 ---
 title: Gatsby Crafty Theme
-github: 'https://github.com/simplecode-io/gatsby-crafty-theme'
-demo: 'https://demos.simplecode.io/gatsby/crafty/'
+github: https://github.com/simplecode-io/gatsby-crafty-theme
+demo: https://demos.simplecode.io/gatsby/crafty/
 author: simplecode-io
 ssg:
   - Gatsby

@@ -1,7 +1,7 @@
 ---
 title: Gatsby Photo Book
-github: 'https://github.com/baobabKoodaa/gatsby-starter-photo-book'
-demo: 'https://gatsby-starter-photo-book.netlify.com/'
+github: https://github.com/baobabKoodaa/gatsby-starter-photo-book
+demo: https://gatsby-starter-photo-book.netlify.com/
 author: Atte Juvonen
 ssg:
   - Gatsby

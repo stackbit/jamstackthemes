@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Haezl
-github: 'https://github.com/haezl/gatsby-starter-haezl'
-demo: 'https://gatsby-starter.haezl.at/'
+github: https://github.com/haezl/gatsby-starter-haezl
+demo: https://gatsby-starter.haezl.at/
 author: Markus Hösel
 ssg:
   - Gatsby

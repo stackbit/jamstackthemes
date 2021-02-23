@@ -1,9 +1,9 @@
 ---
 title: Fjord
 layout: single
-github: 'https://github.com/stackbit/stackbit-theme-fjord'
+github: https://github.com/stackbit/stackbit-theme-fjord
 github_branch: master
-demo: 'https://themes.stackbit.com/demos/fjord?themeBarHidden=true'
+demo: https://themes.stackbit.com/demos/fjord?themeBarHidden=true
 author: Stackbit
 ssg:
   - Unibit
@@ -23,7 +23,7 @@ css:
 archetype:
   - Blog
 date: 2019-05-23T18:26:16.000Z
-description: 'Fjord is a beautiful, minimal blog theme.'
+description: Fjord is a beautiful, minimal blog theme.
 stale: false
 weight: 3
 ---

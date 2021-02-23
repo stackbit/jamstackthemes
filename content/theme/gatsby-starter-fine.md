@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Fine
-github: 'https://github.com/toboko/gatsby-starter-fine'
-demo: 'https://gatsby-starter-fine.netlify.com/'
+github: https://github.com/toboko/gatsby-starter-fine
+demo: https://gatsby-starter-fine.netlify.com/
 author: Nicola Bombaci
 ssg:
   - Gatsby

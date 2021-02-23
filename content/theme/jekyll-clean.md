@@ -1,7 +1,7 @@
 ---
 title: Clean
-github: 'https://github.com/knaman2609/clean'
-demo: 'https://knaman2609.github.io/clean/'
+github: https://github.com/knaman2609/clean
+demo: https://knaman2609.github.io/clean/
 author: knaman2609
 ssg:
   - Jekyll

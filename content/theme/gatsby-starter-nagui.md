@@ -1,7 +1,7 @@
 ---
 title: Gatsby Nagui
-github: 'https://github.com/kimnagui/gatsby-starter-nagui'
-demo: 'https://demo.nagui.me/'
+github: https://github.com/kimnagui/gatsby-starter-nagui
+demo: https://demo.nagui.me/
 author: Kim Gwang Hyeon
 ssg:
   - Gatsby

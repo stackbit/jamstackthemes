@@ -1,7 +1,7 @@
 ---
 title: Statiq Starter Kontent Lumen
-github: 'https://github.com/Kentico/statiq-starter-kontent-lumen'
-demo: 'https://kentico.github.io/statiq-starter-kontent-lumen/'
+github: https://github.com/Kentico/statiq-starter-kontent-lumen
+demo: https://kentico.github.io/statiq-starter-kontent-lumen/
 author: Kentico
 ssg:
   - Statiq

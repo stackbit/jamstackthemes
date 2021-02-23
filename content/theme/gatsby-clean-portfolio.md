@@ -1,7 +1,7 @@
 ---
 title: Gatsby Clean Portfolio
-github: 'https://github.com/ugglr/gatsby-clean-portfolio'
-demo: 'https://ugglr.github.io/gatsby-clean-portfolio/'
+github: https://github.com/ugglr/gatsby-clean-portfolio
+demo: https://ugglr.github.io/gatsby-clean-portfolio/
 author: Carl-W
 ssg:
   - Gatsby

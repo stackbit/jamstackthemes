@@ -1,7 +1,7 @@
 ---
 title: Moonwalk
-github: 'https://github.com/abhinavs/moonwalk'
-demo: 'https://abhinavs.github.io/moonwalk/'
+github: https://github.com/abhinavs/moonwalk
+demo: https://abhinavs.github.io/moonwalk/
 author: Abhinav Saxena
 ssg:
   - Jekyll

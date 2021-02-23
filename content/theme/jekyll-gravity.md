@@ -1,7 +1,7 @@
 ---
 title: Gravity
-github: 'https://github.com/hemangsk/Gravity'
-demo: 'https://hemangsk.github.io/Gravity'
+github: https://github.com/hemangsk/Gravity
+demo: https://hemangsk.github.io/Gravity
 author: Hemang Kumar (@hemangsk)
 ssg:
   - Jekyll

@@ -1,7 +1,7 @@
 ---
 title: Leap Day
-github: 'https://github.com/mattgraham/Leap-Day'
-demo: 'https://madebygraham.com/leapday/'
+github: https://github.com/mattgraham/Leap-Day
+demo: https://madebygraham.com/leapday/
 author: Matt Graham
 ssg:
   - Jekyll

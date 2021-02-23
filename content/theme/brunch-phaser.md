@@ -1,7 +1,7 @@
 ---
 title: Brunch Phaser
-github: 'https://github.com/samme/brunch-phaser'
-demo: 'https://phaser.io/phaser3'
+github: https://github.com/samme/brunch-phaser
+demo: https://phaser.io/phaser3
 author: Samme
 ssg:
   - Brunch

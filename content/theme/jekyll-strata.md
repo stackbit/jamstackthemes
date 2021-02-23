@@ -1,7 +1,7 @@
 ---
 title: Strata
-github: 'https://github.com/CloudCannon/Strata-Jekyll-Theme'
-demo: 'https://html5up.net/strata'
+github: https://github.com/CloudCannon/Strata-Jekyll-Theme
+demo: https://html5up.net/strata
 author: old-jekyll-templates
 ssg:
   - Jekyll

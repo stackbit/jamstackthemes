@@ -1,7 +1,7 @@
 ---
 title: Hacker Blog
-github: 'https://github.com/tocttou/hacker-blog'
-demo: 'https://ashishchaudhary.in/hacker-blog/'
+github: https://github.com/tocttou/hacker-blog
+demo: https://ashishchaudhary.in/hacker-blog/
 author: Ashish Chaudhary
 ssg:
   - Jekyll
@@ -12,5 +12,5 @@ github_branch: master
 description: >-
   Hacker-Blog is a minimalistic, responsive jekyll theme built for hackers.
   https://ashishchaudhary.in/hacker-blog
-stale: false
+stale: true
 ---

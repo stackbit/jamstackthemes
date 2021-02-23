@@ -1,7 +1,7 @@
 ---
 title: Jamify Blog Starter
-github: 'https://github.com/styxlab/next-cms-ghost'
-demo: 'https://next.jamify.org/'
+github: https://github.com/styxlab/next-cms-ghost
+demo: https://next.jamify.org/
 author: Joost Jansky
 ssg:
   - Next

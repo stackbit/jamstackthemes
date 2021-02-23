@@ -1,8 +1,8 @@
 ---
 title: Gatsby DevBlog
-github: 'https://github.com/RyanFitzgerald/devblog'
+github: https://github.com/RyanFitzgerald/devblog
 author: RyanFitzgerald
-demo: 'https://gatsby-devblog.netlify.com/'
+demo: https://gatsby-devblog.netlify.com/
 date: 2020-06-03T00:00:00.000Z
 ssg:
   - Gatsby

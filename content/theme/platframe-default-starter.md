@@ -1,8 +1,8 @@
 ---
 title: Platframe default starter
-github: 'https://github.com/platframe/platframe'
+github: https://github.com/platframe/platframe
 author: platframe
-demo: 'https://default.platframe.com/'
+demo: https://default.platframe.com/
 date: 2020-06-03T00:00:00.000Z
 ssg:
   - Platframe

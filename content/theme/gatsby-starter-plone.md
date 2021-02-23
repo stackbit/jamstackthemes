@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Plone
-github: 'https://github.com/collective/gatsby-starter-plone'
-demo: 'https://collective.github.io/gatsby-starter-plone/'
+github: https://github.com/collective/gatsby-starter-plone
+demo: https://collective.github.io/gatsby-starter-plone/
 author: Collective
 ssg:
   - Gatsby

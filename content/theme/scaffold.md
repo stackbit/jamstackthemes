@@ -1,7 +1,7 @@
 ---
 title: Scaffold
-github: 'https://github.com/sziv2p/jekyll-theme-scaffold'
-demo: 'https://sziv2p.github.io/jekyll-theme-scaffold/'
+github: https://github.com/sziv2p/jekyll-theme-scaffold
+demo: https://sziv2p.github.io/jekyll-theme-scaffold/
 author: Songzi Vong
 date: 2020-11-02T00:00:00.000Z
 github_branch: master

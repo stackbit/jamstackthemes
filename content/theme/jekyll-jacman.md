@@ -1,7 +1,7 @@
 ---
 title: Jacman
-github: 'https://github.com/Simpleyyt/jekyll-jacman'
-demo: 'https://simpleyyt.github.io/jekyll-jacman'
+github: https://github.com/Simpleyyt/jekyll-jacman
+demo: https://simpleyyt.github.io/jekyll-jacman
 author: Yitao Yao
 ssg:
   - Jekyll

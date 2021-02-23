@@ -1,7 +1,7 @@
 ---
 title: Scribble
-github: 'https://github.com/muan/scribble'
-demo: 'https://scribble.muan.co/'
+github: https://github.com/muan/scribble
+demo: https://scribble.muan.co/
 author: Mu-An Chiou
 ssg:
   - Jekyll

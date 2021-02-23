@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Devto
-github: 'https://github.com/geocine/gatsby-starter-devto'
-demo: 'https://gatsby-starter-devto.netlify.com/'
+github: https://github.com/geocine/gatsby-starter-devto
+demo: https://gatsby-starter-devto.netlify.com/
 author: Aivan Monceller
 ssg:
   - Gatsby

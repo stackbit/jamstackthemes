@@ -1,7 +1,7 @@
 ---
 title: Yummy Theme
-github: 'https://github.com/DONGChuan/Yummy-Jekyll'
-demo: 'https://dongchuan.github.io/'
+github: https://github.com/DONGChuan/Yummy-Jekyll
+demo: https://dongchuan.github.io/
 author: DONG Chuan
 ssg:
   - Jekyll

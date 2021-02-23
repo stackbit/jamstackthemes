@@ -1,7 +1,7 @@
 ---
 title: Atmos Plus
-github: 'https://github.com/meliodus/meliodus.github.io'
-demo: 'https://meliodus.github.io/'
+github: https://github.com/meliodus/meliodus.github.io
+demo: https://meliodus.github.io/
 author: Ankan Biswas
 ssg:
   - Jekyll

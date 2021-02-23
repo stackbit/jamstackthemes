@@ -1,7 +1,7 @@
 ---
 title: Jekyll-Uno-Timeline
-github: 'https://github.com/tzuehlke/jekyll-uno-timeline'
-demo: 'https://thomas.zuehlke.family/'
+github: https://github.com/tzuehlke/jekyll-uno-timeline
+demo: https://thomas.zuehlke.family/
 author: Thomas Zühlke
 ssg:
   - Jekyll

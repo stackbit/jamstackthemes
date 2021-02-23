@@ -1,7 +1,7 @@
 ---
 title: HMFAYSAL OMEGA Theme
-github: 'https://github.com/hmfaysal/hmfaysal-omega-theme'
-demo: 'https://hmfaysal.github.io/hmfaysal-omega-theme/'
+github: https://github.com/hmfaysal/hmfaysal-omega-theme
+demo: https://hmfaysal.github.io/hmfaysal-omega-theme/
 author: Hossain Mohd Faysal
 ssg:
   - Jekyll

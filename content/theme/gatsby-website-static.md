@@ -1,7 +1,7 @@
 ---
 title: Website Static
-github: 'https://github.com/histaff/website-static'
-demo: 'https://histaff.io/'
+github: https://github.com/histaff/website-static
+demo: https://histaff.io/
 author: HiStaff
 ssg:
   - Gatsby

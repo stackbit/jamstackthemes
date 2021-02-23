@@ -1,7 +1,7 @@
 ---
 title: Eureka
-github: 'https://github.com/wangchucheng/hugo-eureka'
-demo: 'https://themes.gohugo.io/theme/hugo-eureka/'
+github: https://github.com/wangchucheng/hugo-eureka
+demo: https://themes.gohugo.io/theme/hugo-eureka/
 author: C. Wang
 date: 2020-11-22T00:00:00.000Z
 github_branch: master

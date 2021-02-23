@@ -1,9 +1,9 @@
 ---
-title: "Pole"
+title: Pole
 github: https://github.com/szivong/pole
 demo: https://szivong.io/pole/
 author: Songzi Vong
-date: 2021-02-22
+date: 2021-02-22T00:00:00.000Z
 github_branch: main
 ssg:
   - Jekyll
@@ -15,6 +15,7 @@ archetype:
   - Blog
   - Personal website
 description: Pole is a one-column minimal responsive Jekyll blog theme.
+stale: false
 ---
 
 Pole is *a one-column minimal responsive Jekyll blog theme*.

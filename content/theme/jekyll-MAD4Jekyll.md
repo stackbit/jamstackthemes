@@ -1,7 +1,7 @@
 ---
 title: MAD4Jekyll
-github: 'https://github.com/madforjekyll/madforjekyll.github.io'
-demo: 'https://madforjekyll.github.io'
+github: https://github.com/madforjekyll/madforjekyll.github.io
+demo: https://madforjekyll.github.io
 author: MADness
 ssg:
   - Jekyll

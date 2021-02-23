@@ -1,7 +1,7 @@
 ---
 title: Eleventy Hylia
-github: 'https://github.com/andybelldesign/hylia'
-demo: 'https://hylia.website/'
+github: https://github.com/andybelldesign/hylia
+demo: https://hylia.website/
 author: Andy Bell
 ssg:
   - Eleventy

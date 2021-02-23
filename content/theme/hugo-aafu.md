@@ -1,7 +1,7 @@
 ---
 title: Aafu
-github: 'https://github.com/darshanbaral/aafu'
-demo: 'https://themes.gohugo.io/theme/aafu/'
+github: https://github.com/darshanbaral/aafu
+demo: https://themes.gohugo.io/theme/aafu/
 author: Darshan Baral
 ssg:
   - Hugo

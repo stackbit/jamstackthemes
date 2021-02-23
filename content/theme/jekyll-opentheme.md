@@ -1,7 +1,7 @@
 ---
 title: OpenTheme
-github: 'https://github.com/open-start/opentheme'
-demo: 'https://opentheme.co/'
+github: https://github.com/open-start/opentheme
+demo: https://opentheme.co/
 author: Manav Sehgal
 ssg:
   - Jekyll

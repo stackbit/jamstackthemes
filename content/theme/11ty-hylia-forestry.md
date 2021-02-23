@@ -1,7 +1,7 @@
 ---
 title: Eleventy Hylia Forestry
-github: 'https://github.com/DirtyF/hylia-forestry'
-demo: 'https://hylia-forestry.netlify.com'
+github: https://github.com/DirtyF/hylia-forestry
+demo: https://hylia-forestry.netlify.com
 author: DirtyF
 ssg:
   - Eleventy

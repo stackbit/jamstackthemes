@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Nehalem
-github: 'https://github.com/nehalist/gatsby-starter-nehalem'
-demo: 'https://nehalem.netlify.com/'
+github: https://github.com/nehalist/gatsby-starter-nehalem
+demo: https://nehalem.netlify.com/
 author: Kevin
 ssg:
   - Gatsby

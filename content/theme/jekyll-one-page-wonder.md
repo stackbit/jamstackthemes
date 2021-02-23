@@ -1,7 +1,7 @@
 ---
 title: One Page Wonder
-github: 'https://github.com/mushishi78/one-page-wonder-jekyll'
-demo: 'https://mushishi78.github.io/one-page-wonder-jekyll'
+github: https://github.com/mushishi78/one-page-wonder-jekyll
+demo: https://mushishi78.github.io/one-page-wonder-jekyll
 author: Max White
 ssg:
   - Jekyll

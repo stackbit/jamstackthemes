@@ -1,7 +1,7 @@
 ---
 title: Gatsby Agility
-github: 'https://github.com/agility/agility-gatsby-starter'
-demo: 'https://agility-gatsby-starter.netlify.com/'
+github: https://github.com/agility/agility-gatsby-starter
+demo: https://agility-gatsby-starter.netlify.com/
 author: Agility CMS
 ssg:
   - Gatsby

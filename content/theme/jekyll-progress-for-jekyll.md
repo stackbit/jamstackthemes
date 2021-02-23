@@ -1,7 +1,7 @@
 ---
 title: Progress
-github: 'https://github.com/alexanderussell/progress-for-jekyll'
-demo: 'https://alexanderussell.github.io/progress-for-jekyll'
+github: https://github.com/alexanderussell/progress-for-jekyll
+demo: https://alexanderussell.github.io/progress-for-jekyll
 author: Alexander Russell
 ssg:
   - Jekyll

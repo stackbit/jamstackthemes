@@ -1,7 +1,7 @@
 ---
 title: Nextjs Starter Blog
-github: 'https://github.com/ixartz/Next-js-Blog-Boilerplate'
-demo: 'https://creativedesignsguru.com/demo/Nextjs-Blog-Boilerplate/'
+github: https://github.com/ixartz/Next-js-Blog-Boilerplate
+demo: https://creativedesignsguru.com/demo/Nextjs-Blog-Boilerplate/
 author: Ixartz
 ssg:
   - Next
@@ -11,7 +11,9 @@ css:
   - Tailwind
 date: 2020-08-16T12:37:50.000Z
 github_branch: master
-description: "\U0001F680 The perfect Nextjs starter code: production-ready with SEO-friendly for quickly start a blog."
+description: >-
+  🚀 The perfect Nextjs starter code: production-ready with SEO-friendly for
+  quickly start a blog.
 stale: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Honey
-github: 'https://github.com/davshoward/gatsby-starter-honey'
-demo: 'https://gatsbyhoney.davshoward.com/'
+github: https://github.com/davshoward/gatsby-starter-honey
+demo: https://gatsbyhoney.davshoward.com/
 author: Davs Howard
 ssg:
   - Gatsby

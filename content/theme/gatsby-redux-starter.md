@@ -1,7 +1,7 @@
 ---
 title: Gatsby Redux Starter
-github: 'https://github.com/AVivero/gatsby-redux-starter'
-demo: 'https://avivero.github.io/gatsby-redux-starter/'
+github: https://github.com/AVivero/gatsby-redux-starter
+demo: https://avivero.github.io/gatsby-redux-starter/
 author: Alex Vivero
 ssg:
   - Gatsby

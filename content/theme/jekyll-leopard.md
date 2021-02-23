@@ -1,7 +1,7 @@
 ---
 title: leopard
-github: 'https://github.com/leopardpan/leopardpan.github.io'
-demo: 'https://baixin.io'
+github: https://github.com/leopardpan/leopardpan.github.io
+demo: https://baixin.io
 author: leopardpan
 ssg:
   - Jekyll

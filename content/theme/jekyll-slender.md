@@ -1,7 +1,7 @@
 ---
 title: Slender
-github: 'https://github.com/nikrich/jekyll-slender-template'
-demo: 'https://nikrich.github.io/jekyll-slender-template/#'
+github: https://github.com/nikrich/jekyll-slender-template
+demo: https://nikrich.github.io/jekyll-slender-template/#
 author: Jannik Richter
 ssg:
   - Jekyll

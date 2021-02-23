@@ -1,7 +1,7 @@
 ---
 title: Jamify Starter
-github: 'https://github.com/styxlab/gatsby-starter-try-ghost'
-demo: 'https://demo.jamify.org/'
+github: https://github.com/styxlab/gatsby-starter-try-ghost
+demo: https://demo.jamify.org/
 author: styxlab
 ssg:
   - Gatsby

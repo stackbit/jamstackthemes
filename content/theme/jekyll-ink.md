@@ -1,7 +1,7 @@
 ---
 title: Ink
-github: 'https://github.com/thinker3197/ink'
-demo: 'https://thinker3197.github.io/ink'
+github: https://github.com/thinker3197/ink
+demo: https://thinker3197.github.io/ink
 author: Ashish Gupta
 ssg:
   - Jekyll

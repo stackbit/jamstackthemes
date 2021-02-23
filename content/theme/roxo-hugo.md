@@ -1,7 +1,7 @@
 ---
 title: Roxo Hugo
-github: 'https://github.com/StaticMania/roxo-hugo'
-demo: 'https://roxo-hugo.staticmania.com/'
+github: https://github.com/StaticMania/roxo-hugo
+demo: https://roxo-hugo.staticmania.com/
 author: StaticMania
 date: 2020-03-16T00:00:00.000Z
 github_branch: master

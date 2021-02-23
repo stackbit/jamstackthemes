@@ -1,7 +1,7 @@
 ---
 title: Gatsby Starter Elemental
-github: 'https://github.com/akzhy/gatsby-starter-elemental'
-demo: 'https://elemental.netlify.com'
+github: https://github.com/akzhy/gatsby-starter-elemental
+demo: https://elemental.netlify.com
 author: Akshay
 ssg:
   - Gatsby

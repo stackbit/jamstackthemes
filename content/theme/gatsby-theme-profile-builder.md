@@ -1,7 +1,7 @@
 ---
 title: Profile Builder
-github: 'https://github.com/ashr81/gatsby-theme-profile-builder'
-demo: 'https://gatsby-theme-profile-builder.netlify.com/'
+github: https://github.com/ashr81/gatsby-theme-profile-builder
+demo: https://gatsby-theme-profile-builder.netlify.com/
 author: Ashrith Reddy
 ssg:
   - Gatsby

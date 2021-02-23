@@ -1,7 +1,7 @@
 ---
 title: Jekyll-Mono
-github: 'https://github.com/AkshayAgarwal007/Jekyll-Mono'
-demo: 'https://akshayagarwal007.github.io/Jekyll-Mono'
+github: https://github.com/AkshayAgarwal007/Jekyll-Mono
+demo: https://akshayagarwal007.github.io/Jekyll-Mono
 author: Akshay Agarwal
 ssg:
   - Jekyll

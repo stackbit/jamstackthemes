@@ -1,7 +1,7 @@
 ---
 title: dark-poole
-github: 'https://github.com/andrewhwanpark/dark-poole'
-demo: 'https://andrewhwanpark.github.io/dark-poole/'
+github: https://github.com/andrewhwanpark/dark-poole
+demo: https://andrewhwanpark.github.io/dark-poole/
 author: andrewhwanpark
 date: 2020-08-03T00:00:00.000Z
 github_branch: master

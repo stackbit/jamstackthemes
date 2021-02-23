@@ -1,7 +1,7 @@
 ---
 title: Gatsby Github Personal Website
-github: 'https://github.com/thakkaryash94/gatsby-github-personal-website'
-demo: 'https://thakkaryash94.netlify.com/'
+github: https://github.com/thakkaryash94/gatsby-github-personal-website
+demo: https://thakkaryash94.netlify.com/
 author: Yash Thakkar
 ssg:
   - Gatsby

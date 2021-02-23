@@ -1,7 +1,7 @@
 ---
 title: Monday
-github: 'https://github.com/artemsheludko/monday'
-demo: 'https://artemsheludko.pw/monday'
+github: https://github.com/artemsheludko/monday
+demo: https://artemsheludko.pw/monday
 author: Artem Sheludko
 ssg:
   - Jekyll

@@ -1,7 +1,7 @@
 ---
 title: Beantech
-github: 'https://github.com/YenYuHsuan/hexo-theme-beantech/'
-demo: 'https://beantech.org/'
+github: https://github.com/YenYuHsuan/hexo-theme-beantech/
+demo: https://beantech.org/
 author: Yu Hsuan Yen
 ssg:
   - Hexo

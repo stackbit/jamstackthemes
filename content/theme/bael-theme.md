@@ -1,7 +1,7 @@
 ---
 title: Bael Theme
-github: 'https://github.com/jake-101/bael-template'
-demo: 'https://bael-theme.jake101.com/'
+github: https://github.com/jake-101/bael-template
+demo: https://bael-theme.jake101.com/
 author: jake101
 ssg:
   - Nuxt

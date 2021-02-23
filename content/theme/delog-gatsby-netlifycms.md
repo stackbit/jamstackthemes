@@ -1,8 +1,8 @@
 ---
 title: Delog GatsbyJS
-github: 'https://github.com/W3Layouts/gatsby-starter-delog'
+github: https://github.com/W3Layouts/gatsby-starter-delog
 author: W3Layouts
-demo: 'https://delog-w3layouts.netlify.com/'
+demo: https://delog-w3layouts.netlify.com/
 date: 2020-06-03T00:00:00.000Z
 ssg:
   - Gatsby

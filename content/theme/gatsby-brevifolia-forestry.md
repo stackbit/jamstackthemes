@@ -1,7 +1,7 @@
 ---
 title: Gatsby Brevifolia Forestry
-github: 'https://github.com/kendallstrautman/brevifolia-gatsby-forestry'
-demo: 'https://brevifolia-gatsby-forestry.netlify.com/'
+github: https://github.com/kendallstrautman/brevifolia-gatsby-forestry
+demo: https://brevifolia-gatsby-forestry.netlify.com/
 author: Kendall Strautman
 ssg:
   - Gatsby

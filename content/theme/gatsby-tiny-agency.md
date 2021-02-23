@@ -1,7 +1,7 @@
 ---
 title: Tiny Agency
-github: 'https://github.com/foxandgeese/tiny-agency'
-demo: 'https://foxandgeese.github.io/tiny-agency/'
+github: https://github.com/foxandgeese/tiny-agency
+demo: https://foxandgeese.github.io/tiny-agency/
 author: Versionista
 ssg:
   - Gatsby

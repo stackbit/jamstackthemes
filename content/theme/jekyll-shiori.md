@@ -1,7 +1,7 @@
 ---
 title: Shiori
-github: 'https://github.com/ellekasai/shiori/'
-demo: 'https://ellekasai.github.io/shiori/'
+github: https://github.com/ellekasai/shiori/
+demo: https://ellekasai.github.io/shiori/
 author: Elle Kasai
 ssg:
   - Jekyll

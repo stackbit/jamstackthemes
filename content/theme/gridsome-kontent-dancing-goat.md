@@ -1,7 +1,7 @@
 ---
 title: Gridsome Kontent Dancing Goat
-github: 'https://github.com/Kentico/kontent-sample-dancing-goat-gridsome'
-demo: 'https://kontent-sample-dancing-goat-gridsome.netlify.app/'
+github: https://github.com/Kentico/kontent-sample-dancing-goat-gridsome
+demo: https://kontent-sample-dancing-goat-gridsome.netlify.app/
 author: Kentico
 ssg:
   - Gridsome

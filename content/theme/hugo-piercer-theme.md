@@ -1,7 +1,7 @@
 ---
 title: Piercer
-github: 'https://github.com/danielkvist/hugo-piercer-theme'
-demo: 'https://piercer.netlify.com/'
+github: https://github.com/danielkvist/hugo-piercer-theme
+demo: https://piercer.netlify.com/
 author: Daniel
 ssg:
   - Hugo

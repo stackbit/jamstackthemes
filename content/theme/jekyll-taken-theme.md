@@ -1,7 +1,7 @@
 ---
 title: Taken
-github: 'https://github.com/vfalanis/taken'
-demo: 'https://vfalanis.me/taken/'
+github: https://github.com/vfalanis/taken
+demo: https://vfalanis.me/taken/
 author: Valentina Fernandez Alanis (vfalanis)
 ssg:
   - Jekyll

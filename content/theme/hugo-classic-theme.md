@@ -1,7 +1,7 @@
 ---
 title: Hugo-Classic
-github: 'https://github.com/goodroot/hugo-classic'
-demo: 'https://goodroot.ca/'
+github: https://github.com/goodroot/hugo-classic
+demo: https://goodroot.ca/
 author: Kellen Evan Person
 ssg:
   - Hugo

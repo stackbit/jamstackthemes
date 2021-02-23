@@ -1,7 +1,7 @@
 ---
 title: Spectral
-github: 'https://github.com/arkadianriver/spectral'
-demo: 'https://arkadianriver.github.io/spectral/'
+github: https://github.com/arkadianriver/spectral
+demo: https://arkadianriver.github.io/spectral/
 author: Gary Faircloth
 ssg:
   - Jekyll

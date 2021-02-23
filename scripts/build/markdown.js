@@ -1,18 +1,18 @@
 #!/usr/bin/env node
 const fs = require('fs');
+const path = require('path');
 const yamlFront = require('yaml-front-matter');
 const yaml = require('js-yaml');
-const parseGithubUrl = require('parse-github-url');
-const argv = require('yargs').argv
+const isBefore = require('date-fns/isBefore');
+const parseISO = require('date-fns/parseISO');
+const subYears = require('date-fns/subYears');
+const {getThemeKey} = require('./utils');
+const config = require('./config');
+const staleBeforeDate = subYears(new Date(), 1);
 
 const updateFrontmatter = (file, update = {}) => {
-    console.log(`Updating frontmatter ${file}`, update)
-    const fileData = fs.existsSync(file) ? fs.readFileSync(file) : null;
-
-    if (!fileData) {
-        console.log("file not found", file);
-        return;
-    }
+    const absFilepath = path.resolve(config.themesMarkdownFolder, file)
+    const fileData = fs.existsSync(absFilepath) ? fs.readFileSync(absFilepath) : null;
 
     let frontmatter = yamlFront.loadFront(fileData);
     let content = frontmatter.__content;
@@ -24,56 +24,17 @@ const updateFrontmatter = (file, update = {}) => {
 
     const fm = `---\n${yaml.dump(frontmatter)}---${content}`;
 
-    fs.writeFileSync(file, fm);
+    fs.writeFileSync(absFilepath, fm);
 }
 
-const loadMarkdownData = (markdownFiles) => {
-
-    const filter = {
-        draft: true,
-        disabled: true
-    };
-
-    let filterCounts = {
-        draft: 0,
-        disabled: 0,
-        latest: 0,
-        skipped: 0
-    }
-
-    // Filter themes before fetching from Github
-    const markdownData = markdownFiles.map(absFilename => loadThemeFrontMatter(absFilename)).filter(theme => {
-        // Don't fetch themes with draft or disabled in the frontmatter
-        for (let key in filter) {
-            if (theme[key]) {
-                filterCounts[key] += 1
-                return false;
-            }
-        }
-        // if the cli command --latest is used, only fetch new themes which don't already exist in `data/themes.json`
-        if (argv.latest) {
-            if (themesData[theme.themeKey]) {
-                filterCounts.latest += 1
-                return false
-            }
-        }
-        // if the cli command --file=hugo-swift-theme.md is used, only fetch that specific theme
-        if (argv.file) {
-            if (argv.file !== theme.file) {
-                filterCounts.skipped += 1
-                return false
-            }
-        }
-        return true;
-    });
-
-    console.log(`Loading (${markdownData.length}/${markdownFiles.length}) themes`)
-    console.log("Disabled ", markdownData.filter(data => data.disabled).length)
-    console.log("Drafts ", markdownData.filter(data => data.draft).length)
-    console.log("Latest ", filterCounts.latest)
-    console.log("Skipped ", filterCounts.skipped)
-
-    return markdownData;
+const updateStale = (themes) => {
+    themes.forEach(theme => {
+        const lastCommit = theme.last_commit;
+        const isStale = isBefore(parseISO(lastCommit), staleBeforeDate)
+        updateFrontmatter(theme.file, {
+            stale: isStale
+        })
+    })
 }
 
 const loadThemeFrontMatter = absFilename => {
@@ -85,20 +46,82 @@ const loadThemeFrontMatter = absFilename => {
         let description = frontmatter.description;
         let draft = frontmatter.draft;
         let disabled = frontmatter.disabled;
-        let repoUrl = frontmatter.github;
-        let repoName = parseGithubUrl(frontmatter.github).repo; // stackbithq/stackbit-theme-fresh
-        let demoUrl = frontmatter.demo;
-        let branch = frontmatter.github_branch;
-        let themeKey = repoName.replace("/", "-").toLowerCase() + "-" + branch;
-        let file = absFilename;
-        return { title, description, file, repoUrl, repoName, demoUrl, branch, themeKey, disabled, draft }
-    }
-    catch {
-        throw new Error(`${fileName} invalid github frontmatter`)
+        let github = frontmatter.github;
+        let demo = frontmatter.demo;
+        let github_branch = frontmatter.github_branch;
+        let file = path.parse(absFilename).base;
+        let absFile = absFilename
+        let ssg = frontmatter.ssg
+        let cms = frontmatter.cms
+        return {
+            title,
+            description,
+            draft,
+            disabled,
+            github,
+            demo,
+            github_branch,
+            file,
+            absFile,
+            ssg,
+            cms
+        }
+    } catch {
+        throw new Error(`${absFilename} invalid github frontmatter`)
     }
 };
 
-module.exports ={
-    loadMarkdownData,
-    updateFrontmatter
+const generateMarkdownData = async (markdownFiles, options) => {
+
+    const filter = options.filter
+
+    let filterCounts = {
+        draft: 0,
+        disabled: 0,
+        latest: 0,
+        skipped: 0
+    }
+
+    console.log(options);
+
+    // Filter themes before fetching from Github
+    const markdownData = markdownFiles.map(absFilename => loadThemeFrontMatter(absFilename)).filter(theme => {
+        // Don't fetch themes with draft or disabled in the front-matter
+        for (let key in filter) {
+            if (theme[key]) {
+                filterCounts[key] += 1
+                return false;
+            }
+        }
+        // if the cli command --latest is used, only fetch new themes which don't already exist in `data/themes.json`
+        if (options.latest) {
+            const themeKey = getThemeKey(theme.github, theme.github_branch)
+            if (config.themesJsonData[themeKey]) {
+                filterCounts.latest += 1
+                return false
+            }
+        }
+        // if the cli command --file=hugo-swift-theme.md is used, only fetch that specific theme
+        if (options.file) {
+            if (options.file !== theme.file) {
+                filterCounts.skipped += 1
+                return false
+            }
+        }
+        return true;
+    });
+
+    console.log(`Loading (${markdownData.length}/${markdownFiles.length}) themes`)
+    console.log("Disabled ", filterCounts.disabled)
+    console.log("Drafts ", filterCounts.draft)
+    console.log("Latest ", filterCounts.latest)
+    console.log("Skipped ", filterCounts.skipped)
+
+    return markdownData;
 }
+
+module.exports = {
+    generateMarkdownData,
+    updateStale
+}
+

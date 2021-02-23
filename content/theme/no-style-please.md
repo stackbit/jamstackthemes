@@ -1,7 +1,7 @@
 ---
-title: 'no style, please!'
-github: 'https://github.com/riggraz/no-style-please'
-demo: 'https://riggraz.dev/no-style-please/'
+title: no style, please!
+github: https://github.com/riggraz/no-style-please
+demo: https://riggraz.dev/no-style-please/
 author: riggraz
 date: 2020-07-24T00:00:00.000Z
 github_branch: master
@@ -12,7 +12,7 @@ cms:
 archetype:
   - Blog
   - Portfolio
-description: 'A (nearly) no-CSS, fast, minimalist Jekyll theme.'
+description: A (nearly) no-CSS, fast, minimalist Jekyll theme.
 stale: false
 ---
 

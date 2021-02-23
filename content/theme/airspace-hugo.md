@@ -1,7 +1,7 @@
 ---
 title: Airspace Hugo
-github: 'https://github.com/themefisher/airspace-hugo'
-demo: 'https://demo.themefisher.com/airspace-hugo/'
+github: https://github.com/themefisher/airspace-hugo
+demo: https://demo.themefisher.com/airspace-hugo/
 author: Themefisher
 ssg:
   - Hugo

@@ -1,7 +1,7 @@
 ---
 title: Solo (single-page)
-github: 'https://github.com/chibicode/solo/'
-demo: 'https://chibicode.github.io/solo/'
+github: https://github.com/chibicode/solo/
+demo: https://chibicode.github.io/solo/
 author: Shu Uesugi
 ssg:
   - Jekyll

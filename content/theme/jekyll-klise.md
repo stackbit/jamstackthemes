@@ -1,7 +1,7 @@
 ---
 title: Jekyll Klisé
-github: 'https://github.com/piharpi/jekyll-klise'
-demo: 'https://klise.now.sh'
+github: https://github.com/piharpi/jekyll-klise
+demo: https://klise.now.sh
 author: piharpi
 date: 2020-04-06T00:00:00.000Z
 github_branch: master

@@ -1,7 +1,7 @@
 ---
 title: Wing
-github: 'https://github.com/nikrich/jekyll-wing-template'
-demo: 'https://nikrich.github.io/jekyll-wing-template/#'
+github: https://github.com/nikrich/jekyll-wing-template
+demo: https://nikrich.github.io/jekyll-wing-template/#
 author: Jannik Richter
 ssg:
   - Jekyll

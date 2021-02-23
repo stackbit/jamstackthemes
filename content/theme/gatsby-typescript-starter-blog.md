@@ -1,7 +1,7 @@
 ---
 title: Gatsby Typescript Starter Blog
-github: 'https://github.com/frnki/gatsby-typescript-starter-blog'
-demo: 'https://gatsby-typescript-starter-blog.netlify.com/'
+github: https://github.com/frnki/gatsby-typescript-starter-blog
+demo: https://gatsby-typescript-starter-blog.netlify.com/
 author: frnki
 ssg:
   - Gatsby

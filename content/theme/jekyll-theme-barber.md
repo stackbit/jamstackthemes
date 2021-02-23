@@ -1,7 +1,7 @@
 ---
 title: Barber
-github: 'https://github.com/samesies/barber-jekyll'
-demo: 'https://barber.samesies.io/'
+github: https://github.com/samesies/barber-jekyll
+demo: https://barber.samesies.io/
 author: Thomas Vaeth
 ssg:
   - Jekyll

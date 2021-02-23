@@ -1,7 +1,7 @@
 ---
 title: RG Portfolio
-github: 'https://github.com/rohitguptab/rg-portfolio'
-demo: 'https://rg-portfolio.netlify.com'
+github: https://github.com/rohitguptab/rg-portfolio
+demo: https://rg-portfolio.netlify.com
 author: Rohit Gupta
 date: 2020-04-10T00:00:00.000Z
 github_branch: master
