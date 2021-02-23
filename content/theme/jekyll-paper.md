@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-09-07T13:37:31.000Z
-github_branch: master
 description: A gentle theme for Jekyll utilising material design.
 stale: true
 ---

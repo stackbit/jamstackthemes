@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2014-03-14T05:52:03.000Z
-github_branch: master
 description: Port of poole/lanyon, to spf13/hugo
 stale: false
 ---

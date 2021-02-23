@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-06-19T13:39:10.000Z
-github_branch: master
 description: Simple starter demo
 stale: true
 ---

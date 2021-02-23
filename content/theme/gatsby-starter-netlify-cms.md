@@ -10,7 +10,6 @@ cms:
 css:
   - Bulma
 date: 2017-08-15T23:15:14.000Z
-github_branch: master
 featured: true
 description: Example gatsby + netlify cms project
 stale: false

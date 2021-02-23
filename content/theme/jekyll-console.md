@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-01-25T06:26:30.000Z
-github_branch: master
 description: simple yet powerful theme that will make your website look stylish
 stale: true
 ---

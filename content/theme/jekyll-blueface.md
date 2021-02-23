@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-03-23T10:49:06.000Z
-github_branch: master
 description: A minimalist Jekyll theme.
 stale: true
 ---

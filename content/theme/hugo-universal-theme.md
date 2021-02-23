@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-06-14T12:47:40.000Z
-github_branch: master
 description: Port of the Universal theme to Hugo
 stale: false
 ---

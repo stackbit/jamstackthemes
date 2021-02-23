@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-06-28T09:14:32.000Z
-github_branch: master
 description: Hestia Pure is a Hugo theme based on Pure CSS.
 stale: true
 ---

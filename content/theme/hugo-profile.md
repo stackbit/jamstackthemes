@@ -4,7 +4,6 @@ github: https://github.com/gurusabarish/hugo-profile
 demo: https://hugo-profile.netlify.app
 author: GuruSabarish
 date: 2020-10-22T00:00:00.000Z
-github_branch: master
 ssg:
   - Hugo
 cms:

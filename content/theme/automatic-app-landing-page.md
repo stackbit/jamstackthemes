@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-01-05T10:20:11.000Z
-github_branch: master
 description: >-
   A Jekyll theme for automatically generating and deploying landing page sites
   for mobile apps.

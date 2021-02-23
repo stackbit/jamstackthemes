@@ -8,7 +8,8 @@ ssg:
 cms:
   - No Cms
 date: 2017-09-19T06:00:06.000Z
-github_branch: gh-pages
 description: A Jekyll theme.
 stale: true
+disabled: true
+disabled_reason: error checking demo url
 ---

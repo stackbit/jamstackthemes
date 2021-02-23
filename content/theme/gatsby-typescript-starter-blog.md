@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-12-16T12:12:14.000Z
-github_branch: master
 description: A starter blog for TypeScript-based Gatsby projects with minimal settings.
 stale: true
 ---

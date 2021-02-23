@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-08-06T20:17:57.000Z
-github_branch: master
 description: Responsive Hugo theme for hierarchical content websites
 stale: false
 ---

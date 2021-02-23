@@ -4,7 +4,6 @@ github: https://github.com/surjithctly/neat-starter
 demo: https://neat-starter.netlify.app/
 author: Surjith S M
 date: 2020-10-05T00:00:00.000Z
-github_branch: master
 ssg:
   - Eleventy
 cms:

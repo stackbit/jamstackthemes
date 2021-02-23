@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const fs = require('fs');
 const path = require('path');
+const subYears = require('date-fns/subYears');
 
 const errorJsonFile = path.join(process.cwd(), '/data/errors.json');
 const stackbitJsonFile = path.join(process.cwd(), '/data/stackbit.json');
@@ -12,6 +13,7 @@ const themesJsonData = fs.existsSync(themesJsonFile) ? JSON.parse(fs.readFileSyn
 const hiresImagesFolder = path.join(process.cwd(), '/static/capture');
 const thumbnailImagesFolder = path.join(process.cwd(), '/static/images/theme/thumbnail')
 const thumbnailImagesFolder2x = path.join(process.cwd(), '/static/images/theme/thumbnail/2x')
+const staleBeforeDate = subYears(new Date(), 1);
 
 module.exports = {
     errorJsonFile,
@@ -23,5 +25,6 @@ module.exports = {
     stackbitJsonData,
     hiresImagesFolder,
     thumbnailImagesFolder,
-    thumbnailImagesFolder2x
+    thumbnailImagesFolder2x,
+    staleBeforeDate
 }

@@ -10,7 +10,6 @@ cms:
 services:
   - Snipcart
 date: 2020-04-19T00:00:00.000Z
-github_branch: master
 description: API-First CMS Primer with Directus' Open Source Headless CMS
 stale: true
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-08-28T13:23:53.000Z
-github_branch: master
 description: A blogging-centric Bootstrap v4 theme for the Hugo static site generator.
 stale: false
 ---

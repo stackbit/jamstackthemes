@@ -11,7 +11,6 @@ cms:
 archetype:
   - Blog
 description: Platframe's default (responsive) starter template.
-github_branch: master
 stale: false
 ---
 

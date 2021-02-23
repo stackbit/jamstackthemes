@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-02-03T18:36:21.000Z
-github_branch: gh-pages
 description: >-
   Fork this repo for a quick start. If 'Project Timeline' or 'License' appeared
   on your nav bar, Look Below!

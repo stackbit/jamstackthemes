@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-11-01T14:16:55.000Z
-github_branch: master
 description: Jekyll theme based on materialize.
 stale: false
 ---

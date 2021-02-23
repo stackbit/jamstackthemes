@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-11-29T18:29:17.000Z
-github_branch: gh-pages
 description: Butane Jekyll Theme
 stale: true
 ---

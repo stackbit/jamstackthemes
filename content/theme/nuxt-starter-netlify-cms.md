@@ -11,7 +11,6 @@ cms:
 archetype:
   - Blog
 description: A super unopinionated starter project.
-github_branch: master
 stale: false
 ---
 

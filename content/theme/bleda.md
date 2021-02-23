@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-03-04T14:14:31.000Z
-github_branch: master
 description: Gridsome blog starter, built with Tailwind CSS
 stale: false
 ---

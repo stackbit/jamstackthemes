@@ -1,15 +1,14 @@
 ---
-title: "Gridsome Airtable Starter"
+title: Gridsome Airtable Starter
 github: https://github.com/12vanblart/gridsome-airtable-starter
 demo: https://gridsomeairtable.netlify.com/
 author: Tyler VanBlargan
-date: 2019-12-18
-github_branch: master
+date: 2019-12-18T00:00:00.000Z
 ssg:
   - Gridsome
 cms:
   - Airtable
-description: "A Gridsome starter leveraging Airtable with a minimalist design. "
+description: 'A Gridsome starter leveraging Airtable with a minimalist design. '
 stale: false
 ---
 

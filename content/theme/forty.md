@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-11-18T01:53:43.000Z
-github_branch: master
 description: Forty theme - Hugo theme ported from HTML5UP origrinal theme called Forty.
 stale: true
 ---

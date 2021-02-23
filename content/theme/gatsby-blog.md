@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-01-24T16:12:40.000Z
-github_branch: master
 description: Source for my blazing fast blog
 stale: false
 ---

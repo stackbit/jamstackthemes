@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-07-22T09:15:15.000Z
-github_branch: master
 description: >-
   Bootstrap based Hugo startpage theme which provides out of the box best
   practices.

@@ -4,7 +4,6 @@ github: https://github.com/adityatelange/hugo-PaperMod
 demo: https://adityatelange.github.io/hugo-PaperMod/
 author: adityatelange
 date: 2020-11-22T00:00:00.000Z
-github_branch: master
 ssg:
   - Hugo
 cms:

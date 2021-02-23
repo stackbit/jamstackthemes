@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-03-03T03:55:20.000Z
-github_branch: master
 description: Hugo theme for personal blogs
 stale: true
 ---

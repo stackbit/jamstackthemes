@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2014-10-23T03:14:41.000Z
-github_branch: gh-pages
 description: Bootstrap theme for GitHub Pages (Jekyll).
 stale: true
 ---

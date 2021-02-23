@@ -4,7 +4,6 @@ github: https://github.com/jeffreytse/jekyll-theme-yat
 demo: https://jeffreytse.github.io/jekyll-theme-yat/
 author: Jeffrey Tse
 date: 2020-09-01T00:00:00.000Z
-github_branch: master
 ssg:
   - Jekyll
 cms:

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-10-15T05:35:15.000Z
-github_branch: master
 description: Jekyll theme template to create web presentation
 stale: false
 ---

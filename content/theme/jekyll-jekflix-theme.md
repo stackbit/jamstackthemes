@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-09-09T15:29:54.000Z
-github_branch: master
 description: A Jekyll template inspired by Netflix. 🎬
 stale: false
 ---

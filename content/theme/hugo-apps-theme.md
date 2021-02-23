@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-10-28T08:09:14.000Z
-github_branch: master
 description: Hugo Apps Theme
 stale: false
 ---

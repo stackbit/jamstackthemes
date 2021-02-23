@@ -8,7 +8,8 @@ ssg:
 cms:
   - No Cms
 date: 2014-05-10T16:43:23.000Z
-github_branch: gh-pages
 description: The world's greatest jekyll theme
 stale: true
+disabled: true
+disabled_reason: error checking demo url
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-01-02T19:29:31.000Z
-github_branch: master
 description: A minimalistic, responsive and friendly Jekyllrb theme.
 stale: true
 ---

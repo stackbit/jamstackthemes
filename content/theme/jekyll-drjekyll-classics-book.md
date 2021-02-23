@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-07-16T17:50:43.000Z
-github_branch: master
 description: >-
   jekyll starter theme for classic books (ex. Strange Case of Dr. Jekyll and Mr.
   Hyde by Robert Louis Stevenson)

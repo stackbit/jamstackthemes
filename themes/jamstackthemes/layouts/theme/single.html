@@ -7,7 +7,7 @@
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="{{ .Permalink }}"/>
     <meta property="og:description" content="{{ .Params.description }}"/>
-    {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
+     {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
     {{ $repo := index .Site.Data.themes $repoName }}
     {{ if $repo }}
         {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
@@ -31,7 +31,8 @@
 {{ end }}
 
 {{ define "main" }}
-    {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
+    {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
+
     {{ $repo := index .Site.Data.themes $repoName }}
     {{ $stackbit := index .Site.Data.stackbit $repoName }}
 

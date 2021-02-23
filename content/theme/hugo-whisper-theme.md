@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-11-07T00:00:00.000Z
-github_branch: master
 description: Whisper is a minimal documentation theme for Hugo.
 stale: false
 ---

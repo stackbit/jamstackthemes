@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-10-06T16:42:56.000Z
-github_branch: master
 description: A fresh and french theme for Hugo
 stale: true
 ---

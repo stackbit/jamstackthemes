@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2012-06-08T23:00:07.000Z
-github_branch: gh-pages
 description: >-
   Slate is theme for your GitHub Pages or Jekyll site.
   https://jasoncostello.github.io/slate

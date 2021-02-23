@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-05-15T13:44:38.000Z
-github_branch: master
 description: Simple Material Design Theme for Hugo
 stale: true
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-11-09T22:42:40.000Z
-github_branch: master
 description: ':beers: Event marketing template for Jekyll'
 stale: true
 ---

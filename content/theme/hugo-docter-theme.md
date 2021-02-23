@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-06-08T12:33:56.000Z
-github_branch: master
 description: Hugo port of cfpb/docter
 stale: false
 ---

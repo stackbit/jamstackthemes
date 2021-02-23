@@ -2,11 +2,14 @@
 const axios = require('axios');
 const allSettled = require('promise.allsettled');
 const rateLimit = require('axios-rate-limit');
+const isBefore = require('date-fns/isBefore');
 const parseISO = require('date-fns/parseISO');
 const formatDistanceToNow = require('date-fns/formatDistanceToNow')
 const ora = require('ora');
 const {errorLog} = require('./errors');
 const {getThemeKey, getRepoName} = require('./utils');
+const {updateFrontmatter} = require('./markdown')
+const config = require('./config');
 
 if (!process.env.GITHUB_TOKEN) {
     throw new Error(
@@ -19,8 +22,10 @@ const axiosLimit = rateLimit(axios.create(), {maxRequests: 2, perMilliseconds: 2
 const spinner = ora('Loading')
 
 const fetchRepoData = async (frontmatter) => {
-    const themeKey = getThemeKey(frontmatter.github, frontmatter.github_branch)
+
+    const themeKey = getThemeKey(frontmatter.github)
     const repoName = getRepoName(frontmatter.github)
+
     try {
         const res = await axiosLimit.get(
             `https://api.github.com/repos/${repoName}`,
@@ -30,7 +35,16 @@ const fetchRepoData = async (frontmatter) => {
                 },
             })
         spinner.text = `${frontmatter.file} => ${res.data.html_url} - ${res.status}`
-        const lastCommit = await fetchBranchData(repoName, frontmatter.github_branch);
+        const lastCommit = await fetchBranchData(repoName, res.data.default_branch);
+        updateFrontmatter(frontmatter.file, {
+            stale: isBefore(parseISO(lastCommit), config.staleBeforeDate)
+        })
+        if (frontmatter.disabled) {
+            updateFrontmatter(frontmatter.file, {
+                disabled: false,
+                disabled_reason: ""
+            })
+        }
 
         return {
             theme_key: themeKey,
@@ -39,7 +53,7 @@ const fetchRepoData = async (frontmatter) => {
             title: frontmatter.title,
             github_username: res.data.owner.login,
             repo: res.data.full_name,
-            branch: frontmatter.github_branch,
+            branch: res.data.default_branch,
             default_branch: res.data.default_branch,
             github_url: res.data.html_url,
             demo_url: frontmatter.demo,
@@ -56,16 +70,11 @@ const fetchRepoData = async (frontmatter) => {
             }
         }
     } catch (err) {
-        let error = "Error fetching github repo";
-        if (err) {
-            if (err.response) {
-                if (err.response.data) {
-                    if (err.response.data.message) {
-                        error = err.response.data.message;
-                    }
-                }
-            }
-        }
+        let error = "Github repo not found";
+        updateFrontmatter(frontmatter.file, {
+            disabled: true,
+            disabled_reason: error
+        })
         spinner.text = `${frontmatter.file} => ${error}`
         errorLog.push({
             theme_key: themeKey,
@@ -73,7 +82,6 @@ const fetchRepoData = async (frontmatter) => {
             repoUrl: frontmatter.github,
             error
         })
-        throw err
     }
 }
 
@@ -95,11 +103,27 @@ const fetchBranchData = (repo, branch) => {
 }
 
 const generateGithubData = async (markdownData, themesJsonData) => {
-    spinner.start("Fetching data");
-    const result = await allSettled(markdownData.map(frontmatter => fetchRepoData(frontmatter)))
-    const themes = result.filter(res => res.status === 'fulfilled').map(res => res.value)
+    spinner.start("Fetching Github Data");
+    const initalThemes = config.themesJsonData;
+    const update = await allSettled(markdownData.map(frontmatter => fetchRepoData(frontmatter)))
+    const updatedThemesArray = update.filter(res => res.status === 'fulfilled').map(res => res.value)
+    const mergedThemesMap = updatedThemesArray.reduce((accumulator, theme) => {
+        if (theme === undefined) {
+            // TODO find root cause
+            console.log("undefined theme detected");
+            return {
+                ...accumulator
+            };
+        }
+        const themeKey = getThemeKey(theme.github_url)
+        return {
+            ...accumulator,
+            [themeKey]: theme
+        };
+    }, initalThemes);
+
     spinner.succeed("Success - Fetching Github Data");
-    return themes
+    return mergedThemesMap
 }
 
 module.exports = {

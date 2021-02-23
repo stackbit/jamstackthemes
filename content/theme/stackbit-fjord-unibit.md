@@ -2,7 +2,6 @@
 title: Fjord
 layout: single
 github: https://github.com/stackbit/stackbit-theme-fjord
-github_branch: master
 demo: https://themes.stackbit.com/demos/fjord?themeBarHidden=true
 author: Stackbit
 ssg:

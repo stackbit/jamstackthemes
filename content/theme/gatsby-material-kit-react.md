@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-03-10T21:21:12.000Z
-github_branch: master
 description: Adapt Material Kit React to Gatsby
 stale: false
 ---

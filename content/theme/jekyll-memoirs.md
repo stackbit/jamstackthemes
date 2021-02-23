@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2020-04-08T05:58:15.000Z
-github_branch: master
 description: Memoirs - beautiful free Jekyll theme
 stale: false
 ---

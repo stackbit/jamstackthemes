@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-10-27T19:44:58.000Z
-github_branch: master
 description: Bootstrap based Hugo theme which provides out of the box best practices.
 stale: false
 ---

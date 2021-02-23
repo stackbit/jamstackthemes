@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-08-05T14:40:43.000Z
-github_branch: master
 description: 🚪Single page theme for links to your works
 stale: false
 ---

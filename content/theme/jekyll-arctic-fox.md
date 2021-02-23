@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-05-27T12:30:56.000Z
-github_branch: master
 description: ':snowboarder: An even more lightweight theme for Jekyll'
 stale: true
 ---

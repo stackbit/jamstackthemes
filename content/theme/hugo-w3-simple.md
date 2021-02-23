@@ -8,7 +8,8 @@ ssg:
 cms:
   - No Cms
 date: 2018-11-05T23:20:12.000Z
-github_branch: master
 description: Hugo Theme
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

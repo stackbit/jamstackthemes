@@ -1,14 +1,13 @@
 ---
 title: Memoirs Statiq Kontent Theme
-github: 'https://github.com/alanta/memoirs-theme'
-demo: 'https://alanta.github.io/memoirs-theme'
+github: https://github.com/alanta/memoirs-theme
+demo: https://alanta.github.io/memoirs-theme
 author: alanta
 ssg:
   - Statiq
 cms:
   - Kontent
 date: 2020-12-01T00:00:00.000Z
-github_branch: master
 archetype:
   - Blog
   - Portfolio

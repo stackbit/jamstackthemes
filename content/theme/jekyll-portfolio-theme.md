@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-09-05T21:02:25.000Z
-github_branch: gh-pages
 description: Personal portfolio theme powered by Jekyll and GitHub Pages
 stale: true
 ---

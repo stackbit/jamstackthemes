@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-03-29T06:10:39.000Z
-github_branch: master
 description: A wholesome, flat, sunshiny Jekyll theme
 stale: false
 ---

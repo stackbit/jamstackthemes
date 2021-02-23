@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2014-09-03T14:35:16.000Z
-github_branch: master
 description: Jekyll theme based on masonry
 stale: true
 ---

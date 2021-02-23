@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-04-24T14:33:33.000Z
-github_branch: master
 description: Hugo theme—Slim
 stale: true
 ---

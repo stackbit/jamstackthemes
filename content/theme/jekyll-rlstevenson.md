@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-09-08T12:22:19.000Z
-github_branch: master
 description: 'A Bootstrap clone of the popular Hyde theme for Jekyll. '
 stale: true
 ---

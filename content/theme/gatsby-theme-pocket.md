@@ -6,7 +6,6 @@ author: Hungry Bear Studio
 ssg:
   - Gatsby
 date: 2019-12-10T00:00:00.000Z
-github_branch: master
 description: A Gatsby theme that adds a pocket to your website.
 stale: false
 ---

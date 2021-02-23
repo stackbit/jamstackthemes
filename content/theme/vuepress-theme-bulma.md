@@ -10,7 +10,6 @@ cms:
 css:
   - Bulma
 date: 2018-07-16T12:37:30.000Z
-github_branch: master
 description: A pure Bulma.css theme for VuePress
 stale: false
 ---

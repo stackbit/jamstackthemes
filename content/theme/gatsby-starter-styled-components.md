@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-02-26T23:36:59.000Z
-github_branch: master
 description: Gatsby starter using styled components with a sticky footer
 stale: false
 ---

@@ -51,7 +51,7 @@
                 <div id="grids-homepage" class="row mt-3">
 
                     {{ range (($themes.ByParam "date").Reverse).ByParam "weight" }}
-                        {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
+                        {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
                         {{ $repo := index .Site.Data.themes $repoName }}
                         {{ $stackbit := index .Site.Data.stackbit $repoName }}
                         {{ partial "theme-card.html" (dict "theme" . "repo" $repo "stackbit" $stackbit "site" $.Site) }}
@@ -61,8 +61,6 @@
             </div>
         </div>
     </div>
-
-    {{ partial "footer.html" . }}
 
 {{ end }}
 

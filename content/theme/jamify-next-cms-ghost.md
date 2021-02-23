@@ -11,7 +11,6 @@ archetype:
   - Blog
   - Portfolio
 date: 2020-12-04T00:00:00.000Z
-github_branch: master
 description: Publish flaring fast blogs with Next.js and Ghost CMS
 stale: false
 ---

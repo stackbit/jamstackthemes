@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-04-28T21:55:31.000Z
-github_branch: master
 description: Cayman Blog is a Jekyll theme for GitHub Pages, based on Cayman theme
 stale: true
 ---

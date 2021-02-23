@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-08-27T16:11:12.000Z
-github_branch: master
 description: A hexo theme, use semantic ui.
 stale: true
 ---

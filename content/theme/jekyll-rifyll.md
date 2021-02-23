@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-01-01T21:38:31.000Z
-github_branch: master
 description: 'A simple blog template for jekyll based on twitter bootstrap 3 '
 stale: true
 ---

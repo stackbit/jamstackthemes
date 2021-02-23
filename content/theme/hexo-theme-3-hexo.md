@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-02-05T09:26:14.000Z
-github_branch: master
 description: hexo主题：三段式设计，极简，方便
 stale: false
 ---

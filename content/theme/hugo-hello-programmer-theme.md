@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-11-20T14:49:37.000Z
-github_branch: master
 description: This is a hugo theme for a programmer. It's simple and simple.
 stale: true
 ---

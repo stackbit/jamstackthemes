@@ -8,7 +8,6 @@ ssg:
 cms:
   - No CMS
 date: 2019-08-11T00:00:00.000Z
-github_branch: master
 description: >-
   Eleventy template using Bootstrap, Sass, Webpack, Vue.js powered search,
   includes lots of other features

@@ -4,7 +4,6 @@ github: https://github.com/ritijjain/pudhina-fresh
 demo: https://ritijjain.github.io/pudhina-fresh/
 author: Ritij Jain
 date: 2021-01-02T00:00:00.000Z
-github_branch: master
 ssg:
   - Jekyll
 cms:

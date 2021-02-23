@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-08-13T14:09:51.000Z
-github_branch: master
 description: A responsive Gatsby starter for structured Q&A Interviews
 stale: true
 ---

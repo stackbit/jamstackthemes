@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-06-09T03:49:08.000Z
-github_branch: master
 description: a port of html5up.net/stellar template for Hugo static site generator
 stale: true
 ---

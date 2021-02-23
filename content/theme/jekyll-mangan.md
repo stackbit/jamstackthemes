@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-07-03T08:13:56.000Z
-github_branch: master
 description: Geek theme for Jekyll.
 stale: false
 ---

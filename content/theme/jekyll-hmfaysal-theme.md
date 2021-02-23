@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2013-12-13T19:21:10.000Z
-github_branch: master
 description: A Bold Theme for Jekyll. See demo at
 stale: true
 ---

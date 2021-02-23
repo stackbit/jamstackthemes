@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-11-06T12:57:01.000Z
-github_branch: master
 description: Tikva is a minimalistic Hugo theme, based on Bootstrap v4 CSS framework.
 stale: false
 ---

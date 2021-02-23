@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-04-18T17:56:10.000Z
-github_branch: master
 description: 'A fine blog starter for Gatsby '
 stale: true
 ---

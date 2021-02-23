@@ -8,9 +8,10 @@ ssg:
 cms:
   - No Cms
 date: 2015-08-16T21:27:34.000Z
-github_branch: master
 description: >-
   This is my no-good-very-bad template for Jekyll (modified from jekyll-new and
   Alex King's Favepersonal).
 stale: true
+disabled: true
+disabled_reason: error checking demo url
 ---

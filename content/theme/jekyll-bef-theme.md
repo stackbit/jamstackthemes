@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-07-16T15:34:56.000Z
-github_branch: master
 description: Bef is a responsive jekyll theme https://artemsheludko.github.io/bef/
 stale: true
 ---

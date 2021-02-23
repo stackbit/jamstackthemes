@@ -10,7 +10,6 @@ cms:
 css:
   - Bootstrap
 date: 2014-07-19T15:13:08.000Z
-github_branch: master
 description: Jekyll theme based on Freelancer Start Bootstrap theme
 stale: false
 ---

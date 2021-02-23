@@ -4,7 +4,6 @@ github: https://github.com/peaceiris/hugo-theme-iris
 demo: https://hugothemeiris.peaceiris.app
 author: peaceiris
 date: 2020-06-25T00:00:00.000Z
-github_branch: master
 ssg:
   - Hugo
 cms:

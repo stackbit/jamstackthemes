@@ -10,7 +10,6 @@ cms:
 css:
   - Bulma
 date: 2018-11-26T13:25:33.000Z
-github_branch: master
 description: 🚀 + ⚛️  A Quick Way to bootstrap your next Gatsby + Bulma site.
 stale: false
 ---

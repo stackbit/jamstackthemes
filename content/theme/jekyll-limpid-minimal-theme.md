@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-06-05T17:18:41.000Z
-github_branch: master
 description: A clean, minimal theme for Jekyll blogs
 stale: true
 ---

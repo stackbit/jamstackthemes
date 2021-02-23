@@ -8,7 +8,6 @@ ssg:
 cms:
   - NetlifyCMS
 date: 2018-11-19T00:43:34.000Z
-github_branch: master
 description: Example website built with Gatsby V2 and Netlify CMS
 stale: true
 ---

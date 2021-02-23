@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-08-12T10:41:34.000Z
-github_branch: master
 description: A Gatsby starter template that uses @geocine/gatsby-theme-organization
 stale: true
 ---

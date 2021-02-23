@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-04-13T12:50:52.000Z
-github_branch: master
 description: Gatsby 2.0 starter with typescript and many cools dev tools
 stale: true
 ---

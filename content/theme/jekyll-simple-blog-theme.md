@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-05-20T16:21:49.000Z
-github_branch: master
 description: >-
   Simple Blog Theme is a clean, responsive blogging theme for Jekyll and
   GitLab/GitHub Pages.

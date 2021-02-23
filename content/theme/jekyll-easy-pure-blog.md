@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-01-29T18:18:02.000Z
-github_branch: master
 description: 我的个人博客
 stale: true
 ---

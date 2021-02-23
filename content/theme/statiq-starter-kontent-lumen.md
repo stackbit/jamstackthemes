@@ -8,7 +8,6 @@ ssg:
 cms:
   - Kontent
 date: 2020-10-20T00:00:00.000Z
-github_branch: master
 archetype:
   - Blog
   - Portfolio

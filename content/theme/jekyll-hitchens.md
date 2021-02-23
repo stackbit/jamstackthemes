@@ -4,7 +4,6 @@ github: https://github.com/patdryburgh/hitchens
 demo: https://patdryburgh.github.io/hitchens/
 author: patdryburgh
 date: 2020-03-22T00:00:00.000Z
-github_branch: master
 ssg:
   - Jekyll
 cms:

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-12-19T14:27:31.000Z
-github_branch: master
 description: >-
   A simple, clean,  and responsive 'Hugo - Static Site Generator' theme for
   bloggers

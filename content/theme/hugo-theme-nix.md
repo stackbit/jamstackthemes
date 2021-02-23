@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-09-30T08:11:59.000Z
-github_branch: master
 description: Nix is a simple, minimal theme for Hugo
 stale: false
 ---

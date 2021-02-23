@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-04-10T01:45:07.000Z
-github_branch: master
 description: Pithy Jekyll Theme
 stale: true
 ---

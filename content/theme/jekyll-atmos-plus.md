@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-11-08T15:21:45.000Z
-github_branch: master
 description: Introvert Geek Diaries ~ Ankan Biswas on the internet
 stale: true
 ---

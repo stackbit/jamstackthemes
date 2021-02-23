@@ -8,7 +8,8 @@ ssg:
 cms:
   - No Cms
 date: 2017-04-03T13:25:22.000Z
-github_branch: master
 description: Fresh is a free blog template for Jekyll
 stale: true
+disabled: true
+disabled_reason: error checking demo url
 ---

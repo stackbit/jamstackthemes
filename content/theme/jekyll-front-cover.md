@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-02-21T11:07:54.000Z
-github_branch: master
 description: Front Cover jekyll theme
 stale: true
 ---

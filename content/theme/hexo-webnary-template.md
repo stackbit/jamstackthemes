@@ -4,7 +4,6 @@ github: https://github.com/DFCommunity/Hexo-Web-Nary
 demo: https://webnary.netlify.app
 author: BRAVO68WEB
 date: 2020-08-14T00:00:00.000Z
-github_branch: master
 ssg:
   - Hexo
 cms:

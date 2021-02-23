@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-05-27T08:33:21.000Z
-github_branch: master
 description: The default Gatsby starter TypeScript
 stale: false
 ---

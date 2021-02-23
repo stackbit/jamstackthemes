@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-06-20T23:34:15.000Z
-github_branch: master
 description: 🔮 An opinionated Gatsby v2 starter for state-of-the-art marketing sites.
 stale: true
 ---

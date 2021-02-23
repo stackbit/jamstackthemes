@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-10-04T00:00:00.000Z
-github_branch: master
 description: 'A Bootstrap theme tweaked for Jekyll :heart:'
 stale: false
 ---

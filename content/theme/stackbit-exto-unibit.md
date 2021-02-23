@@ -2,7 +2,6 @@
 title: Exto
 layout: single
 github: https://github.com/stackbit/stackbit-theme-exto
-github_branch: master
 demo: https://themes.stackbit.com/demos/exto?themeBarHidden=true
 author: Stackbit
 ssg:

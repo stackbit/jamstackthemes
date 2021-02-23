@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2011-01-27T12:07:06.000Z
-github_branch: source
 description: The website
 stale: true
 ---

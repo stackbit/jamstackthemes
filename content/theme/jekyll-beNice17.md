@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-12-30T13:15:34.000Z
-github_branch: master
 description: A Jekyll theme for my personal website
 stale: false
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-03-20T16:05:24.000Z
-github_branch: master
 description: pacman theme support Hugo v0.37.1 now
 stale: true
 ---

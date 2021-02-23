@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-09-06T10:24:57.000Z
-github_branch: master
 description: Adam Blog is a minimal clear theme for Jekyll
 stale: true
 ---

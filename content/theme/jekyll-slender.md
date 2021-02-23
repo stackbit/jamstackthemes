@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-03-30T10:52:12.000Z
-github_branch: master
 description: Beautiful portfolio style template for jekyll
 stale: true
 ---

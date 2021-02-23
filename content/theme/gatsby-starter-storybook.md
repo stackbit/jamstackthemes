@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-11-01T10:06:05.000Z
-github_branch: master
 description: 👾 Gatsby Storybook Starter
 stale: true
 ---

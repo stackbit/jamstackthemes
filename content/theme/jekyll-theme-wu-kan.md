@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-02-22T21:33:42.000Z
-github_branch: master
 description: A content-first, sliding sidebar theme for Jekyll.
 stale: false
 ---

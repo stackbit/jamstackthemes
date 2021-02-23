@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-01-03T21:56:41.000Z
-github_branch: master
 description: The Jekyll theme for your personal landing page.
 stale: true
 ---

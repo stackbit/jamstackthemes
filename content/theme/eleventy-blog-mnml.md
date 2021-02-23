@@ -6,7 +6,6 @@ author: Arpit Batra
 ssg:
   - Eleventy
 date: 2019-07-02T13:08:30.000Z
-github_branch: master
 description: A blog template using eleventy
 stale: false
 ---

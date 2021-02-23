@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-04-27T20:01:35.000Z
-github_branch: master
 description: A Gatsby starter with Sass and no assumptions!
 stale: false
 ---

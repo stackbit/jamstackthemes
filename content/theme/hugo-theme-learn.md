@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-03-17T10:58:41.000Z
-github_branch: master
 description: Porting Grav Learn theme to Hugo
 stale: false
 ---

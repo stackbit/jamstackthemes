@@ -4,7 +4,6 @@ github: https://github.com/wkocjan/gatsby-theme-intro
 demo: https://weeby.studio/intro/preview
 author: Wojciech Kocjan
 date: 2020-04-23T00:00:00.000Z
-github_branch: master
 ssg:
   - Gatsby
 cms:

@@ -8,7 +8,6 @@ ssg:
 cms:
   - Contentful
 date: 2018-10-10T00:47:54.000Z
-github_branch: master
 description: 🎊 A simple Gatsby Starter that talks to Contentful.
 stale: true
 ---

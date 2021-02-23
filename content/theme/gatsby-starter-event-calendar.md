@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-11-12T12:55:50.000Z
-github_branch: master
 description: >-
   Gatsby Starter to display information about events from Google Spreadsheets
   with Calendars

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-10-19T10:22:22.000Z
-github_branch: master
 description: The Casper theme v1.4 ported to Gatsby v2
 stale: true
 ---

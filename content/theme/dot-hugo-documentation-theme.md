@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-01-05T09:42:06.000Z
-github_branch: master
 description: Dot - Hugo Documentation Theme
 stale: false
 ---

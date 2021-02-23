@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-05-14T06:50:04.000Z
-github_branch: master
 description: Not todo Gatsby app for my talk
 stale: false
 ---

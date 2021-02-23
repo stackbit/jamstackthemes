@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-05-12T09:28:43.000Z
-github_branch: master
 description: Gatsby.js V2 starter template based on Identity by HTML5 UP
 stale: false
 ---

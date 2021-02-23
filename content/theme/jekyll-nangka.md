@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-12-29T17:37:54.000Z
-github_branch: gh-pages
 description: 'nangka-jekyll-theme #rmsu'
 stale: true
 ---

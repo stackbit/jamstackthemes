@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-09-10T06:57:49.000Z
-github_branch: master
 description: Adaptation of the HUGO Creative Theme to support several portfolios.
 stale: false
 ---

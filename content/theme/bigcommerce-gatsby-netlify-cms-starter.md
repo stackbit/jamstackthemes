@@ -13,7 +13,6 @@ archetype:
 description: >-
   Example Gatsby, BigCommerce and Netlify CMS project meant to jump start
   Jamstack ecommerce sites.
-github_branch: master
 stale: false
 ---
 

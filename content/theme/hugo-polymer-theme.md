@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-06-30T09:07:58.000Z
-github_branch: master
 description: Polymer Material Design Theme for Hugo
 stale: true
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-11-13T02:43:40.000Z
-github_branch: master
 description: 'Preview '
 stale: true
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-10-14T04:39:07.000Z
-github_branch: master
 description: ':dragon: Product marketing template for Jekyll'
 stale: false
 ---

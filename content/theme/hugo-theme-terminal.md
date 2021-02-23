@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-01-27T23:58:03.000Z
-github_branch: master
 description: A simple, retro theme for Hugo
 stale: false
 ---

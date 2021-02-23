@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-05-03T16:34:14.000Z
-github_branch: master
 description: A Gatsby localization website powered by Cosmic
 stale: true
 ---

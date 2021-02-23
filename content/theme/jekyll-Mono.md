@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-05-20T19:44:40.000Z
-github_branch: master
 description: >-
   :red_circle: Jekyll-Mono :large_blue_circle: is a simple and elegant GitHub
   Profile cum Blog theme

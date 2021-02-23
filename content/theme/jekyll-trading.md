@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-04-08T08:45:41.000Z
-github_branch: master
 description: jekyll theme in newspaper style
 stale: true
 ---

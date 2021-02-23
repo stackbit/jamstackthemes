@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-06-23T05:55:56.000Z
-github_branch: master
 description: Brunch.io with Rails
 stale: true
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-12-02T10:25:28.000Z
-github_branch: master
 description: Hugo theme based on GitHub's Primer CSS
 stale: false
 ---

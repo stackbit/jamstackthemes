@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-01-08T23:10:17.000Z
-github_branch: master
 description: A Hugo blog theme
 stale: true
 ---

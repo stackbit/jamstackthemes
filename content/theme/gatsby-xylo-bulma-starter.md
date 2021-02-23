@@ -10,7 +10,6 @@ cms:
 css:
   - Bulma
 date: 2018-10-07T03:53:26.000Z
-github_branch: master
 description: Gatsby v2 Starter with Bulma based on default starter.
 stale: true
 ---

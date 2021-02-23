@@ -8,7 +8,6 @@ ssg:
 cms:
   - Firebase
 date: 2019-04-03T12:36:08.000Z
-github_branch: master
 description: Gatsby starter with Firebase hosting configuration
 stale: true
 ---

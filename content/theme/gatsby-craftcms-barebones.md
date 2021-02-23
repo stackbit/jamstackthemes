@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-01-19T01:04:45.000Z
-github_branch: master
 description: Barebones starter for a Headless Craft CMS & Gatsby configuration.
 stale: true
 ---

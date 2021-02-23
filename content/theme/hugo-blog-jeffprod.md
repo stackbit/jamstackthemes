@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-08-10T21:13:26.000Z
-github_branch: master
 description: >-
   A free blog theme for HUGO (https://gohugo.io/), with tags, archives, last
   posts...

@@ -2,7 +2,6 @@
 title: Vanilla
 layout: single
 github: https://github.com/stackbit/stackbit-theme-vanilla
-github_branch: master
 demo: https://themes.stackbit.com/demos/vanilla?themeBarHidden=true
 author: Stackbit
 ssg:

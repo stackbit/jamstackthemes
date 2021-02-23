@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-10-17T12:39:39.000Z
-github_branch: master
 description: Gatsby + Firebase = 👍
 stale: true
 ---

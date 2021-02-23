@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-06-04T23:36:15.000Z
-github_branch: master
 description: >-
   A quick and simple responsive developer portfolio theme for jekyll sites and
   GitHub Pages.

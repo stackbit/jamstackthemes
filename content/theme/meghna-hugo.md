@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-09-12T09:09:05.000Z
-github_branch: master
 description: Meghna Hugo Template
 stale: false
 ---

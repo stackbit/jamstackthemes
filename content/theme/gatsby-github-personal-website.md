@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-03-01T20:56:53.000Z
-github_branch: master
 description: Repo for github portfolio using gatsby
 stale: false
 ---

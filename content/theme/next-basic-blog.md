@@ -4,7 +4,6 @@ github: https://github.com/mudassirgithub/next-basic-blog
 demo: https://next-basic-blog.vercel.app/
 author: Ahmed Mudassir
 date: 2020-08-18T00:00:00.000Z
-github_branch: master
 ssg:
   - Next
 cms:

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-08-09T13:58:20.000Z
-github_branch: master
 description: Theme for Hugo static website engine
 stale: true
 ---

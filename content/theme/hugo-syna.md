@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-09-07T11:51:44.000Z
-github_branch: master
 description: Highly customizable open source theme for Hugo based static websites
 stale: false
 ---

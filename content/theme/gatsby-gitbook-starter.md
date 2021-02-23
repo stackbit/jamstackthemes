@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-05-04T14:09:01.000Z
-github_branch: master
 description: Generate GitBook style modern docs/tutorial websites using Gatsby + MDX
 stale: false
 ---

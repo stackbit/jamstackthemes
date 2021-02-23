@@ -10,7 +10,6 @@ cms:
 css:
   - Tailwind
 date: 2020-08-16T12:37:50.000Z
-github_branch: master
 description: >-
   🚀 The perfect Nextjs starter code: production-ready with SEO-friendly for
   quickly start a blog.

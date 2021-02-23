@@ -4,7 +4,6 @@ github: https://github.com/lyket-dev/nextjs-simple-blog-theme
 demo: https://nextjs-simple-blog.netlify.app/
 author: Lyket
 date: 2020-10-21T00:00:00.000Z
-github_branch: main
 ssg:
   - Next
 cms:

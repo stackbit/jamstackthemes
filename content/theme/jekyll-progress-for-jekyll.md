@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-06-10T18:34:46.000Z
-github_branch: master
 description: A long-form blogging theme for Jekyll.
 stale: true
 ---

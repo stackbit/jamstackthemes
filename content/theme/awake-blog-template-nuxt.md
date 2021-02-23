@@ -13,7 +13,6 @@ archetype:
 description: >-
   Awake is a Nuxt.js template for generating a beautifully robust static site
   with blog
-github_branch: master
 stale: false
 ---
 

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-04-10T04:11:51.000Z
-github_branch: master
 description: The Classless templates and themes implemented in Hugo
 stale: true
 ---

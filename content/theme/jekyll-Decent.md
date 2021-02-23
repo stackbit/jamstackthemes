@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-05-22T19:37:47.000Z
-github_branch: gh-pages
 description: Blog Template for Jekyll
 stale: false
 ---

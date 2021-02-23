@@ -1,4 +1,4 @@
-[{{ range $index, $theme := (where .Site.RegularPages "Type" "theme") }}{{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}{{ $repo := index .Site.Data.themes $repoName }}{{ if $index }},{{ end }}
+[{{ range $index, $theme := (where .Site.RegularPages "Type" "theme") }} {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}{{ $repo := index .Site.Data.themes $repoName }}{{ if $index }},{{ end }}
   {
     "title": "{{ .Params.title }}",
     "description": {{ if .Params.description }}"{{ .Params.description }}"{{ else }}""{{ end }},

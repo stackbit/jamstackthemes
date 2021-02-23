@@ -47,7 +47,7 @@
             <div id="grids-taxonomy" class="row mt-2">
 
             {{ range $paginator.Pages.ByDate.Reverse }}
-                {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
+                 {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
                 {{ $repo := index .Site.Data.themes $repoName }}
                 {{ $stackbit := index .Site.Data.stackbit $repoName }}
                 {{ partial "theme-card.html" (dict "theme" . "repo" $repo "stackbit" $stackbit "site" $.Site) }}

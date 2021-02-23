@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-12-19T22:42:37.000Z
-github_branch: master
 description: Blog starter made with Gatbsy.js
 stale: false
 ---

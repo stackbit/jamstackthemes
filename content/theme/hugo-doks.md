@@ -4,7 +4,6 @@ github: https://github.com/h-enk/doks
 demo: https://doks.netlify.app
 author: Henk Verlinde
 date: 2020-12-07T00:00:00.000Z
-github_branch: master
 ssg:
   - Hugo
 cms:

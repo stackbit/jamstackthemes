@@ -10,7 +10,6 @@ cms:
 css:
   - Tailwind
 date: 2020-11-11T10:23:28.000Z
-github_branch: master
 description: >-
   🚀 Boilerplate and Starter for Next.js 10+, Tailwind CSS and TypeScript. The
   perfect Next JS Tailwind CSS template to quick start your project.

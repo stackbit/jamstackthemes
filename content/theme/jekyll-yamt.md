@@ -4,7 +4,6 @@ github: https://github.com/PandaSekh/Jekyll-YAMT
 demo: https://yamt.netlify.app/
 author: Alessio Franceschi
 date: 2020-05-21T00:00:00.000Z
-github_branch: master
 ssg:
   - Jekyll
 cms:

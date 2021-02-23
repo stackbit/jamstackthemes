@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-02-02T14:45:08.000Z
-github_branch: master
 description: Jekyll theme based on Grayscale Start Bootstrap theme
 stale: true
 ---

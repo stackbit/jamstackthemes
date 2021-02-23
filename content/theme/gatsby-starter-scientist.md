@@ -4,7 +4,6 @@ github: https://github.com/knightjdr/gatsby-starter-scientist
 demo: https://knightjdr.github.io/gatsby-starter-scientist
 author: knightjdr
 date: 2019-12-10T00:00:00.000Z
-github_branch: master
 ssg:
   - Gatsby
 cms:

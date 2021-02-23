@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-09-02T19:35:09.000Z
-github_branch: master
 description: A Hugo changelog theme
 stale: false
 ---

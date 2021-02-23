@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-04-19T10:27:41.000Z
-github_branch: master
 description: A simple Hugo theme for documentation
 stale: true
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-01-27T03:59:03.000Z
-github_branch: master
 description: 🌋 Original Bright Theme for Hexo
 stale: true
 ---

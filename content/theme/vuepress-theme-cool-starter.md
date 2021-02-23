@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-11-12T21:46:46.000Z
-github_branch: master
 description: Starter project for vuepress theme cool
 stale: false
 ---

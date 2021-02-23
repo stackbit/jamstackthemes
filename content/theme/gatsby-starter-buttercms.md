@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-01-22T19:39:01.000Z
-github_branch: master
 description: A starter template for spinning up a Gatsby+ ButterCMS site
 stale: false
 ---

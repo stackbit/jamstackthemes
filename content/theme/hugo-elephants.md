@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-01-01T20:30:49.000Z
-github_branch: master
 description: Minimal Hugo theme using the Ubuntu font
 stale: true
 ---

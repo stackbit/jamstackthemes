@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-09-08T19:32:11.000Z
-github_branch: master
 description: >-
   alaGeek is an enhanced version of the Cocoa theme featuring a customizable
   homepage with different sections including the latest posts, syntax

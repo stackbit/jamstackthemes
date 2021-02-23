@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-09-16T20:53:24.000Z
-github_branch: master
 description: ':rocket: A Gatsby theme/starter to build lightning-fast blog/websites'
 stale: false
 ---

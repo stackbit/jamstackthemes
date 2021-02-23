@@ -1,5 +1,5 @@
 ---
-title: "Storyblok's Gridsome Boilerplate (Moon-Theme)"
+title: Storyblok's Gridsome Boilerplate (Moon-Theme)
 github: https://github.com/storyblok/storyblok-gridsome-boilerplate-moon/
 demo: https://demo.storyblok.com/
 author: Storyblok
@@ -7,11 +7,9 @@ ssg:
   - Gridsome
 cms:
   - Storyblok
-date: 2020-05-20
-github_branch: master
-description: "Gridsome Website by Storyblok"
+date: 2020-05-20T00:00:00.000Z
+description: Gridsome Website by Storyblok
 stale: false
-draft: true
 ---
 
 <p align="center">

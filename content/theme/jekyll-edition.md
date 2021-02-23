@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-07-14T03:38:28.000Z
-github_branch: master
 description: ':books: Product documentation template for Jekyll'
 stale: true
 ---

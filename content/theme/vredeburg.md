@@ -4,7 +4,6 @@ github: https://github.com/dafiulh/vredeburg
 demo: https://vredeburg.netlify.app
 author: Dafiul Haq
 date: 2020-10-12T00:14:00.000Z
-github_branch: master
 ssg:
   - Eleventy
 cms:

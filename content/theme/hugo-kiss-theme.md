@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-10-23T19:57:06.000Z
-github_branch: master
 description: Stupidly simple Hugo blogging theme
 stale: false
 ---

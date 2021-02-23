@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-03-27T13:44:31.000Z
-github_branch: master
 description: A GatsbyJS starter template that leverages the Dev.to API
 stale: true
 ---

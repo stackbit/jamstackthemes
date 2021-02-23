@@ -11,7 +11,6 @@ cms:
 archetype:
   - Blog
 description: A boilerplate for creating a blog site with Hyde
-github_branch: master
 stale: true
 ---
 

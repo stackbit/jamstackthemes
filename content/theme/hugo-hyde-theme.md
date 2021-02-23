@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2014-05-23T19:47:51.000Z
-github_branch: master
 description: Port of Mdo's excellent theme to Hugo
 stale: false
 ---

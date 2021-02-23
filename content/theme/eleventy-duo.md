@@ -4,7 +4,6 @@ github: https://github.com/yinkakun/eleventy-duo
 demo: https://eleventyduo.netlify.app
 author: yinkakun
 date: 2020-12-27T00:00:00.000Z
-github_branch: master
 ssg:
   - Eleventy
 cms:

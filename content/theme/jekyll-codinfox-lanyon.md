@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-03-05T06:44:00.000Z
-github_branch: dev
 description: Another jekyll templated based on lanyon
 stale: true
 ---

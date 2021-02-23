@@ -8,7 +8,6 @@ ssg:
 cms:
   - DatoCMS
 date: 2019-05-08T23:32:18.000Z
-github_branch: master
 description: ⚛️ My preferred configuration for Gatsby DatoCMS projects
 stale: false
 ---

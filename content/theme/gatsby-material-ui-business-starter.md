@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-01-09T23:04:36.000Z
-github_branch: master
 description: Beautiful Gatsby Material UI Business Starter
 stale: false
 ---

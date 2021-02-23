@@ -8,9 +8,10 @@ ssg:
 cms:
   - No Cms
 date: 2019-04-09T19:16:46.000Z
-github_branch: master
 description: >-
   A lightweight, mobile first blog starter with infinite scroll and Material-UI
   design for Gatsby.
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

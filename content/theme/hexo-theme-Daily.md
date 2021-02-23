@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-07-26T06:13:14.000Z
-github_branch: master
 description: A simple theme for Hexo
 stale: false
 ---

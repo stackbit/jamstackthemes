@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2014-12-13T08:04:22.000Z
-github_branch: master
 description: 'Welcome to use Jekyll theme Freshman21. '
 stale: true
 ---

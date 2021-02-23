@@ -6,7 +6,7 @@ const ora = require('ora');
 const spinner = ora('Loading')
 
 const generateStackbit = (frontmatter) => {
-    const themeKey = getThemeKey(frontmatter.github, frontmatter.github_branch)
+    const themeKey = getThemeKey(frontmatter.github)
 
     spinner.text = `${frontmatter.file}`
 
@@ -82,7 +82,11 @@ const generateStackbit = (frontmatter) => {
             stackbitData.createUrl = `https://app.stackbit.com/create?theme=${frontmatter.github}&ssg=${urlSlug(frontmatter.ssg)}&cms=${urlSlug(frontmatter.cms)}`
         }
     })
-    return stackbitData;
+    if (stackbitData.createUrl) {
+        return stackbitData;
+    }
+    return false;
+
 };
 
 const generateStackbitData = (markdownData) => {
@@ -90,7 +94,7 @@ const generateStackbitData = (markdownData) => {
     spinner.start();
     const githubData = markdownData.map(theme => {
         return generateStackbit(theme)
-    });
+    }).filter(stackbit => stackbit.createUrl);
     spinner.succeed("Success");
     return githubData;
 };

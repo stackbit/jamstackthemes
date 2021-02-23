@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-01-25T10:48:44.000Z
-github_branch: master
 description: Moltin + Gatsby powered online store
 stale: false
 ---

@@ -15,7 +15,6 @@ archetype:
 description: >-
   A commerce storefront example built using Next.js and Commerce.js with
   production-ready deployment to Netlify.
-github_branch: master
 stale: false
 ---
 

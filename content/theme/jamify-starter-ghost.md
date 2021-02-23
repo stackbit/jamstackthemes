@@ -11,7 +11,6 @@ archetype:
   - Blog
   - Portfolio
 date: 2020-06-11T00:00:00.000Z
-github_branch: master
 description: Publish flaring fast blogs with Gatsby and Ghost
 stale: false
 ---

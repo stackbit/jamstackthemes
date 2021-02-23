@@ -14,7 +14,6 @@ archetype:
 css:
   - SCSS
 date: 2020-12-04T00:00:00.000Z
-github_branch: master
 description: >-
   Moonwalk is a lightweight, fast and elegant Jekyll theme with a clean dark
   mode; perfect for a portfolio and blog

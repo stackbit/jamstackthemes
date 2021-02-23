@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-02-19T15:17:30.000Z
-github_branch: master
 description: Image-heavy photography portfolio with colorful accents & great typography
 stale: false
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - Cosmic
 date: 2018-06-05T18:40:26.000Z
-github_branch: master
 description: 🚀⚡️ Blazing fast blog built with Gatsby and Cosmic 🔥
 stale: false
 ---

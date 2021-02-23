@@ -8,7 +8,8 @@ ssg:
 cms:
   - No Cms
 date: 2018-05-09T06:14:00.000Z
-github_branch: master
 description: Vuepress custom theme for blogging. See my blog as an example!
 stale: false
+disabled: true
+disabled_reason: error checking demo url
 ---

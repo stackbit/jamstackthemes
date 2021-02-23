@@ -4,7 +4,6 @@ github: https://github.com/Simply007/kontent-template-gatsby-landing-page-photon
 demo: https://kontent-template-gatsby-landing-page-photon.netlify.app
 author: Simply007
 date: 2020-04-30T00:00:00.000Z
-github_branch: master
 ssg:
   - Gatsby
 cms:

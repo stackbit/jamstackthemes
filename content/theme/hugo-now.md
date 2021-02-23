@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-07-02T23:22:27.000Z
-github_branch: master
 description: a Hugo port of Jekyll Now
 stale: false
 ---

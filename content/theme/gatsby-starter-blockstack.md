@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-05-13T09:17:28.000Z
-github_branch: master
 description: Make decentralized apps with Gatsby + Blockstack
 stale: true
 ---

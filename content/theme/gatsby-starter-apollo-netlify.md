@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-07-24T20:30:38.000Z
-github_branch: master
 description: >-
   This project is an easy way to start developing fullstack apps with Gatsby and
   Apollo Server (using Netlify Lambda functions). For developing we use Netlify

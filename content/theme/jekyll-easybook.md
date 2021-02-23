@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-01-15T06:14:44.000Z
-github_branch: gh-pages
 description: Another Jekyll Blog Theme 'EasyBook'
 stale: true
 ---

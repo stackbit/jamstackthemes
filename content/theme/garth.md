@@ -12,7 +12,6 @@ archetype:
 css:
   - SCSS
 date: 2019-11-01T00:00:00.000Z
-github_branch: master
 description: 🥁 A really basic theme for Jekyll
 stale: false
 ---

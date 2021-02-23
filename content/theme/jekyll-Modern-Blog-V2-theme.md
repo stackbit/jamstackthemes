@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-03-12T15:47:54.000Z
-github_branch: master
 description: Jekyll Modern Theme Alternative Version
 stale: true
 ---

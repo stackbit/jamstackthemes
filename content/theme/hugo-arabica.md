@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-09-11T05:31:47.000Z
-github_branch: master
 description: A port of the Ghost arabica theme for Hugo
 stale: true
 ---

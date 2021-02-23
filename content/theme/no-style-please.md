@@ -4,7 +4,6 @@ github: https://github.com/riggraz/no-style-please
 demo: https://riggraz.dev/no-style-please/
 author: riggraz
 date: 2020-07-24T00:00:00.000Z
-github_branch: master
 ssg:
   - Jekyll
 cms:

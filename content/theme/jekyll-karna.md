@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-11-01T14:59:40.000Z
-github_branch: master
 description: Karna is a responsive jekyll theme which includes pinterest like pins
 stale: true
 ---

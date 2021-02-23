@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-08-29T16:23:36.000Z
-github_branch: gh-pages
 description: A jekyll based resume template
 stale: true
 ---

@@ -4,7 +4,6 @@ github: https://github.com/chrisrhymes/bulma-clean-theme
 demo: https://www.csrhymes.com/bulma-clean-theme/
 author: chrisrhymes
 date: 2020-08-22T00:00:00.000Z
-github_branch: master
 ssg:
   - Jekyll
 cms:

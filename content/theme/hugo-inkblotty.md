@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-03-19T14:10:18.000Z
-github_branch: master
 description: Responsive Hugo theme based on Inkblot of WordPress theme
 stale: false
 ---

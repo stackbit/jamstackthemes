@@ -8,7 +8,8 @@ ssg:
 cms:
   - No Cms
 date: 2016-04-28T04:46:31.000Z
-github_branch: master
 description: Minimalist two-column jekyll theme
 stale: true
+disabled: true
+disabled_reason: error checking demo url
 ---

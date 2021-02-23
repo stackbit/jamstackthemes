@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-10-15T13:40:48.000Z
-github_branch: master
 description: Calpa's Blog (GatsbyJS Starter X Netlify CMS)
 stale: false
 ---

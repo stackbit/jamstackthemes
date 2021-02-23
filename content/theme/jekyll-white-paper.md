@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2014-06-30T14:56:52.000Z
-github_branch: gh-pages
 description: Simple, elegant and clean jekyll theme.
 stale: false
 ---

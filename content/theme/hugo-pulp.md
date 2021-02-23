@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-09-23T10:34:53.000Z
-github_branch: master
 description: Pulp is a Hugo theme for getting a simple, easy-to-read blog site.
 stale: false
 ---

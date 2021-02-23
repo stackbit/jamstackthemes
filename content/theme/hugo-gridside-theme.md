@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-08-09T19:22:58.000Z
-github_branch: master
 description: Personal portfolio and blog for use by the Hugo generator.
 stale: true
 ---

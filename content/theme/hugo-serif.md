@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2020-10-12T00:00:00.000Z
-github_branch: master
 description: >-
   Serif is a modern business theme for Hugo. It contains content types for the
   archetypical business website. The theme is fully responsive, blazing fast and

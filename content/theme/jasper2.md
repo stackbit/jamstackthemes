@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-11-17T15:53:38.000Z
-github_branch: master
 description: Full-featured Jekyll port of Ghost's default theme Casper v2 👻
 stale: false
 ---

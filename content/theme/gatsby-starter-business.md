@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-03-31T13:20:45.000Z
-github_branch: master
 description: Gatsby Business Website Starter
 stale: false
 ---

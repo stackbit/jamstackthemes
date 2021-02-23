@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-02-12T22:23:50.000Z
-github_branch: master
 description: A Hugo theme ported from startbootrap.com's resume template
 stale: false
 ---

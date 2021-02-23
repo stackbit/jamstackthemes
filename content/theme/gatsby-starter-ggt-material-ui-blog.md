@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-04-26T11:47:18.000Z
-github_branch: master
 description: >-
   Gatsby starter that uses a Material-ui blog theme - letting you set up an blog
   with minimal effort!

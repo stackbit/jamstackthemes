@@ -13,7 +13,6 @@ archetype:
   - Blog
   - Portfolio
 date: 2020-02-19T12:10:46.000Z
-github_branch: master
 description: A Gatsby starter for a portfolio with a blog, using Contentful as the CMS
 stale: false
 ---

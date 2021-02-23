@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-10-17T07:11:51.000Z
-github_branch: master
 description: Minimal and ascetic theme for jekyll
 stale: true
 ---

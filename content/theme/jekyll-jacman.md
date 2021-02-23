@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-09-20T15:48:19.000Z
-github_branch: master
 description: A fresh looking and responsive theme for Jekyll
 stale: true
 ---

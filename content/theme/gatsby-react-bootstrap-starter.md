@@ -10,6 +10,5 @@ cms:
 css:
   - Bootstrap
 date: 2019-04-30T23:01:02.000Z
-github_branch: master
 stale: true
 ---

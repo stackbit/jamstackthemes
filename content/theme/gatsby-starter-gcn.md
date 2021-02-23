@@ -8,7 +8,6 @@ ssg:
 cms:
   - Contentful
 date: 2018-02-23T00:09:29.000Z
-github_branch: master
 description: >-
   A starter template to build amazing static websites with Gatsby, Contentful
   and Netlify

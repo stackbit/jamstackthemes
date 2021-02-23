@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2013-12-09T19:01:22.000Z
-github_branch: master
 description: A responsive, flexible, Jekyll theme based on The Development's first design.
 stale: true
 ---

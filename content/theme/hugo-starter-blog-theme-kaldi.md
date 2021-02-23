@@ -11,7 +11,6 @@ cms:
 archetype:
   - Blog
 description: A Hugo boilerplate for creating a blog site
-github_branch: master
 stale: false
 ---
 

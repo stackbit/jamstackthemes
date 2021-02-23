@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-05-27T14:26:21.000Z
-github_branch: master
 description: >-
   An official Gatsby blog template designed for web developers. Blazing fast, it
   includes beautful web developer topic tags and social-media links

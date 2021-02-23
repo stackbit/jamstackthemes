@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2013-02-20T21:38:22.000Z
-github_branch: master
 description: Jekyll site template
 stale: true
 ---

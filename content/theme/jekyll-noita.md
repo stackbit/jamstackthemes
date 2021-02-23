@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2014-04-16T20:52:20.000Z
-github_branch: gh-pages
 description: Noita is a Jekyll theme built with Foundation
 stale: true
 ---

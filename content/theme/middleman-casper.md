@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2013-10-26T09:58:22.000Z
-github_branch: master
 description: 👻 Casper theme (Ghost) for Middleman-Blog
 stale: true
 ---

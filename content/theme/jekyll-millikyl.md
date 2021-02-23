@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-01-02T15:55:57.000Z
-github_branch: master
 description: A Jekyll theme based on the super minimal Milligram CSS Framework
 stale: true
 ---

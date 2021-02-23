@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2012-12-12T00:18:54.000Z
-github_branch: gh-pages
 description: Left is a clean, whitespace-happy layout for Jekyll.
 stale: true
 ---

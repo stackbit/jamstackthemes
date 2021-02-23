@@ -1,17 +1,18 @@
 ---
 title: Statiq Kontent Boilerplate Kontent
-github: 'https://github.com/Kentico/kontent-boilerplate-statiq-net'
-demo: 'https://kentico.github.io/kontent-boilerplate-statiq-net'
+github: https://github.com/Kentico/kontent-boilerplate-statiq-net
+demo: https://kentico.github.io/kontent-boilerplate-statiq-net
 author: Kentico
 ssg:
   - Statiq
 cms:
   - Kontent
 date: 2020-12-01T00:00:00.000Z
-github_branch: master
 archetype:
   - Multi Purpose
-description: Boilerplate utilizing Statiq and Kentico Kontent to provide a starting point in the Jamstack world for .NET developers.
+description: >-
+  Boilerplate utilizing Statiq and Kentico Kontent to provide a starting point
+  in the Jamstack world for .NET developers.
 stale: false
 ---
 

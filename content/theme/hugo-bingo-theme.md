@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-07-01T07:40:12.000Z
-github_branch: master
 description: Nothing but texts.
 stale: true
 ---

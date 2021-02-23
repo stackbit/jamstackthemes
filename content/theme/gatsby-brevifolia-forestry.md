@@ -8,7 +8,6 @@ ssg:
 cms:
   - Forestry
 date: 2019-07-08T20:57:37.000Z
-github_branch: master
 description: A simple starter blog built with Gatsby & Forestry
 stale: false
 ---

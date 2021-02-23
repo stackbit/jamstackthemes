@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-11-12T18:06:34.000Z
-github_branch: master
 description: 💎 My old website in Jekyll and Gulpjs
 stale: true
 ---

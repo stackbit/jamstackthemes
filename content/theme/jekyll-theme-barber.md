@@ -8,6 +8,7 @@ ssg:
 cms:
   - No Cms
 date: 2018-02-15T03:05:57.000Z
-github_branch: master
 stale: false
+disabled: true
+disabled_reason: error checking demo url
 ---

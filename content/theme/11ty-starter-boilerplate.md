@@ -11,7 +11,6 @@ cms:
 css:
   - Tailwind
 date: 2020-06-21T14:48:50.000Z
-github_branch: master
 description: >-
   🚀 Eleventy Starter Boilerplate is production-ready with SEO-friendly for
   quickly starting a blog.

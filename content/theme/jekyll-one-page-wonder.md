@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-04-22T13:12:24.000Z
-github_branch: gh-pages
 description: Jekyll port of One Page Wonder
 stale: true
 ---

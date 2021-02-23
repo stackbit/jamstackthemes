@@ -6,7 +6,6 @@ author: Scott Mathson
 ssg:
   - Jekyll
 date: 2019-10-29T00:00:00.000Z
-github_branch: master
 description: >-
   Simpol Theme is a clean, minimal website theme all about the writing, the
   content. Currently available for Jekyll. Perfect for blogging.

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-12-31T23:50:44.000Z
-github_branch: gh-pages
 description: ':+1: Jekyll themes use Material Design Lite'
 stale: true
 ---

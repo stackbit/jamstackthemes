@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-05-02T16:21:45.000Z
-github_branch: master
 description: 'View Live Demo:'
 stale: false
 ---

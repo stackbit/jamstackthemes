@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-12-12T14:21:33.000Z
-github_branch: master
 description: Tyra - Feminine Gatsby Starter optimized for SEO
 stale: false
 ---

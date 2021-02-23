@@ -4,7 +4,6 @@ github: https://github.com/vszhub/not-pure-poole
 demo: https://vszhub.github.io/not-pure-poole/
 author: Songzi Vong
 date: 2020-10-01T00:00:00.000Z
-github_branch: master
 ssg:
   - Jekyll
 cms:

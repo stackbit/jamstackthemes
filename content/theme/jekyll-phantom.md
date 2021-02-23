@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-02-21T18:15:37.000Z
-github_branch: master
 description: A minimalist, responsive portfolio theme for Jekyll with Bootstrap
 stale: true
 ---

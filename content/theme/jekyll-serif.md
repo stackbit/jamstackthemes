@@ -14,7 +14,6 @@ css:
   - SCSS
   - Bootstrap
 date: 2019-11-08T00:00:00.000Z
-github_branch: master
 description: Serif is a beautiful small business theme for Jekyll.
 stale: false
 weight: 10

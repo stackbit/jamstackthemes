@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-07-24T20:42:48.000Z
-github_branch: master
 description: Simple responsive them for Go Hugo
 stale: true
 ---

@@ -8,7 +8,8 @@ ssg:
 cms:
   - No Cms
 date: 2016-02-02T06:55:49.000Z
-github_branch: master
 description: Port of the classic Octopress theme to Hugo
 stale: false
+disabled: true
+disabled_reason: error checking demo url
 ---

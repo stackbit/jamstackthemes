@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-08-02T04:58:02.000Z
-github_branch: master
 description: >-
   Liberxue blog for lightweight Jekyll  themes  轻量级自适应 简洁 卡片式博客主题 3秒搞定GitHub
   blog

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-10-27T22:42:43.000Z
-github_branch: gh-pages
 description: 🎹 Personal blog powered by Jekyll
 stale: true
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-10-07T10:04:39.000Z
-github_branch: master
 description: >-
   💎 🐳 A super customizable Jekyll theme for personal site, team site, blog,
   project, documentation, etc.

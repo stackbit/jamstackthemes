@@ -4,7 +4,6 @@ github: https://github.com/PandaSekh/Jekyll-Podcaster
 demo: https://jekyll-podcaster.netlify.app/
 author: Alessio Franceschi
 date: 2020-07-20T00:00:00.000Z
-github_branch: master
 ssg:
   - Jekyll
 cms:

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-01-27T21:10:18.000Z
-github_branch: master
 description: >-
   A Jekyll blog template made for simple, readable snippets of your brain
   drippings.

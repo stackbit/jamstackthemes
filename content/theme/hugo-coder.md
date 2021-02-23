@@ -10,7 +10,6 @@ cms:
 css:
   - SCSS
 date: 2018-02-17T13:45:54.000Z
-github_branch: master
 description: A minimalist blog theme for hugo.
 stale: false
 ---

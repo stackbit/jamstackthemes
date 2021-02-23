@@ -1,18 +1,19 @@
 ---
 title: Scully Starter Kontent Lumen
-github: 'https://github.com/ondrabus/scully-starter-kontent-lumen'
-demo: 'https://scully-starter-kontent-lumen.netlify.app/'
+github: https://github.com/ondrabus/scully-starter-kontent-lumen
+demo: https://scully-starter-kontent-lumen.netlify.app/
 author: Kentico
 ssg:
   - Scully
 cms:
   - Kontent
 date: 2020-12-01T00:00:00.000Z
-github_branch: master
 archetype:
   - Blog
   - Portfolio
-description: Minimal, lightweight, and mobile-first starter for creating blogs using Scully and Kentico Kontent.
+description: >-
+  Minimal, lightweight, and mobile-first starter for creating blogs using Scully
+  and Kentico Kontent.
 stale: false
 ---
 

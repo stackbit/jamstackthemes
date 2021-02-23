@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-04-07T12:17:22.000Z
-github_branch: master
 description: >-
   Yet another static generator, here to help you with more concrete use cases
   than just your personal blog.

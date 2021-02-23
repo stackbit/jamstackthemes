@@ -8,7 +8,6 @@ ssg:
   - Jekyll
 cms:
   - No Cms
-github_branch: master
 archetype:
   - Blog
   - Portfolio

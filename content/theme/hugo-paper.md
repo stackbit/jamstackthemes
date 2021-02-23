@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-01-08T16:26:30.000Z
-github_branch: master
 description: 🌩 A simple, clean, flexible Hugo theme
 stale: false
 ---

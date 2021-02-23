@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2014-04-06T18:05:02.000Z
-github_branch: master
 description: >-
   Open Source version of the GitHub Pages theme, now for Jekyll. Demo at
   https://pietro.menna.net.br/jekyll-architect-theme/

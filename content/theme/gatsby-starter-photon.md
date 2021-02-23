@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-03-30T20:57:46.000Z
-github_branch: master
 description: >-
   Gatsby.js V2 starter template based on Photon. Check out
   https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters.

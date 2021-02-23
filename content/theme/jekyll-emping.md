@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-10-21T16:56:20.000Z
-github_branch: master
 description: Jekyll theme using Amp
 stale: false
 ---

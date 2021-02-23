@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-03-11T05:53:04.000Z
-github_branch: master
 description: >-
   Hexo implementation of Clean Blog
   https://blackrockdigital.github.io/startbootstrap-clean-blog/index.html

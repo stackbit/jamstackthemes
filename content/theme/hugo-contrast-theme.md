@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-07-15T13:03:07.000Z
-github_branch: master
 description: Minimalistic Hugo theme
 stale: false
 ---

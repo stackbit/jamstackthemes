@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-03-23T09:55:40.000Z
-github_branch: gh-pages
 description: Material theme based on Materialize.css for jekyll sites
 stale: true
 ---

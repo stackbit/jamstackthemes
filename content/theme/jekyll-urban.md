@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-10-06T13:35:07.000Z
-github_branch: master
 description: minimal jekyll theme for visual artists
 stale: false
 ---

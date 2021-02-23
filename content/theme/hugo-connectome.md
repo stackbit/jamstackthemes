@@ -4,7 +4,6 @@ github: https://github.com/kausalflow/connectome
 demo: https://hugo-connectome.kausalflow.com
 author: KausalFlow
 date: 2020-11-20T00:00:00.000Z
-github_branch: master
 ssg:
   - Hugo
 cms:

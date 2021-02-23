@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-12-04T19:18:39.000Z
-github_branch: master
 description: >-
   Terrassa is a simple, fast and responsive theme for Hugo with a strong focus
   on accessibility.

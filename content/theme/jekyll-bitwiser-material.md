@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-07-11T20:55:48.000Z
-github_branch: gh-pages
 description: jekyll material theme
 stale: true
 ---

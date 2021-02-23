@@ -8,7 +8,6 @@ ssg:
 cms:
   - Contentful
 date: 2019-02-25T05:18:26.000Z
-github_branch: master
 description: A Gatsby demo for blogging
 stale: true
 ---

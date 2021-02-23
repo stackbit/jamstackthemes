@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-11-18T15:14:54.000Z
-github_branch: master
 description: A one page parallax theme with animation for Hugo
 stale: true
 ---

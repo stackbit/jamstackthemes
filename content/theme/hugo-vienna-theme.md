@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-02-03T06:30:25.000Z
-github_branch: master
 description: Simple and clean blog theme for hugo
 stale: false
 ---

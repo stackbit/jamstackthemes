@@ -9,7 +9,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-11-16T11:42:40.000Z
-github_branch: master
 description: Free HTML5 CSS3 Coming Soon Jekyll Template
 stale: true
 ---

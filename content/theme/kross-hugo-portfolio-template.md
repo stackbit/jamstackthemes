@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-05-13T08:18:18.000Z
-github_branch: master
 description: Kross Creative Portfolio Template
 stale: false
 ---

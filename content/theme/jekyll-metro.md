@@ -8,7 +8,8 @@ ssg:
 cms:
   - No Cms
 date: 2014-06-17T14:07:26.000Z
-github_branch: master
 description: A Metro based theme for Jekyll
 stale: true
+disabled: true
+disabled_reason: error checking demo url
 ---

@@ -11,7 +11,6 @@ cms:
   - NetlifyCMS
   - Forestry
 date: 2018-08-26T09:29:18.000Z
-github_branch: master
 description: Ghost default theme ported to vuepress
 stale: false
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-06-02T18:38:14.000Z
-github_branch: master
 description: >-
   Gatsby v2 blog starter with SEO, search, filter, reading progress, mobile menu
   fab

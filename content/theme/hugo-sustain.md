@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-10-22T07:21:04.000Z
-github_branch: master
 description: 🦁 Personal blog theme built with Bootstrap, powered by Hugo.
 stale: false
 ---

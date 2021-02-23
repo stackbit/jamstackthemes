@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2012-05-25T17:33:51.000Z
-github_branch: master
 description: Best theme for Pelican Static Blog Generator
 stale: false
 ---

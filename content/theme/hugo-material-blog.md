@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-04-21T15:43:28.000Z
-github_branch: master
 description: Clean Material Design blog theme for Hugo.
 stale: true
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-07-24T01:14:27.000Z
-github_branch: master
 description: Customizable, monochromatic and minimalist hugo theme for personal blogs
 stale: false
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-12-20T16:11:01.000Z
-github_branch: master
 description: 💎 Simple & Beautiful Jekyll theme
 stale: true
 ---

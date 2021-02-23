@@ -8,7 +8,8 @@ ssg:
 cms:
   - No Cms
 date: 2015-01-07T23:00:38.000Z
-github_branch: master
 description: DopeTrope Jekyll Theme
 stale: true
+disabled: true
+disabled_reason: error checking demo url
 ---

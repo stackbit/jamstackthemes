@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-04-06T17:48:53.000Z
-github_branch: master
 description: Multilingual Blogging Theme for Hugo
 stale: false
 ---

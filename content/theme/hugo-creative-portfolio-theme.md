@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-11-02T09:44:46.000Z
-github_branch: master
 description: Port of the creative portfolio theme to Hugo
 stale: false
 ---

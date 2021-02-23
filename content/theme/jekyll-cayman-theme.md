@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-02-12T19:24:16.000Z
-github_branch: master
 description: >-
   A Jekyll theme for the responsive theme for GitHub Pages
   https://jasonlong.github.io/cayman-theme/

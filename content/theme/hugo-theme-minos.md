@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-02-18T21:48:02.000Z
-github_branch: master
 description: A simple and retro styled Hugo theme ported from Hexo
 stale: false
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-11-20T14:42:31.000Z
-github_branch: master
 description: 💎 mug Jekyll theme
 stale: true
 ---

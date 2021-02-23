@@ -4,7 +4,6 @@ github: https://github.com/ondrabus/gridsome-starter-kontent-lumen
 demo: https://gridsome-starter-kontent-lumen.netlify.app
 author: makma
 date: 2020-12-01T00:00:00.000Z
-github_branch: master
 ssg:
   - Gridsome
 cms:

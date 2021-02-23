@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-04-11T01:24:05.000Z
-github_branch: master
 description: 'Ananke: A theme for Hugo Sites'
 stale: false
 ---

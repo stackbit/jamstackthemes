@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2014-02-07T00:14:55.000Z
-github_branch: master
 description: Build a Jekyll blog in minutes, without touching the command line.
 stale: true
 ---

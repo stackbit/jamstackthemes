@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-06-30T06:36:45.000Z
-github_branch: master
 description: Assembly - a hugo theme
 stale: true
 ---

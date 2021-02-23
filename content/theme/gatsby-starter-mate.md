@@ -8,7 +8,6 @@ ssg:
 cms:
   - Contentful
 date: 2018-08-31T12:10:46.000Z
-github_branch: master
 description: A portfolio starter for Gatsby integrated with Contentful CMS.
 stale: false
 ---

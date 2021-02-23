@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-10-13T18:45:57.000Z
-github_branch: master
 description: Gatsbyjs boilerplate
 stale: true
 ---

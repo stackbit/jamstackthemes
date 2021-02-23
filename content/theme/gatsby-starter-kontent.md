@@ -8,7 +8,6 @@ ssg:
 cms:
   - Kontent
 date: 2018-08-17T10:25:38.000Z
-github_branch: master
 description: Gatsby starter site with Kentico Kontent.
 stale: false
 ---

@@ -10,7 +10,6 @@ cms:
 archetype:
   - Single Page
 date: 2019-04-21T11:32:28.000Z
-github_branch: master
 description: An absurd Gatsby starter
 stale: false
 ---

@@ -10,7 +10,6 @@ cms:
 archetype:
   - Blog
 date: 2019-03-24T20:19:40.000Z
-github_branch: master
 description: >-
   📰 This repository is a demo from the article about how to build our own blog
   using Gatsby.

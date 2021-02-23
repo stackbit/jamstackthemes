@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-08-10T03:11:53.000Z
-github_branch: master
 description: Roon theme for Jekyll
 stale: false
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-01-29T19:16:57.000Z
-github_branch: master
 description: An accessibility-friendly Hugo theme, ported from the original Cupper project.
 stale: false
 ---

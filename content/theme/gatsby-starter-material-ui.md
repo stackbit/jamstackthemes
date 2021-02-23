@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-05-30T02:45:42.000Z
-github_branch: master
 description: A gatsby starter with Material UI
 stale: true
 ---

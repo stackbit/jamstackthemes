@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2012-04-04T21:48:06.000Z
-github_branch: master
 description: 'GitHub Pages Theme: Leap Day'
 stale: true
 ---

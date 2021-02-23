@@ -8,7 +8,8 @@ ssg:
 cms:
   - No Cms
 date: 2015-11-14T07:47:20.000Z
-github_branch: master
 description: jekyll theme
 stale: true
+disabled: true
+disabled_reason: error checking demo url
 ---

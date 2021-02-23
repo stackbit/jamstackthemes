@@ -4,7 +4,6 @@ github: https://github.com/timlrx/tailwind-nextjs-starter-blog
 demo: https://tailwind-nextjs-starter-blog.vercel.app
 author: timlrx
 date: 2021-01-21T00:00:00.000Z
-github_branch: master
 ssg:
   - Next
 cms:

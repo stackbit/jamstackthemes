@@ -4,7 +4,6 @@ github: https://github.com/gmlunesa/gatsby-starter-personal-portfolio
 demo: https://gatsby-starter-personal-portfolio.vercel.app/
 author: gmlunesa
 date: 2020-10-28T00:00:00.000Z
-github_branch: main
 ssg:
   - Gatsby
 cms:

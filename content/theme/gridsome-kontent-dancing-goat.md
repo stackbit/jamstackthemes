@@ -8,7 +8,6 @@ ssg:
 cms:
   - Kontent
 date: 2020-12-01T00:00:00.000Z
-github_branch: master
 archetype:
   - Business
 description: Gridsome implementation of the Dancing Goat Starter site.

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-10-06T07:19:22.000Z
-github_branch: master
 description: 🌱Hugo theme named Dream.
 stale: false
 ---

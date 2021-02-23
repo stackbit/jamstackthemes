@@ -5,12 +5,12 @@ const getRepoName = (repoUrl) => {
     return parseGithubUrl(repoUrl).repo; // stackbithq/stackbit-theme-fresh
 }
 
-const getThemeKey = (repoUrl, branch) => {
-    if (!repoUrl || !branch) {
+const getThemeKey = (repoUrl) => {
+    if (!repoUrl) {
         throw Error("Unable to generate themeKey")
     }
     const repoName = getRepoName(repoUrl)
-    const themeKey = repoName.replace("/", "-").toLowerCase() + "-" + branch;
+    const themeKey = repoName.replace("/", "-").toLowerCase();
     return themeKey
 }
 

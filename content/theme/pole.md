@@ -4,7 +4,6 @@ github: https://github.com/szivong/pole
 demo: https://szivong.io/pole/
 author: Songzi Vong
 date: 2021-02-22T00:00:00.000Z
-github_branch: main
 ssg:
   - Jekyll
 cms:

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-04-26T22:21:56.000Z
-github_branch: master
 description: 📽️ Create rich HTML-based presentations with Hugo and Reveal.js
 stale: false
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-02-01T09:36:30.000Z
-github_branch: master
 description: jekyll minimal theme (for blog posts with archive and feed)
 stale: true
 ---

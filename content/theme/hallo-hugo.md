@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-10-28T13:02:54.000Z
-github_branch: master
 description: Hallo is a single-page Hugo theme to introduce yourself.
 stale: false
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-02-10T04:25:25.000Z
-github_branch: master
 description: Sci Blog jekyll theme
 stale: true
 ---

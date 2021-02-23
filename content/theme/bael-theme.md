@@ -8,7 +8,6 @@ ssg:
 cms:
   - NetlifyCMS
 date: 2019-11-09T00:00:00.000Z
-github_branch: master
 description: Brutalist Blog theme for Netlify CMS
 stale: false
 ---

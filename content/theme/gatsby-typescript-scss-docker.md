@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-12-16T20:28:09.000Z
-github_branch: master
 description: gatsby with typescript, scss typed modules, eslint, prettier & husky, docker
 stale: true
 ---

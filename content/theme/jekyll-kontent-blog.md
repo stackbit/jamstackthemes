@@ -8,7 +8,6 @@ ssg:
 cms:
   - Kontent
 date: 2020-12-01T00:00:00.000Z
-github_branch: master
 archetype:
   - Blog
 description: Sample blog website built using Kentico Kontent as a content repository.

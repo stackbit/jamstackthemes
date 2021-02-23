@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-04-27T06:39:54.000Z
-github_branch: master
 description: Responsive card-based & code-light Hugo theme
 stale: false
 ---

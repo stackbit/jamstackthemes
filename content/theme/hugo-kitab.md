@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-05-19T01:32:59.000Z
-github_branch: master
 description: A hugo theme for publishing books
 stale: false
 ---

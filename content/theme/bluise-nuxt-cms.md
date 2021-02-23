@@ -13,7 +13,6 @@ archetype:
 description: >-
   Start with Typescript, TailwindCSS, Nuxt, Netlify Forms & Netlify CMS,
   includes pagination, seo & pwa ready.
-github_branch: master
 stale: false
 ---
 

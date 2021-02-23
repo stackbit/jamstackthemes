@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-06-04T13:38:41.000Z
-github_branch: master
 description: 'A Hexo Theme: Butterfly'
 stale: false
 ---

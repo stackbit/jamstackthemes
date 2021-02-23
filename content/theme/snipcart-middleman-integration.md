@@ -10,7 +10,6 @@ cms:
 services:
   - Snipcart
 date: 2020-03-18T00:00:00.000Z
-github_branch: master
 description: Demo code for an e-commerce static site with Snipcart & Middleman.
 stale: true
 ---

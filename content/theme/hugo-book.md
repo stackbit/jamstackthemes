@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-09-05T14:21:31.000Z
-github_branch: master
 description: Hugo documentation theme as simple as plain book
 stale: false
 ---

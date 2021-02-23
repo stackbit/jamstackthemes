@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-05-11T10:32:19.000Z
-github_branch: master
 description: Gatsby.js V2 starter template based on Hyperspace  by HTML5 UP
 stale: false
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-02-24T14:39:43.000Z
-github_branch: master
 description: Massively theme for Hugo static site generator
 stale: false
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-02-04T15:40:03.000Z
-github_branch: master
 description: Beautiful minimal portfolio theme for Hexo.
 stale: true
 ---

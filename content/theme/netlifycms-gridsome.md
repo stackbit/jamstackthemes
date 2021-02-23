@@ -11,7 +11,6 @@ cms:
 archetype:
   - Blog
 description: A simple, hackable & minimalistic template for Gridsome
-github_branch: master
 stale: false
 ---
 

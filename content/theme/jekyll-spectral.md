@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-02-20T06:39:31.000Z
-github_branch: master
 description: >-
   A jekyll theme for the spectral template by html5up.net (@ajlkn). Demo:
   https://arkadianriver.github.io/spectral. How to jekyll:

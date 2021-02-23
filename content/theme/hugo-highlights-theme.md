@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-06-03T08:33:42.000Z
-github_branch: master
 description: a one page layout for gohugo.io
 stale: false
 ---

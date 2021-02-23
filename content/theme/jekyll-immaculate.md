@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-03-30T07:48:59.000Z
-github_branch: master
 description: A beautiful, fast, AMP-compliant Jekyll theme based on Tufte CSS.
 stale: true
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-08-12T04:06:21.000Z
-github_branch: master
 description: You can’t spell aWEsoME without MEME! 😝
 stale: false
 ---

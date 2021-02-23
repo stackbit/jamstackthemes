@@ -8,7 +8,6 @@ ssg:
 cms:
   - No CMS
 date: 2019-06-26T11:39:42.000Z
-github_branch: master
 description: >-
   The ultimate staic generated documentation theme for the JAM-stack. Highly
   cusomizable, based on Gridsome, ready to deploy to Netlify in one click.

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-02-01T16:37:57.000Z
-github_branch: master
 description: Affiliates - Jekyll Blogging Theme for Affiliate Marketers
 stale: false
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2015-07-24T20:15:24.000Z
-github_branch: master
 description: 'cname : syui.cf'
 stale: false
 ---

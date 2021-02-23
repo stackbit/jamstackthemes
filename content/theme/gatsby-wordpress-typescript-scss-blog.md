@@ -8,7 +8,6 @@ ssg:
 cms:
   - Wordpress
 date: 2019-09-03T17:34:27.000Z
-github_branch: master
 description: Gatsby Wordpress Typescript Blog Boilerplate
 stale: false
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-03-07T03:59:23.000Z
-github_branch: master
 description: Simple and clean Jekyll theme compatible with GitHub Pages.
 stale: true
 ---

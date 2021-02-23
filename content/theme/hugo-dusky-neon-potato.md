@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-09-04T04:55:12.000Z
-github_branch: master
 description: a merging of the dusk and potato-dark themes for hugo
 stale: true
 ---

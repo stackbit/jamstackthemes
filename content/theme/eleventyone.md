@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-03-30T19:45:51.000Z
-github_branch: master
 description: A scaffold for a quick start building with the Eleventy SSG
 stale: false
 ---

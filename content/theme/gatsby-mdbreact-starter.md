@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-05-04T23:51:02.000Z
-github_branch: gh-pages
 description: >-
   This is the single page web application starter that I built with MDBootstrap,
   React, and Gatsby

@@ -8,7 +8,6 @@ ssg:
 cms:
   - Ghost
 date: 2019-07-15T11:43:52.000Z
-github_branch: master
 description: A starter template to build websites with Ghost & Eleventy
 stale: false
 ---

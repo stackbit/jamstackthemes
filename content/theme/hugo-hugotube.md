@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-12-04T12:35:17.000Z
-github_branch: master
 description: Responsive Hugo theme inspired in YouTube layout
 stale: true
 ---

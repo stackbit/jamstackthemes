@@ -11,7 +11,6 @@ css:
   - Tailwind
   - SCSS
 date: 2019-01-02T07:24:27.000Z
-github_branch: master
 description: Just another Gatsby Tailwind with SASS starter
 stale: true
 ---

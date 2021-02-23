@@ -4,7 +4,6 @@ github: https://github.com/kc0bfv/ticky_tacky_dark
 demo: https://kc0bfv.github.io/ticky_tacky_dark/
 author: Karl Sickendick
 date: 2020-12-21T00:00:00.000Z
-github_branch: master
 ssg:
   - Hugo
 cms:

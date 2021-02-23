@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-03-18T22:04:12.000Z
-github_branch: master
 description: >-
   Gatsby.js V2 starter template based on Stellar. Check out
   https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters.

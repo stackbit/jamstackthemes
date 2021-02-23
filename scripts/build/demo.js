@@ -3,12 +3,21 @@ const axios = require('axios');
 const allSettled = require('promise.allsettled');
 const {errorLog} = require('./errors')
 const ora = require('ora');
-
+const {getThemeKey, getRepoName} = require('./utils');
+const {updateFrontmatter} = require('./markdown');
 const spinner = ora('Loading')
 
-const testDemo = (theme) => {
-    return axios.get(theme.demo_url).then((res) => {
-        spinner.text = `${theme.demo_url} => checking Demo URL - ${res.status}`;
+const testDemo = (frontmatter) => {
+    const themeKey = getThemeKey(frontmatter.github)
+
+    return axios.get(frontmatter.demo).then((res) => {
+        spinner.text = `${frontmatter.demo} => checking Demo URL - ${res.status}`;
+        if (frontmatter.disabled) {
+            updateFrontmatter(frontmatter.file, {
+                disabled: false,
+                disabled_reason: ""
+            })
+        }
         return true;
     }).catch(err => {
         let error = "error checking demo url"
@@ -31,21 +40,24 @@ const testDemo = (theme) => {
 
             }
         }
-        spinner.text = `${theme.demo_url} => checking Demo URL - ${error}`;
+        updateFrontmatter(frontmatter.file, {
+            disabled: true,
+            disabled_reason: error
+        })
+        spinner.text = `${frontmatter.demo} => checking Demo URL - ${error}`;
         errorLog.push({
-            themeKey: theme.theme_key || undefined,
-            file: theme.file,
-            repoUrl: theme.github_url,
+            theme_key: themeKey,
+            file: frontmatter.file,
+            repoUrl: frontmatter.github,
             error
         })
     });
 }
 
-const testDemoUrls = async (themes) => {
-    console.log("** Testing demo URL's **")
-    spinner.start();
-    await allSettled(themes.map(theme => testDemo(theme)))
-    spinner.succeed("Success");
+const testDemoUrls = async (themesMarkdown) => {
+    spinner.start("Testing Demo URL's");
+    await allSettled(themesMarkdown.map(theme => testDemo(theme)))
+    spinner.succeed("Success - Testing Demo URL's");
 }
 
 

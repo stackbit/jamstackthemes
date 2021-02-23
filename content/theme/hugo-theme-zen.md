@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-03-09T13:05:40.000Z
-github_branch: master
 description: A fast and clean Hugo theme with css-grid and Hugo pipes support.
 stale: false
 ---

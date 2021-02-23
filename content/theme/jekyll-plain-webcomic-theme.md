@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2017-07-12T03:19:34.000Z
-github_branch: master
 description: A simple webcomic theme for Jekyll. Built using Bootstrap.
 stale: true
 ---

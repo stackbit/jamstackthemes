@@ -8,6 +8,5 @@ ssg:
 cms:
   - No Cms
 date: 2019-07-01T23:19:32.000Z
-github_branch: master
 stale: false
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2016-09-01T12:53:45.000Z
-github_branch: gh-pages
 description: >-
   :scroll: Libretto is a Jekyll theme with classic styling and typographic
   details

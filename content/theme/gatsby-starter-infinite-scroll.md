@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-03-01T16:48:18.000Z
-github_branch: master
 description: A Gatsby starter with infinite scroll and pagination.
 stale: true
 ---

@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2018-09-29T23:11:06.000Z
-github_branch: master
 description: A bootstrap based minimal hugo theme based on webjeda-cards
 stale: false
 ---

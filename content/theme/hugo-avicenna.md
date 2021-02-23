@@ -8,7 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2019-06-29T12:33:47.000Z
-github_branch: develop
 description: a minimal academic page for hugo
 stale: true
 ---
