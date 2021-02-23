@@ -42,8 +42,8 @@ const options = {
     disabled: true, // Skip processing themes that have front-matter `disabled: true`
     draft: true, // Skip processing themes that have front-matter `draft: true`
     demos: true,
-    stackbit: argv.stackbit || false,
-    github: argv.github || false,
+    stackbit: argv.stackbit || true,
+    github: argv.github || true,
     images: argv.images || true,
     latest: argv.latest || false, // build.js --latest | only process themes which don't already exist in `themes.json`
 }
