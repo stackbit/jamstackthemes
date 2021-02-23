@@ -12,17 +12,24 @@ const testDemo = (theme) => {
         return true;
     }).catch(err => {
         let error = "error checking demo url"
-        if (err?.response?.data?.message) {
-            error = err.response.data.message
-        }
-        if (err?.response?.status === 404) {
-            error = "demo url not found"
-        }
-        if (err.code === "ENOTFOUND") {
-            error = "demo url not found"
-        }
-        if (err.code === "ECONNREFUSED") {
-            error = "demo url connection refused"
+        if (err) {
+            if (err.code === "ENOTFOUND") {
+                error = "demo url not found"
+            }
+            if (err.code === "ECONNREFUSED") {
+                error = "demo url connection refused"
+            }
+            if (err.response) {
+                if (err.response.status === 404) {
+                    error = "demo url not found"
+                }
+                if (err.response.data) {
+                    if (err.response.data.message) {
+                        error = err.response.data.message;
+                    }
+                }
+
+            }
         }
         spinner.text = `${theme.demo_url} => checking Demo URL - ${error}`;
         errorLog.push({

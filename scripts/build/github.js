@@ -56,19 +56,22 @@ const fetchRepoData = async (frontmatter) => {
             }
         }
     } catch (err) {
-        let error = "error fetching github repo"
-        if (err?.response) {
-            error = err.response
-        }
-        if (err?.response?.data) {
-            error = err.response.data
+        let error = "Error fetching github repo";
+        if (err) {
+            if (err.response) {
+                if (err.response.data) {
+                    if (err.response.data.message) {
+                        error = err.response.data.message;
+                    }
+                }
+            }
         }
         spinner.text = `${frontmatter.file} => ${error}`
         errorLog.push({
             theme_key: themeKey,
-            file: `file:/${frontmatter.absFile}`,
+            file: frontmatter.file,
             repoUrl: frontmatter.github,
-            error: error
+            error
         })
         throw err
     }
