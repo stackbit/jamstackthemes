@@ -1055,10 +1055,6 @@
     "theme_key": "fabe-gatsby-universal",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/fabe/gatsby-universal&ssg=gatsby"
   },
-  "fabien0102-gatsby-starter": {
-    "theme_key": "fabien0102-gatsby-starter",
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/fabien0102/gatsby-starter&ssg=gatsby"
-  },
   "fareez-ahamed-millikyl": {
     "theme_key": "fareez-ahamed-millikyl",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/fareez-ahamed/millikyl&ssg=jekyll"
@@ -2126,10 +2122,6 @@
   "netlify-templates-gatsby-starter-netlify-cms": {
     "theme_key": "netlify-templates-gatsby-starter-netlify-cms",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/netlify-templates/gatsby-starter-netlify-cms&ssg=gatsby"
-  },
-  "netlify-templates-one-click-hugo-cms": {
-    "theme_key": "netlify-templates-one-click-hugo-cms",
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/netlify-templates/one-click-hugo-cms&ssg=hugo"
   },
   "ngzhio-jekyll-theme-hamilton": {
     "theme_key": "ngzhio-jekyll-theme-hamilton",
