@@ -67,7 +67,10 @@ const generateStackbit = (frontmatter) => {
         'https://github.com/fncnt/vncnt-hugo',
         'https://github.com/wizlee/gatsby-portfolio',
         'https://github.com/EmaSuriano/gatsby-starter-mate',
-        'https://github.com/guangmean/Niello'
+        'https://github.com/guangmean/Niello',
+        'https://github.com/fabien0102/gatsby-starter',
+        'https://github.com/netlify-templates/one-click-hugo-cms'
+
     ];
     manualDisabled.forEach(url => {
         if (url === frontmatter.github) {
