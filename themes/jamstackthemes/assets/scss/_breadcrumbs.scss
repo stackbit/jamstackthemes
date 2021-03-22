@@ -5,10 +5,6 @@
   flex-flow: row;
   flex-wrap: wrap;
   align-items: center;
-  font-size: 16px;
-  margin-bottom: 10px;
-  @include breakpoint('small') {
-  }
   a {
     color: $primary;
     padding: 8px;
@@ -16,14 +12,11 @@
       padding-left: 0;
     }
   }
-  span {
-  }
   .end {
     padding: 8px;
     font-weight: bold;
   }
   li {
-    
     &:not(:last-of-type) {
       &::after {
         content: '/';

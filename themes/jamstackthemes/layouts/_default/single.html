@@ -2,26 +2,6 @@
 {{ define "body_classes" }}page-default-single{{ end }}
 
 {{ define "main" }}
-{{ $repoName := (substr (replace .Params.github "/" "-") 19 | urlize) }}
-{{ $repo := index .Site.Data.themes $repoName }}
-<div class="main">
-  <div class="intro">
-    <h1>{{.Title}}</h1>
-  </div>
-  {{ .Content }}
-  {{ if .Params.thumbnail }}
-    <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }} screenshot" />
-  {{ else if $repo }}
-    {{ $staticPath := (printf "%s/%s%s" "static/images/theme/thumbnail" $repo.theme_key ".jpg") }}
-    {{ $filePath := (printf "%s/%s%s" "images/theme/thumbnail" $repo.theme_key ".jpg") }}
-    {{ $filePathHiRes := (printf "%s/%s%s" "images/theme/thumbnail/2x" $repo.theme_key "-2x.jpg") }}
-    {{ if (fileExists $staticPath) }}
-      <img src="{{ $filePath | relURL }}" alt="{{ .Title }} screenshot" srcset="{{ $filePathHiRes | relURL }} 2x" />
-    {{ else }}
-      <img src="{{ "images/default.png" | relURL }}" alt="{{ .Title }} screenshot" />
-    {{ end }}
-  {{ else }}
-    <img src="{{ "images/default.png" | relURL }}" alt="{{ .Title }} screenshot" />
-  {{ end }}
-</div>
+{{ .Title }}
+{{ .Content }}
 {{ end }}

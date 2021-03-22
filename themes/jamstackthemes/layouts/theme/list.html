@@ -1,0 +1,63 @@
+{{ define "title" }}{{ $themes := (where .Site.RegularPages "Type" "theme") }}{{ $themes := (where $themes ".Params.draft" "!=" true) }}{{ $themes := (where $themes ".Params.disabled" "!=" true) }}{{ $themeCount := len $themes}}All Themes ({{ $themeCount }}){{ end }}
+
+{{ define "header_classes" }}{{ end }}
+{{ define "body_classes" }}page-all-themes has-sidebar{{ end }}
+{{ define "body_id" }}page-all-themes{{ end }}
+
+{{ define "meta_description" }}
+<meta name="description" content="Search hundreds of open-source Jamstack themes and find the perfect starter theme or boilerplate for your next project. Filter themes by static site generator, headless CMS and more. Sort themes by stars, last commit date or submission date.">
+{{ end }}
+
+{{ define "main" }}
+{{ $themes := (where .Site.RegularPages "Type" "theme") }}
+{{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themes := (where $themes ".Params.disabled" "!=" true) }}
+{{ $themeCount := len $themes}}
+
+<div class="wrapper">
+    <div class="sidebar">
+        <div class="container">
+            {{ partial "filters.html" (dict "context" . "countAll" true) }}
+            {{ partial "stackbit.html" . }}
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="intro">
+                <div class="intro-heading">
+                    <h1 class="intro-title">All Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
+                </div>
+                <div class="intro-description d-none d-md-block"><p>Search hundreds of open-source Jamstack themes and find the perfect starter theme or boilerplate for your next project. Filter themes by static site generator, headless CMS and more. Sort themes by stars, last commit date or submission date.</p></div>
+                <div class="intro-description d-md-none"><p>Search hundreds of open-source Jamstack themes!</p></div>
+            </div>
+            {{ partial "sort-buttons.html" . }}
+            <div id="grids-homepage" class="row mt-3">
+                {{ range (($themes.ByParam "date").Reverse).ByParam "weight" }}
+                 {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
+                {{ $repo := index .Site.Data.themes $repoName }}
+                {{ $stackbit := index .Site.Data.stackbit $repoName }}
+                {{ partial "theme-card.html" (dict "theme" . "repo" $repo "stackbit" $stackbit "site" $.Site) }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
+
+{{ define "footer_js" }}
+
+    {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
+    {{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
+    {{ $filterGroups := resources.Get "js/filter/filter-groups.js" }}
+    {{ $filterHash := resources.Get "js/filter/filter-hash.js" }}
+    {{ $filter := resources.Get "js/filter/filter.js" }}
+    {{ $filterToggle := resources.Get "js/filter/filter-toggle.js" }}
+
+    {{ $themesBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter $filterToggle | resources.Concat "js/themesBundle.js" }}
+    {{ if .Site.IsServer }}
+        <script type="text/javascript" src="{{ $themesBundle.RelPermalink }}"></script>
+    {{ else }}
+        <script type="text/javascript" src="{{ ($themesBundle | minify | fingerprint).RelPermalink }}"></script>
+    {{ end }}
+
+{{ end }}

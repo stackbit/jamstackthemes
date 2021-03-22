@@ -1,36 +1,172 @@
+{{ $countAll := .countAll }}
 <div class="filters">
 
   <div id="filter-group-ssg" class="filter filter-group-ssg" data-filter-group="ssg">
-    <h3 class="filter-title">Static Site Generator 
-      <span class="toggle-icon">
-        <svg viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
-      </span>
-    </h3>
+    <div class="filter-title">
+      <h3>SSG </h3>
+      {{ partial "toggle-icon.html" . }}
+    </div>
     <ul class="filter-list">
-      {{ range .Site.Taxonomies.ssg }}
+      {{ range .context.Site.Taxonomies.ssg }}
+      {{ $count := 0 }}
+      {{ if $countAll }}
+      {{ $count = .Count }}
+      {{ else }}
+      {{ range .Pages }}
+      {{ if not .Params.stale }}
+      {{ if not .Params.disabled }}
+      {{ $count = add $count 1 }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ if ge $count 5 }}
       <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
-        {{ partial "icon.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
+        <img width="18" height="18" class="filter-icon" alt="{{ .Page.Title }}" src="{{ .Page.Params.icon | relURL }}" />
         <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
-        <span class="filter-link">{{ .Page.Title }}</span>
-        <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ .Count }}</span>
+        <span class="filter-name">{{ .Page.Title }}</span>
+        <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ $count }}</span>
       </li>
+      {{ end }}
+      {{ end }}
+    </ul>
+
+    <ul class="filter-list closed">
+      {{ partial "toggle-more.html" . }}
+      {{ range .context.Site.Taxonomies.ssg }}
+      {{ $count := 0 }}
+      {{ if $countAll }}
+      {{ $count = .Count }}
+      {{ else }}
+      {{ range .Pages }}
+      {{ if not .Params.stale }}
+      {{ if not .Params.disabled }}
+      {{ $count = add $count 1 }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ if lt $count 5 }}
+      <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
+        <img width="18" height="18" class="filter-icon" alt="{{ .Page.Title }}" src="{{ .Page.Params.icon | relURL }}" />
+        <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
+        <span class="filter-name">{{ .Page.Title }}</span>
+        <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ $count }}</span>
+      </li>
+      {{ end }}
+      {{ end }}
+    </ul>
+
+  </div>
+
+  <div id="filter-group-cms" class="filter filter-group-cms" data-filter-group="cms">
+    <div class="filter-title">
+      <h3>CMS</h3>
+      {{ partial "toggle-icon.html" . }}
+    </div>
+    <ul class="filter-list">
+      {{ range .context.Site.Taxonomies.cms }}
+      {{ $count := 0 }}
+      {{ if $countAll }}
+      {{ $count = .Count }}
+      {{ else }}
+      {{ range .Pages }}
+      {{ if not .Params.stale }}
+      {{ if not .Params.disabled }}
+      {{ $count = add $count 1 }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ if ge $count 5 }}
+      <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
+        <img width="18" height="18" class="filter-icon" alt="{{ .Page.Title }}" src="{{ .Page.Params.icon | relURL }}" />
+        <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
+        <span class="filter-name">{{ .Page.Title }}</span>
+        <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ $count }}</span>
+      </li>
+      {{ end }}
+      {{ end }}
+    </ul>
+
+    <ul class="filter-list closed">
+      {{ partial "toggle-more.html" . }}
+      {{ range .context.Site.Taxonomies.cms }}
+      {{ $count := 0 }}
+      {{ if $countAll }}
+      {{ $count = .Count }}
+      {{ else }}
+      {{ range .Pages }}
+      {{ if not .Params.stale }}
+      {{ if not .Params.disabled }}
+      {{ $count = add $count 1 }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ if lt $count 5 }}
+      <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
+        <img width="18" height="18" class="filter-icon" alt="{{ .Page.Title }}" src="{{ .Page.Params.icon | relURL }}" />
+        <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
+        <span class="filter-name">{{ .Page.Title }}</span>
+        <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ $count }}</span>
+      </li>
+      {{ end }}
+      {{ end }}
+    </ul>
+
+  </div>
+
+  <div id="filter-group-css" class="filter filter-group-css" data-filter-group="css">
+    <div class="filter-title">
+      <h3>CSS</h3>
+      {{ partial "toggle-icon.html" . }}
+    </div>
+    <ul class="filter-list">
+      {{ range .context.Site.Taxonomies.css }}
+      {{ if .Page.Params.icon }}
+      <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
+        <img width="18" height="18" class="filter-icon" alt="{{ .Page.Title }}" src="{{ .Page.Params.icon | relURL }}" />
+        <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
+        <span class="filter-name">{{ .Page.Title }}</span>
+        {{ $count := 0 }}
+        {{ if $countAll }}
+        {{ $count = .Count }}
+        {{ else }}
+        {{ range .Pages }}
+        {{ if not .Params.stale }}
+        {{ $count = add $count 1 }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+        <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ $count }}</span>
+      </li>
+      {{ end }}
       {{ end }}
     </ul>
   </div>
 
-  <div id="filter-group-cms" class="filter filter-group-cms" data-filter-group="cms">
-    <h3 class="filter-title">CMS
-      <span class="toggle-icon">
-        <svg viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
-      </span>
-    </h3>
+  <div id="filter-group-archetype" class="filter closed filter-group-archetype" data-filter-group="archetype">
+    <div class="filter-title">
+      <h3>Archetype</h3>
+      {{ partial "toggle-icon.html" . }}
+    </div>
     <ul class="filter-list">
-      {{ range .Site.Taxonomies.cms }}
+      {{ range .context.Site.Taxonomies.archetype }}
       <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
-        {{ partial "icon.html" (dict "name" .Page.Title "icon" .Page.Params.icon ) }}
         <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
-        <span class="filter-link">{{ .Page.Title }}</span>
-        <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ .Count }}</span>
+        <span class="filter-name">{{ .Page.Title }}</span>
+        {{ $count := 0 }}
+        {{ if $countAll }}
+        {{ $count = .Count }}
+        {{ else }}
+        {{ range .Pages }}
+        {{ if not .Params.stale }}
+        {{ $count = add $count 1 }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+        <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ $count }}</span>
       </li>
       {{ end }}
     </ul>

@@ -70,3 +70,9 @@ typings/
 
 # next.js build output
 .next
+
+# Test Content
+content/test
+
+# Visual Studio Code project settings
+.vscode

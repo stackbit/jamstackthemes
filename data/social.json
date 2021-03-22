@@ -2,12 +2,12 @@
   "links": [
     {
       "name": "twitter",
-      "url": "https://twitter.com/stackbithq",
+      "url": "https://twitter.com/stackbit",
       "image": "images/social/twitter.svg"
     },
     {
       "name": "github",
-      "url": "https://github.com/stackbithq/jamstackthemes",
+      "url": "https://github.com/stackbit/jamstackthemes",
       "image": "images/social/github.svg"
     }
   ]

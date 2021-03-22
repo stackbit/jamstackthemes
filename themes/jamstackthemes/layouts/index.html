@@ -1,43 +1,84 @@
-{{ define "title" }}JAMstack Themes{{ end}}
-{{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}page-home{{ end }}
+{{ define "title" }}Jamstack Themes{{ end }}
+{{ define "header_classes" }}{{ end }}
+{{ define "body_classes" }}page-home has-sidebar{{ end }}
 
-{{ define "meta_tags" }}
-<meta name="description" content="A list of Themes and Starters for JAMstack Sites." />
-<meta property="og:title" content="JAMstack Themes" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.jamstackthemes.dev" />
-<meta property="og:description" content="A list of Themes and Starters for JAMstack Sites." />
-<meta property="og:image" content="https://jamstackthemes.dev/images/jamstackthemes-screenshot.png">
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@stackbithq" />
-<meta name="twitter:creator" content="@stackbithq" />
+{{ define "meta_description" }}
+    {{ $themes := (where .Site.RegularPages "Type" "theme") }}
+    {{ $themes := (where $themes ".Params.draft" "!=" true) }}
+    {{ $themes := (where $themes ".Params.stale" "!=" true) }}
+    {{ $themes := (where $themes ".Params.disabled" "!=" true) }}
+    {{ $themeCount := len $themes}}
+    <meta name="description"
+          content="The most popular list of themes and starters for Jamstack sites. Over {{ $themeCount }} free static site generator themes for Hugo, Gatsby, Jekyll, Gridsome & more."/>
 {{ end }}
 
 {{ define "main" }}
-{{ $themes := (where .Site.RegularPages "Type" "theme") }}
-<div class="sidebar">
-  {{ $themeCount := len $themes }}
-  <div class="blurb">
-    <p>A list of Themes and Starters for JAMstack Sites.</p>
-  </div>
-  {{ partial "filters.html" . }}
-  {{ partial "stackbit.html" . }}
-</div>
-<div class="main">
-  <div class="intro">
-    <h1>Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
-    {{ partial "sort-buttons.html" . }}
-  </div>
-  <div class="grids">
-    {{ range sort $themes "Lastmod" "desc" }}
-    {{ $repoName := (substr (replace .Params.github "/" "-") 19 | urlize) }}
-    {{ if .Params.github_branch }}
-      {{ $repoName = (printf "%s-%s" $repoName .Params.github_branch)}}
+    {{ $themes := (where .Site.RegularPages "Type" "theme") }}
+    {{ $themes := (where $themes ".Params.draft" "!=" true) }}
+    {{ $themes := (where $themes ".Params.stale" "!=" true) }}
+    {{ $themes := (where $themes ".Params.disabled" "!=" true) }}
+    {{ $themeCount := len $themes}}
+
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="container">
+                {{ partial "filters.html" (dict "context" . "countAll" false) }}
+                {{ partial "stackbit.html" . }}
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="container">
+
+                <div class="intro">
+                    <div class="intro-heading">
+                        <h1 class="intro-title">New Themes <span class="count">(<span
+                                        class="count-number">{{ $themeCount }}</span>)</span></h1>
+                    </div>
+                    <div class="intro-description d-none d-md-block"><p>A list of themes, templates and starters for <a
+                                    href="https://www.jamstack.wtf" target="_blank" rel="noopener">Jamstack</a> sites.
+                            We're the largest theme gallery of user submitted, open source themes for static site
+                            generators 🦖. This site is maintained by the community and with the kind support of <a
+                                    href="https://www.stackbit.com/?ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=jamstackthemeswebsite&utm_content=blurb">Stackbit</a>.
+                        </p></div>
+                    <div class="intro-description d-md-none"><p>A list of themes and starters for <a
+                                    href="https://www.jamstack.wtf" target="_blank" rel="noopener">Jamstack</a> sites.
+                        </p></div>
+                </div>
+
+                {{ partial "sort-buttons.html" . }}
+
+                <div id="grids-homepage" class="row mt-3">
+
+                    {{ range (($themes.ByParam "date").Reverse).ByParam "weight" }}
+                        {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
+                        {{ $repo := index .Site.Data.themes $repoName }}
+                        {{ $stackbit := index .Site.Data.stackbit $repoName }}
+                        {{ partial "theme-card.html" (dict "theme" . "repo" $repo "stackbit" $stackbit "site" $.Site) }}
+                    {{ end }}
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+{{ end }}
+
+{{ define "footer_js" }}
+
+    {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
+    {{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
+    {{ $filterGroups := resources.Get "js/filter/filter-groups.js" }}
+    {{ $filterHash := resources.Get "js/filter/filter-hash.js" }}
+    {{ $filter := resources.Get "js/filter/filter.js" }}
+    {{ $filterToggle := resources.Get "js/filter/filter-toggle.js" }}
+
+    {{ $homeBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter $filterToggle | resources.Concat "js/homeBundle.js" }}
+
+    {{ if .Site.IsServer }}
+        <script type="text/javascript" src="{{ $homeBundle.RelPermalink }}"></script>
+    {{ else }}
+        <script type="text/javascript" src="{{ ($homeBundle | minify | fingerprint).RelPermalink }}"></script>
     {{ end }}
-    {{ $repo := index .Site.Data.themes $repoName }}
-    {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
-    {{ end }}
-  </div>
-</div>
+
 {{ end }}

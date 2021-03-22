@@ -7,4 +7,7 @@ ssg:
   - Gatsby
 cms:
   - No Cms
+date: 2015-07-22T00:07:37.000Z
+description: Gatsby starter for creating a blog
+stale: false
 ---

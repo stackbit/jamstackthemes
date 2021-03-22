@@ -1,29 +1,52 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "JAMstack Themes"
+title = "Jamstack Themes"
 theme = "jamstackthemes"
-paginate = 3
-enableGitInfo = true
-
-[taxonomies]
-  ssg =  "ssg"
-  cms = "cms"
-  css = "css"
+paginate = 18
+summaryLength = 10
+# enableGitInfo = false
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
 
 [params]
-    google_analytics_id = "UA-122379868-3"
+  google_analytics_id = ""
+  description = "Over 1000 themes and starters for Jamstack and static site generators."
+  stackbit_button = true
+  iframe_demo = true
+  [theme_card]
+    show_archetype_icons = false
+    show_services_icons = false
+
+[taxonomies]
+  ssg = "ssg"
+  cms = "cms"
+  css = "css"
+  archetype = "archetype"
+  services = "services"
+
+[outputFormats]
+  [outputFormats.demo]
+    name = "demo"
+    mediaType = "text/html"
+    isHTML = "true"
+    path = "demo"
 
 [outputs]
   home = ["HTML","RSS","JSON"]
-  section = ["HTML","RSS","JSON"]
-  taxonomy = ["HTML","RSS","JSON"]
+  section = ["HTML","RSS"]
+  page = ["HTML", "demo"]
 
 [frontmatter]
   lastmod = [":git", "lastmod", ":fileModTime", ":default"]
 
-
 # Main Menu
 [[menu.main]]
-	name = "About"
-	url = "/about/"
+	name = "New Themes"
+	url = "/"
     weight = 1
+
+[[menu.main]]
+	name = "All Themes"
+	url = "/theme/"
+    weight = 2

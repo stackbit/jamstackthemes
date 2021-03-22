@@ -1,0 +1,8 @@
+<a class="icon" href="{{ .link | relURL }}" title="{{ .name }}">
+  {{ $svg := .icon }}
+  {{ $class := print $svg "-icon" }}
+  {{ $match := "<svg (.*)?>(.*)</svg>" }}
+
+  {{ $replaceWith := printf `<svg class="%s" ${1}>${2}</svg>` $class }}
+  {{ replaceRE $match $replaceWith (printf "/static/%s" $svg | readFile) | safeHTML }}
+</a>

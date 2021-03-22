@@ -1,19 +1,37 @@
 .footer {
-  background: $grey;
-  padding: 40px 20px;
-  display: flex;
-  flex-direction: column;
-  @include breakpoint('small') {
-    flex-direction: row;
-    display: flex;
-  }
+  background: #fff;
   .footer-column {
-    margin-right: 50px;
+    margin-bottom: 30px;
+    @include media-breakpoint-up(sm) {
+      width: 235px;
+      margin-right: 50px;
+      margin-bottom: 0px;
+    }
+    &:last-of-type {
+      margin-bottom: 0;
+    }
   }
   .footer-column-brand {
-    @include breakpoint('small') {
+    @include media-breakpoint-up(sm) {
       width: 235px;
     }
+  }
+  p {
+    line-height: 18px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  a {
+    display: block;
+    margin-bottom: 8px;
+    color: $primary;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  h3 {
+    margin-bottom: 10px;
   }
   ul {
     margin: 0;
@@ -21,10 +39,11 @@
     list-style: none;
     margin-right: 20px;
     li {
-      margin-bottom: 8px;
 
+      line-height: 18px;
       a {
-        color: darken($steel, 10%);
+        // color: darken($steel, 10%);
+        color: $primary;
         text-decoration: none;
         &:hover {
           text-decoration: underline;

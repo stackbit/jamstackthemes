@@ -1,0 +1,121 @@
+.pricing {
+  .pricing-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid $grey;
+    border-top: 6px solid $primary;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 25px 20px -25px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    .pricing-header {
+      background-color: rgba($grey, .35);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .pricing-cost {
+      .pricing-cost-price {
+        font-size: 26px;
+        font-weight: bold;
+      }
+
+      .pricing-cost-period {
+        font-size: 14px;
+      }
+    }
+    .pricing-body {
+      background: white;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+
+      h2 {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        @include media-breakpoint-up(xl) {
+          font-size: 26px;
+        }
+      }
+
+      p {
+        color: inherit;
+        font-size: 18px;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+          margin-bottom: 8px;
+          padding-left: 1.5em;
+          position: relative;
+
+          &:before {
+            border-color: $primary;
+            border-style: solid;
+            border-width: 0 2px 2px 0;
+            content: "";
+            height: 0.625em;
+            left: 0.3em;
+            position: absolute;
+            top: 0.3em;
+            transform: rotate(45deg);
+            width: 0.375em;
+          }
+        }
+      }
+
+    }
+
+    .pricing-footer {
+      .action-buttons {
+        margin: 0;
+      }
+    }
+  }
+
+  .pricing-card-website {
+    border-top-color: $lime-green;
+
+    .pricing-body {
+      ul {
+        li {
+          &:before {
+            border-color: $lime-green;
+          }
+        }
+      }
+    }
+
+    .button {
+      background-color: $lime-green;
+      border-color: $lime-green;
+    }
+  }
+
+  .pricing-card-full-experience {
+    border-top-color: $soft-pink;
+
+    .pricing-body {
+      ul {
+        li {
+          &:before {
+            border-color: $soft-pink;
+          }
+        }
+      }
+    }
+
+    .button {
+      background-color: $soft-pink;
+      border-color: $soft-pink;
+    }
+  }
+}

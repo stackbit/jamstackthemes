@@ -7,4 +7,7 @@ ssg:
   - Gatsby
 cms:
   - No Cms
+date: 2018-03-31T13:20:45.000Z
+description: Gatsby Business Website Starter
+stale: false
 ---

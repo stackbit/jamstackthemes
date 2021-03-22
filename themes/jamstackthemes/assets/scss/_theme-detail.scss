@@ -1,0 +1,133 @@
+.theme-detail {
+  .theme-detail-bar {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: $steel;
+    .theme-detail-icon {
+      margin-right: 4px;
+      width: 16px;
+    }
+  }
+  .theme-detail-heading {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  .theme-detail-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: normal;
+    margin-bottom: 15px;
+  }
+  .theme-detail-stars {
+    float: right;
+    height: 18px;
+    margin-top: 4px;
+    font-size: 16px;
+    background-position: center left;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    padding-left: 24px;
+    background-image: url("../images/ui/star.svg");
+    span {
+      line-height: 22px;
+    }
+  }
+  .theme-detail-description {
+    font-size: 16px;
+    line-height: 22px;
+    color: $steel;
+    margin-bottom: 20px;
+  }
+  .theme-detail-github {
+    padding: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+    > div {
+      font-size: 16px;
+      line-height: 18px;
+      margin-right: 14px;
+      background-size: 18px 18px;
+      background-repeat: no-repeat;
+      padding-left: 26px;
+      vertical-align: middle;
+    }
+    .stars {
+      background-image: url("../images/ui/star.svg");
+    }
+    .issues {
+      background-image: url("../images/ui/issues.svg");
+    }
+    .forks {
+      background-image: url("../images/ui/forks.svg");
+    }
+  }
+  .theme-detail-image {
+    img {
+      //box-shadow: 1px 2px 14px 2px rgba(0, 0, 0, 0.1);
+      border-radius: 3px;
+      border: 1px solid $grey;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      vertical-align: bottom;
+    }
+  }
+  .theme-detail-tags {
+    margin-bottom: 20px;
+    .icon {
+      width: 36px;
+      height: 36px;
+      margin: 0;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .theme-detail-bottom {
+    padding-top: $layout-padding;
+    padding-bottom: $layout-padding;
+    @include media-breakpoint-up(sm) {
+      padding-top: $layout-padding;
+      padding-bottom: $layout-padding;
+    }
+    @include media-breakpoint-up(md) {
+      padding-top: $layout-padding * 2;
+      padding-bottom: $layout-padding * 2;
+    }
+    @include media-breakpoint-up(lg) {
+      padding-top: $layout-padding * 4;
+      padding-bottom: $layout-padding * 4;
+    }
+  }
+
+}
+
+.page-default-single .wrapper {
+  //position: relative;
+  //overflow: hidden;
+}
+
+.page-default-single .wrapper::before {
+  //content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  transform: rotate(30deg);
+  overflow: hidden;
+  //background-image: url(/images/material-design-4k-wallpaper-greyscale.png);
+  background-image: url(/images/1.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  //background-color: antiquewhite;
+  //background-color: #fdf5dd;
+  //background-color: #cdf3fd;
+}

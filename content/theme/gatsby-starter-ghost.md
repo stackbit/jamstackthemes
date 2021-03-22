@@ -7,4 +7,7 @@ ssg:
   - Gatsby
 cms:
   - Ghost
+date: 2018-11-13T05:04:05.000Z
+description: A starter template to build lightning fast websites with Ghost & Gatsby
+stale: false
 ---

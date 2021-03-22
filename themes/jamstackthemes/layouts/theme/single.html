@@ -1,0 +1,147 @@
+{{ define "title" }}{{ .Title }} - Theme Info{{ end }}
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-default-single{{ end }}
+
+{{ define "ogmeta" }}
+    <meta property="og:title" content="{{ .Title }}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="{{ .Permalink }}"/>
+    <meta property="og:description" content="{{ .Params.description }}"/>
+     {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
+    {{ $repo := index .Site.Data.themes $repoName }}
+    {{ if $repo }}
+        {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
+        {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
+        {{ if (fileExists $staticPath) }}
+            <meta property="og:image" content="{{ $filePath | absURL }}">
+        {{ end }}
+    {{ end }}
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@jamstackthemes"/>
+    <meta name="twitter:creator" content="@jamstackthemes"/>
+{{end}}
+
+{{ define "meta_description" }}
+    {{ $themes := (where .Site.RegularPages "Type" "theme") }}
+    {{ $themes := (where $themes ".Params.draft" "!=" true) }}
+    {{ $themes := (where $themes ".Params.stale" "!=" true) }}
+    {{ $themes := (where $themes ".Params.disabled" "!=" true) }}
+    {{ $themeCount := len $themes}}
+    <meta name="description" content="{{ .Params.description }}">
+{{ end }}
+
+{{ define "main" }}
+    {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
+
+    {{ $repo := index .Site.Data.themes $repoName }}
+    {{ $stackbit := index .Site.Data.stackbit $repoName }}
+
+    <div class="wrapper">
+        <div class="main">
+            <div class="container">
+                <div class="theme theme-detail" data-name="{{ .Title }}">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-xl-4">
+
+                            <div class="intro">
+                                <div class="intro-heading">
+                                    <h1 class="intro-title">{{ .Title }} </h1>
+                                </div>
+                                <div class="intro-description"><p>{{ .Params.description }}</p></div>
+                            </div>
+
+                            <div class="theme-detail-tags">
+                                {{ if .Params.ssg }}
+                                    {{- range .Params.ssg }}
+                                        {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
+                                            {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                                        {{ end }}
+                                    {{ end }}
+                                {{ end }}
+
+                                {{ if .Params.cms }}
+                                    {{- range .Params.cms }}
+                                        {{- with $.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
+                                            {{ if eq .Page.Title "No CMS" }}
+                                            {{ else }}
+                                                {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                                            {{ end }}
+                                        {{ end }}
+                                    {{ end }}
+                                {{ end }}
+
+                                {{ if .Params.css }}
+                                    {{- range .Params.css }}
+                                        {{- with $.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
+                                            {{ if eq .Page.Title "No css" }}
+                                            {{ else }}
+                                                {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                                            {{ end }}
+                                        {{ end }}
+                                    {{ end }}
+                                {{ end }}
+
+                                {{ if .Params.archetype }}
+                                    {{- range .Params.archetype }}
+                                        {{- with $.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
+                                            {{ if eq .Page.Title "No archetype" }}
+                                            {{ else }}
+                                                {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                                            {{ end }}
+                                        {{ end }}
+                                    {{ end }}
+                                {{ end }}
+                            </div>
+
+                            {{ partial "labels/label-author.html" (dict "author" .Params.author) }}
+                            {{ if $repo }}{{ partial "labels/label-stars.html" (dict "stars" $repo.stars) }}{{ end }}
+                            {{ if $repo }}{{ partial "labels/label-last-commit.html" (dict "last_commit" $repo.last_commit) }}{{ end }}
+
+                            <div class="action-buttons action-buttons-detail">
+                                <a class="action-button action-button-github" data-action="github" data-context="detail"
+                                   data-name="{{ .Title }}" href="{{ .Params.github }}" target="_blank"
+                                   rel="nofollow noopener">Github</a>
+                                <a class="action-button action-button-demo" data-action="demo" data-context="detail"
+                                   data-name="{{ .Title }}" href="/demo{{ .RelPermalink }}">Live Demo</a>
+                                {{ if .Site.Params.stackbit_button }}
+                                    {{ if .Params.stackbit }}
+                                        <a class="action-button action-button-fill action-button-stackbit"
+                                           data-action="stackbit" data-context="detail" data-name="{{ .Title }}"
+                                           href="{{ .Params.stackbit }}&ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=detail"
+                                           target="_blank" rel="noopener nofollow">Create Site</a>
+                                    {{ else if $stackbit }}
+                                        {{ if $stackbit.createUrl }}
+                                            <a class="action-button action-button-fill action-button-stackbit"
+                                               data-action="stackbit" data-context="detail" data-name="{{ .Title }}"
+                                               href="{{ $stackbit.createUrl }}&ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=detail"
+                                               target="_blank" rel="noopener nofollow">Create Site</a>
+                                        {{ end }}
+                                    {{ end }}
+                                {{ end }}
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-xl-8">
+                            <div class="theme-detail-image">
+                                {{ if $repo }}
+                                    {{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
+                                    {{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
+                                    {{ if (fileExists $staticPath) }}
+                                        <img src="{{ $filePath | relURL }}" alt="{{ .Title }} screenshot"/>
+                                    {{ end }}
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3 mt-md-3 mt-lg-6">
+                        <div class="col-12 col-lg-8">
+                            <div class="content">
+                                {{ .Content }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{ end }}

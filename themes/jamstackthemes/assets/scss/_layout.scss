@@ -1,46 +1,163 @@
+$layout-padding: 15px;
+
 .page {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   min-height: 100vh;
-  .wrapper {
-    display: flex;
-    width: 100%;
+  &.has-sidebar {
+    .header {
+      @include media-breakpoint-up(sm) {
+        padding-left: $layout-padding;
+        padding-right: $layout-padding;
+      }
+      @include media-breakpoint-up(md) {
+        padding-left: $layout-padding * 2;
+        padding-right: $layout-padding * 2;
+      }
+      @include media-breakpoint-up(lg) {
+        padding-left: $layout-padding * 4;
+        padding-right: $layout-padding * 4;
+      }
+      .container {
+        max-width: none !important;
+      }
+    }
+    .wrapper {
+      display: flex;
+      .main {
+        flex: 1;
+        @include media-breakpoint-up(sm) {
+          padding: $layout-padding;
+        }
+        @include media-breakpoint-up(md) {
+          padding: $layout-padding * 2;
+        }
+        @include media-breakpoint-up(lg) {
+          padding: $layout-padding * 4;
+        }
+      }
+      .sidebar {
+        flex-basis: 110px;
+        @include media-breakpoint-up(sm) {
+          flex-basis: 140px;
+        }
+        @include media-breakpoint-up(md) {
+          flex-basis: 240px;
+        }
+        @include media-breakpoint-up(lg) {
+          flex-basis: 360px;
+        }
+      }
+    }
   }
-  .sidebar {
-    position: sticky;
-    z-index: 1;
-    border-right: 1px solid $grey;
-    top: 0;
-    width: 100px;
-    overflow: auto;
-    padding: 50px 0 20px 0;
-    height: calc(100vh);
-    display: flex;
-    flex-direction: column;
-    @include breakpoint('small') {
-      width: 270px;
-      padding: 60px 0 40px 0;
-    }
-    h3 {
-      font-size: 16px;
-      font-weight: 700;
-      margin-bottom: 15px;
-    }
+  .header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 
+    .container {
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
   }
-  .main {
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    flex: 1;
-    padding: 70px 20px 20px 20px;
-    width: 100%;
-    @include breakpoint('small') {
-      padding: 100px 40px 40px 40px;
+  .wrapper {
+    padding-top: 60px;
+    .main {
+      padding-top: $layout-padding;
+      padding-bottom: $layout-padding;
+      @include media-breakpoint-up(sm) {
+        padding-top: $layout-padding;
+        padding-bottom: $layout-padding;
+      }
+      @include media-breakpoint-up(md) {
+        padding-top: $layout-padding * 2;
+        padding-bottom: $layout-padding * 2;
+      }
+      @include media-breakpoint-up(lg) {
+        padding-top: $layout-padding * 4;
+        padding-bottom: $layout-padding * 4;
+      }
+
+    }
+    .sidebar {
+      position: sticky;
+      top: 60px;
+      z-index: 1;
+      width: 120px;
+      overflow: auto;
+      height: calc(100vh - 60px);
+      display: flex;
+      flex-direction: column;
+      background-color: $bone;
+      padding-top: $grid-gutter-width / 2;
+      padding-bottom: $grid-gutter-width / 2;
+      @include media-breakpoint-up(sm) {
+        width: 140px;
+        padding: $layout-padding;
+      }
+      @include media-breakpoint-up(md) {
+        width: 240px;
+        padding: $layout-padding * 2;
+      }
+      @include media-breakpoint-up(lg) {
+        width: 360px;
+        padding: $layout-padding * 4;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+
+      }
     }
   }
   .footer {
-    justify-items: flex-end;
+    width: 100%;
+    border-top: 1px solid $grey;
+    padding-top: $grid-gutter-width / 2;
+    padding-bottom: $grid-gutter-width / 2;
+    @include media-breakpoint-up(sm) {
+      padding: $layout-padding;
+    }
+    @include media-breakpoint-up(md) {
+      padding: $layout-padding * 2;
+    }
+    @include media-breakpoint-up(lg) {
+      padding: $layout-padding * 4;
+    }
+    .container {
+      .footer-columns {
+        display: flex;
+        flex-direction: column;
+        @include media-breakpoint-up(md) {
+          flex-direction: row;
+          display: flex;
+          justify-items: flex-end;
+        }
+        .footer-column {
+          margin-bottom: 20px;
+        }
+      }
+    }
   }
+}
+
+.not-found {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.strip-bone {
+  background: $bone;
+}
+.strip-title {
+  font-size: 38px;
+  font-weight: 400;
 }

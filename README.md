@@ -1,40 +1,58 @@
 # Jamstack Themes
 
-A list of Themes and Starters for JAMstack Sites. https://jamstackthemes.dev
+A list of themes and starters for the Jamstack and static site generators. https://jamstackthemes.dev
 
 ## Submit A Theme
 
-Anyone can submit a theme to the gallery. Simply fork this repo and add a new markdown file in `content/theme`, then submit a pull-request with the title "Theme Submission: theme-name`
+Anyone can submit an open-source theme by adding a markdown file to the `content/theme` folder. 
 
-The convention is to name the markdown file after your Github repo. For example `github.com/username/my-awesome-theme` would be `content/theme/my-awesome-theme.md`. If the filename is already taken that's ok, just name it something similar.
+1. Fork this repo and create a new markdown `.md` file in `content/theme` folder. For example `hugo-air.md`. Another option is to add a new file using the [Github UI](https://github.com/stackbit/jamstackthemes/tree/master/content/theme) _(click the "add file" button)_ 
+2. Add the required front-matter as shown in the **Example Theme** below.
+3. Submit a pull request
 
-The markdown file should contain the following front-matter.
+> **Tip:** Do not generate the Github stars or theme screenshots. Please just submit the markdown file in your pull request.
 
+**Example Theme**
 ```yaml
 ---
 title: "My Theme Name"
 github: https://github.com/username/repo
-demo: https://www.demo.com
-author: Unknown Author
+demo: https://www.demo.com # Please make sure this links to a theme demo and not your personal/business site. The demo url must use https
+author: authorname
+date: 2019-08-20 # Enter the date you submitted the theme YYYY-MM-DD
 ssg:
-  - Gridsome
+  - Gridsome # at least 1 ssg is required
 cms:
-  - NetlifyCMS
+  - No CMS # at least 1 cms is required. If your theme uses markdown (no CMS) the cms should be "No CMS"
+css: # css is optional
+  - Bootstrap 
+archetype: # archetype is optional
+  - Blog
+  - Portfolio
+description: This is an amazing theme and this is a small description about it!
 ---
+
+# A simple starter kit for Gridsome
+
+This theme is a lightweight starter kit. It also gives you a well organised starting point to extend it for yourself.
+
+## Features
+
+* Customisable design tokens to make it your own  
+* Customisable global data and navigation  
+* Tags and tag archives  
+* Progressively enhanced, semantic and accessible  
 ```
-
-Images will be generated automatically based on the `demo` URL.
-
 
 ## Contribution Guidelines
 
-Any open source themes with a public github repo can be submitted.
+* Any open source themes with a public github repo can be submitted.
+* Please make sure the demo URL links to a demo of the theme and not your personal or business site.
 
-If you would like to propose new categories open an issue or make a pull request.
-
-If you are adding a SSG or CMS which doesnt exist already you will need to add it as part of your pull-request. New taxonomy terms can be added by creating a markdown file under `content/ssg/` or `content/cms`. Take a look at the existing terms to see what front-matter is required. You will also need to upload an icon into `static/images/icons`, preferably the icon is in SVG format under 3KB. If it's a PNG please make sure the size is 60x60px and the size is as small as possible (you should be able to keep it under 5KB)
 
 ## Develop Locally
+
+Github stars, image thumbnails and last commit date are generated at build time when this site is deployed to Netlify. Basically the Netlify site runs `npm run deploy`
 
 This site is built on [Hugo](https://gohugo.io/)
 
@@ -50,33 +68,29 @@ Build Site
 hugo
 ```
 
-## Utilities
+Generate Github stars, image screenshots etc
 
 ```
 npm install
-```
-
-### Generate Github Stars
-
-Requires a Github Token 
-
-```
 export GITHUB_TOKEN=XXX
-npm run generate-github
+npm run deploy
 ```
 
-### Capture Screenshots
+> Generating github data requires a Github Token. You can generate this token in your Github account at settings > developer settings > personal access tokens https://github.com/settings/tokens
 
-Will take screenshots of each theme, based on the demo link and store the files in `static/capture`
+## Submitting New Categories
+Themes can be categorised with terms from these 4 taxonomies. `ssg`, `cms`, `css` and `archetype`
 
+If you are adding a theme which uses an SSG or CMS which doesnt exist you will need to add it as part of your pull-request.
+
+1. Create a new taxonomy term by creating the markdown file under `content/ssg/` or `content/cms`. For example let's say you wanted to add a new SSG called "Super Duper". Add a file under `content/ssg/super-duper/_index.md` and add the following frontmatter
 ```
-npm run capture-screenshots
+---
+title: "Super Duper"
+icon: images/icons/super-duper.svg 
+official_url: https://super-duper.org
+---
 ```
 
-### Generate Thumbnails
-
-Will generate thumbnails for each theme. Uses Hires screenshots from `static/capture` and stores files in `static/images/theme/thumbnails`. 
-
-```
-npm run generate-thumbnails
-```
+2. Add the icon. You will need to upload an icon into `static/images/icons`. The icon should in SVG format under 3KB. If it's a PNG please make sure the size is 60x60px and the size is as small as possible (you should be able to keep it under 5KB)
+3. Update the Javascript filter logic. Update the file `themes/jamstackthemes/assets/js/filter/filter-groups.js` and add `super-duper` to the ssg array.

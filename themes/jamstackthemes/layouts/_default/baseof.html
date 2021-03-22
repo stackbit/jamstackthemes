@@ -6,9 +6,25 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="{{ .Permalink }}" />
 
-  {{ block "meta_tags" . }}{{end}}
-  
+  {{ block "ogmeta" . }}
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:description" content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/jamstackthemes-screenshot.png">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@jamstackthemes" />
+    <meta name="twitter:creator" content="@jamstackthemes" />
+  {{end}}
+
+  {{ block "meta_description" . }}
+  {{ end }}
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+
   {{ if .Site.IsServer }}
   {{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}
   <link rel="stylesheet" href="{{ ($style).RelPermalink }}">
@@ -22,36 +38,39 @@
   <link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon/favicon-32x32.png" | relURL }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ "images/favicon/favicon-16x16.png" | relURL }}">
 
+  {{ with .OutputFormats.Get "rss" }}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end }}
+
 </head>
 
-<body class='page {{ block "body_classes" . }}{{ end }}'>
-  {{ partial "header.html" . }}
-
-  <div class="wrapper">
-    {{ block "main" . }}
-    {{ end }}
+<body id="{{ block "body_id" . }}{{ end }}" class="page {{ block "body_classes" . }}{{ end }}">
+  {{ block "header" . }}
+  <div class="header {{ block "header_classes" . }}{{ end }}">
+    {{ partial "header.html" . }}
   </div>
+  {{ end }}
 
-  {{ partial "footer.html" . }}
+  {{ block "main" . }}{{ end }}
 
-  {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
-  {{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
-  {{ $filter := resources.Get "js/filter.js" }}
+  {{ block "footer" . }}
+    {{ partial "footer.html" . }}
+  {{ end }}
+
+  {{ partial "segment.html" . }}
+
+  {{ block "footer_js" . }}{{ end }}
+
+  {{ $branches := resources.Get "js/branches.js" }}
   {{ $scripts := resources.Get "js/scripts.js" }}
 
-  {{ $js := slice $mixitup $mixitupMultiFilter $filter $scripts | resources.Concat "js/bundle.js" }}
-  
+  {{ $scriptsBundle := slice $branches $scripts | resources.Concat "js/scriptsBundle.js" }}
+
   {{ if .Site.IsServer }}
-  <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>
+    <script type="text/javascript" src="{{ $scriptsBundle.RelPermalink }}"></script>
   {{ else }}
-  <script type="text/javascript" src="{{ ($js | minify | fingerprint).RelPermalink }}"></script>
+    <script type="text/javascript" src="{{ ($scriptsBundle | minify | fingerprint).RelPermalink }}"></script>
   {{ end }}
-
-  {{ block "footer_js" . }}
-  {{ end }}
-
-  {{ partial "google-analytics.html" . }}
 
 </body>
-
 </html>

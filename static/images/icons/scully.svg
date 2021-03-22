@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="scullyio-logo-no-text.svg"
+   xml:space="preserve"
+   viewBox="0 0 4960.5977 4960.5664"
+   y="0px"
+   x="0px"
+   id="Layer_1"
+   version="1.1"><metadata
+   id="metadata22"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs20" /><sodipodi:namedview
+   inkscape:current-layer="Layer_1"
+   inkscape:window-maximized="1"
+   inkscape:window-y="-8"
+   inkscape:window-x="-8"
+   inkscape:cy="870.24354"
+   inkscape:cx="10583.865"
+   inkscape:zoom="0.051883427"
+   showguides="false"
+   showgrid="false"
+   id="namedview18"
+   inkscape:window-height="1017"
+   inkscape:window-width="1920"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0"
+   guidetolerance="10"
+   gridtolerance="10"
+   objecttolerance="10"
+   borderopacity="1"
+   bordercolor="#666666"
+   pagecolor="#ffffff" />
+<title
+   id="title2">logo</title>
+<linearGradient
+   gradientTransform="matrix(20.4786,0,0,-20.4786,7547.1726,341611.63)"
+   y2="16560.281"
+   x2="-126.3063"
+   y1="16560.281"
+   x1="-368.53949"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_1_">
+	<stop
+   id="stop4"
+   style="stop-color:#007C42"
+   offset="0" />
+	<stop
+   id="stop6"
+   style="stop-color:#6CCE7A"
+   offset="1" />
+</linearGradient>
+<path
+   style="fill:url(#SVGID_1_)"
+   id="path9"
+   d="m 3851.8587,4933.0433 c -57.46,23.9 -120.146,32.45 -181.906,24.806 -773.88,-103.355 -1509.856,-397.746 -2141.531,-856.612 C 879.90868,3628.3523 364.42168,2996.0963 31.830679,2265.6363 c -53.005,-116.381 -39.0960004,-252.307 36.381,-355.543 C 1053.3077,567.03231 2678.5717,-150.47669 4334.7377,26.538305 c 130.382,13.449 242.513,98.186005 291.05,219.941005 305.933,762.76399 404.635,1592.88699 286.089,2406.12099 -115.519,789.172 -430.253,1535.885 -914.492,2169.643 -38.334,48.673 -88.41,86.799 -145.526,110.8 z"
+   fill="url(#SVGID_1_)" />
+<path
+   id="path11"
+   d="m 3851.8587,3295.8903 c -12.972,-1.172 -25.749,-3.947 -38.035,-8.271 -99.967,-35.081 -152.569,-144.558 -117.49,-244.526 0.027,-0.072 0.052,-0.146 0.078,-0.221 61.186,-168.676 4.961,-246.4 -13.229,-272.86 -148.833,-206.71 -649.902,-226.554 -858.267,-224.899 -510.99,4.959 -854.958,-120.721 -1018.674,-372.082 -163.716,-251.359 -100.875,-519.26 -42.996,-649.9 48.825,-94.025 164.625,-130.664 258.647,-81.836 85.419,44.355 124.743,145.145 91.936,235.629 -1.654,6.613 -66.149,168.678 13.229,287.742 79.377,119.066 334.045,200.096 694.55,198.441 593.677,-4.961 987.254,125.682 1174.123,385.311 122.373,171.985 145.524,388.618 62.84,621.789 -29.943,85.966 -116.609,138.661 -206.712,125.683 z"
+   fill="#ffffff" />
+<path
+   id="path13"
+   d="m 2323.8467,1291.6133 c 169.636,-57.977 348.342,-84.867 527.528,-79.377 396.886,11.574 631.71,145.525 879.765,469.648 25.541,33.195 61.756,56.559 102.528,66.146 97.105,21.93 193.602,-39.016 215.528,-136.121 11.682,-51.734 -0.012,-105.986 -31.968,-148.314 -395.232,-515.95099 -805.349,-600.28699 -1155.931,-610.21099 -227.275,-7.727 -453.959,27.621 -668.091,104.184 -91.777,36.086 -136.935,139.72899 -100.875,231.51399 36.136,91.751 139.291,137.435 231.516,102.531 z"
+   enable-background="new    "
+   fill="#ffffff"
+   opacity="0.7" />
+<path
+   id="path15"
+   d="m 3489.6997,3409.9923 c -169.855,56.932 -348.471,83.246 -527.528,77.725 -396.886,-11.578 -722.663,-181.908 -970.718,-506.03 -65.025,-75.38 -178.845,-83.772 -254.224,-18.746 -69.057,59.572 -82.738,161.341 -31.864,237.034 284.436,372.081 625.096,539.102 922.76,606.903 106.371,24.442 214.998,37.741 324.124,39.688 227.085,6.832 453.505,-27.917 668.092,-102.529 92.244,-36.075 137.778,-140.098 101.702,-232.342 -36.075,-92.246 -140.098,-137.78 -232.344,-101.703 z"
+   enable-background="new    "
+   fill="#ffffff"
+   opacity="0.7" />
+</svg>

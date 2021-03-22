@@ -1,0 +1,10 @@
+<div class="github-metrics">
+    <div>
+        <img width="15" height="15" alt="Github Stars" src="{{ "images/ui/star-solid.svg" | relURL }}"/>
+        <span>{{ .stars }}</span>
+    </div>
+    <div>
+        <img width="15" height="15" alt="Last Commit" src="{{ "images/ui/history-solid.svg" | relURL }}"/>
+        <span>{{ dateFormat "Jan 2, 2006" .last_commit }}</span>
+    </div>
+</div>

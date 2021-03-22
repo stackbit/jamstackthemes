@@ -1,19 +1,26 @@
-
-[
-  {{ range $index, $theme := (where .Site.RegularPages "Type" "theme") }}{{ $repoName := (substr (replace .Params.github "/" "-") 19 | urlize) }}{{ $repo := index .Site.Data.themes $repoName }}{{ if $index }},{{ end }}
+[{{ range $index, $theme := (where .Site.RegularPages "Type" "theme") }} {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}{{ $repo := index .Site.Data.themes $repoName }}{{ if $index }},{{ end }}
   {
     "title": "{{ .Params.title }}",
+    "description": {{ if .Params.description }}"{{ .Params.description }}"{{ else }}""{{ end }},
     "theme_key": "{{ $repo.theme_key }}",
     "github": "{{ .Params.github }}",
     "demo": "{{ .Params.demo }}",
     "author": "{{ .Params.author }}",
-    "ssg": [{{ range $index, $category := .Params.ssg }}"{{.}}"{{ end }}],
+    "ssg": [{{ range $index, $category := .Params.ssg }}{{ if $index }},{{ end }}"{{.}}"{{ end }}],
     "cms": [{{ range $index, $category := .Params.cms }}{{ if $index }},{{ end }}"{{.}}"{{ end }}],
+    "css": [{{ range $index, $category := .Params.css }}{{ if $index }},{{ end }}"{{.}}"{{ end }}],
+    "archetype": [{{ range $index, $category := .Params.archetype }}{{ if $index }},{{ end }}"{{.}}"{{ end }}],
     "repo_name": "{{ $repo.name }}",
+    "branch": "{{ $repo.branch }}",
     "repo": "{{ $repo.repo }}",
     "stars": "{{ $repo.stars }}",
     "forks": "{{ $repo.forks }}",
     "open_issues":  "{{ $repo.open_issues }}",
-    "last_commit": "{{ $repo.last_commit }}"
+    "last_commit": "{{ $repo.last_commit }}",
+    "images": {
+      "hires": {{ if $repo.images.hires }}"{{ $repo.images.hires }}"{{ else }}null{{ end }},
+      "thumbnail": {{ if $repo.images.thumbnail }}"{{ $repo.images.thumbnail }}"{{ else }}null{{ end }},
+      "screenshot": {{ if $repo.images.screenshot }}"{{ $repo.images.screenshot }}"{{ else }}null{{ end }}
+    }
   }{{ end }}
 ]

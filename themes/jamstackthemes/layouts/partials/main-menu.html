@@ -1,0 +1,17 @@
+<div id="main-menu" class="main-menu">
+  <ul>
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+      <a href="{{.URL}}" >
+        <span>{{ .Name }}</span>
+      </a>
+    </li>
+    {{end}}
+    <li>
+      <a href="https://app.stackbit.com/create?ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=jamstackthemeswebsite&utm_content=mainmenu" >
+        <span>Create A Site</span>
+      </a>
+    </li>
+  </ul>
+</div>
