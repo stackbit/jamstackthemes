@@ -1,7 +1,7 @@
 ---
 title: Azimuth
 layout: single
-github: https://github.com/stackbit/stackbit-theme-azimuth
+github: https://github.com/stackbit-themes/azimuth-unibit
 demo: https://themes.stackbit.com/demos/azimuth?themeBarHidden=true
 author: Stackbit
 ssg:

@@ -1,7 +1,7 @@
 ---
 title: DIY
 layout: single
-github: https://github.com/stackbit/stackbit-theme-diy
+github: https://github.com/stackbit-themes/diy-unibit
 demo: https://themes.stackbit.com/demos/diy?themeBarHidden=true
 author: Stackbit
 ssg:
