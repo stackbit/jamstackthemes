@@ -1,7 +1,7 @@
 ---
 title: Fresh
 layout: single
-github: https://github.com/stackbit/stackbit-theme-fresh
+github: https://github.com/stackbit-themes/fresh-unibit
 demo: https://themes.stackbit.com/demos/fresh?themeBarHidden=true
 author: Stackbit
 ssg:

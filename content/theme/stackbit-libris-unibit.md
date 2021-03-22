@@ -1,7 +1,7 @@
 ---
 title: Libris
 layout: single
-github: https://github.com/stackbit/stackbit-theme-libris
+github: https://github.com/stackbit-themes/libris-unibit
 demo: https://themes.stackbit.com/demos/libris?themeBarHidden=true
 author: Stackbit
 ssg:
