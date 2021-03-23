@@ -3,7 +3,7 @@ title: "Eleventy + Stylus Blog Theme - Purple"
 github: https://github.com/ar363/eleventy-stylus-blog-theme
 demo: https://eleventy-stylus-blog-theme-ar363.vercel.app/
 author: ar363
-date: 2021-03-21
+date: 2021-03-23
 ssg:
   - Eleventy
 cms:
@@ -36,13 +36,39 @@ A theme repository that contains a blog built with [Eleventy](https://github.com
  - Vercel: https://eleventy-stylus-blog-theme.vercel.app/
  - Netlify: https://eleventy-stylus-blog-theme.netlify.app/
 
-## Screenshot
-
-![website homepage screenshot](screenshot.png?raw=true)
-
 ## Deploy this template to your own site
 
 Get your site up and running with a few clicks
 
  - [Deploy on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
  - [Deploy on Vercel](https://vercel.com/import/project?template=11ty%2Feleventy-base-blog)
+
+## Prerequisites for local development
+[Node.js 12](https://nodejs.org/download/release/latest-v12.x/)
+
+[Yarn](https://yarnpkg.com/) package manager
+
+
+## Getting started locally
+
+1. Clone this repo
+```
+git clone https://github.com/ar363/eleventy-stylus-blog-theme my-blog
+```
+
+2. Navigate to the blog directory
+```
+cd my-blog
+```
+
+3. Install dependencies with [yarn](https://yarnpkg.com/)
+```
+yarn
+```
+4. Edit `_data/site.js` according to your site preferences
+
+5. Also optionally modify `stylus/abstracts/variables.styl` according to your preference
+
+To watch for changes in Eleventy and Stylus, use `yarn dev`
+
+To build without watching for changes, use `yarn build`
