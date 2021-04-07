@@ -10,4 +10,6 @@ cms:
 date: 2012-04-05T13:10:55.000Z
 description: A Theme for GitHub Pages
 stale: true
+disabled: true
+disabled_reason: error checking demo url
 ---

@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-08-28T09:16:35.000Z
 description: 'Gatsby Markdown Blog Starter, demo link:'
-stale: false
+stale: true
 ---

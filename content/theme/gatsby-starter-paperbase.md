@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-03-26T17:33:45.000Z
 description: A Gatsby starter that implements the Paperbase Premium Theme from Material UI
-stale: false
+stale: true
 ---

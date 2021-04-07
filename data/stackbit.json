@@ -19,6 +19,10 @@
     "theme_key": "abhaynikam-gatsby-nice-blog",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/abhaynikam/gatsby-nice-blog&ssg=gatsby"
   },
+  "abhinavs-cookie": {
+    "theme_key": "abhinavs-cookie",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/abhinavs/cookie&ssg=jekyll"
+  },
   "abhinavs-moonwalk": {
     "theme_key": "abhinavs-moonwalk",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/abhinavs/moonwalk&ssg=jekyll"
@@ -1535,6 +1539,10 @@
     "theme_key": "jesselau76-hugo-w3-simple",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jesselau76/hugo-w3-simple&ssg=hugo"
   },
+  "jitinnair1-gradfolio": {
+    "theme_key": "jitinnair1-gradfolio",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jitinnair1/gradfolio&ssg=jekyll"
+  },
   "jjcav84-mdbreact-gatsby-starter": {
     "theme_key": "jjcav84-mdbreact-gatsby-starter",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jjcav84/mdbreact-gatsby-starter&ssg=gatsby"
@@ -2827,6 +2835,10 @@
     "theme_key": "stackbit-stackbit-theme-vanilla",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit/stackbit-theme-vanilla"
   },
+  "stackbit-themes-ampersand-unibit": {
+    "theme_key": "stackbit-themes-ampersand-unibit",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/ampersand-unibit"
+  },
   "stackbit-themes-azimuth-gatsby": {
     "theme_key": "stackbit-themes-azimuth-gatsby",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-gatsby&ssg=gatsby"
@@ -2838,6 +2850,10 @@
   "stackbit-themes-azimuth-jekyll": {
     "theme_key": "stackbit-themes-azimuth-jekyll",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-jekyll&ssg=jekyll"
+  },
+  "stackbit-themes-azimuth-unibit": {
+    "theme_key": "stackbit-themes-azimuth-unibit",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-unibit"
   },
   "stackbit-themes-diy-gatsby": {
     "theme_key": "stackbit-themes-diy-gatsby",
@@ -2851,6 +2867,10 @@
     "theme_key": "stackbit-themes-diy-jekyll",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/diy-jekyll&ssg=jekyll"
   },
+  "stackbit-themes-diy-unibit": {
+    "theme_key": "stackbit-themes-diy-unibit",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/diy-unibit"
+  },
   "stackbit-themes-exto-gatsby": {
     "theme_key": "stackbit-themes-exto-gatsby",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/exto-gatsby&ssg=gatsby"
@@ -2862,6 +2882,10 @@
   "stackbit-themes-exto-jekyll": {
     "theme_key": "stackbit-themes-exto-jekyll",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/exto-jekyll&ssg=jekyll"
+  },
+  "stackbit-themes-exto-unibit": {
+    "theme_key": "stackbit-themes-exto-unibit",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/exto-unibit"
   },
   "stackbit-themes-fjord-gatsby": {
     "theme_key": "stackbit-themes-fjord-gatsby",
@@ -2875,6 +2899,18 @@
     "theme_key": "stackbit-themes-fjord-jekyll",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/fjord-jekyll&ssg=jekyll"
   },
+  "stackbit-themes-fjord-unibit": {
+    "theme_key": "stackbit-themes-fjord-unibit",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/fjord-unibit"
+  },
+  "stackbit-themes-fresh-unibit": {
+    "theme_key": "stackbit-themes-fresh-unibit",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/fresh-unibit"
+  },
+  "stackbit-themes-libris-unibit": {
+    "theme_key": "stackbit-themes-libris-unibit",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/libris-unibit"
+  },
   "stackbit-themes-stackbit-starter-gatsby": {
     "theme_key": "stackbit-themes-stackbit-starter-gatsby",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/stackbit-starter-gatsby&ssg=gatsby"
@@ -2886,6 +2922,14 @@
   "stackbit-themes-stackbit-starter-jekyll": {
     "theme_key": "stackbit-themes-stackbit-starter-jekyll",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/stackbit-starter-jekyll&ssg=jekyll"
+  },
+  "stackbit-themes-starter-unibit": {
+    "theme_key": "stackbit-themes-starter-unibit",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/starter-unibit"
+  },
+  "stackbit-themes-vanilla-unibit": {
+    "theme_key": "stackbit-themes-vanilla-unibit",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/vanilla-unibit"
   },
   "stackrole-gatsby-starter-foundation": {
     "theme_key": "stackrole-gatsby-starter-foundation",
@@ -3418,6 +3462,10 @@
   "yihui-hugo-xmin": {
     "theme_key": "yihui-hugo-xmin",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/yihui/hugo-xmin&ssg=hugo"
+  },
+  "yinkakun-gatsby-starter-glass": {
+    "theme_key": "yinkakun-gatsby-starter-glass",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/yinkakun/gatsby-starter-glass&ssg=gatsby"
   },
   "yizeng-jekyll-theme-simple-texture": {
     "theme_key": "yizeng-jekyll-theme-simple-texture",

@@ -15,6 +15,8 @@ archetype:
   - Personal website
 description: Pole is a one-column minimal responsive Jekyll blog theme.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
 
 Pole is *a one-column minimal responsive Jekyll blog theme*.

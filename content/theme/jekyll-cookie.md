@@ -1,7 +1,7 @@
 ---
 title: Cookie
-github: 'https://github.com/abhinavs/cookie'
-demo: 'https://cookie-demo.netlify.app/'
+github: https://github.com/abhinavs/cookie
+demo: https://cookie-demo.netlify.app/
 author: Abhinav Saxena
 ssg:
   - Jekyll
@@ -16,7 +16,10 @@ css:
   - Tailwind
 date: 2021-03-04T00:00:00.000Z
 github_branch: master
-description: Cookie is a fast and one-click deployable landing website that comes with a blog, additional pages and Soopr integration - makes creating and launching websites a cakewalk.
+description: >-
+  Cookie is a fast and one-click deployable landing website that comes with a
+  blog, additional pages and Soopr integration - makes creating and launching
+  websites a cakewalk.
 stale: false
 ---
 # Cookie - a fast and easy to deploy landing website for your next project.

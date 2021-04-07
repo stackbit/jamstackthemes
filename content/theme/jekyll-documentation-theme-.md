@@ -11,5 +11,5 @@ date: 2015-02-13T22:56:26.000Z
 description: >-
   A Jekyll-based theme designed for documentation and help systems. See the link
   for detailed instructions on setting up and configuring everything.
-stale: true
+stale: false
 ---

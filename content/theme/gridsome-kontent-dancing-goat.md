@@ -11,7 +11,7 @@ date: 2020-12-01T00:00:00.000Z
 archetype:
   - Business
 description: Gridsome implementation of the Dancing Goat Starter site.
-stale: false
+stale: true
 ---
 
 # Gridsome Kontent Dancing Goat

@@ -1,18 +1,21 @@
 ---
-title: "Eleventy + Stylus Blog Theme - Purple"
+title: Eleventy + Stylus Blog Theme - Purple
 github: https://github.com/ar363/eleventy-stylus-blog-theme
 demo: https://eleventy-stylus-blog-theme-ar363.vercel.app/
 author: ar363
-date: 2021-03-23
+date: 2021-03-23T00:00:00.000Z
 ssg:
   - Eleventy
 cms:
   - No CMS
 css:
-  - Stylus 
+  - Stylus
 archetype:
   - Blog
-description: A nice-looking, mobile-first blog theme built with Eleventy SSG and Stylus Preprocessor
+description: >-
+  A nice-looking, mobile-first blog theme built with Eleventy SSG and Stylus
+  Preprocessor
+stale: false
 ---
 
 # Eleventy + Stylus Blog theme

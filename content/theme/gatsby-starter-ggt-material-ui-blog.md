@@ -11,5 +11,5 @@ date: 2019-04-26T11:47:18.000Z
 description: >-
   Gatsby starter that uses a Material-ui blog theme - letting you set up an blog
   with minimal effort!
-stale: false
+stale: true
 ---

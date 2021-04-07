@@ -3,7 +3,7 @@ title: Gradfolio
 github: https://github.com/jitinnair1/gradfolio
 demo: https://jitinnair1.github.io/gradfolio/
 author: Jitin Nair
-date: 2021-03-11
+date: 2021-03-11T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
@@ -12,7 +12,10 @@ archetype:
   - Personal
   - Blog
   - Portfolio
-description: responsive, dark-mode ready Jekyll theme designed for use as a personal website and portfolio
+description: >-
+  responsive, dark-mode ready Jekyll theme designed for use as a personal
+  website and portfolio
+stale: false
 ---
 
 ## Features

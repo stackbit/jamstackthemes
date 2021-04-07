@@ -12,6 +12,8 @@ archetype:
   - Blog
 description: A one-column minimalist Jekyll theme for bloggers.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
 
 ## Features

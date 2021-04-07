@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-05-25T12:43:28.000Z
 description: A minimalist GatsbyJs starter for your personal blog.
-stale: true
+stale: false
 ---

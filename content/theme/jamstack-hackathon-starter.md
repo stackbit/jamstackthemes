@@ -11,5 +11,5 @@ date: 2018-05-09T20:44:36.000Z
 description: >-
   Make Authenticated, Serverless, Dynamic Clientside JAMstack apps with Gatsby +
   Netlify Dev (Functions + Identity)
-stale: false
+stale: true
 ---

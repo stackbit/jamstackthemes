@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2016-08-21T21:53:24.000Z
 description: A minimalist Jekyll theme for running an online publication
-stale: true
+stale: false
 ---

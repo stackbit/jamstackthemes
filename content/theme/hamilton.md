@@ -1,7 +1,7 @@
 ---
 title: Hamilton
-github: https://github.com/ngzhio/jekyll-theme-hamilton
-demo: https://ngzhio.github.io/jekyll-theme-hamilton/
+github: https://github.com/zivhub/jekyll-theme-hamilton
+demo: https://zivlog.io/jekyll-theme-hamilton/
 author: Shangzhi Huang
 date: 2020-07-02T00:00:00.000Z
 ssg:

@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2015-02-03T06:30:25.000Z
 description: Simple and clean blog theme for hugo
-stale: false
+stale: true
 ---
