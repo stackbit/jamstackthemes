@@ -8,8 +8,6 @@ ssg:
   - Next
 cms:
   - Wordpress
-css:
-  - neve
 archetype:
   - Blog
   - Portfolio
