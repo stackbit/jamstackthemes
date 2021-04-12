@@ -19,7 +19,7 @@ archetype:
 description: Jekyll One Template - Create powerful modern static websites.
 ---
 
-# A fully configurable gem-based Jekyll-theme to create modern webs
+# A fully configurable Jekyll Theme to create modern websites
 
 J1 meets Jekyll and Bootstrap. And makes a lot of friends. The template
 system combines the best of free software for the web. Jekyll One Template
@@ -37,3 +37,5 @@ No license issues for private or professional use.
 * Start in No Time. No programming is needed to start using J1. The Template
   provides a large number of building blocks to create modern web pages in
   minutes.
+
+  
