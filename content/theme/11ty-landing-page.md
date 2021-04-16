@@ -16,7 +16,7 @@ archetype: # archetype is optional
 description: A simple landing page built with 11ty and Tailwind CSS.
 ---
 
-# 11ty-landing-page
+# 11ty Landing Page
 
 A simple landing page starter template built with 11ty and Tailwind CSS.
 
