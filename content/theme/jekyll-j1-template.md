@@ -1,7 +1,7 @@
 ---
 title: "J1 Template Starter"
 github: https://github.com/jekyll-one-org/j1-template-starter
-demo: https://jekyll-one-org.github.io/
+demo: https://j1-template-starter.netlify.app/
 author: Jürgen Adams
 date: 2021-04-01
 ssg:
@@ -19,7 +19,6 @@ archetype:
   - Business
 description: J1 - Create powerful modern static websites.
 ---
-
 
 # A fully configurable Jekyll Theme
 
