@@ -11,7 +11,8 @@ cms:
 css:
   - Bootstrap
 archetype:
-  - Website
+  - Personal
+  - Portfolio
   - Blog
   - Multi Purpose
   - Documentation
