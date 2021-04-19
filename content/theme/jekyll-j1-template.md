@@ -20,6 +20,7 @@ archetype:
 description: J1 - Create powerful modern static websites.
 ---
 
+
 # A fully configurable Jekyll Theme
 
 * Fully Responsive. J1 Template supports modern web browsers on all
