@@ -1,6 +1,6 @@
 ---
 title: "J1 Template Starter"
-github: https://github.com/jekyll-one-org/j1-template-starter
+github: https://github.com/jekyll-one/j1-template-starter
 demo: https://j1-template-starter.netlify.app/
 author: Jürgen Adams
 date: 2021-04-01
