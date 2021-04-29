@@ -1,0 +1,28 @@
+---
+title: "Minimal Blog | NextJS"
+github: https://github.com/jaymehta20/nextjs-blog-page
+demo: https://nextjs-blog-page.vercel.app/
+author: Jay Mehta
+date: 2021-04-29 
+ssg:
+  - NextJS 
+cms:
+  - Contentful (You can edit the template to make it work without a Headless CMS
+css: 
+  - Bootstrap 
+
+archetype: # archetype is optional
+  - Blog
+
+description: A simple blog site created with NextJs
+---
+
+
+## Features
+## Dark Mode 🌚
+## Light Mode 🌞
+## Grid Layout 🚀
+## Full Responsive (Works on Galaxy fold too 😅)
+
+
+
