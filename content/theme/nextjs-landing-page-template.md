@@ -9,6 +9,9 @@ cms:
   - No Cms
 css:
   - Tailwind
+archetype:
+  - Website
+  - Multi Purpose
 date: 2021-05-02
 github_branch: master
 description: "\U0001F680 Next JS Landing Page Template Free styled with Tailwind CSS and React TypeScript. An NextJS layout to create a landing page."
