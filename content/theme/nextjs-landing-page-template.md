@@ -3,6 +3,7 @@ title: Next JS Landing Page Template with Tailwind CSS
 github: https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template
 demo: https://creativedesignsguru.com/demo/nextjs-landing-page/
 author: Ixartz
+date: 2021-05-02
 ssg:
   - Next
 cms:
@@ -12,7 +13,6 @@ css:
 archetype:
   - Website
   - Multi Purpose
-date: 2021-05-02
 description: Next JS Landing Page Template Free styled with Tailwind CSS and React TypeScript. An NextJS layout to create a landing page.
 ---
 
