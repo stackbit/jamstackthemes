@@ -7,7 +7,7 @@ date: 2021-05-04
 ssg:
   - Jekyll
 css:
-  - Boostrap
+  - Bootstrap
 cms:
   - No CMS
 archetype:
