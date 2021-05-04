@@ -12,7 +12,7 @@ cms:
   - No CMS
 archetype:
   - Blog
-description: A Digital Garden: Capturing my daily thoughts and progress, as well as curated ideas with unique synthesis—a personal zettelkasten. Built on Simply Jekyll by Raghuveer S. 
+description: "A Digital Garden: Capturing my daily thoughts and progress, as well as curated ideas with unique synthesis—a personal zettelkasten. Built on Simply Jekyll by Raghuveer S."
 ---
 
 ## Enjoyment Work theme for Jekyll
