@@ -13,7 +13,9 @@ archetype:
 description: A responsive sidebar Jekyll theme using the Pure.css framework, designed for writers and bloggers of all kinds.  
 ---
 
-# Purelog Theme for Jekyll**Purelog** is a responsive, sidebar theme for the popular JAMstack generator Jekyll that only uses the minimal [**Pure.css** framework](https://github.com/pure-css/pure) (hence the name!), while still following the best practices possible for accessibility and search-engine optimization.
+# Purelog Theme for Jekyll
+
+**Purelog** is a responsive, sidebar theme for the popular JAMstack generator Jekyll that only uses the minimal [**Pure.css** framework](https://github.com/pure-css/pure) (hence the name!), while still following the best practices possible for accessibility and search-engine optimization.
 
 I created this after finishing [Watery](https://github.com/brennanbrown/watery) (which this theme is built off of), as a way to add more functionality and design while still remaining as lightweight as possible.
 
