@@ -8,8 +8,6 @@ ssg:
   - Jekyll
 cms:
   - No CMS
-css:
-  - Pure.css 
 archetype:
   - Blog
   - Homepage
