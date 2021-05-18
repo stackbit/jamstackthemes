@@ -7,16 +7,13 @@ date: 2021-04-29
 ssg:
   - NextJS 
 cms:
-  - Contentful (You can edit the template to make it work without a Headless CMS
+  - Contentful
 css: 
   - Bootstrap 
-
-archetype: # archetype is optional
+archetype:
   - Blog
-
 description: A simple blog site created with NextJs
 ---
-
 
 ## Features
 ## Dark Mode 🌚
