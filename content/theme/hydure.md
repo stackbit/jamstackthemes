@@ -1,5 +1,5 @@
 ---
-title: Hydure"
+title: Hydure
 github: https://github.com/zivong/jekyll-theme-hydure
 demo: https://zivong.blog/jekyll-theme-hydure/
 author: Song-Zi Vong
