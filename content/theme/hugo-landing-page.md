@@ -1,19 +1,20 @@
 ---
-title: "Hugo Landing Page"
+title: Hugo Landing Page
 github: https://github.com/ttntm/hugo-landing-page
 demo: https://awesome.ttntm.me
 author: ttntm
-date: 2021-04-16
+date: 2021-04-16T00:00:00.000Z
 ssg:
   - Hugo
 cms:
   - No CMS
-css: # css is optional
+css:
   - PostCSS
   - Tailwind
-archetype: # archetype is optional
+archetype:
   - Business
 description: A simple landing page built with Hugo and Tailwind CSS.
+stale: false
 ---
 
 # Hugo Landing Page

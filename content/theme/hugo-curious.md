@@ -1,20 +1,23 @@
 ---
-title: "Hugo Curious"
+title: Hugo Curious
 github: https://github.com/vietanhdev/hugo-curious
 demo: https://hugo-curious.aicurious.io/
 author: vietanhdev
-date: 2021-05-16
+date: 2021-05-16T00:00:00.000Z
 ssg:
   - Hugo
 cms:
   - No CMS
   - NetlifyCMS
 css:
-  - SCSS 
-archetype: # archetype is optional
+  - SCSS
+archetype:
   - Blog
   - Portfolio
-description: "A modern and full-featured Hugo theme for personal blog. Blogs, Notes, Projects, Contact form, Subscriber form, Comments..."
+description: >-
+  A modern and full-featured Hugo theme for personal blog. Blogs, Notes,
+  Projects, Contact form, Subscriber form, Comments...
+stale: false
 ---
 
 ## Story

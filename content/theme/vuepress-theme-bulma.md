@@ -11,5 +11,7 @@ css:
   - Bulma
 date: 2018-07-16T12:37:30.000Z
 description: A pure Bulma.css theme for VuePress
-stale: false
+stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2017-11-19T09:46:18.000Z
 description: ' :chart_with_upwards_trend: Sleek is a modern Jekyll theme focused on speed performance & SEO best practices'
-stale: false
+stale: true
 ---

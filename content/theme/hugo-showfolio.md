@@ -1,20 +1,21 @@
 ---
-title: "ShowFolio"
+title: ShowFolio
 github: https://github.com/apvarun/showfolio-hugo-theme
 demo: https://showfolio.vercel.app/
 author: Varun A P
-date: 2021-04-26
+date: 2021-04-26T00:00:00.000Z
 ssg:
   - Hugo
 cms:
   - No CMS
 css:
-  - Tailwind 
+  - Tailwind
 archetype:
   - Blog
   - Portfolio
   - Personal
 description: Modern portfolio theme for your Hugo site
+stale: false
 ---
 
 # ShowFolio is a modern portfolio theme for your Hugo site.

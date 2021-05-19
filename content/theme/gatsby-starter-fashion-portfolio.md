@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-07-19T17:57:04.000Z
 description: A Gatsby starter for a professional and minimal fashion portfolio.
-stale: true
+stale: false
 ---

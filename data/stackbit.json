@@ -303,6 +303,10 @@
     "theme_key": "appernetic-hugo-nederburg-theme",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/appernetic/hugo-nederburg-theme&ssg=hugo"
   },
+  "apvarun-showfolio-hugo-theme": {
+    "theme_key": "apvarun-showfolio-hugo-theme",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/apvarun/showfolio-hugo-theme&ssg=hugo"
+  },
   "arhen-hugo-cereus-pro-theme": {
     "theme_key": "arhen-hugo-cereus-pro-theme",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/arhen/hugo-cereus-pro-theme&ssg=hugo"
@@ -498,6 +502,18 @@
   "bradykondek-streamer": {
     "theme_key": "bradykondek-streamer",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/bradykondek/streamer&ssg=jekyll"
+  },
+  "brennanbrown-enjoyment-work": {
+    "theme_key": "brennanbrown-enjoyment-work",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/brennanbrown/enjoyment-work&ssg=jekyll"
+  },
+  "brennanbrown-purelog": {
+    "theme_key": "brennanbrown-purelog",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/brennanbrown/purelog&ssg=jekyll"
+  },
+  "brennanbrown-watery": {
+    "theme_key": "brennanbrown-watery",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/brennanbrown/watery&ssg=jekyll"
   },
   "brianmaierjr-long-haul": {
     "theme_key": "brianmaierjr-long-haul",
@@ -1510,6 +1526,10 @@
   "jeffreytse-jekyll-theme-yat": {
     "theme_key": "jeffreytse-jekyll-theme-yat",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jeffreytse/jekyll-theme-yat&ssg=jekyll"
+  },
+  "jekyll-one-j1-template-starter": {
+    "theme_key": "jekyll-one-j1-template-starter",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jekyll-one/j1-template-starter&ssg=jekyll"
   },
   "jekyller-jasper2": {
     "theme_key": "jekyller-jasper2",
@@ -3199,6 +3219,10 @@
     "theme_key": "track3-hermit",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Track3/hermit&ssg=hugo"
   },
+  "ttntm-hugo-landing-page": {
+    "theme_key": "ttntm-hugo-landing-page",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ttntm/hugo-landing-page&ssg=hugo"
+  },
   "ttskch-jekyll-ttskch-theme": {
     "theme_key": "ttskch-jekyll-ttskch-theme",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ttskch/jekyll-ttskch-theme&ssg=jekyll"
@@ -3290,6 +3314,10 @@
   "vietanhdev-benice17": {
     "theme_key": "vietanhdev-benice17",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/vietanhdev/beNice17&ssg=jekyll"
+  },
+  "vietanhdev-hugo-curious": {
+    "theme_key": "vietanhdev-hugo-curious",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/vietanhdev/hugo-curious&ssg=hugo"
   },
   "vimux-binario": {
     "theme_key": "vimux-binario",
@@ -3510,6 +3538,14 @@
   "zhouyuexie-gatsby-starter-quiet": {
     "theme_key": "zhouyuexie-gatsby-starter-quiet",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/zhouyuexie/gatsby-starter-quiet&ssg=gatsby"
+  },
+  "zivhub-jekyll-theme-hamilton": {
+    "theme_key": "zivhub-jekyll-theme-hamilton",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/zivhub/jekyll-theme-hamilton&ssg=jekyll"
+  },
+  "zivong-jekyll-theme-hydure": {
+    "theme_key": "zivong-jekyll-theme-hydure",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/zivong/jekyll-theme-hydure&ssg=jekyll"
   },
   "zwbetz-gh-cayman-hugo-theme": {
     "theme_key": "zwbetz-gh-cayman-hugo-theme",

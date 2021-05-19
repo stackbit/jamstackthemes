@@ -14,7 +14,8 @@ archetype:
   - Business
   - Multi Purpose
 description: >-
-  The fastest way to export your Wordpress(v5.7& Neve theme v2.10.2) site as a static site.
+  The fastest way to export your Wordpress(v5.7& Neve theme v2.10.2) site as a
+  static site.
 stale: false
 ---
 

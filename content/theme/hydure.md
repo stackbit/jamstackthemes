@@ -3,7 +3,7 @@ title: Hydure"
 github: https://github.com/zivong/jekyll-theme-hydure
 demo: https://zivong.blog/jekyll-theme-hydure/
 author: Song-Zi Vong
-date: 2021-04-29
+date: 2021-04-29T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
@@ -12,6 +12,7 @@ archetype:
   - Blog
   - Homepage
 description: A concise two-column blog theme for Jekyll.
+stale: false
 ---
 
 Hydure is a concise two-column blog theme for Jekyll. It is built on the [Pure.css](https://github.com/pure-css/pure) framework.

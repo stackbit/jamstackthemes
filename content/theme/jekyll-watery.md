@@ -1,16 +1,20 @@
 ---
-title: "Watery"
+title: Watery
 github: https://github.com/brennanbrown/watery
 demo: https://watery.netlify.app
 author: brennanbrown
-date: 2021-05-04
+date: 2021-05-04T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
   - No CMS
 archetype:
   - Blog
-description: A minimalist, bare-bones theme for Jekyll only using the Water.css framework while still following the best practices for accessibility and search-engine optimization. 
+description: >-
+  A minimalist, bare-bones theme for Jekyll only using the Water.css framework
+  while still following the best practices for accessibility and search-engine
+  optimization.
+stale: false
 ---
 
 # Watery Theme for Jekyll

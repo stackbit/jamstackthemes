@@ -1,9 +1,9 @@
 ---
-title: "Enjoyment Work"
+title: Enjoyment Work
 github: https://github.com/brennanbrown/enjoyment-work
 demo: https://enjoyment-work.netlify.app
 author: brennanbrown
-date: 2021-05-04
+date: 2021-05-04T00:00:00.000Z
 ssg:
   - Jekyll
 css:
@@ -12,7 +12,11 @@ cms:
   - No CMS
 archetype:
   - Blog
-description: "A Digital Garden: Capturing my daily thoughts and progress, as well as curated ideas with unique synthesis—a personal zettelkasten. Built on Simply Jekyll by Raghuveer S."
+description: >-
+  A Digital Garden: Capturing my daily thoughts and progress, as well as curated
+  ideas with unique synthesis—a personal zettelkasten. Built on Simply Jekyll by
+  Raghuveer S.
+stale: false
 ---
 
 ## Enjoyment Work theme for Jekyll

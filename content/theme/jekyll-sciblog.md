@@ -10,4 +10,6 @@ cms:
 date: 2016-02-10T04:25:25.000Z
 description: Sci Blog jekyll theme
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

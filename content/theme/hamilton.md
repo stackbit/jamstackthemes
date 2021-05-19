@@ -14,6 +14,8 @@ archetype:
   - Blog
 description: A minimal and beautiful Jekyll theme best for writing and note-taking.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
 
 # Hamilton

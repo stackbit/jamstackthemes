@@ -1,62 +1,32 @@
 [
   {
-    "theme_key": "szivong-pole",
-    "file": "pole.md",
-    "repoUrl": "https://github.com/szivong/pole",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "sziv2p-jekyll-theme-scaffold",
-    "file": "scaffold.md",
-    "repoUrl": "https://github.com/sziv2p/jekyll-theme-scaffold",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "themefisher-airspace-hugo",
-    "file": "airspace-hugo.md",
-    "repoUrl": "https://github.com/themefisher/airspace-hugo",
+    "theme_key": "lgcolella-gatsby-starter-developer-blog",
+    "file": "gatsby-starter-developer-blog.md",
+    "repoUrl": "https://github.com/lgcolella/gatsby-starter-developer-blog",
     "error": "demo url not found"
   },
   {
-    "theme_key": "ngzhio-jekyll-theme-hamilton",
+    "theme_key": "zivhub-jekyll-theme-hamilton",
     "file": "hamilton.md",
-    "repoUrl": "https://github.com/ngzhio/jekyll-theme-hamilton",
+    "repoUrl": "https://github.com/zivhub/jekyll-theme-hamilton",
     "error": "demo url not found"
   },
   {
-    "theme_key": "dashdashzako-paperback",
-    "file": "hugo-paperback.md",
-    "repoUrl": "https://github.com/dashdashzako/paperback",
+    "theme_key": "airrayagroupwebdesign-sciblog",
+    "file": "jekyll-sciblog.md",
+    "repoUrl": "https://github.com/airrayagroupwebdesign/sciblog",
     "error": "demo url not found"
   },
   {
-    "theme_key": "orderedlist-minimal",
-    "file": "jekyll-minimal.md",
-    "repoUrl": "https://github.com/orderedlist/minimal",
+    "theme_key": "nakorndev-vuepress-theme-bulma",
+    "file": "vuepress-theme-bulma.md",
+    "repoUrl": "https://github.com/nakorndev/vuepress-theme-bulma",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "t413-singlepaged",
+    "file": "jekyll-singlepaged.md",
+    "repoUrl": "https://github.com/t413/SinglePaged",
     "error": "error checking demo url"
-  },
-  {
-    "theme_key": "orderedlist-modernist",
-    "file": "jekyll-modernist.md",
-    "repoUrl": "https://github.com/orderedlist/modernist",
-    "error": "error checking demo url"
-  },
-  {
-    "theme_key": "vietanhdev-benice17",
-    "file": "jekyll-beNice17.md",
-    "repoUrl": "https://github.com/vietanhdev/beNice17",
-    "error": "demo url not found"
-  },
-  {
-    "theme_key": "szivong-pole",
-    "file": "pole.md",
-    "repoUrl": "https://github.com/szivong/pole",
-    "error": "demo url not found"
-  },
-  {
-    "theme_key": "sziv2p-jekyll-theme-scaffold",
-    "file": "scaffold.md",
-    "repoUrl": "https://github.com/sziv2p/jekyll-theme-scaffold",
-    "error": "demo url not found"
   }
 ]

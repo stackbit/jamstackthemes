@@ -1,16 +1,19 @@
 ---
-title: "Purelog"
+title: Purelog
 github: https://github.com/brennanbrown/purelog
 demo: https://purelog.netlify.app
 author: brennanbrown
-date: 2021-05-04
+date: 2021-05-04T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
   - No CMS
 archetype:
   - Blog
-description: A responsive sidebar Jekyll theme using the Pure.css framework, designed for writers and bloggers of all kinds.  
+description: >-
+  A responsive sidebar Jekyll theme using the Pure.css framework, designed for
+  writers and bloggers of all kinds.
+stale: false
 ---
 
 # Purelog Theme for Jekyll

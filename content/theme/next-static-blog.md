@@ -19,6 +19,7 @@ description: >-
   A statically generated blog built on the React framework Next.js. Uses
   Tailwind CSS on the frontend, powered by the Cosmic headless CMS.
 stale: false
+disabled: true
 disabled_reason: github repo is not a top level repo
 ---
 
