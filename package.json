@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "build": "node ./scripts/build.js && hugo",
-    "deploy": "node ./scripts/build.js --latest && hugo",
+    "build": "node ./scripts/build.js && hugo --minify",
+    "deploy": "node ./scripts/build.js --latest && hugo --minify",
     "deploy:branch": "npm run deploy && echo 'User-agent: *\nDisallow: /' > public/robots.txt"
   },
   "dependencies": {
