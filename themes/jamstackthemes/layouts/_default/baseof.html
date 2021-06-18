@@ -42,6 +42,8 @@
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end }}
 
+  {{ partial "segment.html" . }}
+
 </head>
 
 <body id="{{ block "body_id" . }}{{ end }}" class="page {{ block "body_classes" . }}{{ end }}">
@@ -57,7 +59,7 @@
     {{ partial "footer.html" . }}
   {{ end }}
 
-  {{ partial "segment.html" . }}
+
 
   {{ block "footer_js" . }}{{ end }}
 

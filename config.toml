@@ -10,7 +10,6 @@ pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 
 [params]
-  google_analytics_id = ""
   description = "Over 1000 themes and starters for Jamstack and static site generators."
   stackbit_button = true
   iframe_demo = true
@@ -31,6 +30,7 @@ pygmentsUseClasses = true
     mediaType = "text/html"
     isHTML = "true"
     path = "demo"
+    permalinkable = "true"
 
 [outputs]
   home = ["HTML","RSS","JSON"]
