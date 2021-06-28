@@ -1,0 +1,117 @@
+{
+  "beamsies-gatsby-starter-auth-aws-amplify": {
+    "theme_key": "ben-siewert-gatsby-starter-auth-aws-amplify",
+    "file": "gatsby-starter-auth-aws-amplify.md",
+    "name": "gatsby-starter-auth-aws-amplify",
+    "title": "Gatsby Auth Aws Amplify",
+    "github_username": "beamsies",
+    "repo": "beamsies/gatsby-starter-auth-aws-amplify",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/beamsies/gatsby-starter-auth-aws-amplify",
+    "demo_url": "https://authenticaysh.netlify.com/",
+    "stars": 34,
+    "forks": 11,
+    "open_issues": 1,
+    "last_commit": "2020-12-28T04:35:34Z",
+    "created_at": "2019-08-06T01:31:05Z",
+    "description": "A full-featured AWS Amplify Auth starter made with GatsbyJS",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/ben-siewert-gatsby-starter-auth-aws-amplify.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/ben-siewert-gatsby-starter-auth-aws-amplify.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/ben-siewert-gatsby-starter-auth-aws-amplify-2x.jpg"
+    }
+  },
+  "portfolio-central-jekyll-instagram-portfolio-theme": {
+    "theme_key": "portfolio-central-jekyll-instagram-portfolio-theme",
+    "file": "jekyll-instagram-portfolio-theme.md",
+    "name": "jekyll-instagram-portfolio-theme",
+    "title": "Instagram portfolio theme",
+    "github_username": "portfolio-central",
+    "repo": "portfolio-central/jekyll-instagram-portfolio-theme",
+    "branch": "gh-pages",
+    "default_branch": "gh-pages",
+    "github_url": "https://github.com/portfolio-central/jekyll-instagram-portfolio-theme",
+    "demo_url": "https://portfolio-central.github.io/jekyll-instagram-portfolio-theme/",
+    "stars": 62,
+    "forks": 137,
+    "open_issues": 4,
+    "last_commit": "2017-02-14T18:41:55Z",
+    "created_at": "2016-09-01T14:41:11Z",
+    "description": "Jekyll Instagram Portfolio Theme",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/portfolio-central-jekyll-instagram-portfolio-theme.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/portfolio-central-jekyll-instagram-portfolio-theme.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/portfolio-central-jekyll-instagram-portfolio-theme-2x.jpg"
+    }
+  },
+  "siegerts-hugo-theme-basic": {
+    "theme_key": "siegerts-hugo-theme-basic",
+    "file": "hugo-theme-basic.md",
+    "name": "hugo-theme-basic",
+    "title": "Basic",
+    "github_username": "siegerts",
+    "repo": "siegerts/hugo-theme-basic",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/siegerts/hugo-theme-basic",
+    "demo_url": "https://hugo-theme-basic.netlify.com/",
+    "stars": 88,
+    "forks": 39,
+    "open_issues": 1,
+    "last_commit": "2020-05-21T13:15:47Z",
+    "created_at": "2019-02-01T18:42:50Z",
+    "description": "Basic site theme styled with minimal tachyons, syntax highlighting, and blog series configuration. 📦",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/siegerts-hugo-theme-basic.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/siegerts-hugo-theme-basic.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/siegerts-hugo-theme-basic-2x.jpg"
+    }
+  },
+  "snipcart-11ty-demo-snipcart": {
+    "theme_key": "snipcart-11ty-demo-snipcart",
+    "file": "bad-branch.md",
+    "name": "11ty-demo-snipcart",
+    "title": "Eleventy 2 Snipcart",
+    "github_username": "snipcart",
+    "repo": "snipcart/11ty-demo-snipcart",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/snipcart/11ty-demo-snipcart",
+    "demo_url": "https://snipcart-11ty-demo.netlify.com/",
+    "stars": 25,
+    "forks": 3,
+    "open_issues": 0,
+    "last_commit": "2019-02-25T21:31:29Z",
+    "created_at": "2018-10-03T18:24:48Z",
+    "description": "A demo app built with JavaScript SSG 11ty",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/snipcart-11ty-demo-snipcart.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/snipcart-11ty-demo-snipcart.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/snipcart-11ty-demo-snipcart-2x.jpg"
+    }
+  },
+  "wowthemesnet-affiliates-jekyll-theme": {
+    "theme_key": "wowthemesnet-affiliates-jekyll-theme",
+    "file": "affiliates-jekyll-theme.md",
+    "name": "affiliates-jekyll-theme",
+    "title": "Affiliates Jekyll",
+    "github_username": "wowthemesnet",
+    "repo": "wowthemesnet/affiliates-jekyll-theme",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/wowthemesnet/affiliates-jekyll-theme",
+    "demo_url": "https://wowthemesnet.github.io/affiliates-jekyll-theme/",
+    "stars": 144,
+    "forks": 198,
+    "open_issues": 4,
+    "last_commit": "2020-03-02T14:43:37Z",
+    "created_at": "2018-02-01T16:37:57Z",
+    "description": "Affiliates - Jekyll Blogging Theme for Affiliate Marketers",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/wowthemesnet-affiliates-jekyll-theme.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/wowthemesnet-affiliates-jekyll-theme.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/wowthemesnet-affiliates-jekyll-theme-2x.jpg"
+    }
+  }
+}

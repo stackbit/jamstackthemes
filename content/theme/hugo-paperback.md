@@ -1,14 +1,15 @@
 ---
 title: Paperback
-github: 'https://github.com/dashdashzako/paperback'
-demo: 'https://dashdashzako.github.io/paperback-demo/'
+github: https://github.com/dashdashzako/paperback
+demo: https://dashdashzako.github.io/paperback-demo/
 author: Damien Caselli
 ssg:
   - Hugo
 cms:
   - No Cms
 date: 2016-08-09T13:58:20.000Z
-github_branch: master
 description: Theme for Hugo static website engine
-stale: true
+stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

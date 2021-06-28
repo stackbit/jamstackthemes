@@ -1,10 +1,9 @@
 ---
 title: Gatsby Kontent Lumen
-github: 'https://github.com/Kentico/gatsby-starter-kontent-lumen'
-demo: 'https://gatsby-starter-kontent-lumen.netlify.app/'
+github: https://github.com/Kentico/gatsby-starter-kontent-lumen
+demo: https://gatsby-starter-kontent-lumen.netlify.app/
 author: makma
 date: 2020-04-30T00:00:00.000Z
-github_branch: master
 ssg:
   - Gatsby
 cms:

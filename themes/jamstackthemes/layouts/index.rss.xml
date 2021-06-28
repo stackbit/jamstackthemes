@@ -25,7 +25,7 @@
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
 
-      {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
+       {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
       {{ $repo := index .Site.Data.themes $repoName }}
 
       {{ $imageUrl := "https://jamstackthemes.dev/images/default.png" }}

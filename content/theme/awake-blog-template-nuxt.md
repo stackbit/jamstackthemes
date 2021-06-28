@@ -1,8 +1,8 @@
 ---
 title: Awake Nuxt Blog
-github: 'https://github.com/danielkellyio/awake-template'
+github: https://github.com/danielkellyio/awake-template
 author: danielkellyio
-demo: 'https://awake-template.netlify.com/'
+demo: https://awake-template.netlify.com/
 date: 2020-06-03T00:00:00.000Z
 ssg:
   - Nuxt
@@ -13,7 +13,6 @@ archetype:
 description: >-
   Awake is a Nuxt.js template for generating a beautifully robust static site
   with blog
-github_branch: master
 stale: false
 ---
 

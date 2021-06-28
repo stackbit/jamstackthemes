@@ -1,7 +1,7 @@
 ---
-title: Dumbarton 
-github: 'https://github.com/tcbutler320/Jekyll-Theme-Dumbarton'
-demo: 'https://dumbarton.netlify.app/index.html'
+title: Dumbarton
+github: https://github.com/tcbutler320/Jekyll-Theme-Dumbarton
+demo: https://dumbarton.netlify.app/index.html
 author: Tyler Butler
 ssg:
   - Jekyll
@@ -12,10 +12,9 @@ css:
 archetype:
   - Blog
   - Portfolio
-date: 2020-11-01T09:36:30.000Z
-github_branch: master
+date: 2020-10-30T00:00:00.000Z
 description: A Jekyll theme designed for academics, powered by Bootstrap
-stale: true
+stale: false
 ---
 
 # About 

@@ -1,10 +1,9 @@
 ---
 title: Intro.
-github: 'https://github.com/wkocjan/gatsby-theme-intro'
-demo: 'https://weeby.studio/intro/preview'
+github: https://github.com/wkocjan/gatsby-theme-intro
+demo: https://weeby.studio/intro/preview
 author: Wojciech Kocjan
 date: 2020-04-23T00:00:00.000Z
-github_branch: master
 ssg:
   - Gatsby
 cms:
@@ -19,6 +18,7 @@ services:
   - Formspree
 description: Personal branding theme for developers
 stale: false
+weight: 14
 ---
 
 # Intro - Personal branding theme for developers

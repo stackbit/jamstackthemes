@@ -1,10 +1,9 @@
 ---
 title: RG Portfolio
-github: 'https://github.com/rohitguptab/rg-portfolio'
-demo: 'https://rg-portfolio.netlify.com'
+github: https://github.com/rohitguptab/rg-portfolio
+demo: https://rg-portfolio.netlify.com
 author: Rohit Gupta
 date: 2020-04-10T00:00:00.000Z
-github_branch: master
 ssg:
   - Gatsby
 cms:
@@ -19,6 +18,7 @@ description: >-
   Kick-off your Portfolio website with RG-Portfolio gatsby starter. We have used
   Gatsby + Contenful.
 stale: false
+weight: 12
 ---
 
 # A simple starter kit for Gatsby

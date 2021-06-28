@@ -1,10 +1,9 @@
 ---
 title: jekyll-rtd-theme
-github: 'https://github.com/rundocs/jekyll-rtd-theme'
-demo: 'https://rundocs.github.io/jekyll-rtd-theme/'
+github: https://github.com/rundocs/jekyll-rtd-theme
+demo: https://rundocs.github.io/jekyll-rtd-theme/
 author: RunDocs
 date: 2020-07-25T00:00:00.000Z
-github_branch: master
 ssg:
   - Jekyll
 cms:

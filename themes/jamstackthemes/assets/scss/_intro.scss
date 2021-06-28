@@ -1,57 +1,97 @@
 .intro {
-  display: flex;
-  flex-direction: column;
-  @include breakpoint('small') {
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    margin-bottom: 20px;
-  }
-  h1 {
-    font-size: 24px;
-    font-weight: 400;
+  .intro-heading {
     margin-bottom: 10px;
-    @include breakpoint('small') {
-      margin-right: 20px;
-      font-size: 40px;
-      margin-bottom: 0px;
-    }
-  }
-  h2 {
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 400;
-    @include breakpoint('small') {
-      font-size: 16px;
-    }
-  }
-  p {
-    line-height: 20px;
-    margin: 0;
   }
   .intro-icon {
-    padding: 10px;
-    border: 1px solid $grey;
-    border-radius: 3px;
-    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
     img {
       display: inline-block;
       vertical-align: bottom;
+      width: 24px;
+      @include media-breakpoint-up(sm) {
+        width: 28px;
+      }
+      @include media-breakpoint-up(md) {
+        width: 36px;
+      }
+      @include media-breakpoint-up(xl) {
+        width: 46px;
+      }
     }
   }
-}
-
-.byline {
-  p {
-    font-size: 15px;
-    line-height: 23px;
-    @include breakpoint('small') {
+  .intro-title {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0;
+    @include media-breakpoint-up(sm) {
+      font-size: 28px;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 36px;
+    }
+    @include media-breakpoint-up(xl) {
+      font-size: 46px;
+    }
+  }
+  .intro-description {
+    @include media-breakpoint-up(md) {
       font-size: 18px;
-      line-height: 26px;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 20px;
+      width: 85%;
     }
   }
-  a {
-    color: $primary;
+  .intro-backlink {
+    display: none;
+    margin-top: 6px;
+    padding: 4px 10px;
+    border: 1px solid $grey;
+    border-radius: 3px;
+    @include media-breakpoint-up(md) {
+      margin-left: auto;
+      display: block;
+    }
+    a {
+      color: $primary;
+      padding: 8px;
+      &:first-of-type {
+        padding-left: 0;
+      }
+    }
   }
+  .intro-bar {
+    display: flex;
+    align-items: center;
+  }
+  .intro-hint {
+    font-size: 14px;
+    padding: 11px;
+    background: aliceblue;
+    border-radius: 2px;
+    color: #647f96;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p { margin: 0;}
+    .button {
+      color: #647f96;
+      border-color: #647f96;
+      margin: 0;
+    }
+    strong {
 
+    }
+  }
+  .count {
+    color: lighten($steel, 20%);
+    font-weight: 400;
+  }
+  .page-number {
+    font-weight: 400;
+  }
 }

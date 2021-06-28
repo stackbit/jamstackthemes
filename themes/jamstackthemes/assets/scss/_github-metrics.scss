@@ -1,0 +1,30 @@
+.github-metrics {
+  display: inline-flex;
+  align-content: center;
+  align-items: flex-start;
+  border-radius: 3px;
+  margin: 0px -9px 10px -9px;
+  div {
+    border-right: 1px solid $grey;
+    padding: 7px 9px;
+    line-height: 1;
+    display: flex;
+    align-content: center;
+    &:last-of-type {
+      border-right: none;
+    }
+    img, svg {
+      opacity: 0.7;
+      width: 15px;
+      height: 15px;
+      margin-right: 4px;
+      path {
+        fill: $carbon;
+      }
+    }
+    span {
+      margin: 0;
+      line-height: 16px;
+    }
+  }
+}

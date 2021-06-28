@@ -1,8 +1,8 @@
 ---
 title: BigCommerce Gatsby Starter Netlify CMS
-github: 'https://github.com/bigcommerce/gatsby-bigcommerce-netlify-cms-starter'
+github: https://github.com/bigcommerce/gatsby-bigcommerce-netlify-cms-starter
 author: bigcommerce
-demo: 'https://affectionate-goldwasser-30230c.netlify.com/'
+demo: https://affectionate-goldwasser-30230c.netlify.com/
 date: 2020-06-03T00:00:00.000Z
 ssg:
   - Gatsby
@@ -13,7 +13,6 @@ archetype:
 description: >-
   Example Gatsby, BigCommerce and Netlify CMS project meant to jump start
   Jamstack ecommerce sites.
-github_branch: master
 stale: false
 ---
 

@@ -1,0 +1,53 @@
+.button {
+  border-radius: 3px;
+  color: $primary;
+  outline: none;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  background: none;
+  border: 1px solid $primary;
+  margin-bottom: 5px;
+  &:hover {
+    border-color: $primary;
+    opacity: 0.8;
+  }
+  &:focus {
+    outline: none;
+  }
+  &.selected,
+  &.mixitup-control-active {
+    background: $primary;
+    color: white;
+  }
+}
+
+.sort-buttons {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  @include media-breakpoint-up(sm) {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .sort-by {
+    display: none;
+    margin-right: 5px;
+    color: #666;
+    @include media-breakpoint-up(sm) {
+      margin-bottom: 0;
+    }
+  }
+  button {
+    font-size: 14px;
+    flex-grow: 1;
+    @include media-breakpoint-up(sm) {
+      font-size: 16px;
+    }
+    @include media-breakpoint-up(lg) {
+      flex-grow: 0;
+    }
+  }
+}

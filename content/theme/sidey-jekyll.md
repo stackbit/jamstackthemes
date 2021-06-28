@@ -1,10 +1,9 @@
 ---
 title: Sidey
-github: 'https://github.com/ronv/sidey'
-demo: 'https://sidey-jekyll.netlify.com/'
+github: https://github.com/ronv/sidey
+demo: https://sidey-jekyll.netlify.com/
 author: Ronalds Vilcins
 date: 2020-02-03T00:00:00.000Z
-github_branch: master
 ssg:
   - Jekyll
 archetype:

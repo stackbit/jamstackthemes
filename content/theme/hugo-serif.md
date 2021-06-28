@@ -1,23 +1,19 @@
 ---
 title: Hugo Serif
-github: 'https://github.com/zerostaticthemes/hugo-serif-theme'
-demo: 'https://hugo-serif.netlify.app'
+github: https://github.com/zerostaticthemes/hugo-serif-theme
+demo: https://hugo-serif.netlify.app
 author: Robert Austin
 ssg:
   - Hugo
 cms:
-  - DatoCMS
-  - Contentful
-  - NetlifyCMS
-  - Forestry
-  - Sanity
+  - No Cms
 date: 2020-10-12T00:00:00.000Z
-github_branch: master
 description: >-
   Serif is a modern business theme for Hugo. It contains content types for the
   archetypical business website. The theme is fully responsive, blazing fast and
   artfully illustrated.
 stale: false
+weight: 11
 ---
 
 # Deployment

@@ -1,10 +1,9 @@
 ---
 title: Jekyll Klisé
-github: 'https://github.com/piharpi/jekyll-klise'
-demo: 'https://klise.now.sh'
+github: https://github.com/piharpi/jekyll-klise
+demo: https://klise.now.sh
 author: piharpi
 date: 2020-04-06T00:00:00.000Z
-github_branch: master
 ssg:
   - Jekyll
 cms:
@@ -14,7 +13,9 @@ css:
 archetype:
   - Blog
   - Personal
-description: "\U0001F3D6  Klisé is a minimalist Jekyll theme for running a personal site or blog, light & dark mode support."
+description: >-
+  Klisé is a minimalist Jekyll theme for running a personal site or blog, light
+  & dark mode support.
 stale: false
 ---
 

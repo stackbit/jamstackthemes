@@ -1,15 +1,14 @@
 ---
-title: "Gridsome Airtable Starter"
+title: Gridsome Airtable Starter
 github: https://github.com/12vanblart/gridsome-airtable-starter
 demo: https://gridsomeairtable.netlify.com/
 author: Tyler VanBlargan
-date: 2019-12-18
-github_branch: master
+date: 2019-12-18T00:00:00.000Z
 ssg:
   - Gridsome
 cms:
   - Airtable
-description: "A Gridsome starter leveraging Airtable with a minimalist design. "
+description: 'A Gridsome starter leveraging Airtable with a minimalist design. '
 stale: false
 ---
 
@@ -29,7 +28,7 @@ This starter is meant to act as a starting point/example for connecting [Gridsom
 
 1. `gridsome create my-gridsome-site https://github.com/12vanblart/gridsome-airtable-starter.git` to install this starter
 2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
+3. `gridsome develop` to start a local dev server at `https://localhost:8080`
 4. Happy coding 🎉💻
 
 ## Configure your Airtable connection

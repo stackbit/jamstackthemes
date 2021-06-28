@@ -1,14 +1,13 @@
 ---
 title: Mediumish
-github: 'https://github.com/wowthemesnet/mediumish-vuepress-blog-theme'
-demo: 'https://wowthemesnet.github.io/vuepress-theme-mediumish/'
+github: https://github.com/wowthemesnet/mediumish-vuepress-blog-theme
+demo: https://wowthemesnet.github.io/vuepress-theme-mediumish/
 author: wowthemesnet
 ssg:
   - Vuepress
 cms:
   - No Cms
 date: 2020-04-08T17:50:17.000Z
-github_branch: master
 description: ':mediumish: A blog theme for Vuepress'
 stale: false
 ---

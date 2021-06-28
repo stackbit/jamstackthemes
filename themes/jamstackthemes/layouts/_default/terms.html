@@ -1,21 +1,26 @@
-{{ define "meta_tags" }}
-<meta name="description" content="{{.Title}} for JAMstack Sites." />
+{{ define "meta_description" }}
+<meta name="description" content="{{ .Title }} for Jamstack Sites." />
 {{ end }}
 
 {{ define "main" }}
 {{ $themeCount := len .Pages }}
-
-<div class="main">
-  <div class="hero">
-    <div class="heading">
-      <h1 class="heading-title">{{.Title}} <span class="count">({{ $themeCount }})</span></h1>
+<div class="wrapper">
+    <div class="main">
+        <div class="container">
+            <div class="intro">
+                <div class="intro-heading">
+                    <h1 class="intro-title">{{.Title}} Themes <span class="count">({{ $themeCount }})</span></h1>
+                </div>
+                <div class="intro-bar">
+                    <div class="intro-breadcrumbs">{{ partial "breadcrumbs.html" . }}</div>
+                </div>
+            </div>
+            <div class="terms mt-2">
+                {{ range .Pages }}
+                    {{ partial "term-card.html" (dict "term" .) }}
+                {{ end }}
+            </div>
+        </div>
     </div>
-  </div>
-  {{ partial "breadcrumbs.html" . }}
-  <div class="terms">
-      {{ range .Pages }}
-      {{ partial "term-card.html" (dict "term" .) }}
-      {{ end }}
-  </div>
 </div>
 {{ end }}

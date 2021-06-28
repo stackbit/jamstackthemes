@@ -1,7 +1,7 @@
 ---
 title: Retro Yellow
-github: 'https://github.com/sharadcodes/jekyll-theme-retro-yellow'
-demo: 'https://sharadcodes.github.io/jekyll-theme-retro-yellow/'
+github: https://github.com/sharadcodes/jekyll-theme-retro-yellow
+demo: https://sharadcodes.github.io/jekyll-theme-retro-yellow/
 author: Sharad Raj Singh Maurya
 ssg:
   - Jekyll
@@ -10,7 +10,6 @@ cms:
 category:
   - Blog
 date: 2020-01-04T00:00:00.000Z
-github_branch: master
 description: A Minimal Light theme for Jekyll with minimal CSS by Sharad Raj Singh Maurya
 stale: false
 ---

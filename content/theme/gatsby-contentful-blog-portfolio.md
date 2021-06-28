@@ -1,7 +1,7 @@
 ---
 title: Gatsby Contentful Blog and Portfolio
-github: 'https://github.com/escapemanuele/gatsby-contentful-blog-portfolio'
-demo: 'https://gatsby-contentful-portfolio-blog.netlify.com/'
+github: https://github.com/escapemanuele/gatsby-contentful-blog-portfolio
+demo: https://gatsby-contentful-portfolio-blog.netlify.com/
 author: Emanuele Buccelli
 ssg:
   - Gatsby
@@ -13,8 +13,7 @@ archetype:
   - Blog
   - Portfolio
 date: 2020-02-19T12:10:46.000Z
-github_branch: master
-description: 'A Gatsby starter for a portfolio with a blog, using Contentful as the CMS'
+description: A Gatsby starter for a portfolio with a blog, using Contentful as the CMS
 stale: false
 ---
 
@@ -66,7 +65,7 @@ stale: false
 
 5.  **Open the source code and start editing!**
 
-    Your site is now running at `http://localhost:8000`!
+    Your site is now running at `https://localhost:8000`!
 
     Feel free to change everything you want!
     

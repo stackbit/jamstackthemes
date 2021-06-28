@@ -1,10 +1,9 @@
 ---
 title: YAMT
-github: 'https://github.com/PandaSekh/Jekyll-YAMT'
-demo: 'https://yamt.netlify.app/'
+github: https://github.com/PandaSekh/Jekyll-YAMT
+demo: https://yamt.netlify.app/
 author: Alessio Franceschi
 date: 2020-05-21T00:00:00.000Z
-github_branch: master
 ssg:
   - Jekyll
 cms:
@@ -15,7 +14,7 @@ stale: false
 
 # YAMT - Yet Another Minimal Theme
 
-YAMT is a minimal [Jekyll](http://jekyllrb.com) theme focused on simplicity and ease-of-use. It has great modularity, allowing you to easily decide what you actually want on your website.  
+YAMT is a minimal [Jekyll](https://jekyllrb.com) theme focused on simplicity and ease-of-use. It has great modularity, allowing you to easily decide what you actually want on your website.  
 
 ## Features
 

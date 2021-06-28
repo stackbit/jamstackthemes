@@ -7,3 +7,11 @@
 
 [context.deploy-preview]
   command = "npm run deploy"
+
+[context.branch-deploy]
+  command = "npm run deploy:branch"
+
+[[headers]]
+  for = "/index.json"
+  [headers.values]
+  Access-Control-Allow-Origin = "*"

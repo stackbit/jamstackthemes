@@ -1,0 +1,26 @@
+.label {
+  text-transform: uppercase;
+  margin: 3px 0 3px 0;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  @include media-breakpoint-up(lg) {
+    font-size: 14px;
+  }
+  .label-key {
+    display: inline-block;
+    margin-right: 4px;
+    color: $steel;
+  }
+  .label-icon {
+    margin-right: 2px;
+    svg, img {
+      height: 14px;
+      width: 14px;
+    }
+  }
+  .label-value {
+    display: inline-block;
+    color: black;
+  }
+}

@@ -1,23 +1,18 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "JAMstack Themes"
+title = "Jamstack Themes"
 theme = "jamstackthemes"
-paginate = 30
+paginate = 18
 summaryLength = 10
-# enableGitInfo = true
-
+# enableGitInfo = false
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 
 [params]
-  google_analytics_id = ""
-  description = "A list of Themes and Starters for JAMstack Sites."
-  banner = false
-  banner_text = "Announcing the Stackbit Control Center for managing modern websites. 🤙👩🏼‍🎤🔥"
-  banner_link = "https://www.stackbit.com/control-center/"
-  banner_link_text = "Try It Now"
-  stackbit_button = false
+  description = "Over 1000 themes and starters for Jamstack and static site generators."
+  stackbit_button = true
+  iframe_demo = true
   [theme_card]
     show_archetype_icons = false
     show_services_icons = false
@@ -29,9 +24,18 @@ pygmentsUseClasses = true
   archetype = "archetype"
   services = "services"
 
+[outputFormats]
+  [outputFormats.demo]
+    name = "demo"
+    mediaType = "text/html"
+    isHTML = "true"
+    path = "demo"
+    permalinkable = "true"
+
 [outputs]
   home = ["HTML","RSS","JSON"]
   section = ["HTML","RSS"]
+  page = ["HTML", "demo"]
 
 [frontmatter]
   lastmod = [":git", "lastmod", ":fileModTime", ":default"]
@@ -44,6 +48,5 @@ pygmentsUseClasses = true
 
 [[menu.main]]
 	name = "All Themes"
-	url = "/themes/"
+	url = "/theme/"
     weight = 2
-

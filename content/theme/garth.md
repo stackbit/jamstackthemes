@@ -1,7 +1,7 @@
 ---
 title: Garth
-github: 'https://github.com/daviddarnes/garth'
-demo: 'https://garth.darn.es'
+github: https://github.com/daviddarnes/garth
+demo: https://garth.darn.es
 author: David Darnes
 ssg:
   - Jekyll
@@ -12,8 +12,7 @@ archetype:
 css:
   - SCSS
 date: 2019-11-01T00:00:00.000Z
-github_branch: master
-description: "\U0001F941 A really basic theme for Jekyll"
+description: 🥁 A really basic theme for Jekyll
 stale: false
 ---
 
@@ -79,4 +78,4 @@ There are 3 layouts; `page`, `post` and `home` (home acts as the font page blog)
 - Thanks to [Sassline](https://sassline.com/) for the typographic basis, by [Jake Giltsoff](https://twitter.com/jakegiltsoff)
 - Thanks to [Flexbox mixin](https://github.com/mastastealth/sass-flex-mixin) by [Brian Franco](https://twitter.com/brianfranco)
 - Thanks to [Normalize](https://necolas.github.io/normalize.css/) by [Nicolas Gallagher](https://twitter.com/necolas) and [Jonathan Neal](https://twitter.com/jon_neal).
-- Thanks to [pygments-css](http://richleland.github.io/pygments-css/) for the autumn syntax highlighting, by [Rich Leland](https://twitter.com/richleland)
+- Thanks to [pygments-css](https://richleland.github.io/pygments-css/) for the autumn syntax highlighting, by [Rich Leland](https://twitter.com/richleland)

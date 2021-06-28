@@ -1,10 +1,9 @@
 ---
 title: dark-poole
-github: 'https://github.com/andrewhwanpark/dark-poole'
-demo: 'https://andrewhwanpark.github.io/dark-poole/'
+github: https://github.com/andrewhwanpark/dark-poole
+demo: https://andrewhwanpark.github.io/dark-poole/
 author: andrewhwanpark
 date: 2020-08-03T00:00:00.000Z
-github_branch: master
 ssg:
   - Jekyll
 cms:
@@ -14,7 +13,6 @@ css:
 archetype:
   - Blog
   - Portfolio
-  - Personal site
 description: Dark Poole is a permanent dark theme of the Poole theme by @mdo.
 stale: false
 ---

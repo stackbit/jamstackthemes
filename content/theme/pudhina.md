@@ -1,10 +1,9 @@
 ---
 title: Pudhina
-github: 'https://github.com/knhash/Pudhina'
-demo: 'https://knhash.github.io/Pudhina/'
+github: https://github.com/knhash/Pudhina
+demo: https://knhash.github.io/Pudhina/
 author: Knhash
 date: 2020-09-12T00:00:00.000Z
-github_branch: master
 ssg:
   - Jekyll
 cms:

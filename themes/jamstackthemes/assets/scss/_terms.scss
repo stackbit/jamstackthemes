@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  @include breakpoint('small') {
+  @include media-breakpoint-up(sm) {
     margin-left: -10px;
     margin-right: -10px;
     justify-content: flex-start;
@@ -21,7 +21,7 @@
     transition: color 0.3s, box-shadow 0.3s, transform 0.3s;
     position: relative;
     z-index: 1;
-    @include breakpoint('small') {
+    @include media-breakpoint-up(sm) {
       flex: 0;
       min-width: 180px;
       margin: 10px;
@@ -33,16 +33,15 @@
     }
     .term-overlay {
       position: absolute;
-      top: 0; 
+      top: 0;
       left: 0;
-      height: 100%; 
+      height: 100%;
       width: 100%;
     }
     h2 {
       margin-top: 15px;
       margin-bottom: 0;
       font-weight: 400;
-      font-size: 20px;
       text-align: center;
       a {
         text-decoration: none;

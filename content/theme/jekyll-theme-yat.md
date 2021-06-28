@@ -1,10 +1,9 @@
 ---
 title: Yet Another Theme (YAT)
-github: 'https://github.com/jeffreytse/jekyll-theme-yat'
-demo: 'https://jeffreytse.github.io/jekyll-theme-yat/'
+github: https://github.com/jeffreytse/jekyll-theme-yat
+demo: https://jeffreytse.github.io/jekyll-theme-yat/
 author: Jeffrey Tse
 date: 2020-09-01T00:00:00.000Z
-github_branch: master
 ssg:
   - Jekyll
 cms:
@@ -13,7 +12,7 @@ archetype:
   - Blog
   - Business
   - Multi Purpose
-description: "\U0001F3A8 Yet another theme for elegant writers with modern flat style."
+description: 🎨 Yet another theme for elegant writers with modern flat style.
 stale: false
 ---
 

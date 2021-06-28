@@ -1,10 +1,9 @@
 ---
 title: Compose
-github: 'https://github.com/onweru/compose'
-demo: 'https://docs.neuralvibes.com'
+github: https://github.com/onweru/compose
+demo: https://docs.neuralvibes.com
 author: Weru
 date: 2020-02-22T18:24:48.000Z
-github_branch: master
 ssg:
   - Hugo
 cms:

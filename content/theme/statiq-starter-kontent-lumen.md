@@ -1,14 +1,13 @@
 ---
 title: Statiq Starter Kontent Lumen
-github: 'https://github.com/petrsvihlik/statiq-starter-kontent-lumen'
-demo: 'https://petrsvihlik.github.io/statiq-starter-kontent-lumen/'
+github: https://github.com/Kentico/statiq-starter-kontent-lumen
+demo: https://kentico.github.io/statiq-starter-kontent-lumen/
 author: Kentico
 ssg:
   - Statiq
 cms:
   - Kontent
 date: 2020-10-20T00:00:00.000Z
-github_branch: master
 archetype:
   - Blog
   - Portfolio

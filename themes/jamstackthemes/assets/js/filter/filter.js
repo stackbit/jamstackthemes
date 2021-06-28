@@ -1,5 +1,6 @@
 const pageId = document.querySelector('body').id;
-const sortOrder = pageId === "page-all-themes" ? "stars:desc" : null;
+// const sortOrder = pageId === "page-all-themes" ? "stars:desc" : null;
+const sortOrder = null;
 
 const mixer = mixitup('#grids-homepage', {
   multifilter: {
@@ -34,7 +35,6 @@ const mixer = mixitup('#grids-homepage', {
     onMixEnd: setHash
   }
 });
-
 
 function getTriggerGroup(event) {
   triggerGroup = null;

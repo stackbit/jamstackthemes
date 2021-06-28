@@ -1,0 +1,32 @@
+[
+  {
+    "theme_key": "lgcolella-gatsby-starter-developer-blog",
+    "file": "gatsby-starter-developer-blog.md",
+    "repoUrl": "https://github.com/lgcolella/gatsby-starter-developer-blog",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "zivhub-jekyll-theme-hamilton",
+    "file": "hamilton.md",
+    "repoUrl": "https://github.com/zivhub/jekyll-theme-hamilton",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "airrayagroupwebdesign-sciblog",
+    "file": "jekyll-sciblog.md",
+    "repoUrl": "https://github.com/airrayagroupwebdesign/sciblog",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "nakorndev-vuepress-theme-bulma",
+    "file": "vuepress-theme-bulma.md",
+    "repoUrl": "https://github.com/nakorndev/vuepress-theme-bulma",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "t413-singlepaged",
+    "file": "jekyll-singlepaged.md",
+    "repoUrl": "https://github.com/t413/SinglePaged",
+    "error": "error checking demo url"
+  }
+]

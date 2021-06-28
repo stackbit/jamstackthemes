@@ -1,0 +1,66 @@
+<div class="demo">
+  <div class="container">
+    <div class="logo d-none d-md-block">
+      <a href="/" title="Jamstack Themes">Jamstack Themes </a>
+    </div>
+
+    <div class="demo-heading">
+
+    </div>
+
+    <div class="theme-detail-tags">
+      {{ if .theme.Params.ssg }}
+      {{- range .theme.Params.ssg }}
+      {{- with .site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
+      {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.theme.Params.icon "link" .Page.Permalink) }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+
+      {{ if .theme.Params.cms }}
+      {{- range .Params.cms }}
+      {{- with $.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
+      {{ if eq .Page.Title "No CMS" }}
+      {{ else }}
+      {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+
+      {{ if .Params.css }}
+      {{- range .Params.css }}
+      {{- with $.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
+      {{ if eq .Page.Title "No css" }}
+      {{ else }}
+      {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+
+      {{ if .Params.archetype }}
+      {{- range .Params.archetype }}
+      {{- with $.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
+      {{ if eq .Page.Title "No archetype" }}
+      {{ else }}
+      {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="action-buttons">
+      <a class="action-button action-button-outline action-button-github" href="{{ .theme.Permalink }}">Theme Info</a>
+      <a class="action-button action-button-outline action-button-github d-none d-md-block" data-action="github" data-context="demo" data-name="{{ .theme.Title }}" href="{{ .theme.Params.github }}" target="_blank" rel="nofollow noopener">Github</a>
+      {{ if .site.Params.stackbit_button }}
+      {{ if .stackbit }}
+      {{ if .stackbit.createUrl }}
+      <a class="action-button action-button-fill action-button-stackbit d-none d-md-block" data-action="stackbit" data-context="demo" data-name="{{ .theme.Title }}" href="{{ .stackbit.createUrl }}&ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=detail" target="_blank" rel="noopener nofollow">Create Site</a>
+      {{ end }}
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</div>

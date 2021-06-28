@@ -1,15 +1,8 @@
 .footer {
-  border-top: 1px solid $grey;
-  padding: 30px 20px;
-  display: flex;
-  flex-direction: column;
-  @include breakpoint('small') {
-    flex-direction: row;
-    display: flex;
-  }
+  background: #fff;
   .footer-column {
     margin-bottom: 30px;
-    @include breakpoint('small') {
+    @include media-breakpoint-up(sm) {
       width: 235px;
       margin-right: 50px;
       margin-bottom: 0px;
@@ -19,7 +12,7 @@
     }
   }
   .footer-column-brand {
-    @include breakpoint('small') {
+    @include media-breakpoint-up(sm) {
       width: 235px;
     }
   }
@@ -46,7 +39,7 @@
     list-style: none;
     margin-right: 20px;
     li {
-      
+
       line-height: 18px;
       a {
         // color: darken($steel, 10%);

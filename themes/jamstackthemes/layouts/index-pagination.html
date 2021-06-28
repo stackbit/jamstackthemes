@@ -1,0 +1,57 @@
+{{ define "title" }}{{ $themes := (where .Site.RegularPages "Type" "theme") }}{{ $themes := (where $themes ".Params.draft" "!=" true) }}{{ $themes := (where $themes ".Params.stale" "!=" true) }}{{ $themes := (where $themes ".Params.disabled" "!=" "true") }}{{ $paginatorTitle := .Paginate $themes }}Jamstack Themes{{ if gt $paginatorTitle.PageNumber 1 }} | Page {{ $paginatorTitle.PageNumber }}{{ end }}{{ end }}
+{{ define "header_classes" }}{{ end }}
+{{ define "body_classes" }}page-home{{ end }}
+
+{{ define "meta_description" }}
+{{ $themes := (where .Site.RegularPages "Type" "theme") }}
+{{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themes := (where $themes ".Params.stale" "!=" true) }}
+{{ $themes := (where $themes ".Params.disabled" "!=" true) }}
+{{ $themeCount := len $themes}}
+<meta name="description" content="The most popular list of themes and starters for Jamstack sites. Over {{ $themeCount }} free static site generator themes for Hugo, Gatsby, Jekyll, Gridsome & more." />
+{{ end }}
+
+{{ define "main" }}
+{{ $themes := (where .Site.RegularPages "Type" "theme") }}
+{{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themes := (where $themes ".Params.stale" "!=" true) }}
+{{ $themes := (where $themes ".Params.disabled" "!=" "true") }}
+{{ $themeCount := len $themes}}
+
+{{ $paginator := .Paginate $themes }}
+
+<div class="wrapper">
+  <div class="main">
+    <div class="container">
+
+      <div class="intro">
+        <div class="intro-heading">
+          <h1 class="intro-title">New Themes <span class="page-number">{{ if gt $paginator.PageNumber 1 }} - Page {{ $paginator.PageNumber }}{{ end }}</span> <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
+        </div>
+        {{ if eq $paginator.PageNumber 1 }}
+        <div class="intro-description d-none d-md-block">
+          <p>A list of themes and starters for <a href="https://www.jamstack.wtf" target="_blank" rel="noopener">Jamstack</a> sites. We're the largest gallery of user submitted, open source themes for static site generators 🦖. This site is maintained by the community and with the kind support of <a href="https://www.stackbit.com/?ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=jamstackthemeswebsite&utm_content=blurb">Stackbit</a></p>
+          <div class="intro-hint">
+            <p>New themes are sorted by <strong>submission date</strong> with commits in the last 6 months.</p>
+            <a class="button" href="/theme">View All Themes</a>
+          </div>
+        </div>
+        <div class="intro-description d-md-none"><p>A list of themes and starters for <a href="https://www.jamstack.wtf" target="_blank" rel="noopener">Jamstack</a> sites. Want to filter and search? <a href="/theme">View all themes</a></p></div>
+        {{ end }}
+      </div>
+
+      <div id="grids-homepage" class="row mt-2">
+        {{ range $paginator.Pages }}
+           {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
+          {{ $repo := index .Site.Data.themes $repoName }}
+          {{ $stackbit := index .Site.Data.stackbit $repoName }}
+          {{ partial "theme-card.html" (dict "theme" . "repo" $repo "stackbit" $stackbit "site" $.Site) }}
+        {{ end }}
+      </div>
+
+      {{ partial "pagination.html" . }}
+
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -1,14 +1,13 @@
 ---
 title: What A Theme
-github: 'https://github.com/thedevslot/WhatATheme/'
-demo: 'https://thedevslot.github.io/WhatATheme/'
-author: 'Sneha Omer, Harsh Trivedi'
+github: https://github.com/thedevslot/WhatATheme/
+demo: https://thedevslot.github.io/WhatATheme/
+author: Sneha Omer, Harsh Trivedi
 date: 2020-08-22T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
   - No Cms
-github_branch: master
 archetype:
   - Blog
   - Portfolio

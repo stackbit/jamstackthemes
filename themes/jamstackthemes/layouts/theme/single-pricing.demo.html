@@ -1,0 +1,87 @@
+{{ define "title" }}{{ .Title }} - Demo{{ end }}
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-theme-single-demo{{ end }}
+
+{{ define "ogmeta" }}
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ .Permalink | absURL }}" />
+<meta property="og:description" content="{{ .Params.description }}" />
+ {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
+{{ $repo := index .Site.Data.themes $repoName }}
+{{ if $repo }}
+{{ $staticPath := (printf "%s/%s%s" "static/capture" $repo.theme_key ".png") }}
+{{ $filePath := (printf "%s/%s%s" "capture" $repo.theme_key ".png") }}
+{{ if (fileExists $staticPath) }}
+<meta property="og:image" content="{{ $filePath | absURL }}">
+{{ end }}
+{{ end }}
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@jamstackthemes" />
+<meta name="twitter:creator" content="@jamstackthemes" />
+{{end}}
+
+{{ define "header" }}
+<!-- empty -->
+{{ end }}
+
+{{ define "main" }}
+ {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
+{{ $repo := index .Site.Data.themes $repoName }}
+{{ $stackbit := index .Site.Data.stackbit $repoName }}
+<div class="demo">
+    <div class="container">
+        <div class="logo d-none d-md-block">
+            <a href="/" title="Jamstack Themes">Jamstack Themes </a>
+        </div>
+
+        <div class="demo-heading">
+            <h1 class="demo-title">{{ .Title }}</h1>
+            <div class="theme-tags d-none d-lg-block">
+                {{ if .Params.ssg }}
+                {{- range .Params.ssg }}
+                {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
+                {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                {{ end }}
+                {{ end }}
+                {{ end }}
+
+                {{ if .Params.cms }}
+                {{- range .Params.cms }}
+                {{- with $.Site.GetPage "taxonomyTerm" (printf "cms/%s" (urlize .)) }}
+                {{ if eq .Page.Title "No CMS" }}
+                {{ else }}
+                {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                {{ end }}
+                {{ end }}
+                {{ end }}
+                {{ end }}
+
+                {{ if .Params.css }}
+                {{- range .Params.css }}
+                {{- with $.Site.GetPage "taxonomyTerm" (printf "css/%s" (urlize .)) }}
+                {{ if eq .Page.Title "No css" }}
+                {{ else }}
+                {{ partial "icons/icon-link.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                {{ end }}
+                {{ end }}
+                {{ end }}
+                {{ end }}
+
+            </div>
+        </div>
+        <div class="action-buttons">
+            {{ if $stackbit }}
+            {{ if $stackbit.createUrl }}
+            <a class="action-button action-button-fill action-button-stackbit" data-action="get-started" data-context="demo" data-name="{{ .Title }}" href="{{ .Permalink }}#get-started" >Get Started</a>
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</div>
+<iframe class="iframe-preview" width="100%" src="{{ .Params.demo }}"></iframe>
+{{ end }}
+
+{{ define "footer" }}
+<!-- empty -->
+{{ end }}

@@ -1,19 +1,19 @@
 ---
 title: Gastby Starter Zenii
-github: 'https://github.com/thebakerdev/gatsby-starter-zenii'
-demo: 'https://gatsby-starter-zenii.netlify.app/'
+github: https://github.com/thebakerdev/gatsby-starter-zenii
+demo: https://gatsby-starter-zenii.netlify.app/
 author: The Bakerdev
 date: 2019-08-20T00:00:00.000Z
-github_branch: master
 ssg:
   - Gatsby
 cms:
   - Contentful
 css:
   - Tailwind
+  - PostCSS
 archetype:
-  - Agency
   - Business
+  - Single Page
 description: A One-page Gatsby starter built with Tailwindcss and Postcss.
 stale: false
 ---

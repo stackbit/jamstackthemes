@@ -1,10 +1,9 @@
 ---
 title: Dark Porfolio Theme for 11ty
-github: 'https://github.com/jmschrack/Dark-Portfolio-Template-11ty/'
-demo: 'https://jmschrack.github.io/Dark-Portfolio-Template-11ty/'
+github: https://github.com/jmschrack/Dark-Portfolio-Template-11ty/
+demo: https://jmschrack.github.io/Dark-Portfolio-Template-11ty/
 author: Jonathan Schrack
 date: 2020-03-19T00:00:00.000Z
-github_branch: dev
 ssg:
   - Eleventy
 cms:
@@ -14,7 +13,7 @@ archetype:
   - Blog
   - Portfolio
 description: This is a port of the Dark Portfolio Template by W3C to 11ty!
-stale: false
+stale: true
 ---
 
 The original, pure CSS template was created by W3C, [you can check it out here!](https://www.w3schools.com/w3css/tryw3css_templates_dark_portfolio.htm)

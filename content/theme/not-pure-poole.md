@@ -1,18 +1,16 @@
 ---
 title: Not Pure Poole
-github: 'https://github.com/vszhub/not-pure-poole'
-demo: 'https://vszhub.github.io/not-pure-poole/'
+github: https://github.com/vszhub/not-pure-poole
+demo: https://vszhub.github.io/not-pure-poole/
 author: Songzi Vong
 date: 2020-10-01T00:00:00.000Z
-github_branch: master
 ssg:
   - Jekyll
 cms:
   - No CMS
 archetype:
   - Blog
-  - Personal homepage
-description: 'A simple, beautiful, and powerful Jekyll theme for blogs'
+description: A simple, beautiful, and powerful Jekyll theme for blogs
 stale: false
 ---
 

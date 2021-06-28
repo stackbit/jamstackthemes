@@ -5,6 +5,9 @@ public
 # OSX
 .DS_Store
 
+# Jetbrains
+.idea/
+
 # Logs
 logs
 *.log

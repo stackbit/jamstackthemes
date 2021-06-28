@@ -2,11 +2,10 @@ ul.pagination {
   display: flex;
   justify-content: center;
   list-style: none;
-  margin: 20px 0 0 0;
+  margin: 20px 0 20px 0;
   padding: 0;
   li {
     list-style: none;
-    font-size: 16px;
     text-decoration: none;
     border: 2px solid $primary;
     border-right: none;
@@ -29,11 +28,14 @@ ul.pagination {
       }
     }
     a {
-      padding: 3px 8px;
+      padding: 9px 13px;
       display: block;
       color: $primary;
       text-decoration: none;
       vertical-align: middle;
+      @include media-breakpoint-up(lg) {
+        padding: 10px 16px;
+      }
     }
     &:last-of-type {
       border-right: 2px solid $primary;

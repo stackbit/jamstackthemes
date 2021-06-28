@@ -1,10 +1,9 @@
 ---
 title: Lone Wolf Theme
-github: 'https://github.com/manid2/lone-wolf-theme/'
-demo: 'https://manid2.github.io/lone-wolf-theme/'
+github: https://github.com/manid2/lone-wolf-theme/
+demo: https://manid2.github.io/lone-wolf-theme/
 author: Mani Kumar
 date: 2020-08-23T18:13:04.000Z
-github_branch: master
 ssg:
   - Jekyll
 cms:

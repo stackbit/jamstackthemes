@@ -1,32 +1,38 @@
 <div class="footer">
+  <div class="container">
 
-  <div class="footer-column footer-column-brand">
-    <h3>JAMstack Themes</h3>
-    <a href="https://github.com/stackbithq/jamstackthemes#submit-a-theme" rel="nofollow">Submit a theme</a>
-    <a href="{{ "/index.json" | relURL }}">Themes JSON</a>
-    <a href="{{ "/index.xml" | relURL }}">Themes RSS</a>
-    
+    <div class="footer-columns">
+      <div class="footer-column footer-column-brand">
+        <h3>Jamstack Themes</h3>
+        <a href="https://github.com/stackbit/jamstackthemes" rel="nofollow">Submit a theme</a>
+        <a href="{{ "/index.json" | relURL }}">Themes JSON</a>
+        <a href="{{ "/index.xml" | relURL }}">Themes RSS</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Themes</h3>
+        {{ range .Site.Menus.main }}
+          <a href="{{.URL}}">{{ .Name }}</a>
+        {{ end }}
+        <a href="https://app.stackbit.com/create?ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=jamstackthemeswebsite&utm_content=footer" >
+          <span>Create A Site</span>
+        </a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Static Site Generator Themes</h3>
+        {{ range .Site.Taxonomies.ssg }}
+          <a href="{{.Page.Permalink }}">{{.Page.Title}} Themes</a>
+        {{ end }}
+      </div>
+
+      <div class="footer-column">
+        <h3>Headless CMS Themes</h3>
+        {{ range .Site.Taxonomies.cms }}
+          <a href="{{.Page.Permalink }}">{{.Page.Title}} Themes</a>
+        {{ end }}
+      </div>
+    </div>
+
   </div>
-
-  <div class="footer-column">
-    <h3>Themes</h3>
-    {{ range .Site.Menus.main }}
-      <a href="{{.URL}}">{{ .Name }}</a>
-    {{ end }}
-  </div>
-
-  <div class="footer-column">
-    <h3>Static Site Generator Themes</h3>
-    {{ range .Site.Taxonomies.ssg }}
-      <a href="{{.Page.Permalink }}">{{.Page.Title}} Themes</a>
-    {{ end }}
-  </div>
-
-  <div class="footer-column">
-    <h3>Headless CMS Themes</h3>
-    {{ range .Site.Taxonomies.cms }}
-      <a href="{{.Page.Permalink }}">{{.Page.Title}} Themes</a>
-    {{ end }}
-  </div>
-
 </div>

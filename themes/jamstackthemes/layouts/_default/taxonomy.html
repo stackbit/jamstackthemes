@@ -1,39 +1,62 @@
-{{ define "title" }}{{.Title}} Themes{{ end}}
+{{ define "title" }}{{ $themes := .RegularPages }}{{ $themes := (where $themes ".Params.draft" "!=" true) }}{{ $themes := (where $themes ".Params.disabled" "!=" true) }}{{ $paginatorTitle := .Paginate $themes }}{{ .Title }} Themes {{ if eq $paginatorTitle.PageNumber 1 }}({{ $paginatorTitle.TotalNumberOfElements }}){{ end }}{{ if gt $paginatorTitle.PageNumber 1 }} | Page {{ $paginatorTitle.PageNumber }}{{ end }}{{ end }}
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-taxonomy{{ end }}
 
-{{ define "meta_tags" }}
-<meta name="description" content="{{.Title}} Themes and Starters for JAMstack Sites." />
+{{ define "meta_description" }}
+<meta name="description" content="Browse {{ .Title }} themes, starters and templates." />
 {{ end }}
+
+{{ define "ogmeta" }}
+    <meta property="og:title" content="{{ .Title }} Themes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:description" content="Browse {{ .Title }} themes, starters and templates.">
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/jamstackthemes-screenshot.png">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@jamstackthemes" />
+    <meta name="twitter:creator" content="@jamstackthemes" />
+{{end}}
 
 {{ define "main" }}
-{{ $themeCount := len .Pages }}
+{{ $themes := .RegularPages }}
+{{ $themes := (where $themes ".Params.draft" "!=" true) }}
+{{ $themes := (where $themes ".Params.disabled" "!=" true) }}
+{{ $themeCount := len $themes}}
 
-<div class="main">
-  <div class="hero">
-    <div class="heading">
-      <div class="heading-icon"><img src="{{ .Params.icon | relURL }}" alt="{{.Title}} Logo" /></div>
-      <h1 class="heading-title">{{.Title}} Themes <span class="count">({{ $themeCount }})</span></h1>
+{{ $paginator := .Paginate $themes }}
+
+<div class="wrapper">
+    <div class="main">
+        <div class="container">
+
+            <div class="intro">
+                <div class="intro-heading">
+                    <div class="intro-icon"><img src="{{ .Params.icon | relURL }}" alt="{{.Title}} Logo" /></div>
+                    <h1 class="intro-title">{{ .Title }} Themes
+                        <span class="page-number">{{ if gt $paginator.PageNumber 1 }} - Page {{ $paginator.PageNumber }}{{ end }}</span>
+                        {{ if eq $paginator.PageNumber 1 }}<span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span>{{ end }}
+                    </h1>
+                </div>
+                <div class="intro-description"><p>Browse our list of {{ .Title }} themes, starters and templates.</p></div>
+                <div class="intro-bar">
+                    <div class="intro-breadcrumbs">{{ partial "breadcrumbs.html" . }}</div>
+                    <div class="intro-backlink"><strong>Official Website</strong> <a href="{{ .Params.official_url }}">{{  .Params.official_url }}</a></div>
+                </div>
+            </div>
+
+            <div id="grids-taxonomy" class="row mt-2">
+
+            {{ range $paginator.Pages.ByDate.Reverse }}
+                 {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
+                {{ $repo := index .Site.Data.themes $repoName }}
+                {{ $stackbit := index .Site.Data.stackbit $repoName }}
+                {{ partial "theme-card.html" (dict "theme" . "repo" $repo "stackbit" $stackbit "site" $.Site) }}
+            {{ end }}
+            </div>
+
+            {{ partial "pagination.html" . }}
+
+        </div>
     </div>
-
-    {{ $url := urls.Parse .Params.official_url }}		
-    <div class="official-website"><strong>Official Website:</strong> <a href="{{ .Params.official_url }}">{{ $url.Host }}</a></div>
-  </div>
-  {{ partial "breadcrumbs.html" . }}
-
-  <div id="grids-taxonomy" class="grids">
-    {{ $paginator := .Paginate .RegularPages.ByPublishDate.Reverse }}
-    {{ range $paginator.Pages }}
-    {{ $repoName := printf "%s-%s" (substr (replace .Params.github "/" "-") 19 | urlize) .Params.github_branch }}
-    {{ $repo := index .Site.Data.themes $repoName }}
-      {{ partial "theme-card.html" (dict "theme" . "repo" $repo) }}
-    {{ end }}
-  </div>
-  {{ $paginator := .Paginator }}
-  {{ partial "pagination.html" . }}
-
 </div>
-{{ end }}
-
-{{ define "footer_js" }}
 {{ end }}

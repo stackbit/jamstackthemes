@@ -1,135 +1,123 @@
-
 .theme-card {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border: 1px solid $grey;
-  border-radius: 4px;
+  border-radius: 8px;
   background-color: white;
-  box-shadow: 1px 1px 8px 2px adjust-color(black, $alpha: -0.9);
-  transition: color 0.3s, box-shadow 0.3s, transform 0.3s;
   position: relative;
   z-index: 1;
-  min-height: 340px;
-  &:hover {
-    transform: translateY(-3px);
-    box-shadow: 1px 5px 16px 2px adjust-color($primary, $alpha: -0.8);
-    color: currentColor;
-  }
+  height: 100%;
+  box-shadow: 0 25px 20px -25px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.05);
   .theme-header {
     border-bottom: 1px solid $grey;
-    max-height: 180px;
+    max-height: 260px;
     overflow: hidden;
-    a {
-      display: block;
-    }
     img {
       max-width: 100%;
+      width: 100%;
       height: auto;
       vertical-align: bottom;
+      transition: opacity 0.2s ease-out;
+      &:hover {
+        opacity: 0.7;
+      }
     }
   }
   .theme-body {
-    flex: 1;
-    padding: 20px;
-    min-height: 170px;
+    //min-height: 200px;
     background: white;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     h2 {
       font-size: 20px;
-      line-height: 26px;
       font-weight: 500;
-      font-family: $font-family-heading;
-      margin: 0;
       margin-bottom: 10px;
+      @include media-breakpoint-up(xl) {
+        font-size: 26px;
+      }
     }
     p {
-      color: $steel;
-      font-size: 13px;
-      margin: 0 0 3px 0;
-      strong {
-        color: $carbon;
+      font-size: 14px;
+      @include media-breakpoint-up(xl) {
+        font-size: 16px;
       }
       &.description {
-        margin-top: 5px;
-        margin-bottom: 0;
-        line-height: 18px
+        padding: 20px 0 20px 0;
+        padding: 0;
+        margin: 0;
       }
+    }
+    .theme-description {
+      margin-bottom: 20px;
+    }
+    .action-buttons {
+      margin-top: auto;
     }
   }
   .theme-footer {
-    border-top: 1px solid $grey;
+    //border-top: 1px solid $grey;
     background: $bone;
+    padding: 8px 13px 8px 13px;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     a {
       flex: 0;
-      padding: 6px;
-      border-right: 1px solid $grey;
-      border-bottom: 1px solid $grey;
-      &:last-of-type {
-        border-right: none;
-      }
+      padding: 7px;
+      //border-right: 1px solid $grey;
+      //border-bottom: 1px solid $grey;
     }
   }
   .theme-buttons {
-    padding: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .theme-buttons-group {
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
     .theme-button {
-      padding: 3px 5px;
-      border: 1px solid $primary;
-      border-radius: 2px;
-      font-size: 13px;
-      margin-right: 5px;
-      color: $primary;
-      text-decoration: none;
-      &:hover {
-        background: $primary;
+      @extend .button;
+      text-align: center;
+      flex: 1 0 auto;
+      font-size: 14px;
+      &.theme-button-fill {
+        background-color: $primary;
         color: white;
       }
-    }
-  }
-}
-
-.theme-featured {
-  .theme-header {
-    border-bottom: 1px solid $grey;
-    max-height: 280px;
-    overflow: hidden;
-    img {
-      max-width: 100%;
-      height: auto;
-      vertical-align: bottom;
-      @include breakpoint('small') {
-
+      &.theme-button-link {
+        border: none;
+        text-decoration: underline;
       }
     }
   }
-}
-
-.last-commit {
-  font-size: 13px;
-  line-height: 17px;
-  color: $steel;
-  margin-bottom: 4px;
-  .last-commit-label {
+  .theme-stars {
     display: inline-block;
-  }
-  .last-commit-date {
-    display: inline-block;
-    color: black;
-  }
-}
-
-.author {
-  font-size: 13px;
-  line-height: 17px;
-  color: $steel;
-  margin-bottom: 4px;
-  .author-label {
-    display: inline-block;
-  }
-  .author-name {
-    display: inline-block;
-    color: black;
+    border: 1px solid $bone;
+    padding: 4px 6px 4px 24px;
+    border-radius: 2px;
+    color: $steel;
+    background-image: url("../images/ui/star.svg");
+    background-repeat: no-repeat;
+    background-position: 6px;
+    background-size: 13px;
+    background-color: $bone;
+    font-size: 14px;
+    font-weight: 600;
+    @include media-breakpoint-up(xl) {
+      background-size: 15px;
+      background-position: 8px;
+      padding: 4px 6px 4px 28px;
+      font-size: 16px;
+      font-weight: normal;
+    }
+    .star-count {
+      display: inline-block;
+    }
   }
 }

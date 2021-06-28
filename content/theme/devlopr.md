@@ -1,10 +1,9 @@
 ---
 title: devlopr-jekyll
-github: 'https://github.com/sujaykundu777/devlopr-jekyll'
-demo: 'https://devlopr.netlify.app'
+github: https://github.com/sujaykundu777/devlopr-jekyll
+demo: https://devlopr.netlify.app
 author: Sujay Kundu
 date: 2020-09-23T00:00:00.000Z
-github_branch: master
 ssg:
   - Jekyll
 cms:

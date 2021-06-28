@@ -1,16 +1,18 @@
 ---
-title: "Gatsby Nice Blog"
+title: Gatsby Nice Blog
 github: https://github.com/abhaynikam/gatsby-nice-blog
 demo: https://nostalgic-liskov-e76c32.netlify.app/
 author: abhaynikam
-date: 2020-10-11
-github_branch: master
+date: 2020-10-11T00:00:00.000Z
 ssg:
   - Gatsby
 archetype:
   - Blog
   - Portfolio
-description: "A nice starter gatsby blog post template with"
+description: A nice starter gatsby blog post template with
+disabled: false
+stale: false
+disabled_reason: ''
 ---
 
 # Nice blog

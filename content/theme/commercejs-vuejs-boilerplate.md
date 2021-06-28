@@ -1,8 +1,8 @@
 ---
 title: Commerce.js Vue.js Boilerplate
-github: 'https://github.com/chec/commercejs-vuejs-boilerplate'
+github: https://github.com/chec/commercejs-vuejs-boilerplate
 author: Chec/Commerce.js
-demo: 'https://shoppable-campaign-demo.netlify.app/'
+demo: https://shoppable-campaign-demo.netlify.app/
 date: 2020-10-19T00:00:00.000Z
 ssg:
   - Nuxt
@@ -15,7 +15,6 @@ archetype:
 description: >-
   Commerce.js boilerplate built with Vue.js, for fast eCommerce development and
   design.
-github_branch: master
 stale: false
 ---
 

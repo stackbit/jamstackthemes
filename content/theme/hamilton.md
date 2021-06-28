@@ -1,10 +1,9 @@
 ---
 title: Hamilton
-github: 'https://github.com/ngzhio/jekyll-theme-hamilton'
-demo: 'https://ngzhio.github.io/jekyll-theme-hamilton/'
+github: https://github.com/zivhub/jekyll-theme-hamilton
+demo: https://zivlog.io/jekyll-theme-hamilton/
 author: Shangzhi Huang
 date: 2020-07-02T00:00:00.000Z
-github_branch: master
 ssg:
   - Jekyll
 cms:
@@ -15,6 +14,8 @@ archetype:
   - Blog
 description: A minimal and beautiful Jekyll theme best for writing and note-taking.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
 
 # Hamilton

@@ -1,61 +1,75 @@
-$primary: #5004E0;
-$grey: #e9e9e9;
+$primary: #2f5ffd;
 $bone: #f5f5f5;
-$steel: #666666;
-$yellow: #f6d603;
-$blue: #57b8ff;
+$grey: #e9e9e9;
+$steel: #585858;
 $carbon: #2a2a2a;
+$lime-green: #10b981;
+$soft-pink: #ec4899;
 
-// @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
-
-$font-family-base: 'Roboto', Helvetica, Arial, sans-serif;
-$font-family-heading: 'Roboto', Helvetica, Arial, sans-serif;
+$font-family-base: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$font-family-heading: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $font-family-mono: monospace;
+$font-family-serif: serif;
 
-$breakpoints: (
-  'small':  690px,
-  'medium': 992px,
-  'large':  1200px
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1240px
 );
 
-@import 'breakpoints';
-@import 'reset';
-@import 'grid';
-@import 'theme-card';
-@import 'theme-detail';
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1200px
+);
+
+$grid-gutter-width: 30px;
+
+// Links
+$spacers: ();
+$spacers: map-merge(
+  (
+    0: 0,
+    1: 10px,
+    2: 20px,
+    3: 30px,
+    4: 40px,
+    5: 50px,
+    6: 60px,
+    7: 70px,
+    8: 80px,
+    9: 90px,
+    10: 100px
+  ),
+  $spacers
+);
+
+@import 'bootstrap/bootstrap-reboot';
+@import 'bootstrap/bootstrap-grid';
 @import 'layout';
 @import 'header';
-@import 'button';
-@import 'filter';
-@import 'sort-buttons';
-@import 'intro';
-@import 'info';
-@import 'icon';
 @import 'footer';
+@import 'filter';
 @import 'terms';
-@import 'count';
+@import 'theme-card';
+@import 'theme-detail';
+@import 'theme-buttons';
+@import 'intro';
+@import 'demo';
 @import 'breadcrumbs';
+@import 'buttons';
+@import 'icon';
 @import 'star';
-@import 'made-by';
-@import 'not-found';
-// @import 'badge';
-@import 'hero';
-// @import 'banner';
 @import 'pagination';
-@import 'logo';
-@import 'main-menu';
-@import 'main-menu-mobile';
-@import 'categories';
-@import 'blurb';
+@import 'github-metrics';
 @import 'content';
-@import 'link';
-@import 'pygments/github';
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+@import 'label';
+@import 'pricing';
+@import 'bootstrap/utilities';
+//@import 'pygments/github';
 
 html {
   margin: 0;
@@ -65,11 +79,14 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  font-size: 14px;
-  line-height: 1.2;
-  font-family: $font_family_heading, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: $font-family-heading, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
-  color: #2a2a2a;
+  color: $carbon;
+}
+
+p {
+  color: $steel;
 }
