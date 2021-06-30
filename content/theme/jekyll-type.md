@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2017-09-25T11:27:16.000Z
 description: 🎉  Minimal and Clean Free Jekyll Theme
-stale: false
+stale: true
 ---

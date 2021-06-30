@@ -1,21 +1,22 @@
 ---
 title: Gesko
 github: https://github.com/P0WEX/Gesko
-demo: https://p0wex.github.io/Gesko/ 
+demo: https://p0wex.github.io/Gesko/
 author: P0WEX
-date: 2021-06-06 
+date: 2021-06-06T00:00:00.000Z
 ssg:
-  - Jekyll 
+  - Jekyll
 cms:
-  - No CMS 
-css: 
-  - scss 
-archetype: 
+  - No CMS
+css:
+  - scss
+archetype:
   - Blog
   - Portfolio
   - multi-page
   - multi-purpose
 description: Gesko is a simple and minimalistic jekyll blogging theme
+stale: false
 ---
 
 # Gesko - Minimal blogging theme

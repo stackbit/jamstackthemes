@@ -1,18 +1,21 @@
 ---
-title: "Bajawa"
+title: Bajawa
 github: https://github.com/kulacino/bajawa
-demo: https://bajawa.ayuwelirang.com # Please make sure this links to a theme demo and not your personal/business site. The demo url must use https
+demo: https://bajawa.ayuwelirang.com
 author: Cynthia Ayu W (@kulacino)
-date: 2021-06-25 # Enter the date you submitted the theme YYYY-MM-DD
+date: 2021-06-25T00:00:00.000Z
 ssg:
-  - Jekyll # at least 1 ssg is required
+  - Jekyll
 cms:
-  - No CMS # at least 1 cms is required. If your theme uses markdown (no CMS) the cms should be "No CMS"
-css: # css is optional
+  - No CMS
+css:
   - Sass
-archetype: # archetype is optional
+archetype:
   - Blog
-description: A minimalist, simple, and lightweight jekyll theme for blogger and writer with a touch of pastel colors.
+description: >-
+  A minimalist, simple, and lightweight jekyll theme for blogger and writer with
+  a touch of pastel colors.
+stale: false
 ---
 
 # A simple starter kit

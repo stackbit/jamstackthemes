@@ -12,4 +12,6 @@ description: >-
   :red_circle: Jekyll-Mono :large_blue_circle: is a simple and elegant GitHub
   Profile cum Blog theme
 stale: true
+disabled: true
+disabled_reason: error checking demo url
 ---

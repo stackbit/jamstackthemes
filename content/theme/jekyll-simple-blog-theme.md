@@ -12,4 +12,6 @@ description: >-
   Simple Blog Theme is a clean, responsive blogging theme for Jekyll and
   GitLab/GitHub Pages.
 stale: true
+disabled: true
+disabled_reason: error checking demo url
 ---

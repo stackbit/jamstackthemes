@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2013-11-25T04:48:18.000Z
 description: A ✨ functional, clean, responsive Pelican theme
-stale: false
+stale: true
 ---

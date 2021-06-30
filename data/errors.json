@@ -1,32 +1,62 @@
 [
   {
-    "theme_key": "lgcolella-gatsby-starter-developer-blog",
-    "file": "gatsby-starter-developer-blog.md",
-    "repoUrl": "https://github.com/lgcolella/gatsby-starter-developer-blog",
+    "theme_key": "jerryc127-hexo-theme-butterfly",
+    "file": "hexo-theme-butterfly.md",
+    "repoUrl": "https://github.com/jerryc127/hexo-theme-butterfly",
+    "error": "error checking demo url"
+  },
+  {
+    "theme_key": "funkydan2-alpha-church",
+    "file": "hugo-alpha-church.md",
+    "repoUrl": "https://github.com/funkydan2/alpha-church",
     "error": "demo url not found"
   },
   {
-    "theme_key": "zivhub-jekyll-theme-hamilton",
-    "file": "hamilton.md",
-    "repoUrl": "https://github.com/zivhub/jekyll-theme-hamilton",
+    "theme_key": "jeblister-kube",
+    "file": "hugo-kube-theme.md",
+    "repoUrl": "https://github.com/jeblister/kube",
     "error": "demo url not found"
   },
   {
-    "theme_key": "airrayagroupwebdesign-sciblog",
-    "file": "jekyll-sciblog.md",
-    "repoUrl": "https://github.com/airrayagroupwebdesign/sciblog",
+    "theme_key": "jekyller-jasper2",
+    "file": "jasper2.md",
+    "repoUrl": "https://github.com/jekyller/jasper2",
     "error": "demo url not found"
   },
   {
-    "theme_key": "nakorndev-vuepress-theme-bulma",
-    "file": "vuepress-theme-bulma.md",
-    "repoUrl": "https://github.com/nakorndev/vuepress-theme-bulma",
+    "theme_key": "coletownsend-balzac-for-jekyll",
+    "file": "jekyll-balzac.md",
+    "repoUrl": "https://github.com/coletownsend/balzac-for-jekyll",
+    "error": "error checking demo url"
+  },
+  {
+    "theme_key": "biomadeira-sustain",
+    "file": "jekyll-sustain.md",
+    "repoUrl": "https://github.com/biomadeira/sustain",
     "error": "demo url not found"
   },
   {
-    "theme_key": "t413-singlepaged",
-    "file": "jekyll-singlepaged.md",
-    "repoUrl": "https://github.com/t413/SinglePaged",
+    "theme_key": "kejunmao-jekyll-theme-mdui",
+    "file": "jekyll-mdui-theme.md",
+    "repoUrl": "https://github.com/KeJunMao/jekyll-theme-mdui",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "biomadeira-vitae",
+    "file": "jekyll-vitae.md",
+    "repoUrl": "https://github.com/biomadeira/vitae",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "akshayagarwal007-jekyll-mono",
+    "file": "jekyll-Mono.md",
+    "repoUrl": "https://github.com/AkshayAgarwal007/Jekyll-Mono",
+    "error": "error checking demo url"
+  },
+  {
+    "theme_key": "lorepirri-jekyll-theme-simple-blog",
+    "file": "jekyll-simple-blog-theme.md",
+    "repoUrl": "https://gitlab.com/lorepirri/jekyll-theme-simple-blog",
     "error": "error checking demo url"
   }
 ]

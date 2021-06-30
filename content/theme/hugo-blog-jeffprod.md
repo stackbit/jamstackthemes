@@ -11,5 +11,5 @@ date: 2018-08-10T21:13:26.000Z
 description: >-
   A free blog theme for HUGO (https://gohugo.io/), with tags, archives, last
   posts...
-stale: false
+stale: true
 ---

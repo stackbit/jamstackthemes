@@ -10,4 +10,6 @@ cms:
 date: 2015-10-24T19:05:41.000Z
 description: 👨‍💼 Personal resume powered by Jekyll
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

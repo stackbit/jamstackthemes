@@ -13,8 +13,8 @@ css:
 archetype:
   - Blog
 description: >-
-  A nice-looking, mobile-first and dark theme friendly blog theme built with Eleventy SSG and Stylus
-  Preprocessor
+  A nice-looking, mobile-first and dark theme friendly blog theme built with
+  Eleventy SSG and Stylus Preprocessor
 stale: false
 ---
 

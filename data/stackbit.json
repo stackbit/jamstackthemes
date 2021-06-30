@@ -1743,6 +1743,10 @@
     "theme_key": "kronik3r-daktilo",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kronik3r/daktilo&ssg=jekyll"
   },
+  "kulacino-bajawa": {
+    "theme_key": "kulacino-bajawa",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kulacino/bajawa&ssg=jekyll"
+  },
   "kuntoaji-dekyll": {
     "theme_key": "kuntoaji-dekyll",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/kuntoaji/dekyll&ssg=jekyll"
@@ -1798,6 +1802,10 @@
   "lekovicmilos-gatsby-starter-portfolio": {
     "theme_key": "lekovicmilos-gatsby-starter-portfolio",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/LekovicMilos/gatsby-starter-portfolio&ssg=gatsby"
+  },
+  "lenpaul-academic": {
+    "theme_key": "lenpaul-academic",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/LeNPaul/academic&ssg=jekyll"
   },
   "lenpaul-lagrange": {
     "theme_key": "lenpaul-lagrange",
@@ -2270,6 +2278,10 @@
   "ozgrozer-dasper": {
     "theme_key": "ozgrozer-dasper",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ozgrozer/dasper&ssg=jekyll"
+  },
+  "p0wex-gesko": {
+    "theme_key": "p0wex-gesko",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/P0WEX/Gesko&ssg=jekyll"
   },
   "pablovila-gatsby-starter-wordpress-community": {
     "theme_key": "pablovila-gatsby-starter-wordpress-community",
@@ -3054,6 +3066,10 @@
   "tblyler-light-hugo": {
     "theme_key": "tblyler-light-hugo",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/tblyler/light-hugo&ssg=hugo"
+  },
+  "tcbutler320-jek": {
+    "theme_key": "tcbutler320-jek",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/tcbutler320/jek&ssg=jekyll"
   },
   "tcbutler320-jekyll-theme-dumbarton": {
     "theme_key": "tcbutler320-jekyll-theme-dumbarton",

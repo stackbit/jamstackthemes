@@ -1,19 +1,22 @@
 ---
-title: "Next Dev Studio"
+title: Next Dev Studio
 github: https://github.com/lwz7512/next-dev-studio
 demo: https://next-dev-studio.vercel.app/
 author: lwz7512
-date: 2021-06-07
+date: 2021-06-07T00:00:00.000Z
 ssg:
   - Next
 cms:
-  - No CMS 
-css: 
-  - PostCSS 
-archetype: 
+  - No CMS
+css:
+  - PostCSS
+archetype:
   - Business
   - Website
-description: A small business website template based on Nextjs and the original idea of one-click-hugo-cms from netlify.
+description: >-
+  A small business website template based on Nextjs and the original idea of
+  one-click-hugo-cms from netlify.
+stale: false
 ---
 
 # A small business website using Next.js and Markdown

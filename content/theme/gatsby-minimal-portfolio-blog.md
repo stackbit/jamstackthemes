@@ -11,5 +11,5 @@ date: 2019-01-02T16:26:06.000Z
 description: >-
   GatsbyJS starter for a minimal portfolio website with blog. Suitable for
   developers.
-stale: false
+stale: true
 ---

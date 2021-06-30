@@ -1,17 +1,18 @@
 ---
-title: "Next Smooth Doc"
+title: Next Smooth Doc
 github: https://github.com/lwz7512/next-smooth-doc
 demo: https://next-smooth-doc.vercel.app/
 author: lwz7512
-date: 2021-06-07
+date: 2021-06-07T00:00:00.000Z
 ssg:
   - Next
 cms:
-  - No CMS 
-archetype: 
+  - No CMS
+archetype:
   - Documentation
   - Website
 description: smooth-doc in Nextjs implementation
+stale: false
 ---
 
 # NEXTJS SMOOTH DOC

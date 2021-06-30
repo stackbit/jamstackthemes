@@ -10,4 +10,6 @@ cms:
 date: 2019-06-04T13:38:41.000Z
 description: 'A Hexo Theme: Butterfly'
 stale: false
+disabled: true
+disabled_reason: error checking demo url
 ---
