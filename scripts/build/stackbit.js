@@ -15,11 +15,14 @@ const generateStackbit = (frontmatter) => {
         theme_key: themeKey
     };
 
-    if (frontmatter.ssg?.some(ssg => allowedSsg.includes(urlSlug(ssg))) && frontmatter.cms?.some(cms => allowedCms.includes(urlSlug(cms)))) {
-        if (frontmatter.ssg.length > 1) {
+    const ssgArray = frontmatter.ssg || []
+    const cmsArray = frontmatter.cms || []
+
+    if (ssgArray.some(ssg => allowedSsg.includes(urlSlug(ssg))) && cmsArray.some(cms => allowedCms.includes(urlSlug(cms)))) {
+        if (ssgArray.length > 1) {
             stackbitData.createUrl = `https://app.stackbit.com/create?theme=${frontmatter.github}`
         } else {
-            stackbitData.createUrl = `https://app.stackbit.com/create?theme=${frontmatter.github}&ssg=${urlSlug(frontmatter.ssg)}`
+            stackbitData.createUrl = `https://app.stackbit.com/create?theme=${frontmatter.github}&ssg=${urlSlug(ssgArray)}`
         }
     }
 
