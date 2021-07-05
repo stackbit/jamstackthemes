@@ -2,8 +2,9 @@
 const urlSlug = require('url-slug');
 const {getThemeKey, getRepoName} = require('./utils');
 const ora = require('ora');
-
 const spinner = ora('Loading')
+const allowedSsg = ["hugo", "jekyll", "gatsby", "unibit"]
+const allowedCms = ["contentful", "sanity", "no-cms"]
 
 const generateStackbit = (frontmatter) => {
     const themeKey = getThemeKey(frontmatter.github)
@@ -14,32 +15,11 @@ const generateStackbit = (frontmatter) => {
         theme_key: themeKey
     };
 
-    // SSG
-    if (frontmatter.ssg) {
-        if (frontmatter.ssg.some(ssg => ["hugo", "jekyll", "gatsby", "unibit"].includes(urlSlug(ssg)))) {
-            if (frontmatter.ssg.length > 1) {
-                stackbitData.createUrl = `https://app.stackbit.com/create?theme=${frontmatter.github}`
-            } else {
-                stackbitData.createUrl = `https://app.stackbit.com/create?theme=${frontmatter.github}&ssg=${urlSlug(frontmatter.ssg)}`
-            }
-        }
-    }
-
-    // CMS
-    if (frontmatter.cms) {
-        if (frontmatter.cms.some(cms => ["netlifycms", "forestry"].includes(urlSlug(cms)))) {
-            if (frontmatter.cms.length === 1) {
-                if (stackbitData.createUrl) {
-                    stackbitData.createUrl += `&cms=${urlSlug(frontmatter.cms)}`
-                }
-            }
-        }
-        if (frontmatter.cms.some(cms => ["airtable", "contentful", "datocms", "firebase", "ghost", "kontent", "prismic", "sanity", "wordpress"].includes(urlSlug(cms)))) {
-            if (frontmatter.ssg.some(ssg => ["unibit"].includes(urlSlug(ssg)))) {
-
-            } else {
-                delete stackbitData.createUrl
-            }
+    if (frontmatter.ssg?.some(ssg => allowedSsg.includes(urlSlug(ssg))) && frontmatter.cms?.some(cms => allowedCms.includes(urlSlug(cms)))) {
+        if (frontmatter.ssg.length > 1) {
+            stackbitData.createUrl = `https://app.stackbit.com/create?theme=${frontmatter.github}`
+        } else {
+            stackbitData.createUrl = `https://app.stackbit.com/create?theme=${frontmatter.github}&ssg=${urlSlug(frontmatter.ssg)}`
         }
     }
 
@@ -95,11 +75,11 @@ const generateStackbit = (frontmatter) => {
 const generateStackbitData = (markdownData) => {
     console.log("** Generating Stackbit data **")
     spinner.start();
-    const githubData = markdownData.map(theme => {
+    const stackbitData = markdownData.map(theme => {
         return generateStackbit(theme)
     }).filter(stackbit => stackbit.createUrl);
     spinner.succeed("Success");
-    return githubData;
+    return stackbitData;
 };
 
 module.exports = {

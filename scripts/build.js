@@ -1,5 +1,7 @@
 #!/usr/bin/env node
-const argv = require('yargs/yargs')(process.argv.slice(2)).argv
+const yargs = require('yargs/yargs')
+const { hideBin } = require('yargs/helpers')
+const argv = yargs(hideBin(process.argv)).argv
 const {generateGithubData} = require('./build/github');
 const {generateMarkdownData} = require('./build/markdown');
 const {testDemoUrls} = require('./build/demo');
@@ -10,6 +12,7 @@ const config = require('./build/config');
 const {errorLog} = require('./build/errors');
 
 const build = async (options) => {
+    console.log("Build options", options)
     const themesMarkdown = await generateMarkdownData(config.themesMarkdownFiles, options)
 
     if (options.github) {
@@ -41,10 +44,10 @@ const build = async (options) => {
 const options = {
     disabled: true, // Skip processing themes that have front-matter `disabled: true`
     draft: true, // Skip processing themes that have front-matter `draft: true`
-    demos: true,
-    stackbit: argv.stackbit || true,
-    github: argv.github || true,
-    images: argv.images || true,
+    demos: argv.demos !== "false",
+    stackbit: argv.stackbit !== "false",
+    github: argv.github !== "false",
+    images: argv.images !== "false",
     latest: argv.latest || false, // build.js --latest | only process themes which don't already exist in `themes.json`
 }
 

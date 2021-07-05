@@ -23,7 +23,7 @@ const writeErrorFile = (errorLog) => {
 }
 
 const writeStackbitFile = (stackbit) => {
-    let stackbitData = config.stackbitJsonData
+    let stackbitData = {}
     stackbit.forEach(theme => {
         stackbitData[theme.theme_key] = theme;
     })

@@ -10,4 +10,6 @@ cms:
 date: 2019-01-05T09:42:06.000Z
 description: Dot - Hugo Documentation Theme
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
