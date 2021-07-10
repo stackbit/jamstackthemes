@@ -10,10 +10,13 @@ cms:
   - No CMS
 css:
   - Bootstrap 
+  - PostCSS
+  - SCSS
 archetype:
   - Blog
   - Portfolio
-  - Corporate Wwbsite
+  - Business
+  - Multi Pourpose
 description: A Eleventy + Bootstrap 5 starter kit.
 ---
 
