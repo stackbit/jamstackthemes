@@ -10,4 +10,6 @@ cms:
 date: 2019-01-19T09:43:35.000Z
 description: A minimalistic (m10c) blog theme for Hugo
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

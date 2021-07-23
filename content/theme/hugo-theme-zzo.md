@@ -17,6 +17,8 @@ description: >-
   Blog theme for Hugo. It has rich features including search, gallery, resume,
   talks, showcase, publication, presentation, etc.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
 
 ## Hugo Theme Zzo

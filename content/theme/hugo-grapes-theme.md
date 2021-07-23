@@ -10,4 +10,6 @@ cms:
 date: 2018-10-23T04:13:29.000Z
 description: A minimalistic text based theme for Hugo with grapes color theme
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

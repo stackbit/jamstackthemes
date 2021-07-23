@@ -12,4 +12,6 @@ description: >-
   Stip is a single-page Hugo theme to introduce yourself, based on Material
   Design's tap target design pattern.
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

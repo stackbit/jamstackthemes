@@ -15,6 +15,8 @@ description: >-
   Design System featuring rich code support, dark/light mode, mobile support,
   and much more.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
 
 # A perfect theme for bloggers who code

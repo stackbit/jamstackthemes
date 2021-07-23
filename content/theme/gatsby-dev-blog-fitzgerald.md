@@ -13,7 +13,7 @@ archetype:
 description: >-
   A fully customizable blog template designed for developers (or anyone else)
   wanting to get into blogging
-stale: false
+stale: true
 ---
 
 A fully customizable blog template designed for developers (or anyone else) wanting to get into blogging. 

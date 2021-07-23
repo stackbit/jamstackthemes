@@ -10,4 +10,6 @@ cms:
 date: 2017-10-06T07:19:22.000Z
 description: 🌱Hugo theme named Dream.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

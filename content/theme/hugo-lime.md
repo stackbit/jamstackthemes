@@ -10,4 +10,6 @@ cms:
 date: 2018-08-25T17:12:50.000Z
 description: Hugo Lime is a business theme for GoHugo by https://uicard.io
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

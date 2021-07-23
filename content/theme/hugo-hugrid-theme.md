@@ -13,4 +13,6 @@ description: >-
   to perform anyone or anything quickly. Portfolio, collection, bookmarks,
   contacts and so on.
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

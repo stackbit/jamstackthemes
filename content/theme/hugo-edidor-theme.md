@@ -12,4 +12,6 @@ description: >-
   A hugo theme that looks like an editor with a builtin style generator,
   INFINITE COLOR MODE from a market perspective. 😂
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

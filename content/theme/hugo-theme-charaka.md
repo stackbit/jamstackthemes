@@ -10,4 +10,6 @@ cms:
 date: 2018-08-21T20:17:16.000Z
 description: Minimalistic and Responsive blog theme for hugo
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -10,4 +10,6 @@ cms:
 date: 2018-06-03T01:57:33.000Z
 description: Hugo Theme
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

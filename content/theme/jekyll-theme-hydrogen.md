@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2018-11-18T07:09:14.000Z
 description: ':+1:轻盈、简洁的Jekyll主题，A Lightweight and Concise Jekyll theme For You.'
-stale: false
+stale: true
 ---

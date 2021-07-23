@@ -10,4 +10,6 @@ cms:
 date: 2014-08-17T22:54:01.000Z
 description: Liquorice is a small black and white theme for Hugo.
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

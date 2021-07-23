@@ -10,4 +10,6 @@ cms:
 date: 2016-06-03T08:33:42.000Z
 description: a one page layout for gohugo.io
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

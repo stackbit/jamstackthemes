@@ -10,4 +10,6 @@ cms:
 date: 2015-07-24T20:15:24.000Z
 description: 'cname : syui.cf'
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

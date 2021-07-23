@@ -10,4 +10,6 @@ cms:
 date: 2018-04-30T18:02:34.000Z
 description: ':snail: a hugo theme'
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

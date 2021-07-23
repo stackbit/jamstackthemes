@@ -10,4 +10,6 @@ cms:
 date: 2017-10-21T09:52:00.000Z
 description: Basic gatsby-starter package
 stale: true
+disabled: true
+disabled_reason: error checking demo url
 ---

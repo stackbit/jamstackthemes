@@ -10,4 +10,6 @@ cms:
 date: 2018-12-16T23:03:20.000Z
 description: Simple hugo theme for resume created using Bootstrap 4
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

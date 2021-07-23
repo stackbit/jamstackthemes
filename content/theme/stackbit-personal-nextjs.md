@@ -9,7 +9,7 @@ cms:
   - No CMS
 css:
   - SCSS
-date: 2021-07-22T00:00:00.000Z
+date: 2021-07-22T09:00:00.000Z
 description: A Nextjs theme for personal and business websites.
 stale: false
 ---

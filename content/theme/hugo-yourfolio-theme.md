@@ -10,4 +10,6 @@ cms:
 date: 2018-06-01T13:13:55.000Z
 description: ':star: Super simple and responsive theme for your personal website on Hugo'
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

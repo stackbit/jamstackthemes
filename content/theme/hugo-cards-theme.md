@@ -10,4 +10,6 @@ cms:
 date: 2018-09-29T23:11:06.000Z
 description: A bootstrap based minimal hugo theme based on webjeda-cards
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -10,4 +10,6 @@ cms:
 date: 2015-01-09T15:46:15.000Z
 description: A Hugo theme based on the Wordpress Twenty Fourteen theme.
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -12,4 +12,6 @@ css:
 date: 2017-09-30T15:29:45.000Z
 description: A Hugo theme based on the CSS-only Bulma framework.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

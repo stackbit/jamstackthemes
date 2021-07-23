@@ -12,4 +12,6 @@ css:
 date: 2018-02-17T13:45:54.000Z
 description: A minimalist blog theme for hugo.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -12,4 +12,6 @@ description: >-
   A port of the Tale theme for Hugo. Tale is a minimal theme curated for
   storytellers.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

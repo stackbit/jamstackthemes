@@ -3,7 +3,7 @@ const urlSlug = require('url-slug');
 const {getThemeKey, getRepoName} = require('./utils');
 const ora = require('ora');
 const spinner = ora('Loading')
-const allowedSsg = ["hugo", "jekyll", "gatsby", "unibit"]
+const allowedSsg = ["hugo", "jekyll", "gatsby", "nextjs", "next", "unibit"]
 const allowedCms = ["contentful", "sanity", "no-cms"]
 
 const generateStackbit = (frontmatter) => {

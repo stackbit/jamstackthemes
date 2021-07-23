@@ -10,4 +10,6 @@ cms:
 date: 2019-06-29T12:33:47.000Z
 description: a minimal academic page for hugo
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -9,5 +9,7 @@ cms:
   - No Cms
 date: 2018-05-28T08:10:44.000Z
 description: A light Hugo AMP responsive theme for blogger ⚡.
-stale: false
+stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

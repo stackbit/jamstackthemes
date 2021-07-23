@@ -1,7 +1,7 @@
 ---
 title: Nextjs Fresh
-github: https://github.com/stackbit-themes/fjord-nextjs
-demo: https://themes.stackbit.com/demos/fresh?themeBarHidden=true
+github: https://github.com/stackbit-themes/fresh-nextjs
+demo: https://themes.stackbit.com/demos/fresh/?themeBarHidden=true
 author: Stackbit
 ssg:
   - Next

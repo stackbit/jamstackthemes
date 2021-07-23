@@ -12,4 +12,6 @@ description: >-
   A kick-ass theme for Hugo, a static-site generator, similar to Jekyll, but
   programmed in Go. (It's fast).
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -10,4 +10,6 @@ cms:
 date: 2015-05-15T13:44:38.000Z
 description: Simple Material Design Theme for Hugo
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -9,7 +9,7 @@ cms:
   - No CMS
 css:
   - SCSS
-date: 2021-07-22T00:00:00.000Z
+date: 2021-02-22T00:00:00.000Z
 description: Vanilla is a minimal skeleton theme for Nextjs.
 stale: false
 ---

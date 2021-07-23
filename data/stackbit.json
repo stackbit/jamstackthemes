@@ -467,6 +467,14 @@
     "theme_key": "cfrome77-hugo-theme-sky",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/cfrome77/hugo-theme-sky&ssg=hugo"
   },
+  "chec-commercejs-chopchop-demo": {
+    "theme_key": "chec-commercejs-chopchop-demo",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/chec/commercejs-chopchop-demo&ssg=next"
+  },
+  "chec-commercejs-nextjs-demo-store": {
+    "theme_key": "chec-commercejs-nextjs-demo-store",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/chec/commercejs-nextjs-demo-store&ssg=next"
+  },
   "chesterhow-tale": {
     "theme_key": "chesterhow-tale",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/chesterhow/tale&ssg=jekyll"
@@ -1219,6 +1227,18 @@
     "theme_key": "iwilsonq-gatsby-starter-reasonml",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/iwilsonq/gatsby-starter-reasonml&ssg=gatsby"
   },
+  "ixartz-next-js-blog-boilerplate": {
+    "theme_key": "ixartz-next-js-blog-boilerplate",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ixartz/Next-js-Blog-Boilerplate&ssg=next"
+  },
+  "ixartz-next-js-boilerplate": {
+    "theme_key": "ixartz-next-js-boilerplate",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ixartz/Next-js-Boilerplate&ssg=next"
+  },
+  "ixartz-next-js-landing-page-starter-template": {
+    "theme_key": "ixartz-next-js-landing-page-starter-template",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template&ssg=next"
+  },
   "jackbravo-gatsby-starter-i18n-blog": {
     "theme_key": "jackbravo-gatsby-starter-i18n-blog",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jackbravo/gatsby-starter-i18n-blog&ssg=gatsby"
@@ -1575,6 +1595,18 @@
     "theme_key": "lwz7512-gatsby-netlify-identity-starter",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/lwz7512/gatsby-netlify-identity-starter&ssg=gatsby"
   },
+  "lwz7512-next-dev-studio": {
+    "theme_key": "lwz7512-next-dev-studio",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/lwz7512/next-dev-studio&ssg=next"
+  },
+  "lwz7512-next-smooth-doc": {
+    "theme_key": "lwz7512-next-smooth-doc",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/lwz7512/next-smooth-doc&ssg=next"
+  },
+  "lyket-dev-nextjs-simple-blog-theme": {
+    "theme_key": "lyket-dev-nextjs-simple-blog-theme",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/lyket-dev/nextjs-simple-blog-theme&ssg=next"
+  },
   "madelyneriksen-gatsby-starter-tyra": {
     "theme_key": "madelyneriksen-gatsby-starter-tyra",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/madelyneriksen/gatsby-starter-tyra&ssg=gatsby"
@@ -1706,6 +1738,10 @@
   "muan-scribble": {
     "theme_key": "muan-scribble",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/muan/scribble&ssg=jekyll"
+  },
+  "mudassirgithub-next-basic-blog": {
+    "theme_key": "mudassirgithub-next-basic-blog",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/mudassirgithub/next-basic-blog&ssg=next"
   },
   "muhajirdev-gatsby-starter-firebase": {
     "theme_key": "muhajirdev-gatsby-starter-firebase",
@@ -2331,37 +2367,97 @@
     "theme_key": "st4ple-solid-jekyll",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/st4ple/solid-jekyll&ssg=jekyll"
   },
+  "stackbit-themes-agency-nextjs": {
+    "theme_key": "stackbit-themes-agency-nextjs",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/agency-nextjs&ssg=next"
+  },
+  "stackbit-themes-ampersand-nextjs": {
+    "theme_key": "stackbit-themes-ampersand-nextjs",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/ampersand-nextjs&ssg=next"
+  },
   "stackbit-themes-ampersand-unibit": {
     "theme_key": "stackbit-themes-ampersand-unibit",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/ampersand-unibit"
+  },
+  "stackbit-themes-app-nextjs": {
+    "theme_key": "stackbit-themes-app-nextjs",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/app-nextjs&ssg=next"
+  },
+  "stackbit-themes-azimuth-nextjs": {
+    "theme_key": "stackbit-themes-azimuth-nextjs",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-nextjs&ssg=next"
   },
   "stackbit-themes-azimuth-unibit": {
     "theme_key": "stackbit-themes-azimuth-unibit",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/azimuth-unibit"
   },
+  "stackbit-themes-book-nextjs": {
+    "theme_key": "stackbit-themes-book-nextjs",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/book-nextjs&ssg=next"
+  },
+  "stackbit-themes-diy-nextjs": {
+    "theme_key": "stackbit-themes-diy-nextjs",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/diy-nextjs&ssg=next"
+  },
   "stackbit-themes-diy-unibit": {
     "theme_key": "stackbit-themes-diy-unibit",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/diy-unibit"
+  },
+  "stackbit-themes-event-nextjs": {
+    "theme_key": "stackbit-themes-event-nextjs",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/event-nextjs&ssg=next"
+  },
+  "stackbit-themes-exto-nextjs": {
+    "theme_key": "stackbit-themes-exto-nextjs",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/exto-nextjs&ssg=next"
   },
   "stackbit-themes-exto-unibit": {
     "theme_key": "stackbit-themes-exto-unibit",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/exto-unibit"
   },
+  "stackbit-themes-fjord-nextjs": {
+    "theme_key": "stackbit-themes-fjord-nextjs",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/fjord-nextjs&ssg=next"
+  },
   "stackbit-themes-fjord-unibit": {
     "theme_key": "stackbit-themes-fjord-unibit",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/fjord-unibit"
+  },
+  "stackbit-themes-fresh-nextjs": {
+    "theme_key": "stackbit-themes-fresh-nextjs",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/fresh-nextjs&ssg=next"
   },
   "stackbit-themes-fresh-unibit": {
     "theme_key": "stackbit-themes-fresh-unibit",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/fresh-unibit"
   },
+  "stackbit-themes-libris-nextjs": {
+    "theme_key": "stackbit-themes-libris-nextjs",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/libris-nextjs&ssg=next"
+  },
   "stackbit-themes-libris-unibit": {
     "theme_key": "stackbit-themes-libris-unibit",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/libris-unibit"
   },
+  "stackbit-themes-personal-nextjs": {
+    "theme_key": "stackbit-themes-personal-nextjs",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/personal-nextjs&ssg=next"
+  },
+  "stackbit-themes-podcaster-nextjs": {
+    "theme_key": "stackbit-themes-podcaster-nextjs",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/podcaster-nextjs&ssg=next"
+  },
   "stackbit-themes-starter-unibit": {
     "theme_key": "stackbit-themes-starter-unibit",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/starter-unibit"
+  },
+  "stackbit-themes-vanilla-jekyll": {
+    "theme_key": "stackbit-themes-vanilla-jekyll",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/vanilla-jekyll&ssg=jekyll"
+  },
+  "stackbit-themes-vanilla-nextjs": {
+    "theme_key": "stackbit-themes-vanilla-nextjs",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/vanilla-nextjs&ssg=next"
   },
   "stackbit-themes-vanilla-unibit": {
     "theme_key": "stackbit-themes-vanilla-unibit",
@@ -2534,6 +2630,10 @@
   "tigefa4u-jekmdl": {
     "theme_key": "tigefa4u-jekmdl",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/tigefa4u/jekmdl&ssg=jekyll"
+  },
+  "timlrx-tailwind-nextjs-starter-blog": {
+    "theme_key": "timlrx-tailwind-nextjs-starter-blog",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/timlrx/tailwind-nextjs-starter-blog&ssg=next"
   },
   "tnguyen-blueface": {
     "theme_key": "tnguyen-blueface",

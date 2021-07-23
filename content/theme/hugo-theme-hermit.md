@@ -10,4 +10,6 @@ cms:
 date: 2018-10-23T04:59:56.000Z
 description: A minimal & fast Hugo theme for bloggers
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -10,4 +10,6 @@ cms:
 date: 2018-10-07T12:37:00.000Z
 description: A simple Hugp theme for tech-blogs.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -10,4 +10,6 @@ cms:
 date: 2016-09-08T14:50:26.000Z
 description: Vec is a minimal, clean and beautiful theme for Hugo.
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

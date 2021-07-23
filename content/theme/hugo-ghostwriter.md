@@ -10,4 +10,6 @@ cms:
 date: 2015-04-26T09:57:24.000Z
 description: A port of ghostwriter theme to Hugo.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -10,4 +10,6 @@ cms:
 date: 2016-09-26T06:30:06.000Z
 description: Great looking resume/CV theme designed for developers.
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

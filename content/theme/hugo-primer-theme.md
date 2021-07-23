@@ -10,4 +10,6 @@ cms:
 date: 2019-12-02T10:25:28.000Z
 description: Hugo theme based on GitHub's Primer CSS
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

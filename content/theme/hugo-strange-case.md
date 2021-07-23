@@ -12,4 +12,6 @@ description: >-
   Strange Case is a Hugo theme for people who like the Hyde theme ported from
   Jekyll but prefer using Bootstrap.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
