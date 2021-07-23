@@ -24,5 +24,5 @@ archetype:
 date: 2019-05-10T13:57:28.000Z
 description: Ampersand is a Medium inspired blogging theme.
 stale: false
-weight: 5
+draft: true
 ---

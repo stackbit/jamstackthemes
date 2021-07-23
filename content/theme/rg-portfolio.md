@@ -18,7 +18,6 @@ description: >-
   Kick-off your Portfolio website with RG-Portfolio gatsby starter. We have used
   Gatsby + Contenful.
 stale: false
-weight: 12
 ---
 
 # A simple starter kit for Gatsby

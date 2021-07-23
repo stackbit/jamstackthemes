@@ -24,5 +24,5 @@ archetype:
 date: 2019-05-23T18:26:16.000Z
 description: Fresh is a personal theme with a blog for Stackbit
 stale: false
-weight: 8
+draft: true
 ---

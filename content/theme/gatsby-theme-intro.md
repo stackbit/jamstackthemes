@@ -18,7 +18,6 @@ services:
   - Formspree
 description: Personal branding theme for developers
 stale: false
-weight: 14
 ---
 
 # Intro - Personal branding theme for developers

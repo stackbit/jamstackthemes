@@ -1,28 +1,17 @@
 ---
-title: DIY
-layout: single
-github: https://github.com/stackbit-themes/diy-unibit
-demo: https://themes.stackbit.com/demos/diy?themeBarHidden=true
+title: Nextjs DIY
+github: https://github.com/stackbit-themes/diy-nextjs
+demo: https://themes.stackbit.com/demos/diy/?themeBarHidden=true
 author: Stackbit
 ssg:
-  - Unibit
-  - Hugo
-  - Gatsby
-  - Jekyll
   - Next
 cms:
-  - Contentful
-  - DatoCMS
-  - Forestry
-  - NetlifyCMS
-  - Sanity
   - No CMS
 css:
   - SCSS
-date: 2020-11-10
+date: 2021-07-22T00:00:00.000Z
 description: DIY is a multi-page marketing theme with an advanced layout builder.
 stale: false
-draft: true
 ---
 
 ## Theme Features

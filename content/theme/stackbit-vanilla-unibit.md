@@ -22,5 +22,5 @@ css:
 date: 2019-05-23T18:26:16.000Z
 description: Vanilla a vanilla theme for Stackbit
 stale: false
-weight: 9
+draft: true
 ---

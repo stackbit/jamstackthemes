@@ -13,7 +13,6 @@ description: >-
   archetypical business website. The theme is fully responsive, blazing fast and
   artfully illustrated.
 stale: false
-weight: 11
 ---
 
 # Deployment

@@ -9,7 +9,7 @@ ssg:
 cms:
   - No CMS
 css:
-  - Sass
+  - SCSS
 archetype:
   - Blog
 description: >-

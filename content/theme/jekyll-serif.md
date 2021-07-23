@@ -16,5 +16,4 @@ css:
 date: 2019-11-08T00:00:00.000Z
 description: Serif is a beautiful small business theme for Jekyll.
 stale: false
-weight: 10
 ---
