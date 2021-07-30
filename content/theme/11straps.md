@@ -1,7 +1,7 @@
 ---
 title: "11straps"
 github: https://github.com/holger1411/11straps
-demo: https://11straps.com/
+demo: https://11straps-demo.netlify.app/
 author: Holger Koenemann
 date: 2021-07-10 
 ssg:
