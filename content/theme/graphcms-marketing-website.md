@@ -10,7 +10,7 @@ cms:
 css:
   - Tailwind
 date: 2021-07-18T19:00:00.000Z
-description: Next.js starter for creating a SaaS Marketing Website with GraphCMS 
+description: Next.js starter for creating a SaaS Marketing Website with GraphCMS
 stale: false
 archetype:
   - Business

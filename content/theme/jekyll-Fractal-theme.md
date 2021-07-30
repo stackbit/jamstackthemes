@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2017-11-10T23:43:31.000Z
 description: An awesome jekyll-fractal theme for the html5 fractal template
-stale: false
+stale: true
 disabled_reason: demo url not found
 disabled: true
 ---

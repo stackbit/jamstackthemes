@@ -11,5 +11,5 @@ date: 2018-04-21T17:50:17.000Z
 description: ':sparkles: A blog theme for vuepress'
 stale: true
 disabled: true
-disabled_reason: error checking demo url
+disabled_reason: demo url connection refused
 ---

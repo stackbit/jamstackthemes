@@ -11,5 +11,5 @@ date: 2017-08-09T19:17:13.000Z
 description: Jekyll Materialize Starter Theme
 stale: true
 disabled: true
-disabled_reason: error checking demo url
+disabled_reason: demo url not found
 ---

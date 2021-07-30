@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2015-06-18T16:26:37.000Z
 description: Port of Nick Balestra's Cactus theme to Hugo.
-stale: false
+stale: true
 disabled_reason: demo url not found
 disabled: true
 ---

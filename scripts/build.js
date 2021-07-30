@@ -42,8 +42,8 @@ const build = async (options) => {
 }
 
 const options = {
-    disabled: true, // Skip processing themes that have front-matter `disabled: true`
-    draft: true, // Skip processing themes that have front-matter `draft: true`
+    disabled: argv.disabled !== "false", // Skip processing themes that have front-matter `disabled: true`
+    draft: argv.draft || true, // Skip processing themes that have front-matter `draft: true`
     demos: argv.demos !== "false", // checks the demo url using headless browser and disables the theme if the url does not resolve
     stackbit: argv.stackbit !== "false", // generates `data/stackbit.json` which is used for the "create site" button
     github: argv.github !== "false", // generates `data/themes.json` which is used for github stars, commits meta data etc

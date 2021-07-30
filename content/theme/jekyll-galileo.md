@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2015-11-15T11:56:59.000Z
 description: Another damn theme for Jekyll
-stale: false
+stale: true
 disabled_reason: demo url not found
 disabled: true
 ---

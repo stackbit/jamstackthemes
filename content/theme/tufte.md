@@ -1,14 +1,15 @@
 ---
-title: "Tufte"
+title: Tufte
 github: https://github.com/slashformotion/hugo-tufte
 demo: https://slashformotion.github.io/hugo-tufte/
-author: "Slashformotion, Shawn O'Hare"
-date: 2021-07-28
+author: Slashformotion, Shawn O'Hare
+date: 2021-07-28T00:00:00.000Z
 ssg:
   - Hugo
 cms:
-  - No CMS 
+  - No CMS
 description: Content centric Hugo blogging theme styled with Tufte-css.
+stale: false
 ---
 
 # Tufte Hugo Theme

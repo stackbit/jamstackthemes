@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2015-06-10T13:59:47.000Z
 description: Port of Startbootstrap's Freelancer theme to Hugo
-stale: true
+stale: false
 disabled_reason: demo url not found
 disabled: true
 ---

@@ -11,5 +11,5 @@ date: 2017-03-10T15:42:27.000Z
 description: Monday is a minimal and 100% free blog template for Jekyll
 stale: true
 disabled: true
-disabled_reason: demo url not found
+disabled_reason: error checking demo url
 ---

@@ -10,6 +10,6 @@ cms:
 date: 2013-10-09T21:57:31.000Z
 description: Modern Jekyll based blog for companies
 stale: true
-disabled_reason: demo url not found
+disabled_reason: demo url connection refused
 disabled: true
 ---

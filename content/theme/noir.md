@@ -10,6 +10,6 @@ cms:
   - No Cms
 description: An automatic dark mode adaptation of the Poole theme for Jekyll.
 stale: false
-disabled_reason: error checking demo url
+disabled_reason: demo url connection refused
 disabled: true
 ---

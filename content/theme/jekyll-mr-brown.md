@@ -11,5 +11,5 @@ date: 2017-02-23T17:03:57.000Z
 description: Mr.Brown is a responsive Jekyll theme
 stale: true
 disabled: true
-disabled_reason: demo url not found
+disabled_reason: error checking demo url
 ---

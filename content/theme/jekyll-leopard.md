@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2016-03-29T15:22:17.000Z
 description: 个人博客，看效果进入
-stale: false
+stale: true
 disabled: true
 disabled_reason: error checking demo url
 ---

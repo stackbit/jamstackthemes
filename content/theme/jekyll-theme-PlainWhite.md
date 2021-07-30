@@ -10,6 +10,6 @@ cms:
 date: 2019-03-24T16:00:17.000Z
 description: A configurable portfolio-style jekyll theme for writers.
 stale: false
-disabled_reason: error checking demo url
+disabled_reason: demo url connection refused
 disabled: true
 ---

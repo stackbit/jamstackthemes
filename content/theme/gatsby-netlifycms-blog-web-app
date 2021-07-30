@@ -1,18 +1,22 @@
 ---
-title: "Gatsby Netlify CMS Modern blog web-app"
+title: Gatsby Netlify CMS Modern blog web-app
 github: https://github.com/simarmannsingh/gatsby-netlifycms-starter-template
-demo: https://gatsby-netlifycms-modern-template.netlify.app/ 
+demo: https://gatsby-netlifycms-modern-template.netlify.app/
 author: Simar Mann Singh
-date: 2021-07-03 
+date: 2021-07-03T00:00:00.000Z
 ssg:
   - Gatsby
 cms:
-  - Netlify CMS 
-css: 
+  - Netlify CMS
+css:
   - Bulma
 archetype:
   - Blog
-description: This public repo is an example blog web-app that is built with Gatsby using Netlify CMS. It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.
+description: >-
+  This public repo is an example blog web-app that is built with Gatsby using
+  Netlify CMS. It follows the JAMstack architecture by using Git as a single
+  source of truth, and Netlify for continuous deployment, and CDN distribution.
+stale: false
 ---
 
 # Gatsby Netlify-CMS Modern blog

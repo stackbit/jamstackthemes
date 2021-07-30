@@ -10,7 +10,6 @@ cms:
   - No CMS
 archetype:
   - Blog
-  - Homepage
 description: A concise two-column blog theme for Jekyll.
 stale: false
 ---

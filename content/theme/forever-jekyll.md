@@ -1,9 +1,9 @@
 ---
-title: "Forever Jekyll"
+title: Forever Jekyll
 github: https://github.com/forever-jekyll/forever-jekyll
 demo: https://forever-jekyll.github.io/
 author: forever-jekyll
-date: 2021-07-16
+date: 2021-07-16T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
@@ -14,6 +14,7 @@ archetype:
   - Blog
   - Personal
 description: Forever Jekyll is a simple, elegant & full featured Jekyll theme.
+stale: false
 ---
 
 # A simple, elegant & full featured Jekyll theme.

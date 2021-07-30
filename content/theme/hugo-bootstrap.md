@@ -1,9 +1,9 @@
 ---
-title: "Hugo Bootstrap Theme"
+title: Hugo Bootstrap Theme
 github: https://github.com/razonyang/hugo-theme-bootstrap
-demo: https://hugo-theme-bootstrap.netlify.app/ # Please make sure this links to a theme demo and not your personal/business site. The demo url must use https
+demo: https://hugo-theme-bootstrap.netlify.app/
 author: razonyang
-date: 2021-07-26
+date: 2021-07-26T00:00:00.000Z
 ssg:
   - Hugo
 css:
@@ -13,6 +13,7 @@ cms:
 archetype:
   - Blog
 description: An extreme fast, responsive and feature-rich blog theme for Hugo.
+stale: false
 ---
 
 [English](https://github.com/razonyang/hugo-theme-bootstrap/blob/master/README.md) · 
