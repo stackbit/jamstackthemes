@@ -1,15 +1,15 @@
 ---
-title: "11straps"
+title: 11straps
 github: https://github.com/holger1411/11straps
 demo: https://11straps-demo.netlify.app/
 author: Holger Koenemann
-date: 2021-07-10 
+date: 2021-07-10T00:00:00.000Z
 ssg:
   - Eleventy
 cms:
   - No CMS
 css:
-  - Bootstrap 
+  - Bootstrap
   - PostCSS
   - SCSS
 archetype:
@@ -18,6 +18,7 @@ archetype:
   - Business
   - Multi Pourpose
 description: A Eleventy + Bootstrap 5 starter kit.
+stale: false
 ---
 
 # A combination of Eleventy and Bootstrap 5

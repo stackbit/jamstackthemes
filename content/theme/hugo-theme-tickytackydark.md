@@ -14,5 +14,5 @@ archetype:
 description: >-
   Ticky Tacky Dark's front page is a set of little boxes, all the same,
   containing pictures that represent your site's pages.
-stale: false
+stale: true
 ---

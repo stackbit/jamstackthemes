@@ -10,4 +10,6 @@ cms:
 date: 2015-11-20T14:42:31.000Z
 description: 💎 mug Jekyll theme
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

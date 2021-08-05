@@ -10,4 +10,6 @@ cms:
 date: 2015-11-15T17:33:04.000Z
 description: ':gem: Lora free Jekyll theme'
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---
