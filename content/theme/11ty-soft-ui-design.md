@@ -7,10 +7,10 @@ date: 2021-08-09
 ssg:
   - Eleventy
 cms:
-  - Prismic CMS
-css: # css is optional
-  - Bootstrap 5 
-archetype: # archetype is optional
+  - Prismic
+css:
+  - Bootstrap
+archetype:
   - Blog
   - Portfolio
 description: Eleventy Soft UI is an Eleventy adaptation of Soft UI Design System, a modern Bootstrap 5 Design, including a Blog system that uses Prismic CMS for content management 
