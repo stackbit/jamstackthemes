@@ -5,11 +5,13 @@ theme = "jamstackthemes"
 paginate = 18
 summaryLength = 10
 # enableGitInfo = false
+
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 
 [params]
+  segment_id = ""
   description = "Over 1000 themes and starters for Jamstack and static site generators."
   stackbit_button = true
   iframe_demo = true

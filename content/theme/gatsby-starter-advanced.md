@@ -1,14 +1,18 @@
 ---
-title: "Gatsby Advanced Starter"
+title: Gatsby Advanced Starter
 github: https://github.com/Vagr9K/gatsby-advanced-starter
 demo: https://gatsby-advanced-starter-demo.netlify.app/
 author: vagr9k
-date: 2021-08-09
+date: 2021-08-09T00:00:00.000Z
 ssg:
   - Gatsby
 cms:
   - No CMS
-description: Gatsby Advanced Starter aims to provide a minimal base for building advanced GatsbyJS powered websites by using the latest technologies to simplify your process.
+description: >-
+  Gatsby Advanced Starter aims to provide a minimal base for building advanced
+  GatsbyJS powered websites by using the latest technologies to simplify your
+  process.
+stale: false
 ---
 
 # A starter skeleton with advanced features

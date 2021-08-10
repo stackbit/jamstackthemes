@@ -31,7 +31,6 @@ const groups = {
         "kontent",
         "netlifycms",
         "no-cms",
-
         "airtable",
         "directus",
         "firebase",
@@ -41,6 +40,6 @@ const groups = {
         "storyblok",
         "wordpress"
     ],
-    css: ["bootstrap", "scss", "tailwind", "bulma", "postcss"],
+    css: ["bootstrap", "scss", "tailwind", "bulma", "postcss","styled-components"],
     archetype: ["blog", "portfolio", "business", "multi-purpose", "single-page", "ecommerce","documentation", "personal"],
 };

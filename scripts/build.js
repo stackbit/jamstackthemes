@@ -27,12 +27,14 @@ const build = async (options) => {
     }
 
     if (options.demos) {
+        // Visits each demo URL with a headless browser and if the site cannot be reached sets the markdown file to disabled=true
         await testDemoUrls(themesMarkdown)
     }
 
     if (options.images) {
-        await generateScreenshots(themesMarkdown)
-        await generateThumbnails(themesMarkdown)
+        const overwrite = options.file;
+        await generateScreenshots(themesMarkdown, overwrite)
+        await generateThumbnails(themesMarkdown, overwrite)
     }
 
     writeErrorFile(errorLog)
@@ -42,13 +44,15 @@ const build = async (options) => {
 }
 
 const options = {
+    github: argv.github !== "false", // generates `data/themes.json` which is used for github stars, commits meta data etc
+    stackbit: argv.stackbit !== "false", // generates `data/stackbit.json` which is used for the "create site" button
+    demos: argv.demos !== "false", // tests the themes demo url using headless browser and disables the theme if the url does not resolve
+    images: argv.images !== "false", // captures screenshots and generates thumbnails
+
     disabled: argv.disabled !== "false", // Skip processing themes that have front-matter `disabled: true`
     draft: argv.draft || true, // Skip processing themes that have front-matter `draft: true`
-    demos: argv.demos !== "false", // checks the demo url using headless browser and disables the theme if the url does not resolve
-    stackbit: argv.stackbit !== "false", // generates `data/stackbit.json` which is used for the "create site" button
-    github: argv.github !== "false", // generates `data/themes.json` which is used for github stars, commits meta data etc
-    images: argv.images !== "false", // captures screenshots and generates thumnails
-    latest: argv.latest || false, // build.js --latest | only process themes which don't already exist in `themes.json`
+    latest: argv.latest || false, // Only process themes which don't already exist in `data/themes.json`
+    file: argv.file || false // Only process a single file ie --file=gatsby-starter-advanced.md
 }
 
 build(options);

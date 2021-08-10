@@ -77,18 +77,18 @@ const generateThumbnail = async (frontmatter, overwrite = false) => {
     }
 };
 
-const generateThumbnails = async (markdownData) => {
+const generateThumbnails = async (markdownData, overwrite) => {
     spinner.start("Generating Thumbnails");
     for (const theme of markdownData) {
-        await generateThumbnail(theme)
+        await generateThumbnail(theme, overwrite)
     }
     spinner.succeed("Success - Generating Thumbnails");
 };
 
-const generateScreenshots = async (markdownData) => {
+const generateScreenshots = async (markdownData, overwrite) => {
     spinner.start("Capturing Screenshots");
     for (const theme of markdownData) {
-        await captureScreenshot(theme)
+        await captureScreenshot(theme, overwrite)
     }
     spinner.succeed("Success - Capturing Screenshots");
 }
