@@ -171,6 +171,10 @@
     "theme_key": "andrewbanchich-forty-jekyll-theme",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/andrewbanchich/Forty-Jekyll-Theme&ssg=jekyll"
   },
+  "andrewhwanpark-brutalist-blog": {
+    "theme_key": "andrewhwanpark-brutalist-blog",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/andrewhwanpark/brutalist-blog&ssg=jekyll"
+  },
   "andrewhwanpark-dark-poole": {
     "theme_key": "andrewhwanpark-dark-poole",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/andrewhwanpark/dark-poole&ssg=jekyll"
@@ -402,6 +406,10 @@
   "bawn92-sleek_blog": {
     "theme_key": "bawn92-sleek_blog",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/bawn92/sleek_blog&ssg=jekyll"
+  },
+  "bdhu-minimalist": {
+    "theme_key": "bdhu-minimalist",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/BDHU/minimalist&ssg=jekyll"
   },
   "ben-siewert-gatsby-starter-auth-aws-amplify": {
     "theme_key": "ben-siewert-gatsby-starter-auth-aws-amplify",
@@ -1519,6 +1527,10 @@
     "theme_key": "jeffreytse-jekyll-theme-yat",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jeffreytse/jekyll-theme-yat&ssg=jekyll"
   },
+  "jekyll-garden-jekyll-garden.github.io": {
+    "theme_key": "jekyll-garden-jekyll-garden.github.io",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Jekyll-Garden/jekyll-garden.github.io&ssg=jekyll"
+  },
   "jekyll-one-j1-template-starter": {
     "theme_key": "jekyll-one-j1-template-starter",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jekyll-one/j1-template-starter&ssg=jekyll"
@@ -1559,6 +1571,10 @@
     "theme_key": "jjcav84-mdbreact-gatsby-starter",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jjcav84/mdbreact-gatsby-starter&ssg=gatsby"
   },
+  "jmau111-hugo-theme-ava": {
+    "theme_key": "jmau111-hugo-theme-ava",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jmau111/hugo-theme-ava&ssg=hugo"
+  },
   "jnjosh-internet-weblog": {
     "theme_key": "jnjosh-internet-weblog",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jnjosh/internet-weblog&ssg=hugo"
@@ -1586,6 +1602,10 @@
   "joytou-joytou.github.io": {
     "theme_key": "joytou-joytou.github.io",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/joytou/joytou.github.io&ssg=jekyll"
+  },
+  "jpanther-congo": {
+    "theme_key": "jpanther-congo",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/jpanther/congo&ssg=hugo"
   },
   "jpescador-hugo-future-imperfect": {
     "theme_key": "jpescador-hugo-future-imperfect",

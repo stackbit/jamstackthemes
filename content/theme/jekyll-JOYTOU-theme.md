@@ -10,6 +10,6 @@ cms:
 date: 2017-08-03T13:26:48.000Z
 description: JOYTOU is a BootStrap blog template developed by Joytou Wu.
 stale: true
-disabled: true
-disabled_reason: error checking demo url
+disabled: false
+disabled_reason: ''
 ---

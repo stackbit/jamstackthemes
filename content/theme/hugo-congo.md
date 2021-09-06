@@ -3,7 +3,7 @@ title: Congo
 github: https://github.com/jpanther/congo
 demo: https://jpanther.github.io/congo/
 author: jpanther
-date: 2021-08-23
+date: 2021-08-23T00:00:00.000Z
 ssg:
   - Hugo
 cms:
@@ -15,6 +15,7 @@ archetype:
   - Personal
   - Multi-Purpose
 description: A simple, lightweight theme for Hugo built with Tailwind CSS.
+stale: false
 ---
 
 Congo is designed to be a simple, lightweight theme for Hugo. It's built using Tailwind CSS with a clean and minimalist design that prioritises to your content.

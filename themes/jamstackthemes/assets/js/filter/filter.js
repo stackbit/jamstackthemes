@@ -89,7 +89,10 @@ function updateCount(group, matches) {
     let count = matches.filter(match => {
       return match.includes(term);
     })
-    document.querySelector(`#filter-count-${term}`).innerText = count.length
+    const termDom = document.querySelector(`#filter-count-${term}`)
+    if (termDom) {
+      termDom.innerText = count.length
+    }
   })
 }
 
@@ -98,7 +101,10 @@ function resetCount(group, matches) {
     let count = matches.filter(match => {
       return match.includes(term);
     })
-    document.querySelector(`#filter-count-${term}`).innerText = count.length
+    const termDom = document.querySelector(`#filter-count-${term}`)
+    if (termDom) {
+      termDom.innerText = count.length
+    }
   })
 }
 

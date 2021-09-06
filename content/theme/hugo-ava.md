@@ -1,9 +1,9 @@
 ---
-title: "Ava"
+title: Ava
 github: https://github.com/jmau111/hugo-theme-ava
 demo: https://hugo-ava-theme.netlify.app/
 author: Julien Maury
-date: 2021-08-10
+date: 2021-08-10T00:00:00.000Z
 ssg:
   - Hugo
 cms:
@@ -11,6 +11,7 @@ cms:
 archetype:
   - Blog
 description: Ava is a light theme for your blog with essential features you might dig in.
+stale: false
 ---
 
 # A simple theme for blogging with Hugo

@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "theme_key": "narative-gatsby-theme-novela",
+    "file": "gatsby-theme-novela.md",
+    "repoUrl": "https://github.com/narative/gatsby-theme-novela",
+    "error": "Github repo not found"
+  }
+]

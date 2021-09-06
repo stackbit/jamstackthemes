@@ -11,5 +11,5 @@ date: 2016-04-28T04:46:31.000Z
 description: Minimalist two-column jekyll theme
 stale: true
 disabled: true
-disabled_reason: error checking demo url
+disabled_reason: demo url not found
 ---

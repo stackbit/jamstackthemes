@@ -12,7 +12,6 @@ const config = require('./build/config');
 const {errorLog} = require('./build/errors');
 
 const build = async (options) => {
-    console.log("Build options", options)
     const themesMarkdown = await generateMarkdownData(config.themesMarkdownFiles, options)
 
     if (options.github) {
@@ -32,7 +31,7 @@ const build = async (options) => {
     }
 
     if (options.images) {
-        const overwrite = options.file;
+        const overwrite = options.file; // when processing a single file always recapture and regenerate the images
         await generateScreenshots(themesMarkdown, overwrite)
         await generateThumbnails(themesMarkdown, overwrite)
     }
@@ -50,9 +49,10 @@ const options = {
     images: argv.images !== "false", // captures screenshots and generates thumbnails
 
     disabled: argv.disabled !== "false", // Skip processing themes that have front-matter `disabled: true`
-    draft: argv.draft || true, // Skip processing themes that have front-matter `draft: true`
+    draft: argv.draft !== "false",  // Skip processing themes that have front-matter `draft: true`
     latest: argv.latest || false, // Only process themes which don't already exist in `data/themes.json`
-    file: argv.file || false // Only process a single file ie --file=gatsby-starter-advanced.md
+    file: argv.file || false, // Only process a single file ie --file=gatsby-starter-advanced.md
+    all: argv.all || false // process all themes
 }
 
 build(options);

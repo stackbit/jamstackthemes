@@ -1,9 +1,9 @@
 ---
-title: "brutalist-blog"
+title: brutalist-blog
 github: https://github.com/andrewhwanpark/brutalist-blog
 demo: https://andrewhwanpark.github.io/brutalist-blog/
 author: andrewhwanpark
-date: 2021-07-20
+date: 2021-07-20T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
@@ -13,7 +13,10 @@ css:
 archetype:
   - Blog
   - Portfolio
-description: brutalist-blog is a no frills, fully-responsive, hyper-minimalistic dark/light theme
+description: >-
+  brutalist-blog is a no frills, fully-responsive, hyper-minimalistic dark/light
+  theme
+stale: false
 ---
 
 # brutalist-blog

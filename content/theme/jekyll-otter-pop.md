@@ -10,6 +10,6 @@ cms:
 date: 2014-05-10T16:43:23.000Z
 description: The world's greatest jekyll theme
 stale: true
-disabled: false
-disabled_reason: ''
+disabled: true
+disabled_reason: error checking demo url
 ---

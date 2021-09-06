@@ -12,4 +12,6 @@ description: >-
   Pretty basic starter for Gatsby that covers all of the essentials. All you
   have to do is start typing!
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

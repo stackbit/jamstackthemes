@@ -19,7 +19,7 @@ cms:
   - No CMS
 css:
   - SCSS
-date: 2020-11-10
+date: 2020-11-10T00:00:00.000Z
 description: DIY is a multi-page marketing theme with an advanced layout builder.
 stale: false
 draft: true

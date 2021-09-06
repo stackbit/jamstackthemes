@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2016-01-18T02:09:56.000Z
 description: A jekyll theme for minimal editions
-stale: true
+stale: false
 ---

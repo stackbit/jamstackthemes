@@ -76,12 +76,11 @@ const generateStackbit = (frontmatter) => {
 };
 
 const generateStackbitData = (markdownData) => {
-    console.log("** Generating Stackbit data **")
-    spinner.start();
+    spinner.start("Fetching Stackbit Data");
     const stackbitData = markdownData.map(theme => {
         return generateStackbit(theme)
     }).filter(stackbit => stackbit.createUrl);
-    spinner.succeed("Success");
+    spinner.succeed("Success - Fetching Stackbit Data");
     return stackbitData;
 };
 

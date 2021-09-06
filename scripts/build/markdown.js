@@ -72,8 +72,27 @@ const generateMarkdownData = async (markdownFiles, options = {}) => {
         skipped: 0
     }
 
-    // Filter themes before fetching from Github
     const markdownData = markdownFiles.map(absFilename => loadThemeFrontMatter(absFilename)).filter(frontmatter => {
+
+        if (options.file) {
+            // if the cli command --file=hugo-swift-theme.md is used, only fetch that specific theme
+            if (options.file !== frontmatter.file) {
+                filterCounts.skipped += 1
+                return false
+            }
+            return true;
+        }
+
+        if (options.latest) {
+            // if the cli command --latest is used, only fetch new themes which don't already exist in `data/themes.json`
+            const themeKey = getThemeKey(frontmatter.github)
+            if (config.themesJsonData[themeKey]) {
+                filterCounts.latest += 1
+                return false
+            }
+            return true
+        }
+
         if (options.disabled) {
             if (frontmatter.disabled) {
                 filterCounts.disabled += 1
@@ -86,29 +105,23 @@ const generateMarkdownData = async (markdownFiles, options = {}) => {
                 return false;
             }
         }
-        // if the cli command --latest is used, only fetch new themes which don't already exist in `data/themes.json`
-        if (options.latest) {
-            const themeKey = getThemeKey(frontmatter.github)
-            if (config.themesJsonData[themeKey]) {
-                filterCounts.latest += 1
-                return false
-            }
-        }
-        // if the cli command --file=hugo-swift-theme.md is used, only fetch that specific theme
-        if (options.file) {
-            if (options.file !== frontmatter.file) {
-                filterCounts.skipped += 1
-                return false
-            }
-        }
+
         return true;
     });
 
-    console.log(`Loading (${markdownData.length}/${markdownFiles.length}) themes`)
-    console.log("Disabled ", filterCounts.disabled)
-    console.log("Drafts ", filterCounts.draft)
-    console.log("Latest ", filterCounts.latest)
-    console.log("Skipped ", filterCounts.skipped)
+
+    if (options.file) {
+        console.log(`Processing single theme - ${options.file}`)
+    } else if (options.latest) {
+        console.log(`Processing latest themes`)
+    } else {
+        console.log(`Processing all themes`)
+        console.log(`Total ${markdownFiles.length} themes`)
+        console.log(`Skipping ${filterCounts.disabled} disabled themes`)
+        console.log(`Skipping ${filterCounts.draft} draft themes`)
+        console.log(`Skipping ${filterCounts.latest} existing themes`)
+        console.log(`Processing ${markdownData.length}/${markdownFiles.length} themes...`)
+    }
 
     return markdownData;
 }

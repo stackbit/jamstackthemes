@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2016-06-21T01:22:11.000Z
 description: 🌠 Original Futuristic Hexo Theme
-stale: false
+stale: true
 ---

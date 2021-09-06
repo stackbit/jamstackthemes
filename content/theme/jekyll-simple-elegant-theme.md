@@ -10,6 +10,6 @@ cms:
 date: 2015-08-21T04:20:04.000Z
 description: Blog theme powered by Jekyll.
 stale: true
-disabled: false
-disabled_reason: ''
+disabled: true
+disabled_reason: error checking demo url
 ---

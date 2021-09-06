@@ -10,6 +10,6 @@ cms:
 date: 2016-05-30T18:47:21.000Z
 description: Stylish Two-Column Jekyll Theme
 stale: true
-disabled_reason: demo url not found
-disabled: true
+disabled_reason: ''
+disabled: false
 ---

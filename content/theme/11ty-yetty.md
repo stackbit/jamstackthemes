@@ -7,12 +7,14 @@ ssg:
   - Eleventy
 cms:
   - No CMS
-date: 2021-08-17
+date: 2021-08-17T00:00:00.000Z
 archetype:
   - Blog
   - Portfolio
 description: >-
-  Yetty is yet another [Eleventy](https://11ty.io) starter kit for my (& your) new projects. Built with accessibility and performance in mind.
+  Yetty is yet another [Eleventy](https://11ty.io) starter kit for my (& your)
+  new projects. Built with accessibility and performance in mind.
+stale: false
 ---
 
 # Yet another starter kit for Eleventy

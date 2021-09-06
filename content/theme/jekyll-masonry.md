@@ -10,4 +10,6 @@ cms:
 date: 2014-09-03T14:35:16.000Z
 description: Jekyll theme based on masonry
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

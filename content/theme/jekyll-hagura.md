@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2016-11-02T14:30:30.000Z
 description: A light weight, minimal Jekyll theme.
-stale: true
+stale: false
 ---

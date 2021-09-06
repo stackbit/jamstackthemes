@@ -21,7 +21,7 @@ css:
   - SCSS
 archetype:
   - Blog
-date: 2019-05-23
+date: 2019-05-23T00:00:00.000Z
 description: Fjord is a beautiful, minimal blog theme.
 stale: false
 draft: true

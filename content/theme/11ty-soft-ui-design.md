@@ -1,9 +1,9 @@
 ---
-title: "Eleventy Soft UI Design"
+title: Eleventy Soft UI Design
 github: https://github.com/app-generator/eleventy-soft-ui-design
 demo: https://eleventy-soft-ui.appseed-srv1.com/
 author: AppSeed
-date: 2021-08-09
+date: 2021-08-09T00:00:00.000Z
 ssg:
   - Eleventy
 cms:
@@ -13,7 +13,11 @@ css:
 archetype:
   - Blog
   - Portfolio
-description: Eleventy Soft UI is an Eleventy adaptation of Soft UI Design System, a modern Bootstrap 5 Design, including a Blog system that uses Prismic CMS for content management 
+description: >-
+  Eleventy Soft UI is an Eleventy adaptation of Soft UI Design System, a modern
+  Bootstrap 5 Design, including a Blog system that uses Prismic CMS for content
+  management
+stale: false
 ---
 
 # Open-source starter built with 11ty and prismic CMS
