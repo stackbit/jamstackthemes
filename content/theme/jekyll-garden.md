@@ -3,16 +3,12 @@ title: "Jekyll Garden"
 github: https://github.com/Jekyll-Garden/jekyll-garden.github.io
 demo: https://jekyll-garden.github.io/
 author: Hiran Venugopalan
-date: 2021-08-28 # Enter the date you submitted the theme YYYY-MM-DD
+date: 2021-08-28
 ssg:
   - Jekyll
 cms:
   - No CMS
-archetype: # archetype is optional
-  - Digital Garden
-  - Personal Website
 description: A Digital Garden Theme for Jekyll. Jekyll Garden lets you create a static HTML version of your markdown notes and publish via Github pages. Made for Obsidian users!
-
 ---
 
 # Jekyll Digital Garden
