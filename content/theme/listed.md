@@ -1,7 +1,7 @@
 ---
 title: "Listed"
-github: https://github.com/username/repo
-demo: https://github.com/ronv/listed # Please make sure this links to a theme demo and not your personal/business site. The demo url must use https
+github: https://github.com/ronv/listed
+demo: https://listed-hugo.netlify.app/ # Please make sure this links to a theme demo and not your personal/business site. The demo url must use https
 author: Ronalds Vilcins
 date: 2021-09-18 # Enter the date you submitted the theme YYYY-MM-DD
 ssg:
