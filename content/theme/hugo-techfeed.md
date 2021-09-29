@@ -1,6 +1,6 @@
 ---
 title: Techfeed Hugo
-github: https://github.com/gethugothemes/techfeed-hugo/
+github: https://github.com/gethugothemes/techfeed-hugo
 demo: https://demo.gethugothemes.com/techfeed/
 author: Gethugothemes
 ssg:

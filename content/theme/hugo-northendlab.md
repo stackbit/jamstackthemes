@@ -1,6 +1,6 @@
 ---
 title: Northendlab Light
-github: https://github.com/gethugothemes/northendlab-light/
+github: https://github.com/gethugothemes/northendlab-light
 demo: https://demo.gethugothemes.com/northendlab-light/
 author: Gethugothemes
 ssg:

@@ -1,6 +1,6 @@
 ---
 title: Apollo
-github: https://github.com/gethugothemes/apollo-hugo/
+github: https://github.com/gethugothemes/apollo-hugo
 demo: https://demo.gethugothemes.com/apollo/
 author: Gethugothemes
 ssg:

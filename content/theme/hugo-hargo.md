@@ -1,6 +1,6 @@
 ---
 title: Hargo Hugo
-github: https://github.com/themefisher/hargo-hugo/
+github: https://github.com/themefisher/hargo-hugo
 demo: https://demo.gethugothemes.com/hargo/
 author: Themefisher
 ssg:

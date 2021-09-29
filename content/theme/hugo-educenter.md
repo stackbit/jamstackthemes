@@ -1,6 +1,6 @@
 ---
 title: Educenter Hugo
-github: https://github.com/themefisher/educenter-hugo/
+github: https://github.com/themefisher/educenter-hugo
 demo: https://demo.gethugothemes.com/educenter/
 author: Themefisher
 ssg:

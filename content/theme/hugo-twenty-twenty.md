@@ -1,6 +1,6 @@
 ---
 title: Twenty Twenty Hugo
-github: https://github.com/themefisher/twenty-twenty-hugo/
+github: https://github.com/themefisher/twenty-twenty-hugo
 demo: https://demo.gethugothemes.com/twenty-twenty/
 author: Themefisher
 ssg:

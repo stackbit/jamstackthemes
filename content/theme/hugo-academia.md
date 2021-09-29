@@ -1,6 +1,6 @@
 ---
 title: Academia Hugo
-github: https://github.com/themefisher/academia-hugo/
+github: https://github.com/themefisher/academia-hugo
 demo: https://demo.gethugothemes.com/academia/
 author: Themefisher
 ssg:

@@ -1,6 +1,6 @@
 ---
 title: Touchy
-github: https://github.com/gethugothemes/touchy-hugo/
+github: https://github.com/gethugothemes/touchy-hugo
 demo: https://demo.gethugothemes.com/touchy/
 author: Gethugothemes
 ssg:

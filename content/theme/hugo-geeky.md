@@ -1,6 +1,6 @@
 ---
 title: Geeky Hugo
-github: https://github.com/gethugothemes/geeky-hugo/
+github: https://github.com/gethugothemes/geeky-hugo
 demo: https://demo.gethugothemes.com/geeky/
 author: Gethugothemes
 ssg:

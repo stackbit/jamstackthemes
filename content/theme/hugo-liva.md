@@ -1,6 +1,6 @@
 ---
 title: Liva Hugo
-github: https://github.com/gethugothemes/liva-hugo/
+github: https://github.com/gethugothemes/liva-hugo
 demo: https://demo.gethugothemes.com/liva/
 author: Gethugothemes
 ssg:
