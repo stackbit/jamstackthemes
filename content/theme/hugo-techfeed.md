@@ -7,6 +7,8 @@ ssg:
   - Hugo
 css:
   - Bootstrap
+cms:
+  - No Cms
 archetype:
   - Blog
 date: 2021-08-29T16:01:35.000Z

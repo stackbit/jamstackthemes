@@ -7,6 +7,7 @@ ssg:
   - Hugo
 cms:
   - Forestry
+  - No Cms
 css:
   - Bootstrap
 archetype:

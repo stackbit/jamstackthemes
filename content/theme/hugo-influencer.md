@@ -7,6 +7,8 @@ ssg:
   - Hugo
 css:
   - Bootstrap
+cms:
+  - No Cms
 archetype:
   - Ecommerce 
 date: 2021-08-29T16:14:21.000Z

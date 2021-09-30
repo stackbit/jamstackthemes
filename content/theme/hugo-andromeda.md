@@ -5,6 +5,8 @@ demo: https://demo.gethugothemes.com/andromeda-light/
 author: Gethugothemes
 ssg:
   - Hugo
+cms:
+  - No Cms
 css:
   - Bootstrap
 archetype:
