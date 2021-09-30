@@ -13,10 +13,12 @@ css:
 archetype:
   - Business
 date: 2021-08-29T15:28:21.000Z
-description: Educenter is an educational website template powered by Hugo. It can be used as an online teaching platform, school and university website.
+description: >-
+  Educenter is an educational website template powered by Hugo. It can be used
+  as an online teaching platform, school and university website.
 stale: false
 disabled: false
-disabled_reason:
+disabled_reason: null
 ---
 
 ## Features

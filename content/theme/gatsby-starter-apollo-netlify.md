@@ -12,5 +12,5 @@ description: >-
   This project is an easy way to start developing fullstack apps with Gatsby and
   Apollo Server (using Netlify Lambda functions). For developing we use Netlify
   Dev to bring all of this magic to our local machine.
-stale: false
+stale: true
 ---

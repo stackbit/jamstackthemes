@@ -13,10 +13,12 @@ css:
 archetype:
   - Blog
 date: 2021-08-29T16:05:35.000Z
-description: Northendlab is a minimal personal blog theme powered by Hugo. It has a Premium version on our gethugothemes site.
+description: >-
+  Northendlab is a minimal personal blog theme powered by Hugo. It has a Premium
+  version on our gethugothemes site.
 stale: false
 disabled: false
-disabled_reason:
+disabled_reason: null
 ---
 
 ## Features

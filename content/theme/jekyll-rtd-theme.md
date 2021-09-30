@@ -12,4 +12,6 @@ description: >-
   Just another Jekyll theme for GitHub Pages based on ReadtheDocs's
   sphinx_rtd_theme styles
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

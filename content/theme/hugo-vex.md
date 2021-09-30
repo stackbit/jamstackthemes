@@ -16,7 +16,7 @@ date: 2018-01-09T21:59:07.000Z
 description: Vex product landing page template (Hugo version)
 stale: false
 disabled: false
-disabled_reason:
+disabled_reason: null
 ---
 
 ## Features

@@ -8,7 +8,7 @@ ssg:
   - Jekyll
 cms:
   - No CMS
-stale: false
+stale: true
 ---
 
 # Pudhina

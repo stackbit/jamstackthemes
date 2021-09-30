@@ -9,7 +9,7 @@ ssg:
 cms:
   - No Cms
 description: Modular and easy to use Gatsby template for a Healthcare Startup.
-stale: false
+stale: true
 ---
 
 # Easy to use gatsby template for a healthcare startup.

@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2019-03-03T03:55:20.000Z
 description: Hugo theme for personal blogs
-stale: true
+stale: false
 disabled: true
 disabled_reason: demo url not found
 ---

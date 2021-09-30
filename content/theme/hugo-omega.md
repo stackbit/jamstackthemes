@@ -16,7 +16,7 @@ date: 2018-07-15T10:07:51.000Z
 description: Omega is a landing page business template powered by Hugo.
 stale: false
 disabled: false
-disabled_reason:
+disabled_reason: null
 ---
 
 ## Features

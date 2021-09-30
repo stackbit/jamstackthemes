@@ -13,10 +13,12 @@ css:
 archetype:
   - Blog
 date: 2021-08-29T15:55:35.000Z
-description: Persian is a box design personal blog template based on Bootstrap and powered by Hugo. It is very responsive and perfectly fits on any sized screen device.
+description: >-
+  Persian is a box design personal blog template based on Bootstrap and powered
+  by Hugo. It is very responsive and perfectly fits on any sized screen device.
 stale: false
 disabled: false
-disabled_reason:
+disabled_reason: null
 ---
 
 ## Features

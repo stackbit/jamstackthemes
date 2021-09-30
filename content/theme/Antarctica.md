@@ -1,18 +1,18 @@
 ---
-title: "Antarctica"
+title: Antarctica
 github: https://github.com/SdtElectronics/jekyll-theme-antarctica
-demo: https://sdtelectronics.github.io/jekyll-theme-antarctica/ 
+demo: https://sdtelectronics.github.io/jekyll-theme-antarctica/
 author: Sdtelectronics
-date: 2021-09-25
+date: 2021-09-25T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
   - No CMS
-
 archetype:
   - Blog
   - Portfolio
 description: Stylish and feature-rich theme for Jekyll
+stale: false
 ---
 
 

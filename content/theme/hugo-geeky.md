@@ -13,10 +13,12 @@ css:
 archetype:
   - Blog
 date: 2021-08-29T16:16:35.000Z
-description: Geeky is a Personal Hugo blog theme focused on high speed. Geeky is fully responsive, Superfast, and powered by Bootstrap v5.
+description: >-
+  Geeky is a Personal Hugo blog theme focused on high speed. Geeky is fully
+  responsive, Superfast, and powered by Bootstrap v5.
 stale: false
 disabled: false
-disabled_reason:
+disabled_reason: null
 ---
 
 ## Features

@@ -1191,6 +1191,58 @@
     "theme_key": "gesquive-slate",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gesquive/slate&ssg=hugo"
   },
+  "gethugothemes-andromeda-light": {
+    "theme_key": "gethugothemes-andromeda-light",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gethugothemes/andromeda-light&ssg=hugo"
+  },
+  "gethugothemes-apollo-hugo": {
+    "theme_key": "gethugothemes-apollo-hugo",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gethugothemes/apollo-hugo&ssg=hugo"
+  },
+  "gethugothemes-bookworm-light": {
+    "theme_key": "gethugothemes-bookworm-light",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gethugothemes/bookworm-light&ssg=hugo"
+  },
+  "gethugothemes-geeky-hugo": {
+    "theme_key": "gethugothemes-geeky-hugo",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gethugothemes/geeky-hugo&ssg=hugo"
+  },
+  "gethugothemes-influencer-hugo": {
+    "theme_key": "gethugothemes-influencer-hugo",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gethugothemes/influencer-hugo&ssg=hugo"
+  },
+  "gethugothemes-liva-hugo": {
+    "theme_key": "gethugothemes-liva-hugo",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gethugothemes/liva-hugo&ssg=hugo"
+  },
+  "gethugothemes-navigator-hugo": {
+    "theme_key": "gethugothemes-navigator-hugo",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gethugothemes/navigator-hugo/&ssg=hugo"
+  },
+  "gethugothemes-northendlab-light": {
+    "theme_key": "gethugothemes-northendlab-light",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gethugothemes/northendlab-light&ssg=hugo"
+  },
+  "gethugothemes-omega-hugo": {
+    "theme_key": "gethugothemes-omega-hugo",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gethugothemes/omega-hugo&ssg=hugo"
+  },
+  "gethugothemes-persian-hugo": {
+    "theme_key": "gethugothemes-persian-hugo",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gethugothemes/persian-hugo&ssg=hugo"
+  },
+  "gethugothemes-restaurant-hugo": {
+    "theme_key": "gethugothemes-restaurant-hugo",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gethugothemes/restaurant-hugo/&ssg=hugo"
+  },
+  "gethugothemes-techfeed-hugo": {
+    "theme_key": "gethugothemes-techfeed-hugo",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gethugothemes/techfeed-hugo&ssg=hugo"
+  },
+  "gethugothemes-touchy-hugo": {
+    "theme_key": "gethugothemes-touchy-hugo",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/gethugothemes/touchy-hugo&ssg=hugo"
+  },
   "gherciu-gatsby-all-in": {
     "theme_key": "gherciu-gatsby-all-in",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/Gherciu/gatsby-all-in&ssg=gatsby"
@@ -2535,6 +2587,10 @@
     "theme_key": "ronv-lines",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ronv/lines&ssg=hugo"
   },
+  "ronv-listed": {
+    "theme_key": "ronv-listed",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/ronv/listed&ssg=hugo"
+  },
   "rosario-kasper": {
     "theme_key": "rosario-kasper",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/rosario/kasper&ssg=jekyll"
@@ -2614,6 +2670,10 @@
   "scotte-jekyll-clean": {
     "theme_key": "scotte-jekyll-clean",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/scotte/jekyll-clean&ssg=jekyll"
+  },
+  "sdtelectronics-jekyll-theme-antarctica": {
+    "theme_key": "sdtelectronics-jekyll-theme-antarctica",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/SdtElectronics/jekyll-theme-antarctica&ssg=jekyll"
   },
   "seanlane-gochowdown": {
     "theme_key": "seanlane-gochowdown",
@@ -3047,17 +3107,41 @@
     "theme_key": "thelehhman-texture",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/thelehhman/texture&ssg=jekyll"
   },
+  "themefisher-academia-hugo": {
+    "theme_key": "themefisher-academia-hugo",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/academia-hugo&ssg=hugo"
+  },
   "themefisher-airspace-hugo": {
     "theme_key": "themefisher-airspace-hugo",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/airspace-hugo&ssg=hugo"
+  },
+  "themefisher-bigspring-light": {
+    "theme_key": "themefisher-bigspring-light",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/bigspring-light&ssg=hugo"
+  },
+  "themefisher-dot-hugo": {
+    "theme_key": "themefisher-dot-hugo",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/dot-hugo/&ssg=hugo"
   },
   "themefisher-dot-hugo-documentation-theme": {
     "theme_key": "themefisher-dot-hugo-documentation-theme",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/dot-hugo-documentation-theme&ssg=hugo"
   },
+  "themefisher-educenter-hugo": {
+    "theme_key": "themefisher-educenter-hugo",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/educenter-hugo&ssg=hugo"
+  },
+  "themefisher-hargo-hugo": {
+    "theme_key": "themefisher-hargo-hugo",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/hargo-hugo&ssg=hugo"
+  },
   "themefisher-infinity-hugo": {
     "theme_key": "themefisher-infinity-hugo",
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/infinity-hugo&ssg=hugo"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/infinity-hugo/&ssg=hugo"
+  },
+  "themefisher-kross-hugo": {
+    "theme_key": "themefisher-kross-hugo",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/kross-hugo/&ssg=hugo"
   },
   "themefisher-kross-hugo-portfolio-template": {
     "theme_key": "themefisher-kross-hugo-portfolio-template",
@@ -3071,6 +3155,10 @@
     "theme_key": "themefisher-navigator-hugo",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/navigator-hugo&ssg=hugo"
   },
+  "themefisher-parsa-hugo": {
+    "theme_key": "themefisher-parsa-hugo",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/parsa-hugo/&ssg=hugo"
+  },
   "themefisher-parsa-hugo-personal-blog-theme": {
     "theme_key": "themefisher-parsa-hugo-personal-blog-theme",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/parsa-hugo-personal-blog-theme&ssg=hugo"
@@ -3081,11 +3169,15 @@
   },
   "themefisher-timer-hugo": {
     "theme_key": "themefisher-timer-hugo",
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/timer-hugo&ssg=hugo"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/timer-hugo/&ssg=hugo"
+  },
+  "themefisher-twenty-twenty-hugo": {
+    "theme_key": "themefisher-twenty-twenty-hugo",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/twenty-twenty-hugo&ssg=hugo"
   },
   "themefisher-vex-hugo": {
     "theme_key": "themefisher-vex-hugo",
-    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/vex-hugo&ssg=hugo"
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/themefisher/vex-hugo/&ssg=hugo"
   },
   "thephuse-strange_case": {
     "theme_key": "thephuse-strange_case",

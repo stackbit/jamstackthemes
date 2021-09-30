@@ -12,10 +12,13 @@ css:
 archetype:
   - Business
 date: 2021-08-29T16:13:50.000Z
-description: Andromeda-light is a clean and modern Hugo SAAS Software theme. It perfectly fits any kind of SAAS Software. It is fully responsive, Superfast and powered by Bootstrap.
+description: >-
+  Andromeda-light is a clean and modern Hugo SAAS Software theme. It perfectly
+  fits any kind of SAAS Software. It is fully responsive, Superfast and powered
+  by Bootstrap.
 stale: false
 disabled: false
-disabled_reason:
+disabled_reason: null
 ---
 
 ## Features

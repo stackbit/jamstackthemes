@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2017-03-18T10:48:37.000Z
 description: Crab theme for Hugo
-stale: false
+stale: true
 disabled: true
 disabled_reason: demo url not found
 ---

@@ -12,10 +12,12 @@ cms:
 archetype:
   - Blog
 date: 2021-08-29T16:08:35.000Z
-description: Bookworm is a clean and modern Hugo blog theme focused on high speed and support multiple authors.
+description: >-
+  Bookworm is a clean and modern Hugo blog theme focused on high speed and
+  support multiple authors.
 stale: false
 disabled: false
-disabled_reason:
+disabled_reason: null
 ---
 
 ## Features

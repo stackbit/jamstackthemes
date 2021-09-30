@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2017-11-24T22:14:31.000Z
 description: ':globe_with_meridians:  Hugo adaptation of Now-UI from Creative Tim'
-stale: false
+stale: true
 disabled_reason: demo url not found
 disabled: true
 ---

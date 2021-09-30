@@ -1,17 +1,18 @@
 ---
-title: "Listed"
+title: Listed
 github: https://github.com/ronv/listed
-demo: https://listed-hugo.netlify.app/ # Please make sure this links to a theme demo and not your personal/business site. The demo url must use https
+demo: https://listed-hugo.netlify.app/
 author: Ronalds Vilcins
-date: 2021-09-18 # Enter the date you submitted the theme YYYY-MM-DD
+date: 2021-09-18T00:00:00.000Z
 ssg:
-  - Hugo # at least 1 ssg is required
+  - Hugo
 cms:
-  - No CMS # at least 1 cms is required. If your theme uses markdown (no CMS) the cms should be "No CMS" 
-archetype: # archetype is optional
+  - No CMS
+archetype:
   - Blog
   - Portfolio
 description: Minimalistic, clean and simple design Hugo theme
+stale: false
 ---
 
 # Listed - Hugo theme

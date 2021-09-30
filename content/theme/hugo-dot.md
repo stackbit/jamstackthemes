@@ -15,7 +15,7 @@ date: 2019-01-05T09:42:06.000Z
 description: Dot - Hugo Documentation Theme
 stale: false
 disabled: false
-disabled_reason: 
+disabled_reason: null
 ---
 
 ## Features

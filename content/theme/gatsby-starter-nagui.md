@@ -10,6 +10,6 @@ cms:
 date: 2019-07-15T06:31:10.000Z
 description: Gatsbyjs Starter
 stale: true
-disabled: true
-disabled_reason: demo url not found
+disabled: false
+disabled_reason: ''
 ---

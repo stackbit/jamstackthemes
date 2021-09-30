@@ -14,10 +14,12 @@ archetype:
   - Portfolio
   - Blog
 date: 2019-05-15T08:33:57.000Z
-description: Parsa is a personal blog theme powered by Hugo. It has two homepages. Also can be used for portfolio template
+description: >-
+  Parsa is a personal blog theme powered by Hugo. It has two homepages. Also can
+  be used for portfolio template
 stale: false
 disabled: false
-disabled_reason:
+disabled_reason: null
 ---
 
 ## Features

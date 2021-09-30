@@ -12,10 +12,13 @@ cms:
 archetype:
   - Blog
 date: 2021-08-29T16:01:35.000Z
-description: TechFeed is a personal blog theme powered by Hugo. We have created this theme based on Bootstrap 5. It gives a Responsive, Fast, and Smooth experience to the user.
+description: >-
+  TechFeed is a personal blog theme powered by Hugo. We have created this theme
+  based on Bootstrap 5. It gives a Responsive, Fast, and Smooth experience to
+  the user.
 stale: false
 disabled: false
-disabled_reason:
+disabled_reason: null
 ---
 
 ## Features

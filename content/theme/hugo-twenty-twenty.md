@@ -13,10 +13,12 @@ css:
 archetype:
   - Blog
 date: 2021-08-29T15:28:21.000Z
-description: Twenty Twenty Hugo is forked from WordPress Twenty Twenty theme. It's fully functional like the WordPress theme.
+description: >-
+  Twenty Twenty Hugo is forked from WordPress Twenty Twenty theme. It's fully
+  functional like the WordPress theme.
 stale: false
 disabled: false
-disabled_reason:
+disabled_reason: null
 ---
 
 ## Features

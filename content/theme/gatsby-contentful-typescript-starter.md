@@ -9,7 +9,7 @@ cms:
   - Contentful
 date: 2018-10-01T21:52:18.000Z
 description: 'Gatsby.js starter with TypeScript and Contentful '
-stale: true
+stale: false
 disabled_reason: demo url not found
 disabled: true
 ---
