@@ -1,5 +1,5 @@
 ---
-title: Jekyll Serif
+title: Jekyll Atlantic Tailwind Blog
 date: 2021-10-02T00:00:00.000Z
 github: https://github.com/zerostaticthemes/jekyll-atlantic-theme
 demo: https://jekyll-atlantic.netlify.app/
