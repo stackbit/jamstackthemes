@@ -31,9 +31,8 @@ const build = async (options) => {
     }
 
     if (options.images) {
-        const overwrite = options.file; // when processing a single file always recapture and regenerate the images
-        await generateScreenshots(themesMarkdown, overwrite)
-        await generateThumbnails(themesMarkdown, overwrite)
+        await generateScreenshots(themesMarkdown, options.recaptureImage)
+        await generateThumbnails(themesMarkdown, options.regenerateImage)
     }
 
     writeErrorFile(errorLog)
@@ -52,7 +51,9 @@ const options = {
     draft: argv.draft !== "false",  // Skip processing themes that have front-matter `draft: true`
     latest: argv.latest || false, // Only process themes which don't already exist in `data/themes.json`
     file: argv.file || false, // Only process a single file ie --file=gatsby-starter-advanced.md
-    all: argv.all || false // process all themes
+    all: argv.all || false, // process all themes
+    recaptureImage: argv.recaptureImage || false,
+    regenerateImage: argv.regenerateImage || false
 }
 
 build(options);

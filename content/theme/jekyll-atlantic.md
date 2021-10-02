@@ -1,6 +1,6 @@
 ---
 title: Jekyll Serif
-date: 2021-10-02
+date: 2021-10-02T00:00:00.000Z
 github: https://github.com/zerostaticthemes/jekyll-atlantic-theme
 demo: https://jekyll-atlantic.netlify.app/
 author: Robert Austin
@@ -8,11 +8,14 @@ ssg:
   - Jekyll
 cms:
   - No Cms
-css: 
+css:
   - Tailwind
 archetype:
   - Blog
-description: Jekyll Atlantic is a beautiful Tailwind CSS theme. It shows best practices for using Tailwind with Jekyll.
+description: >-
+  Jekyll Atlantic is a beautiful Tailwind CSS theme. It shows best practices for
+  using Tailwind with Jekyll.
+stale: false
 ---
 
 # Jekyll Atlantic - A Jekyll Tailwind Theme

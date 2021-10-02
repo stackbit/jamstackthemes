@@ -27645,6 +27645,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/jugglerx-hugo-whisper-theme-2x.jpg"
     }
   },
+  "zerostaticthemes-jekyll-atlantic-theme": {
+    "theme_key": "zerostaticthemes-jekyll-atlantic-theme",
+    "file": "jekyll-atlantic.md",
+    "name": "jekyll-atlantic-theme",
+    "title": "Jekyll Serif",
+    "github_username": "zerostaticthemes",
+    "repo": "zerostaticthemes/jekyll-atlantic-theme",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/zerostaticthemes/jekyll-atlantic-theme",
+    "demo_url": "https://jekyll-atlantic.netlify.app/",
+    "stars": 4,
+    "forks": 0,
+    "open_issues": 0,
+    "last_commit": "2021-09-30T09:34:33Z",
+    "created_at": "2021-07-09T10:04:57Z",
+    "description": "Jekyll Atlantic is a beautiful Tailwind CSS theme. It shows best practices for using Tailwind with Jekyll.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/zerostaticthemes-jekyll-atlantic-theme.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/zerostaticthemes-jekyll-atlantic-theme.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/zerostaticthemes-jekyll-atlantic-theme-2x.jpg"
+    }
+  },
   "zerostaticthemes-jekyll-serif-theme": {
     "theme_key": "zerostaticthemes-jekyll-serif-theme",
     "file": "jekyll-serif.md",

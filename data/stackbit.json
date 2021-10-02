@@ -3571,6 +3571,10 @@
     "theme_key": "zerostaticthemes-hugo-serif-theme",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/zerostaticthemes/hugo-serif-theme&ssg=hugo"
   },
+  "zerostaticthemes-jekyll-atlantic-theme": {
+    "theme_key": "zerostaticthemes-jekyll-atlantic-theme",
+    "createUrl": "https://app.stackbit.com/create?theme=https://github.com/zerostaticthemes/jekyll-atlantic-theme&ssg=jekyll"
+  },
   "zerostaticthemes-jekyll-serif-theme": {
     "theme_key": "zerostaticthemes-jekyll-serif-theme",
     "createUrl": "https://app.stackbit.com/create?theme=https://github.com/zerostaticthemes/jekyll-serif-theme&ssg=jekyll"
