@@ -16,7 +16,7 @@ archetype:
   - Blog
   - Portfolio
   - Business
-  - Multi Pourpose
+  - Multi Purpose
 description: A Eleventy + Bootstrap 5 starter kit.
 stale: false
 ---
