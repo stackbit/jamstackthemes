@@ -10,8 +10,8 @@ cms:
 date: 2019-08-01T00:00:00.000Z
 description: Welcome to Novela, the simplest way to start publishing with Gatsby.
 stale: false
-disabled: false
-disabled_reason: ''
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 Welcome to Novela, the simplest way to start publishing with Gatsby. 

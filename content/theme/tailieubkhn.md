@@ -1,19 +1,22 @@
 ---
-title: "tailieubkhn convert theme"
+title: tailieubkhn convert theme
 github: https://github.com/piandhust/tailieubkhn
-demo: https://piandhust.github.io/tailieubkhn/ # Please make sure this links to a theme demo and not your personal/business site. The demo url must use https
+demo: https://piandhust.github.io/tailieubkhn/
 author: trannguyenhan
-date: 2021-10-24 # Enter the date you submitted the theme YYYY-MM-DD
+date: 2021-10-24T00:00:00.000Z
 ssg:
-  - Jekyll # at least 1 ssg is required
+  - Jekyll
 cms:
-  - No CMS # at least 1 cms is required. If your theme uses markdown (no CMS) the cms should be "No CMS"
-css: # css is optional
-  - Bootstrap 
-archetype: # archetype is optional
+  - No CMS
+css:
+  - Bootstrap
+archetype:
   - Multi Page
   - Personal
-description: If you want convert your website domain to domain github page, will use my product.
+description: >-
+  If you want convert your website domain to domain github page, will use my
+  product.
+stale: false
 ---
 
 ## Features

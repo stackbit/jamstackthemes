@@ -12,6 +12,6 @@ description: >-
   Powerful new theme featuring Semantic UI for speedily creating amazing
   websites and mobile-hybrid apps on GitHub Pages.
 stale: true
-disabled: false
-disabled_reason: ''
+disabled: true
+disabled_reason: demo url connection refused
 ---

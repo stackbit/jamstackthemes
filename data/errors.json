@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "theme_key": "narative-gatsby-theme-novela",
+    "file": "gatsby-theme-novela.md",
+    "repoUrl": "https://github.com/narative/gatsby-theme-novela",
+    "error": "Github repo not found"
+  },
+  {
+    "theme_key": "jmau111-hugo-theme-ava",
+    "file": "hugo-ava.md",
+    "repoUrl": "https://github.com/jmau111/hugo-theme-ava",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "open-start-opentheme",
+    "file": "jekyll-opentheme.md",
+    "repoUrl": "https://github.com/open-start/opentheme",
+    "error": "demo url connection refused"
+  },
+  {
+    "theme_key": "szhielelp-jekylltheme-projectgaia",
+    "file": "jekyll-project-gaia.md",
+    "repoUrl": "https://github.com/szhielelp/JekyllTheme-ProjectGaia",
+    "error": "demo url not found"
+  }
+]

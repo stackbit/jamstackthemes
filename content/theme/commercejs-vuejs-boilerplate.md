@@ -15,7 +15,7 @@ archetype:
 description: >-
   Commerce.js boilerplate built with Vue.js, for fast eCommerce development and
   design.
-stale: false
+stale: true
 ---
 
 Commerce.js boilerplate built with Vue.js, for fast eCommerce development and design.

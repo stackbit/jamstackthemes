@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2018-11-08T02:07:22.000Z
 description: boilerplate for markdown-based website
-stale: false
+stale: true
 ---

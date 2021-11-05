@@ -13,7 +13,7 @@ featured: true
 description: >-
   Hylia is a lightweight Eleventy starter kit to help you to create your own
   blog or personal website.
-stale: true
+stale: false
 ---
 
 # A simple starter kit for Eleventy

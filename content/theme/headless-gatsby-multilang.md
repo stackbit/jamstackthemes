@@ -1,9 +1,9 @@
 ---
-title: "Gatsby Headless Multilingual"
+title: Gatsby Headless Multilingual
 github: https://github.com/smastrom/headless-gatsby-multilang
 demo: https://headlessmultilingual.gatsbyjs.io/
 author: smastrom
-date: 2021-10-17
+date: 2021-10-17T00:00:00.000Z
 ssg:
   - Gatsby
 cms:
@@ -11,7 +11,8 @@ cms:
 archetype:
   - Blog
   - Marketing
-description: A multilingual blog starter for Gatsby completely driven by an headless CMS. 
+description: A multilingual blog starter for Gatsby completely driven by an headless CMS.
+stale: false
 ---
 
 # Headless Multilingual Starter for Gatsby with DatoCMS

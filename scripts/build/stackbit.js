@@ -3,8 +3,8 @@ const urlSlug = require('url-slug');
 const {getThemeKey, getRepoName} = require('./utils');
 const ora = require('ora');
 const spinner = ora('Loading')
-const allowedSsg = ["hugo", "jekyll", "gatsby", "nextjs", "next", "unibit"]
-const allowedCms = ["contentful", "sanity", "no-cms"]
+const allowedSsg = []
+const allowedCms = []
 
 const generateStackbit = (frontmatter) => {
     const themeKey = getThemeKey(frontmatter.github)
@@ -62,7 +62,7 @@ const generateStackbit = (frontmatter) => {
             }
         }
     })
-    const manualEnabled = ['https://github.com/rohitguptab/rg-portfolio', 'https://github.com/narative/gatsby-theme-novela']
+    const manualEnabled = ['https://github.com/stackbit-themes/minimal-nextjs-theme']
     manualEnabled.forEach(url => {
         if (url === frontmatter.github) {
             stackbitData.createUrl = `https://app.stackbit.com/create?theme=${frontmatter.github}&ssg=${urlSlug(frontmatter.ssg)}&cms=${urlSlug(frontmatter.cms)}`

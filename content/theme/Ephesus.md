@@ -1,9 +1,9 @@
 ---
-title: "Ephesus"
+title: Ephesus
 github: https://github.com/onepase/Ephesus
 demo: https://pardin.us/ephesus
 author: Hakan Torun
-date: 2021-09-25
+date: 2021-09-25T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
@@ -11,6 +11,7 @@ cms:
 archetype:
   - Blog
 description: Ephesus is a minimalist Jekyll theme, designed for personal blog use.
+stale: false
 ---
 
 # Ephesus - Minimalist Blog Theme
