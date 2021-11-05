@@ -24,6 +24,8 @@ const generateStackbit = (frontmatter) => {
         } else {
             stackbitData.createUrl = `https://app.stackbit.com/create?theme=${frontmatter.github}&ssg=${urlSlug(ssgArray)}`
         }
+    } else {
+      stackbitData.createUrl = null;
     }
 
     // manual overrides
