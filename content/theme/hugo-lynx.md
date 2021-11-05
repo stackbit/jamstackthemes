@@ -12,7 +12,6 @@ css:
   - Tailwind
 archetype:
   - Personal
-  - Single-Page
 description: A simple links theme for Hugo built with Tailwind CSS.
 stale: false
 ---
