@@ -24,6 +24,5 @@ archetype:
 date: 2019-05-23T18:31:33.000Z
 description: Libris is a documentation theme
 stale: false
-weight: 6
-disabled_reason: demo url not found
+draft: true
 ---

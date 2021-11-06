@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2018-10-19T12:42:53.000Z
 description: Minimal Personal Blog with Gatsby and Typescript
-stale: false
+stale: true
 ---

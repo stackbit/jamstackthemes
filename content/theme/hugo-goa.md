@@ -10,4 +10,6 @@ cms:
 date: 2016-10-08T02:59:24.000Z
 description: Simple Minimalistic Theme for Hugo
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

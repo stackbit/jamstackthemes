@@ -8,8 +8,7 @@
     {{ $themes := (where $themes ".Params.stale" "!=" true) }}
     {{ $themes := (where $themes ".Params.disabled" "!=" true) }}
     {{ $themeCount := len $themes}}
-    <meta name="description"
-          content="The most popular list of themes and starters for Jamstack sites. Over {{ $themeCount }} free static site generator themes for Hugo, Gatsby, Jekyll, Gridsome & more."/>
+    <meta name="description" content="The most popular list of themes and starters for Jamstack sites. Over {{ $themeCount }} free static site generator themes for Hugo, Gatsby, Jekyll, Gridsome & more."/>
 {{ end }}
 
 {{ define "main" }}

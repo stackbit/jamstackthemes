@@ -9,5 +9,7 @@ cms:
   - No Cms
 date: 2018-12-19T22:42:37.000Z
 description: Blog starter made with Gatbsy.js
-stale: false
+stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

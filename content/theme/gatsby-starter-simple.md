@@ -11,7 +11,7 @@ archetype:
 cms:
   - No Cms
 description: This is a minimal and lightweight blogging Gatsby template
-stale: false
+stale: true
 disabled: true
 disabled_reason: demo url not found
 ---

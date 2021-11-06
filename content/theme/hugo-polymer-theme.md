@@ -10,4 +10,6 @@ cms:
 date: 2015-06-30T09:07:58.000Z
 description: Polymer Material Design Theme for Hugo
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

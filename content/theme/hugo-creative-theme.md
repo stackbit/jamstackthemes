@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2015-06-12T18:40:58.000Z
 description: Port of Startbootstrap's Creative theme to Hugo
-stale: true
+stale: false
 disabled_reason: demo url not found
 disabled: true
 ---

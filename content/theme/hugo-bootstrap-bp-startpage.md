@@ -12,4 +12,6 @@ description: >-
   Bootstrap based Hugo startpage theme which provides out of the box best
   practices.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

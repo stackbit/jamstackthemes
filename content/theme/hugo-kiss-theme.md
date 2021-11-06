@@ -10,4 +10,6 @@ cms:
 date: 2017-10-23T19:57:06.000Z
 description: Stupidly simple Hugo blogging theme
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

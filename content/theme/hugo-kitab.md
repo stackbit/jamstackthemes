@@ -9,5 +9,7 @@ cms:
   - No Cms
 date: 2019-05-19T01:32:59.000Z
 description: A hugo theme for publishing books
-stale: false
+stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

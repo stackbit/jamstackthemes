@@ -5,11 +5,11 @@ demo: https://twentytwenyonetheme.netlify.app/
 author: smolcodes
 date: 2019-01-21T00:00:00.000Z
 ssg:
-  - Eleventy
+  - Eleventy`
 cms:
   - NetlifyCMS
 css:
-  - TailwindCSS
+  - Tailwind
 archetype:
   - Blog
 description: This is a simple little blog with support for writing math

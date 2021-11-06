@@ -10,4 +10,6 @@ cms:
 date: 2018-05-29T05:57:18.000Z
 description: This is a simple Hugo theme that uses bootstrap
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

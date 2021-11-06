@@ -10,4 +10,6 @@ cms:
 date: 2018-04-21T15:43:28.000Z
 description: Clean Material Design blog theme for Hugo.
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

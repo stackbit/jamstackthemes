@@ -10,4 +10,6 @@ cms:
 date: 2016-09-20T06:39:12.000Z
 description: ':art: A Hugo theme based on the HPSTR Jekyll theme.'
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

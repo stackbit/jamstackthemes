@@ -12,4 +12,6 @@ description: >-
   A theme for people creating pre-launch pages for a product or business. Allows
   you to have a landing page while collecting emails.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

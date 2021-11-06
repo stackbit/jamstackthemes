@@ -9,5 +9,7 @@ cms:
   - No Cms
 date: 2016-07-15T17:24:18.000Z
 description: A minimal responsive jekyll theme -Webjeda Gatok
-stale: true
+stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

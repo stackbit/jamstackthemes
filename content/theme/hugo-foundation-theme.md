@@ -10,4 +10,6 @@ cms:
 date: 2016-12-11T17:15:15.000Z
 description: Core theme files for Hugo Foundation.
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

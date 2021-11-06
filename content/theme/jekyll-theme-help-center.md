@@ -10,6 +10,6 @@ cms:
 date: 2017-12-12T15:50:55.000Z
 description: Simple and responsive Jekyll theme for help center.
 stale: true
-disabled: true
-disabled_reason: error checking demo url
+disabled: false
+disabled_reason: ''
 ---

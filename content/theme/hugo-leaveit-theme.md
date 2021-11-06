@@ -10,4 +10,6 @@ cms:
 date: 2018-09-12T08:46:04.000Z
 description: A simple, minimal, clean blog theme for hugo.
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -10,4 +10,6 @@ cms:
 date: 2016-05-06T02:29:31.000Z
 description: Lithium - A simple responsive Hugo theme
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

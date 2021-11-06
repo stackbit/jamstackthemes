@@ -10,4 +10,6 @@ cms:
 date: 2019-07-15T13:03:07.000Z
 description: Minimalistic Hugo theme
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

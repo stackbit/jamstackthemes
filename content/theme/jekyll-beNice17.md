@@ -10,6 +10,6 @@ cms:
 date: 2016-12-30T13:15:34.000Z
 description: A Jekyll theme for my personal website
 stale: false
-disabled: true
-disabled_reason: demo url not found
+disabled: false
+disabled_reason: ''
 ---

@@ -12,5 +12,7 @@ description: >-
   Kube is a professional  and a responsive Hugo theme for developers and
   designers that offers a documentation section mixed with a landing page and a
   blog.
-stale: true
+stale: false
+disabled: false
+disabled_reason: ''
 ---

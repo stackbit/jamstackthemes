@@ -11,7 +11,7 @@ cms:
 archetype:
   - Multi Purpose
 description: Material UI Paperbase Starter for Gatsby with Kentico Kontent.
-stale: false
+stale: true
 ---
 
 # Material UI Paperbase Starter

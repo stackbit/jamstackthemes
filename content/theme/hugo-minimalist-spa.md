@@ -10,4 +10,6 @@ cms:
 date: 2018-09-15T14:57:06.000Z
 description: A minimalist single page application theme for Hugo
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

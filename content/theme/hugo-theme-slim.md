@@ -10,4 +10,6 @@ cms:
 date: 2015-04-24T14:33:33.000Z
 description: Hugo theme—Slim
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

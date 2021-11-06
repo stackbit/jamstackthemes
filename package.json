@@ -1,7 +1,8 @@
 {
   "scripts": {
-    "build": "node ./scripts/build.js && hugo",
-    "deploy": "node ./scripts/build.js --latest && hugo",
+    "build": "node ./scripts/build.js && hugo --minify",
+    "deploy": "node ./scripts/build.js --latest && hugo --minify",
+    "stackbit": "node ./scripts/build.js --github=false --demos=false --images=false && hugo --minify",
     "deploy:branch": "npm run deploy && echo 'User-agent: *\nDisallow: /' > public/robots.txt"
   },
   "dependencies": {
@@ -20,6 +21,5 @@
     "url-slug": "^3.0.1",
     "yaml-front-matter": "^4.1.1",
     "yargs": "^16.2.0"
-  },
-  "devDependencies": {}
+  }
 }

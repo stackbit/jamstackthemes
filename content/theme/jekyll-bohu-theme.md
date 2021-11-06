@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2016-04-24T03:44:01.000Z
 description: My first JEKYLL-THEME
-stale: false
+stale: true
 ---

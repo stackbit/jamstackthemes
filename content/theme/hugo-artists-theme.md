@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2015-06-16T17:22:06.000Z
 description: Port of Travis Neilson's (DevTips) awesome Artists Theme to Hugo
-stale: false
+stale: true
 disabled_reason: demo url not found
 disabled: true
 ---

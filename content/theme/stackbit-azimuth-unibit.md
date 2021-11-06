@@ -22,5 +22,5 @@ css:
 date: 2020-10-15T00:00:00.000Z
 description: Azimuth is a sleek marketing theme for startup and product sites.
 stale: false
-weight: 4
+draft: true
 ---

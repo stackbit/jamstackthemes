@@ -10,4 +10,6 @@ cms:
 date: 2016-09-30T08:11:59.000Z
 description: Nix is a simple, minimal theme for Hugo
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

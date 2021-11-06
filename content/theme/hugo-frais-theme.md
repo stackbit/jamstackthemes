@@ -10,4 +10,6 @@ cms:
 date: 2016-10-06T16:42:56.000Z
 description: A fresh and french theme for Hugo
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

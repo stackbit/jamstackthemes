@@ -10,4 +10,6 @@ cms:
 date: 2019-01-03T14:05:32.000Z
 description: a simple theme for hugo.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

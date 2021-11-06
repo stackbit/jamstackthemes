@@ -10,4 +10,6 @@ cms:
 date: 2015-07-24T20:42:48.000Z
 description: Simple responsive them for Go Hugo
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

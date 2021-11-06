@@ -10,4 +10,6 @@ cms:
 date: 2017-11-17T15:53:38.000Z
 description: Full-featured Jekyll port of Ghost's default theme Casper v2 👻
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

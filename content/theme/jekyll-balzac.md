@@ -10,4 +10,6 @@ cms:
 date: 2013-08-02T12:31:24.000Z
 description: Your favorite AnchorCMS theme, now for Jekyll!
 stale: true
+disabled: false
+disabled_reason: ''
 ---

@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2016-11-06T15:13:02.000Z
 description: uncomplicated single-page jekyll blog theme
-stale: false
+stale: true
 disabled_reason: demo url not found
 disabled: true
 ---

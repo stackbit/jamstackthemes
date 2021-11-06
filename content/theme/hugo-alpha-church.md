@@ -10,4 +10,6 @@ cms:
 date: 2018-04-30T04:03:34.000Z
 description: Hugo theme for churches based on a html5up theme
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

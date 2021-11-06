@@ -9,5 +9,7 @@ cms:
   - No Cms
 date: 2019-07-02T02:28:29.000Z
 description: Hugo theme for documentation.
-stale: false
+stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

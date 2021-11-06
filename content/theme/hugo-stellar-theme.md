@@ -10,4 +10,6 @@ cms:
 date: 2018-06-09T03:49:08.000Z
 description: a port of html5up.net/stellar template for Hugo static site generator
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

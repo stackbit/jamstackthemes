@@ -8,5 +8,7 @@ ssg:
 cms:
   - No Cms
 date: 2017-01-10T01:03:05.000Z
-stale: false
+stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -11,4 +11,5 @@ date: 2017-04-22T11:43:42.000Z
 description: Simple, minimalistic dark theme for Hugo.
 stale: true
 disabled_reason: demo url not found
+disabled: true
 ---

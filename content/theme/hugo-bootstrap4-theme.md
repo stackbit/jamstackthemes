@@ -10,4 +10,6 @@ cms:
 date: 2015-10-27T13:16:12.000Z
 description: Bootstrap theme for Hugo
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2014-10-23T03:14:41.000Z
 description: Bootstrap theme for GitHub Pages (Jekyll).
-stale: true
+stale: false
 ---

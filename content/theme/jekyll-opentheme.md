@@ -13,5 +13,5 @@ description: >-
   websites and mobile-hybrid apps on GitHub Pages.
 stale: true
 disabled: true
-disabled_reason: error checking demo url
+disabled_reason: demo url connection refused
 ---

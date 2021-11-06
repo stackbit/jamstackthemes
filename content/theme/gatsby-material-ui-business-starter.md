@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-01-09T23:04:36.000Z
 description: Beautiful Gatsby Material UI Business Starter
-stale: false
+stale: true
 ---

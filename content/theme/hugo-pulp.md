@@ -10,4 +10,6 @@ cms:
 date: 2018-09-23T10:34:53.000Z
 description: Pulp is a Hugo theme for getting a simple, easy-to-read blog site.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

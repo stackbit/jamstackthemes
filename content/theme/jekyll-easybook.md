@@ -10,4 +10,6 @@ cms:
 date: 2015-01-15T06:14:44.000Z
 description: Another Jekyll Blog Theme 'EasyBook'
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

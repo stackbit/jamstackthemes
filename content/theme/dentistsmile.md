@@ -12,5 +12,5 @@ github_branch: master
 description: Single page Jekyll theme for dental clinics
 stale: true
 disabled: true
-disabled_reason: Github repo not found
+disabled_reason: error checking demo url
 ---

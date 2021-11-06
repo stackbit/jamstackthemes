@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2015-07-26T17:27:04.000Z
 description: Port of Mathieu Mayer-Mazzoli's Hikari theme to Hugo
-stale: false
+stale: true
 disabled_reason: demo url not found
 disabled: true
 ---

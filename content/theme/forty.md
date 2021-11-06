@@ -10,4 +10,6 @@ cms:
 date: 2017-11-18T01:53:43.000Z
 description: Forty theme - Hugo theme ported from HTML5UP origrinal theme called Forty.
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -9,5 +9,7 @@ cms:
   - No Cms
 date: 2017-06-21T19:35:04.000Z
 description: Adam & Eve theme for Hugo
-stale: false
+stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

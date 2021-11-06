@@ -10,6 +10,6 @@ cms:
 date: 2018-05-09T06:14:00.000Z
 description: Vuepress custom theme for blogging. See my blog as an example!
 stale: false
-disabled: true
-disabled_reason: error checking demo url
+disabled: false
+disabled_reason: ''
 ---

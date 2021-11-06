@@ -9,6 +9,7 @@ cms:
   - No Cms
 date: 2015-10-02T18:57:45.000Z
 description: Port of Ruipeng Zhang's Hexo theme Icarus to Hugo.
-stale: false
+stale: true
 disabled_reason: demo url not found
+disabled: true
 ---

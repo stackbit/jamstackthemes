@@ -12,7 +12,7 @@ cms:
   - No Cms
 date: 2020-06-30T00:00:00.000Z
 description: Markdown Material UI TypeScript/TSX
-stale: false
+stale: true
 ---
 
 # A blog starter for a Material UI and TypeScript/TSX

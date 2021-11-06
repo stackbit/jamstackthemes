@@ -24,6 +24,6 @@ archetype:
   - Blog
 date: 2019-05-23T18:26:16.000Z
 description: Exto is portfolio and blog theme with a clean design.
-weight: 2
 stale: false
+draft: true
 ---

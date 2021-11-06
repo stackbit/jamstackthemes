@@ -2,7 +2,7 @@
         id="{{ .theme.Params.Title | urlize }}"
         class="col-12 col-md-6 col-xl-4 mb-3 grid {{ .classes }} {{ range .theme.Params.ssg }}{{ . | urlize }} {{ end }}{{ range .theme.Params.cms }}{{ . | urlize }} {{end}}{{ range .theme.Params.css }}{{ . | urlize }} {{end}}{{ range .theme.Params.archetype }}{{ . | urlize }} {{end}}{{ range .theme.Params.services }}{{ . | urlize }} {{end}}"
         data-stars="{{ if .repo }}{{ .repo.stars }}{{ else }}0{{ end }}"
-        data-last-commit="{{ if .repo }}{{ .repo.last_commit }}{{ end }}"
+        data-last-commit="{{ if .repo }}{{ .repo.last_commit }}{{ else }}0{{ end }}"
         data-submitted="{{ .theme.Date }}"
         data-name="{{ .theme.Title }}"
         data-weight="{{ .theme.Params.weight | default 0 }}"

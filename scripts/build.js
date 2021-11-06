@@ -1,5 +1,7 @@
 #!/usr/bin/env node
-const argv = require('yargs/yargs')(process.argv.slice(2)).argv
+const yargs = require('yargs/yargs')
+const { hideBin } = require('yargs/helpers')
+const argv = yargs(hideBin(process.argv)).argv
 const {generateGithubData} = require('./build/github');
 const {generateMarkdownData} = require('./build/markdown');
 const {testDemoUrls} = require('./build/demo');
@@ -24,12 +26,13 @@ const build = async (options) => {
     }
 
     if (options.demos) {
+        // Visits each demo URL with a headless browser and if the site cannot be reached sets the markdown file to disabled=true
         await testDemoUrls(themesMarkdown)
     }
 
     if (options.images) {
-        await generateScreenshots(themesMarkdown)
-        await generateThumbnails(themesMarkdown)
+        await generateScreenshots(themesMarkdown, options.recaptureImage)
+        await generateThumbnails(themesMarkdown, options.regenerateImage)
     }
 
     writeErrorFile(errorLog)
@@ -39,13 +42,18 @@ const build = async (options) => {
 }
 
 const options = {
-    disabled: true, // Skip processing themes that have front-matter `disabled: true`
-    draft: true, // Skip processing themes that have front-matter `draft: true`
-    demos: true,
-    stackbit: argv.stackbit || true,
-    github: argv.github || true,
-    images: argv.images || true,
-    latest: argv.latest || false, // build.js --latest | only process themes which don't already exist in `themes.json`
+    github: argv.github !== "false", // generates `data/themes.json` which is used for github stars, commits meta data etc
+    stackbit: argv.stackbit !== "false", // generates `data/stackbit.json` which is used for the "create site" button
+    demos: argv.demos !== "false", // tests the themes demo url using headless browser and disables the theme if the url does not resolve
+    images: argv.images !== "false", // captures screenshots and generates thumbnails
+
+    disabled: argv.disabled !== "false", // Skip processing themes that have front-matter `disabled: true`
+    draft: argv.draft !== "false",  // Skip processing themes that have front-matter `draft: true`
+    latest: argv.latest || false, // Only process themes which don't already exist in `data/themes.json`
+    file: argv.file || false, // Only process a single file ie --file=gatsby-starter-advanced.md
+    all: argv.all || false, // process all themes
+    recaptureImage: argv.recaptureImage || false,
+    regenerateImage: argv.regenerateImage || false
 }
 
 build(options);

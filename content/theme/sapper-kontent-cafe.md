@@ -11,7 +11,7 @@ date: 2020-12-01T00:00:00.000Z
 archetype:
   - Business
 description: Website showcase for fictional café with Svelte, Sapper, and Kentico Kontent.
-stale: false
+stale: true
 ---
 
 # Sapper Kontent Café

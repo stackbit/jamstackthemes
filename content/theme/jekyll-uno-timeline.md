@@ -15,7 +15,7 @@ date: 2020-01-31T06:00:00.000Z
 description: >-
   Jekyll-Uno-Timeline - a minimal, responsive theme for Jekyll based on Uno for
   Ghost with a list of projects as Timeline and without blog.
-stale: true
+stale: false
 disabled: true
 disabled_reason: error checking demo url
 ---

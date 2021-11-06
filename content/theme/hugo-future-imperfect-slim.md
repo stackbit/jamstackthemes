@@ -10,4 +10,6 @@ cms:
 date: 2019-04-06T17:48:53.000Z
 description: Multilingual Blogging Theme for Hugo
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

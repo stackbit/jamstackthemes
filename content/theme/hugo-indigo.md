@@ -9,5 +9,7 @@ cms:
   - No Cms
 date: 2018-08-14T10:10:53.000Z
 description: An IndieWeb-friendly custom theme for Hugo
-stale: false
+stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

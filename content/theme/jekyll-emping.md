@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2016-10-21T16:56:20.000Z
 description: Jekyll theme using Amp
-stale: false
+stale: true
 ---

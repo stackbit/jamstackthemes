@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2016-09-06T08:42:27.000Z
 description: lightweight jekyll blog theme
-stale: false
+stale: true
 disabled_reason: demo url not found
 disabled: true
 ---

@@ -9,5 +9,7 @@ cms:
   - No Cms
 date: 2017-03-22T19:17:15.000Z
 description: Minimal Jekyll Theme with an app like layout
-stale: true
+stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

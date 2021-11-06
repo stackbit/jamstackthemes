@@ -10,4 +10,6 @@ cms:
 date: 2015-11-12T18:06:34.000Z
 description: 💎 My old website in Jekyll and Gulpjs
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

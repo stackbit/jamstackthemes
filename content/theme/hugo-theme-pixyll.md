@@ -10,4 +10,6 @@ cms:
 date: 2014-11-15T12:25:29.000Z
 description: A simple, beautiful Hugo theme that's mobile first.
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

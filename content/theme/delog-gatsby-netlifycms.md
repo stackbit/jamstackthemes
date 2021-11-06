@@ -13,7 +13,7 @@ archetype:
 description: >-
   Delog is developed for professional bloggers and web designers to build a
   website that has a lightning-fast navigation speed
-stale: false
+stale: true
 ---
 
 Delog is developed for professional bloggers and web designers to build a website that has a lightning-fast navigation speed. 

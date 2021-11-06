@@ -9,5 +9,5 @@ cms:
   - Prismic
 date: 2020-03-18T00:00:00.000Z
 description: Gatsby starter for portfolios and blogs using Prismic CMS
-stale: false
+stale: true
 ---

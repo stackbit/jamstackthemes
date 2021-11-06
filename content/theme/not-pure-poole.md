@@ -11,7 +11,7 @@ cms:
 archetype:
   - Blog
 description: A simple, beautiful, and powerful Jekyll theme for blogs
-stale: false
+stale: true
 ---
 
 # A simple starter kit for Gridsome

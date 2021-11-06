@@ -9,5 +9,5 @@ ssg:
 cms:
   - No CMS
 description: A light site frame using Eleventy static site generator
-stale: false
+stale: true
 ---

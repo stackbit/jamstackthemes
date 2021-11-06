@@ -14,7 +14,7 @@ archetype:
   - Portfolio
 date: 2020-02-19T12:10:46.000Z
 description: A Gatsby starter for a portfolio with a blog, using Contentful as the CMS
-stale: false
+stale: true
 ---
 
 # A simple starter kit for creating a Portfolio website with a blog, all served by Contentful

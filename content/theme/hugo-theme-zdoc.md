@@ -16,6 +16,8 @@ archetype:
   - Documentation
 description: Documentation theme for Hugo. It has rich features and looks clean.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
 
 ## Hugo Theme Zdoc

@@ -11,7 +11,7 @@ cms:
 archetype:
   - Portfolio
 description: Kentico Kontent web template using Gatsby and Kentico Kontent.
-stale: false
+stale: true
 ---
 
 # A simple starter kit for Kontent and GatsbyJS

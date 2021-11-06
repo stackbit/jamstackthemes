@@ -10,4 +10,6 @@ cms:
 date: 2018-09-04T04:55:12.000Z
 description: a merging of the dusk and potato-dark themes for hugo
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

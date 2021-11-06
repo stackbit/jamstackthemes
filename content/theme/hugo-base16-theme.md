@@ -10,4 +10,6 @@ cms:
 date: 2015-12-09T16:01:53.000Z
 description: Hugo theme with base16 eighties colorscheme
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

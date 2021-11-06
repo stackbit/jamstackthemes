@@ -82,6 +82,7 @@ const fetchRepoData = async (frontmatter) => {
             repoUrl: frontmatter.github,
             error
         })
+        throw err
     }
 }
 

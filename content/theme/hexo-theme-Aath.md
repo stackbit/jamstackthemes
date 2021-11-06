@@ -10,6 +10,6 @@ cms:
 date: 2017-09-04T02:41:19.000Z
 description: Hexo 主题
 stale: true
-disabled_reason: demo url not found
+disabled_reason: error checking demo url
 disabled: true
 ---

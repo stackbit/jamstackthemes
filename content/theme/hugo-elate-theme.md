@@ -10,4 +10,6 @@ cms:
 date: 2016-11-18T15:14:54.000Z
 description: A one page parallax theme with animation for Hugo
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

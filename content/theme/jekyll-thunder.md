@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2016-05-12T16:03:19.000Z
 description: A minimal and superfast Jekyll theme
-stale: true
+stale: false
 ---

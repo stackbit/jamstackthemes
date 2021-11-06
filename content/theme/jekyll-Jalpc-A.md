@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2016-06-22T05:25:06.000Z
 description: 🍅Jalpc-A -- Jekyll Theme(blog written by Angularjs)
-stale: false
-disabled_reason: demo url not found
+stale: true
+disabled_reason: error checking demo url
 disabled: true
 ---

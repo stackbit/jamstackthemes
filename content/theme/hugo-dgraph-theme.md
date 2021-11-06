@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2016-07-25T08:45:30.000Z
 description: Hugo theme used for our blog
-stale: false
+stale: true
 ---

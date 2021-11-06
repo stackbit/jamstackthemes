@@ -10,4 +10,6 @@ cms:
 date: 2017-03-08T10:25:13.000Z
 description: Hugo Fabric Theme
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

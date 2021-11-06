@@ -9,7 +9,7 @@ ssg:
 cms:
   - No Cms
 description: An automatic dark mode adaptation of the Poole theme for Jekyll.
-stale: false
-disabled_reason: error checking demo url
+stale: true
+disabled_reason: demo url connection refused
 disabled: true
 ---

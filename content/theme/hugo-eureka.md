@@ -15,6 +15,8 @@ archetype:
   - Blog
 description: Eureka is a feature-rich and highly customizable Hugo theme.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
 
 English | [简体中文](https://github.com/wangchucheng/hugo-eureka/blob/master/README.zh.md)

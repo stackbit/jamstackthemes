@@ -10,4 +10,6 @@ cms:
 date: 2017-10-15T09:52:43.000Z
 description: Lodi theme for Hugo
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -10,4 +10,6 @@ cms:
 date: 2018-08-06T20:17:57.000Z
 description: Responsive Hugo theme for hierarchical content websites
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

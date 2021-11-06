@@ -10,4 +10,6 @@ cms:
 date: 2014-09-19T20:31:46.000Z
 description: SinglePaged - Simple Jekyll template
 stale: true
+disabled: false
+disabled_reason: ''
 ---

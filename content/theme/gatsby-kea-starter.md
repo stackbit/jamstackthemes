@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-06-10T01:54:29.000Z
 description: Gatsby starter with redux and sagas made simpler by https://kea.js.org
-stale: true
+stale: false
 ---

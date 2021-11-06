@@ -9,7 +9,7 @@ ssg:
 cms:
   - No CMS
 css:
-  - sass
+  - SCSS
 archetype:
   - Blog
 description: A Lightning fast dark jekyll blog theme

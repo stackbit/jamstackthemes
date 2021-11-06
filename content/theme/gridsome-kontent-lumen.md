@@ -14,7 +14,7 @@ archetype:
 description: >-
   Lumen is a minimal, lightweight and mobile-first starter for creating blogs
   using Gridsome.
-stale: false
+stale: true
 ---
 
 # Gridsome Kontent Lumen
