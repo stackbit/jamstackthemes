@@ -1,3 +1,4 @@
+---
 title: Serial Programmer
 github: https://github.com/sharadcodes/hugo-theme-serial-programmer
 demo: https://sharadcodes.github.io/hugo-theme-serial-programmer/
@@ -12,3 +13,4 @@ date: 2021-11-06
 description: A Hugo theme for serial programmers by Sharad Raj Singh Maurya
 archetype:
   - Blog
+---
