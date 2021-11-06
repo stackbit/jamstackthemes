@@ -9,7 +9,8 @@ cms:
   - No Cms
 category:
   - Blog
-date: 2021-11-06T00:00:00.000Z
+date: 2021-11-06
 description: A Jekyll theme for serial programmers by Sharad Raj Singh Maurya
-stale: false
+archetype:
+  - Blog
 ---
