@@ -13,5 +13,4 @@ date: 2021-11-07
 description: A Gatsby theme for serial programmers by Sharad Raj Singh Maurya
 archetype:
   - Blog
-stale: false
 ---
