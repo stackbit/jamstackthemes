@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-10-24T02:47:15.000Z
 description: A humble Gatsby starter for blog
-stale: false
+stale: true
 ---

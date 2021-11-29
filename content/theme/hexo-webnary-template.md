@@ -18,6 +18,8 @@ description: >-
   open online library, testimonial blogs, news article and whatever you need it
   for.
 stale: false
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 # A Fully Customisable starter template for Hexo

@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "theme_key": "dfcommunity-hexo-web-nary",
+    "file": "hexo-webnary-template.md",
+    "repoUrl": "https://github.com/DFCommunity/Hexo-Web-Nary",
+    "error": "Github repo not found"
+  },
+  {
+    "theme_key": "philhawksworth-hawksworx.com",
+    "file": "hawksworx.md",
+    "repoUrl": "https://github.com/philhawksworth/hawksworx.com",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "clarkhacks-minimal-text",
+    "file": "jekyll-theme-minimal-text.md",
+    "repoUrl": "https://github.com/clarkhacks/Minimal-Text",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "wannaxiao-vuepress-theme-resume",
+    "file": "vuepress-theme-resume.md",
+    "repoUrl": "https://github.com/wannaxiao/vuepress-theme-resume",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "kimnagui-gatsby-starter-nagui",
+    "file": "gatsby-starter-nagui.md",
+    "repoUrl": "https://github.com/kimnagui/gatsby-starter-nagui",
+    "error": "error checking demo url"
+  }
+]

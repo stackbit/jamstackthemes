@@ -7,10 +7,12 @@ date: 2021-11-07T00:00:00.000Z
 ssg:
   - Hugo
 cms:
-  - No CMS 
+  - No CMS
 archetype:
   - Blog
-description: Clean, responsive, and feature-rich blogging theme ported from the WordPress Lingonberry theme.
+description: >-
+  Clean, responsive, and feature-rich blogging theme ported from the WordPress
+  Lingonberry theme.
 stale: false
 ---
 

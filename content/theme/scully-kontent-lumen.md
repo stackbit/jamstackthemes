@@ -14,7 +14,7 @@ archetype:
 description: >-
   Minimal, lightweight, and mobile-first starter for creating blogs using Scully
   and Kentico Kontent.
-stale: false
+stale: true
 ---
 
 # Lumen - blog/portfolio starter for Scully and Kontent

@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2016-01-23T22:26:04.000Z
 description: ':ramen: Minimalist Jekyll Template'
-stale: true
+stale: false
 ---

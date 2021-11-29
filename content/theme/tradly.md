@@ -1,20 +1,20 @@
 ---
-title: "Butterflies by Tradly.App"
+title: Butterflies by Tradly.App
 github: https://github.com/TRADLY-PLATFORM/Butterflies
-
-demo: https://watchtracker.vercel.app/ 
+demo: https://watchtracker.vercel.app/
 author: Tradly.app
-date: 2021-11-18
+date: 2021-11-18T00:00:00.000Z
 ssg:
   - Next
 cms:
   - Tradly
-css: 
+css:
   - Tailwind
-archetype: 
+archetype:
   - Ecommerce
   - Business
 description: This is an amazing theme and this is a small description about it!
+stale: false
 ---
 
 # Free NextJS + Tailwind Kit for Marketplace
