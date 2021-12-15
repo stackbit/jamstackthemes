@@ -1,32 +1,38 @@
 [
   {
-    "theme_key": "dfcommunity-hexo-web-nary",
-    "file": "hexo-webnary-template.md",
-    "repoUrl": "https://github.com/DFCommunity/Hexo-Web-Nary",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "philhawksworth-hawksworx.com",
-    "file": "hawksworx.md",
-    "repoUrl": "https://github.com/philhawksworth/hawksworx.com",
-    "error": "demo url not found"
-  },
-  {
-    "theme_key": "clarkhacks-minimal-text",
-    "file": "jekyll-theme-minimal-text.md",
-    "repoUrl": "https://github.com/clarkhacks/Minimal-Text",
-    "error": "demo url not found"
-  },
-  {
-    "theme_key": "wannaxiao-vuepress-theme-resume",
-    "file": "vuepress-theme-resume.md",
-    "repoUrl": "https://github.com/wannaxiao/vuepress-theme-resume",
-    "error": "demo url not found"
-  },
-  {
-    "theme_key": "kimnagui-gatsby-starter-nagui",
-    "file": "gatsby-starter-nagui.md",
-    "repoUrl": "https://github.com/kimnagui/gatsby-starter-nagui",
+    "theme_key": "t413-singlepaged",
+    "file": "jekyll-singlepaged.md",
+    "repoUrl": "https://github.com/t413/SinglePaged",
     "error": "error checking demo url"
+  },
+  {
+    "theme_key": "airrayagroupwebdesign-sciblog",
+    "file": "jekyll-sciblog.md",
+    "repoUrl": "https://github.com/airrayagroupwebdesign/sciblog",
+    "error": "error checking demo url"
+  },
+  {
+    "theme_key": "xukimseven-hardcandy-jekyll",
+    "file": "jekyll-theme-HardCandy.md",
+    "repoUrl": "https://github.com/xukimseven/HardCandy-Jekyll",
+    "error": "error checking demo url"
+  },
+  {
+    "theme_key": "gustavoquinalha-jekyll-help-center-theme",
+    "file": "jekyll-theme-help-center.md",
+    "repoUrl": "https://github.com/gustavoquinalha/jekyll-help-center-theme",
+    "error": "error checking demo url"
+  },
+  {
+    "theme_key": "staticmania-roxo-hugo",
+    "file": "roxo-hugo.md",
+    "repoUrl": "https://github.com/StaticMania/roxo-hugo",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "sarasate-gate",
+    "file": "gatsby-gate.md",
+    "repoUrl": "https://github.com/sarasate/gate",
+    "error": "demo url not found"
   }
 ]

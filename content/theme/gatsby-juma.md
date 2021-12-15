@@ -8,6 +8,6 @@ ssg:
 cms:
   - No Cms
 date: 2021-12-07T07:07:07.000Z
-description: 'A blue theme for Gatsby with Typescript'
+description: A blue theme for Gatsby with Typescript
 stale: false
 ---

@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2018-05-19T17:36:39.000Z
 description: An easy on the eyes Hugo blog theme with dark mode.
-stale: false
+stale: true
 ---

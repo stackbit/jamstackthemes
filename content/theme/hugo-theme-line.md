@@ -11,7 +11,7 @@ ssg:
   - Hugo
 cms:
   - No CMS
-stale: false
+stale: true
 ---
 
 # Lines hugo theme

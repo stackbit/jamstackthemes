@@ -1,17 +1,18 @@
 ---
-title: "Jam"
+title: Jam
 github: https://github.com/ronv/jam
-demo: https://jam-hugo.netlify.app/ # Please make sure this links to a theme demo and not your personal/business site. The demo url must use https
+demo: https://jam-hugo.netlify.app/
 author: Ronalds Vilcins
-date: 2021-12-06 # Enter the date you submitted the theme YYYY-MM-DD
+date: 2021-12-06T00:00:00.000Z
 ssg:
-  - Hugo # at least 1 ssg is required
+  - Hugo
 cms:
-  - No CMS # at least 1 cms is required. If your theme uses markdown (no CMS) the cms should be "No CMS" 
-archetype: # archetype is optional
+  - No CMS
+archetype:
   - Blog
   - Portfolio
 description: Jam is a minimal personal blog and portfolio theme powered by Hugo.
+stale: false
 ---
 
 # Jam Hugo theme

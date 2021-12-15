@@ -14,7 +14,7 @@ archetype:
   - Blog
   - Portfolio
 description: A Jekyll theme based on Creative Theme v5.1.8 and Bootstrap v4.3.1
-stale: false
+stale: true
 ---
 
 # Description
