@@ -1,5 +1,4 @@
 {{ define "title" }}Jamstack Themes{{ end }}
-{{ define "header_classes" }}{{ end }}
 {{ define "body_classes" }}page-home has-sidebar{{ end }}
 
 {{ define "meta_description" }}
@@ -31,24 +30,22 @@
 
                 <div class="intro">
                     <div class="intro-heading">
-                        <h1 class="intro-title">New Themes <span class="count">(<span
-                                        class="count-number">{{ $themeCount }}</span>)</span></h1>
+                        <h1 class="intro-title">New Themes <span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span></h1>
                     </div>
-                    <div class="intro-description d-none d-md-block"><p>A list of themes, templates and starters for <a
-                                    href="https://www.jamstack.wtf" target="_blank" rel="noopener">Jamstack</a> sites.
+                    <div class="intro-description d-none d-md-block">
+                      <p>A list of themes, templates and starters for <a href="https://www.jamstack.wtf" target="_blank" rel="noopener">Jamstack</a> sites.
                             We're the largest theme gallery of user submitted, open source themes for static site
-                            generators 🦖. This site is maintained by the community and with the kind support of <a
-                                    href="https://www.stackbit.com/?ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=jamstackthemeswebsite&utm_content=blurb">Stackbit</a>.
-                        </p></div>
-                    <div class="intro-description d-md-none"><p>A list of themes and starters for <a
-                                    href="https://www.jamstack.wtf" target="_blank" rel="noopener">Jamstack</a> sites.
-                        </p></div>
+                            generators 🦖. This site is maintained by the community and with the kind support of <a href="https://www.stackbit.com/?ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=jamstackthemeswebsite&utm_content=blurb">Stackbit</a>.
+                        </p>
+                    </div>
+                    <div class="intro-description d-md-none">
+                      <p>A list of themes and starters for <a href="https://www.jamstack.wtf" target="_blank" rel="noopener">Jamstack</a> sites.</p>
+                    </div>
                 </div>
 
                 {{ partial "sort-buttons.html" . }}
 
                 <div id="grids-homepage" class="row mt-3">
-
                     {{ range (($themes.ByParam "date").Reverse).ByParam "weight" }}
                         {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
                         {{ $repo := index .Site.Data.themes $repoName }}
@@ -60,11 +57,9 @@
             </div>
         </div>
     </div>
-
 {{ end }}
 
 {{ define "footer_js" }}
-
     {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
     {{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
     {{ $filterGroups := resources.Get "js/filter/filter-groups.js" }}
@@ -79,5 +74,4 @@
     {{ else }}
         <script type="text/javascript" src="{{ ($homeBundle | minify | fingerprint).RelPermalink }}"></script>
     {{ end }}
-
 {{ end }}

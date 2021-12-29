@@ -1,5 +1,5 @@
 ---
-title: Butterflies by Tradly.App
+title: Butterflies
 github: https://github.com/TRADLY-PLATFORM/Butterflies
 demo: https://watchtracker.vercel.app/
 author: Tradly.app
@@ -7,7 +7,7 @@ date: 2021-11-18T00:00:00.000Z
 ssg:
   - Next
 cms:
-  - Tradly
+  - No CMS
 css:
   - Tailwind
 archetype:

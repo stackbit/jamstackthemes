@@ -6,7 +6,7 @@ public
 .DS_Store
 
 # Jetbrains
-.idea/
+.idea
 
 # Logs
 logs

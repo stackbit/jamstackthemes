@@ -1,21 +1,9 @@
 {{ define "title" }}{{ $themes := .RegularPages }}{{ $themes := (where $themes ".Params.draft" "!=" true) }}{{ $themes := (where $themes ".Params.disabled" "!=" true) }}{{ $paginatorTitle := .Paginate $themes }}{{ .Title }} Themes {{ if eq $paginatorTitle.PageNumber 1 }}({{ $paginatorTitle.TotalNumberOfElements }}){{ end }}{{ if gt $paginatorTitle.PageNumber 1 }} | Page {{ $paginatorTitle.PageNumber }}{{ end }}{{ end }}
-{{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}page-taxonomy{{ end }}
+{{ define "body_classes" }}page-default-taxonomy{{ end }}
 
 {{ define "meta_description" }}
-<meta name="description" content="Browse {{ .Title }} themes, starters and templates." />
+  <meta name="description" content="Browse {{ .Title }} themes, starters and templates." />
 {{ end }}
-
-{{ define "ogmeta" }}
-    <meta property="og:title" content="{{ .Title }} Themes" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ .Permalink }}" />
-    <meta property="og:description" content="Browse {{ .Title }} themes, starters and templates.">
-    <meta property="og:image" content="{{ .Site.BaseURL }}images/jamstackthemes-screenshot.png">
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@jamstackthemes" />
-    <meta name="twitter:creator" content="@jamstackthemes" />
-{{end}}
 
 {{ define "main" }}
 {{ $themes := .RegularPages }}
@@ -45,13 +33,12 @@
             </div>
 
             <div id="grids-taxonomy" class="row mt-2">
-
-            {{ range $paginator.Pages.ByDate.Reverse }}
-                 {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
-                {{ $repo := index .Site.Data.themes $repoName }}
-                {{ $stackbit := index .Site.Data.stackbit $repoName }}
-                {{ partial "theme-card.html" (dict "theme" . "repo" $repo "stackbit" $stackbit "site" $.Site) }}
-            {{ end }}
+              {{ range $paginator.Pages.ByDate.Reverse }}
+                  {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
+                  {{ $repo := index .Site.Data.themes $repoName }}
+                  {{ $stackbit := index .Site.Data.stackbit $repoName }}
+                  {{ partial "theme-card.html" (dict "theme" . "repo" $repo "stackbit" $stackbit "site" $.Site) }}
+              {{ end }}
             </div>
 
             {{ partial "pagination.html" . }}

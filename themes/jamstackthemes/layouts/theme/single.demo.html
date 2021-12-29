@@ -1,5 +1,4 @@
 {{ define "title" }}{{ .Title }} - Demo{{ end }}
-{{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-theme-single-demo{{ end }}
 
 {{ define "ogmeta" }}
@@ -21,12 +20,8 @@
     <meta name="twitter:creator" content="@jamstackthemes"/>
 {{end}}
 
-{{ define "header" }}
-    <!-- empty -->
-{{ end }}
-
 {{ define "main" }}
-     {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
+    {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
     {{ $repo := index .Site.Data.themes $repoName }}
     {{ $stackbit := index .Site.Data.stackbit $repoName }}
     <div class="demo">
@@ -38,6 +33,7 @@
             <div class="demo-heading">
                 <h1 class="demo-title">{{ .Title }}</h1>
                 <div class="theme-tags d-none d-lg-block">
+                  
                     {{ if .Params.ssg }}
                         {{- range .Params.ssg }}
                             {{- with $.Site.GetPage "taxonomyTerm" (printf "ssg/%s" (urlize .)) }}
@@ -71,7 +67,12 @@
                 </div>
             </div>
             <div class="action-buttons">
-                <a class="action-button action-button-outline action-button-info" href="{{ .Permalink }}">Theme Info</a>
+                {{ with .OutputFormats.Get "html" -}}
+                  <a class="action-button action-button-outline action-button-info" href="{{ .Permalink }}">Theme Info</a>
+                {{- end }}
+                <a class="action-button action-button-outline action-button-github d-none d-md-block"
+                   data-action="github" data-context="demo" data-name="{{ .Title }}" href="{{ .Params.demo }}"
+                   target="_blank" rel="nofollow noopener">Live Demo</a>
                 <a class="action-button action-button-outline action-button-github d-none d-md-block"
                    data-action="github" data-context="demo" data-name="{{ .Title }}" href="{{ .Params.github }}"
                    target="_blank" rel="nofollow noopener">Github</a>
@@ -94,8 +95,4 @@
         </div>
     </div>
     <iframe class="iframe-preview" width="100%" src="{{ .Params.demo }}"></iframe>
-{{ end }}
-
-{{ define "footer" }}
-    <!-- empty -->
 {{ end }}

@@ -38,7 +38,8 @@ const groups = {
         "prismic",
         "sanity",
         "storyblok",
-        "wordpress"
+        "wordpress",
+        "notion"
     ],
     css: ["bootstrap", "scss", "tailwind", "bulma", "postcss","styled-components"],
     archetype: ["blog", "portfolio", "business", "multi-purpose", "single-page", "ecommerce","documentation", "personal"],
