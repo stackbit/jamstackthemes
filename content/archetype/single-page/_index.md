@@ -1,4 +1,4 @@
 ---
 title: "Single Page"
-icon: images/icons/noun_down_329586.svg
+icon: images/icons/single-page.svg
 ---

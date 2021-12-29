@@ -13,7 +13,6 @@ archetype:
   - Blog
   - Portfolio
   - Business
-  - Multi Purpose
 date: 2020-10-28T17:02:32.000Z
 description: >-
   A statically generated blog built on the React framework Next.js. Uses

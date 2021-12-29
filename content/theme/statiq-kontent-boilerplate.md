@@ -8,8 +8,6 @@ ssg:
 cms:
   - Kontent
 date: 2020-12-01T00:00:00.000Z
-archetype:
-  - Multi Purpose
 description: >-
   Boilerplate utilizing Statiq and Kentico Kontent to provide a starting point
   in the Jamstack world for .NET developers.

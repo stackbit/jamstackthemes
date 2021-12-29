@@ -1,9 +1,9 @@
 ---
-title: "Digital Garden"
+title: Digital Garden
 github: https://github.com/apvarun/digital-garden-hugo-theme
 demo: https://digital-garden-hugo-theme.vercel.app/
 author: Varun A P
-date: 2021-12-23
+date: 2021-12-23T00:00:00.000Z
 ssg:
   - Hugo
 cms:

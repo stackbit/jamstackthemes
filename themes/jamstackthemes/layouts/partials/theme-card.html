@@ -53,8 +53,18 @@
 
             <h2><a href="{{ .theme.Permalink }}" class="theme-title">{{ .theme.Params.title }}</a></h2>
 
+            
             {{ if .repo }}
-                {{ partial "github-metrics.html" (dict "last_commit" .repo.last_commit "stars" .repo.stars )}}
+            <div class="github-metrics">
+              <div>
+                  <img width="15" height="15" alt="Github Stars" src="{{ "images/ui/star-solid.svg" | relURL }}"/>
+                  <span>{{ .repo.stars }}</span>
+              </div>
+              <div>
+                  <img width="15" height="15" alt="Last Commit" src="{{ "images/ui/history-solid.svg" | relURL }}"/>
+                  <span>{{ dateFormat "Jan 2, 2006" .repo.last_commit }}</span>
+              </div>
+            </div>
             {{ end }}
 
             <div class="theme-description">
@@ -77,7 +87,7 @@
                    data-context="card"
                    data-name="{{ .theme.Title }}"
                    href="/demo{{ .theme.RelPermalink }}"
-                >Live Demo</a>
+                >Demo</a>
                 {{ if .site.Params.stackbit_button }}
                     {{ if .theme.Params.stackbit }}
                         <a class="action-button action-button-fill action-button-stackbit" data-action="stackbit"

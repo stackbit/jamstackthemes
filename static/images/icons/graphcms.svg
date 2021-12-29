@@ -1,12 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
-  <defs>
-    <clipPath id="clip-Icon_Black">
-      <rect width="512" height="512"/>
-    </clipPath>
-  </defs>
-  <g id="Icon_Black" data-name="Icon Black" clip-path="url(#clip-Icon_Black)">
-    <g id="Group-6" transform="translate(128 36)">
-      <path id="Path" d="M205.143,58.642l-51.2,29.323-51.2,29.319-51.2,29.323V322.536l51.2-29.323,51.2-29.323V205.248l-51.2,29.322V175.929l51.2-29.323,51.2-29.323V293.213l-51.2,29.323-51.2,29.319-51.2,29.322L.346,410.5l51.2,29.323,51.2-29.323,51.2-29.319,51.2-29.322,51.2-29.319V29.323L205.143,0Z" transform="translate(-0.346)" fill-rule="evenodd"/>
-    </g>
-  </g>
-</svg>
+<svg height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="a"><path d="m0 0h512v512h-512z"/></clipPath><g clip-path="url(#a)"><path d="m205.143 58.642-51.2 29.323-51.2 29.319-51.2 29.323v175.929l51.2-29.323 51.2-29.323v-58.642l-51.2 29.322v-58.641l51.2-29.323 51.2-29.323v175.93l-51.2 29.323-51.2 29.319-51.2 29.322-51.197 29.323 51.2 29.323 51.2-29.323 51.2-29.319 51.2-29.322 51.2-29.319v-293.217l-51.203-29.323z" fill-rule="evenodd" transform="translate(127.654 36)"/></g></svg>

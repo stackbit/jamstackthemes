@@ -10,7 +10,7 @@ const themesMarkdownFolder = path.join(process.cwd(), '/content/theme')
 const themesMarkdownFiles = fs.readdirSync(themesMarkdownFolder).map(relFilename => path.resolve(themesMarkdownFolder, relFilename))
 const themesJsonFile = path.join(process.cwd(), '/data/themes.json');
 const themesJsonData = fs.existsSync(themesJsonFile) ? JSON.parse(fs.readFileSync(themesJsonFile)) : {};
-const hiresImagesFolder = path.join(process.cwd(), '../jst-assets/static/capture');
+const hiresImagesFolder = path.join(process.cwd(), '/static/capture');
 const thumbnailImagesFolder = path.join(process.cwd(), '/static/images/theme/thumbnail')
 const thumbnailImagesFolder2x = path.join(process.cwd(), '/static/images/theme/thumbnail/2x')
 const staleBeforeDate = subYears(new Date(), 1);

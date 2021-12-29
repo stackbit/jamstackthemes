@@ -1,9 +1,9 @@
 ---
-title: "Urban Theme"
+title: Urban Theme
 github: https://github.com/midzer/urban-theme
 demo: https://midzer.github.io/urban-theme/
 author: midzer
-date: 2021-12-16
+date: 2021-12-16T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
@@ -11,6 +11,7 @@ cms:
 archetype:
   - Blog
 description: Minimal jekyll theme for visual artists
+stale: false
 ---
 
 # Urban Theme

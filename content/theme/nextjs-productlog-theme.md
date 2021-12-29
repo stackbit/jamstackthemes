@@ -1,9 +1,9 @@
 ---
-title: "ProductLog Theme"
+title: ProductLog Theme
 github: https://github.com/apvarun/productlog-nextjs-theme
 demo: https://productlog-theme.vercel.app/
 author: Varun A P
-date: 2021-09-25
+date: 2021-09-25T00:00:00.000Z
 ssg:
   - Next
 cms:
@@ -12,6 +12,7 @@ cms:
 css:
   - Tailwind
 description: NextJS-based changelog theme for your product
+stale: false
 ---
 
 # ProductLog Theme - NextJS, Tailwind, TypeScript

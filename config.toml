@@ -15,6 +15,7 @@ pygmentsUseClasses = true
   description = "Over 1000 themes and starters for Jamstack and static site generators."
   stackbit_button = true
   iframe_demo = true
+  assets_url = "https://assets.jamstackthemes.dev"
   [theme_card]
     show_archetype_icons = false
     show_services_icons = false

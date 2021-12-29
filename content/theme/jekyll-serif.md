@@ -9,7 +9,6 @@ cms:
   - No Cms
 archetype:
   - Business
-  - Multi Purpose
 css:
   - SCSS
   - Bootstrap

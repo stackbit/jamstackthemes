@@ -11,7 +11,6 @@ cms:
 css:
   - Bootstrap
 archetype:
-  - Multi Page
   - Personal
 description: >-
   If you want convert your website domain to domain github page, will use my

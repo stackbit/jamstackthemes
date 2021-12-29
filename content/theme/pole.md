@@ -12,7 +12,6 @@ css:
   - Scss
 archetype:
   - Blog
-  - Personal website
 description: Pole is a one-column minimal responsive Jekyll blog theme.
 stale: false
 disabled: true

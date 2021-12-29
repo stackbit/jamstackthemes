@@ -12,7 +12,6 @@ css:
   - PostCSS
 archetype:
   - Business
-  - Website
 description: >-
   A small business website template based on Nextjs and the original idea of
   one-click-hugo-cms from netlify.

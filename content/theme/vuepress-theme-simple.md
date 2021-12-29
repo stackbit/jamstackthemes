@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-02-02T03:15:40.000Z
 description: ✏️ Very Simple Blog Theme for VuePress
-stale: false
+stale: true
 ---

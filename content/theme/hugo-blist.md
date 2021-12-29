@@ -13,7 +13,6 @@ css:
 archetype:
   - Blog
   - Personal
-  - Multi Page
 description: Blist is a clean and fast blog theme for your Hugo site.
 stale: false
 ---

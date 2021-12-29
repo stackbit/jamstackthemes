@@ -13,7 +13,6 @@ css:
 archetype:
   - Blog
   - Personal
-  - Multi-Purpose
 description: A simple, lightweight theme for Hugo built with Tailwind CSS.
 stale: false
 ---

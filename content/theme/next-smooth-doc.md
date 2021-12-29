@@ -10,7 +10,6 @@ cms:
   - No CMS
 archetype:
   - Documentation
-  - Website
 description: smooth-doc in Nextjs implementation
 stale: false
 ---

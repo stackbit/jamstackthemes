@@ -10,7 +10,6 @@ cms:
 archetype:
   - Blog
   - Portfolio
-  - Multi Purpose
 css:
   - SCSS
 date: 2020-12-04T00:00:00.000Z

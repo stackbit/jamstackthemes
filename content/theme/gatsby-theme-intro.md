@@ -11,7 +11,6 @@ cms:
 css:
   - Tailwind
 archetype:
-  - Multi Purpose
   - Portfolio
   - Single Page
 services:

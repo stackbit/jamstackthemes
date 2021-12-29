@@ -41,6 +41,6 @@ const groups = {
         "wordpress",
         "notion"
     ],
-    css: ["bootstrap", "scss", "tailwind", "bulma", "postcss","styled-components"],
-    archetype: ["blog", "portfolio", "business", "multi-purpose", "single-page", "ecommerce","documentation", "personal"],
+    css: ["bootstrap", "scss", "tailwind", "bulma", "postcss", "styled-components"],
+    archetype: ["blog", "portfolio", "business", "single-page", "ecommerce", "documentation", "personal"],
 };

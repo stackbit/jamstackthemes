@@ -14,7 +14,6 @@ description: Next.js starter for creating a SaaS Marketing Website with GraphCMS
 stale: false
 archetype:
   - Business
-  - Website
 ---
 
 # reference-marketing-website

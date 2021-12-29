@@ -9,8 +9,9 @@ cms:
   - No Cms
 category:
   - Blog
-date: 2021-11-06
+date: 2021-11-06T00:00:00.000Z
 description: A Hugo theme for serial programmers by Sharad Raj Singh Maurya
 archetype:
   - Blog
+stale: false
 ---

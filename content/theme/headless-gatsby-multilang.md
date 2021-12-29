@@ -10,7 +10,6 @@ cms:
   - DatoCMS
 archetype:
   - Blog
-  - Marketing
 description: A multilingual blog starter for Gatsby completely driven by an headless CMS.
 stale: false
 ---

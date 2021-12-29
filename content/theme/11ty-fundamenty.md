@@ -13,7 +13,6 @@ css:
 archetype:
   - Blog
   - Business
-  - Multi Purpose
 description: >-
   11ty Starter with Multi-language support, SEO-friendly, GitHub/GitLab
   Pages-ready

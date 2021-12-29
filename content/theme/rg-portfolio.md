@@ -11,7 +11,6 @@ cms:
 archetype:
   - Blog
   - Portfolio
-  - Multi Purpose
 services:
   - Formstack
 description: >-

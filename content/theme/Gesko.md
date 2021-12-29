@@ -13,8 +13,6 @@ css:
 archetype:
   - Blog
   - Portfolio
-  - multi-page
-  - multi-purpose
 description: Gesko is a simple and minimalistic jekyll blogging theme
 stale: false
 ---

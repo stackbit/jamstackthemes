@@ -11,7 +11,6 @@ archetype:
   - Ecommerce
   - Business
   - Blog
-  - Multi Purpose
 css:
   - Tailwind
 date: 2021-03-04T00:00:00.000Z

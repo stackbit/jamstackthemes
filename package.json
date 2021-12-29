@@ -3,6 +3,7 @@
     "build": "node ./scripts/build.js && hugo --minify",
     "deploy": "node ./scripts/build.js --latest && hugo --minify",
     "stackbit": "node ./scripts/build.js --github=false --demos=false --images=false && hugo --minify",
+    "images": "node ./scripts/build.js --github=false --demos=false --stackbit=false && hugo --minify",
     "deploy:branch": "npm run deploy && echo 'User-agent: *\nDisallow: /' > public/robots.txt"
   },
   "dependencies": {

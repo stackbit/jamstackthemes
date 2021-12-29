@@ -1,4 +1,4 @@
 ---
 title: "Documentation"
-icon: images/icons/archetype/documentation.svg
+icon: images/icons/documentation.svg
 ---

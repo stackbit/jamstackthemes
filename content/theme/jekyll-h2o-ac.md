@@ -1,9 +1,9 @@
 ---
-title: "H2O-ac"
+title: H2O-ac
 github: https://github.com/zhonger/jekyll-theme-H2O-ac
 demo: https://h2o-ac.pages.dev
 author: zhonger
-date: 2021-12-24
+date: 2021-12-24T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
@@ -14,6 +14,7 @@ archetype:
   - Blog
   - Personal
 description: A jekyll theme for academic researchers and system maintainers!
+stale: false
 ---
 
 H2o-ac is designed for academic researchers and system maintainers to show the academic informations or project informations firstly. It also supports many useful features for authors and readers.

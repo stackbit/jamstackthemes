@@ -3,15 +3,16 @@ title: Anatole
 github: https://github.com/lxndrblz/anatole
 demo: https://anatole-demo.netlify.app/
 author: Alexander Bilz
-date: 2021-12-26 # Enter the date you submitted the theme YYYY-MM-DD
+date: 2021-12-26T00:00:00.000Z
 ssg:
-  - Hugo # at least 1 ssg is required
+  - Hugo
 cms:
-  - No CMS # at least 1 cms is required. If your theme uses markdown (no CMS) the cms should be "No CMS"
-archetype: # archetype is optional
+  - No CMS
+archetype:
   - Blog
   - Portfolio
 description: Anatole is a minimalist two-column Hugo theme based on farbox-theme-Anatole.
+stale: false
 ---
 
 ## Features

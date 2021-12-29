@@ -14,7 +14,6 @@ archetype:
   - Personal
   - Portfolio
   - Blog
-  - Multi Purpose
   - Documentation
   - Business
 description: J1 Template - Create powerful modern static websites.

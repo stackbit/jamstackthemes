@@ -1,18 +1,19 @@
 ---
-title: "Scroll"
+title: Scroll
 github: https://github.com/janraasch/hugo-scroll
 demo: https://janraasch.github.io/hugo-scroll/
 author: Janrasch
-date: 2021-12-23
+date: 2021-12-23T00:00:00.000Z
 ssg:
   - Hugo
 cms:
   - No CMS
-css:
+css: null
 archetype:
   - Single page
   - Portfolio
 description: A Single Page Theme to build pretty, quick and simple websites with Hugo.
+stale: false
 ---
 
 # Quickly build a Single Page website with Hugo

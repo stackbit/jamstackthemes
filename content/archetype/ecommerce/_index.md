@@ -1,4 +1,4 @@
 ---
 title: "Ecommerce"
-icon: images/icons/archetype/ecommerce.svg
+icon: images/icons/ecommerce.svg
 ---

@@ -11,7 +11,6 @@ cms:
 archetype:
   - Blog
   - Business
-  - Multi Purpose
 description: 🎨 Yet another theme for elegant writers with modern flat style.
 stale: false
 ---

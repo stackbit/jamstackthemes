@@ -8,8 +8,6 @@ ssg:
   - Gatsby
 cms:
   - Kontent
-archetype:
-  - Multi Purpose
 description: Material UI Paperbase Starter for Gatsby with Kentico Kontent.
 stale: true
 ---
