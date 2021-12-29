@@ -1,7 +1,7 @@
 ---
 title: ZeeSpire One
 github: https://github.com/ZeeSpire/one-free
-demo: https://www.weinspire.tech
+demo: https://one-free.zeespire.com/
 author: ZeeSpire
 ssg:
   - Jekyll
