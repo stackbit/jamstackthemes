@@ -76,3 +76,5 @@ content/test
 
 # Visual Studio Code project settings
 .vscode
+# Local Netlify folder
+.netlify
