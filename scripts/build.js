@@ -38,7 +38,7 @@ const build = async (options) => {
     writeErrorFile(errorLog)
     console.log("Build Successful")
     console.log("Error Log")
-    console.log(errorLog)
+    process.exit(0)
 }
 
 const options = {

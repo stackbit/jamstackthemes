@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "theme_key": "obaez-dentistsmile",
+    "file": "dentistsmile.md",
+    "repoUrl": "https://github.com/obaez/dentistsmile",
+    "error": "Github repo not found"
+  },
+  {
+    "theme_key": "obaez-dentistsmile",
+    "file": "dentistsmile.md",
+    "repoUrl": "https://github.com/obaez/dentistsmile",
+    "error": "error checking demo url"
+  }
+]
