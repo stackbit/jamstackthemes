@@ -45,8 +45,9 @@ This theme is a lightweight starter kit. It also gives you a well organised star
 ```
 
     
-## Contribution Guidelines
+## Submission Guidelines
 
 * Any open source themes with a public github repo can be submitted.
 * Please make sure the `demo` links to a theme demo and not your personal/business site. The demo url must use https
+* at least 1 `ssg` is required.
 * at least 1 `cms` is required. If your theme uses markdown (no CMS) the cms should be "No CMS"
