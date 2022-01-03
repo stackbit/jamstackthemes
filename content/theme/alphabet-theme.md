@@ -4,6 +4,10 @@ github: https://github.com/piandhust/alphabet-theme
 demo: https://piandhust.github.io/alphabet-theme/ 
 author: trannguyenhan
 date: 2022-01-01
+ssg:
+  - Gridsome
+cms:
+  - No CMS
 archetype:
   - Personal
   - Blog
