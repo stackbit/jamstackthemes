@@ -1,7 +1,7 @@
 ---
 title: Ananke
-github: https://github.com/budparr/gohugo-theme-ananke
-demo: https://gohugo-ananke-theme-demo.netlify.com/
+github: https://github.com/theNewDynamic/gohugo-theme-ananke
+demo: https://gohugo-ananke-theme-demo.netlify.app/
 author: Bud Parr
 ssg:
   - Hugo
