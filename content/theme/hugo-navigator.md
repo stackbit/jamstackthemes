@@ -1,7 +1,7 @@
 ---
 title: Navigator Hugo
 github: https://github.com/gethugothemes/navigator-hugo/
-demo: https://demo.gethugothemes.com/navigator/
+demo: https://demo.gethugothemes.com/navigator/site/
 author: Gethugothemes
 ssg:
   - Hugo

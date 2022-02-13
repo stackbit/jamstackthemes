@@ -1,7 +1,7 @@
 ---
 title: Touchy
 github: https://github.com/gethugothemes/touchy-hugo
-demo: https://demo.gethugothemes.com/touchy/
+demo: https://demo.gethugothemes.com/touchy/site/
 author: Gethugothemes
 ssg:
   - Hugo

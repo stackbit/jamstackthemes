@@ -1,8 +1,8 @@
 ---
 title: Geeky Hugo
-github: https://github.com/gethugothemes/geeky-hugo
-demo: https://demo.gethugothemes.com/geeky/
-author: Gethugothemes
+github: https://github.com/statichunt/geeky-hugo
+demo: https://demo.statichunt.com/geeky-hugo/
+author: Statichunt
 ssg:
   - Hugo
 cms:

@@ -1,7 +1,7 @@
 ---
 title: Andromeda Light
 github: https://github.com/gethugothemes/andromeda-light
-demo: https://demo.gethugothemes.com/andromeda-light/
+demo: https://demo.gethugothemes.com/andromeda-light/site/
 author: Gethugothemes
 ssg:
   - Hugo

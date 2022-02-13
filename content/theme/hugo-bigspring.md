@@ -1,7 +1,7 @@
 ---
 title: Bigspring
 github: https://github.com/themefisher/bigspring-light
-demo: https://demo.gethugothemes.com/bigspring-light/
+demo: https://demo.gethugothemes.com/bigspring-light/site/
 author: Themefisher
 ssg:
   - Hugo

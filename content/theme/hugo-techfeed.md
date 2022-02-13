@@ -1,7 +1,7 @@
 ---
 title: Techfeed Hugo
 github: https://github.com/gethugothemes/techfeed-hugo
-demo: https://demo.gethugothemes.com/techfeed/
+demo: https://demo.gethugothemes.com/techfeed/site/
 author: Gethugothemes
 ssg:
   - Hugo

@@ -1,7 +1,7 @@
 ---
 title: Kross
 github: https://github.com/themefisher/kross-hugo/
-demo: https://demo.gethugothemes.com/kross/
+demo: https://demo.gethugothemes.com/kross/site/
 author: Themefisher
 ssg:
   - Hugo

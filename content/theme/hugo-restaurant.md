@@ -1,7 +1,7 @@
 ---
 title: Restaurant
 github: https://github.com/gethugothemes/restaurant-hugo/
-demo: https://demo.gethugothemes.com/restaurant/
+demo: https://demo.gethugothemes.com/restaurant/site/
 author: Themefisher
 ssg:
   - Hugo
