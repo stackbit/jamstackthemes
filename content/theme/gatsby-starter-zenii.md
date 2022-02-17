@@ -15,7 +15,7 @@ archetype:
   - Business
   - Single Page
 description: A One-page Gatsby starter built with Tailwindcss and Postcss.
-stale: false
+stale: true
 ---
 
 # A simple one-page theme for Gatsby

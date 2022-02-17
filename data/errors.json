@@ -1,14 +1,32 @@
 [
   {
-    "theme_key": "obaez-dentistsmile",
-    "file": "dentistsmile.md",
-    "repoUrl": "https://github.com/obaez/dentistsmile",
-    "error": "Github repo not found"
+    "theme_key": "kazumasato-siera",
+    "file": "jekyll-siera.md",
+    "repoUrl": "https://github.com/KazumaSATO/Siera",
+    "error": "error checking demo url"
   },
   {
-    "theme_key": "obaez-dentistsmile",
-    "file": "dentistsmile.md",
-    "repoUrl": "https://github.com/obaez/dentistsmile",
+    "theme_key": "itsmeaga1n-minimal-categorized",
+    "file": "minimal-categorized.md",
+    "repoUrl": "https://github.com/ItsMeaga1n/minimal-categorized",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "bradykondek-streamer",
+    "file": "streamer-theme.md",
+    "repoUrl": "https://github.com/bradykondek/streamer",
     "error": "error checking demo url"
+  },
+  {
+    "theme_key": "knaman2609-clean",
+    "file": "jekyll-clean.md",
+    "repoUrl": "https://github.com/knaman2609/clean",
+    "error": "error checking demo url"
+  },
+  {
+    "theme_key": "gilsondev-pelican-clean-blog",
+    "file": "pelican-clean-blog.md",
+    "repoUrl": "https://github.com/gilsondev/pelican-clean-blog",
+    "error": "demo url not found"
   }
 ]

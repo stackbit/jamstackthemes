@@ -1,9 +1,9 @@
 ---
-title: "Just me!"
+title: Just me!
 github: https://github.com/jota-ele-ene/just-me
 demo: https://jota-ele-ene.github.io/just-me-starter/
 author: José Luis Núñez
-date: 2022-01-24
+date: 2022-01-24T00:00:00.000Z
 ssg:
   - Hugo
 cms:
@@ -11,7 +11,11 @@ cms:
 archetype:
   - Backgrounds
   - Profiles
-description: A minimal and fancy theme for Hugo to create Personal Pages with no blog or extra content, just awesome rotating backgrounds and your social profiles to allow people contact you.
+description: >-
+  A minimal and fancy theme for Hugo to create Personal Pages with no blog or
+  extra content, just awesome rotating backgrounds and your social profiles to
+  allow people contact you.
+stale: false
 ---
 
 # Just me!

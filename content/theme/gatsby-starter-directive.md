@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-06-07T18:46:04.000Z
 description: Gatsby.js V2 starter template based on Directive by HTML5 UP
-stale: true
+stale: false
 ---

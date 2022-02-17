@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2018-11-12T21:46:46.000Z
 description: Starter project for vuepress theme cool
-stale: false
+stale: true
 ---

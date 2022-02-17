@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2016-10-22T07:21:04.000Z
 description: 🦁 Personal blog theme built with Bootstrap, powered by Hugo.
-stale: false
+stale: true
 ---
 
 Personal blog theme built with Bootstrap, powered by Hugo.

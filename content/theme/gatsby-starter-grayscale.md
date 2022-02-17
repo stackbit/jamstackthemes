@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-06-24T05:52:10.000Z
 description: Gatsby.js V2 starter template based on Grayscale by startbootstrap
-stale: true
+stale: false
 ---

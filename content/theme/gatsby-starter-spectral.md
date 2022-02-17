@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-06-08T08:30:22.000Z
 description: Gatsby.js V2 starter template based on Spectral by HTML5 UP
-stale: true
+stale: false
 ---

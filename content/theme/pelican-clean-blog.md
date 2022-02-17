@@ -10,4 +10,6 @@ cms:
 date: 2014-12-10T16:01:04.000Z
 description: Theme based in Clean Blog layout to pelican blogs
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

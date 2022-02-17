@@ -10,4 +10,6 @@ cms:
 date: 2015-09-26T18:55:33.000Z
 description: A clean jekyll theme.
 stale: true
+disabled: true
+disabled_reason: error checking demo url
 ---

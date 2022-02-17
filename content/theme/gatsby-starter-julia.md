@@ -11,5 +11,5 @@ date: 2019-03-17T20:42:55.000Z
 description: >-
   A minimal GatsbyJS blog starter with landingpage, estimated reading time,
   markdown sourcing and much more.
-stale: true
+stale: false
 ---

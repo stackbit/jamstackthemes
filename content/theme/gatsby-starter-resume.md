@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-06-22T16:31:13.000Z
 description: Gatsby.js V2 starter template based on Resume  by startbootstrap
-stale: true
+stale: false
 ---

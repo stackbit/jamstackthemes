@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-06-25T11:47:44.000Z
 description: Gatsby.js V2 starter template based on Stylish Portfolio by startbootstrap
-stale: true
+stale: false
 ---

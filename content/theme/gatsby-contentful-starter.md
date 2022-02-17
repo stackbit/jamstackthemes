@@ -9,5 +9,5 @@ cms:
   - Contentful
 date: 2018-01-29T21:29:51.000Z
 description: Gatsby starter for a Contentful project.
-stale: false
+stale: true
 ---

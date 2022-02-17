@@ -3,12 +3,15 @@ title: Gatsby Material Starter
 github: https://github.com/Vagr9K/gatsby-material-starter
 demo: https://gatsby-theme-material.netlify.app/
 author: vagr9k
-date: 2021-12-31
+date: 2021-12-31T00:00:00.000Z
 ssg:
   - Gatsby
 cms:
   - No CMS
-description: A Material Design oriented blog starter for GatsbyJS equipped with advanced features such as SEO, image optimization, PWA capabilities and infinite scrolling feeds.
+description: >-
+  A Material Design oriented blog starter for GatsbyJS equipped with advanced
+  features such as SEO, image optimization, PWA capabilities and infinite
+  scrolling feeds.
 stale: false
 ---
 

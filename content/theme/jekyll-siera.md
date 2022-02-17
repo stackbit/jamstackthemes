@@ -10,6 +10,6 @@ cms:
 date: 2015-11-14T07:47:20.000Z
 description: jekyll theme
 stale: true
-disabled: false
-disabled_reason: ''
+disabled: true
+disabled_reason: error checking demo url
 ---

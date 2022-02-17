@@ -11,7 +11,7 @@ archetype:
   - Portfolio
 description: A nice starter gatsby blog post template with
 disabled: false
-stale: false
+stale: true
 disabled_reason: ''
 ---
 

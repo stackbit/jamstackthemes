@@ -13,7 +13,7 @@ css:
 archetype:
   - Blog
 description: This is a simple little blog with support for writing math
-stale: false
+stale: true
 ---
 
 # A simple theme for blogging
