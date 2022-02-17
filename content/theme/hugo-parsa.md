@@ -1,7 +1,7 @@
 ---
 title: Parsa Hugo
 github: https://github.com/themefisher/parsa-hugo/
-demo: https://demo.gethugothemes.com/parsa/
+demo: https://demo.gethugothemes.com/parsa/site/
 author: Themefisher
 ssg:
   - Hugo

@@ -1,7 +1,7 @@
 ---
 title: Influencer Hugo
 github: https://github.com/gethugothemes/influencer-hugo
-demo: https://demo.gethugothemes.com/influencer/
+demo: https://demo.gethugothemes.com/influencer/site/
 author: Gethugothemes
 ssg:
   - Hugo

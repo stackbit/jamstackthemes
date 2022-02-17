@@ -1,7 +1,7 @@
 ---
 title: Vex
 github: https://github.com/themefisher/vex-hugo/
-demo: https://demo.gethugothemes.com/vex/
+demo: https://demo.gethugothemes.com/vex/site/
 author: Themefisher
 ssg:
   - Hugo

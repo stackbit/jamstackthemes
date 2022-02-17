@@ -1,7 +1,7 @@
 ---
 title: Dot
 github: https://github.com/themefisher/dot-hugo/
-demo: https://demo.gethugothemes.com/dot/
+demo: https://demo.gethugothemes.com/dot/site/
 author: Themefisher
 ssg:
   - Hugo

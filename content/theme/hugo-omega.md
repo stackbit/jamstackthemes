@@ -1,7 +1,7 @@
 ---
 title: Omega
 github: https://github.com/gethugothemes/omega-hugo
-demo: https://demo.gethugothemes.com/omega/
+demo: https://demo.gethugothemes.com/omega/site/
 author: Gethugothemes
 ssg:
   - Hugo

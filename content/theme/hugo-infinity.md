@@ -1,7 +1,7 @@
 ---
 title: Infinity
 github: https://github.com/themefisher/infinity-hugo/
-demo: https://demo.gethugothemes.com/infinity/
+demo: https://demo.gethugothemes.com/infinity/site/
 author: Themefisher
 ssg:
   - Hugo

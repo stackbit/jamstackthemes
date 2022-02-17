@@ -1,7 +1,7 @@
 ---
 title: Timer
 github: https://github.com/themefisher/timer-hugo/
-demo: https://demo.gethugothemes.com/timer/
+demo: https://demo.gethugothemes.com/timer/site/
 author: Themefisher
 ssg:
   - Hugo

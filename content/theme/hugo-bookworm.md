@@ -1,7 +1,7 @@
 ---
 title: Bookworm Light
 github: https://github.com/gethugothemes/bookworm-light
-demo: https://demo.gethugothemes.com/bookworm/
+demo: https://demo.gethugothemes.com/bookworm/site/
 author: Gethugothemes
 ssg:
   - Hugo
