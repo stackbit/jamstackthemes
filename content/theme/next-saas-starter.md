@@ -1,16 +1,19 @@
 ---
-title: "Next SaaS Starter"
+title: Next SaaS Starter
 github: https://github.com/Blazity/next-saas-starter
 demo: https://next-saas-starter-ashy.vercel.app/
 author: Blazity
-date: 2022-02-21
+date: 2022-02-21T00:00:00.000Z
 ssg:
   - Next
 cms:
   - No CMS
 archetype:
   - Business
-description: Free Next.js responsive landing page template for SaaS products made using JAMStack architecture.
+description: >-
+  Free Next.js responsive landing page template for SaaS products made using
+  JAMStack architecture.
+stale: false
 ---
 
 # Next.js marketing website template for SaaS startups

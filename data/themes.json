@@ -3518,6 +3518,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/blankoworld-hugo_theme_adam_eve-2x.jpg"
     }
   },
+  "blazity-next-saas-starter": {
+    "theme_key": "blazity-next-saas-starter",
+    "file": "next-saas-starter.md",
+    "name": "next-saas-starter",
+    "title": "Next SaaS Starter",
+    "github_username": "Blazity",
+    "repo": "Blazity/next-saas-starter",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/Blazity/next-saas-starter",
+    "demo_url": "https://next-saas-starter-ashy.vercel.app/",
+    "stars": 192,
+    "forks": 47,
+    "open_issues": 3,
+    "last_commit": "2022-02-13T22:21:12Z",
+    "created_at": "2021-09-03T20:00:32Z",
+    "description": "⚡️ Free Next.js responsive landing page template for SaaS products made using JAMStack architecture.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/blazity-next-saas-starter.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/blazity-next-saas-starter.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/blazity-next-saas-starter-2x.jpg"
+    }
+  },
   "blleng-hexo-theme-lx": {
     "theme_key": "blleng-hexo-theme-lx",
     "file": "hexo-theme-lx.md",
@@ -12279,6 +12302,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/jjcav84-mdbreact-gatsby-starter.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/jjcav84-mdbreact-gatsby-starter.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/jjcav84-mdbreact-gatsby-starter-2x.jpg"
+    }
+  },
+  "jkytoela-next-startd": {
+    "theme_key": "jkytoela-next-startd",
+    "file": "next-startd.md",
+    "name": "next-startd",
+    "title": "Next.js landing page template for SaaS products",
+    "github_username": "jkytoela",
+    "repo": "jkytoela/next-startd",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/jkytoela/next-startd",
+    "demo_url": "https://next-startd.vercel.app/",
+    "stars": 393,
+    "forks": 44,
+    "open_issues": 0,
+    "last_commit": "2021-03-02T07:47:46Z",
+    "created_at": "2021-02-24T21:59:32Z",
+    "description": "⚡ Free Next.js landing page template for SaaS products, online services and more.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/jkytoela-next-startd.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/jkytoela-next-startd.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/jkytoela-next-startd-2x.jpg"
     }
   },
   "jmau111-gatsby-juma": {

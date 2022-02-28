@@ -1,16 +1,19 @@
 ---
-title: "Next.js landing page template for SaaS products"
+title: Next.js landing page template for SaaS products
 github: https://github.com/jkytoela/next-startd
 demo: https://next-startd.vercel.app/
 author: Jaakko Kytölä
-date: 2022-02-21
+date: 2022-02-21T00:00:00.000Z
 ssg:
   - Next
 cms:
   - No CMS
 archetype:
   - Business
-description: A free Next.js TypeScript landing page template for SaaS products, online services and more.
+description: >-
+  A free Next.js TypeScript landing page template for SaaS products, online
+  services and more.
+stale: false
 ---
 
 # A free Next.js TypeScript landing page template for SaaS products, online services and more.
