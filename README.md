@@ -52,10 +52,10 @@ This theme is a lightweight starter kit. It also gives you a well organised star
 * at least 1 `ssg` is required.
 * at least 1 `cms` is required. If your theme uses markdown (no CMS) the cms should be "No CMS"
 
-## 🚯 People Copying This Site For Their Own Personal Gain
+## 🚯 People Copying This Site
 
-It has come to our attention that other people have **copied this website completely** and are now attempting to use that site for their own personal gain. Not only have they copied this site verbatim, they have completely removed the git history and original author from the MIT License so that no credit is given to this project. 
+It has come to our attention that other people have **copied this website completely** and are now attempting to use that site for their own personal gain. Not only have they copied this site verbatim, they have completely removed the git history and original author from the MIT License so that no credit is given to this project.
 
 On top of this, they have attempted to justify their actions by implying they were somehow blocked from contributing to this project. This is a lie. They were told they could contribute and make PR's with new features and functionality. Unfortunately the only contributions they seemed interested in making were to promote their own themes to the top of the results and sell their premium themes on the site... They submitted no other features.
 
-We will not be listing the website URL to the clone site here, we do not wish to further promote these cheap spammers. But if you do come across this site you will know it immediately and we ask you not to use it. We also encourage you to not purchase products from the following companies Themefisher and Gethugothemes.
+We are not saying people cannot use, remix and reference this website or it's data. But we'd ask that you do it in a respectful way and not in a way that is clearly just to make a quick buck for your shitty company. We will not be listing the website URL to the clone site here, we do not wish to further promote these cheap spammers. But if you do come across this site you will know it immediately. We also encourage you to not purchase products from the following companies Themefisher and Gethugothemes.
