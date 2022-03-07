@@ -58,4 +58,8 @@ It has come to our attention that other people have **copied this website comple
 
 On top of this, they have attempted to justify their actions by implying they were somehow prevented from contributing to this project. This is a lie. They were told they could contribute and make PR's with new features and functionality. Unfortunately the only contributions they seemed interested in making were to promote their own themes to the top of the results and sell their premium themes on the site... They submitted no other features.
 
-We are not saying people cannot use, remix and reference this website or it's data. But we'd ask that you do it in a respectful way. We will not be listing the website URL to the clone site here, we do not wish to further promote cheap spam activity like this. But if you do come across this site you will know it immediately. We also advise you not to purchase products from the following companies: Themefisher and Gethugothemes.
+We are not saying people cannot use, remix and reference this website or it's data. But we'd ask that you do it in a respectful way. 
+
+We will not be listing the website URL to the clone site here. But if you do come across this site you will know it immediately. The company responsible for this unethical behaviour is Themefisher and Gethugothemes and we ask that you boycott their products and do not purchase their premium products.
+
+We would like the website in question taken down, and this statement will remain in place until that is done.
