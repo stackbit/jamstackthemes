@@ -51,15 +51,3 @@ This theme is a lightweight starter kit. It also gives you a well organised star
 * Please make sure the `demo` links to a theme demo and not your personal/business site. The demo url must use https
 * at least 1 `ssg` is required.
 * at least 1 `cms` is required. If your theme uses markdown (no CMS) the cms should be "No CMS"
-
-## 🚯 People Copying This Site
-
-It has come to our attention that other people have **copied this website completely** and are now attempting to use that site for their own personal gain. Not only have they copied this site verbatim, they have completely removed the git history and original author from the MIT License so that no credit is given to this project.
-
-On top of this, they have attempted to justify their actions by implying they were somehow prevented from contributing to this project. This is a lie. They were told they could contribute and make PR's with new features and functionality. Unfortunately the only contributions they seemed interested in making were to promote their own themes to the top of the results and sell their premium themes on the site... They submitted no other features.
-
-We are not saying people cannot use, remix and reference this website or it's data. But we'd ask that you do it in a respectful way. 
-
-We will not be listing the website URL to the clone site here. But if you do come across this site you will know it immediately. The company responsible for this unethical behaviour is Themefisher and Gethugothemes and we ask that you boycott their products and do not purchase their premium products.
-
-We would like the website in question taken down, and this statement will remain in place until that is done.
