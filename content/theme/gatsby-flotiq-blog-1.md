@@ -6,7 +6,7 @@ date: 2022-03-23
 ssg:
   - Gatsby
 cms:
-  - Flotiq 
+  - Flotiq
 css:
   - Tailwind
 archetype:
@@ -29,4 +29,4 @@ Whether it is Design, Product, Corporate, Engineering, or anything else you can 
 * Easy to deploy
 * Maximized page speed score
 * SEO friendly
-* Web fonts - built using fonts from Google Fonts 
+* Web fonts - built using fonts from Google Fonts
