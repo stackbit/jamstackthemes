@@ -1,4 +1,5 @@
-title: "Flotiq Gatsby Blog 1 – Gradient"
+---
+title: Flotiq Gatsby Blog 1 – Gradient
 github: https://github.com/flotiq/flotiq-gatsby-blog-1
 demo: https://flotiqgatsbyblog1master.gatsbyjs.io/
 author: Flotiq team
@@ -12,7 +13,9 @@ css:
 archetype:
   - Blog
   - Personal
-description: Flotiq starter for creating a blog with gatsby
+description: >-
+    Flotiq starter for creating a blog with gatsby
+
 ---
 
 # Flotiq gatsby starter for blog

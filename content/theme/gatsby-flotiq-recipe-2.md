@@ -1,4 +1,5 @@
-title: "Flotiq Gatsby Recipe 2 – All you can eat"
+---
+title: Flotiq Gatsby Recipe 2 – All you can eat
 github: https://github.com/flotiq/flotiq-gatsby-recipe-2
 demo: https://flotiqgatsbyrecipe2.gatsbyjs.io/
 author: Flotiq team
@@ -13,7 +14,9 @@ archetype:
   - Blog
   - Personal
   - Recipe
-description: Flotiq starter for creating a recipes catalogue with gatsby
+description: >-
+    Flotiq starter for creating a recipes catalogue with gatsby
+
 ---
 
 # Flotiq gatsby starter for recipes catalogue

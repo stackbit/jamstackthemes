@@ -1,4 +1,5 @@
-title: "Flotiq Gatsby Blog 2 – Modern "
+---
+title: Flotiq Gatsby Blog 2 – Modern
 github: https://github.com/flotiq/flotiq-gatsby-blog-2
 demo: https://flotiqgatsbyblog2.gatsbyjs.io/
 author: Flotiq team
@@ -12,7 +13,9 @@ css:
 archetype:
   - Blog
   - Personal
-description: Flotiq starter for creating a blog with gatsby
+description: >-
+    Flotiq starter for creating a blog with gatsby
+
 ---
 
 # Flotiq gatsby starter for blog

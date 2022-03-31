@@ -1,4 +1,5 @@
-title: "Flotiq Gatsby Event 1 – Monthly View Calendar"
+---
+title: Flotiq Gatsby Event 1 – Monthly View Calendar
 github: https://github.com/flotiq/flotiq-gatsby-event-1
 demo: https://flotiqgatsbyevent1.gatsbyjs.io/
 author: Flotiq team
@@ -11,7 +12,9 @@ css:
   - Tailwind
 archetype:
   - Event
-description: Flotiq starter for creating an event calendar with gatsby
+description: >-
+    Flotiq starter for creating an event calendar with gatsby
+
 ---
 
 # Flotiq gatsby starter for event calendar

@@ -1,4 +1,5 @@
-title: "Flotiq Gatsby Portfolio 1 – Creator"
+---
+title: Flotiq Gatsby Portfolio 1 – Creator
 github: https://github.com/flotiq/flotiq-gatsby-portfolio-1
 demo: https://flotiqgatsbyportfolio1.gatsbyjs.io/
 author: Flotiq team
@@ -11,7 +12,9 @@ css:
   - Tailwind
 archetype:
   - Portfolio
-description: Flotiq starter for creating a projects portfolio with gatsby
+description: >-
+    Flotiq starter for creating a projects portfolio with gatsby
+
 ---
 
 # Flotiq gatsby starter for projects portfolio

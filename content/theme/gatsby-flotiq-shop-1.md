@@ -1,4 +1,5 @@
-title: "Flotiq Gatsby Shop 1 – Merch Store"
+---
+title: Flotiq Gatsby Shop 1 – Merch Store
 github: https://github.com/flotiq/flotiq-gatsby-shop-1
 demo: https://flotiqgatsbyshop1.gatsbyjs.io/
 author: Flotiq team
@@ -11,7 +12,9 @@ css:
   - Tailwind
 archetype:
   - Ecommerce
-description: Flotiq starter for creating a shop with gatsby
+description: >-
+  Flotiq starter for creating a shop with gatsby
+
 ---
 
 # Flotiq gatsby starter for shop
