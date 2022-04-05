@@ -9,5 +9,5 @@ cms:
   - DatoCMS
 date: 2019-05-08T23:32:18.000Z
 description: ⚛️ My preferred configuration for Gatsby DatoCMS projects
-stale: false
+stale: true
 ---

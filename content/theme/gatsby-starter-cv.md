@@ -11,5 +11,5 @@ date: 2018-12-24T00:05:49.000Z
 description: >-
   A simple starter to get up and developing your digital curriculum with
   GatsbyJS
-stale: false
+stale: true
 ---

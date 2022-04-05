@@ -10,4 +10,6 @@ cms:
 date: 2016-11-05T22:24:58.000Z
 description: Papyrus Jekyll Theme
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

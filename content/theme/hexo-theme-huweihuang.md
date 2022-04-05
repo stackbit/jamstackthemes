@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2017-10-22T03:07:50.000Z
 description: ' Ported theme of Hux Blog by YuHsuan, Modified by Hu Weihuang'
-stale: false
+stale: true
 ---

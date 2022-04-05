@@ -9,7 +9,7 @@ ssg:
 cms:
   - no cms
 description: YAMT is a minimal Jekyll theme focused on simplicity and ease-of-use.
-stale: false
+stale: true
 ---
 
 # YAMT - Yet Another Minimal Theme

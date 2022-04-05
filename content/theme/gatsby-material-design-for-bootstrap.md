@@ -12,4 +12,6 @@ description: >-
   A simple starter which lets you quickly start developing with Gastby and
   Material Design For Bootstrap
 stale: true
+disabled: true
+disabled_reason: error checking demo url
 ---

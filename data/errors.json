@@ -1,14 +1,50 @@
 [
   {
-    "theme_key": "obaez-dentistsmile",
-    "file": "dentistsmile.md",
-    "repoUrl": "https://github.com/obaez/dentistsmile",
-    "error": "Github repo not found"
+    "theme_key": "denjones-hexo-theme-chan",
+    "file": "hexo-theme-chan.md",
+    "repoUrl": "https://github.com/denjones/hexo-theme-chan",
+    "error": "demo url not found"
   },
   {
-    "theme_key": "obaez-dentistsmile",
-    "file": "dentistsmile.md",
-    "repoUrl": "https://github.com/obaez/dentistsmile",
+    "theme_key": "hugoferreira-papyrus-theme",
+    "file": "jekyll-papyrus-theme.md",
+    "repoUrl": "https://github.com/hugoferreira/papyrus-theme",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "pmarsceill-just-the-docs",
+    "file": "just-the-docs.md",
+    "repoUrl": "https://github.com/pmarsceill/just-the-docs",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "xaprb-story",
+    "file": "story.md",
+    "repoUrl": "https://github.com/xaprb/story",
+    "error": "error checking demo url"
+  },
+  {
+    "theme_key": "gatsbyjs-gatsby-starter-blog",
+    "file": "gatsby-starter-blog.md",
+    "repoUrl": "https://github.com/gatsbyjs/gatsby-starter-blog",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "gatsbyjs-gatsby-starter-default",
+    "file": "gatsby-starter-default.md",
+    "repoUrl": "https://github.com/gatsbyjs/gatsby-starter-default",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "joytou-joytou.github.io",
+    "file": "jekyll-JOYTOU-theme.md",
+    "repoUrl": "https://github.com/joytou/joytou.github.io",
+    "error": "error checking demo url"
+  },
+  {
+    "theme_key": "anna-morawska-gatsby-material-design-for-bootstrap",
+    "file": "gatsby-material-design-for-bootstrap.md",
+    "repoUrl": "https://github.com/anna-morawska/gatsby-material-design-for-bootstrap",
     "error": "error checking demo url"
   }
 ]
