@@ -9,7 +9,7 @@ ssg:
 cms:
   - No CMS
 css:
-  - Sass
+  - Scss
   - Bootstrap
 archetype:
   - Personal

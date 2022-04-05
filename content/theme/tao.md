@@ -9,7 +9,7 @@ ssg:
 cms:
   - No CMS
 css:
-  - Sass 
+  - SCSS 
 archetype:
   - Blog
 description: A content-first minimalist Jekyll theme for blogs.

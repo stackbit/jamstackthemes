@@ -11,12 +11,10 @@ cms:
 css:
   - Tailwind
 archetype:
-  - SaaS
   - Business
 description: >-
   An open-source starter kit built with modern full-stack technologies.
   Worry less and save time developing basic SaaS features.
-stale: false
 ---
 
 # Quickly launch multi-tenant SaaS apps

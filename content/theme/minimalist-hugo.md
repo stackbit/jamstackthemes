@@ -29,7 +29,7 @@ Minimalist is content focused, minimal theme for Hugo. The theme is perfectly su
 - Responsive design
 - Inline CSS
 - Atom feed
-- Sass
+- SCSS
 - SEO optimized (Twitter cards, Facebook Open Graph, Schema.org)
 - Ultra fast
 - CSS is only 692B! 
