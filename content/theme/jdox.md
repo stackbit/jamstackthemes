@@ -12,28 +12,28 @@ css:
   - scss
 archetype:
   - Blog
-JDox is jekyll theme designed for personal or team blog with fully responsive css design.
+description: JDox is jekyll theme designed for personal or team blog with fully responsive css design, auto SEO optimization, and auto integrated with github pages.
 ---
 
-# Jdox Jekyll Theme
+# JDox - Jekyll theme
 
-JDox is jekyll theme designed for personal or team blog with fully responsive css design.
+JDox is jekyll theme designed for personal or team blog with fully responsive css design and auto integrated with GitHub Pages.
 
 ## Features
 
-* author pages
-* auto SEO optimization and generator
-* Search Page 
-* Archive page
-* Love Button with applause button API
-* Disqus Comment open on click
-* share button with Icon
-* Atom & Json feeds
-* Lazy Load Image
-* Medium Image Lightbox
-* Tag Pages
-* Auto Minute Read
-* Auto Dark/Ligh theme
-* Next & Previous Post
-* 404 page
-* Anchor headings
+- author pages
+- auto SEO optimization and generator
+- Search Page 
+- Archive page
+- Love Button with applause button API
+- Disqus Comment open on click
+- share button with Icon and auto links
+- Atom & Json feeds
+- Lazy Load Image
+- Medium Image Lightbox
+- Tag and tags Pages
+- Auto Minute Read
+- Auto Dark/Ligh theme
+- Next & Previous Post
+- 404 page
+- Anchor headings
