@@ -12,3 +12,7 @@ category:
 date: 2022-04-07T07:07:07.000Z
 description: A nostalgic theme using Gatsby, Typescript, and Nes.css
 ---
+
+# A tribute to 8-bit and retrograming using Gatsby and NES.css
+
+This Gatsby theme uses typescript and Nes.css to build a simple presentation page (One-Page Layout).
