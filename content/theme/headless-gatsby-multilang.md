@@ -10,22 +10,27 @@ cms:
   - DatoCMS
 archetype:
   - Blog
-description: A multilingual blog starter for Gatsby completely driven by an headless CMS.
+  - Business
+  - Personal
+description: The most powerful multilanguage blog starter for Gatsby. Completely headless.
 stale: false
 ---
 
-# Headless Multilingual Starter for Gatsby with DatoCMS
+# Headless Multilanguage Starter for Gatsby
 
-A multilanguage blog starter for Gatsby completely driven by an headless CMS.
+The most powerful multilanguage blog starter for Gatsby. Completely headless.
 
 ## Features
 
-* 100% Headless: create pages and articles, manage languages, branding, menus, posts per page, SEO, PWA settings, slugs and much more directly on DatoCMS. 
-* Localize everything: Translate slugs, SEO meta tags, PWA settings, alt tags, WAI-Aria attributes, menus and much more directly on DatoCMS.  
-* Localized SEO meta tags injection 
-* Language switcher component swapping between different and equal slugs per locale
-* Automatic internal links localization using DAST and custom <Navigator /> component
-* Multiple per-locale PWA manifest files generation on build time, dynamically injected to <head /> based on current language.
-* Correspondent localized content queried directly inside components by using GraphQL and useStaticQuery
-* Browser locale detection and redirection
-* Paginated archive pages, prev/next article navigation, social sharing and synthax highlighting.
+* 100% Headless: Define languages and translate pages, posts, slugs, SEO meta tags and PWA settings directly on DatoCMS.
+* Language switcher component swapping between different slugs/paths per locale
+* Automatic and easy internal links localization using custom Navigator component
+* User preferred language detection and redirection
+* Built-in support for RTL languages such as Arabic or Hebrew
+* Per-locale PWA webmanifest files generation on build time, dynamically injected according to the page locale.
+* Support for any language code path such as "/en-GB" or "/en"
+* 404 page displaying localized content according to the user preferred language
+* Choose which post or category to translate (and generate) for each locale.
+* Related posts, social sharing and synthax highlighting.
+* Dark mode with CSS variables
+* Built without any internationalization plugin, just Gatsby APIs.
