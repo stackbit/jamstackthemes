@@ -7,12 +7,9 @@ date: 2022-3-31
 ssg:
   - SvelteKit
 cms:
-  - Netlify
-css:
-  - css 
+  - NetlifyCms
 archetype:
   - Blog
-  - News
   - Portfolio
 description: Lightweight and simple static site template for researchers in the Digital Humanities.
 ---

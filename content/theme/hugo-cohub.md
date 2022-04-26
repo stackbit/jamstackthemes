@@ -11,11 +11,7 @@ cms:
 css:
   - Bootstrap 
 archetype:
-  - Blog
-  - Portfolio
-  - App Showcase
-  - Bootstrap
-  - Minimal
+  - Business
 description: coHub is a simple, minimal and responsive Portfolio Hugo Theme. coHub is well organized, well-formatted and named accordingly so it’s easy to change any and all of the design. coHub is built with Bootstrap 4.5. You can customize it very easy to fit your needs.
 ---
 

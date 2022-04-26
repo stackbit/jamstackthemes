@@ -8,9 +8,6 @@ ssg:
   - Hugo
 cms:
   - Forestry
-archetype:
-  - Backgrounds
-  - Profiles
 description: >-
   A minimal and fancy theme for Hugo to create Personal Pages with no blog or
   extra content, just awesome rotating backgrounds and your social profiles to

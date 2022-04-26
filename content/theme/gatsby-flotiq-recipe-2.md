@@ -13,7 +13,6 @@ css:
 archetype:
   - Blog
   - Personal
-  - Recipe
 description: >-
     Flotiq starter for creating a recipes catalogue with gatsby
 

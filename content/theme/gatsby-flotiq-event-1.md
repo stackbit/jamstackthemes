@@ -14,7 +14,6 @@ archetype:
   - Event
 description: >-
     Flotiq starter for creating an event calendar with gatsby
-
 ---
 
 # Flotiq gatsby starter for event calendar
