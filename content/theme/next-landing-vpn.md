@@ -1,9 +1,9 @@
 ---
-title: "Tailwind VPN Landingpage"
+title: Tailwind VPN Landingpage
 github: https://github.com/naufaldi/next-landing-vpn
 demo: https://next-landing-vpn.vercel.app/
 author: Naufaldi
-date: 2022-03-26
+date: 2022-03-26T00:00:00.000Z
 ssg:
   - Next
 cms:
@@ -13,7 +13,10 @@ css:
 archetype:
   - Business
   - Portfolio
-description: An Open Source Landingpage For VPN or Apps. Build using NextJS 10 and Tailwind v2.0
+description: >-
+  An Open Source Landingpage For VPN or Apps. Build using NextJS 10 and Tailwind
+  v2.0
+stale: true
 ---
 
 # Tailwind VPN Landingpage - Free Landingpage Template Apps

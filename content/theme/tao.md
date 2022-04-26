@@ -1,18 +1,19 @@
 ---
-title: "Tao"
+title: Tao
 github: https://github.com/vfvong/jekyll-theme-tao
 demo: https://vfvong.blog/jekyll-theme-tao/
 author: Song-Zi Vong
-date: 2022-03-23
+date: 2022-03-23T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
   - No CMS
 css:
-  - SCSS 
+  - SCSS
 archetype:
   - Blog
 description: A content-first minimalist Jekyll theme for blogs.
+stale: false
 ---
 
 Tao is a content-first minimalist Jekyll theme for blogs.

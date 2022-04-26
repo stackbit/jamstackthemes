@@ -3,7 +3,7 @@ title: Flotiq Gatsby Portfolio 1 – Creator
 github: https://github.com/flotiq/flotiq-gatsby-portfolio-1
 demo: https://flotiqgatsbyportfolio1.gatsbyjs.io/
 author: Flotiq team
-date: 2022-03-23
+date: 2022-03-23T00:00:00.000Z
 ssg:
   - Gatsby
 cms:
@@ -12,9 +12,8 @@ css:
   - Tailwind
 archetype:
   - Portfolio
-description: >-
-    Flotiq starter for creating a projects portfolio with gatsby
-
+description: Flotiq starter for creating a projects portfolio with gatsby
+stale: false
 ---
 
 # Flotiq gatsby starter for projects portfolio

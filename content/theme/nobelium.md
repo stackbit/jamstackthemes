@@ -1,9 +1,9 @@
 ---
-title: "Nobelium"
+title: Nobelium
 github: https://github.com/craigary/nobelium
 demo: https://nobelium.vercel.app/
 author: Craig Hart
-date: 2022-04-06
+date: 2022-04-06T00:00:00.000Z
 ssg:
   - Next
 cms:
@@ -12,6 +12,7 @@ archetype:
   - Blog
   - Portfolio
 description: A static blog build on top of Notion and NextJS, deployed on Vercel.
+stale: false
 ---
 
 # Nobelium

@@ -3,7 +3,7 @@ title: Flotiq Gatsby Blog 1 – Gradient
 github: https://github.com/flotiq/flotiq-gatsby-blog-1
 demo: https://flotiqgatsbyblog1master.gatsbyjs.io/
 author: Flotiq team
-date: 2022-03-23
+date: 2022-03-23T00:00:00.000Z
 ssg:
   - Gatsby
 cms:
@@ -13,9 +13,8 @@ css:
 archetype:
   - Blog
   - Personal
-description: >-
-    Flotiq starter for creating a blog with gatsby
-
+description: Flotiq starter for creating a blog with gatsby
+stale: false
 ---
 
 # Flotiq gatsby starter for blog

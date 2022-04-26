@@ -1,5 +1,5 @@
 ---
-title: "Paws"
+title: Paws
 github: https://github.com/codexfelis/paws-template
 demo: https://paws.codexfelis.dev/
 author: Codex Felis
@@ -11,7 +11,10 @@ cms:
 archetype:
   - Blog
   - Portfolio
-description: Lightweight and simple static site template for researchers in the Digital Humanities.
+description: >-
+  Lightweight and simple static site template for researchers in the Digital
+  Humanities.
+stale: false
 ---
 
 # A simple starter kit for researchers, built with SvelteKit

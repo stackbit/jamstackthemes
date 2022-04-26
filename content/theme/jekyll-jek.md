@@ -17,6 +17,8 @@ description: >-
   user’s hands. Toggle between schemes hassle-free, create new ones on the go,
   and store settings in-browser.
 stale: false
+disabled: true
+disabled_reason: error checking demo url
 ---
 
 Jek is a minimalist Jekyll theme putting the power of color schemes in the user's hands. Toggle between schemes hassle-free, create new ones on the go, and store settings in-browser.

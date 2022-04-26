@@ -1,9 +1,9 @@
 ---
-title: "Prezly Bea Theme"
+title: Prezly Bea Theme
 github: https://github.com/prezly/theme-nextjs-bea
 demo: https://theme-nextjs-bea-the-good-newsroom.vercel.app/
 author: Prezly
-date: 2022-04-06
+date: 2022-04-06T00:00:00.000Z
 ssg:
   - Next
 cms:
@@ -11,6 +11,7 @@ cms:
 archetype:
   - Blog
 description: News site built with NextJS, Typescript and Prezly SDK
+stale: false
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: "NuxtJs Tailwind Blog Starter"
+title: NuxtJs Tailwind Blog Starter
 github: https://github.com/mdrathik/nuxtjs-tailwind-blog
 demo: https://nuxt-tailwind-blog.netlify.app/
 author: Md Rathik
-date: 2022-04-11
+date: 2022-04-11T00:00:00.000Z
 ssg:
   - Nuxt
 cms:
@@ -14,6 +14,7 @@ archetype:
   - Blog
   - Portfolio
 description: This theme is based on NuxtJS with tailwind css & hosted in Netlify.
+stale: false
 ---
 
 # NuxtJS and tailwind Blog Starter

@@ -1,9 +1,9 @@
 ---
-title: "Next.js Notion Starter Kit"
+title: Next.js Notion Starter Kit
 github: https://github.com/transitive-bullshit/nextjs-notion-starter-kit
 demo: https://nextjs-notion-starter-kit.transitivebullsh.it/
 author: Travis Fischer
-date: 2022-04-06
+date: 2022-04-06T00:00:00.000Z
 ssg:
   - Next
 cms:
@@ -12,6 +12,7 @@ archetype:
   - Blog
   - Portfolio
 description: The perfect starter kit for building websites with Next.js and Notion.
+stale: false
 ---
 
 # Next.js Notion Starter Kit

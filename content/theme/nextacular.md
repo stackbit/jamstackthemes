@@ -3,7 +3,7 @@ title: Nextacular
 github: https://github.com/arjayosma/nextacular
 demo: https://demo.nextacular.co
 author: Arjay Osma
-date: 2020-03-22
+date: 2020-03-22T00:00:00.000Z
 ssg:
   - Next
 cms:
@@ -13,8 +13,9 @@ css:
 archetype:
   - Business
 description: >-
-  An open-source starter kit built with modern full-stack technologies.
-  Worry less and save time developing basic SaaS features.
+  An open-source starter kit built with modern full-stack technologies. Worry
+  less and save time developing basic SaaS features.
+stale: false
 ---
 
 # Quickly launch multi-tenant SaaS apps

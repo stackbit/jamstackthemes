@@ -1,9 +1,9 @@
 ---
-title: "Mr. Green"
+title: Mr. Green
 github: https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme
 demo: https://mrgreen-jekylltheme.mrgreensworkshop.com
 author: Mr. Green's Workshop
-date: 2022-03-31
+date: 2022-03-31T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
@@ -14,8 +14,11 @@ css:
 archetype:
   - Personal
   - Business
-  - Blog 
-description:  Mr. Green is a multilingual theme generated with Jekyll and fully compatible with GitHub Pages. 
+  - Blog
+description: >-
+  Mr. Green is a multilingual theme generated with Jekyll and fully compatible
+  with GitHub Pages.
+stale: false
 ---
 
 Mr. Green is a multilingual theme generated with Jekyll and fully compatible with GitHub Pages. 

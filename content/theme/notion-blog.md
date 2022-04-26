@@ -1,9 +1,9 @@
 ---
-title: "Notion Blog"
+title: Notion Blog
 github: https://github.com/ijjk/notion-blog
 demo: https://github.com/ijjk/notion-blog
 author: JJ Kasper
-date: 2022-04-06
+date: 2022-04-06T00:00:00.000Z
 ssg:
   - Next
 cms:
@@ -12,6 +12,7 @@ archetype:
   - Blog
   - Portfolio
 description: A Next.js site using new SSG support with a Notion backed blog
+stale: false
 ---
 
 # Notion Blog

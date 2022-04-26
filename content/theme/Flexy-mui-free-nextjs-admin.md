@@ -1,9 +1,9 @@
 ---
-title: "Flexy Material Ui Admin Template"
+title: Flexy Material Ui Admin Template
 github: https://github.com/wrappixel/Flexy-admin-Nextjs-Free
 demo: https://flexy-admin-nextjs-free.vercel.app/
 author: WrapPixel
-date: 2022-04-22
+date: 2022-04-22T00:00:00.000Z
 ssg:
   - Next
 cms:
@@ -12,7 +12,10 @@ css:
   - Material UI
 archetype:
   - Admin
-description: Flexy Free Nextjs version is built with Most Popular Framework React Material-UI. 8+ readymade UI component pages, SCSS, fully Responsive.
+description: >-
+  Flexy Free Nextjs version is built with Most Popular Framework React
+  Material-UI. 8+ readymade UI component pages, SCSS, fully Responsive.
+stale: false
 ---
 
 ## Features

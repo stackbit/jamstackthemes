@@ -10,4 +10,6 @@ cms:
 date: 2018-11-01T10:06:05.000Z
 description: 👾 Gatsby Storybook Starter
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

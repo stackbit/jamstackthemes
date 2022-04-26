@@ -1,16 +1,21 @@
 ---
-title: "Xtreme NextJs Free Admin Template"
+title: Xtreme NextJs Free Admin Template
 github: https://github.com/wrappixel/xtreme-admin-nextjs-free
-demo: https://xtreme-admin-nextjs-free.vercel.app/ 
+demo: https://xtreme-admin-nextjs-free.vercel.app/
 author: WrapPixel
-date: 2022-03-21
+date: 2022-03-21T00:00:00.000Z
 ssg:
   - Next
 cms:
   - No CMS
 archetype:
   - Admin
-description: Xtreme admin is Free NextJs React admin Template. It allows you to create stunning backend application and more. It comes with ready to use UI Blocks & Elements to help level up the design and aesthetics of your project. Xtreme Next Js is built on Reactstrap, which is a responsive React Framework.
+description: >-
+  Xtreme admin is Free NextJs React admin Template. It allows you to create
+  stunning backend application and more. It comes with ready to use UI Blocks &
+  Elements to help level up the design and aesthetics of your project. Xtreme
+  Next Js is built on Reactstrap, which is a responsive React Framework.
+stale: false
 ---
 
 # A simple starter kit for Gridsome

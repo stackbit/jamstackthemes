@@ -1,9 +1,9 @@
 ---
-title: "Next.js blog powered by Notion API"
+title: Next.js blog powered by Notion API
 github: https://github.com/samuelkraft/notion-blog-nextjs
-demo: https://notion-blog-nextjs-coral.vercel.app/ 
+demo: https://notion-blog-nextjs-coral.vercel.app/
 author: Samuel Kraft
-date: 2022-04-06
+date: 2022-04-06T00:00:00.000Z
 ssg:
   - Next
 cms:
@@ -11,6 +11,7 @@ cms:
 archetype:
   - Blog
 description: Next.js example blog powered by Notion Public API
+stale: false
 ---
 
 This is a [Next.js](https://nextjs.org/) blog using [Notions Public API](https://developers.notion.com).

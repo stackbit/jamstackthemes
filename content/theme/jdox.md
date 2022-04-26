@@ -1,9 +1,9 @@
 ---
-title: "JDox"
+title: JDox
 github: https://github.com/aliifam/jdox
 demo: https://aliifam.github.io/jdox/
 author: Aliif Arief
-date: 2022-04-10
+date: 2022-04-10T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
@@ -12,7 +12,10 @@ css:
   - scss
 archetype:
   - Blog
-description: JDox is jekyll theme designed for personal or team blog with fully responsive css design, auto SEO optimization, and auto integrated with github pages.
+description: >-
+  JDox is jekyll theme designed for personal or team blog with fully responsive
+  css design, auto SEO optimization, and auto integrated with github pages.
+stale: false
 ---
 
 # JDox - Jekyll theme

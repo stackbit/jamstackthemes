@@ -3,7 +3,7 @@ title: Flotiq Gatsby Recipe 1 – Black and White Classic
 github: https://github.com/flotiq/flotiq-gatsby-recipe-1
 demo: https://flotiqgatsbyrecipe1.gatsbyjs.io/
 author: Flotiq team
-date: 2022-03-23
+date: 2022-03-23T00:00:00.000Z
 ssg:
   - Gatsby
 cms:
@@ -13,9 +13,8 @@ css:
 archetype:
   - Blog
   - Personal
-description: >-
-    Flotiq starter for creating a recipes catalogue with gatsby
-
+description: Flotiq starter for creating a recipes catalogue with gatsby
+stale: false
 ---
 
 # Flotiq gatsby starter for recipes catalogue

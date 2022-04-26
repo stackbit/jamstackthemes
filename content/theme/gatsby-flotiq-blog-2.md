@@ -3,7 +3,7 @@ title: Flotiq Gatsby Blog 2 – Modern
 github: https://github.com/flotiq/flotiq-gatsby-blog-2
 demo: https://flotiqgatsbyblog2.gatsbyjs.io/
 author: Flotiq team
-date: 2022-03-23
+date: 2022-03-23T00:00:00.000Z
 ssg:
   - Gatsby
 cms:
@@ -13,9 +13,8 @@ css:
 archetype:
   - Blog
   - Personal
-description: >-
-    Flotiq starter for creating a blog with gatsby
-
+description: Flotiq starter for creating a blog with gatsby
+stale: false
 ---
 
 # Flotiq gatsby starter for blog

@@ -1,18 +1,19 @@
 ---
-title: "chringel"
+title: chringel
 github: https://github.com/chringel21/chringel-hugo-theme
-demo: https://chringel21.github.io/chringel-hugo-theme/ 
+demo: https://chringel21.github.io/chringel-hugo-theme/
 author: Christian Engel
-date: 2022-03-22
+date: 2022-03-22T00:00:00.000Z
 ssg:
   - Hugo
 cms:
   - No CMS
 css:
-  - Tailwind 
+  - Tailwind
 archetype:
   - Blog
 description: Privacy focused theme for Hugo using TailwindCSS
+stale: false
 ---
 
 # Privacy focused theme for Hugo 🕵️

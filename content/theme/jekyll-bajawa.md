@@ -16,6 +16,8 @@ description: >-
   A minimalist, simple, and lightweight jekyll theme for blogger and writer with
   a touch of pastel colors.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
 
 # A simple starter kit
