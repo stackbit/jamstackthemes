@@ -9,7 +9,7 @@ ssg:
 cms:
   - No CMS
 css:
-  - Flexbox Grid 
+  - SCSS
 archetype:
   - Single-Page
   - Portfolio
