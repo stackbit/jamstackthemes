@@ -15,6 +15,7 @@ archetype:
   - Personal
 description:  Hydra Jekyll Theme - Simple and Minimalist Jekyll Blog Theme
 stale: false
+---
 
 # A simple and minimalist theme & full featured jekyll theme
 
