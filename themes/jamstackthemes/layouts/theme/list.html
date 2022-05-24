@@ -15,7 +15,7 @@
 <div class="wrapper">
     <div class="sidebar">
         <div class="container">
-            {{ partial "filters.html" (dict "context" . "countAll" true) }}
+            {{ partial "filtersAll.html" (dict "context" . "countAll" true) }}
             {{ partial "stackbit.html" . }}
         </div>
     </div>
@@ -28,7 +28,6 @@
                 <div class="intro-description d-none d-md-block"><p>Search hundreds of open-source Jamstack themes and find the perfect starter theme or boilerplate for your next project. Filter themes by static site generator, headless CMS and more. Sort themes by stars, last commit date or submission date.</p></div>
                 <div class="intro-description d-md-none"><p>Search hundreds of open-source Jamstack themes!</p></div>
             </div>
-            {{ partial "sort-buttons.html" . }}
             <div id="grids-homepage" class="row mt-3">
                 {{ range (($themes.ByParam "date").Reverse).ByParam "weight" }}
                     {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
@@ -44,14 +43,9 @@
 
 {{ define "footer_js" }}
 
-    {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
-    {{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
-    {{ $filterGroups := resources.Get "js/filter/filter-groups.js" }}
-    {{ $filterHash := resources.Get "js/filter/filter-hash.js" }}
-    {{ $filter := resources.Get "js/filter/filter.js" }}
     {{ $filterToggle := resources.Get "js/filter/filter-toggle.js" }}
+    {{ $themesBundle := slice $filterToggle | resources.Concat "js/themesBundle.js" }}
 
-    {{ $themesBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter $filterToggle | resources.Concat "js/themesBundle.js" }}
     {{ if .Site.IsServer }}
         <script type="text/javascript" src="{{ $themesBundle.RelPermalink }}"></script>
     {{ else }}

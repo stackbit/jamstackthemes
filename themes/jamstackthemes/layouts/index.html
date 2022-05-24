@@ -43,8 +43,6 @@
                     </div>
                 </div>
 
-                {{ partial "sort-buttons.html" . }}
-
                 <div id="grids-homepage" class="row mt-3">
                     {{ range (($themes.ByParam "date").Reverse).ByParam "weight" }}
                         {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
@@ -60,14 +58,9 @@
 {{ end }}
 
 {{ define "footer_js" }}
-    {{ $mixitup := resources.Get "js/libs/mixitup.js" }}
-    {{ $mixitupMultiFilter := resources.Get "js/libs/mixitup-multifilter.js" }}
-    {{ $filterGroups := resources.Get "js/filter/filter-groups.js" }}
-    {{ $filterHash := resources.Get "js/filter/filter-hash.js" }}
-    {{ $filter := resources.Get "js/filter/filter.js" }}
-    {{ $filterToggle := resources.Get "js/filter/filter-toggle.js" }}
 
-    {{ $homeBundle := slice $mixitup $mixitupMultiFilter $filterGroups $filterHash $filter $filterToggle | resources.Concat "js/homeBundle.js" }}
+    {{ $filterToggle := resources.Get "js/filter/filter-toggle.js" }}
+    {{ $homeBundle := slice $filterToggle | resources.Concat "js/homeBundle.js" }}
 
     {{ if .Site.IsServer }}
         <script type="text/javascript" src="{{ $homeBundle.RelPermalink }}"></script>
