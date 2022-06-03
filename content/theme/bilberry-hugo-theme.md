@@ -30,3 +30,4 @@ stale: false
 * Customizable 404 page
 * Support for favicons
 * Cookie consent banner
+* Support for Hugo modules
