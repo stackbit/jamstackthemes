@@ -1,6 +1,6 @@
 ---
 title: Bilberry Hugo
-github: https://github.com/Lednerb/bilberry-hugo-theme/v3
+github: https://github.com/Lednerb/bilberry-hugo-theme
 demo: https://lednerb.github.io/bilberry-hugo-theme
 author: Sascha Brendel
 date: 2021-11-07T00:00:00.000Z
