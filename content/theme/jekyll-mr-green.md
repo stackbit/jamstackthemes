@@ -1,7 +1,7 @@
 ---
 title: Mr. Green
 github: https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme
-demo: https://mrgreen-jekylltheme.mrgreensworkshop.com
+demo: https://jekyll-theme-mrgreen-demo.mrgreensworkshop.com
 author: Mr. Green's Workshop
 date: 2022-03-31T00:00:00.000Z
 ssg:
