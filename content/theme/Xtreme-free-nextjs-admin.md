@@ -34,11 +34,9 @@ Checkout other <a href="https://www.wrappixel.com/templates/category/nextjs/">Ne
 ## Developer friendly
 
 * Next.js for Static Site Generator
-* PostCSS for processing Tailwind CSS
-* Type checking TypeScript
 * Linter with ESLint
 * Code Formatter with Prettier
-* SEO metadata, JSON-LD and Open Graph tags
+* SEO metadata
 
 ## This Template comes with
 
