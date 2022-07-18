@@ -31,6 +31,6 @@ Listed is a minimalistic Hugo blogging and portfolio theme.
 - 100/100 score on Lighthouse, Page Speed Insights & Webpagetest
 - Robots.txt
 - Atom & Json feeds
-- Sass
+- SCSS
 - Seo optimized (Twitter cards, Facebook Open Graph, Schema.org)
 - Ultra fast  

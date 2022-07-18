@@ -10,4 +10,6 @@ cms:
 date: 2016-07-29T19:17:30.000Z
 description: Dead simple CSS framework now with Jekyll.
 stale: true
+disabled: true
+disabled_reason: error checking demo url
 ---

@@ -1,11 +1,11 @@
 ---
-title: "Flexy Material Ui Admin Template"
+title: Flexy Material Ui Admin Template
 github: https://github.com/wrappixel/Flexy-admin-Nextjs-Free
 demo: https://flexy-admin-nextjs-free.vercel.app/
 author: WrapPixel
-date: 2022-04-22
+date: 2022-04-22T00:00:00.000Z
 ssg:
-  - Next Js
+  - Next
 cms:
   - No CMS
 css:
@@ -44,5 +44,7 @@ Checkout other <a href="https://www.wrappixel.com/templates/category/nextjs/">Ne
 * SEO Friendly
 * Easy to Customize
 * Production Ready
+
+
 
   

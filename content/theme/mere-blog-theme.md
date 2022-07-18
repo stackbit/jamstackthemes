@@ -15,5 +15,5 @@ archetype:
 description: >-
   Mere is a minimal and simple blog theme, and nothing more, for use with Jekyll
   and GitHub Pages.
-stale: false
+stale: true
 ---

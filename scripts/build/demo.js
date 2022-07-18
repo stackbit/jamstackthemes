@@ -49,6 +49,7 @@ const testDemo = (frontmatter) => {
             theme_key: themeKey,
             file: frontmatter.file,
             repoUrl: frontmatter.github,
+            demoUrl: frontmatter.demo,
             error
         })
     });

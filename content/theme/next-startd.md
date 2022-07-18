@@ -13,7 +13,7 @@ archetype:
 description: >-
   A free Next.js TypeScript landing page template for SaaS products, online
   services and more.
-stale: false
+stale: true
 ---
 
 # A free Next.js TypeScript landing page template for SaaS products, online services and more.

@@ -1,6 +1,6 @@
 ---
 title: Hugo Winston
-date: 2022-03-21
+date: 2022-03-21T00:00:00.000Z
 github: https://github.com/zerostaticthemes/hugo-winston-theme
 demo: https://hugo-winston.netlify.app/
 author: Robert Austin
@@ -12,9 +12,8 @@ css:
   - Tailwind
 archetype:
   - Blog
-description: >-
-  Hugo Winston is a bold minimal blogging theme.
-
+description: Hugo Winston is a bold minimal blogging theme.
+stale: false
 ---
 
 # Hugo Winston Theme

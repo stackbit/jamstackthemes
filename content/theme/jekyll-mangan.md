@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2015-07-03T08:13:56.000Z
 description: Geek theme for Jekyll.
-stale: true
+stale: false
 ---

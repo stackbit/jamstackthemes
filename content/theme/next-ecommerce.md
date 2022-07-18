@@ -3,7 +3,7 @@ title: Next.js Ecommerce
 github: https://github.com/lucaspulliese/next-ecommerce
 author: Lucas Pulliese
 demo: https://next-ecommerce-front.vercel.app/
-date: 2022-03-01
+date: 2022-03-01T00:00:00.000Z
 ssg:
   - Next
 cms:
@@ -13,6 +13,7 @@ css:
 archetype:
   - Ecommerce
 description: A beautiful ecommerce made with Next.js
+stale: false
 ---
 
 # Next.js Ecommerce

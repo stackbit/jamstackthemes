@@ -12,5 +12,7 @@ description: >-
   Beautiful responsive Hugo blog theme focused on simplicity and elegance, with
   many extra features including presentations, math typesetting, music notation,
   and search.
-stale: true
+stale: false
+disabled: true
+disabled_reason: error checking demo url
 ---

@@ -11,7 +11,7 @@ cms:
 archetype:
   - Blog
 description: Platframe's default (responsive) starter template.
-stale: false
+stale: true
 ---
 
 Platframe's default (responsive) starter template takes the form of a landing page that can be personalized in a jiffy, or be extensively adapted to suit variable project scopes.  

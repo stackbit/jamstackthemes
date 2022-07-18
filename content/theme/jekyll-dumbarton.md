@@ -14,7 +14,7 @@ archetype:
   - Portfolio
 date: 2020-10-30T00:00:00.000Z
 description: A Jekyll theme designed for academics, powered by Bootstrap
-stale: false
+stale: true
 ---
 
 # About 

@@ -10,4 +10,6 @@ cms:
 date: 2015-07-22T00:07:37.000Z
 description: Gatsby starter for creating a blog
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

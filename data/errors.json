@@ -1,14 +1,68 @@
 [
   {
-    "theme_key": "obaez-dentistsmile",
-    "file": "dentistsmile.md",
-    "repoUrl": "https://github.com/obaez/dentistsmile",
-    "error": "Github repo not found"
+    "theme_key": "codebushi-gatsby-starter-forty",
+    "file": "gatsby-starter-forty.md",
+    "repoUrl": "https://github.com/codebushi/gatsby-starter-forty",
+    "error": "error checking demo url"
   },
   {
-    "theme_key": "obaez-dentistsmile",
-    "file": "dentistsmile.md",
-    "repoUrl": "https://github.com/obaez/dentistsmile",
+    "theme_key": "codebushi-gatsby-starter-photon",
+    "file": "gatsby-starter-photon.md",
+    "repoUrl": "https://github.com/codebushi/gatsby-starter-photon",
+    "error": "error checking demo url"
+  },
+  {
+    "theme_key": "codebushi-gatsby-starter-stellar",
+    "file": "gatsby-starter-stellar.md",
+    "repoUrl": "https://github.com/codebushi/gatsby-starter-stellar",
+    "error": "error checking demo url"
+  },
+  {
+    "theme_key": "codebushi-gatsby-starter-strata",
+    "file": "gatsby-starter-strata.md",
+    "repoUrl": "https://github.com/codebushi/gatsby-starter-strata",
+    "error": "error checking demo url"
+  },
+  {
+    "theme_key": "kulacino-bajawa",
+    "file": "jekyll-bajawa.md",
+    "repoUrl": "https://github.com/kulacino/bajawa",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "wemake-services-jekyll-theme-hackcss",
+    "file": "jekyll-theme-hackcss.md",
+    "repoUrl": "https://github.com/wemake-services/jekyll-theme-hackcss",
+    "error": "error checking demo url"
+  },
+  {
+    "theme_key": "andykenward-gatsby-starter-default-typescript",
+    "file": "gatsby-starter-default-typescript.md",
+    "repoUrl": "https://github.com/andykenward/gatsby-starter-default-typescript",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "markoradak-gatsby-starter-storybook",
+    "file": "gatsby-starter-storybook.md",
+    "repoUrl": "https://github.com/markoradak/gatsby-starter-storybook",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "jekyll-one-j1-template-starter",
+    "file": "jekyll-j1-template.md",
+    "repoUrl": "https://github.com/jekyll-one/j1-template-starter",
+    "error": "error checking demo url"
+  },
+  {
+    "theme_key": "tcbutler320-jek",
+    "file": "jekyll-jek.md",
+    "repoUrl": "https://github.com/tcbutler320/jek",
+    "error": "error checking demo url"
+  },
+  {
+    "theme_key": "alexfinn-simple-a",
+    "file": "hugo-simple-a.md",
+    "repoUrl": "https://github.com/AlexFinn/simple-a",
     "error": "error checking demo url"
   }
 ]

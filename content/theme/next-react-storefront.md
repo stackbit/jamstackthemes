@@ -3,7 +3,7 @@ title: React Storefront
 github: https://github.com/saleor/react-storefront
 author: Saleor Commerce
 demo: https://reactstorefront.vercel.app/
-date: 2022-03-01
+date: 2022-03-01T00:00:00.000Z
 ssg:
   - Next
 cms:
@@ -12,7 +12,11 @@ css:
   - Tailwind
 archetype:
   - Ecommerce
-description: An open-source storefront in React.js with Next.js. Built for Headless Commerce, using a modern stack with TypeScript, GraphQL, Apollo, and Tailwind CSS.
+description: >-
+  An open-source storefront in React.js with Next.js. Built for Headless
+  Commerce, using a modern stack with TypeScript, GraphQL, Apollo, and Tailwind
+  CSS.
+stale: false
 ---
 
 # React Storefront

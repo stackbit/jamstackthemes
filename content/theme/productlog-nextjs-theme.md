@@ -1,9 +1,9 @@
 ---
-title: "NextJS-based changelog theme for your product"
+title: NextJS-based changelog theme for your product
 github: https://github.com/apvarun/productlog-nextjs-theme
 demo: https://productlog-theme.vercel.app/
 author: Varun A P
-date: 2022-02-21
+date: 2022-02-21T00:00:00.000Z
 ssg:
   - Next
 cms:
@@ -11,6 +11,7 @@ cms:
 archetype:
   - Documentation
 description: ProductLog is a NextJS theme for hosting your product's changelog.
+stale: false
 ---
 
 # ProductLog is a NextJS theme for hosting your product's changelog

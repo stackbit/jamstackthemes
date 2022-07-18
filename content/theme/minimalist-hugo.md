@@ -1,16 +1,17 @@
 ---
-title: "Minimalist Hugo theme"
+title: Minimalist Hugo theme
 github: https://github.com/ronv/minimalist
-demo: https://minimalist-hugo.netlify.app/ 
+demo: https://minimalist-hugo.netlify.app/
 author: Ronalds Vilcins
-date: 2022-03-05
+date: 2022-03-05T00:00:00.000Z
 ssg:
   - Hugo
 cms:
-  - No CMS 
+  - No CMS
 archetype:
   - Blog
 description: Minimalist is content focused, minimal theme for Hugo
+stale: false
 ---
 
 # Minimalist - Hugo theme
@@ -28,7 +29,7 @@ Minimalist is content focused, minimal theme for Hugo. The theme is perfectly su
 - Responsive design
 - Inline CSS
 - Atom feed
-- Sass
+- SCSS
 - SEO optimized (Twitter cards, Facebook Open Graph, Schema.org)
 - Ultra fast
 - CSS is only 692B! 

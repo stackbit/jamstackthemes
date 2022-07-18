@@ -29,7 +29,7 @@ Here are some of notable features of Forever Jekyll,
 - Good looking and readable font stack.  
 - Font Awesome icon set.  
 - Search engine optimization.  
-- Sass/SCSS preprocessor support.  
+- SCSS/SCSS preprocessor support.  
 - Privacy friendly commenting system (optional).  
 - Privacy friendly analytics system (optional).  
 - Syntax highlighting.  

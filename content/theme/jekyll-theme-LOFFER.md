@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-06-02T06:42:58.000Z
 description: '博客主题 A forkable Jekyll theme with Chinese UI and document '
-stale: false
+stale: true
 ---

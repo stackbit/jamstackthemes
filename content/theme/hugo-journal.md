@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2017-07-23T16:16:34.000Z
 description: Minimalist theme for gohugo
-stale: false
+stale: true
 ---

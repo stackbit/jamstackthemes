@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-04-22T00:28:28.000Z
 description: Gatsby starter for a personal site && blog! 🐶
-stale: false
+stale: true
 ---

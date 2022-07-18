@@ -1,6 +1,6 @@
 ---
 title: Hugo Atlantic Tailwind Blog
-date: 2022-03-21
+date: 2022-03-21T00:00:00.000Z
 github: https://github.com/zerostaticthemes/hugo-atlantic-theme
 demo: https://hugo-atlantic.netlify.app/
 author: Robert Austin
@@ -12,8 +12,8 @@ css:
   - Tailwind
 archetype:
   - Blog
-description: >-
-  Hugo Atlantic is a Tailwind 3 blog theme
+description: Hugo Atlantic is a Tailwind 3 blog theme
+stale: false
 ---
 
 # Hugo Atlantic - Hugo Tailwind 3 Theme

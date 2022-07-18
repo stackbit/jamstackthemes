@@ -13,7 +13,7 @@ css:
 archetype:
   - Portfolio
 description: Gatsby portfolio theme integrated with Contentful
-stale: false
+stale: true
 ---
 
 # A simple portfolio starter kit for Gatsby, integrated with Contentful

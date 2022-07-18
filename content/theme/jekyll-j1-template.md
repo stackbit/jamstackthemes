@@ -18,6 +18,8 @@ archetype:
   - Business
 description: J1 Template - Create powerful modern static websites.
 stale: false
+disabled: true
+disabled_reason: error checking demo url
 ---
 
 # A fully configurable Jekyll Theme

@@ -16,7 +16,7 @@ services:
 description: >-
   Kick-off your Portfolio website with RG-Portfolio gatsby starter. We have used
   Gatsby + Contenful.
-stale: false
+stale: true
 ---
 
 # A simple starter kit for Gatsby
