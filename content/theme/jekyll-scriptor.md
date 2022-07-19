@@ -23,4 +23,3 @@ stale: false
 - Disqus Comments
 - Accent color options
 - [Prism](https://prismjs.com/) syntax highlighter
-- Stackbit [Uniform support](https://docs.stackbit.com/uniform/)
