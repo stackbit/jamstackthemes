@@ -2,7 +2,7 @@
 title: "Roxo | a digital agency template"
 github: https://github.com/StaticMania/roxo-eleventy
 demo: https://roxo-eleventy.staticmania.com/ 
-author: [StaticMania](https://staticmania.com/)
+author: StaticMania
 date: 2022-08-02
 ssg:
   - Eleventy
