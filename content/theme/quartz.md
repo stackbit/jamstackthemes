@@ -1,7 +1,7 @@
 ---
 title: "Quartz"
 github: https://github.com/vfvong/jekyll-theme-quartz
-demo: http://vfvong.blog/jekyll-theme-quartz/
+demo: https://vfvong.blog/jekyll-theme-quartz/
 author: Song-Zi Vong
 date: 2022-09-13
 ssg:
