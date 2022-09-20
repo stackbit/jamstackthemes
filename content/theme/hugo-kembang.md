@@ -1,8 +1,8 @@
 ---
 title: "Kembang"
-github: https://github.com/httpsecure/kembang
+github: https://github.com/aznkh/kembang
 demo: https://kembang-theme.netlify.app
-author: Aziz NK
+author: Aziz
 date: 2022-08-24
 ssg:
   - Hugo
