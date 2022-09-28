@@ -13,20 +13,27 @@ css:
 archetype:
   - Blog
   - Portfolio
-description: Aliif Space is an amazing, simple, and fast Hugo theme. 
+description: Aliif Space is an lightweight, simple, and very fast Hugo theme. 
 ---
 
-# A simple starter kit for Gridsome
+# Aliif - Hugo Theme
 
-This theme is a lightweight starter kit. It also gives you a well organised starting point to extend it for yourself.
+Aliif theme is a light, modern, simple and fast Hugo theme which is also integrated with forestry cms, this theme has many cool features
 
 ## Features
 
 * onclick disqus comment
+* love button with applause button API
+* Search article without reload
 * no reload when navigating between page with TurboLink 
 * syntax higlighter with copy button
 * light and dark mode
-* auto zoom image like medium.com
+* Medium Image Lightbox
 * forestry CMS integration
 * share button with copy link snackbar
 * dynamic navigation menu with underscore marker
+* Tag and tags Pages
+* Auto Minute Read
+* 404 page
+* Next & Previous Post
+* Atom & Json feeds
