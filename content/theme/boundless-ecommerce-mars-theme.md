@@ -1,5 +1,5 @@
 ---
-title: The Mars: Next.js Ecommerce theme
+title: "The Mars: Next.js Ecommerce theme"
 github: https://github.com/kirill-zhirnov/boundless-marsfull-theme/
 demo: https://mars.demos.my-boundless.app/
 author: Kirill Zhirnov (Boundless Commerce)

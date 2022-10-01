@@ -1,5 +1,5 @@
 ---
-title: Next.js eCommerce starter kit (Boundless commerce)
+title: "Next.js eCommerce starter kit (Boundless commerce)"
 github: https://github.com/kirill-zhirnov/boundless-nextjs-sample
 demo: https://blank.demos.my-boundless.app/
 author: Kirill Zhirnov (Boundless Commerce)

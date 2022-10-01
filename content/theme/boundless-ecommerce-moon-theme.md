@@ -1,5 +1,5 @@
 ---
-title: The Moon: Next.js Ecommerce template
+title: "The Moon: Next.js Ecommerce template"
 github: https://github.com/kirill-zhirnov/boundless-moon-theme
 demo: https://moon.demos.my-boundless.app
 author: Kirill Zhirnov (Boundless Commerce)
