@@ -1,6 +1,6 @@
 ---
 title: "Iconic Resume"
-github: https://github.com/lifeitech/resume
+github: https://github.com/lifeitech/iconic-resume
 demo: https://iconic-resume.netlify.app
 author: Fei Li
 date: 2022-10-05
