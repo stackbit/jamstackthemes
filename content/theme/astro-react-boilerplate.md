@@ -1,22 +1,22 @@
 ---
- title: Astro React Boilerplate with TypeScript and Tailwind CSS
- github: https://github.com/ixartz/Astro-boilerplate
- demo: https://creativedesignsguru.com/demo/astro-boilerplate/
- author: Ixartz
- date: 2022-11-29
- ssg:
-   - Astro
- cms:
-   - No Cms
- css:
-   - Tailwind
- archetype:
-   - Blog
-   - Personal
-   - Portfolio
- github_branch: main
- description: Astro boilerplate with responsive blog and portfolio template using TypeScript and React styled with Tailwind CSS
- ---
+title: Astro React Boilerplate with TypeScript and Tailwind CSS
+github: https://github.com/ixartz/Astro-boilerplate
+demo: https://creativedesignsguru.com/demo/astro-boilerplate/
+author: Ixartz
+date: 2022-11-29
+ssg:
+  - Astro
+cms:
+  - No Cms
+css:
+  - Tailwind
+archetype:
+  - Blog
+  - Personal
+  - Portfolio
+github_branch: main
+description: Astro boilerplate with responsive blog and portfolio template using TypeScript and React styled with Tailwind CSS
+---
 
 # Astro Boilerplate with TypeScript and Tailwind CSS
 
