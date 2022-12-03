@@ -1,7 +1,7 @@
 ---
-title: "jekyllBear"
+title: "jekyll-jekyllBear"
 github: https://github.com/knhash/jekyllBear
-demo: knhash.in/jekyllBear
+demo: https://knhash.in/jekyllBear
 author: knhash
 date: 2022-12-03
 ssg:
