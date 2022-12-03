@@ -1,5 +1,5 @@
 ---
-title: "jekyll-jekyllBear"
+title: "jekyllBear"
 github: https://github.com/knhash/jekyllBear
 demo: https://knhash.in/jekyllBear
 author: knhash
@@ -15,7 +15,7 @@ archetype:
   - Portfolio
   - Personal
   - Multi Purpose
-description: A is a port of Bear Blog theme to Jekyll, with some tweaks. So you can use GitHub Pages to host your blog while getting the same awesome Bear Blog feels.
+description: A port of Bear Blog theme to Jekyll, with some tweaks. So you can use GitHub Pages to host your blog while getting the same awesome Bear Blog feels.
 ---
 
 # An easy to use, minimal, text focused Jekyll theme
