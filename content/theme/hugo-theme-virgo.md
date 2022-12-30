@@ -1,18 +1,20 @@
 ---
-title: "Virgo"
+title: Virgo
 github: https://github.com/loveminimal/hugo-theme-virgo
-demo: https://ovirgo.com 
+demo: https://ovirgo.com
 author: Jack Liu
-date: 2022-07-13
+date: 2022-07-13T00:00:00.000Z
 ssg:
   - Hugo
 cms:
   - No CMS
 css:
-  - Scss 
+  - Scss
 archetype:
   - Blog
 description: A cool and pure theme.
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 # A simple starter kit for Hugo

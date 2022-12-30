@@ -3,7 +3,7 @@ title: Portio Hugo
 github: https://github.com/StaticMania/portio-hugo
 demo: https://portio-hugo.staticmania.com/
 author: StaticMania
-date: 2022-09-03
+date: 2022-09-03T00:00:00.000Z
 ssg:
   - Hugo
 cms:
@@ -13,9 +13,13 @@ css:
 archetype:
   - Business
 description: >-
-  Portio is a simple, minimal and responsive Portfolio Hugo Theme. Portio is well organized, well-formatted and named accordingly so it’s easy to change any and all of the design. Portio is built with Bootstrap 4. 
-  You can customize it very easy to fit your needs.
+  Portio is a simple, minimal and responsive Portfolio Hugo Theme. Portio is
+  well organized, well-formatted and named accordingly so it’s easy to change
+  any and all of the design. Portio is built with Bootstrap 4.  You can
+  customize it very easy to fit your needs.
 stale: false
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 ## Features

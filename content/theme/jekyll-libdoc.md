@@ -1,19 +1,21 @@
 ---
-title: "Jekyll LibDoc"
+title: Jekyll LibDoc
 github: https://github.com/olivier3lanc/Jekyll-LibDoc
 demo: https://olivier3lanc.github.io/Jekyll-LibDoc/
 author: Olivier 3lanc
-date: 2022-09-01
+date: 2022-09-01T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
   - No CMS
 css:
-  - Custom framework 
+  - Custom framework
 archetype:
   - Documentation
   - Playground
 description: A Jekyll documentation theme with built-in search and playground
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 # A documentation theme with its playground

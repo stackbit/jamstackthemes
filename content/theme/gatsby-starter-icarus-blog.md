@@ -8,6 +8,10 @@ ssg:
 cms:
   - No Cms
 date: 2022-08-21T13:40:48.000Z
-description: A Gatsby Blog theme like icarus theme in Hexo, Support typescript (GatsbyJS Starter X Netlify )
+description: >-
+  A Gatsby Blog theme like icarus theme in Hexo, Support typescript (GatsbyJS
+  Starter X Netlify )
 stale: false
+disabled: true
+disabled_reason: Github repo not found
 ---

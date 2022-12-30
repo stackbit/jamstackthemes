@@ -11,6 +11,8 @@ cms:
 archetype:
   - Blog
 description: a responsive, simple and clean Hugo theme based on the Huxblog Jekyll theme
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 ## Features

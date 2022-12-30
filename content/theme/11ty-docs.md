@@ -1,9 +1,9 @@
 ---
-title: "11ty documentation template using Tailwind CSS"
+title: 11ty documentation template using Tailwind CSS
 github: https://github.com/SpinalCMS/11ty-docs-template
 demo: https://11ty-docs-theme.spinalcms.com/
 author: Spinal CMS Developers
-date: 2022-09-22
+date: 2022-09-22T00:00:00.000Z
 ssg:
   - 11ty
 cms:
@@ -13,6 +13,8 @@ css:
 archetype:
   - Documentation
 description: A 11ty + Tailwind CSS theme for your documentation site
+disabled: true
+disabled_reason: demo url not found
 ---
 
 # Eleventy documentation template using Tailwind CSS

@@ -3,7 +3,7 @@ title: Blogge Hugo
 github: https://github.com/StaticMania/blogge-hugo-theme
 demo: https://blogge-hugo.staticmania.com/
 author: StaticMania
-date: 2022-08-31
+date: 2022-08-31T00:00:00.000Z
 ssg:
   - Hugo
 cms:
@@ -13,9 +13,12 @@ css:
 archetype:
   - Business
 description: >-
-  Blogge is a clean and minimal blog hugo theme suitable for someone with easy creative features and 
-  effects who wants to create a personal blog site to make readers enjoy the pleasure of reading blog posts and blogs.
+  Blogge is a clean and minimal blog hugo theme suitable for someone with easy
+  creative features and  effects who wants to create a personal blog site to
+  make readers enjoy the pleasure of reading blog posts and blogs.
 stale: false
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 ## Features

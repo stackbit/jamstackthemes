@@ -1,8 +1,8 @@
 ---
-title: Jekyll BlogBox
+title: BlogBox Jekyll Theme
 github: https://github.com/JustGoodThemes/BlogBox-Jekyll-Theme
 demo: https://blogbox.netlify.app/
-author: Asta Bankauske
+author: JustGoodThemes
 ssg:
   - Jekyll
 cms:
@@ -11,9 +11,14 @@ archetype:
   - Blog
 css:
   - SCSS
-date: 2022-12-30
-description: BlogBox is a minimal, bold, responsive, and easy-to-use Jekyll theme. It’s a perfect fit for artists, photographers, or creative bloggers looking for a bold design theme.
+date: 2022-12-30T00:00:00.000Z
+description: >-
+  BlogBox is a minimal, bold, responsive, and easy-to-use Jekyll theme. It’s a
+  perfect fit for artists, photographers, or creative bloggers looking for a
+  bold design theme.
 stale: false
+disabled: false
+disabled_reason: ''
 ---
 
 ## Theme Features

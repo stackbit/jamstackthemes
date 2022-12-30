@@ -1,21 +1,25 @@
 ---
-title: "jekyllBear"
+title: jekyllBear
 github: https://github.com/knhash/jekyllBear
 demo: https://knhash.in/jekyllBear
 author: knhash
-date: 2022-08-25
+date: 2022-08-25T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
   - Forestry
 css:
-  -  
+  - null
 archetype:
   - Blog
   - Portfolio
   - Personal
   - Multi Purpose
-description: A port of the awesome, minimal Bear Blog default theme to Jekyll, as a gem. Plus tag support for your blogs.
+description: >-
+  A port of the awesome, minimal Bear Blog default theme to Jekyll, as a gem.
+  Plus tag support for your blogs.
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 ## An easy to use, minimal, text focused Jekyll theme

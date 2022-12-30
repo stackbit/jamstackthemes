@@ -3,7 +3,7 @@ title: Biscuit
 github: https://github.com/sblisesivdin/biscuit
 demo: https://sblisesivdin.github.io/biscuit
 author: Sefer Bora Lisesivdin
-date: 2022-07-12
+date: 2022-07-12T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
@@ -12,6 +12,8 @@ archetype:
   - Single Page
   - Personal
 description: Biscuit is a single-page responsive Jekyll theme.
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 # Biscuit theme for Jekyll

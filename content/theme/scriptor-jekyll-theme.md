@@ -1,8 +1,8 @@
 ---
-title: Jekyll Scriptor
+title: Scriptor Jekyll Theme
 github: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
 demo: https://scriptor-jekyll.netlify.app/
-author: Asta Bankauske
+author: JustGoodThemes
 ssg:
   - Jekyll
 cms:
@@ -11,9 +11,11 @@ archetype:
   - Blog
 css:
   - SCSS
-date: 2022-07-19
+date: 2022-07-19T00:00:00.000Z
 description: Scriptor is a minimal, clean, modern and responsive Jekyll theme for writers.
 stale: false
+disabled: false
+disabled_reason: ''
 ---
 
 ## Features

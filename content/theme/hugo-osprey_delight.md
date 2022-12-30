@@ -1,9 +1,9 @@
 ---
-title: "Osprey Delight"
+title: Osprey Delight
 github: https://github.com/kdevo/osprey-delight
-demo: https://hugo-mods.github.io/ 
+demo: https://hugo-mods.github.io/
 author: kdevo
-date: 2022-05-01
+date: 2022-05-01T00:00:00.000Z
 ssg:
   - Hugo
 cms:
@@ -14,7 +14,11 @@ archetype:
   - Single-Page
   - Portfolio
   - Blog
-description: "Modular and fast theme perfectly suited for showing your work. Built with hugo-mods."
+description: >-
+  Modular and fast theme perfectly suited for showing your work. Built with
+  hugo-mods.
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 [![Osprey Delight Logo](https://raw.githubusercontent.com/kdevo/osprey-delight/master/images/osprey-delight-logo.png)](https://github.com/kdevo/osprey-delight)

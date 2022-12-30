@@ -1,18 +1,20 @@
 ---
 title: HULL
 github: https://github.com/ndimatteo/HULL
-demo: https://hull.dev 
+demo: https://hull.dev
 author: Nick DiMatteo
-date: 2022-12-29
+date: 2022-12-29T00:00:00.000Z
 ssg:
   - Next
 cms:
   - Sanity
 css:
-  - Tailwind 
+  - Tailwind
 archetype:
   - Ecommerce
 description: Headless Shopify starter powered by Next.js + Sanity.io
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 ## Features

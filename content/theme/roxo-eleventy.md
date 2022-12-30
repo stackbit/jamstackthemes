@@ -1,9 +1,9 @@
 ---
-title: "Roxo | a digital agency template"
+title: Roxo | a digital agency template
 github: https://github.com/StaticMania/roxo-eleventy
-demo: https://roxo-eleventy.staticmania.com/ 
+demo: https://roxo-eleventy.staticmania.com/
 author: StaticMania
-date: 2022-08-02
+date: 2022-08-02T00:00:00.000Z
 ssg:
   - Eleventy
 cms:
@@ -17,7 +17,16 @@ archetype:
   - Resume
   - Blog
   - Portfolio
-description: Roxo is a digital agency theme for creative agencies, freelancers, graphic designers, photographers. Can be used for any kind of corporate websites who provides digital services with many expertise such as Design, Digital Products, Development, Campaign & Content, Employer Branding, Animation & Motion Graphics ,Packaging & Product Design, Retail & Spacial, Print & Editorial Design, Concept/Text, Information Design etc. Roxo ’s contact form is supported Formspree.
+description: >-
+  Roxo is a digital agency theme for creative agencies, freelancers, graphic
+  designers, photographers. Can be used for any kind of corporate websites who
+  provides digital services with many expertise such as Design, Digital
+  Products, Development, Campaign & Content, Employer Branding, Animation &
+  Motion Graphics ,Packaging & Product Design, Retail & Spacial, Print &
+  Editorial Design, Concept/Text, Information Design etc. Roxo ’s contact form
+  is supported Formspree.
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 ## Table of Contents

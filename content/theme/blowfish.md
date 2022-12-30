@@ -1,19 +1,21 @@
 ---
-title: "Blowfish"
+title: Blowfish
 github: https://github.com/nunocoracao/blowfish
-demo: https://nunocoracao.github.io/blowfish/ 
+demo: https://nunocoracao.github.io/blowfish/
 author: Nuno Coracao
-date: 2019-08-20
+date: 2019-08-20T00:00:00.000Z
 ssg:
   - Hugo
 cms:
   - No CMS
 css:
-  - Tailwind 
+  - Tailwind
 archetype:
   - Blog
   - Portfolio
 description: A powerful, lightweight theme for Hugo built with Tailwind CSS.
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 # Blowfish

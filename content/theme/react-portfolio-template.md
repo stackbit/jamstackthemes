@@ -1,5 +1,5 @@
 ---
-title: "React Portfolio Template"
+title: React Portfolio Template
 github: https://github.com/chetanverma16/react-portfolio-template
 demo: https://react-portfolio-template.netlify.app/
 author: Chetan Verma
@@ -14,6 +14,8 @@ archetype:
   - Blog
   - Portfolio
 description: A simple, modern & minimal Next.js theme for portfolio and blog.
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 # A simple starter kit for Gridsome

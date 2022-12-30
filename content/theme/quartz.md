@@ -1,18 +1,20 @@
 ---
-title: "Quartz"
+title: Quartz
 github: https://github.com/vfvong/jekyll-theme-quartz
 demo: https://vfvong.blog/jekyll-theme-quartz/
 author: Song-Zi Vong
-date: 2022-09-13
+date: 2022-09-13T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
   - No CMS
 css:
-  - Sass 
+  - Sass
 archetype:
   - Blog
 description: A crystalline Jekyll theme for blog
+disabled: true
+disabled_reason: Github repo not found
 ---
 
 Quartz is a crystalline Jekyll theme for blog.
