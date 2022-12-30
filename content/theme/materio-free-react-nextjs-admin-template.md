@@ -3,8 +3,10 @@ title: "Materio React NextJS Admin Template Free"
 github: https://github.com/themeselection/materio-mui-react-nextjs-admin-template-free
 demo: https://demos.themeselection.com/materio-mui-react-nextjs-admin-template-free/
 author: Themeselection
-SSG: Next.js
-CMS: None
+ssg:
+  - Next
+cms:
+  - No CMS
 date: 2022-03-16
 
 description: This is an open-source React Next. js admin template built with MUI. It is a developer friendly and highly customizable free react admin template
@@ -25,4 +27,4 @@ This is a highly customizable and developer friendly Reac Next. JS admin templat
 * Fully Responsive Layout
 * Organized Folder Structure
 * Clean & Commented Code
-* Well Documented 
+* Well Documented

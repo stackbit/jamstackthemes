@@ -11,7 +11,7 @@ archetype:
   - Blog
 css:
   - SCSS
-date: 2021-07-19
+date: 2022-12-30
 description: BlogBox is a minimal, bold, responsive, and easy-to-use Jekyll theme. It’s a perfect fit for artists, photographers, or creative bloggers looking for a bold design theme.
 stale: false
 ---
