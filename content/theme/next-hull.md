@@ -5,9 +5,9 @@ demo: https://hull.dev
 author: Nick DiMatteo
 date: 2022-12-29
 ssg:
-  - Next.js
+  - Next
 cms:
-  - Sanity.io
+  - Sanity
 css:
   - Tailwind 
 archetype:
