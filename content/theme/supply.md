@@ -11,7 +11,7 @@ cms:
 css:
   - Tachyons CSS
 archetype:
-  - e-commmerce collection
+  - Ecommmerce
   - Blog
 description: Supply, a  Jekyll e-commere theme built for Gumroad users.
 ---
