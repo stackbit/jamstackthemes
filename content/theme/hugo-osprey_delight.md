@@ -17,8 +17,7 @@ archetype:
 description: >-
   Modular and fast theme perfectly suited for showing your work. Built with
   hugo-mods.
-disabled: true
-disabled_reason: Github repo not found
+stale: false
 ---
 
 [![Osprey Delight Logo](https://raw.githubusercontent.com/kdevo/osprey-delight/master/images/osprey-delight-logo.png)](https://github.com/kdevo/osprey-delight)

@@ -12,7 +12,7 @@ archetype:
   - Blog
   - Portfolio
 description: A (nearly) no-CSS, fast, minimalist Jekyll theme.
-stale: false
+stale: true
 ---
 
 # A (nearly) no-CSS, fast, minimalist Jekyll theme

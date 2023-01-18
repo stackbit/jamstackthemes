@@ -10,4 +10,6 @@ cms:
 date: 2015-03-05T06:44:00.000Z
 description: Another jekyll templated based on lanyon
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

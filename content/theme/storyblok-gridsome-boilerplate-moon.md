@@ -9,7 +9,7 @@ cms:
   - Storyblok
 date: 2020-05-20T00:00:00.000Z
 description: Gridsome Website by Storyblok
-stale: false
+stale: true
 ---
 
 <p align="center">

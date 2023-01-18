@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-09-11T03:24:03.000Z
 description: Gatsby.js V2 starter template based on Fractal by HTML5 UP
-stale: false
+stale: true
 ---

@@ -12,7 +12,7 @@ archetype:
   - Portfolio
 date: 2020-06-11T00:00:00.000Z
 description: Publish flaring fast blogs with Gatsby and Ghost
-stale: false
+stale: true
 ---
 
 # A rich starter kit for Ghost blogs

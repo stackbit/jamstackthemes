@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2016-06-02T07:30:03.000Z
 description: A simple material theme for blogger
-stale: true
+stale: false
 ---

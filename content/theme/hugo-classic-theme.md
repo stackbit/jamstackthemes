@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2017-07-13T02:02:26.000Z
 description: A simple and text-centric theme for Hugo.io
-stale: false
+stale: true
 ---

@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2016-10-25T05:15:39.000Z
 description: Start Boostrap New Age Theme for Jekyll
-stale: false
+stale: true
 ---

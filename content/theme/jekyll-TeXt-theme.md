@@ -12,4 +12,6 @@ description: >-
   💎 🐳 A super customizable Jekyll theme for personal site, team site, blog,
   project, documentation, etc.
 stale: false
+disabled: true
+disabled_reason: error checking demo url
 ---

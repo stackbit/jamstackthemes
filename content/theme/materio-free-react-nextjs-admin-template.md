@@ -11,8 +11,7 @@ date: 2022-03-16T00:00:00.000Z
 description: >-
   This is an open-source React Next. js admin template built with MUI. It is a
   developer friendly and highly customizable free react admin template
-disabled: true
-disabled_reason: Github repo not found
+stale: false
 ---
 
 # An easy to use React Next. JS Admin Template Based on MUI

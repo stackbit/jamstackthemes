@@ -16,7 +16,7 @@ archetype:
 services:
   - Formspree
 description: Personal branding theme for developers
-stale: false
+stale: true
 ---
 
 # Intro - Personal branding theme for developers

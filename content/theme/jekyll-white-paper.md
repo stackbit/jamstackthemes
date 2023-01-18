@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2014-06-30T14:56:52.000Z
 description: Simple, elegant and clean jekyll theme.
-stale: false
+stale: true
 ---

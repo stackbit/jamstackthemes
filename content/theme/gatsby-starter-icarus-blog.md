@@ -12,6 +12,4 @@ description: >-
   A Gatsby Blog theme like icarus theme in Hexo, Support typescript (GatsbyJS
   Starter X Netlify )
 stale: false
-disabled: true
-disabled_reason: Github repo not found
 ---

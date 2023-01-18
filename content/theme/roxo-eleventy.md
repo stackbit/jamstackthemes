@@ -25,8 +25,7 @@ description: >-
   Motion Graphics ,Packaging & Product Design, Retail & Spacial, Print &
   Editorial Design, Concept/Text, Information Design etc. Roxo ’s contact form
   is supported Formspree.
-disabled: true
-disabled_reason: Github repo not found
+stale: false
 ---
 
 ## Table of Contents

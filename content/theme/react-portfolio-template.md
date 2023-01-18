@@ -5,17 +5,16 @@ demo: https://react-portfolio-template.netlify.app/
 author: Chetan Verma
 date: 2021-08-5
 ssg:
-  - Next.js
+  - Next
 cms:
   - No CMS
 css:
-  - TailwindCSS
+  - Tailwind
 archetype:
   - Blog
   - Portfolio
 description: A simple, modern & minimal Next.js theme for portfolio and blog.
-disabled: true
-disabled_reason: Github repo not found
+stale: false
 ---
 
 # A simple starter kit for Gridsome

@@ -10,6 +10,8 @@ cms:
 date: 2016-10-22T07:21:04.000Z
 description: 🦁 Personal blog theme built with Bootstrap, powered by Hugo.
 stale: true
+disabled: true
+disabled_reason: error checking demo url
 ---
 
 Personal blog theme built with Bootstrap, powered by Hugo.

@@ -9,5 +9,5 @@ cms:
   - NetlifyCMS
 date: 2018-08-14T21:03:30.000Z
 description: A simple example to get started with Middleman and Netlify CMS
-stale: false
+stale: true
 ---

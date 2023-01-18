@@ -11,7 +11,7 @@ cms:
 archetype:
   - Blog
 description: Minimal jekyll theme for visual artists
-stale: false
+stale: true
 ---
 
 # Urban Theme

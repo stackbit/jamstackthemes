@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2018-12-12T04:58:52.000Z
 description: Serif is a beautiful small business theme for Gatsby.
-stale: false
+stale: true
 ---

@@ -9,5 +9,5 @@ ssg:
 cms:
   - No CMS
 description: Lightweight jekyll theme for your CV with dark mode support
-stale: false
+stale: true
 ---

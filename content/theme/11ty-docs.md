@@ -9,7 +9,7 @@ ssg:
 cms:
   - No CMS
 css:
-  - Tailwind CSS
+  - Tailwind
 archetype:
   - Documentation
 description: A 11ty + Tailwind CSS theme for your documentation site

@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-05-31T06:48:11.000Z
 description: Gatsby.js V2 starter template based on Paradigm Shift by HTML5 UP
-stale: false
+stale: true
 ---

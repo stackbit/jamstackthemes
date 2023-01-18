@@ -17,7 +17,7 @@ archetype:
 description: >-
   A modern and full-featured Hugo theme for personal blog. Blogs, Notes,
   Projects, Contact form, Subscriber form, Comments...
-stale: false
+stale: true
 ---
 
 ## Story

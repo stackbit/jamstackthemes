@@ -8,14 +8,11 @@ ssg:
   - Jekyll
 cms:
   - No CMS
-css:
-  - Custom framework
 archetype:
   - Documentation
   - Playground
 description: A Jekyll documentation theme with built-in search and playground
-disabled: true
-disabled_reason: Github repo not found
+stale: false
 ---
 
 # A documentation theme with its playground

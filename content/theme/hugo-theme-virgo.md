@@ -13,8 +13,7 @@ css:
 archetype:
   - Blog
 description: A cool and pure theme.
-disabled: true
-disabled_reason: Github repo not found
+stale: false
 ---
 
 # A simple starter kit for Hugo

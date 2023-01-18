@@ -10,4 +10,6 @@ cms:
 date: 2018-01-08T16:26:30.000Z
 description: 🌩 A simple, clean, flexible Hugo theme
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---

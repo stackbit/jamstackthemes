@@ -13,8 +13,7 @@ css:
 archetype:
   - Ecommerce
 description: Headless Shopify starter powered by Next.js + Sanity.io
-disabled: true
-disabled_reason: Github repo not found
+stale: false
 ---
 
 ## Features

@@ -15,6 +15,8 @@ archetype:
   - Portfolio
 description: Gesko is a simple and minimalistic jekyll blogging theme
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
 
 # Gesko - Minimal blogging theme

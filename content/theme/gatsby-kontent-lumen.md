@@ -15,6 +15,8 @@ description: >-
   Lumen is a minimal, lightweight and mobile-first starter for creating blogs
   using Gatsby and Kentico Kontent.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
 
 # Gatsby Kontent Lumen

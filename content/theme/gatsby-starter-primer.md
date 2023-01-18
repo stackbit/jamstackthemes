@@ -12,4 +12,6 @@ description: >-
   A Gatsby starter featuring GitHub Primer Design System and React components
   🐙⚪️
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

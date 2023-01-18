@@ -14,7 +14,7 @@ archetype:
 description: >-
   Yetty is yet another [Eleventy](https://11ty.io) starter kit for my (& your)
   new projects. Built with accessibility and performance in mind.
-stale: false
+stale: true
 ---
 
 # Yet another starter kit for Eleventy

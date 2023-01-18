@@ -8,7 +8,7 @@ ssg:
 cms:
   - No Cms
 date: 2019-06-15T10:37:38.000Z
-stale: false
+stale: true
 disabled_reason: ''
 disabled: false
 ---
