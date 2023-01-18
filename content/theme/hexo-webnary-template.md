@@ -19,7 +19,7 @@ description: >-
   for.
 stale: false
 disabled: true
-disabled_reason: Github repo not found
+disabled_reason: 'Github repo not found, status: 404'
 ---
 
 # A Fully Customisable starter template for Hexo

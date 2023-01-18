@@ -13,8 +13,6 @@ archetype:
   - Portfolio
 description: An opinionated theme with a focus on minimalism and simplicity.
 stale: false
-disabled: true
-disabled_reason: Github repo not found
 ---
 
 ## Features

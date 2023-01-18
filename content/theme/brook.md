@@ -17,8 +17,7 @@ archetype:
   - Portfolio
   - Business
 description: A Minimalisitc Eleventy Blogging Theme
-disabled: true
-disabled_reason: Github repo not found
+stale: false
 ---
 
 # A clean and handcrafted Eleventy Blog Theme

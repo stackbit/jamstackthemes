@@ -8,13 +8,10 @@ ssg:
   - Jekyll
 cms:
   - No CMS
-css:
-  - Sass
 archetype:
   - Blog
 description: A crystalline Jekyll theme for blog
-disabled: true
-disabled_reason: Github repo not found
+stale: false
 ---
 
 Quartz is a crystalline Jekyll theme for blog.

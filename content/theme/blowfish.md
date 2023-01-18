@@ -14,8 +14,7 @@ archetype:
   - Blog
   - Portfolio
 description: A powerful, lightweight theme for Hugo built with Tailwind CSS.
-disabled: true
-disabled_reason: Github repo not found
+stale: false
 ---
 
 # Blowfish

@@ -114,6 +114,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/416serg-gatsby-starter-lightbox-2x.jpg"
     }
   },
+  "526avijitgupta-gokarna": {
+    "theme_key": "526avijitgupta-gokarna",
+    "file": "hugo-gokarna.md",
+    "name": "gokarna",
+    "title": "Gokarna",
+    "github_username": "526avijitgupta",
+    "repo": "526avijitgupta/gokarna",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/526avijitgupta/gokarna",
+    "demo_url": "https://gokarna-hugo.netlify.app/",
+    "stars": 147,
+    "forks": 64,
+    "open_issues": 10,
+    "last_commit": "2023-01-09T15:27:11Z",
+    "created_at": "2021-05-22T08:45:30Z",
+    "description": "A minimal opinionated theme for Hugo",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/526avijitgupta-gokarna.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/526avijitgupta-gokarna.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/526avijitgupta-gokarna-2x.jpg"
+    }
+  },
   "a9kitkumar-gatsby-ecommerce": {
     "theme_key": "a9kitkumar-gatsby-ecommerce",
     "file": "gatsby-ecommerce.md",
@@ -402,7 +425,7 @@
     "github_url": "https://github.com/adityatelange/hugo-PaperMod",
     "demo_url": "https://adityatelange.github.io/hugo-PaperMod/",
     "stars": 5289,
-    "forks": 1668,
+    "forks": 1669,
     "open_issues": 65,
     "last_commit": "2022-12-24T15:21:10Z",
     "created_at": "2020-07-21T04:45:10Z",
@@ -4185,6 +4208,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/calpa-gatsby-starter-calpa-blog-2x.jpg"
     }
   },
+  "canhtran-maverick": {
+    "theme_key": "canhtran-maverick",
+    "file": "maverick.md",
+    "name": "maverick",
+    "title": "Maverick",
+    "github_username": "canhtran",
+    "repo": "canhtran/maverick",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/canhtran/maverick",
+    "demo_url": "https://maverick.canhtran.me",
+    "stars": 15,
+    "forks": 11,
+    "open_issues": 6,
+    "last_commit": "2023-01-14T06:09:33Z",
+    "created_at": "2022-06-26T05:04:55Z",
+    "description": "A minimal hugo theme focus on content",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/canhtran-maverick.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/canhtran-maverick.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/canhtran-maverick-2x.jpg"
+    }
+  },
   "carsonip-hugo-theme-minos": {
     "theme_key": "carsonip-hugo-theme-minos",
     "file": "hugo-theme-minos.md",
@@ -4413,6 +4459,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/chesterhow-tale.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/chesterhow-tale.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/chesterhow-tale-2x.jpg"
+    }
+  },
+  "chetanverma16-react-portfolio-template": {
+    "theme_key": "chetanverma16-react-portfolio-template",
+    "file": "react-portfolio-template.md",
+    "name": "react-portfolio-template",
+    "title": "React Portfolio Template",
+    "github_username": "chetanverma16",
+    "repo": "chetanverma16/react-portfolio-template",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/chetanverma16/react-portfolio-template",
+    "demo_url": "https://react-portfolio-template.netlify.app/",
+    "stars": 802,
+    "forks": 381,
+    "open_issues": 7,
+    "last_commit": "2022-10-10T20:28:48Z",
+    "created_at": "2019-06-20T05:51:10Z",
+    "description": "Modern React Portfolio Template (FREE)",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/chetanverma16-react-portfolio-template.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/chetanverma16-react-portfolio-template.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/chetanverma16-react-portfolio-template-2x.jpg"
     }
   },
   "chibicode-solo": {
@@ -5507,8 +5576,8 @@
     "default_branch": "master",
     "github_url": "https://github.com/cotes2020/jekyll-theme-chirpy",
     "demo_url": "https://cotes2020.github.io/chirpy-demo/",
-    "stars": 3426,
-    "forks": 3205,
+    "stars": 3427,
+    "forks": 3206,
     "open_issues": 17,
     "last_commit": "2023-01-12T19:36:07Z",
     "created_at": "2019-01-12T07:37:30Z",
@@ -9753,7 +9822,7 @@
   },
   "gmlunesa-gatsby-starter-personal-portfolio": {
     "theme_key": "gmlunesa-gatsby-starter-personal-portfolio",
-    "file": "gatsby-starter-personal-portfolio",
+    "file": "gatsby-starter-personal-portfolio.md",
     "name": "gatsby-starter-personal-portfolio",
     "title": "Gatsby Personal Portfolio",
     "github_username": "gmlunesa",
@@ -9762,8 +9831,8 @@
     "default_branch": "main",
     "github_url": "https://github.com/gmlunesa/gatsby-starter-personal-portfolio",
     "demo_url": "https://gatsby-starter-personal-portfolio.vercel.app/",
-    "stars": 28,
-    "forks": 10,
+    "stars": 33,
+    "forks": 9,
     "open_issues": 0,
     "last_commit": "2020-11-04T12:49:03Z",
     "created_at": "2020-10-27T20:46:18Z",
@@ -10924,6 +10993,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/holger1411-11straps-2x.jpg"
     }
   },
+  "holger1411-brook-dev": {
+    "theme_key": "holger1411-brook-dev",
+    "file": "brook.md",
+    "name": "brook-dev",
+    "title": "Brook",
+    "github_username": "holger1411",
+    "repo": "holger1411/brook-dev",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/holger1411/brook-dev",
+    "demo_url": "https://brooks-html-template.netlify.app/",
+    "stars": 7,
+    "forks": 0,
+    "open_issues": 6,
+    "last_commit": "2022-09-23T07:09:48Z",
+    "created_at": "2022-09-21T06:41:42Z",
+    "description": null,
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/holger1411-brook-dev.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/holger1411-brook-dev.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/holger1411-brook-dev-2x.jpg"
+    }
+  },
   "holman-left": {
     "theme_key": "holman-left",
     "file": "jekyll-left-theme.md",
@@ -11809,8 +11901,8 @@
     "default_branch": "main",
     "github_url": "https://github.com/ixartz/Next-js-Boilerplate",
     "demo_url": "https://creativedesignsguru.com/demo/Nextjs-Boilerplate/",
-    "stars": 3147,
-    "forks": 680,
+    "stars": 3148,
+    "forks": 681,
     "open_issues": 3,
     "last_commit": "2023-01-12T14:09:11Z",
     "created_at": "2020-07-22T19:47:35Z",
@@ -12799,8 +12891,8 @@
     "github_url": "https://github.com/jerryc127/hexo-theme-butterfly",
     "demo_url": "https://jerryc.me/",
     "stars": 4872,
-    "forks": 971,
-    "open_issues": 5,
+    "forks": 970,
+    "open_issues": 6,
     "last_commit": "2023-01-17T07:02:42Z",
     "created_at": "2019-06-04T13:38:41Z",
     "description": " 🦋 A Hexo Theme: Butterfly",
@@ -13891,6 +13983,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/kc0bfv-ticky_tacky_dark-2x.jpg"
     }
   },
+  "kdevo-osprey-delight": {
+    "theme_key": "kdevo-osprey-delight",
+    "file": "hugo-osprey_delight.md",
+    "name": "osprey-delight",
+    "title": "Osprey Delight",
+    "github_username": "kdevo",
+    "repo": "kdevo/osprey-delight",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/kdevo/osprey-delight",
+    "demo_url": "https://hugo-mods.github.io/",
+    "stars": 54,
+    "forks": 23,
+    "open_issues": 0,
+    "last_commit": "2022-05-01T09:55:40Z",
+    "created_at": "2019-11-23T13:03:41Z",
+    "description": "Osprey Delight is the free-minded artist's choice for a clutter-free and blazingly fast single-page portfolio.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/kdevo-osprey-delight.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/kdevo-osprey-delight.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/kdevo-osprey-delight-2x.jpg"
+    }
+  },
   "kdheepak-pelican-smoothie": {
     "theme_key": "kdheepak-pelican-smoothie",
     "file": "pelican-smoothie.md",
@@ -14443,6 +14558,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/knaman2609-clean-2x.jpg"
     }
   },
+  "knhash-jekyllbear": {
+    "theme_key": "knhash-jekyllbear",
+    "file": "jekyllBear.md",
+    "name": "jekyllBear",
+    "title": "jekyllBear",
+    "github_username": "knhash",
+    "repo": "knhash/jekyllBear",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/knhash/jekyllBear",
+    "demo_url": "https://knhash.in/jekyllBear",
+    "stars": 19,
+    "forks": 15,
+    "open_issues": 0,
+    "last_commit": "2022-10-25T13:06:23Z",
+    "created_at": "2022-08-21T12:31:01Z",
+    "description": "An easy to use, minimal, text focused Jekyll theme",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/knhash-jekyllbear.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/knhash-jekyllbear.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/knhash-jekyllbear-2x.jpg"
+    }
+  },
   "knhash-pudhina": {
     "theme_key": "knhash-pudhina",
     "file": "pudhina.md",
@@ -14648,6 +14786,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/kulacino-bajawa.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/kulacino-bajawa.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/kulacino-bajawa-2x.jpg"
+    }
+  },
+  "kun8018-gatsby-starter-icarus-blog": {
+    "theme_key": "kun8018-gatsby-starter-icarus-blog",
+    "file": "gatsby-starter-icarus-blog.md",
+    "name": "gatsby-starter-icarus-blog",
+    "title": "Gatsby Starter Icarus Blog",
+    "github_username": "Kun8018",
+    "repo": "Kun8018/gatsby-starter-icarus-blog",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/Kun8018/gatsby-starter-icarus-blog",
+    "demo_url": "https://kunzhang.me/",
+    "stars": 3,
+    "forks": 1,
+    "open_issues": 1,
+    "last_commit": "2022-10-19T11:00:37Z",
+    "created_at": "2022-07-31T07:04:04Z",
+    "description": "icarus-like theme with  gatsby",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/kun8018-gatsby-starter-icarus-blog.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/kun8018-gatsby-starter-icarus-blog.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/kun8018-gatsby-starter-icarus-blog-2x.jpg"
     }
   },
   "kuntoaji-dekyll": {
@@ -15467,7 +15628,7 @@
     "github_url": "https://github.com/longpdo/neumorphism",
     "demo_url": "https://longpdo.github.io/neumorphism/",
     "stars": 281,
-    "forks": 451,
+    "forks": 452,
     "open_issues": 12,
     "last_commit": "2022-05-25T22:17:08Z",
     "created_at": "2020-04-10T21:08:01Z",
@@ -15545,6 +15706,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/lorepirri-jekyll-theme-simple-blog.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/lorepirri-jekyll-theme-simple-blog.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/lorepirri-jekyll-theme-simple-blog-2x.jpg"
+    }
+  },
+  "loveminimal-hugo-theme-virgo": {
+    "theme_key": "loveminimal-hugo-theme-virgo",
+    "file": "hugo-theme-virgo.md",
+    "name": "hugo-theme-virgo",
+    "title": "Virgo",
+    "github_username": "loveminimal",
+    "repo": "loveminimal/hugo-theme-virgo",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/loveminimal/hugo-theme-virgo",
+    "demo_url": "https://ovirgo.com",
+    "stars": 38,
+    "forks": 6,
+    "open_issues": 0,
+    "last_commit": "2022-12-01T08:28:21Z",
+    "created_at": "2022-06-21T12:52:48Z",
+    "description": "A simple  and pure theme.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/loveminimal-hugo-theme-virgo.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/loveminimal-hugo-theme-virgo.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/loveminimal-hugo-theme-virgo-2x.jpg"
     }
   },
   "lubang-hugo-hello-programmer-theme": {
@@ -16180,7 +16364,7 @@
     "github_url": "https://github.com/matcornic/hugo-theme-learn",
     "demo_url": "https://learn.netlify.com/en/",
     "stars": 1485,
-    "forks": 1315,
+    "forks": 1314,
     "open_issues": 168,
     "last_commit": "2021-10-28T19:04:10Z",
     "created_at": "2016-03-17T10:58:41Z",
@@ -16869,8 +17053,8 @@
     "default_branch": "master",
     "github_url": "https://github.com/mmistakes/minimal-mistakes",
     "demo_url": "https://mmistakes.github.io/minimal-mistakes/",
-    "stars": 10537,
-    "forks": 21484,
+    "stars": 10538,
+    "forks": 21483,
     "open_issues": 42,
     "last_commit": "2022-07-08T15:38:44Z",
     "created_at": "2013-05-24T14:13:30Z",
@@ -17709,6 +17893,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/naufaldi-next-landing-vpn-2x.jpg"
     }
   },
+  "ndimatteo-hull": {
+    "theme_key": "ndimatteo-hull",
+    "file": "next-hull.md",
+    "name": "HULL",
+    "title": "HULL",
+    "github_username": "ndimatteo",
+    "repo": "ndimatteo/HULL",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/ndimatteo/HULL",
+    "demo_url": "https://hull.dev",
+    "stars": 1096,
+    "forks": 109,
+    "open_issues": 7,
+    "last_commit": "2022-12-28T22:41:25Z",
+    "created_at": "2020-10-19T19:00:26Z",
+    "description": "💀 Headless Shopify Starter – powered by Next.js + Sanity.io",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/ndimatteo-hull.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/ndimatteo-hull.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/ndimatteo-hull-2x.jpg"
+    }
+  },
   "nehalist-gatsby-starter-nehalem": {
     "theme_key": "nehalist-gatsby-starter-nehalem",
     "file": "gatsby-starter-nehalem.md",
@@ -18192,6 +18399,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/kazumasato-siera-2x.jpg"
     }
   },
+  "nunocoracao-blowfish": {
+    "theme_key": "nunocoracao-blowfish",
+    "file": "blowfish.md",
+    "name": "blowfish",
+    "title": "Blowfish",
+    "github_username": "nunocoracao",
+    "repo": "nunocoracao/blowfish",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/nunocoracao/blowfish",
+    "demo_url": "https://nunocoracao.github.io/blowfish/",
+    "stars": 242,
+    "forks": 73,
+    "open_issues": 5,
+    "last_commit": "2023-01-15T00:41:21Z",
+    "created_at": "2022-09-09T20:38:52Z",
+    "description": "Personal Website & Blog Theme for Hugo",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/nunocoracao-blowfish.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/nunocoracao-blowfish.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/nunocoracao-blowfish-2x.jpg"
+    }
+  },
   "nurlansu-hugo-sustain": {
     "theme_key": "nurlansu-hugo-sustain",
     "file": "hugo-sustain.md",
@@ -18422,6 +18652,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/cloudcannon-twenty-jekyll-theme-2x.jpg"
     }
   },
+  "olivier3lanc-jekyll-libdoc": {
+    "theme_key": "olivier3lanc-jekyll-libdoc",
+    "file": "jekyll-libdoc.md",
+    "name": "Jekyll-LibDoc",
+    "title": "Jekyll LibDoc",
+    "github_username": "olivier3lanc",
+    "repo": "olivier3lanc/Jekyll-LibDoc",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/olivier3lanc/Jekyll-LibDoc",
+    "demo_url": "https://olivier3lanc.github.io/Jekyll-LibDoc/",
+    "stars": 12,
+    "forks": 13,
+    "open_issues": 1,
+    "last_commit": "2022-10-31T20:00:58Z",
+    "created_at": "2021-03-02T21:15:03Z",
+    "description": "A Jekyll documentation theme with built-in search and playground",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/olivier3lanc-jekyll-libdoc.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/olivier3lanc-jekyll-libdoc.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/olivier3lanc-jekyll-libdoc-2x.jpg"
+    }
+  },
   "olowolo-hugo-theme-even": {
     "theme_key": "olowolo-hugo-theme-even",
     "file": "hugo-theme-even.md",
@@ -18640,7 +18893,7 @@
     "default_branch": "master",
     "github_url": "https://github.com/orderedlist/minimal",
     "demo_url": "https://orderedlist.com/minimal/",
-    "stars": 2075,
+    "stars": 2076,
     "forks": 704,
     "open_issues": 36,
     "last_commit": "2022-08-17T21:24:32Z",
@@ -19125,8 +19378,8 @@
     "demo_url": "https://hugothemeiris.peaceiris.app",
     "stars": 57,
     "forks": 18,
-    "open_issues": 41,
-    "last_commit": "2023-01-17T18:36:39Z",
+    "open_issues": 40,
+    "last_commit": "2023-01-18T10:55:51Z",
     "created_at": "2018-07-28T14:56:18Z",
     "description": "Hugo IRIS Theme - Portfolio and Blog",
     "images": {
@@ -20515,6 +20768,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/rohitguptab-rg-portfolio-2x.jpg"
     }
   },
+  "roninro-hugo-theme-puppet": {
+    "theme_key": "roninro-hugo-theme-puppet",
+    "file": "hugo-theme-puppet.md",
+    "name": "hugo-theme-puppet",
+    "title": "Puppet",
+    "github_username": "roninro",
+    "repo": "roninro/hugo-theme-puppet",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/roninro/hugo-theme-puppet",
+    "demo_url": "https://hugo-theme-puppet.netlify.app/",
+    "stars": 31,
+    "forks": 27,
+    "open_issues": 4,
+    "last_commit": "2022-11-28T07:13:34Z",
+    "created_at": "2022-07-28T09:19:40Z",
+    "description": null,
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/roninro-hugo-theme-puppet.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/roninro-hugo-theme-puppet.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/roninro-hugo-theme-puppet-2x.jpg"
+    }
+  },
   "ronv-colorie": {
     "theme_key": "ronv-colorie",
     "file": "colorie-jekyll.md",
@@ -21297,6 +21573,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/saschajullmann-gatsby-starter-gatsbythemes-2x.jpg"
     }
   },
+  "sblisesivdin-biscuit": {
+    "theme_key": "sblisesivdin-biscuit",
+    "file": "jekyll-Biscuit.md",
+    "name": "biscuit",
+    "title": "Biscuit",
+    "github_username": "sblisesivdin",
+    "repo": "sblisesivdin/biscuit",
+    "branch": "gh-pages",
+    "default_branch": "gh-pages",
+    "github_url": "https://github.com/sblisesivdin/biscuit",
+    "demo_url": "https://sblisesivdin.github.io/biscuit",
+    "stars": 11,
+    "forks": 25,
+    "open_issues": 0,
+    "last_commit": "2022-07-01T16:44:54Z",
+    "created_at": "2022-06-30T12:56:09Z",
+    "description": "Single-page responsive Jekyll theme",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/sblisesivdin-biscuit.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/sblisesivdin-biscuit.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/sblisesivdin-biscuit-2x.jpg"
+    }
+  },
   "schmanat-hugo-highlights-theme": {
     "theme_key": "schmanat-hugo-highlights-theme",
     "file": "hugo-highlights-theme.md",
@@ -21778,6 +22077,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/sharadcodes-jekyll-theme-dark-reader.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/sharadcodes-jekyll-theme-dark-reader.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/sharadcodes-jekyll-theme-dark-reader-2x.jpg"
+    }
+  },
+  "sharadcodes-jekyll-theme-material-you": {
+    "theme_key": "sharadcodes-jekyll-theme-material-you",
+    "file": "jekyll-theme-material-you.md",
+    "name": "jekyll-theme-material-you",
+    "title": "Material You",
+    "github_username": "sharadcodes",
+    "repo": "sharadcodes/jekyll-theme-material-you",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/sharadcodes/jekyll-theme-material-you",
+    "demo_url": "https://sharadcodes.github.io/jekyll-theme-material-you/",
+    "stars": 12,
+    "forks": 5,
+    "open_issues": 1,
+    "last_commit": "2022-12-23T14:27:18Z",
+    "created_at": "2022-05-03T03:46:32Z",
+    "description": "A Jekyll theme for Material You Lovers",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/sharadcodes-jekyll-theme-material-you.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/sharadcodes-jekyll-theme-material-you.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/sharadcodes-jekyll-theme-material-you-2x.jpg"
     }
   },
   "sharadcodes-jekyll-theme-milo": {
@@ -24310,6 +24632,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/statichunt-geeky-hugo-2x.jpg"
     }
   },
+  "staticmania-blogge-hugo-theme": {
+    "theme_key": "staticmania-blogge-hugo-theme",
+    "file": "blogge-hugo.md",
+    "name": "blogge-hugo-theme",
+    "title": "Blogge Hugo",
+    "github_username": "StaticMania",
+    "repo": "StaticMania/blogge-hugo-theme",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/StaticMania/blogge-hugo-theme",
+    "demo_url": "https://blogge-hugo.staticmania.com/",
+    "stars": 36,
+    "forks": 20,
+    "open_issues": 1,
+    "last_commit": "2022-09-04T14:50:28Z",
+    "created_at": "2021-02-04T11:09:45Z",
+    "description": "Blogge is a clean and minimal blog hugo theme suitable for someone with easy creative features and effects who wants to create a personal blog site to make readers enjoy the pleasure of reading blog posts and blogs.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/staticmania-blogge-hugo-theme.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/staticmania-blogge-hugo-theme.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/staticmania-blogge-hugo-theme-2x.jpg"
+    }
+  },
   "staticmania-hugo-apsho": {
     "theme_key": "staticmania-hugo-apsho",
     "file": "hugo-apsho.md",
@@ -24354,6 +24699,52 @@
       "hires": "https://www.jamstackthemes.dev/capture/staticmania-hugo-cohub.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/staticmania-hugo-cohub.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/staticmania-hugo-cohub-2x.jpg"
+    }
+  },
+  "staticmania-portio-hugo": {
+    "theme_key": "staticmania-portio-hugo",
+    "file": "portio-hugo.md",
+    "name": "portio-hugo",
+    "title": "Portio Hugo",
+    "github_username": "StaticMania",
+    "repo": "StaticMania/portio-hugo",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/StaticMania/portio-hugo",
+    "demo_url": "https://portio-hugo.staticmania.com/",
+    "stars": 359,
+    "forks": 256,
+    "open_issues": 14,
+    "last_commit": "2022-09-04T14:50:48Z",
+    "created_at": "2020-08-25T07:05:28Z",
+    "description": "Portio Hugo is a simple, minimal and responsive Portfolio Hugo Theme. Portio Hugo is well organized, well-formatted, and named accordingly so it’s easy to change any and all of the design. Portio is built with Bootstrap 4. You can customize it very easily to fit your needs.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/staticmania-portio-hugo.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/staticmania-portio-hugo.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/staticmania-portio-hugo-2x.jpg"
+    }
+  },
+  "staticmania-roxo-eleventy": {
+    "theme_key": "staticmania-roxo-eleventy",
+    "file": "roxo-eleventy.md",
+    "name": "roxo-eleventy",
+    "title": "Roxo | a digital agency template",
+    "github_username": "StaticMania",
+    "repo": "StaticMania/roxo-eleventy",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/StaticMania/roxo-eleventy",
+    "demo_url": "https://roxo-eleventy.staticmania.com/",
+    "stars": 22,
+    "forks": 21,
+    "open_issues": 1,
+    "last_commit": "2022-10-06T11:36:12Z",
+    "created_at": "2021-12-26T10:52:59Z",
+    "description": null,
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/staticmania-roxo-eleventy.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/staticmania-roxo-eleventy.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/staticmania-roxo-eleventy-2x.jpg"
     }
   },
   "staticmania-roxo-hugo": {
@@ -24828,7 +25219,7 @@
     "github_url": "https://github.com/sylhare/Type-on-Strap",
     "demo_url": "https://sylhare.github.io/Type-on-Strap/",
     "stars": 701,
-    "forks": 826,
+    "forks": 825,
     "open_issues": 2,
     "last_commit": "2022-12-10T19:56:18Z",
     "created_at": "2017-10-02T13:37:28Z",
@@ -25826,6 +26217,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/themefisher-vex-hugo.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/themefisher-vex-hugo.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/themefisher-vex-hugo-2x.jpg"
+    }
+  },
+  "themeselection-materio-mui-react-nextjs-admin-template-free": {
+    "theme_key": "themeselection-materio-mui-react-nextjs-admin-template-free",
+    "file": "materio-free-react-nextjs-admin-template.md",
+    "name": "materio-mui-react-nextjs-admin-template-free",
+    "title": "Materio React NextJS Admin Template Free",
+    "github_username": "themeselection",
+    "repo": "themeselection/materio-mui-react-nextjs-admin-template-free",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/themeselection/materio-mui-react-nextjs-admin-template-free",
+    "demo_url": "https://demos.themeselection.com/materio-mui-react-nextjs-admin-template-free/",
+    "stars": 613,
+    "forks": 198,
+    "open_issues": 2,
+    "last_commit": "2022-10-07T13:57:04Z",
+    "created_at": "2022-03-14T09:50:59Z",
+    "description": "Materio is the Most Powerful & Comprehensive free Next.js React admin template based on MUI !! 🚀",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/themeselection-materio-mui-react-nextjs-admin-template-free.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/themeselection-materio-mui-react-nextjs-admin-template-free.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/themeselection-materio-mui-react-nextjs-admin-template-free-2x.jpg"
     }
   },
   "thenewdynamic-gohugo-theme-ananke": {
@@ -27265,9 +27679,9 @@
     "default_branch": "canary",
     "github_url": "https://github.com/vercel/next.js",
     "demo_url": "https://cosmic-next-blog.vercel.app",
-    "stars": 99349,
-    "forks": 22012,
-    "open_issues": 1461,
+    "stars": 99350,
+    "forks": 22014,
+    "open_issues": 1463,
     "last_commit": "2023-01-18T00:56:04Z",
     "created_at": "2016-10-05T23:32:51Z",
     "description": "The React Framework",
@@ -27298,6 +27712,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/vfalanis-taken.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/vfalanis-taken.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/vfalanis-taken-2x.jpg"
+    }
+  },
+  "vfvong-jekyll-theme-quartz": {
+    "theme_key": "vfvong-jekyll-theme-quartz",
+    "file": "quartz.md",
+    "name": "jekyll-theme-quartz",
+    "title": "Quartz",
+    "github_username": "vfvong",
+    "repo": "vfvong/jekyll-theme-quartz",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/vfvong/jekyll-theme-quartz",
+    "demo_url": "https://vfvong.blog/jekyll-theme-quartz/",
+    "stars": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "last_commit": "2022-10-19T12:26:25Z",
+    "created_at": "2022-08-31T12:00:44Z",
+    "description": "A crystalline Jekyll theme for blog",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/vfvong-jekyll-theme-quartz.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/vfvong-jekyll-theme-quartz.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/vfvong-jekyll-theme-quartz-2x.jpg"
     }
   },
   "vfvong-jekyll-theme-tao": {
@@ -28438,7 +28875,7 @@
     "default_branch": "master",
     "github_url": "https://github.com/wowthemesnet/mediumish-theme-jekyll",
     "demo_url": "https://wowthemesnet.github.io/mediumish-theme-jekyll/",
-    "stars": 1086,
+    "stars": 1087,
     "forks": 1247,
     "open_issues": 62,
     "last_commit": "2021-10-31T15:31:51Z",

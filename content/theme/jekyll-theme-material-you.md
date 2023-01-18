@@ -14,6 +14,4 @@ description: A Jekyll theme for Material You Lovers by Sharad Raj Singh Maurya
 archetype:
   - Blog
 stale: false
-disabled: true
-disabled_reason: Github repo not found
 ---

@@ -12,8 +12,7 @@ archetype:
   - Single Page
   - Personal
 description: Biscuit is a single-page responsive Jekyll theme.
-disabled: true
-disabled_reason: Github repo not found
+stale: false
 ---
 
 # Biscuit theme for Jekyll

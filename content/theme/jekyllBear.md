@@ -8,8 +8,6 @@ ssg:
   - Jekyll
 cms:
   - Forestry
-css:
-  - null
 archetype:
   - Blog
   - Portfolio
@@ -18,8 +16,7 @@ archetype:
 description: >-
   A port of the awesome, minimal Bear Blog default theme to Jekyll, as a gem.
   Plus tag support for your blogs.
-disabled: true
-disabled_reason: Github repo not found
+stale: false
 ---
 
 ## An easy to use, minimal, text focused Jekyll theme

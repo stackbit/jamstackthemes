@@ -8,13 +8,10 @@ ssg:
   - Hugo
 cms:
   - No CMS
-css:
-  - Custom
 archetype:
   - Blog
 description: A clean and minimal template for blog.
-disabled: true
-disabled_reason: Github repo not found
+stale: false
 ---
 
 # A clean Maverick
