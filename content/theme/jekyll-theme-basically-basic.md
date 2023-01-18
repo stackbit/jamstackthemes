@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2017-03-07T21:08:01.000Z
 description: Your new Jekyll default theme
-stale: false
+stale: true
 ---

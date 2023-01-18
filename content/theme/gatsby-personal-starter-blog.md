@@ -10,4 +10,6 @@ cms:
 date: 2019-04-22T00:28:28.000Z
 description: Gatsby starter for a personal site && blog! 🐶
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

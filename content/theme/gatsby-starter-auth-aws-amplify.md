@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-08-06T01:31:05.000Z
 description: A full-featured AWS Amplify Auth starter made with GatsbyJS
-stale: false
+stale: true
 ---

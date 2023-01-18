@@ -12,6 +12,8 @@ description: >-
   Boilerplate utilizing Statiq and Kentico Kontent to provide a starting point
   in the Jamstack world for .NET developers.
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
 
 # Statiq boilerplate for Kontent

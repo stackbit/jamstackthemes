@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2016-03-17T10:58:41.000Z
 description: Porting Grav Learn theme to Hugo
-stale: false
+stale: true
 ---

@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2018-02-01T16:37:57.000Z
 description: Affiliates - Jekyll Blogging Theme for Affiliate Marketers
-stale: false
+stale: true
 ---
 
 Affiliates - Jekyll Blogging Theme for Affiliate Marketers

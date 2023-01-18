@@ -14,7 +14,7 @@ css:
 archetype:
   - Business
 description: A simple landing page built with Hugo and Tailwind CSS.
-stale: false
+stale: true
 ---
 
 # Hugo Landing Page

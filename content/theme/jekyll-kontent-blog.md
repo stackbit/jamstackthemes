@@ -11,7 +11,7 @@ date: 2020-12-01T00:00:00.000Z
 archetype:
   - Blog
 description: Sample blog website built using Kentico Kontent as a content repository.
-stale: true
+stale: false
 ---
 
 # Jekyll Kontent Blog

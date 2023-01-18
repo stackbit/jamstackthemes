@@ -11,5 +11,7 @@ date: 2018-12-04T19:18:39.000Z
 description: >-
   Terrassa is a simple, fast and responsive theme for Hugo with a strong focus
   on accessibility.
-stale: false
+stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

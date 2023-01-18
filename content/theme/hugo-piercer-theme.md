@@ -11,5 +11,7 @@ date: 2019-03-24T13:23:10.000Z
 description: >-
   Piercer is a very customizable, fast and simple Hugo theme designed under the
   mobile-first philosophy.
-stale: false
+stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

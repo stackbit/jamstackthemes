@@ -1,166 +1,232 @@
 [
   {
-    "theme_key": "spinalcms-11ty-docs-template",
-    "file": "11ty-docs.md",
-    "repoUrl": "https://github.com/SpinalCMS/11ty-docs-template",
-    "error": "Github repo not found"
+    "theme_key": "zeespire-one-free",
+    "file": "jekyll-zeespre-one.md",
+    "repoUrl": "https://github.com/ZeeSpire/one-free",
+    "error": "Github repo not found, status: 404"
   },
   {
-    "theme_key": "justgoodthemes-blogbox-jekyll-theme",
-    "file": "blogbox-jekyll-theme.md",
-    "repoUrl": "https://github.com/JustGoodThemes/BlogBox-Jekyll-Theme",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "staticmania-blogge-hugo-theme",
-    "file": "blogge-hugo.md",
-    "repoUrl": "https://github.com/StaticMania/blogge-hugo-theme",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "nunocoracao-blowfish",
-    "file": "blowfish.md",
-    "repoUrl": "https://github.com/nunocoracao/blowfish",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "holger1411-brook-dev",
-    "file": "brook.md",
-    "repoUrl": "https://github.com/holger1411/brook-dev",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "obaez-dentistsmile",
-    "file": "dentistsmile.md",
-    "repoUrl": "https://github.com/obaez/dentistsmile",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "kun8018-gatsby-starter-icarus-blog",
-    "file": "gatsby-starter-icarus-blog.md",
-    "repoUrl": "https://github.com/Kun8018/gatsby-starter-icarus-blog",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "526avijitgupta-gokarna",
-    "file": "hugo-gokarna.md",
-    "repoUrl": "https://github.com/526avijitgupta/gokarna",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "kdevo-osprey-delight",
-    "file": "hugo-osprey_delight.md",
-    "repoUrl": "https://github.com/kdevo/osprey-delight",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "roninro-hugo-theme-puppet",
-    "file": "hugo-theme-puppet.md",
-    "repoUrl": "https://github.com/roninro/hugo-theme-puppet",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "loveminimal-hugo-theme-virgo",
-    "file": "hugo-theme-virgo.md",
-    "repoUrl": "https://github.com/loveminimal/hugo-theme-virgo",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "sblisesivdin-biscuit",
-    "file": "jekyll-Biscuit.md",
-    "repoUrl": "https://github.com/sblisesivdin/biscuit",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "justgoodthemes-blogbox-jekyll-theme",
-    "file": "jekyll-blogbox.md",
-    "repoUrl": "https://github.com/JustGoodThemes/BlogBox-Jekyll-Theme",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "olivier3lanc-jekyll-libdoc",
-    "file": "jekyll-libdoc.md",
-    "repoUrl": "https://github.com/olivier3lanc/Jekyll-LibDoc",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "justgoodthemes-scriptor-jekyll-theme",
-    "file": "jekyll-scriptor.md",
-    "repoUrl": "https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "sharadcodes-jekyll-theme-material-you",
-    "file": "jekyll-theme-material-you.md",
-    "repoUrl": "https://github.com/sharadcodes/jekyll-theme-material-you",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "knhash-jekyllbear",
-    "file": "jekyllBear.md",
-    "repoUrl": "https://github.com/knhash/jekyllBear",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "themeselection-materio-mui-react-nextjs-admin-template-free",
-    "file": "materio-free-react-nextjs-admin-template.md",
-    "repoUrl": "https://github.com/themeselection/materio-mui-react-nextjs-admin-template-free",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "canhtran-maverick",
-    "file": "maverick.md",
-    "repoUrl": "https://github.com/canhtran/maverick",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "ndimatteo-hull",
-    "file": "next-hull.md",
-    "repoUrl": "https://github.com/ndimatteo/HULL",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "staticmania-portio-hugo",
-    "file": "portio-hugo.md",
-    "repoUrl": "https://github.com/StaticMania/portio-hugo",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "vfvong-jekyll-theme-quartz",
-    "file": "quartz.md",
-    "repoUrl": "https://github.com/vfvong/jekyll-theme-quartz",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "chetanverma16-react-portfolio-template",
-    "file": "react-portfolio-template.md",
-    "repoUrl": "https://github.com/chetanverma16/react-portfolio-template",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "staticmania-roxo-eleventy",
-    "file": "roxo-eleventy.md",
-    "repoUrl": "https://github.com/StaticMania/roxo-eleventy",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "justgoodthemes-scriptor-jekyll-theme",
-    "file": "scriptor-jekyll-theme.md",
-    "repoUrl": "https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme",
-    "error": "Github repo not found"
-  },
-  {
-    "theme_key": "spinalcms-11ty-docs-template",
-    "file": "11ty-docs.md",
-    "repoUrl": "https://github.com/SpinalCMS/11ty-docs-template",
-    "demoUrl": "https://11ty-docs-theme.spinalcms.com/",
+    "theme_key": "p0wex-gesko",
+    "file": "Gesko.md",
+    "repoUrl": "https://github.com/P0WEX/Gesko",
+    "demoUrl": "https://p0wex.github.io/Gesko/",
     "error": "demo url not found"
   },
   {
-    "theme_key": "obaez-dentistsmile",
-    "file": "dentistsmile.md",
-    "repoUrl": "https://github.com/obaez/dentistsmile",
-    "demoUrl": "https://obaez.com/dentistsmile/",
+    "theme_key": "graphcms-gatsby-graphcms-tailwindcss-example",
+    "file": "gatsby-graphcms-tailwindcss-example.md",
+    "repoUrl": "https://github.com/GraphCMS/gatsby-graphcms-tailwindcss-example",
+    "demoUrl": "https://graphcms.github.io/gatsby-graphcms-tailwindcss-example/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "jmau111-gatsby-juma",
+    "file": "gatsby-juma.md",
+    "repoUrl": "https://github.com/jmau111/gatsby-juma",
+    "demoUrl": "https://demos.julien-maury.dev/gatsby-juma/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "kentico-gatsby-starter-kontent-lumen",
+    "file": "gatsby-kontent-lumen.md",
+    "repoUrl": "https://github.com/Kentico/gatsby-starter-kontent-lumen",
+    "demoUrl": "https://gatsby-starter-kontent-lumen.netlify.app/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "jmau111-gatsby-nes",
+    "file": "gatsby-nes.md",
+    "repoUrl": "https://github.com/jmau111/gatsby-nes",
+    "demoUrl": "https://demos.julien-maury.dev/gatsby-nes/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "416serg-gatsby-starter-lightbox",
+    "file": "gatsby-starter-lightbox.md",
+    "repoUrl": "https://github.com/416serg/gatsby-starter-lightbox",
+    "demoUrl": "https://gatsby-lightbox.416serg.me/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "caki0915-gatsby-starter-redux",
+    "file": "gatsby-starter-redux.md",
+    "repoUrl": "https://github.com/caki0915/gatsby-starter-redux",
+    "demoUrl": "https://caki0915.github.io/gatsby-starter-redux/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "wildhaber-gohugo-amp",
+    "file": "gohugo-amp.md",
+    "repoUrl": "https://github.com/wildhaber/gohugo-amp",
+    "demoUrl": "https://gohugo-amp.gohugohq.com/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "jmau111-hugo-theme-ava",
+    "file": "hugo-ava.md",
+    "repoUrl": "https://github.com/jmau111/hugo-theme-ava",
+    "demoUrl": "https://demos.julien-maury.dev/hugo-theme-ava/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "nanxiaobei-hugo-paper",
+    "file": "hugo-paper.md",
+    "repoUrl": "https://github.com/nanxiaobei/hugo-paper",
+    "demoUrl": "https://nanxiaobei.github.io/hugo-paper/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "zivong-jekyll-theme-hydure",
+    "file": "hydure.md",
+    "repoUrl": "https://github.com/zivong/jekyll-theme-hydure",
+    "demoUrl": "https://zivong.blog/jekyll-theme-hydure/",
+    "error": "error checking demo url"
+  },
+  {
+    "theme_key": "styxlab-next-cms-ghost",
+    "file": "jamify-next-cms-ghost.md",
+    "repoUrl": "https://github.com/styxlab/next-cms-ghost",
+    "demoUrl": "https://next.jamify.org/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "kitian616-jekyll-text-theme",
+    "file": "jekyll-TeXt-theme.md",
+    "repoUrl": "https://github.com/kitian616/jekyll-TeXt-theme",
+    "demoUrl": "https://tianqi.name/jekyll-TeXt-theme/",
+    "error": "error checking demo url"
+  },
+  {
+    "theme_key": "codinfox-codinfox-lanyon",
+    "file": "jekyll-codinfox-lanyon.md",
+    "repoUrl": "https://github.com/codinfox/codinfox-lanyon",
+    "demoUrl": "https://codinfox.github.io/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "elotroalex-ed",
+    "file": "jekyll-ed.md",
+    "repoUrl": "https://github.com/elotroalex/ed",
+    "demoUrl": "https://elotroalex.github.io/ed/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "rosario-kasper",
+    "file": "jekyll-kasper.md",
+    "repoUrl": "https://github.com/rosario/kasper",
+    "demoUrl": "https://rosario.io/2013/11/10/kasper-theme-for-jekyll.html",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "iwiedenm-jekyll-theme-massively-src",
+    "file": "jekyll-massively-theme.md",
+    "repoUrl": "https://github.com/iwiedenm/jekyll-theme-massively-src",
+    "demoUrl": "https://iwiedenm.github.io/jekyll-theme-massively/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "bawn92-sleek_blog",
+    "file": "jekyll-sleek-blog.md",
+    "repoUrl": "https://github.com/bawn92/sleek_blog",
+    "demoUrl": "https://www.gearoidoconnor.ie/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "zeespire-one-free",
+    "file": "jekyll-zeespre-one.md",
+    "repoUrl": "https://github.com/ZeeSpire/one-free",
+    "demoUrl": "https://one-free.zeespire.com/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "kentico-kontent-boilerplate-statiq-net",
+    "file": "statiq-kontent-boilerplate.md",
+    "repoUrl": "https://github.com/Kentico/kontent-boilerplate-statiq-net",
+    "demoUrl": "https://kentico.github.io/kontent-boilerplate-statiq-net",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "whoan-vuepress-theme-canvas",
+    "file": "vuepress-theme-canvas.md",
+    "repoUrl": "https://github.com/whoan/vuepress-theme-canvas",
+    "demoUrl": "https://whoan.me/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "thomaswangio-gatsby-personal-starter-blog",
+    "file": "gatsby-personal-starter-blog.md",
+    "repoUrl": "https://github.com/thomaswangio/gatsby-personal-starter-blog",
+    "demoUrl": "https://gatsby-personal-starter-blog.netlify.com/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "tomoyukikashiro-gatsby-starter-blog-amp-to-pwa",
+    "file": "gatsby-starter-blog-amp-to-pwa.md",
+    "repoUrl": "https://github.com/tomoyukikashiro/gatsby-starter-blog-amp-to-pwa",
+    "demoUrl": "https://gatsby-starter-blog-amp-to-pwa.netlify.com/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "endymion1818-gatsby-starter-carraway",
+    "file": "gatsby-starter-carraway.md",
+    "repoUrl": "https://github.com/endymion1818/gatsby-starter-carraway",
+    "demoUrl": "https://gatsby-starter-carraway.netlify.com/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "anoun-gatsby-starter-material-business-markdown",
+    "file": "gatsby-starter-material-business-markdown.md",
+    "repoUrl": "https://github.com/ANOUN/gatsby-starter-material-business-markdown",
+    "demoUrl": "https://gatsby-starter-material-business-markdown.netlify.com/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "lekoarts-gatsby-starter-portfolio-bella",
+    "file": "gatsby-starter-portfolio-bella.md",
+    "repoUrl": "https://github.com/LekoArts/gatsby-starter-portfolio-bella",
+    "demoUrl": "https://portfolio-bella.netlify.com/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "thomaswangio-gatsby-starter-primer",
+    "file": "gatsby-starter-primer.md",
+    "repoUrl": "https://github.com/thomaswangio/gatsby-starter-primer",
+    "demoUrl": "https://gatsby-starter-primer.netlify.com/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "danielkvist-hugo-piercer-theme",
+    "file": "hugo-piercer-theme.md",
+    "repoUrl": "https://github.com/danielkvist/hugo-piercer-theme",
+    "demoUrl": "https://piercer.netlify.com/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "danielkvist-hugo-terrassa-theme",
+    "file": "hugo-terrassa-theme.md",
+    "repoUrl": "https://github.com/danielkvist/hugo-terrassa-theme",
+    "demoUrl": "https://terrassa.netlify.com/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "laixintao-princess-diaries",
+    "file": "jekyll-princess-diaries.md",
+    "repoUrl": "https://github.com/laixintao/Princess-Diaries",
+    "demoUrl": "https://laixintao.github.io/Princess-Diaries.html",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "smallmuou-jekyll-pithy",
+    "file": "jekyll-pithy.md",
+    "repoUrl": "https://github.com/smallmuou/Jekyll-Pithy",
+    "demoUrl": "https://wenva.github.io/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "nurlansu-hugo-sustain",
+    "file": "hugo-sustain.md",
+    "repoUrl": "https://github.com/nurlansu/hugo-sustain",
+    "demoUrl": "https://demo.nurlan.co/hugo-sustain/",
     "error": "error checking demo url"
   }
 ]

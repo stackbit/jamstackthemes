@@ -10,6 +10,8 @@ cms:
 date: 2021-12-15T14:07:26.000Z
 description: ZeeSpire One, clean design
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
 
 - Premium theme using Jekyll version 4.1.2 & Bootstrap 5

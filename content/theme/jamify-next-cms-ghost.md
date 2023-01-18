@@ -13,6 +13,8 @@ archetype:
 date: 2020-12-04T00:00:00.000Z
 description: Publish flaring fast blogs with Next.js and Ghost CMS
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
 
 # A rich starter kit for Ghost blogs

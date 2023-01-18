@@ -16,7 +16,7 @@ archetype:
 description: >-
   An Open Source Landingpage For VPN or Apps. Build using NextJS 10 and Tailwind
   v2.0
-stale: true
+stale: false
 ---
 
 # Tailwind VPN Landingpage - Free Landingpage Template Apps

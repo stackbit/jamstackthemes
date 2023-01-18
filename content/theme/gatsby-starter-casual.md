@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-06-27T11:35:02.000Z
 description: Gatsby.js V2 starter template based on Casual by startbootstrap
-stale: false
+stale: true
 ---

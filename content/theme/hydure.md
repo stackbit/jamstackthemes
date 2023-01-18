@@ -11,7 +11,9 @@ cms:
 archetype:
   - Blog
 description: A concise two-column blog theme for Jekyll.
-stale: false
+stale: true
+disabled: true
+disabled_reason: error checking demo url
 ---
 
 Hydure is a concise two-column blog theme for Jekyll. It is built on the [Pure.css](https://github.com/pure-css/pure) framework.

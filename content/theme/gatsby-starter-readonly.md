@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-05-17T10:45:41.000Z
 description: Gatsby.js V2 starter template based on readonly by HTML5 UP
-stale: false
+stale: true
 ---

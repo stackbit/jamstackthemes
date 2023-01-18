@@ -11,4 +11,6 @@ css:
   - Tailwind
 date: 2018-09-19T13:00:05.000Z
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

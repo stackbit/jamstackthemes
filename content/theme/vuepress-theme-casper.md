@@ -12,5 +12,5 @@ cms:
   - Forestry
 date: 2018-08-26T09:29:18.000Z
 description: Ghost default theme ported to vuepress
-stale: false
+stale: true
 ---

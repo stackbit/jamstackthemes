@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2019-03-10T21:21:12.000Z
 description: Adapt Material Kit React to Gatsby
-stale: false
+stale: true
 ---

@@ -16,7 +16,7 @@ archetype:
 description: >-
   brutalist-blog is a no frills, fully-responsive, hyper-minimalistic dark/light
   theme
-stale: false
+stale: true
 ---
 
 # brutalist-blog

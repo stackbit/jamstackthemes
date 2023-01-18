@@ -10,4 +10,6 @@ cms:
 date: 2016-11-13T01:26:33.000Z
 description: ⚡ AMP starter theme for gohugo https://gohugo-amp.gohugohq.com
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

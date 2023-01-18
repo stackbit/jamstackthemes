@@ -70,11 +70,14 @@ const fetchRepoData = async (frontmatter) => {
             }
         }
     } catch (err) {
-        let error = "Github repo not found";
-        updateFrontmatter(frontmatter.file, {
-            disabled: true,
-            disabled_reason: error
-        })
+        const status = err.response?.status;
+        let error = `Github repo not found, status: ${status}`;
+        if (status === 404) {
+            updateFrontmatter(frontmatter.file, {
+                disabled: true,
+                disabled_reason: error
+            })
+        }
         spinner.text = `${frontmatter.file} => ${error}`
         errorLog.push({
             theme_key: themeKey,

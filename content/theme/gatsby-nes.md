@@ -12,6 +12,8 @@ category:
 date: 2022-04-07T07:07:07.000Z
 description: A nostalgic theme using Gatsby, Typescript, and Nes.css
 stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
 
 # A tribute to 8-bit and retrograming using Gatsby and NES.css

@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2017-04-30T17:52:23.000Z
 description: Modern, fast and configurable Jekyll theme with some tricks up it's sleeve.
-stale: false
+stale: true
 ---

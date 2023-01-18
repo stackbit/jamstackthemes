@@ -12,7 +12,7 @@ archetype:
   - Blog
   - Portfolio
 description: A Next.js site using new SSG support with a Notion backed blog
-stale: false
+stale: true
 ---
 
 # Notion Blog

@@ -15,7 +15,7 @@ archetype:
 description: >-
   If you want convert your website domain to domain github page, will use my
   product.
-stale: false
+stale: true
 ---
 
 ## Features

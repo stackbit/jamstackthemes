@@ -14,7 +14,7 @@ css:
 archetype:
   - Business
 description: A simple landing page built with 11ty and Tailwind CSS.
-stale: false
+stale: true
 ---
 
 # 11ty Landing Page

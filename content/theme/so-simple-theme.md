@@ -9,5 +9,5 @@ cms:
   - No Cms
 date: 2013-06-25T20:17:12.000Z
 description: A simple Jekyll theme for words and pictures.
-stale: false
+stale: true
 ---

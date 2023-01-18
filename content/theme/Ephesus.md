@@ -11,7 +11,7 @@ cms:
 archetype:
   - Blog
 description: Ephesus is a minimalist Jekyll theme, designed for personal blog use.
-stale: false
+stale: true
 ---
 
 # Ephesus - Minimalist Blog Theme

@@ -11,5 +11,5 @@ date: 2018-07-26T17:44:04.000Z
 description: >-
   minimo-eng - Minimalist theme for Hugo tuned for engineering content, based on
   Minimo
-stale: true
+stale: false
 ---

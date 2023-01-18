@@ -14,7 +14,7 @@ date: 2020-06-21T14:48:50.000Z
 description: >-
   🚀 Eleventy Starter Boilerplate is production-ready with SEO-friendly for
   quickly starting a blog.
-stale: false
+stale: true
 ---
 
 # Eleventy Starter Boilerplate

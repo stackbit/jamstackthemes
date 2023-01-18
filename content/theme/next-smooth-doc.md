@@ -11,7 +11,7 @@ cms:
 archetype:
   - Documentation
 description: smooth-doc in Nextjs implementation
-stale: false
+stale: true
 ---
 
 # NEXTJS SMOOTH DOC

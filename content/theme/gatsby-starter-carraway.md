@@ -11,5 +11,7 @@ date: 2019-06-08T14:42:17.000Z
 description: >-
   a Gatsby starter theme with Accessibility features, TypeScript, Jest, some
   basic UI elements, and a CircleCI pipeline
-stale: false
+stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

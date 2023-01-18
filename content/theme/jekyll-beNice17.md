@@ -9,7 +9,7 @@ cms:
   - No Cms
 date: 2016-12-30T13:15:34.000Z
 description: A Jekyll theme for my personal website
-stale: false
+stale: true
 disabled: false
 disabled_reason: ''
 ---

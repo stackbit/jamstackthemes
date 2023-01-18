@@ -17,7 +17,7 @@ description: >-
   Eleventy Soft UI is an Eleventy adaptation of Soft UI Design System, a modern
   Bootstrap 5 Design, including a Blog system that uses Prismic CMS for content
   management
-stale: false
+stale: true
 ---
 
 # Open-source starter built with 11ty and prismic CMS

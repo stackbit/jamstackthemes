@@ -9,5 +9,7 @@ cms:
   - No Cms
 date: 2016-01-18T02:09:56.000Z
 description: A jekyll theme for minimal editions
-stale: false
+stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

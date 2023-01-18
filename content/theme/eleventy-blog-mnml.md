@@ -7,5 +7,5 @@ ssg:
   - Eleventy
 date: 2019-07-02T13:08:30.000Z
 description: A blog template using eleventy
-stale: false
+stale: true
 ---

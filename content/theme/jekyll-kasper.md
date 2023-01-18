@@ -10,4 +10,6 @@ cms:
 date: 2013-11-10T10:15:43.000Z
 description: Ghost's default theme (Casper) on Jekyll
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

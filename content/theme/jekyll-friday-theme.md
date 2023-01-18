@@ -16,7 +16,7 @@ archetype:
   - Portfolio
   - Documentation
 description: A Bootstrap 4 portfolio and blog theme for Jekyll.
-stale: false
+stale: true
 ---
 
 # About
