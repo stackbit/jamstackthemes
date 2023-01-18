@@ -3,7 +3,7 @@ title: React Portfolio Template
 github: https://github.com/chetanverma16/react-portfolio-template
 demo: https://react-portfolio-template.netlify.app/
 author: Chetan Verma
-date: 2021-08-5
+date: 2021-08-05
 ssg:
   - Next
 cms:
