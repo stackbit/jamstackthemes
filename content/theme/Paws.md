@@ -3,7 +3,7 @@ title: Paws
 github: https://github.com/codexfelis/paws-template
 demo: https://paws.codexfelis.dev/
 author: Codex Felis
-date: 2022-03-31
+date: 2022-03-31T00:00:00.000Z
 ssg:
   - SvelteKit
 cms:

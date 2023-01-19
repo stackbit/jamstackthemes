@@ -14,6 +14,8 @@ archetype:
   - Blog
 description: A cool and pure theme.
 stale: false
+disabled: true
+disabled_reason: error checking demo url
 ---
 
 # A simple starter kit for Hugo

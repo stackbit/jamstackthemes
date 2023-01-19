@@ -1,14 +1,9 @@
 [
   {
-    "theme_key": "narative-gatsby-theme-novela",
-    "file": "gatsby-theme-novela.md",
-    "repoUrl": "https://github.com/narative/gatsby-theme-novela",
-    "error": "Github repo not found, status: 404"
-  },
-  {
-    "theme_key": "dfcommunity-hexo-web-nary",
-    "file": "hexo-webnary-template.md",
-    "repoUrl": "https://github.com/DFCommunity/Hexo-Web-Nary",
-    "error": "Github repo not found, status: 404"
+    "theme_key": "loveminimal-hugo-theme-virgo",
+    "file": "hugo-theme-virgo.md",
+    "repoUrl": "https://github.com/loveminimal/hugo-theme-virgo",
+    "demoUrl": "https://ovirgo.com",
+    "error": "error checking demo url"
   }
 ]

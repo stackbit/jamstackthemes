@@ -9,9 +9,8 @@ ssg:
 cms:
   - No CMS
 css:
-  - Reactstrap
   - Scss
-  - Bootstrap 
+  - Bootstrap
 archetype:
   - Admin
 description: >-

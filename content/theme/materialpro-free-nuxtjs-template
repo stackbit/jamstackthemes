@@ -1,9 +1,9 @@
 ---
-title: "MaterialPro Free NuxtJs Admin Template"
+title: MaterialPro Free NuxtJs Admin Template
 github: https://github.com/wrappixel/materialpro-nuxtjs-free
-demo: https://materialpro-free-nuxtjs.netlify.app/ 
+demo: https://materialpro-free-nuxtjs.netlify.app/
 author: WrapPixel
-date: 2022-07-18
+date: 2022-07-18T00:00:00.000Z
 ssg:
   - Nuxt
 cms:
@@ -11,11 +11,16 @@ cms:
 css:
   - Vuetify
   - Scss
-  - Vue Js 
+  - Vue Js
 archetype:
   - Admin
   - Dashboard
-description: MaterialPro is Free NuxtJs admin Template. It allows you to create stunning backend application and more. It comes with ready to use UI Blocks & Elements to help level up the design and aesthetics of your project. MaterialPro is built on Nuxt 3 + Vite + Vuetify 3 + Typescript + Vue3.
+description: >-
+  MaterialPro is Free NuxtJs admin Template. It allows you to create stunning
+  backend application and more. It comes with ready to use UI Blocks & Elements
+  to help level up the design and aesthetics of your project. MaterialPro is
+  built on Nuxt 3 + Vite + Vuetify 3 + Typescript + Vue3.
+stale: false
 ---
 
 # Xtreme NextJs Free Dashboard

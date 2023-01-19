@@ -9,13 +9,14 @@ ssg:
 cms:
   - No CMS
 css:
-  - React Material UI
   - Scss
-  - 
 archetype:
   - Admin
   - Dashboard
-description: Flexy Free Nextjs version is built with Most Popular Framework React Material-UI. 8+ readymade UI component pages, SCSS, fully Responsive.
+description: >-
+  Flexy Free Nextjs version is built with Most Popular Framework React
+  Material-UI. 8+ readymade UI component pages, SCSS, fully Responsive.
+stale: false
 ---
 
 # Flexy Material UI Dashboard
