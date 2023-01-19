@@ -22,7 +22,7 @@ stale: false
 * Multilingual
 * Built-in content search via Algolia SAAS
 * Google Analytics support
-* Comments integration via Commento, Disqus, or Utterances
+* Comments integration via Commento, Disqus, Giscus, or Utterances
 * Table of contents(TOC) and series taxonomy
 * Automatic image resizing
 * Support for video and audio content
@@ -30,3 +30,4 @@ stale: false
 * Customizable 404 page
 * Support for favicons
 * Cookie consent banner
+* Support for Hugo modules
