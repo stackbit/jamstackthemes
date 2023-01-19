@@ -80,7 +80,6 @@ $layout-padding: 15px;
         padding-top: $layout-padding * 4;
         padding-bottom: $layout-padding * 4;
       }
-
     }
     .sidebar {
       position: sticky;
@@ -111,7 +110,17 @@ $layout-padding: 15px;
         flex-direction: column;
         justify-content: space-between;
         height: 100%;
-
+        .stackbit {
+          padding: 6px 0;
+          display: flex;
+          gap: 4px;
+          align-items: center;
+          font-size: 17px;
+          a {
+            color: inherit;
+            text-decoration: underline;
+          }
+        }
       }
     }
   }
