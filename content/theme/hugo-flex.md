@@ -18,54 +18,34 @@ stale: false
 
 # Hugo Flex
 
-A lightweight Hugo theme leveraging CSS Flexbox.
+A lightweight Hugo theme leveraging [CSS Flexbox](https://developer.mozilla.org/docs/Web/CSS/CSS_Flexible_Box_Layout).
 
-This theme is verified to work with Hugo versions v0.105–v0.110.
+This theme is verified to work with [Hugo](https://gohugo.io) versions v0.105–v0.110.
 
 
 ## Features
 
 - Flexbox-based responsive layout
-- 100% speed score on PageSpeed Insight
+- 100% speed score on [PageSpeed Insights](https://pagespeed.web.dev)
 - No framework
 - No javascript
 - Full posts in RSS feed
 - RSS page looks like a normal page
 
-Optional features:
+### Optional Features
 
-- Show summaries on homepage
-- Schema.org, Open Graph and Twitter Cards metadata
-- Utterances comments widget
+- Show [summaries](https://gohugo.io/content-management/summaries) on homepage
+- [Schema.org](https://schema.org), [Open Graph](https://ogp.me) and [Twitter Cards](https://developer.twitter.com/docs/twitter-for-websites/cards) metadata
+- [Utterances](https://utteranc.es) comments widget
 - Custom CSS and JS may be added [site-wide](https://github.com/de-souza/hugo-flex#custom-css-and-js), or [dynamically](https://github.com/de-souza/hugo-flex#dynamically-embedded) with shortcodes
 - Built-in shortcodes:
   - [Netlify contact form](https://github.com/de-souza/hugo-flex#netlify-contact-form)
   - Privacy-friendly [Soundcloud player](https://github.com/de-souza/hugo-flex#soundcloud-player)
 
 
-## Installation
+## Instructions
 
-1. [Install Hugo](https://gohugo.io/installation/).
-
-2. [Create a Hugo site](https://gohugo.io/getting-started/directory-structure/).
-
-3. Open a command prompt at the root of the site and download the theme:
-
-```bash
-git init
-git submodule add https://github.com/de-souza/hugo-flex.git themes/hugo-flex
-```
-
-4. Add the theme to the [site configuration](https://gohugo.io/getting-started/configuration/). If the site configuration is a file called `hugo.yaml`:
-
-```bash
-echo 'theme: hugo-flex' >> hugo.yaml
-```
-
-
-## Configuration
-
-Further instructions and explanations are available on [Github](https://github.com/de-souza/hugo-flex#configuration).
+Instructions on how to use the theme are available on the [GitHub page](https://github.com/de-souza/hugo-flex).
 
 
 ## License
