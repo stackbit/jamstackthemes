@@ -99,43 +99,51 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 24px;
+    padding: 39px 24px;
     gap: 16px;
-    background: #4c57c5;
+    background: #24232D;
     border-radius: 4px;
     margin-bottom: 32px;
+    background-image: url("/images/banner/bg.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
 
     .banner-title-row {
       display: flex;
       flex-direction: row;
       align-items: center;
       padding: 0px;
-      gap: 16px;
+      gap: 17px;
       font-size: 30px;
       font-weight: 300;
       color: white;
+      line-height: 1;
     }
 
     .banner-subtitle-row {
-      font-size: 20px;
+      font-size: 17px;
       font-weight: 300;
       color: white;
     }
 
     .banner-primary-button {
       padding: 8px 16px;
-      background: #ffffff;
+      background: #687AF0;
       border-style: none;
       border-radius: 3px;
       outline: none;
       font-weight: 400;
       font-size: 16px;
       line-height: 20px;
-      color: #4C57C5;
+      color: #24232D;
       text-decoration: none;
 
       a:hover {
           text-decoration: none;
+      }
+      a:visited {
+        color: inherit;
       }
     }
   }
