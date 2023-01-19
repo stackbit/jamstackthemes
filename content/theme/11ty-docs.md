@@ -15,6 +15,7 @@ archetype:
 description: A 11ty + Tailwind CSS theme for your documentation site
 disabled: true
 disabled_reason: demo url not found
+stale: false
 ---
 
 # Eleventy documentation template using Tailwind CSS

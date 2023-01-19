@@ -23183,6 +23183,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/spf13-hyde-2x.jpg"
     }
   },
+  "spinalcms-11ty-docs-template": {
+    "theme_key": "spinalcms-11ty-docs-template",
+    "file": "11ty-docs.md",
+    "name": "11ty-docs-template",
+    "title": "11ty documentation template using Tailwind CSS",
+    "github_username": "SpinalCMS",
+    "repo": "SpinalCMS/11ty-docs-template",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/SpinalCMS/11ty-docs-template",
+    "demo_url": "https://11ty-docs-theme.spinalcms.com/",
+    "stars": 9,
+    "forks": 3,
+    "open_issues": 0,
+    "last_commit": "2022-12-13T07:40:06Z",
+    "created_at": "2022-09-09T10:09:50Z",
+    "description": "An 11ty + Tailwind CSS theme for your documentation site ",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/spinalcms-11ty-docs-template.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/spinalcms-11ty-docs-template.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/spinalcms-11ty-docs-template-2x.jpg"
+    }
+  },
   "spookey-slick": {
     "theme_key": "spookey-slick",
     "file": "hugo-slick-theme.md",
@@ -29437,6 +29460,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/yizeng-jekyll-theme-simple-texture.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/yizeng-jekyll-theme-simple-texture.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/yizeng-jekyll-theme-simple-texture-2x.jpg"
+    }
+  },
+  "yjpl-supply": {
+    "theme_key": "yjpl-supply",
+    "file": "supply.md",
+    "name": "Supply",
+    "title": "Supply",
+    "github_username": "YJPL",
+    "repo": "YJPL/Supply",
+    "branch": "master",
+    "default_branch": "master",
+    "github_url": "https://github.com/YJPL/Supply",
+    "demo_url": "https://supply.templates.supply",
+    "stars": 24,
+    "forks": 3,
+    "open_issues": 3,
+    "last_commit": "2023-01-17T17:24:33Z",
+    "created_at": "2020-01-27T10:33:49Z",
+    "description": "🛍  Supply is a free e-commerce Jekyll theme with Gumroad integration.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/yjpl-supply.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/yjpl-supply.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/yjpl-supply-2x.jpg"
     }
   },
   "yonojoy-yax-coming-soon-jekyll-template": {

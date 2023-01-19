@@ -1,9 +1,22 @@
 [
   {
-    "theme_key": "loveminimal-hugo-theme-virgo",
-    "file": "hugo-theme-virgo.md",
-    "repoUrl": "https://github.com/loveminimal/hugo-theme-virgo",
-    "demoUrl": "https://ovirgo.com",
+    "theme_key": "obaez-dentistsmile",
+    "file": "dentistsmile.md",
+    "repoUrl": "https://github.com/obaez/dentistsmile",
+    "error": "Github repo not found, status: 404"
+  },
+  {
+    "theme_key": "spinalcms-11ty-docs-template",
+    "file": "11ty-docs.md",
+    "repoUrl": "https://github.com/SpinalCMS/11ty-docs-template",
+    "demoUrl": "https://11ty-docs-theme.spinalcms.com/",
+    "error": "demo url not found"
+  },
+  {
+    "theme_key": "obaez-dentistsmile",
+    "file": "dentistsmile.md",
+    "repoUrl": "https://github.com/obaez/dentistsmile",
+    "demoUrl": "https://obaez.com/dentistsmile/",
     "error": "error checking demo url"
   }
 ]
