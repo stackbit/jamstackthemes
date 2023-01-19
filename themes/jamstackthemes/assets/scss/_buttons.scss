@@ -29,8 +29,8 @@
   align-items: flex-start;
   flex-wrap: wrap;
   @include media-breakpoint-up(sm) {
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 0;
+    margin-top: 23px;
   }
   .sort-by {
     display: none;
@@ -45,6 +45,7 @@
     flex-grow: 1;
     @include media-breakpoint-up(sm) {
       font-size: 16px;
+      margin-bottom: 0;
     }
     @include media-breakpoint-up(lg) {
       flex-grow: 0;
