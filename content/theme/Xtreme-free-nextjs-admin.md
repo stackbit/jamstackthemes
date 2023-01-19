@@ -8,6 +8,10 @@ ssg:
   - Next
 cms:
   - No CMS
+css:
+  - Reactstrap
+  - Scss
+  - Bootstrap 
 archetype:
   - Admin
 description: >-
@@ -18,13 +22,29 @@ description: >-
 stale: false
 ---
 
-# A simple starter kit for Gridsome
+# Xtreme NextJs Free Dashboard
 
-The free version comes with elegant grid design that helps you play around with the look and feel of the web app the way you want. Even if you're a novice developer, clean code and easy to customize will get you up to speed in no time.
+The free version comes with elegant grid design that helps you play around with the look and feel of the web app the way you want. Even if you're a novice developer, clean code and easy to customize will get you up to speed in no time. 
+Checkout other <a href="https://www.wrappixel.com/templates/category/nextjs/">Nextjs Themes</a> and <a href="https://www.wrappixel.com/templates/category/react-templates/">React Templates </a> by WrapPixel.
 
-## Features
+## Xtreme Next.js Template Features
 
-* Customisable design   
-* 8+ UI component pages  
-* Fully Responsive Pages  
-* Sass Base CSS  
+* Nice and Creative Dashboard   
+* 10+ Custom Page Templates
+* 4+ Integrated Plugins
+* Charts, Tables and Form Designs
+* Cars and Widgets
+
+## Developer friendly
+
+* Next.js for Static Site Generator
+* Linter with ESLint
+* Code Formatter with Prettier
+* SEO metadata
+
+## This Template comes with
+
+* Code Splitting
+* SEO Friendly
+* Easy to Customize
+* Production Ready  
