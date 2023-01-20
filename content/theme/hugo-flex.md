@@ -20,9 +20,6 @@ stale: false
 
 A lightweight Hugo theme leveraging [CSS Flexbox](https://developer.mozilla.org/docs/Web/CSS/CSS_Flexible_Box_Layout).
 
-This theme is verified to work with [Hugo](https://gohugo.io) versions v0.105–v0.110.
-
-
 ## Features
 
 - [Flexbox](https://developer.mozilla.org/docs/Web/CSS/CSS_Flexible_Box_Layout)-based responsive layout
@@ -42,11 +39,9 @@ Optional features:
   - [Netlify contact form](https://github.com/de-souza/hugo-flex#netlify-contact-form)
   - Privacy-friendly [Soundcloud player](https://github.com/de-souza/hugo-flex#soundcloud-player)
 
-
 ## Instructions
 
 Instructions on how to use the theme are available on the [GitHub page](https://github.com/de-souza/hugo-flex).
-
 
 ## License
 
