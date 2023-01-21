@@ -11,37 +11,38 @@ cms:
 archetype:
   - Blog
   - Personal
-date: 2023-01-19T21:18:01+01:00
+date: 2023-01-21T01:54:51+01:00
 description: A lightweight Hugo theme leveraging CSS Flexbox.
 stale: false
 ---
 
 # Hugo Flex
 
-A lightweight Hugo theme leveraging [CSS Flexbox](https://developer.mozilla.org/docs/Web/CSS/CSS_Flexible_Box_Layout).
+A lightweight Hugo theme leveraging [CSS Flexbox](https://developer.mozilla.org/docs/Web/CSS/CSS_Flexible_Box_Layout/).
 
 ## Features
 
-- [Flexbox](https://developer.mozilla.org/docs/Web/CSS/CSS_Flexible_Box_Layout)-based responsive layout
-- 100% speed score on [PageSpeed Insights](https://pagespeed.web.dev)
+- [Flexbox](https://developer.mozilla.org/docs/Web/CSS/CSS_Flexible_Box_Layout/)-based responsive layout
+- 100% speed score on [PageSpeed Insights](https://pagespeed.web.dev/)
 - No framework
 - No javascript
 - Full posts in RSS feed
 - RSS page looks like a normal page
+- Automatic dark theme
 
 Optional features:
 
-- Show [summaries](https://gohugo.io/content-management/summaries) on homepage
-- [Schema.org](https://schema.org), [Open Graph](https://ogp.me) and [Twitter Cards](https://developer.twitter.com/cards) metadata
-- [Utterances](https://utteranc.es) comments widget
-- Custom CSS and JS may be added [site-wide](https://github.com/de-souza/hugo-flex#custom-css-and-js), or [dynamically](https://github.com/de-souza/hugo-flex#dynamically-embedded) with shortcodes
+- Show [summaries](https://gohugo.io/content-management/summaries/) on homepage
+- [Schema.org](https://schema.org/), [Open Graph](https://ogp.me/) and [Twitter Cards](https://developer.twitter.com/cards/) metadata
+- [Utterances](https://utteranc.es/) comments widget
+- Custom CSS and JS may be added [site-wide](https://github.com/de-souza/hugo-flex/#custom-css-and-js), or [dynamically](https://github.com/de-souza/hugo-flex/#dynamically-embedded) with shortcodes
 - Built-in shortcodes:
-  - [Netlify contact form](https://github.com/de-souza/hugo-flex#netlify-contact-form)
-  - Privacy-friendly [Soundcloud player](https://github.com/de-souza/hugo-flex#soundcloud-player)
+  - [Netlify contact form](https://github.com/de-souza/hugo-flex/#netlify-contact-form)
+  - Privacy-friendly [Soundcloud player](https://github.com/de-souza/hugo-flex/#soundcloud-player)
 
 ## Instructions
 
-Instructions on how to use the theme are available on the [GitHub page](https://github.com/de-souza/hugo-flex).
+Instructions on how to use the theme are available on the [GitHub page](https://github.com/de-souza/hugo-flex/).
 
 ## License
 
