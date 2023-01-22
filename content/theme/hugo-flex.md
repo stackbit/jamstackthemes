@@ -11,7 +11,7 @@ cms:
 archetype:
   - Blog
   - Personal
-date: 2023-01-21T03:49:26+01:00
+date: 2023-01-22T23:42:30+01:00
 description: A lightweight Hugo theme leveraging CSS Flexbox.
 stale: false
 ---
@@ -38,8 +38,9 @@ Optional features:
 - [Utterances](https://utteranc.es/) comments widget
 - Custom CSS and JS may be added [site-wide](https://github.com/de-souza/hugo-flex/#custom-css-and-js), or [dynamically](https://github.com/de-souza/hugo-flex/#dynamically-embedded) with shortcodes
 - Built-in shortcodes:
+  - [Math rendering](https://github.com/de-souza/hugo-flex/#math-rendering) with [KaTeX](https://katex.org/)
   - [Netlify contact form](https://github.com/de-souza/hugo-flex/#netlify-contact-form)
-  - Privacy-friendly [Soundcloud player](https://github.com/de-souza/hugo-flex/#soundcloud-player)
+  - Privacy-friendly [SoundCloud player](https://github.com/de-souza/hugo-flex/#soundcloud-player)
 
 ## Instructions
 
