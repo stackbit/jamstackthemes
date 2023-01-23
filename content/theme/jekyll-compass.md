@@ -10,4 +10,6 @@ cms:
 date: 2015-01-03T21:56:41.000Z
 description: The Jekyll theme for your personal landing page.
 stale: true
+disabled: true
+disabled_reason: demo url not found
 ---

@@ -10,4 +10,6 @@ cms:
 date: 2018-09-11T05:31:47.000Z
 description: A port of the Ghost arabica theme for Hugo
 stale: false
+disabled: true
+disabled_reason: error checking demo url
 ---

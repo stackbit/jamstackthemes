@@ -3,7 +3,7 @@ title: Chulapa
 github: https://github.com/dieghernan/chulapa
 demo: https://dieghernan.github.io/chulapa/
 author: Diego Hernangómez
-date: 2022-11-24
+date: 2022-11-24T00:00:00.000Z
 ssg:
   - Jekyll
 cms:

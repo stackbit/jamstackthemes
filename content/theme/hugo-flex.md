@@ -1,17 +1,16 @@
 ---
 title: Hugo Flex
-github: https://github.com/de-souza/hugo-flex/
+github: https://github.com/de-souza/hugo-flex
 demo: https://de-souza.github.io/hugo-flex/
 author: Léo de Souza
 ssg:
   - Hugo
 cms:
-  - No CMS
-  - Netlify
+  - NetlifyCMS
 archetype:
   - Blog
   - Personal
-date: 2023-01-22T23:42:30+01:00
+date: 2023-01-22T22:42:30.000Z
 description: A lightweight Hugo theme leveraging CSS Flexbox.
 stale: false
 ---

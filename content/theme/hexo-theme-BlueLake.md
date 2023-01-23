@@ -10,6 +10,6 @@ cms:
 date: 2016-11-02T13:05:25.000Z
 description: A simple theme for Hexo with great performance on different devices .
 stale: false
-disabled: false
-disabled_reason: ''
+disabled: true
+disabled_reason: error checking demo url
 ---

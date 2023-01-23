@@ -1,22 +1,23 @@
 [
   {
-    "theme_key": "obaez-dentistsmile",
-    "file": "dentistsmile.md",
-    "repoUrl": "https://github.com/obaez/dentistsmile",
-    "error": "Github repo not found, status: 404"
+    "theme_key": "nirocfz-arabica",
+    "file": "hugo-arabica.md",
+    "repoUrl": "https://github.com/nirocfz/arabica",
+    "demoUrl": "https://arabica.netlify.com/",
+    "error": "error checking demo url"
   },
   {
-    "theme_key": "spinalcms-11ty-docs-template",
-    "file": "11ty-docs.md",
-    "repoUrl": "https://github.com/SpinalCMS/11ty-docs-template",
-    "demoUrl": "https://11ty-docs-theme.spinalcms.com/",
+    "theme_key": "excentris-compass",
+    "file": "jekyll-compass.md",
+    "repoUrl": "https://github.com/excentris/compass",
+    "demoUrl": "https://excentris.github.io/compass/",
     "error": "demo url not found"
   },
   {
-    "theme_key": "obaez-dentistsmile",
-    "file": "dentistsmile.md",
-    "repoUrl": "https://github.com/obaez/dentistsmile",
-    "demoUrl": "https://obaez.com/dentistsmile/",
+    "theme_key": "chaooo-hexo-theme-bluelake",
+    "file": "hexo-theme-BlueLake.md",
+    "repoUrl": "https://github.com/chaooo/hexo-theme-BlueLake",
+    "demoUrl": "https://chaoo.oschina.io/",
     "error": "error checking demo url"
   }
 ]

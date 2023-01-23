@@ -1,6 +1,6 @@
 ---
 title: Supply
-github: https://github.com/YJPL/supply/
+github: https://github.com/YJPL/supply
 demo: https://supply.templates.supply
 author: YJPL
 date: 2023-01-17T00:00:00.000Z

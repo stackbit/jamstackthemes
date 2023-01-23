@@ -13,7 +13,7 @@ css:
 archetype:
   - Blog
 description: A simple starter project to create a blog using Eleventy and Tailwind CSS
-stale: true
+stale: false
 ---
 
 # Vredeburg
