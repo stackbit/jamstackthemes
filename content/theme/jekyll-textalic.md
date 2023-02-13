@@ -32,3 +32,5 @@ Textalic is a simple, responsive jekyll theme focus on blogging. Here is a live 
 * Google analytics
 * Atom feed
 * Sitemap
+
+For detailed installation and configuration guide, see github repo.
