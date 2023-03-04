@@ -1,5 +1,5 @@
 ---
-title: "My Theme Name"
+title: "HB Starter Theme"
 github: https://github.com/razonyang/hb-theme
 demo: https://hb-theme.razonyang.com/
 author: Razon Yang
@@ -18,4 +18,12 @@ archetype:
 description: The starter theme for Hugo Bootstrap framework (HB).
 ---
 
-The starter theme for Hugo Bootstrap framework (HB).
+The starter theme/template for [HB Framework](https://github.com/razonyang/hb).
+
+## Live Demo
+
+https://hb-theme.razonyang.com
+
+## Screenshot
+
+![Screenshot](https://raw.githubusercontent.com/razonyang/hb-theme/main/images/screenshot.png)
