@@ -1,6 +1,6 @@
 ---
 title: "Bliss"
-github: https://github.com/offbeatbits/eleventy-template-bliss
+github: https://github.com/lwojcik/eleventy-template-bliss
 demo: https://eleventy-bliss.vercel.app/
 author: Łukasz Wójcik
 date: 2023-02-19
