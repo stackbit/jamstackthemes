@@ -3,18 +3,22 @@ title: AstroWind
 github: https://github.com/onwidget/astrowind/
 demo: https://astrowind.vercel.app/
 author: onWidget
-date: 2023-03-08
+date: 2023-03-08T00:00:00.000Z
 ssg:
   - Astro
 cms:
   - No CMS
 css:
-  - Tailwind 
+  - Tailwind
 archetype:
   - Blog
   - Business
   - Multi Purpose
-description: AstroWind is a free and open-source template to make your website using Astro 2.0 + Tailwind CSS. Ready to start a new project and designed taking into account web best practices.
+description: >-
+  AstroWind is a free and open-source template to make your website using Astro
+  2.0 + Tailwind CSS. Ready to start a new project and designed taking into
+  account web best practices.
+stale: false
 ---
 
 # 🚀 AstroWind

@@ -1,9 +1,9 @@
 ---
-title: "Bliss"
+title: Bliss
 github: https://github.com/lwojcik/eleventy-template-bliss
 demo: https://eleventy-bliss.vercel.app/
 author: Łukasz Wójcik
-date: 2023-02-19
+date: 2023-02-19T00:00:00.000Z
 ssg:
   - Eleventy
 cms:
@@ -13,6 +13,7 @@ css:
 archetype:
   - Blog
 description: Elegant single-column blog template for Eleventy
+stale: false
 ---
 
 # Bliss - Blog Template For Eleventy

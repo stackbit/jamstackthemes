@@ -1,19 +1,20 @@
 ---
-title: "Lightspeed"
+title: Lightspeed
 github: https://github.com/tajacks/lightspeed
 demo: https://lightspeed.tajacks.com
 author: tajacks
-date: 2023-02-18
+date: 2023-02-18T00:00:00.000Z
 ssg:
   - Jekyll
 cms:
   - No CMS
 css:
-  - SCSS 
+  - SCSS
 archetype:
   - Blog
   - Personal
 description: A fast, simple, and privacy-respecting personal site and blog
+stale: false
 ---
 
 # Your simple home page

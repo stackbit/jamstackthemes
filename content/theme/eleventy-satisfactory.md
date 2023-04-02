@@ -8,10 +8,10 @@ ssg:
 cms:
   - No CMS
 archetype:
-  - Blog  
+  - Blog
 date: 2023-01-24T11:43:52.000Z
 description: Eleventy blog theme with main focus on content, and less on everything else
-
+stale: false
 ---
 
 ## Eleventy Satisfactory Blog Theme

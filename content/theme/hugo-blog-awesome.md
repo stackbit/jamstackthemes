@@ -1,9 +1,9 @@
 ---
-title: "Hugo blog awesome"
+title: Hugo blog awesome
 github: https://github.com/hugo-sid/hugo-blog-awesome
-demo: https://hugo-blog-awesome.netlify.app/ 
+demo: https://hugo-blog-awesome.netlify.app/
 author: Sidharth R
-date: 2023-02-15
+date: 2023-02-15T00:00:00.000Z
 ssg:
   - Hugo
 cms:
@@ -14,6 +14,9 @@ archetype:
   - Blog
   - Portfolio
 description: Fast, minimal blog with dark mode support.
+stale: false
+disabled: true
+disabled_reason: demo url not found
 ---
 
 <h1 align=center> Awesome hugo blog | <a href="https://hugo-blog-awesome.netlify.app/" target="_blank" rel="nofollow">Demo</a></h1>

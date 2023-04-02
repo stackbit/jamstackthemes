@@ -42,6 +42,7 @@
   {{ end }}
 
   {{ partial "metrics/segment.html" . }}
+  {{ partial "metrics/ga.html" . }}
 
 </head>
 
@@ -60,10 +61,9 @@
 
   {{ block "footer_js" . }}{{ end }}
 
-  {{ $branches := resources.Get "js/branches.js" }}
   {{ $scripts := resources.Get "js/scripts.js" }}
 
-  {{ $scriptsBundle := slice $branches $scripts | resources.Concat "js/scriptsBundle.js" }}
+  {{ $scriptsBundle := slice $scripts | resources.Concat "js/scriptsBundle.js" }}
 
   {{ if .Site.IsServer }}
     <script type="text/javascript" src="{{ $scriptsBundle.RelPermalink }}"></script>

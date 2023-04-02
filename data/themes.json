@@ -11154,6 +11154,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/htr3n-hyde-hyde-2x.jpg"
     }
   },
+  "hugo-sid-hugo-blog-awesome": {
+    "theme_key": "hugo-sid-hugo-blog-awesome",
+    "file": "hugo-blog-awesome.md",
+    "name": "hugo-blog-awesome",
+    "title": "Hugo blog awesome",
+    "github_username": "hugo-sid",
+    "repo": "hugo-sid/hugo-blog-awesome",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/hugo-sid/hugo-blog-awesome",
+    "demo_url": "https://hugo-blog-awesome.netlify.app/",
+    "stars": 39,
+    "forks": 20,
+    "open_issues": 0,
+    "last_commit": "2023-04-01T15:59:03Z",
+    "created_at": "2023-02-14T05:18:30Z",
+    "description": "Fast, minimal blog with dark mode support.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/hugo-sid-hugo-blog-awesome.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/hugo-sid-hugo-blog-awesome.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/hugo-sid-hugo-blog-awesome-2x.jpg"
+    }
+  },
   "hugocarreira-jekyll-materializecss": {
     "theme_key": "hugocarreira-jekyll-materializecss",
     "file": "jekyll-materialize-hg.md",
@@ -16030,6 +16053,29 @@
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/luoyan35714-lessormore-2x.jpg"
     }
   },
+  "lwojcik-eleventy-template-bliss": {
+    "theme_key": "lwojcik-eleventy-template-bliss",
+    "file": "11ty-bliss.md",
+    "name": "eleventy-template-bliss",
+    "title": "Bliss",
+    "github_username": "lwojcik",
+    "repo": "lwojcik/eleventy-template-bliss",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/lwojcik/eleventy-template-bliss",
+    "demo_url": "https://eleventy-bliss.vercel.app/",
+    "stars": 14,
+    "forks": 3,
+    "open_issues": 4,
+    "last_commit": "2023-03-31T06:50:39Z",
+    "created_at": "2023-02-17T21:13:48Z",
+    "description": "Single-column blog template for Eleventy focused on simplicity without sacrificing functionality",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/lwojcik-eleventy-template-bliss.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/lwojcik-eleventy-template-bliss.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/lwojcik-eleventy-template-bliss-2x.jpg"
+    }
+  },
   "lwz7512-gatsby-netlify-identity-starter": {
     "theme_key": "lwz7512-gatsby-netlify-identity-starter",
     "file": "gatsby-netlify-identity-starter.md",
@@ -16856,6 +16902,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/melvinchng-event-jekyll-theme.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/melvinchng-event-jekyll-theme.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/melvinchng-event-jekyll-theme-2x.jpg"
+    }
+  },
+  "mendhak-eleventy-satisfactory": {
+    "theme_key": "mendhak-eleventy-satisfactory",
+    "file": "eleventy-satisfactory.md",
+    "name": "eleventy-satisfactory",
+    "title": "Eleventy Satisfactory",
+    "github_username": "mendhak",
+    "repo": "mendhak/eleventy-satisfactory",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/mendhak/eleventy-satisfactory",
+    "demo_url": "https://code.mendhak.com/eleventy-satisfactory/",
+    "stars": 8,
+    "forks": 1,
+    "open_issues": 1,
+    "last_commit": "2023-03-07T18:25:03Z",
+    "created_at": "2023-01-08T11:16:04Z",
+    "description": "Content-first eleventy blog template with basic layout and  various features",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/mendhak-eleventy-satisfactory.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/mendhak-eleventy-satisfactory.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/mendhak-eleventy-satisfactory-2x.jpg"
     }
   },
   "meteorlxy-vuepress-theme-meteorlxy": {
@@ -18903,6 +18972,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/onweru-newsroom.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/onweru-newsroom.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/onweru-newsroom-2x.jpg"
+    }
+  },
+  "onwidget-astrowind": {
+    "theme_key": "onwidget-astrowind",
+    "file": "AstroWind.md",
+    "name": "astrowind",
+    "title": "AstroWind",
+    "github_username": "onwidget",
+    "repo": "onwidget/astrowind",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/onwidget/astrowind",
+    "demo_url": "https://astrowind.vercel.app/",
+    "stars": 771,
+    "forks": 186,
+    "open_issues": 9,
+    "last_commit": "2023-04-01T20:13:53Z",
+    "created_at": "2022-06-24T03:13:29Z",
+    "description": "⭕️ AstroWind: A free template using Astro 2.0 and Tailwind CSS.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/onwidget-astrowind.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/onwidget-astrowind.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/onwidget-astrowind-2x.jpg"
     }
   },
   "open-sl-jekyll-modern-blog": {
@@ -25504,6 +25596,29 @@
       "hires": "https://www.jamstackthemes.dev/capture/taikii-whiteplain.png",
       "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/taikii-whiteplain.jpg",
       "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/taikii-whiteplain-2x.jpg"
+    }
+  },
+  "tajacks-lightspeed": {
+    "theme_key": "tajacks-lightspeed",
+    "file": "jekyll-lightspeed.md",
+    "name": "lightspeed",
+    "title": "Lightspeed",
+    "github_username": "tajacks",
+    "repo": "tajacks/lightspeed",
+    "branch": "main",
+    "default_branch": "main",
+    "github_url": "https://github.com/tajacks/lightspeed",
+    "demo_url": "https://lightspeed.tajacks.com",
+    "stars": 1,
+    "forks": 1,
+    "open_issues": 0,
+    "last_commit": "2023-02-18T23:36:40Z",
+    "created_at": "2022-03-27T18:03:18Z",
+    "description": "A fast, simple, and privacy-respecting Jekyll theme.",
+    "images": {
+      "hires": "https://www.jamstackthemes.dev/capture/tajacks-lightspeed.png",
+      "thumbnail": "https://www.jamstackthemes.dev/images/theme/thumbnail/tajacks-lightspeed.jpg",
+      "screenshot": "https://www.jamstackthemes.dev/images/theme/thumbnail/2x/tajacks-lightspeed-2x.jpg"
     }
   },
   "taylantatli-halve": {
