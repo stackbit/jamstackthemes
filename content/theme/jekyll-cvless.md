@@ -10,11 +10,11 @@ cms:
   - No CMS
 css:
   - Bootstrap
-  - SCSS 
+  - SCSS
 archetype:
   - Blog
   - Personal
-description: Jekyll theme for a beautiful online CV 
+description: Jekyll theme for a beautiful online CV
 ---
 
 # cvless
