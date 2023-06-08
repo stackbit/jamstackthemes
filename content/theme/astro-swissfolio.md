@@ -1,7 +1,7 @@
 ---
 title: "SwissFolio"
 github: https://github.com/michael-andreuzza/swissfolio
-demo: https://quickstorre.vercel.app/
+demo: https://swissfolio.vercel.app/
 author: Lexington Themes
 date: 2023-06-07
 ssg:
