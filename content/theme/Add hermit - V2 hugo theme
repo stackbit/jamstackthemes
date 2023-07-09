@@ -1,0 +1,33 @@
+---
+title: "Hermit - V2"
+github: https://github.com/1bl4z3r/hermit-V2
+demo: https://1bl4z3r.github.io/hermit-V2/
+author: 1BL4Z3R
+date: 2023-07-09
+ssg:
+  - Hugo
+cms:
+  - No CMS
+css:
+  - SCSS 
+archetype:
+  - Blog
+  - Minimal
+  - Responsive
+description: A minimal and fast hugo theme for bloggers.
+---
+
+# Hermit - V2
+
+Hermit is a minimal and fast theme for Hugo. It's built for bloggers who want a simple and focused website.
+
+## Features
+
+* A single-column layout and carefully crafted typography offers a great reading experience.
+* Navigations and functions are placed in the bottom bar which will hide when you scroll down.
+* Featured image is supported. It will be displayed as a dimmed background of the page.
+* Displays all of your posts on a single page, with one section per year, simple and compact.
+* Extremely lightweight and load fast. No third party framework, no unnecessary code.
+* All code fields feature syntax highlighting and a code-copy function
+* Responsive & Retina Ready. Scales gracefully from a big screen all the way down to the smallest mobile phone.
+* Assets in vector format ensures that it looks sharp on high-resolution screens.
