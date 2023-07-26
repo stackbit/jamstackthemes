@@ -14,7 +14,6 @@ archetype:
   - Blog
   - Portfolio
 description: Fast, minimal blog with dark mode support.
-stale: false
 ---
 
 <div align=center> 
