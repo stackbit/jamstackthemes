@@ -15,7 +15,7 @@ archetype:
   - Personal
   - Portfolio
 description: A simple bootstrap based jekyll theme.
-stale: true
+stale: false
 ---
 
 Lone Wolf Theme is a simple bootstrap based jekyll theme.
