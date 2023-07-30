@@ -1,5 +1,5 @@
 ---
-title: "Docura"
+title: Docura
 github: https://github.com/docura/docura
 demo: https://docura.github.io
 author: Dumindu Madunuwan
