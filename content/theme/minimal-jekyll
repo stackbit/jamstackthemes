@@ -1,0 +1,25 @@
+---
+title: "Minimal"
+github: https://github.com/Heyya-x/Minimal
+demo: https://memo.kaijunzhu.com 
+author: Heyya-x
+date: 2023-07-31
+ssg:
+  - Jekyll
+cms:
+  - No CMS
+css:
+  - Scss 
+archetype:
+  - Blog
+  - Personal
+description: The theme aims for a minimalistic design that is aesthetically pleasing and sophisticated. 
+---
+# Minimal
+
+Minimal is a personal Jekyll theme under development. The theme aims for a minimalistic design that is aesthetically pleasing and sophisticated. Since the theme is still under development, some interfaces may not be visually appealing and will be improved in future updates. You can modify the theme color by editing the configuration file (config).
+
+## Theme Features
+- Concise
+- All posts with details list on the on page
+- Each post has a separate page in archive page
