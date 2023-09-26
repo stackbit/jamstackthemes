@@ -101,7 +101,7 @@
     align-items: flex-start;
     padding: 39px 24px;
     gap: 16px;
-    background: #24232D;
+    background: #02001D;
     border-radius: 4px;
     margin-bottom: 32px;
     background-image: url("/images/banner/bg.svg");
@@ -116,7 +116,7 @@
       padding: 0px;
       gap: 17px;
       font-size: 30px;
-      font-weight: 300;
+      font-weight: 400;
       color: white;
       line-height: 1;
     }
@@ -129,17 +129,17 @@
 
     .banner-primary-button {
       padding: 8px 16px;
-      background: #687AF0;
+      background: #8efbf7;
       border-style: none;
       border-radius: 3px;
       outline: none;
       font-weight: 400;
       font-size: 16px;
       line-height: 20px;
-      color: #24232D;
+      color: #014847;
       text-decoration: none;
       a {
-        color: #24232D;
+        color: #014847;
       }
       a:hover {
           text-decoration: none;
