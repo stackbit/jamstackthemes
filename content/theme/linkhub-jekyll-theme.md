@@ -1,6 +1,6 @@
 ---
 title: Linkhub
-github: linkhub-jekyll-theme
+github: https://github.com/digitalmalayali/linkhub-jekyll-theme
 demo: https://digitalmalayali.github.io/linkhub-jekyll-theme
 author: Digital Malayali
 date: 2023-10-04
