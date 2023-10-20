@@ -20,7 +20,7 @@
       {{ end }}
       {{ end }}
       {{ end }}
-      {{ if ge $count 10 }}
+      {{ if ge $count 7 }}
       <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
         <img width="18" height="18" class="filter-icon" alt="{{ .Page.Title }}" src="{{ .Page.Params.icon | relURL }}" />
         <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>

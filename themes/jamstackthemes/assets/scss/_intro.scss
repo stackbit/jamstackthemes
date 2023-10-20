@@ -99,7 +99,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 39px 24px;
+    padding: 40px 24px;
     gap: 16px;
     background: #02001D;
     border-radius: 4px;
@@ -115,15 +115,14 @@
       align-items: center;
       padding: 0px;
       gap: 17px;
-      font-size: 30px;
+      font-size: 32px;
       font-weight: 400;
       color: white;
       line-height: 1;
     }
 
     .banner-subtitle-row {
-      font-size: 17px;
-      font-weight: 300;
+      font-size: 18px;
       color: white;
     }
 
@@ -150,3 +149,4 @@
     }
   }
 }
+
