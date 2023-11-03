@@ -5,7 +5,7 @@ demo: https://11ty-docs-theme.spinalcms.com/
 author: Spinal CMS Developers
 date: 2022-09-22T00:00:00.000Z
 ssg:
-  - 11ty
+  - Eleventy
 cms:
   - No CMS
 css:
