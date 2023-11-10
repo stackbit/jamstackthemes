@@ -9,7 +9,7 @@ ssg:
 cms:
   - No CMS
 css:
-  - Tailwindcss
+  - Tailwind
 archetype:
   - Blog
   - Personal

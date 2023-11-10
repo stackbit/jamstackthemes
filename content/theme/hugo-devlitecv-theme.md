@@ -10,8 +10,6 @@ cms:
   - No CMS
 css:
   - Bootstrap
-  - FontAwesome
-  - Shields.io
 archetype:
   - CV
   - Resume
