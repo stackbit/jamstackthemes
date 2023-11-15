@@ -11,7 +11,6 @@ cms:
 css:
   - Vuetify
   - Scss
-  - Vue Js
 archetype:
   - Admin
   - Dashboard
