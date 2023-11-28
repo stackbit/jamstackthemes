@@ -1,6 +1,6 @@
 title: "Vibrant Shadows"
-github: [https://github.com/username/repo](https://github.com/Softorage/HugoTheme-VibrantShadows)
-demo: [https://www.demo.com](https://vibrantshadows.softorage.com/) 
+github: https://github.com/Softorage/HugoTheme-VibrantShadows
+demo: https://vibrantshadows.softorage.com
 author: Sofotrage
 date: 2023-11-28
 ssg:
