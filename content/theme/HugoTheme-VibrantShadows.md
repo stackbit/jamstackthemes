@@ -1,4 +1,3 @@
----
 title: "Vibrant Shadows"
 github: [https://github.com/username/repo](https://github.com/Softorage/HugoTheme-VibrantShadows)
 demo: [https://www.demo.com](https://vibrantshadows.softorage.com/) 
@@ -29,7 +28,7 @@ If you like our work & find it useful, please consider to star on GitHub. We are
 * Cookie Consent: "Opt-in", "Opt-out" and "None"
 * SEO Optimization and Customization
 * Disqus Comments
-* Deeply customizable (see config)
+* Deeply customizable (see [config](https://github.com/Softorage/HugoTheme-VibrantShadows#configuration))
 * Custom Taxonomy options, including tagging and category options
 * Deeplinks
 * Dedicated 'Table of Contents'
