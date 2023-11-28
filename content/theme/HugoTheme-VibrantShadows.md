@@ -1,3 +1,4 @@
+---
 title: "Vibrant Shadows"
 github: https://github.com/Softorage/HugoTheme-VibrantShadows
 demo: https://vibrantshadows.softorage.com
@@ -18,7 +19,7 @@ description: A deeply customizable, extremely lightweight, and super fast 'Blog 
 
 A deeply customizable, extremely lightweight, and super fast 'Blog Theme' for Hugo, with mobile support and a lot more.
 
-If you like our work & find it useful, please consider to star on GitHub. We are on Facebook, X, and Instagram, you can follow us there too! It really motivates us!
+If you like our work & find it useful, please consider to star on GitHub. We are on Facebook, X, and Instagram, you can follow us there too! It motivates us!
 
 ## Features
 
@@ -36,7 +37,7 @@ If you like our work & find it useful, please consider to star on GitHub. We are
 * Sane defaults
 * Mobile support with configurable menu alignment
 * Syntax Highlighting
-* Social-media Share buttons on the post
+* Social media Share buttons on the post
 * Custom fonts for different elements
 * Ability to customize positions of various elements
 * ... a lot more!
