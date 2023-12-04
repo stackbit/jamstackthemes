@@ -9,9 +9,9 @@ ssg:
 cms:
   - No CMS
 archetype:
-  - Blog
-  - News
   - Documentation
+  - Blog
+  - Multi Purpose  
 description: Advanced Markdown documentation and multi-purpose theme with a fluid-responsive typographic layout.
 ---
 
