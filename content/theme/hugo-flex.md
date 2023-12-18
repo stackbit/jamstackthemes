@@ -1,7 +1,7 @@
 ---
 title: Hugo Flex
 github: https://github.com/ldeso/hugo-flex
-demo: https://ldeso.github.io/hugo-flex/
+demo: https://ldeso.github.io/hugo-flex-demo/
 author: Léo de Souza
 ssg:
   - Hugo
