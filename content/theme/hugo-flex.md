@@ -10,7 +10,7 @@ cms:
 archetype:
   - Blog
   - Personal
-date: 2023-12-20T14:28:49.000Z
+date: 2023-12-20T16:34:27.000Z
 description: A lightweight Hugo theme leveraging CSS Flexbox.
 stale: false
 ---
@@ -22,7 +22,7 @@ A lightweight Hugo theme leveraging [CSS Flexbox](https://developer.mozilla.org/
 ## Features
 
 - [Flexbox](https://developer.mozilla.org/docs/Web/CSS/CSS_Flexible_Box_Layout)-based responsive layout
-- [100% performance and accessibility scores](https://pagespeed.web.dev/analysis/https-ldeso-github-io-hugo-flex-demo/2dyhwiweee) on PageSpeed Insights
+- [100% performance and accessibility scores](https://pagespeed.web.dev/analysis/https-ldeso-github-io-hugo-flex-demo/2fffkrwjoi) on PageSpeed Insights
 - No framework
 - No javascript
 - Full posts in RSS feed
