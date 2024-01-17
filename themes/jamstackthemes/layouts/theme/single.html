@@ -86,7 +86,7 @@
                                         {{- with $.Site.GetPage "taxonomyTerm" (printf "archetype/%s" (urlize .)) }}
                                             {{ if eq .Page.Title "No archetype" }}
                                             {{ else }}
-                                                {{ partial "icons/icon-link-card.html" (dict "name" .Page.Title "icon" .Page.Params.icon "link" .Page.Permalink) }}
+                                                <a class="tag-button" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
                                             {{ end }}
                                         {{ end }}
                                     {{ end }}

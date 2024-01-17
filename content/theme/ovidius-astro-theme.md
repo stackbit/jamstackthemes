@@ -12,6 +12,7 @@ css:
   - Tailwind
 archetype:
   - Blog
+  - Personal
 description: >-
   Ovidius - a single-author blog theme for Astro.js and Tailwind CSS. 
 stale: false
