@@ -197,7 +197,6 @@
         {{ end }}
         {{ if ge $count 5 }}
           <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
-            <img width="18" height="18" class="filter-icon" alt="{{ .Page.Title }}" src="{{ .Page.Params.icon | relURL }}" />
             <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
             <span class="filter-name">{{ .Page.Title }}</span>
             <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ $count }}</span>
@@ -223,7 +222,6 @@
         {{ end }}
         {{ if lt $count 5 }}
           <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
-            <img width="18" height="18" class="filter-icon" alt="{{ .Page.Title }}" src="{{ .Page.Params.icon | relURL }}" />
             <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
             <span class="filter-name">{{ .Page.Title }}</span>
             <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ $count }}</span>

@@ -13,6 +13,7 @@ css:
 archetype:
   - Blog
   - Portfolio
+  - Personal
 description: >-
   Dante - uncluttered minimal blog and portfolio Astro.js + Tailwind CSS theme designed for those who appreciate clarity and minimalism.
 stale: false

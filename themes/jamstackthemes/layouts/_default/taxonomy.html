@@ -19,7 +19,6 @@
 
             <div class="intro">
                 <div class="intro-heading">
-                    <div class="intro-icon"><img src="{{ .Params.icon | relURL }}" alt="{{.Title}} Logo" /></div>
                     <h1 class="intro-title">{{ .Title }} Themes
                         <span class="page-number">{{ if gt $paginator.PageNumber 1 }} - Page {{ $paginator.PageNumber }}{{ end }}</span>
                         {{ if eq $paginator.PageNumber 1 }}<span class="count">(<span class="count-number">{{ $themeCount }}</span>)</span>{{ end }}
