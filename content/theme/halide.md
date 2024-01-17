@@ -7,7 +7,7 @@ date: 2023-12-11
 ssg:
   - Eleventy
 cms:
-  - Tina CMS
+  - Tina
   - No CMS
 css:
   - CSS 

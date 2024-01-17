@@ -9,7 +9,7 @@ ssg:
 cms:
   - No CMS
 archetype:
-  - Ecommmerce
+  - Ecommerce
   - Blog
 description: Supply, a  Jekyll e-commere theme built for Gumroad users.
 stale: false

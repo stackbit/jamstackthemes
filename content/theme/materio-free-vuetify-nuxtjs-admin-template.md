@@ -1,12 +1,13 @@
 ---
-title: "Materio Free Vuetify NuxtJS Admin Template"
+title: "Materio Vuetify NuxtJS Admin Template"
 github: https://github.com/themeselection/materio-vuetify-nuxtjs-admin-template-free
 demo: https://demos.themeselection.com/materio-vuetify-nuxtjs-admin-template-free/demo/dashboard
-author: Themeselection
-SSG: Nuxtjs
-CMS: None
-date: 2024-01-18
-
+author: Theme Selection
+ssg:
+  - Nuxt
+cms:
+  - No CMS
+date: 2024-01-17
 description: This is an open-source Vuetify NuxtJS admin template built with VueJS 3. It is a developer friendly and highly customizable free Nuxtjs admin template
 ---
 

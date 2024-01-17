@@ -1,8 +1,8 @@
 ---
-title: Materio React NextJS Admin Template Free
+title: Materio React NextJS Admin Template
 github: https://github.com/themeselection/materio-mui-react-nextjs-admin-template-free
 demo: https://demos.themeselection.com/materio-mui-react-nextjs-admin-template-free/
-author: Themeselection
+author: Theme Selection
 ssg:
   - Next
 cms:
