@@ -11,7 +11,7 @@ gatsby:
   version: 5+
   type: theme
 cms:
-  - Netlify/Decap CMS pre-configured
+  - NetlifyCMS
 github_branch: master
 archetype:
   - Publishers
