@@ -1,7 +1,7 @@
 ---
 title: "Hacked Jekyll"
 github: https://github.com/piazzai/hacked-jekyll
-demo: https://hacked-jekyll.netlify.app/
+demo: https://piazzai.github.io/hacked-jekyll/
 author: Michele Piazzai
 date: 2023-05-20
 ssg:

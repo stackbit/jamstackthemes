@@ -1,7 +1,7 @@
 ---
 title: "Cvless"
 github: https://github.com/piazzai/cvless
-demo: https://cvless.netlify.app/
+demo: https://piazzai.github.io/cvless/
 author: Michele Piazzai
 date: 2023-05-20
 ssg:
