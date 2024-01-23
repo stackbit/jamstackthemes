@@ -1,7 +1,7 @@
 ---
 title: "Nagymaros"
 github: https://github.com/piazzai/jekyll-nagymaros
-demo: https://jekyll-nagymaros.netlify.app/
+demo: https://piazzai.github.io/jekyll-nagymaros/
 author: Michele Piazzai
 date: 2023-10-11
 ssg:
