@@ -3,7 +3,7 @@ title: "Micro Blog"
 github: https://github.com/michael-andreuzza/microblog
 demo: https://microblog-theta.vercel.app/
 author: Lexington Themes
-date: 2024-06-01
+date: 2024-01-23
 ssg:
   - Astro
 cms:
