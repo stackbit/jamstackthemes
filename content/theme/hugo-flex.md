@@ -10,7 +10,7 @@ cms:
 archetype:
   - Blog
   - Personal
-date: 2023-12-20T16:34:27.000Z
+date: 2024-01-23T08:26:31.000Z
 description: A lightweight Hugo theme leveraging CSS Flexbox.
 stale: false
 ---
@@ -48,4 +48,4 @@ Instructions on how to use the theme are available [on GitHub](https://github.co
 
 ## License
 
-This theme is licensed under the [Apache License 2.0](https://github.com/ldeso/hugo-flex/blob/master/LICENSE).
+This theme is licensed under the [Apache License 2.0](https://github.com/ldeso/hugo-flex/raw/master/LICENSE).
