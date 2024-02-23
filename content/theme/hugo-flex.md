@@ -6,7 +6,7 @@ author: Léo de Souza
 ssg:
   - Hugo
 cms:
-  - NetlifyCMS
+  - DecapCMS
 archetype:
   - Blog
   - Personal

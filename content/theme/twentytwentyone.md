@@ -7,7 +7,7 @@ date: 2019-01-21T00:00:00.000Z
 ssg:
   - Eleventy`
 cms:
-  - NetlifyCMS
+  - DecapCMS
 css:
   - Tailwind
 archetype:

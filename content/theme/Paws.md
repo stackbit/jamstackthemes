@@ -7,7 +7,7 @@ date: 2022-03-31T00:00:00.000Z
 ssg:
   - SvelteKit
 cms:
-  - NetlifyCms
+  - DecapCMS
 archetype:
   - Blog
   - Portfolio

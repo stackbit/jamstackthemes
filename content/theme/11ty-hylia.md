@@ -6,7 +6,7 @@ author: Andy Bell
 ssg:
   - Eleventy
 cms:
-  - NetlifyCMS
+  - DecapCMS
 date: 2019-06-11T20:15:02.000Z
 github_branch: master
 featured: true
@@ -18,13 +18,13 @@ stale: true
 
 # A simple starter kit for Eleventy
 
-Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend it for yourself.
+Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.DecapCMS.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend it for yourself.
 
 ## Features
 
 Hylia version 0.5.1 features:
 
-✍️ A pre-configured [Netlify CMS](https://www.netlifycms.org/) setup  
+✍️ A pre-configured [Netlify CMS](https://www.DecapCMS.org/) setup  
 🎨 Customisable design tokens to make it your own  
 🌍 Customisable global data and navigation  
 📂 Tags and tag archives  

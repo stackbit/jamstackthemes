@@ -6,7 +6,7 @@ author: jake101
 ssg:
   - Nuxt
 cms:
-  - NetlifyCMS
+  - DecapCMS
 date: 2019-11-09T00:00:00.000Z
 description: Brutalist Blog theme for Netlify CMS
 stale: true

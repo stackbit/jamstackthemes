@@ -6,7 +6,7 @@ author: Tom Rutgers
 ssg:
   - Middleman
 cms:
-  - NetlifyCMS
+  - DecapCMS
 date: 2018-08-14T21:03:30.000Z
 description: A simple example to get started with Middleman and Netlify CMS
 stale: true
