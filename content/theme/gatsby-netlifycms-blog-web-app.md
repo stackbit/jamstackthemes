@@ -1,7 +1,7 @@
 ---
 title: Gatsby Netlify CMS Modern blog web-app
-github: https://github.com/simarmannsingh/gatsby-DecapCMS-starter-template
-demo: https://gatsby-DecapCMS-modern-template.netlify.app/
+github: https://github.com/simarmannsingh/silverlux
+demo: https://silverlux.netlify.app/
 author: Simar Mann Singh
 date: 2021-07-03T00:00:00.000Z
 ssg:
@@ -21,9 +21,9 @@ stale: true
 
 # Gatsby Netlify-CMS Modern blog
 
-A fully-responsive [Gatsby](https://www.gatsbyjs.org/) based template web-app which can be easily hosted on any platform. This web-app uses the [Netlify CMS](https://www.DecapCMS.org) as its content management system.
+A fully-responsive [Gatsby](https://www.gatsbyjs.org/) based template web-app which can be easily hosted on any platform. This web-app uses the [Netlify CMS](https://www.netlifycms.org) as its content management system.
 
-**Note:** This starter template is a customized version of the original template by Netlify that can be found on [Netlify CMS](https://www.DecapCMS.org/) website and uses [Gatsby v2](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/).
+**Note:** This starter template is a customized version of the original template by Netlify that can be found on [Netlify CMS](https://www.netlifycms.org/) website and uses [Gatsby v2](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/).
 
 ## Features
 
@@ -43,4 +43,4 @@ A fully-responsive [Gatsby](https://www.gatsbyjs.org/) based template web-app wh
 
 ## License
 
-This repository has MIT license which can be found [here](https://github.com/simarmannsingh/gatsby-DecapCMS-starter-template/blob/master/LICENSE).
+This repository has MIT license which can be found [here](https://github.com/simarmannsingh/gatsby-netlifycms-starter-template/blob/master/LICENSE).
