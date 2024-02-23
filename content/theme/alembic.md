@@ -6,7 +6,7 @@ author: David Darnes
 ssg:
   - Jekyll
 cms:
-  - NetlifyCMS
+  - DecapCMS
   - Forestry
   - DatoCMS
   - Contentful

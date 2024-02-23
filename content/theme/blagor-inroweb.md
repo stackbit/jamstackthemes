@@ -7,7 +7,7 @@ date: 2022-09-29T00:00:00.000Z
 ssg:
   - Gatsby
 cms:
-  - NetlifyCMS
+  - DecapCMS
 css:
   - Theme Ui 
 archetype:

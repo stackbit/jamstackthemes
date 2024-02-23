@@ -6,7 +6,7 @@ author: David Konsumer
 ssg:
   - Gatsby
 cms:
-  - NetlifyCMS
+  - DecapCMS
 css:
   - Bootstrap
 date: 2017-11-08T01:59:41.000Z

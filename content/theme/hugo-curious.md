@@ -8,7 +8,7 @@ ssg:
   - Hugo
 cms:
   - No CMS
-  - NetlifyCMS
+  - DecapCMS
 css:
   - SCSS
 archetype:

@@ -19,7 +19,7 @@ stale: false
 
 ## Stackbit
 
-Use Stackbit to deploy this theme and connect any headless CMS _(Forestry, NetlifyCMS, Sanity, Contentful, DatoCMS)_ - It's actually really amazing. This theme contains a valid and tested `stackbit.yaml`
+Use Stackbit to deploy this theme and connect any headless CMS _(Forestry, DecapCMS, Sanity, Contentful, DatoCMS)_ - It's actually really amazing. This theme contains a valid and tested `stackbit.yaml`
 
 [![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/zerostaticthemes/hugo-serif-theme)
 

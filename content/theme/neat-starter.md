@@ -7,7 +7,7 @@ date: 2020-10-05T00:00:00.000Z
 ssg:
   - Eleventy
 cms:
-  - NetlifyCMS
+  - DecapCMS
 css:
   - Tailwind
 archetype:
@@ -26,7 +26,7 @@ Starter Template for **N**etlify CMS, **E**leventy, **A**lpine JS & **T**ailwind
 
 ### Technologies used:
 
-- [Netlify CMS](https://www.netlifycms.org/)
+- [Netlify CMS](https://www.DecapCMS.org/)
 - [Eleventy](https://www.11ty.dev/)
 - [Alpine.js](https://github.com/alpinejs/alpine)
 - [Tailwind CSS](https://tailwindcss.com/)

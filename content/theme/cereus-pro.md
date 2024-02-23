@@ -6,7 +6,7 @@ author: arhen
 ssg:
   - Hugo
 cms:
-  - NetlifyCMS
+  - DecapCMS
 date: 2019-10-28T00:00:00.000Z
 description: ' Blazing Fast & Minimalist Blog Hugo Themes for Developer'
 stale: true

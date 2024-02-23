@@ -1,13 +1,13 @@
 ---
 title: Gatsby Netlify CMS Modern blog web-app
-github: https://github.com/simarmannsingh/gatsby-netlifycms-starter-template
-demo: https://gatsby-netlifycms-modern-template.netlify.app/
+github: https://github.com/simarmannsingh/silverlux
+demo: https://silverlux.netlify.app/
 author: Simar Mann Singh
 date: 2021-07-03T00:00:00.000Z
 ssg:
   - Gatsby
 cms:
-  - NetlifyCMS
+  - DecapCMS
 css:
   - Bulma
 archetype:

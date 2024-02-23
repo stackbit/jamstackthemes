@@ -6,7 +6,7 @@ author: Netlify Templates
 ssg:
   - Gatsby
 cms:
-  - NetlifyCMS
+  - DecapCMS
 css:
   - Bulma
 date: 2017-08-15T23:15:14.000Z
@@ -19,7 +19,7 @@ stale: false
 
 **Note:** This starter uses [Gatsby v2](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/).
 
-This repo contains an example business website that is built with [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://www.netlifycms.org): **[Demo Link](https://gatsby-netlify-cms.netlify.com/)**.
+This repo contains an example business website that is built with [Gatsby](https://www.gatsbyjs.org/), and [Netlify CMS](https://www.DecapCMS.org): **[Demo Link](https://gatsby-netlify-cms.netlify.com/)**.
 
 It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
 
@@ -63,7 +63,7 @@ $ yarn
 $ netlify dev # or ntl dev
 ```
 
-This uses the new [Netlify Dev](https://www.netlify.com/products/dev/?utm_source=blog&utm_medium=netlifycms&utm_campaign=devex) CLI feature to serve any functions you have in the `lambda` folder.
+This uses the new [Netlify Dev](https://www.netlify.com/products/dev/?utm_source=blog&utm_medium=DecapCMS&utm_campaign=devex) CLI feature to serve any functions you have in the `lambda` folder.
 
 To test the CMS locally, you'll need run a production build of the site:
 
@@ -115,7 +115,7 @@ $ npm run serve
 
 ### Setting up the CMS
 
-Follow the [Netlify CMS Quick Start Guide](https://www.netlifycms.org/docs/quick-start/#authentication) to set up authentication, and hosting.
+Follow the [Netlify CMS Quick Start Guide](https://www.DecapCMS.org/docs/quick-start/#authentication) to set up authentication, and hosting.
 
 ## Debugging
 

@@ -9,7 +9,7 @@ cms:
   - Contentful
   - DatoCMS
   - Forestry
-  - NetlifyCMS
+  - DecapCMS
   - Sanity
 date: 2018-03-06T11:48:50.000Z
 description: A readable & concise theme for Hugo
