@@ -103,6 +103,13 @@
                         {{ end }}
                     {{ end }}
                 {{ end }}
+                {{ if .theme.Params.featured }}
+                
+                <a href="https://app.netlify.com/start/deploy?repository={{ .theme.Params.github }}" target="_blank"
+                    rel="noopener nofollow"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify Button"
+                        data-canonical-src="https://www.netlify.com/img/deploy/button.svg" style="max-width: 100%;">
+                </a>
+                {{ end }}
             </div>
         </div>
 
