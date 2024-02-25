@@ -1,4 +1,4 @@
-{{ define "title" }}Jamstack Themes{{ end }}
+
 {{ define "body_classes" }}page-home has-sidebar{{ end }}
 
 {{ define "meta_description" }}
@@ -26,6 +26,37 @@
 
         <div class="main">
             <div class="container">
+
+                
+                    
+                {{ if .IsHome }}
+
+                <div class="intro">
+                    <div class="intro-heading">
+                        <h1 class="intro-title">Featured Themes</h1>
+                    </div>
+                    <div class="intro-description d-none d-md-block">
+                      <p>Featured pen-source Astro.js themes that can be deployde on Netlify in few minutes.
+                        </p>
+                    </div>
+                </div>
+                            <div class="row mt-3">
+                                {{ $featuredThemes := (where .Site.RegularPages "Type" "theme") }}
+                                {{ $featuredThemes := (where $featuredThemes ".Params.featured" "==" true) }}
+                                {{ $featuredThemes := (first 3 $featuredThemes) }}
+                                {{ if $featuredThemes }}
+                                    {{ range $featuredThemes }}
+                                        {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}
+                                        {{ $repo := index .Site.Data.themes $repoName }}
+                                        {{ $stackbit := index .Site.Data.stackbit $repoName }}
+                                        {{ partial "theme-card.html" (dict "theme" . "repo" $repo "stackbit" $stackbit "site" $.Site) }}
+                                    {{ end }}
+                                {{ else }}
+                                {{ end }}
+                            </div>
+                    {{ else }}
+                {{ end }}
+              
 
                 <div class="intro">
                     <div class="intro-heading">

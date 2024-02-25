@@ -14,6 +14,7 @@ archetype:
   - Blog
   - Personal
 description: A minimal, accessible and SEO-friendly Astro blog theme
+featured: true
 ---
 
 # AstroPaper

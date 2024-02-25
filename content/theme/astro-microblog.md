@@ -14,6 +14,7 @@ archetype:
   - Blog
   - Personal
 description:  Microblog is a tiny blog template built with Astro, Tailwind CSS and MDX it includes the next integrations
+featured: true
 ---
 
 # What's included?
