@@ -8,8 +8,6 @@ ssg:
   - Gatsby
 cms:
   - DecapCMS
-css:
-  - Theme Ui 
 archetype:
   - Blog
 description: A starter for personal and professional blog, built with GatbyJS and Netlify CMS.
