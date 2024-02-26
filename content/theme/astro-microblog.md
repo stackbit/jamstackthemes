@@ -26,6 +26,7 @@ netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.c
 
 
 ## Features
+
 **Pages**
 - Blog Home
 - Blog post
