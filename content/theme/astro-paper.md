@@ -15,6 +15,7 @@ archetype:
   - Personal
 description: A minimal, accessible and SEO-friendly Astro blog theme
 featured: true
+netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/satnaing/astro-paper
 ---
 
 # AstroPaper

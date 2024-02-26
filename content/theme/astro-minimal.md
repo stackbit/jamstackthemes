@@ -14,6 +14,7 @@ archetype:
   - Blog
 description: Minimal is a minimalistic astro theme for blogs.
 featured: true
+netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/ekmas/minimal
 ---
 
 # Features
