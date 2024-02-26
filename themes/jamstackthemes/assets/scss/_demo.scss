@@ -14,8 +14,7 @@
 
 .demo {
   background-color: white;
-  border-bottom: 1px solid $grey;
-  box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+  box-shadow: 0px 0px 4px 3px rgba(41,41,41,.2);
   position: fixed;
   width: 100%;
   z-index: 10;
@@ -38,7 +37,7 @@
     justify-content: space-between;
   }
   h1.demo-title {
-    font-size: 20px;
+    font-size: 18px;
     font-family: $font_family_heading;
     margin: 0;
     margin-left: 10px;

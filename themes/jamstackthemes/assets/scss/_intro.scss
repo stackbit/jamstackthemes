@@ -25,7 +25,7 @@
     display: inline-block;
     vertical-align: middle;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     margin: 0;
     @include media-breakpoint-up(sm) {
       font-size: 28px;
@@ -42,7 +42,7 @@
       font-size: 18px;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 20px;
+      font-size: 18px;
       width: 85%;
     }
   }
