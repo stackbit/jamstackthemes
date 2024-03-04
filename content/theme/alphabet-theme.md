@@ -3,7 +3,11 @@ title: "Alphabet Theme"
 github: https://github.com/piandhust/alphabet-theme
 demo: https://piandhust.github.io/alphabet-theme/ 
 author: trannguyenhan
-date: 2022-01-01
+date: 2024-03-04
+ssg:
+  - Jekyll
+cms:
+  - No CMS
 archetype:
   - Personal
   - Blog
