@@ -14,6 +14,7 @@ archetype:
   - Blog
   - Portfolio
 description: Astrolize is a free starter astro website template for saas, startups, marketing websites, landing pages & blogs. Built with Astro & TailwindCSS.
+disabled: true
 ---
 
 # A simple starter kit for Astro.Build
