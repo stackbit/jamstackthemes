@@ -14,7 +14,7 @@ archetype:
   - SaaS
   - Business
 description: An open source template for your next project.
-featured: true
+featured: false
 netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/michael-andreuzza/astrosaas
 ---
 
