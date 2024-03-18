@@ -19,7 +19,7 @@ title: "My Theme Name"
 github: https://github.com/username/repo
 demo: https://www.demo.com 
 author: authorname
-date: 2014-03-18
+date: 2024-03-18
 ssg:
   - Astro
 cms:
