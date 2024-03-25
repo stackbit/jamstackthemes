@@ -7,12 +7,12 @@ date: 2021-06-05T00:00:00.000Z
 ssg:
   - Eleventy
 cms:
-  - NetlifyCMS
+  - DecapCMS
 css: null
 archetype:
   - Blog
   - Portfolio
-description: The super simple portfolio template built with Eleventy and NetlifyCMS
+description: The super simple portfolio template built with Eleventy and DecapCMS
 stale: false
 ---
 
@@ -20,7 +20,7 @@ stale: false
 An [Eleventy](https://www.11ty.io/) theme designed to simplify the process of deploying a beautiful portfolio and blog. Launch your site in minutes!
 
 ## ✨ Features
-* Built in support for [NetlifyCMS](https://www.netlifycms.org/) with editor previews
+* Built in support for [DecapCMS](https://www.DecapCMS.org/) with editor previews
 * Customizable blog and project pages with tag support
 * Working contact form powered by [Netlify Forms](https://www.netlify.com/products/forms/)
 * Super fast page render and high lighthouse scores

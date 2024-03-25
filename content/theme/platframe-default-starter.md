@@ -7,7 +7,7 @@ date: 2020-06-03T00:00:00.000Z
 ssg:
   - Platframe
 cms:
-  - NetlifyCMS
+  - DecapCMS
 archetype:
   - Blog
 description: Platframe's default (responsive) starter template.

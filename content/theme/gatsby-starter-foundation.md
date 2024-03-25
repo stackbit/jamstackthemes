@@ -7,7 +7,7 @@ date: 2020-05-27T00:00:00.000Z
 ssg:
   - Gatsby
 cms:
-  - NetlifyCMS
+  - DecapCMS
 css:
   - scss
 archetype:

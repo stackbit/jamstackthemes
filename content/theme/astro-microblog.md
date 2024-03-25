@@ -14,6 +14,8 @@ archetype:
   - Blog
   - Personal
 description:  Microblog is a tiny blog template built with Astro, Tailwind CSS and MDX it includes the next integrations
+featured: false
+netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/michael-andreuzza/microblog
 ---
 
 # What's included?
@@ -24,6 +26,7 @@ description:  Microblog is a tiny blog template built with Astro, Tailwind CSS a
 
 
 ## Features
+
 **Pages**
 - Blog Home
 - Blog post

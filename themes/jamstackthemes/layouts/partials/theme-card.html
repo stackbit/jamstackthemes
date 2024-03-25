@@ -50,7 +50,9 @@
         </a>
 
         <div class="theme-body">
-
+            {{ if .theme.Params.featured }}
+            <span class="featured">Featured</span>
+            {{ end }}
             <h2><a href="{{ .theme.Permalink }}" class="theme-title">{{ .theme.Params.title }}</a></h2>
 
             
@@ -61,7 +63,6 @@
                   <span>{{ .repo.stars }}</span>
               </div>
               <div>
-                  <img width="15" height="15" alt="Last Commit" src="{{ "images/ui/history-solid.svg" | relURL }}"/>
                   <span>{{ dateFormat "Jan 2, 2006" .repo.last_commit }}</span>
               </div>
             </div>
@@ -88,20 +89,11 @@
                    data-name="{{ .theme.Title }}"
                    href="/demo{{ .theme.RelPermalink }}"
                 >Demo</a>
-                {{ if .site.Params.stackbit_button }}
-                    {{ if .theme.Params.stackbit }}
-                        <a class="action-button action-button-fill action-button-stackbit" data-action="stackbit"
-                           data-context="card" data-name="{{ .theme.Title }}"
-                           href="{{ .theme.Params.stackbit }}&ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=card"
-                           target="_blank" rel="noopener nofollow">Create Site</a>
-                    {{ else if .stackbit }}
-                        {{ if .stackbit.createUrl }}
-                            <a class="action-button action-button-fill action-button-stackbit"
-                               data-action="stackbit" data-context="card" data-name="{{ .theme.Title }}"
-                               href="{{ .stackbit.createUrl }}&ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=card"
-                               target="_blank" rel="noopener nofollow">Create Site</a>
-                        {{ end }}
-                    {{ end }}
+                {{ if .theme.Params.featured }}
+                <a href="{{ .theme.Params.netlify_deploy }}" target="_blank" rel="noopener nofollow"><img
+                        src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify Button"
+                        data-canonical-src="https://www.netlify.com/img/deploy/button.svg" style="max-width: 100%;">
+                </a>
                 {{ end }}
             </div>
         </div>

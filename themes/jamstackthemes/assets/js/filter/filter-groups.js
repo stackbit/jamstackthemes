@@ -29,7 +29,7 @@ const groups = {
         "forestry",
         "ghost",
         "kontent",
-        "netlifycms",
+        "decapcms",
         "no-cms",
         "airtable",
         "directus",

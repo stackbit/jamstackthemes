@@ -8,7 +8,7 @@ ssg:
   - Jekyll
 cms:
   - Forestry
-  - NetlifyCMS
+  - DecapCMS
 css:
   - Bootstrap
 archetype:

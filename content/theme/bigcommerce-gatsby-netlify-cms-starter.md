@@ -7,7 +7,7 @@ date: 2020-06-03T00:00:00.000Z
 ssg:
   - Gatsby
 cms:
-  - NetlifyCMS
+  - DecapCMS
 archetype:
   - Ecommerce
 description: >-

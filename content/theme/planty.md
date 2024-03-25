@@ -11,7 +11,7 @@ ssg:
   - Next
 cms:
   - Forestry
-  - NetlifyCMS
+  - DecapCMS
   - No CMS
 css:
   - SCSS

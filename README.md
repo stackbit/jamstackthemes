@@ -19,20 +19,20 @@ title: "My Theme Name"
 github: https://github.com/username/repo
 demo: https://www.demo.com 
 author: authorname
-date: 2019-08-20
+date: 2024-03-18
 ssg:
-  - Gridsome
+  - Astro
 cms:
   - No CMS
 css:
-  - Bootstrap 
+  - Tailwind 
 archetype:
   - Blog
   - Portfolio
 description: This is an amazing theme and this is a small description about it!
 ---
 
-# A simple starter kit for Gridsome
+# A simple starter kit for Astro.js
 
 This theme is a lightweight starter kit. It also gives you a well organised starting point to extend it for yourself.
 

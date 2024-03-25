@@ -6,7 +6,7 @@ author: Robert Cooper
 ssg:
   - Gatsby
 cms:
-  - NetlifyCMS
+  - DecapCMS
 date: 2018-11-19T00:43:34.000Z
 description: Example website built with Gatsby V2 and Netlify CMS
 stale: true

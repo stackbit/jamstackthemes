@@ -7,7 +7,7 @@ date: 2020-06-03T00:00:00.000Z
 ssg:
   - Jigsaw
 cms:
-  - NetlifyCMS
+  - DecapCMS
 archetype:
   - Blog
 description: An advanced starter template for building a static Jigsaw blog.

@@ -73,21 +73,12 @@
           <a class="action-button action-button-outline action-button-github d-none d-md-block"
              data-action="github" data-context="demo" data-name="{{ .Title }}" href="{{ .Params.github }}"
              target="_blank" rel="nofollow noopener">Github</a>
-          {{ if .Site.Params.stackbit_button }}
-              {{ if .Params.stackbit }}
-                  <a class="action-button action-button-fill action-button-stackbit" data-action="stackbit"
-                     data-context="demo" data-name="{{ .Title }}"
-                     href="{{ .Params.stackbit }}&ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=demo"
-                     target="_blank" rel="noopener nofollow">Create Site</a>
-              {{ else if $stackbit }}
-                  {{ if $stackbit.createUrl }}
-                      <a class="action-button action-button-fill action-button-stackbit" data-action="stackbit"
-                         data-context="demo" data-name="{{ .Title }}"
-                         href="{{ $stackbit.createUrl }}&ref=jst&utm_source=jamstackthemes&utm_medium=referral&utm_campaign=custom_themes&utm_content=demo"
-                         target="_blank" rel="noopener nofollow">Create Site</a>
-                  {{ end }}
-              {{ end }}
-          {{ end }}
+             {{ if .Params.featured }}
+             <a href="{{ .Params.netlify_deploy }}" target="_blank" rel="noopener nofollow"><img
+                     src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify Button"
+                     data-canonical-src="https://www.netlify.com/img/deploy/button.svg" style="max-width: 100%;">
+             </a>
+             {{ end }}
       </div>
   </div>
 </div>

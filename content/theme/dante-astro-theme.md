@@ -18,9 +18,11 @@ description: >-
   Dante - uncluttered minimal blog and portfolio Astro.js + Tailwind CSS theme designed for those who appreciate clarity and minimalism.
 stale: false
 disabled: false
+featured: false
+netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/JustGoodUI/dante-astro-theme
 ---
 
-# 🚀 Dante - Astro.js & Tailwind CSS Theme
+# Dante - Astro.js & Tailwind CSS Theme
 
 Dante is a single-author blog and portfolio theme for Astro.js. Featuring a minimal, slick, responsive and content-focused design. For more Astro.js themes please check [justgoodui.com](https://justgoodui.com/).
 
@@ -47,7 +49,7 @@ Dante is a single-author blog and portfolio theme for Astro.js. Featuring a mini
 - @astrojs/mdx - https://docs.astro.build/en/guides/markdown-content/
 - @astrojs/rss - https://docs.astro.build/en/guides/rss/
 
-## 🚀 Project Structure
+## Project Structure
 
 Inside of Dante Astro theme, you'll see the following folders and files:
 

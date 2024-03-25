@@ -7,7 +7,7 @@ date: 2020-06-25T00:00:00.000Z
 ssg:
   - Hugo
 cms:
-  - NetlifyCMS
+  - DecapCMS
 css:
   - Bulma
 archetype:

@@ -7,9 +7,7 @@ date: 2022-09-29T00:00:00.000Z
 ssg:
   - Gatsby
 cms:
-  - NetlifyCMS
-css:
-  - Theme Ui 
+  - DecapCMS
 archetype:
   - Blog
 description: A starter for personal and professional blog, built with GatbyJS and Netlify CMS.
