@@ -1,6 +1,6 @@
 ---
 title: Next.js on Netlify Platform Starter
-github: https://github.com/netlify-templates/nextjs-blog-theme
+github: https://github.com/netlify-templates/next-platform-starter
 demo: https://nextjs-platform-starter.netlify.app/
 author: Netlify
 date: 2024-04-04
@@ -14,7 +14,7 @@ archetype:
   - Other
 description: Modern starter based on Next.js 14 (App Router), Tailwind, daisyUI, and Netlify Core Primitives.
 featured: true
-netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/nextjs-blog-theme
+netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-platform-starter
 ---
 
 
