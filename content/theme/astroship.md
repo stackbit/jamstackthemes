@@ -14,7 +14,7 @@ archetype:
   - SaaS
   - Business
 description: Astroship is a starter template for startups, marketing websites, landing pages & blog. Built with Astro & TailwindCSS.
-featured: true
+featured: false
 netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/surjithctly/astroship
 ---
 

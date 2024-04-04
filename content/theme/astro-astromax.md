@@ -14,7 +14,7 @@ archetype:
   - Agency
   - Personal
 description:  AstroMax is a brutalist landing page for your agency.
-featured: true
+featured: false
 netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/michael-andreuzza/astromax
 ---
 
