@@ -15,6 +15,8 @@ archetype:
   - Blog
   - Portfolio
   - Business
+featured: true
+netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/lilxyzz/holo-theme
 ---
 
 # A simple starter kit with Gatsby
