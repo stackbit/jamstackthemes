@@ -15,7 +15,7 @@ archetype:
   - Blog
   - Portfolio
   - Business
-featured: true
+featured: false
 netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/lilxyzz/holo-theme
 ---
 
