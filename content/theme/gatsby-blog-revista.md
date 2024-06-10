@@ -1,7 +1,7 @@
 ---
 title: Revista
 github: https://github.com/chrisnmorrison/revista-gatsby-blog-magazine
-demo: https://revista-demo.netlify.app/
+demo: https://revista-gatsby-blog-magazine.pages.dev/
 author: Chris Morrison
 date: 2023-01-20T00:00:00.000Z
 ssg:
