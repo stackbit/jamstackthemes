@@ -14,7 +14,7 @@ archetype:
   - Blog
   - Portfolio
 description: This is a full-fledged portfolio website built with Next.js, Tailwind CSS and Netlify Create with Git Content Source.
-featured: true
+featured: false
 netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/auto-annotated-portfolio
 ---
 
