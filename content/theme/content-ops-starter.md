@@ -15,7 +15,7 @@ archetype:
   - Landing Page
 description: Netlify starter that's made for customization with a flexible content model, component library, visual editing and Git Content Source.
 featured: true
-netlify_deploy: https://github.com/netlify-templates/content-ops-starter
+netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/content-ops-starter
 ---
 
 ## Netlify Content Ops Starter 
