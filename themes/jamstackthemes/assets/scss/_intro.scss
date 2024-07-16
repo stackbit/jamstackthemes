@@ -101,13 +101,9 @@
     align-items: flex-start;
     padding: 40px 24px;
     gap: 16px;
-    background: #02001D;
+    background: #000000e6;
     border-radius: 4px;
     margin-bottom: 32px;
-    background-image: url("/images/banner/bg.svg");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
 
     .banner-title-row {
       display: flex;
@@ -116,7 +112,7 @@
       padding: 0px;
       gap: 17px;
       font-size: 32px;
-      font-weight: 400;
+      font-weight: 600;
       color: white;
       line-height: 1;
     }
@@ -124,15 +120,16 @@
     .banner-subtitle-row {
       font-size: 18px;
       color: white;
+      max-width: 70ch;
     }
 
     .banner-primary-button {
       padding: 8px 16px;
-      background: #8efbf7;
+      background: #32e6e2;
       border-style: none;
       border-radius: 3px;
       outline: none;
-      font-weight: 400;
+      font-weight: 600;
       font-size: 16px;
       line-height: 20px;
       color: #014847;
