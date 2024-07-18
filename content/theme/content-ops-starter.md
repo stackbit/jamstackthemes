@@ -14,7 +14,7 @@ archetype:
   - Agency
   - Landing Page
 description: Netlify starter that's made for customization with a flexible content model, component library, visual editing and Git Content Source.
-featured: true
+featured: false
 netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/content-ops-starter
 ---
 
@@ -34,6 +34,6 @@ If you click "Deploy to Netlify" button, it will create a new repo for you that 
 
 Here are a few suggestions on what to do next if you're new to Netlify visual editor:
 
-- Learn [how Netlify visual editor works](https://docs.netlify.com/create/concepts/how-create-works/)
+- Learn [how Netlify visual editor works](https://docs.netlify.com/visual-editor/overview/)
 - Check [Netlify visual editor reference documentation](https://visual-editor-reference.netlify.com/)
 
