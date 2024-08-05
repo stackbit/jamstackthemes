@@ -17,7 +17,7 @@ description: >-
   Ovidius - a single-author blog theme for Astro.js and Tailwind CSS. 
 stale: false
 disabled: false
-featured: false
+featured: true
 netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/JustGoodUI/ovidius-astro-theme
 ---
 
