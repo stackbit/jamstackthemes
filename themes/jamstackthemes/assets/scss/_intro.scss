@@ -94,6 +94,12 @@
     font-weight: 400;
   }
 
+  .compose-banner img {
+    height: auto;
+    margin-bottom: 32px;
+    max-width: 100%;
+  }
+
   .stackbit-banner {
     display: flex;
     flex-direction: column;
@@ -101,7 +107,6 @@
     align-items: flex-start;
     padding: 40px 24px;
     gap: 16px;
-    background: #000000e6;
     border-radius: 4px;
     margin-bottom: 32px;
 
