@@ -24,3 +24,6 @@ A minimal theme for a landing page, featuring a simple structure, smooth scrolli
 Built with [11ty](https://www.11ty.dev/) and [Tailwind CSS](https://tailwindcss.com/).
 
 Made by [CLCK](https://github.com/CLCK0622).
+
+![image](https://github.com/user-attachments/assets/7d3183a2-68dd-48e3-926d-8166a7abfa6b)
+
