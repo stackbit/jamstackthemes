@@ -1,7 +1,7 @@
 ---
 title: "11ty Serene"
-github: https://github.com/username/repo
-demo: https://www.demo.com 
+github: https://github.com/CLCK0622/11ty-Serene
+demo: https://11ty-serene.vercel.app/
 author: CLCK
 date: 2024-08-07
 ssg:
@@ -14,16 +14,13 @@ css:
 archetype:
   - Homepage
   - Portfolio
-description: This is an amazing theme and this is a small description about it!
+description: A minimal theme for a landing page, featuring a simple structure, smooth scrolling, and scroll-revealing effects.
 ---
 
-# A simple starter kit for Astro.js
+# 11ty-theme-Serene
 
-This theme is a lightweight starter kit. It also gives you a well organised starting point to extend it for yourself.
+A minimal theme for a landing page, featuring a simple structure, smooth scrolling, and scroll-revealing effects.
 
-## Features
+Built with [11ty](https://www.11ty.dev/) and [Tailwind CSS](https://tailwindcss.com/).
 
-* Customisable design tokens to make it your own  
-* Customisable global data and navigation  
-* Tags and tag archives  
-* Progressively enhanced, semantic and accessible  
+Made by [CLCK](https://github.com/CLCK0622).
