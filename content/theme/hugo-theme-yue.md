@@ -1,5 +1,5 @@
 ---
-title: "Yue"
+title: Yue
 github: https://github.com/CyrusYip/hugo-theme-yue
 demo: https://yue.cyrusyip.org/
 author: Cyrus Yip
@@ -41,3 +41,4 @@ Yue is a minimal, multilingual and customizable Hugo theme, suitable for bloggin
     - [Microdata](https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata)
     - meta description
 - [Open Graph](https://ogp.me/)
+- And more…
