@@ -14,7 +14,7 @@ archetype:
   - SaaS
   - Business
 description: Netlify Astro and Sanity starter with visual editing.
-featured: true
+featured: false
 netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/astro-sanity-starter
 ---
 
