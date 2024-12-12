@@ -16,6 +16,7 @@ archetype:
 description: >-
   11ty Starter showing how to build a blog with the Eleventy and Tailwind CSS.
 featured: true
+netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/eleventy-blog-starter
 ---
 
 A starter repository showing how to build a blog with the [Eleventy](https://www.11ty.dev/) and [Tailwind CSS](https://tailwindcss.com/). 
