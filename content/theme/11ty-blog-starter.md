@@ -1,7 +1,7 @@
 ---
 title: Eleventy Blog Starter
 github: https://github.com/netlify-templates/eleventy-blog-starter
-demo: https://eleventy-blog-starter-demo.netlify.app/
+demo: https://11ty-blog-starter-demo.netlify.app/
 author: Netlify Templates
 date: 2024-12-11
 ssg:
@@ -20,7 +20,7 @@ featured: true
 
 A starter repository showing how to build a blog with the [Eleventy](https://www.11ty.dev/) and [Tailwind CSS](https://tailwindcss.com/). 
 
-**View demo:** [https://eleventy-blog-starter-demo.netlify.app/](https://eleventy-blog-starter-demo.netlify.app/)
+**View demo:** [https://11ty-blog-starter-demo.netlify.app/](https://11ty-blog-starter-demo.netlify.app/)
 
 ## Deploying to Netlify
 
