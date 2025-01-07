@@ -19,4 +19,4 @@ netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.c
 featured: true
 ---
 
-Nuxt Starter is a minimal template created for quick landing pages, built with Nuxt and Tailwind CSS.
+Nuxt Starter is a minimal template designed for creating quick landing pages, built with Nuxt and Tailwind CSS, and powered by Nuxt Content.
