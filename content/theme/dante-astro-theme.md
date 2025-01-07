@@ -1,5 +1,5 @@
 ---
-title: Dante Portfolio & Blog Site with Astro.js
+title: Dante Portfolio & Blog Site with Astro
 github: https://github.com/JustGoodUI/dante-astro-theme
 demo: https://dante-astro-theme.netlify.app/
 author: justgoodui.com
@@ -18,7 +18,7 @@ description: >-
   Dante - uncluttered minimal blog and portfolio Astro.js + Tailwind CSS theme designed for those who appreciate clarity and minimalism.
 stale: false
 disabled: false
-featured: false
+featured: true
 netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/JustGoodUI/dante-astro-theme
 ---
 
