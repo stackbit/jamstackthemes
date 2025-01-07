@@ -9,7 +9,7 @@ ssg:
 css:
   - Tailwind
 description: The Astro Supabase starter demonstrates how to integrate Supabase into an Astro project deployed on Netlify.
-featured: true
+featured: false
 netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/astro-supabase-starter
 ---
 
