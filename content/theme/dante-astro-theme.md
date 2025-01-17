@@ -18,7 +18,7 @@ description: >-
   Dante - uncluttered minimal blog and portfolio Astro.js + Tailwind CSS theme designed for those who appreciate clarity and minimalism.
 stale: false
 disabled: false
-featured: true
+featured: false
 netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/JustGoodUI/dante-astro-theme
 ---
 

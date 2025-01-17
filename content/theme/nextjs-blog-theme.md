@@ -13,7 +13,7 @@ css:
 archetype:
   - Blog
 description: A customizable Next.js and Tailwind blog starter.
-featured: false
+featured: true
 netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/nextjs-blog-theme
 ---
 
