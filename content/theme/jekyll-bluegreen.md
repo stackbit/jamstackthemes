@@ -1,7 +1,7 @@
 ---
 title: "Blue/Green"
 github: https://github.com/bjkawecki/Jekyll-Theme-Bluegreen
-demo: 
+demo: https://bjkawecki.github.io/jekyll-theme-bluegreen/
 author: Björn Kawecki
 date: 2025-01-03
 ssg:
