@@ -12,6 +12,7 @@ css:
   - Tailwind 
 archetype:
   - Admin
+  - Dashboard
 description: The Remix Supabase starter demonstrates how to integrate Supabase into an Remix project deployed on Netlify.
 featured: true
 netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/remix-admin-template
