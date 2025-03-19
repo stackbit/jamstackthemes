@@ -17,7 +17,4 @@ featured: true
 netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/astro-platform-starter
 ---
 
-
 A modern starter based on Astro.js, Tailwind, daisyUI, and [Netlify Core Primitives](https://docs.netlify.com/core/overview/#develop) (Edge Functions, Image CDN, Blob Store).
-
-
