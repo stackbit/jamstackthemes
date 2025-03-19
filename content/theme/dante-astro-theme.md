@@ -3,7 +3,7 @@ title: Dante Portfolio & Blog Site with Astro
 github: https://github.com/JustGoodUI/dante-astro-theme
 demo: https://dante-astro-theme.netlify.app/
 author: justgoodui.com
-date: 2024-01-12
+date: 2025-01-12
 ssg:
   - Astro
 cms:
