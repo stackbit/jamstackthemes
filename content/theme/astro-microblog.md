@@ -1,7 +1,7 @@
 ---
 title: "Micro Blog"
 github: https://github.com/michael-andreuzza/microblog
-demo: https://microblog-theta.vercel.app/
+demo: https://microblog.lexingtonthemes.com/
 author: Lexington Themes
 date: 2024-01-23
 ssg:
