@@ -1,7 +1,7 @@
 ---
-title: "Quick Store"
-github: https://github.com/michael-andreuzza/quickstore
-demo: https://quickstorre.vercel.app/
+title: "Micro Store"
+github: https://github.com/michael-andreuzza/microstore
+demo: https://microstoretheme.netlify.app/
 author: Lexington Themes
 date: 2023-06-07
 ssg:

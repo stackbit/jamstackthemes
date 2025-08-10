@@ -1,7 +1,7 @@
 ---
-title: "SwissFolio"
+title: "Swiss Folio"
 github: https://github.com/michael-andreuzza/swissfolio
-demo: https://swissfolio.lexingtonthemes.com/
+demo: https://swissfolio.netlify.app
 author: Lexington Themes
 date: 2023-06-07
 ssg:
