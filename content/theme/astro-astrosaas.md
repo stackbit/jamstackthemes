@@ -1,7 +1,7 @@
 ---
 title: "AstroSaas"
 github: https://github.com/michael-andreuzza/astrosaas
-demo: https://astrosaas.lexingtonthemes.com/
+demo: https://astrosaastheme.netlify.app/
 author: Lexington Themes
 date: 2023-06-07
 ssg:

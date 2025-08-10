@@ -1,7 +1,7 @@
 ---
 title: "Micro Blog"
 github: https://github.com/michael-andreuzza/microblog
-demo: https://microblog.lexingtonthemes.com/
+demo: https://microblogg.netlify.app/
 author: Lexington Themes
 date: 2024-01-23
 ssg:

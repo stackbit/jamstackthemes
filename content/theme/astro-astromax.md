@@ -1,7 +1,7 @@
 ---
 title: "Astro Max"
 github: https://github.com/michael-andreuzza/astromax
-demo: https://astromax.lexingtonthemes.com/
+demo: https://astromaxx.netlify.app
 author: Lexington Themes
 date: 2024-01-23
 ssg:
