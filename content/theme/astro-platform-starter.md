@@ -13,7 +13,7 @@ css:
 archetype:
   - Other
 description: Modern starter based on Astro.js, Tailwind, daisyUI, and Netlify Core Primitives.
-featured: true
+featured: false
 netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/astro-platform-starter
 ---
 

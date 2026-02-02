@@ -13,7 +13,7 @@ css:
 archetype:
   - Other
 description: Modern starter based on Next.js 14 (App Router), Tailwind, daisyUI, and Netlify Core Primitives.
-featured: true
+featured: false
 netlify_deploy: https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-platform-starter
 ---
 
