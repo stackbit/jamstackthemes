@@ -1,0 +1,35 @@
+---
+title: "Astroplate"
+github: https://github.com/zeon-studio/astroplate
+demo: https://astroplate.netlify.app/
+author: Zeon Studio
+date: 2025-04-29
+ssg:
+  - Astro
+cms:
+  - No CMS
+css:
+  - Tailwind 
+archetype:
+  - Blog
+  - Portfolio
+  - Business
+description: This is an amazing theme and this is a small description about it!
+---
+Astroplate provides everything you need to jumpstart your Astro project. Get started with Astroplate and save yourself hours of work.
+
+
+## Features
+
+* Multi-Authors
+* Multilingual
+* Similar Posts Suggestion
+* Search Functionality
+* Dark Mode
+* Tags & Categories
+* Netlify setting pre-configured
+* Support contact form
+* Fully responsive
+* Write and update content in Markdown / MDX
+* Disqus Comment
+* Syntax Highlighting
