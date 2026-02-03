@@ -1,0 +1,34 @@
+---
+title: "Folex Lite - Astro Agency Theme"
+github: https://github.com/getastrothemes/folex-lite-astro
+demo: https://getastrothemes.com/demo/folex-lite/
+author: getastrothemes
+date: 2025-07-26
+ssg:
+  - Astro
+cms:
+  - No CMS
+css:
+  - Tailwind
+archetype:
+  - Portfolio
+  - Startup
+  - Agency
+description: Folex Lite Astro is a clean, free starter theme for startups, digital agencies, and personal portfolios — optimized for speed, SEO, and simplicity.
+---
+
+# Folex Lite Astro – Free Astro Theme for Startups & Agencies
+
+Folex Lite Astro is a minimalist, fast, and SEO-friendly starter theme built with Astro 5 and Tailwind CSS. Perfect for startups, digital agencies, and personal projects, it provides a solid foundation to build your site with ease.
+
+## Features
+
+* Clean, minimal design with fast performance
+* SEO-optimized and accessibility-ready
+* Multilingual support (i18n)
+* Customizable design tokens (colors, fonts, spacing)
+* Global content and navigation via Markdown & json
+* Contact form included  
+* Easy deployment to Vercel, Netlify, or Cloudflare Pages  
+* Markdown-powered content system  
+* Commercial & Personal Usage License and open source  
