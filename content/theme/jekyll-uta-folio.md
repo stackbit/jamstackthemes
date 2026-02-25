@@ -1,7 +1,7 @@
 ---
 title: "Jekyll Uta Folio"
 github: https://github.com/IshikawaUta/jekyll-uta-folio
-demo: https://ishikawauta.github.io/jekyll-uta-olio
+demo: https://ishikawauta.github.io/jekyll-uta-folio
 author: IshikawaUta
 date: 2026-02-25
 ssg:
