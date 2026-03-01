@@ -44,7 +44,11 @@ This theme is a lightweight starter kit. It also gives you a well organised star
 * Progressively enhanced, semantic and accessible  
 ```
 
-    
+## forms
+
+
+[add a contact form and publish to github pages]
+](https://fabform.io/a/create-a-static-website-with-contact-form-on-github-pages)
 ## Submission Guidelines
 
 * Any open source themes with a public github repo can be submitted.
