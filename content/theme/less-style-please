@@ -1,0 +1,65 @@
+---
+title: "Less Style, Please!"
+github: https://github.com/feeshy/less-style-please
+demo: https://less-style-please.feeshy.top
+author: feeshy
+date: 2026-06-01
+ssg:
+  - Jekyll
+cms:
+  - No CMS
+css:
+  - Sass
+archetype:
+  - Blog
+  - Documentation
+  - Personal
+description: A minimalist Jekyll theme with an archival hierarchy and nested lists for writers, poets, and thinkers, delivering literature typography with Chinese and Latin webfonts.
+---
+
+A minimalist Jekyll theme built for writers, poets, and thinkers who organize their work through an archival hierarchy and nested lists. It brings paper-like, distraction-free literature typography to the web, offering seamless, out-of-the-box support for optimized Chinese and Latin webfont pairing.
+
+## 🚀 Features
+
+### 1. Information Architecture
+
+* **Manual Outlines**: Declare your core hierarchy in `_data/menu.yml` for absolute control over category ordering.
+* **Intelligent Sorting**: Posts sort dynamically by published and modificated dates; updating an article bumps it to the top.
+* **Dynamic Archives**: Timeline archives aggregate posts published or updated within that specific period, tracing your thought trajectory.
+* **Copyright Metadata**: Global and Front Matter license overrides with multilingual CC auto-localization.
+
+### 2. Typography & Performance
+
+* **Functional Hierarchy**: Maps unique font families to content blocks for clear visual indexing.
+* **Dual-Branch Builds**
+  * **Full**: Sub-sliced Chinese and Latin webfonts for instant multilingual typography.
+  * **Lite**: Latin-only font optimization for a near-zero performance footprint.
+* **Licensing Palette**: Auto‑rendered footer CC license combos with global & Front Matter overrides.
+* **PWA Caching**: Tuned service worker caching for speed and reliable offline reading.
+
+## 💻 Installation
+
+### 1. New Sites
+
+Use the repository as template to create a repo named `username.github.io` for instant deployment, and select your branch in `_config.yml`.
+
+```yaml
+remote_theme: "feeshy/less-style-please@full" # Default, with Chinese webfonts
+# remote_theme: "feeshy/less-style-please@lite" # Latin webfonts only
+```
+
+### 2. Existing Sites
+
+Merge the theme's `_config.yml` and `Gemfile` into your project, inject the plugin/theme tags, and push to deploy.
+
+```yaml
+plugins:
+  - jekyll-remote-theme
+remote_theme: "feeshy/less-style-please@lite" # Or @full
+```
+
+## 📖 Wiki
+
+Detailed documentation and usage instructions can be found on the [wiki](https://github.com/feeshy/less-style-please/wiki)
+
+![](https://raw.githubusercontent.com/wiki/feeshy/less-style-please/example.png)
