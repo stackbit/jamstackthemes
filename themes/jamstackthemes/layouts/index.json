@@ -1,7 +1,0 @@
-[{{ range $index, $theme := (where .Site.RegularPages "Type" "theme") }} {{ $repoName := printf "%s" (substr (replace .Params.github "/" "-") 19 | urlize) }}{{ $repo := index .Site.Data.themes $repoName }}{{ if $index }},{{ end }}
-  {
-    "title": "{{ .Params.title }}",
-    "github": "{{ .Params.github }}",
-    "image": {{ if $repo.images.screenshot }}"{{ $repo.images.screenshot }}"{{ else }}null{{ end }}
-  }{{ end }}
-]
