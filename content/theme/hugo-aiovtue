@@ -1,0 +1,17 @@
+---
+title: "aiovtue"
+github: https://github.com/AIOVTUE/hugo-theme-aiovtue
+demo: https://daily.yybb.us/
+author: AIOVTUE-XUE
+date: 2026-06-25
+ssg:
+  - Hugo
+cms:
+  - No CMS
+css:
+  - Tailwind 
+archetype:
+  - Blog
+description: This is a modern anime-themed personal blog
+---
+The theme provides a complete example site, facilitating your quick modification and launch
