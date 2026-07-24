@@ -1,7 +1,7 @@
 ---
 title: "Revista"
 github: https://github.com/chrisnmorrison/revista-astro-blog-magazine
-demo: https://revista-gatsby-blog-magazine.pages.dev
+demo: https://revista-astro-blog-magazine.pages.dev
 author: Chris Morrison
 date: 2026-01-16
 ssg:
