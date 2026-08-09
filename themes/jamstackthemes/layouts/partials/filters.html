@@ -123,26 +123,35 @@
       {{ partial "toggle-icon.html" . }}
     </div>
 
-    <ul class="filter-list">
-      {{ range .context.Site.Taxonomies.css }}
-        {{ $count := 0 }}
-        {{ if $countAll }}
-          {{ $count = .Count }}
-        {{ else }}
-          {{ range .Pages }}
-            {{ if not .Params.stale }}
-              {{ if not .Params.disabled }}
-                {{ $count = add $count 1 }}
-              {{ end }}
+    {{ $cssTaxonomies := slice }}
+    {{ range .context.Site.Taxonomies.css }}
+      {{ $count := 0 }}
+      {{ if $countAll }}
+        {{ $count = .Count }}
+      {{ else }}
+        {{ range .Pages }}
+          {{ if not .Params.stale }}
+            {{ if not .Params.disabled }}
+              {{ $count = add $count 1 }}
             {{ end }}
           {{ end }}
         {{ end }}
+      {{ end }}
+      {{ $cssTaxonomies = $cssTaxonomies | append (dict "taxonomy" . "count" $count) }}
+    {{ end }}
+    
+    {{ $sortedCssTaxonomies := sort $cssTaxonomies "count" "desc" }}
+    
+    <ul class="filter-list">
+      {{ range $sortedCssTaxonomies }}
+        {{ $taxonomy := .taxonomy }}
+        {{ $count := .count }}
         {{ if ge $count 5 }}
-          <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
-            <img width="18" height="18" class="filter-icon" alt="{{ .Page.Title }}" src="{{ .Page.Params.icon | relURL }}" />
-            <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
-            <span class="filter-name">{{ .Page.Title }}</span>
-            <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ $count }}</span>
+          <li id="filter-{{ $taxonomy.Page.Title | urlize }}" class="filter-item">
+            <img width="18" height="18" class="filter-icon" alt="{{ $taxonomy.Page.Title }}" src="{{ $taxonomy.Page.Params.icon | relURL }}" />
+            <button aria-label="filter-button-{{ $taxonomy.Page.Title | urlize }}" id="filter-button-{{ $taxonomy.Page.Title | urlize }}" class="filter-button" data-toggle=".{{ $taxonomy.Page.Title | urlize }}"></button>
+            <span class="filter-name">{{ $taxonomy.Page.Title }}</span>
+            <span class="filter-count" id="filter-count-{{ $taxonomy.Page.Title | urlize}}">{{ $count }}</span>
           </li>
         {{ end }}
       {{ end }}
@@ -150,25 +159,15 @@
 
     <ul class="filter-list closed">
       {{ partial "toggle-more.html" . }}
-      {{ range .context.Site.Taxonomies.css }}
-        {{ $count := 0 }}
-        {{ if $countAll }}
-          {{ $count = .Count }}
-        {{ else }}
-          {{ range .Pages }}
-            {{ if not .Params.stale }}
-              {{ if not .Params.disabled }}
-                {{ $count = add $count 1 }}
-              {{ end }}
-            {{ end }}
-          {{ end }}
-        {{ end }}
+      {{ range $sortedCssTaxonomies }}
+        {{ $taxonomy := .taxonomy }}
+        {{ $count := .count }}
         {{ if lt $count 5 }}
-          <li id="filter-{{ .Page.Title | urlize }}" class="filter-item">
-            <img width="18" height="18" class="filter-icon" alt="{{ .Page.Title }}" src="{{ .Page.Params.icon | relURL }}" />
-            <button aria-label="filter-button-{{ .Page.Title | urlize }}" id="filter-button-{{ .Page.Title | urlize }}" class="filter-button" data-toggle=".{{ .Page.Title | urlize }}"></button>
-            <span class="filter-name">{{ .Page.Title }}</span>
-            <span class="filter-count" id="filter-count-{{ .Page.Title | urlize}}">{{ $count }}</span>
+          <li id="filter-{{ $taxonomy.Page.Title | urlize }}" class="filter-item">
+            <img width="18" height="18" class="filter-icon" alt="{{ $taxonomy.Page.Title }}" src="{{ $taxonomy.Page.Params.icon | relURL }}" />
+            <button aria-label="filter-button-{{ $taxonomy.Page.Title | urlize }}" id="filter-button-{{ $taxonomy.Page.Title | urlize }}" class="filter-button" data-toggle=".{{ $taxonomy.Page.Title | urlize }}"></button>
+            <span class="filter-name">{{ $taxonomy.Page.Title }}</span>
+            <span class="filter-count" id="filter-count-{{ $taxonomy.Page.Title | urlize}}">{{ $count }}</span>
           </li>
         {{ end }}
       {{ end }}
