@@ -38,10 +38,11 @@ ship with the repo, so a fresh fork has content to render from the first build.
 * Site search that runs entirely in the visitor's browser via Pagefind, with no third-party service and no query leaving the page
 * Syntax-highlighted code blocks with a copy button, highlighted at build time by Shiki
 * Sidenotes that float into the right margin on wide screens and collapse behind their reference number on narrow ones, opening without JavaScript
-* Per-post table of contents, reading time, image lightbox, and cross-page view transitions on cover images
+* Per-post table of contents, reading time, and image lightbox
 * Light and dark colour schemes following the operating system preference
 * Tag landing pages and a glossary indexing every topic with its posts grouped beneath it, plus tag pills on posts and on every listing card
 * Archive grouped by year, paginated home, category and author listings, and landing pages for each
+* Responsive header nav with inline links from `md` up and a hamburger disclosure on mobile
 * Sitemap, robots.txt, RSS feed, Open Graph and Twitter card metadata, and breadcrumb structured data
 * Skip link, a single visible focus indicator across the site, and reduced-motion support
 * Content Security Policy, HSTS, and Permissions-Policy headers set in `next.config.js`
