@@ -41,9 +41,10 @@ ship with the repo, so a fresh fork has content to render from the first build.
 * Per-post table of contents, reading time, and image lightbox
 * Light and dark colour schemes following the operating system preference
 * Tag landing pages and a glossary indexing every topic with its posts grouped beneath it, plus tag pills on posts and on every listing card
-* Archive grouped by year, paginated home, category and author listings, and landing pages for each
+* Archive grouped by year, paginated home, and category and author landing pages carrying a directory index of everything filed under them
 * Responsive header nav with inline links from `md` up and a hamburger disclosure on mobile
 * Sitemap, robots.txt, RSS feed, Open Graph and Twitter card metadata, and breadcrumb structured data
 * Skip link, a single visible focus indicator across the site, and reduced-motion support
 * Content Security Policy, HSTS, and Permissions-Policy headers set in `next.config.js`
+* A hand-written `llms.txt` summarising the site for language models, with every link in it checked on each build
 * TypeScript throughout, with a vitest suite — including automated accessibility checks over the rendered markup — and a full build gating every pull request
