@@ -1,27 +1,27 @@
 ---
 title: Cookie
-github: 'https://github.com/abhinavs/cookie'
-demo: 'https://cookie-demo.netlify.app/'
+github: https://github.com/abhinavs/cookie
+demo: https://cookie-demo.netlify.app/
 author: Abhinav Saxena
 ssg:
   - Jekyll
 cms:
   - No Cms
 archetype:
-  - Ecommerce
   - Business
   - Blog
-  - Multi Purpose
 css:
   - Tailwind
 date: 2021-03-04T00:00:00.000Z
 github_branch: master
-description: Cookie is a fast and one-click deployable landing website that comes with a blog, additional pages and Soopr integration - makes creating and launching websites a cakewalk.
+description: >-
+  Cookie is a Jekyll and Tailwind CSS theme for landing pages, with an
+  integrated blog, additional pages and one-click Netlify deploy.
 stale: false
 ---
 # Cookie - a fast and easy to deploy landing website for your next project.
 
-Cookie is a Jekyll and Tailwind CSS based static website that makes the whole process of creating and launching landing websites extremely easy.
+Cookie is a Jekyll and Tailwind CSS based static website that makes the whole process of creating and launching landing websites extremely easy. Runs on Jekyll 4.4 and Tailwind CSS v4.
 
 ## Features
 * Well-designed landing page
@@ -33,7 +33,7 @@ Cookie is a Jekyll and Tailwind CSS based static website that makes the whole pr
 * SEO optimized (uses [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag))
 * RSS feed (uses [Jekyll Feed](https://github.com/jekyll/jekyll-feed))
 * Easy to deploy, one-click deploy on [Netlify](https://www.netlify.com) possible
-* [Soopr](https://wwww.soopr.co) integrated - easy to customize share & like buttons, URL shortning and website analytics
+* Share & like buttons built in on blog posts and pages, with optional URL shortening and share-image generation
 
 <br />
 <br />
